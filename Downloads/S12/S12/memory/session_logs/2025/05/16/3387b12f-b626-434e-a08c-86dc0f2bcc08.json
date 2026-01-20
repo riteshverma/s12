@@ -1,0 +1,45 @@
+{
+  "session_id": "3387b12f-b626-434e-a08c-86dc0f2bcc08",
+  "original_query": "How much money did Anmol Singh paid to DLF to buy an apartment in Camelias indirectly? Search local storage agian",
+  "globals": {},
+  "memory": [],
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "data": {
+          "index": "ROOT",
+          "description": "initial query",
+          "type": "CODE",
+          "status": "pending",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "Anmol Singh",
+              "DLF",
+              "Camelias",
+              "indirect payment"
+            ],
+            "result_requirement": "Amount paid by Anmol Singh to DLF for apartment in Camelias indirectly",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.95",
+            "reasoning": "Memory contains the answer to the user query regarding the amount paid by Anmol Singh to DLF indirectly for an apartment in 'The Camellias'.",
+            "local_reasoning": "Memory excerpt contains the relevant amount (Rs. 42.94 Crore) and parties involved.",
+            "last_tooluse_summary": "Not applicable",
+            "summarizer_summary": "Funds originating from Gensol Engineering Limited, which included a loan from IREDA, were transferred via Capbridge and Jasminder Kaur to DLF as part of the consideration (Rs. 42.94 Crore) for the purchase of an apartment in 'The Camellias' project.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize the amount Anmol Singh indirectly paid to DLF for the apartment in Camelias, mentioning the amount and the entities involved. Write the summary in user-friendly language."
+          },
+          "from_step": null
+        },
+        "id": "ROOT"
+      }
+    ],
+    "links": []
+  }
+}

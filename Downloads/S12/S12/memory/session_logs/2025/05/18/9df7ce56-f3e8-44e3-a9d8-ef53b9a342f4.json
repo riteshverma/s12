@@ -1,0 +1,217 @@
+{
+  "session_id": "9df7ce56-f3e8-44e3-a9d8-ef53b9a342f4",
+  "original_query": "Query 1: Whats the latest between India and Pakistan?",
+  "globals": {
+    "search_results_0": [
+      "https://indianexpress.com/article/india/operation-sindoor-live-updates-india-pakistan-border-airstrike-bahawalpur-9989832/",
+      "https://news.sky.com/story/india-pakistan-live-dozens-killed-as-india-launches-missile-strikes-on-pakistan-controlled-territory-13363087",
+      "https://zeenews.india.com/india/live-updates/india-pakistan-news-live-updates-operation-sindoor-indo-pak-dgmo-meeting-conference-on-ceasefire-violation-jammu-kashmir-pahalgam-terror-attack-loc-tension-pm-modi-2899811.html",
+      "https://www.dawn.com/live/pakistan-india-tensions",
+      "https://www.financialexpress.com/india-news/india-pakistan-tensions-live-updates-operation-sindoor-latest-news-pahalgam-terror-attack-jammu-and-kashmir-ceasefire-violation-drones-news/3840871/"
+    ],
+    "article_summaries": [
+      [
+        {
+          "type": "text",
+          "text": "US President Trump announced on Truth Social that India and Pakistan agreed to a full and immediate ceasefire after US-mediated talks. Foreign Secretary Misri stated Pakistan's actions were provocative, while Col. Qureshi reported Pakistan targeted military bases (including an attempted attack on a Punjab air base) and medical facilities in Srinagar, Avantipura, and Udhampur, and moved troops to border areas. Pakistan Air Force raided Srinagar, prompting Indian retaliation. India intercepted multiple drone attacks in border districts. Explosions were heard in Srinagar, Samba, Jammu city, Baramulla, Pathankot, Ferozepur, and Barmer. Air raid sirens sounded in Chandigarh.",
+          "annotations": null
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "text": "India and Pakistan's ceasefire appears to hold after accusations of violations. Donald Trump praised both countries' leaders, offering to help resolve the Kashmir issue, sparking reactions. Pakistan reiterated Kashmiri self-determination rights. An Indian MP urged educating Trump on Kashmir's history, clarifying it began in 1947. Pope Leo XIV mentioned the ceasefire and appealed for peace.",
+          "annotations": null
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "text": "Pakistan launched a drone attack in Samba, triggering sirens in Amritsar. Operation Sindoor by India eliminated over 100 terrorists, including Yusuf Azhar, Abdul Malik Rauf, and Mudasir Ahmed, destroying nine terror camps in Pakistan. Lt. Gen. Ghai, Vice Admiral Pramod, and Air Marshal Bharti announced Operation Sindoor, highlighting India's counter-terror strategy, air defense maturity, and tri-service coordination without escalating to full-scale war.",
+          "annotations": null
+        }
+      ]
+    ]
+  },
+  "memory": [
+    {
+      "original_query": "Query 1: Whats the latest between India and Pakistan?",
+      "result_requirement": "Final summary",
+      "summarizer_summary": "Recent developments between India and Pakistan include a US-mediated ceasefire announcement by President Trump, followed by accusations of ceasefire violations. Pakistan allegedly targeted military bases and medical facilities, leading to retaliatory actions and intercepted drone attacks. India launched Operation Sindoor, eliminating over 100 terrorists and destroying terror camps. The ceasefire's stability is debated, with Trump offering to help resolve the Kashmir issue, sparking varied reactions.",
+      "confidence": 0.95,
+      "original_goal_achieved": true,
+      "route": "summarize"
+    }
+  ],
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "data": {
+          "index": "ROOT",
+          "description": "initial query",
+          "type": "ROOT",
+          "status": "completed",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "India",
+              "Pakistan",
+              "latest news"
+            ],
+            "result_requirement": "Concise overview of the latest developments between India and Pakistan.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.6",
+            "reasoning": "The query asks for the latest news between India and Pakistan.  The memory excerpt shows similar queries, suggesting this is a recurring request. Since I have no current information, I need to route to decision to find the latest information. I cannot summarize now because I do not have the current latest news.",
+            "local_reasoning": "Need to retrieve current information to answer the query.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "from_step": null
+        },
+        "id": "ROOT"
+      },
+      {
+        "data": {
+          "index": "0",
+          "description": "Search for recent news articles about India and Pakistan.",
+          "type": "CODE",
+          "status": "completed",
+          "result": {
+            "search_results_0": [
+              "https://indianexpress.com/article/india/operation-sindoor-live-updates-india-pakistan-border-airstrike-bahawalpur-9989832/",
+              "https://news.sky.com/story/india-pakistan-live-dozens-killed-as-india-launches-missile-strikes-on-pakistan-controlled-territory-13363087",
+              "https://zeenews.india.com/india/live-updates/india-pakistan-news-live-updates-operation-sindoor-indo-pak-dgmo-meeting-conference-on-ceasefire-violation-jammu-kashmir-pahalgam-terror-attack-loc-tension-pm-modi-2899811.html",
+              "https://www.dawn.com/live/pakistan-india-tensions",
+              "https://www.financialexpress.com/india-news/india-pakistan-tensions-live-updates-operation-sindoor-latest-news-pahalgam-terror-attack-jammu-and-kashmir-ceasefire-violation-drones-news/3840871/"
+            ]
+          },
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "India",
+              "Pakistan",
+              "latest news"
+            ],
+            "result_requirement": "Concise overview of the latest developments between India and Pakistan.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": true,
+            "confidence": "0.7",
+            "reasoning": "Search results are available. The next step is to summarize the content of these articles to provide the user with the latest news between India and Pakistan.",
+            "local_reasoning": "Retrieved URLs with potential information on the topic.",
+            "last_tooluse_summary": "search completed successfully and returned URLs.",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "from_step": "ROOT"
+        },
+        "id": "0"
+      },
+      {
+        "data": {
+          "index": "1",
+          "description": "Summarize the top 3 news articles about India and Pakistan.",
+          "type": "CODE",
+          "status": "completed",
+          "result": {
+            "article_summaries": [
+              [
+                {
+                  "type": "text",
+                  "text": "US President Trump announced on Truth Social that India and Pakistan agreed to a full and immediate ceasefire after US-mediated talks. Foreign Secretary Misri stated Pakistan's actions were provocative, while Col. Qureshi reported Pakistan targeted military bases (including an attempted attack on a Punjab air base) and medical facilities in Srinagar, Avantipura, and Udhampur, and moved troops to border areas. Pakistan Air Force raided Srinagar, prompting Indian retaliation. India intercepted multiple drone attacks in border districts. Explosions were heard in Srinagar, Samba, Jammu city, Baramulla, Pathankot, Ferozepur, and Barmer. Air raid sirens sounded in Chandigarh.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "India and Pakistan's ceasefire appears to hold after accusations of violations. Donald Trump praised both countries' leaders, offering to help resolve the Kashmir issue, sparking reactions. Pakistan reiterated Kashmiri self-determination rights. An Indian MP urged educating Trump on Kashmir's history, clarifying it began in 1947. Pope Leo XIV mentioned the ceasefire and appealed for peace.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Pakistan launched a drone attack in Samba, triggering sirens in Amritsar. Operation Sindoor by India eliminated over 100 terrorists, including Yusuf Azhar, Abdul Malik Rauf, and Mudasir Ahmed, destroying nine terror camps in Pakistan. Lt. Gen. Ghai, Vice Admiral Pramod, and Air Marshal Bharti announced Operation Sindoor, highlighting India's counter-terror strategy, air defense maturity, and tri-service coordination without escalating to full-scale war.",
+                  "annotations": null
+                }
+              ]
+            ]
+          },
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "India",
+              "Pakistan",
+              "ceasefire",
+              "Operation Sindoor",
+              "Trump",
+              "Kashmir"
+            ],
+            "result_requirement": "Concise overview of the latest developments between India and Pakistan.",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.9",
+            "reasoning": "The tool successfully fetched and summarized recent news articles. The summaries provide information regarding a ceasefire, accusations of violations, Trump's involvement, and Operation Sindoor. This fulfills the request for the latest news.",
+            "local_reasoning": "Successfully retrieved and summarized the top 3 articles.",
+            "last_tooluse_summary": "article summaries generated from webpage content",
+            "solution_summary": "Ceasefire, Trump involvement, Kashmir issue",
+            "route": "summarize",
+            "instruction_to_summarize": "Provide a concise summary of the latest developments between India and Pakistan based on the article summaries provided. Include information about the ceasefire, any accusations of violations, Donald Trump's involvement, and Operation Sindoor. Format in markdown."
+          },
+          "from_step": "1"
+        },
+        "id": "1"
+      },
+      {
+        "data": {
+          "index": "2",
+          "description": "Consolidate summaries and provide a concise overview of the latest developments.",
+          "type": "CODE",
+          "status": "Skipped",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "1"
+        },
+        "id": "2"
+      }
+    ],
+    "links": [
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "0"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "1"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "2"
+      },
+      {
+        "type": "normal",
+        "source": "1",
+        "target": "1"
+      },
+      {
+        "type": "normal",
+        "source": "1",
+        "target": "2"
+      }
+    ]
+  }
+}

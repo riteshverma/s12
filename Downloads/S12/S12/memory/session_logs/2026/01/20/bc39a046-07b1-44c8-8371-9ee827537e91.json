@@ -1,0 +1,197 @@
+{
+  "context": {
+    "session_id": "bc39a046-07b1-44c8-8371-9ee827537e91",
+    "original_query": "Query 1: ",
+    "globals": {
+      "memory": [
+        {
+          "score": 0.0,
+          "session_id": "82761584-f02e-4ea2-bcf7-8581cc48b60e",
+          "original_query": "Query 1: EAG - V2 (AI Agents)",
+          "summary_output": "The Google Form at [https://forms.gle/6Nc6QaaJyDvePxLv7](https://forms.gle/6Nc6QaaJyDvePxLv7) has been previously filled out and submitted with the following details for the course **EAG - V2 (AI Agents)**:\n\n*   **Course:** EAG - V2 (AI Agents)\n*   **Email ID:** riteshv2@gmail.com\n*   **Master's name:** Rohan Shravan\n*   **Which course is he/she taking?:** EAG\n*   **Date of birth:** 04/09/1987\n*   **Marital status:** Yes\n\nThe form was submitted successfully!",
+          "timestamp": "2026-01-20T12:20:17Z"
+        },
+        {
+          "score": 0.0,
+          "session_id": "55bed28c-70ab-456c-940d-3091c4d72d1c",
+          "original_query": "Query 1: ",
+          "summary_output": "The task of opening [https://www.inkers.ai](https://www.inkers.ai) and clicking the 'Demo' button was successfully completed in a previous session. The browser state, including element IDs for interactive elements, was also successfully retrieved.",
+          "timestamp": "2026-01-20T12:11:48Z"
+        },
+        {
+          "score": 0.0,
+          "session_id": "127e508e-2a9b-4ecd-8143-d1e6fd51aa14",
+          "original_query": "Query 1: ",
+          "summary_output": "The task of opening [https://www.inkers.ai](https://www.inkers.ai) and clicking the 'Demo' button was successfully completed in a previous session. The browser state, including element IDs for interactive elements, was also successfully retrieved. This information can be used for further automated interactions with the website.",
+          "timestamp": "2026-01-20T11:58:59Z"
+        }
+      ]
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: ",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "The user provided an empty query. Please ask the user to provide a valid query.",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [],
+              "result_requirement": "Unknown",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.5",
+              "reasoning": "The query is empty. Need clarification from the user.",
+              "local_reasoning": "The raw input is 'Query 1: ' which is not a valid query.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not applicable",
+              "route": "summarize",
+              "instruction_to_summarize": "The user provided an empty query. Please ask the user to provide a valid query.",
+              "instruction_to_browser": "Not applicable"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        }
+      ],
+      "links": []
+    }
+  },
+  "session": {
+    "session_id": "bc39a046-07b1-44c8-8371-9ee827537e91",
+    "original_query": "Query 1: ",
+    "perception_snapshots": [
+      {
+        "run_id": "bc39a046-07b1-44c8-8371-9ee827537e91-P",
+        "snapshot_type": "user_query",
+        "entities": [],
+        "result_requirement": "Unknown",
+        "original_goal_achieved": false,
+        "reasoning": "The query is empty. Need clarification from the user.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The raw input is 'Query 1: ' which is not a valid query.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not applicable",
+        "confidence": "0.5",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [],
+    "execution_snapshots": [],
+    "summarizer_snapshots": [
+      {
+        "run_id": "09ff37ab-a7aa-46a4-8bae-4417bbb9a902",
+        "input": {
+          "original_query": "Query 1: ",
+          "globals_schema": {
+            "memory": [
+              {
+                "score": 0.0,
+                "session_id": "82761584-f02e-4ea2-bcf7-8581cc48b60e",
+                "original_query": "Query 1: EAG - V2 (AI Agents)",
+                "summary_output": "The Google Form at [https://forms.gle/6Nc6QaaJyDvePxLv7](https://forms.gle/6Nc6QaaJyDvePxLv7) has been previously filled out and submitted with the following details for the course **EAG - V2 (AI Agents)**:\n\n*   **Course:** EAG - V2 (AI Agents)\n*   **Email ID:** riteshv2@gmail.com\n*   **Master's name:** Rohan Shravan\n*   **Which course is he/she taking?:** EAG\n*   **Date of birth:** 04/09/1987\n*   **Marital status:** Yes\n\nThe form was submitted successfully!",
+                "timestamp": "2026-01-20T12:20:17Z"
+              },
+              {
+                "score": 0.0,
+                "session_id": "55bed28c-70ab-456c-940d-3091c4d72d1c",
+                "original_query": "Query 1: ",
+                "summary_output": "The task of opening [https://www.inkers.ai](https://www.inkers.ai) and clicking the 'Demo' button was successfully completed in a previous session. The browser state, including element IDs for interactive elements, was also successfully retrieved.",
+                "timestamp": "2026-01-20T12:11:48Z"
+              },
+              {
+                "score": 0.0,
+                "session_id": "127e508e-2a9b-4ecd-8143-d1e6fd51aa14",
+                "original_query": "Query 1: ",
+                "summary_output": "The task of opening [https://www.inkers.ai](https://www.inkers.ai) and clicking the 'Demo' button was successfully completed in a previous session. The browser state, including element IDs for interactive elements, was also successfully retrieved. This information can be used for further automated interactions with the website.",
+                "timestamp": "2026-01-20T11:58:59Z"
+              }
+            ]
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [],
+                    "result_requirement": "Unknown",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.5",
+                    "reasoning": "The query is empty. Need clarification from the user.",
+                    "local_reasoning": "The raw input is 'Query 1: ' which is not a valid query.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not applicable",
+                    "route": "summarize",
+                    "instruction_to_summarize": "The user provided an empty query. Please ask the user to provide a valid query.",
+                    "instruction_to_browser": "Not applicable"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              }
+            ],
+            "links": []
+          },
+          "perception": {
+            "entities": [],
+            "result_requirement": "Unknown",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.5",
+            "reasoning": "The query is empty. Need clarification from the user.",
+            "local_reasoning": "The raw input is 'Query 1: ' which is not a valid query.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not applicable",
+            "route": "summarize",
+            "instruction_to_summarize": "The user provided an empty query. Please ask the user to provide a valid query.",
+            "instruction_to_browser": "Not applicable"
+          }
+        },
+        "summary_output": "The user provided an empty query. Please ask the user to provide a valid query.",
+        "success": true,
+        "error": null,
+        "timestamp": "2026-01-20T12:40:41Z",
+        "return_to": ""
+      }
+    ],
+    "browser_snapshots": [],
+    "final_summary": "The user provided an empty query. Please ask the user to provide a valid query.",
+    "status": "success",
+    "completed_at": "2026-01-20T12:43:52.867040"
+  },
+  "status": "success",
+  "final_step_id": "ROOT",
+  "reason": "Summarized successfully",
+  "timestamp": "2026-01-20T12:43:52.867040",
+  "original_query": "Query 1: ",
+  "final_summary": "The user provided an empty query. Please ask the user to provide a valid query."
+}

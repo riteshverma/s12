@@ -1,0 +1,161 @@
+{
+  "context": {
+    "session_id": "8599aca6-3837-49bd-be79-d22be4f51bbd",
+    "original_query": "Query 1: what is 47/56.6 + 29*cos(0.45)",
+    "globals": {
+      "memory": []
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: what is 47/56.6 + 29*cos(0.45)",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "47/56.6 + 29*cos(0.45) = 23.41",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "47/56.6",
+                "29*cos(0.45)"
+              ],
+              "result_requirement": "Numerical result of the calculation 47/56.6 + 29*cos(0.45)",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "0.99",
+              "reasoning": "The query is a direct mathematical calculation that can be computed directly.",
+              "local_reasoning": "The expression can be evaluated to a numerical result.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "The query can be solved by a calculator",
+              "route": "summarize",
+              "instruction_to_summarize": "Calculate the value of 47/56.6 + 29*cos(0.45) and present the final numerical result in markdown format."
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        }
+      ],
+      "links": []
+    }
+  },
+  "session": {
+    "session_id": "8599aca6-3837-49bd-be79-d22be4f51bbd",
+    "original_query": "Query 1: what is 47/56.6 + 29*cos(0.45)",
+    "perception_snapshots": [
+      {
+        "run_id": "8599aca6-3837-49bd-be79-d22be4f51bbd-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "47/56.6",
+          "29*cos(0.45)"
+        ],
+        "result_requirement": "Numerical result of the calculation 47/56.6 + 29*cos(0.45)",
+        "original_goal_achieved": true,
+        "reasoning": "The query is a direct mathematical calculation that can be computed directly.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The expression can be evaluated to a numerical result.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "The query can be solved by a calculator",
+        "confidence": "0.99",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [],
+    "execution_snapshots": [],
+    "summarizer_snapshots": [
+      {
+        "run_id": "4bb164b8-65aa-4d02-ad98-d4fd8e502c90",
+        "input": {
+          "original_query": "Query 1: what is 47/56.6 + 29*cos(0.45)",
+          "globals_schema": {
+            "memory": []
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "47/56.6",
+                      "29*cos(0.45)"
+                    ],
+                    "result_requirement": "Numerical result of the calculation 47/56.6 + 29*cos(0.45)",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "0.99",
+                    "reasoning": "The query is a direct mathematical calculation that can be computed directly.",
+                    "local_reasoning": "The expression can be evaluated to a numerical result.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "The query can be solved by a calculator",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Calculate the value of 47/56.6 + 29*cos(0.45) and present the final numerical result in markdown format."
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              }
+            ],
+            "links": []
+          },
+          "perception": {
+            "entities": [
+              "47/56.6",
+              "29*cos(0.45)"
+            ],
+            "result_requirement": "Numerical result of the calculation 47/56.6 + 29*cos(0.45)",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.99",
+            "reasoning": "The query is a direct mathematical calculation that can be computed directly.",
+            "local_reasoning": "The expression can be evaluated to a numerical result.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "The query can be solved by a calculator",
+            "route": "summarize",
+            "instruction_to_summarize": "Calculate the value of 47/56.6 + 29*cos(0.45) and present the final numerical result in markdown format."
+          }
+        },
+        "summary_output": "47/56.6 + 29*cos(0.45) = 23.41",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-23T01:04:23Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "47/56.6 + 29*cos(0.45) = 23.41",
+    "status": "success",
+    "completed_at": "2025-05-23T01:04:59.160864"
+  },
+  "status": "success",
+  "final_step_id": "ROOT",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-23T01:04:59.161818",
+  "original_query": "Query 1: what is 47/56.6 + 29*cos(0.45)",
+  "final_summary": "47/56.6 + 29*cos(0.45) = 23.41"
+}

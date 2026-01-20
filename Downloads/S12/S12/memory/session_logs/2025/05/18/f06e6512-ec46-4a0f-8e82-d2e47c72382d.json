@@ -1,0 +1,215 @@
+{
+  "session_id": "f06e6512-ec46-4a0f-8e82-d2e47c72382d",
+  "original_query": "Query 1: Whats the latest between India and Pakistan?",
+  "globals": {
+    "search_results_0A": [
+      "https://indianexpress.com/article/india/operation-sindoor-live-updates-india-pakistan-border-airstrike-bahawalpur-9989832/",
+      "https://www.dawn.com/latest-news",
+      "https://zeenews.india.com/india/live-updates/india-pakistan-news-live-updates-operation-sindoor-indo-pak-dgmo-meeting-conference-on-ceasefire-violation-jammu-kashmir-pahalgam-terror-attack-loc-tension-pm-modi-2899811.html",
+      "https://news.sky.com/story/india-pakistan-live-dozens-killed-as-india-launches-missile-strikes-on-pakistan-controlled-territory-13363087",
+      "https://www.aljazeera.com/tag/india-pakistan-tensions/"
+    ],
+    "article_summaries": [
+      [
+        {
+          "type": "text",
+          "text": "US President Donald Trump announced on Truth Social that India and Pakistan agreed to a full and immediate ceasefire after US-mediated talks. India reported Pakistan's \"provocative\" actions, including troop movements to the border, attacks on military bases and medical facilities in Srinagar, Avantipura, and Udhampur, and air raids in Srinagar. India retaliated against Pakistan's air raid. Air raid warning sirens sounded in Chandigarh due to possible drone attacks.",
+          "annotations": null
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "text": "Bilawal to lead delegation; India sending seven all-party delegations. Company challenges \"national security\" rhetoric lacking specific threat details in court. FO requests partners ensure India honours commitments; FM Dar thanks UK for de-escalation role. Woman publicly denounced an ACID Cannes film section executive during sexual assault discussion.",
+          "annotations": null
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "text": "Pakistan launched a drone attack in Samba, sirens in Amritsar. Operation Sindoor, Indias counter-terror strategy, eliminated over 100 terrorists including Yusuf Azhar, Abdul Malik Rauf, and Mudasir Ahmed, destroying nine terror camps in Pakistan. Lieutenant General Rajeev Ghai, Vice Admiral A.N. Pramod, and Air Marshal A.K. Bharti announced the operation, showcasing Indias precision and tri-service coordination. Recent night was peaceful in Jammu and Kashmir.",
+          "annotations": null
+        }
+      ]
+    ]
+  },
+  "memory": [
+    {
+      "original_query": "Query 1: Whats the latest between India and Pakistan?",
+      "result_requirement": "Final summary",
+      "summarizer_summary": "Summary generation failed due to internal error.",
+      "confidence": 0.95,
+      "original_goal_achieved": true,
+      "route": "summarize"
+    }
+  ],
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "data": {
+          "index": "ROOT",
+          "description": "initial query",
+          "type": "ROOT",
+          "status": "completed",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "India",
+              "Pakistan",
+              "latest news"
+            ],
+            "result_requirement": "Concise overview of the latest developments between India and Pakistan",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.6",
+            "reasoning": "The query requires fetching and summarizing the latest news between India and Pakistan. This requires planning and tool execution.",
+            "local_reasoning": "The user query is not solvable with existing memory or globals. Needs to fetch data.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not available",
+            "route": "decision",
+            "instruction_to_summarize": "Not applicable"
+          },
+          "from_step": null
+        },
+        "id": "ROOT"
+      },
+      {
+        "data": {
+          "index": "0",
+          "description": "Search for recent news articles about India and Pakistan.",
+          "type": "CODE",
+          "status": "completed",
+          "result": {
+            "search_results_0A": [
+              "https://indianexpress.com/article/india/operation-sindoor-live-updates-india-pakistan-border-airstrike-bahawalpur-9989832/",
+              "https://www.dawn.com/latest-news",
+              "https://zeenews.india.com/india/live-updates/india-pakistan-news-live-updates-operation-sindoor-indo-pak-dgmo-meeting-conference-on-ceasefire-violation-jammu-kashmir-pahalgam-terror-attack-loc-tension-pm-modi-2899811.html",
+              "https://news.sky.com/story/india-pakistan-live-dozens-killed-as-india-launches-missile-strikes-on-pakistan-controlled-territory-13363087",
+              "https://www.aljazeera.com/tag/india-pakistan-tensions/"
+            ]
+          },
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "India",
+              "Pakistan",
+              "latest news"
+            ],
+            "result_requirement": "Concise overview of the latest developments between India and Pakistan",
+            "original_goal_achieved": false,
+            "local_goal_achieved": true,
+            "confidence": "0.7",
+            "reasoning": "Search results were successfully retrieved. Now needs to read content from the pages and summarize.",
+            "local_reasoning": "Tool ran successfully, providing relevant URLs. Needs to be further processed to get text.",
+            "last_tooluse_summary": "Search tool succeeded and returned 5 URLs.",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "from_step": "ROOT"
+        },
+        "id": "0"
+      },
+      {
+        "data": {
+          "index": "1",
+          "description": "Extract and summarize the content of the first 3 articles.",
+          "type": "CODE",
+          "status": "completed",
+          "result": {
+            "article_summaries": [
+              [
+                {
+                  "type": "text",
+                  "text": "US President Donald Trump announced on Truth Social that India and Pakistan agreed to a full and immediate ceasefire after US-mediated talks. India reported Pakistan's \"provocative\" actions, including troop movements to the border, attacks on military bases and medical facilities in Srinagar, Avantipura, and Udhampur, and air raids in Srinagar. India retaliated against Pakistan's air raid. Air raid warning sirens sounded in Chandigarh due to possible drone attacks.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Bilawal to lead delegation; India sending seven all-party delegations. Company challenges \"national security\" rhetoric lacking specific threat details in court. FO requests partners ensure India honours commitments; FM Dar thanks UK for de-escalation role. Woman publicly denounced an ACID Cannes film section executive during sexual assault discussion.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Pakistan launched a drone attack in Samba, sirens in Amritsar. Operation Sindoor, Indias counter-terror strategy, eliminated over 100 terrorists including Yusuf Azhar, Abdul Malik Rauf, and Mudasir Ahmed, destroying nine terror camps in Pakistan. Lieutenant General Rajeev Ghai, Vice Admiral A.N. Pramod, and Air Marshal A.K. Bharti announced the operation, showcasing Indias precision and tri-service coordination. Recent night was peaceful in Jammu and Kashmir.",
+                  "annotations": null
+                }
+              ]
+            ]
+          },
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "India",
+              "Pakistan",
+              "latest news"
+            ],
+            "result_requirement": "Concise overview of the latest developments between India and Pakistan",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.9",
+            "reasoning": "The search and summarization steps have been completed. The summaries provide enough information to address the user's query about the latest news between India and Pakistan.",
+            "local_reasoning": "The tool output provides summaries of recent articles about India and Pakistan.",
+            "last_tooluse_summary": "Article summarization tool succeeded, providing summaries of three articles.",
+            "solution_summary": "Ready to summarize the news articles.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize the key developments between India and Pakistan based on the provided article summaries. Focus on recent events and agreements, including the reported ceasefire, any ongoing tensions, and significant operations or discussions. Return the summary in markdown format."
+          },
+          "from_step": "1"
+        },
+        "id": "1"
+      },
+      {
+        "data": {
+          "index": "2",
+          "description": "Consolidate summaries and extract key developments between India and Pakistan.",
+          "type": "CODE",
+          "status": "Skipped",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "1"
+        },
+        "id": "2"
+      }
+    ],
+    "links": [
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "0"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "1"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "2"
+      },
+      {
+        "type": "normal",
+        "source": "1",
+        "target": "1"
+      },
+      {
+        "type": "normal",
+        "source": "1",
+        "target": "2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "session_id": "1fb59a5a-c3aa-4d7e-b23f-8d33c05cb9dc",
+  "original_query": "Query 1: Did Azerbaijan supported India or Pakistan in recent war?",
+  "globals": {
+    "search_results": "Found 5 search results:\n\n1. Here's why Azerbaijan was cheering for Pakistan during clashes with India\n   URL: https://thecurrent.pk/heres-why-azerbaijan-was-cheering-for-pakistan-during-clashes-with-india\n   Summary: Pakistancontinued tosupportAzerbaijan'sterritorial integrity after the 2020 war, including the 2023 military operation to gain full control over Nagorno-Karabakh. ... The threat of war intensified, and on May 7 and 8,Indialaunched airstrikes in various parts ofPakistan. At least three civilians were martyred, and 12 others injured in ...\n\n2. Azerbaijan backs Pakistan amid tensions with India - The Express Tribune\n   URL: https://tribune.com.pk/story/2544718/azerbaijan-expresses-full-support-for-pakistan\n   Summary: Amid escalating tensions betweenPakistanandIndia,Azerbaijanhas announced fullsupportforPakistanand expressed strong solidarity with its government and people. In a formal letter addressed ...\n\n3. Explained: India's Trade Ties With Turkey And Azerbaijan Amid Pak Conflict\n   URL: https://www.ndtv.com/world-news/india-pakistan-tensions-explained-indias-trade-ties-with-turkey-and-azerbaijan-amid-pakistan-conflict-8410441\n   Summary: Explained:India'sTrade Ties With Turkey AndAzerbaijanAmid PakConflictFollowing theirsupporttoPakistan, calls for boycotting Turkish goods and tourism have surfaced across the country ...\n\n4. India-Pakistan war: There are over 50 Muslim countries, but only Turkey ...\n   URL: https://www.india.com/news/world/india-pakistan-war-there-are-over-50-muslim-countries-but-only-turkey-and-azerbaijan-support-pakistan-heres-why-7810188/\n   Summary: India-Pakistanwar: There are over 50 Muslim countries, but only Turkey andAzerbaijansupportPakistan; here's why Following Operation Sindoor,Pakistanhas accusedIndiaof violating Article ...\n\n5. Backlash over support to Pakistan: Turkey and Azerbaijan start losing ...\n   URL: https://indianexpress.com/article/india/backlash-over-support-to-pakistan-turkey-and-azerbaijan-start-losing-indian-footfall-10007160/\n   Summary: Data from the Directorate General of Civil Aviation shows 5.05 lakh passengers flew on direct flights fromIndiato Turkey in 2024, up almost 15 per cent over 2023. The number of passengers who flew direct fromIndiatoAzerbaijanshot up to 80,567 in 2024 from 28,899 in 2023 as additional flights began operations.\n"
+  },
+  "memory": [],
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "data": {
+          "index": "ROOT",
+          "description": "initial query",
+          "type": "ROOT",
+          "status": "completed",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "Azerbaijan",
+              "India",
+              "Pakistan",
+              "recent war"
+            ],
+            "result_requirement": "Determine if Azerbaijan supported India or Pakistan in a recent war.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.6",
+            "reasoning": "The query requires information about Azerbaijan's support in a recent war between India and Pakistan. This information is not available in the memory excerpt. Need to search for this information.",
+            "local_reasoning": "The memory excerpt provides context on the India-Pakistan relationship, but does not address Azerbaijan's involvement or support in any conflict involving the two countries. Therefore, external research is needed.",
+            "last_tooluse_summary": "Not applicable",
+            "summarizer_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "from_step": null
+        },
+        "id": "ROOT"
+      },
+      {
+        "data": {
+          "index": "0",
+          "description": "Search for information on Azerbaijan's support for India or Pakistan in a recent conflict.",
+          "type": "CODE",
+          "status": "completed",
+          "result": {
+            "search_results": "Found 5 search results:\n\n1. Here's why Azerbaijan was cheering for Pakistan during clashes with India\n   URL: https://thecurrent.pk/heres-why-azerbaijan-was-cheering-for-pakistan-during-clashes-with-india\n   Summary: Pakistancontinued tosupportAzerbaijan'sterritorial integrity after the 2020 war, including the 2023 military operation to gain full control over Nagorno-Karabakh. ... The threat of war intensified, and on May 7 and 8,Indialaunched airstrikes in various parts ofPakistan. At least three civilians were martyred, and 12 others injured in ...\n\n2. Azerbaijan backs Pakistan amid tensions with India - The Express Tribune\n   URL: https://tribune.com.pk/story/2544718/azerbaijan-expresses-full-support-for-pakistan\n   Summary: Amid escalating tensions betweenPakistanandIndia,Azerbaijanhas announced fullsupportforPakistanand expressed strong solidarity with its government and people. In a formal letter addressed ...\n\n3. Explained: India's Trade Ties With Turkey And Azerbaijan Amid Pak Conflict\n   URL: https://www.ndtv.com/world-news/india-pakistan-tensions-explained-indias-trade-ties-with-turkey-and-azerbaijan-amid-pakistan-conflict-8410441\n   Summary: Explained:India'sTrade Ties With Turkey AndAzerbaijanAmid PakConflictFollowing theirsupporttoPakistan, calls for boycotting Turkish goods and tourism have surfaced across the country ...\n\n4. India-Pakistan war: There are over 50 Muslim countries, but only Turkey ...\n   URL: https://www.india.com/news/world/india-pakistan-war-there-are-over-50-muslim-countries-but-only-turkey-and-azerbaijan-support-pakistan-heres-why-7810188/\n   Summary: India-Pakistanwar: There are over 50 Muslim countries, but only Turkey andAzerbaijansupportPakistan; here's why Following Operation Sindoor,Pakistanhas accusedIndiaof violating Article ...\n\n5. Backlash over support to Pakistan: Turkey and Azerbaijan start losing ...\n   URL: https://indianexpress.com/article/india/backlash-over-support-to-pakistan-turkey-and-azerbaijan-start-losing-indian-footfall-10007160/\n   Summary: Data from the Directorate General of Civil Aviation shows 5.05 lakh passengers flew on direct flights fromIndiato Turkey in 2024, up almost 15 per cent over 2023. The number of passengers who flew direct fromIndiatoAzerbaijanshot up to 80,567 in 2024 from 28,899 in 2023 as additional flights began operations.\n"
+          },
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "Azerbaijan",
+              "India",
+              "Pakistan",
+              "recent war"
+            ],
+            "result_requirement": "Determine if Azerbaijan supported India or Pakistan in a recent war.",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.95",
+            "reasoning": "Search results indicate that Azerbaijan has supported Pakistan in recent tensions and conflicts with India.",
+            "local_reasoning": "The search results explicitly state Azerbaijan's support for Pakistan during clashes with India.",
+            "last_tooluse_summary": "search succeeded and provided relevant results.",
+            "summarizer_summary": "Azerbaijan has supported Pakistan in recent conflicts with India.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize Azerbaijan's support for Pakistan in recent conflicts with India based on the search results. Provide a brief and clear answer to the original query. Use markdown formatting."
+          },
+          "from_step": "ROOT"
+        },
+        "id": "0"
+      },
+      {
+        "data": {
+          "index": "1",
+          "description": "Analyze search results for relevant information regarding Azerbaijan's support.",
+          "type": "CODE",
+          "status": "Skipped",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "ROOT"
+        },
+        "id": "1"
+      },
+      {
+        "data": {
+          "index": "2",
+          "description": "Summarize findings on Azerbaijan's support for either India or Pakistan.",
+          "type": "CODE",
+          "status": "Skipped",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "ROOT"
+        },
+        "id": "2"
+      }
+    ],
+    "links": [
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "0"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "1"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "2"
+      }
+    ]
+  }
+}

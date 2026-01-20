@@ -1,0 +1,43 @@
+{
+  "session_id": "9829988a-bf05-49d8-8d16-1d063a331357",
+  "original_query": "What's happening between India and Turkey?",
+  "globals": {},
+  "memory": [],
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "data": {
+          "index": "ROOT",
+          "description": "initial query",
+          "type": "ROOT",
+          "status": "completed",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "India",
+              "Turkey"
+            ],
+            "result_requirement": "Latest developments and current state of affairs between India and Turkey.",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.9",
+            "reasoning": "A relevant summary of India-Turkey relations exists in memory, covering recent developments and trade relations.",
+            "local_reasoning": "Memory excerpt provides a summary of the current relationship status.",
+            "last_tooluse_summary": "Not applicable",
+            "summarizer_summary": "India-Turkey relations are strained due to Turkey's support for Pakistan, leading to calls for boycotts of Turkish goods and scrutiny of trade relations. The bilateral trade between India and Turkey stood at US$ 10.4 billion during 2023-24.",
+            "route": "summarize",
+            "instruction_to_summarize": "Provide a concise summary of the current state of India-Turkey relations, focusing on the key issues and trade relations. Base the summary on existing memory and include the 2023-24 trade figures. Use Markdown formatting."
+          },
+          "from_step": null
+        },
+        "id": "ROOT"
+      }
+    ],
+    "links": []
+  }
+}

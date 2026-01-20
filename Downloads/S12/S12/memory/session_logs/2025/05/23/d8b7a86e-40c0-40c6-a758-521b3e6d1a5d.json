@@ -1,0 +1,461 @@
+{
+  "context": {
+    "session_id": "d8b7a86e-40c0-40c6-a758-521b3e6d1a5d",
+    "original_query": "Query 1: What is cos(sin(0.45) + tan(3.4)) - log10(45)/2.34?",
+    "globals": {
+      "memory": [],
+      "result_0A": 0.05880318415189967
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: What is cos(sin(0.45) + tan(3.4)) - log10(45)/2.34?",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "The value of cos(sin(0.45) + tan(3.4)) - log10(45)/2.34 is approximately 0.0588.",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "cos",
+                "sin",
+                "tan",
+                "log10",
+                "0.45",
+                "3.4",
+                "45",
+                "2.34"
+              ],
+              "result_requirement": "Numerical result of the mathematical expression",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.95",
+              "reasoning": "The query requires evaluating a mathematical expression. This can be readily computed using a tool.",
+              "local_reasoning": "The expression is well-defined and doesn't depend on external data. A calculator tool can solve this.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Calculate the value of the mathematical expression: cos(sin(0.45) + tan(3.4)) - log10(45)/2.34",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "result_0A": 0.05880318415189967
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "cos",
+                "sin",
+                "tan",
+                "log10",
+                "0.45",
+                "3.4",
+                "45",
+                "2.34"
+              ],
+              "result_requirement": "Numerical result of the mathematical expression",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "0.99",
+              "reasoning": "The mathematical expression has been evaluated and the result is available in `result_0A` in the global schema. No further steps are required.",
+              "local_reasoning": "The tool returned a numerical result, which directly answers the question.",
+              "last_tooluse_summary": "CODE tool executed and returned a numerical result.",
+              "solution_summary": "The value of cos(sin(0.45) + tan(3.4)) - log10(45)/2.34 is approximately 0.0588",
+              "route": "summarize",
+              "instruction_to_summarize": "Provide the result of the calculation to the user, formatted as: 'The value of cos(sin(0.45) + tan(3.4)) - log10(45)/2.34 is approximately [result_0A]' using the value from globals_schema. Round the result to four decimal places for better readability."
+            },
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "d8b7a86e-40c0-40c6-a758-521b3e6d1a5d",
+    "original_query": "Query 1: What is cos(sin(0.45) + tan(3.4)) - log10(45)/2.34?",
+    "perception_snapshots": [
+      {
+        "run_id": "d8b7a86e-40c0-40c6-a758-521b3e6d1a5d-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "cos",
+          "sin",
+          "tan",
+          "log10",
+          "0.45",
+          "3.4",
+          "45",
+          "2.34"
+        ],
+        "result_requirement": "Numerical result of the mathematical expression",
+        "original_goal_achieved": false,
+        "reasoning": "The query requires evaluating a mathematical expression. This can be readily computed using a tool.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The expression is well-defined and doesn't depend on external data. A calculator tool can solve this.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.95",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "d8b7a86e-40c0-40c6-a758-521b3e6d1a5d-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "cos",
+          "sin",
+          "tan",
+          "log10",
+          "0.45",
+          "3.4",
+          "45",
+          "2.34"
+        ],
+        "result_requirement": "Numerical result of the mathematical expression",
+        "original_goal_achieved": true,
+        "reasoning": "The mathematical expression has been evaluated and the result is available in `result_0A` in the global schema. No further steps are required.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The tool returned a numerical result, which directly answers the question.",
+        "last_tooluse_summary": "CODE tool executed and returned a numerical result.",
+        "solution_summary": "The value of cos(sin(0.45) + tan(3.4)) - log10(45)/2.34 is approximately 0.0588",
+        "confidence": "0.99",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "025beb38-d91c-4288-9bdf-4864f691d239",
+        "input": {
+          "current_time": "2025-05-23T01:20:12.790055",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: What is cos(sin(0.45) + tan(3.4)) - log10(45)/2.34?",
+          "perception": {
+            "entities": [
+              "cos",
+              "sin",
+              "tan",
+              "log10",
+              "0.45",
+              "3.4",
+              "45",
+              "2.34"
+            ],
+            "result_requirement": "Numerical result of the mathematical expression",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.95",
+            "reasoning": "The query requires evaluating a mathematical expression. This can be readily computed using a tool.",
+            "local_reasoning": "The expression is well-defined and doesn't depend on external data. A calculator tool can solve this.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "cos",
+                  "sin",
+                  "tan",
+                  "log10",
+                  "0.45",
+                  "3.4",
+                  "45",
+                  "2.34"
+                ],
+                "result_requirement": "Numerical result of the mathematical expression",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.95",
+                "reasoning": "The query requires evaluating a mathematical expression. This can be readily computed using a tool.",
+                "local_reasoning": "The expression is well-defined and doesn't depend on external data. A calculator tool can solve this.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "cos",
+                  "sin",
+                  "tan",
+                  "log10",
+                  "0.45",
+                  "3.4",
+                  "45",
+                  "2.34"
+                ],
+                "result_requirement": "Numerical result of the mathematical expression",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.95",
+                "reasoning": "The query requires evaluating a mathematical expression. This can be readily computed using a tool.",
+                "local_reasoning": "The expression is well-defined and doesn't depend on external data. A calculator tool can solve this.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[]"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Calculate the value of the mathematical expression: cos(sin(0.45) + tan(3.4)) - log10(45)/2.34"
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "import math\n\nresult = math.cos(math.sin(0.45) + math.tan(3.4)) - math.log10(45) / 2.34\nreturn {\"result_0A\": result}",
+            "CODE_0B": "import math\n\nangle = math.sin(0.45) + math.tan(3.4)\ncosine_value = math.cos(angle)\nlog_value = math.log10(45)\nfinal_result = cosine_value - log_value / 2.34\nreturn {\"final_result_0B\": final_result}",
+            "CODE_0C": "import math\n\nsin_val = math.sin(0.45)\ntan_val = math.tan(3.4)\nlog_val = math.log10(45)\n\ncombined_arg = sin_val + tan_val\ncos_val = math.cos(combined_arg)\n\nfinal_answer = cos_val - (log_val / 2.34)\nreturn {\"final_answer_0C\": final_answer}"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Calculate the value of the mathematical expression: cos(sin(0.45) + tan(3.4)) - log10(45)/2.34"
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "import math\n\nresult = math.cos(math.sin(0.45) + math.tan(3.4)) - math.log10(45) / 2.34\nreturn {\"result_0A\": result}",
+          "CODE_0B": "import math\n\nangle = math.sin(0.45) + math.tan(3.4)\ncosine_value = math.cos(angle)\nlog_value = math.log10(45)\nfinal_result = cosine_value - log_value / 2.34\nreturn {\"final_result_0B\": final_result}",
+          "CODE_0C": "import math\n\nsin_val = math.sin(0.45)\ntan_val = math.tan(3.4)\nlog_val = math.log10(45)\n\ncombined_arg = sin_val + tan_val\ncos_val = math.cos(combined_arg)\n\nfinal_answer = cos_val - (log_val / 2.34)\nreturn {\"final_answer_0C\": final_answer}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [
+      {
+        "run_id": "ec5f1ac0-e6a3-4ffe-a88c-7ff04c665578",
+        "step_id": "0",
+        "variant_used": "CODE_0A",
+        "code": "import math\n\nresult = math.cos(math.sin(0.45) + math.tan(3.4)) - math.log10(45) / 2.34\nreturn {\"result_0A\": result}",
+        "status": "success",
+        "result": {
+          "result_0A": 0.05880318415189967
+        },
+        "error": null,
+        "execution_time": "2025-05-23 06:50:19",
+        "total_time": "0.014",
+        "return_to": ""
+      }
+    ],
+    "summarizer_snapshots": [
+      {
+        "run_id": "e77a2470-d5eb-4dd5-b86e-b13495746735",
+        "input": {
+          "original_query": "Query 1: What is cos(sin(0.45) + tan(3.4)) - log10(45)/2.34?",
+          "globals_schema": {
+            "memory": [],
+            "result_0A": 0.05880318415189967
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "cos",
+                      "sin",
+                      "tan",
+                      "log10",
+                      "0.45",
+                      "3.4",
+                      "45",
+                      "2.34"
+                    ],
+                    "result_requirement": "Numerical result of the mathematical expression",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.95",
+                    "reasoning": "The query requires evaluating a mathematical expression. This can be readily computed using a tool.",
+                    "local_reasoning": "The expression is well-defined and doesn't depend on external data. A calculator tool can solve this.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "0",
+                  "description": "Calculate the value of the mathematical expression: cos(sin(0.45) + tan(3.4)) - log10(45)/2.34",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "result_0A": 0.05880318415189967
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "cos",
+                      "sin",
+                      "tan",
+                      "log10",
+                      "0.45",
+                      "3.4",
+                      "45",
+                      "2.34"
+                    ],
+                    "result_requirement": "Numerical result of the mathematical expression",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "0.99",
+                    "reasoning": "The mathematical expression has been evaluated and the result is available in `result_0A` in the global schema. No further steps are required.",
+                    "local_reasoning": "The tool returned a numerical result, which directly answers the question.",
+                    "last_tooluse_summary": "CODE tool executed and returned a numerical result.",
+                    "solution_summary": "The value of cos(sin(0.45) + tan(3.4)) - log10(45)/2.34 is approximately 0.0588",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Provide the result of the calculation to the user, formatted as: 'The value of cos(sin(0.45) + tan(3.4)) - log10(45)/2.34 is approximately [result_0A]' using the value from globals_schema. Round the result to four decimal places for better readability."
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "0"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "0"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "cos",
+              "sin",
+              "tan",
+              "log10",
+              "0.45",
+              "3.4",
+              "45",
+              "2.34"
+            ],
+            "result_requirement": "Numerical result of the mathematical expression",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.99",
+            "reasoning": "The mathematical expression has been evaluated and the result is available in `result_0A` in the global schema. No further steps are required.",
+            "local_reasoning": "The tool returned a numerical result, which directly answers the question.",
+            "last_tooluse_summary": "CODE tool executed and returned a numerical result.",
+            "solution_summary": "The value of cos(sin(0.45) + tan(3.4)) - log10(45)/2.34 is approximately 0.0588",
+            "route": "summarize",
+            "instruction_to_summarize": "Provide the result of the calculation to the user, formatted as: 'The value of cos(sin(0.45) + tan(3.4)) - log10(45)/2.34 is approximately [result_0A]' using the value from globals_schema. Round the result to four decimal places for better readability."
+          }
+        },
+        "summary_output": "The value of cos(sin(0.45) + tan(3.4)) - log10(45)/2.34 is approximately 0.0588.",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-23T01:19:16Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "The value of cos(sin(0.45) + tan(3.4)) - log10(45)/2.34 is approximately 0.0588.",
+    "status": "success",
+    "completed_at": "2025-05-23T01:20:29.054046"
+  },
+  "status": "success",
+  "final_step_id": "0",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-23T01:20:29.056043",
+  "original_query": "Query 1: What is cos(sin(0.45) + tan(3.4)) - log10(45)/2.34?",
+  "final_summary": "The value of cos(sin(0.45) + tan(3.4)) - log10(45)/2.34 is approximately 0.0588."
+}

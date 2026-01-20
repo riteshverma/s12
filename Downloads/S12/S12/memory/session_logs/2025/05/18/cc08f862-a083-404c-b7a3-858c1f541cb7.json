@@ -1,0 +1,217 @@
+{
+  "session_id": "cc08f862-a083-404c-b7a3-858c1f541cb7",
+  "original_query": "Query 1: Whats the latest between India and Pakistan?",
+  "globals": {
+    "search_results_0A": [
+      "https://www.reuters.com/world/asia-pacific/latest-developments-india-pakistan-conflict-2025-05-08/",
+      "https://economictimes.indiatimes.com/news/india/blackouts-drones-and-cross-border-tensions-10-major-developments-in-the-india-pakistan-standoff-after-saturdays-ceasefire/articleshow/121071347.cms",
+      "https://timesofindia.indiatimes.com/india/water-wars-how-india-is-planning-to-divert-water-from-indus-river-system-leave-pakistan-high-and-dry-waters-treaty/articleshow/121209850.cms",
+      "https://www.cnbc.com/2025/05/17/lammy-says-uk-us-working-to-ensure-enduring-india-pakistan-ceasefire-dialogue.html",
+      "https://www.independent.co.uk/asia/india/india-pakistan-all-party-delegation-pakistan-b2752852.html"
+    ],
+    "article_summaries": [
+      [
+        {
+          "type": "text",
+          "text": "[error] 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>",
+          "annotations": null
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "text": "US President Donald Trump announced a ceasefire between India and Pakistan on Truth Social, confirmed by Indian Foreign Secretary Vikram Misri. However, Pakistan violated the ceasefire within hours. Blackout measures reimposed in Punjab, Gujarat, and Rajasthan. Amritsar remained on red alert. Drone sightings and explosions reported in Jammu and Kashmir, with air defense systems activated. A soldier injured in Nagrota. India accused Pakistan of breaching the ceasefire, while Pakistan blamed India and claimed commitment to the agreement. Operations normal at Delhi Airport.",
+          "annotations": null
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "text": "Following a terror attack in Pahalgam on April 22, India is escalating its use of water from the Indus river system, potentially reducing Pakistan's water supply. India has suspended the Indus Waters Treaty (IWT), which allocates the Sutlej, Beas, and Ravi rivers to India and the Indus, Chenab, and Jhelum to Pakistan, while allowing India limited use of the western rivers. India plans to expand the Ranbir Canal on the Chenab river from 60 km to 120 km, increasing diversion capacity from 40 to 150 cubic meters per second, impacting Pakistan's Punjab province. External affairs minister S. Jaishankar stated the IWT is suspended until Pakistan stops cross-border terrorism. India will engage only on terrorism and PoK issues, rejecting broader talks on Kashmir or the treaty.",
+          "annotations": null
+        }
+      ]
+    ]
+  },
+  "memory": [
+    {
+      "original_query": "Query 1: Whats the latest between India and Pakistan?",
+      "result_requirement": "Final summary",
+      "summarizer_summary": "Recent developments between India and Pakistan include ceasefire violations and disputes over the Indus Waters Treaty. Following a ceasefire announcement, Pakistan reportedly violated it within hours, leading to renewed tensions. Additionally, India is escalating its use of water from the Indus river system after a terror attack, potentially reducing Pakistan's water supply and suspending the Indus Waters Treaty.",
+      "confidence": 0.95,
+      "original_goal_achieved": true,
+      "route": "summarize"
+    }
+  ],
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "data": {
+          "index": "ROOT",
+          "description": "initial query",
+          "type": "ROOT",
+          "status": "completed",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "India",
+              "Pakistan",
+              "latest developments"
+            ],
+            "result_requirement": "Concise overview of the latest developments between India and Pakistan.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.6",
+            "reasoning": "The query is to find the latest developments between India and Pakistan. The memory excerpt shows similar queries, but no definitive solution. No steps have been performed yet to retrieve this information.",
+            "local_reasoning": "This is the initial query and requires external information retrieval.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not available",
+            "route": "decision",
+            "instruction_to_summarize": "Not applicable"
+          },
+          "from_step": null
+        },
+        "id": "ROOT"
+      },
+      {
+        "data": {
+          "index": "0",
+          "description": "Search for recent news articles about India and Pakistan relations.",
+          "type": "CODE",
+          "status": "completed",
+          "result": {
+            "search_results_0A": [
+              "https://www.reuters.com/world/asia-pacific/latest-developments-india-pakistan-conflict-2025-05-08/",
+              "https://economictimes.indiatimes.com/news/india/blackouts-drones-and-cross-border-tensions-10-major-developments-in-the-india-pakistan-standoff-after-saturdays-ceasefire/articleshow/121071347.cms",
+              "https://timesofindia.indiatimes.com/india/water-wars-how-india-is-planning-to-divert-water-from-indus-river-system-leave-pakistan-high-and-dry-waters-treaty/articleshow/121209850.cms",
+              "https://www.cnbc.com/2025/05/17/lammy-says-uk-us-working-to-ensure-enduring-india-pakistan-ceasefire-dialogue.html",
+              "https://www.independent.co.uk/asia/india/india-pakistan-all-party-delegation-pakistan-b2752852.html"
+            ]
+          },
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "India",
+              "Pakistan",
+              "latest developments"
+            ],
+            "result_requirement": "Concise overview of the latest developments between India and Pakistan.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": true,
+            "confidence": "0.8",
+            "reasoning": "The search tool successfully returned a list of URLs related to the latest developments between India and Pakistan. However, the content of these pages needs to be extracted to provide a concise overview.",
+            "local_reasoning": "The search tool provided relevant URLs. The next step is to extract and summarize the information from these URLs.",
+            "last_tooluse_summary": "Search tool returned relevant URLs.",
+            "solution_summary": "Not available",
+            "route": "decision"
+          },
+          "from_step": "ROOT"
+        },
+        "id": "0"
+      },
+      {
+        "data": {
+          "index": "1",
+          "description": "Extract and summarize the content of the top 3 news articles.",
+          "type": "CODE",
+          "status": "completed",
+          "result": {
+            "article_summaries": [
+              [
+                {
+                  "type": "text",
+                  "text": "[error] 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "US President Donald Trump announced a ceasefire between India and Pakistan on Truth Social, confirmed by Indian Foreign Secretary Vikram Misri. However, Pakistan violated the ceasefire within hours. Blackout measures reimposed in Punjab, Gujarat, and Rajasthan. Amritsar remained on red alert. Drone sightings and explosions reported in Jammu and Kashmir, with air defense systems activated. A soldier injured in Nagrota. India accused Pakistan of breaching the ceasefire, while Pakistan blamed India and claimed commitment to the agreement. Operations normal at Delhi Airport.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Following a terror attack in Pahalgam on April 22, India is escalating its use of water from the Indus river system, potentially reducing Pakistan's water supply. India has suspended the Indus Waters Treaty (IWT), which allocates the Sutlej, Beas, and Ravi rivers to India and the Indus, Chenab, and Jhelum to Pakistan, while allowing India limited use of the western rivers. India plans to expand the Ranbir Canal on the Chenab river from 60 km to 120 km, increasing diversion capacity from 40 to 150 cubic meters per second, impacting Pakistan's Punjab province. External affairs minister S. Jaishankar stated the IWT is suspended until Pakistan stops cross-border terrorism. India will engage only on terrorism and PoK issues, rejecting broader talks on Kashmir or the treaty.",
+                  "annotations": null
+                }
+              ]
+            ]
+          },
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "India",
+              "Pakistan",
+              "latest developments",
+              "ceasefire",
+              "Indus Waters Treaty"
+            ],
+            "result_requirement": "Concise overview of the latest developments between India and Pakistan.",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.85",
+            "reasoning": "Two relevant summaries were extracted. One discusses ceasefire violations and the other India's actions regarding the Indus Waters Treaty. These provide a sufficient overview of the current situation.",
+            "local_reasoning": "The tool extracted summaries from multiple articles. While one article had an encoding error, the other two provided relevant information about recent events.",
+            "last_tooluse_summary": "Article summarization tool extracted summaries from provided URLs; one extraction had an encoding error.",
+            "solution_summary": "Ceasefire violations reported, and India is escalating its use of water from the Indus river system following a terror attack.",
+            "route": "summarize",
+            "instruction_to_summarize": "Create a concise summary for the user detailing the latest developments between India and Pakistan, drawing from the extracted summaries. Include information about the ceasefire violations and the Indus Waters Treaty issue. Omit the article that resulted in an encoding error. Use Markdown formatting."
+          },
+          "from_step": "1"
+        },
+        "id": "1"
+      },
+      {
+        "data": {
+          "index": "2",
+          "description": "Synthesize a concise overview of the latest developments from the summaries.",
+          "type": "CODE",
+          "status": "Skipped",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "1"
+        },
+        "id": "2"
+      }
+    ],
+    "links": [
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "0"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "1"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "2"
+      },
+      {
+        "type": "normal",
+        "source": "1",
+        "target": "1"
+      },
+      {
+        "type": "normal",
+        "source": "1",
+        "target": "2"
+      }
+    ]
+  }
+}

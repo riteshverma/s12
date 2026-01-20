@@ -1,0 +1,177 @@
+{
+  "context": {
+    "session_id": "1f9205a3-aedc-4da4-8e85-2865079d1833",
+    "original_query": "Query 1: Google Cloud Console in a new tab for me.",
+    "globals": {
+      "memory": [
+        {
+          "score": 185.71428571428572,
+          "session_id": "8d1c4d32-9d29-4ec0-85db-d52f42e8d666",
+          "original_query": "Query 1: Open Google Cloud Console for me.\nResponse 1: The attempt to open Google Cloud Console (https://console.cloud.google.com/) in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools.\nQuery 2: ",
+          "summary_output": "The attempt to open Google Cloud Console (https://console.cloud.google.com/) in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools.",
+          "timestamp": "2026-01-20T10:57:24Z"
+        }
+      ]
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: Google Cloud Console in a new tab for me.",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "The attempt to open Google Cloud Console (https://console.cloud.google.com/) in a new tab failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools.",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Google Cloud Console"
+              ],
+              "result_requirement": "Open Google Cloud Console in a new tab",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.9",
+              "reasoning": "The user wants to open Google Cloud Console in a new tab. Based on the memory excerpt, previous attempts to open Google Cloud Console failed because the tools 'open_tab' and 'get_session_snapshot' were not available. Since the required tools are still unavailable, routing to decision will not help. The task is browser-based, but the necessary tools are missing.",
+              "local_reasoning": "The query requires browser interaction, but the necessary tools are unavailable.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "The attempt to open Google Cloud Console in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available.",
+              "route": "summarize",
+              "instruction_to_summarize": "Summarize that the attempt to open Google Cloud Console failed because the tools 'open_tab' and 'get_session_snapshot' are not available. Inform the user that the requested action could not be completed due to missing tools.",
+              "instruction_to_browser": "Not applicable"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        }
+      ],
+      "links": []
+    }
+  },
+  "session": {
+    "session_id": "1f9205a3-aedc-4da4-8e85-2865079d1833",
+    "original_query": "Query 1: Google Cloud Console in a new tab for me.",
+    "perception_snapshots": [
+      {
+        "run_id": "1f9205a3-aedc-4da4-8e85-2865079d1833-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "Google Cloud Console"
+        ],
+        "result_requirement": "Open Google Cloud Console in a new tab",
+        "original_goal_achieved": false,
+        "reasoning": "The user wants to open Google Cloud Console in a new tab. Based on the memory excerpt, previous attempts to open Google Cloud Console failed because the tools 'open_tab' and 'get_session_snapshot' were not available. Since the required tools are still unavailable, routing to decision will not help. The task is browser-based, but the necessary tools are missing.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The query requires browser interaction, but the necessary tools are unavailable.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "The attempt to open Google Cloud Console in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available.",
+        "confidence": "0.9",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [],
+    "execution_snapshots": [],
+    "summarizer_snapshots": [
+      {
+        "run_id": "a4be4f64-dc9e-474e-ae9e-87c4ba9e963e",
+        "input": {
+          "original_query": "Query 1: Google Cloud Console in a new tab for me.",
+          "globals_schema": {
+            "memory": [
+              {
+                "score": 185.71428571428572,
+                "session_id": "8d1c4d32-9d29-4ec0-85db-d52f42e8d666",
+                "original_query": "Query 1: Open Google Cloud Console for me.\nResponse 1: The attempt to open Google Cloud Console (https://console.cloud.google.com/) in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools.\nQuery 2: ",
+                "summary_output": "The attempt to open Google Cloud Console (https://console.cloud.google.com/) in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools.",
+                "timestamp": "2026-01-20T10:57:24Z"
+              }
+            ]
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Google Cloud Console"
+                    ],
+                    "result_requirement": "Open Google Cloud Console in a new tab",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.9",
+                    "reasoning": "The user wants to open Google Cloud Console in a new tab. Based on the memory excerpt, previous attempts to open Google Cloud Console failed because the tools 'open_tab' and 'get_session_snapshot' were not available. Since the required tools are still unavailable, routing to decision will not help. The task is browser-based, but the necessary tools are missing.",
+                    "local_reasoning": "The query requires browser interaction, but the necessary tools are unavailable.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "The attempt to open Google Cloud Console in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Summarize that the attempt to open Google Cloud Console failed because the tools 'open_tab' and 'get_session_snapshot' are not available. Inform the user that the requested action could not be completed due to missing tools.",
+                    "instruction_to_browser": "Not applicable"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              }
+            ],
+            "links": []
+          },
+          "perception": {
+            "entities": [
+              "Google Cloud Console"
+            ],
+            "result_requirement": "Open Google Cloud Console in a new tab",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.9",
+            "reasoning": "The user wants to open Google Cloud Console in a new tab. Based on the memory excerpt, previous attempts to open Google Cloud Console failed because the tools 'open_tab' and 'get_session_snapshot' were not available. Since the required tools are still unavailable, routing to decision will not help. The task is browser-based, but the necessary tools are missing.",
+            "local_reasoning": "The query requires browser interaction, but the necessary tools are unavailable.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "The attempt to open Google Cloud Console in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize that the attempt to open Google Cloud Console failed because the tools 'open_tab' and 'get_session_snapshot' are not available. Inform the user that the requested action could not be completed due to missing tools.",
+            "instruction_to_browser": "Not applicable"
+          }
+        },
+        "summary_output": "The attempt to open Google Cloud Console (https://console.cloud.google.com/) in a new tab failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools.",
+        "success": true,
+        "error": null,
+        "timestamp": "2026-01-20T11:01:36Z",
+        "return_to": ""
+      }
+    ],
+    "browser_snapshots": [],
+    "final_summary": "The attempt to open Google Cloud Console (https://console.cloud.google.com/) in a new tab failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools.",
+    "status": "success",
+    "completed_at": "2026-01-20T11:02:16.197083"
+  },
+  "status": "success",
+  "final_step_id": "ROOT",
+  "reason": "Summarized successfully",
+  "timestamp": "2026-01-20T11:02:16.199676",
+  "original_query": "Query 1: Google Cloud Console in a new tab for me.",
+  "final_summary": "The attempt to open Google Cloud Console (https://console.cloud.google.com/) in a new tab failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools."
+}

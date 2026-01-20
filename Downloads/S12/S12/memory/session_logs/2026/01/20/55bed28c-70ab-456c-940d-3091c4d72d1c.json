@@ -1,0 +1,206 @@
+{
+  "context": {
+    "session_id": "55bed28c-70ab-456c-940d-3091c4d72d1c",
+    "original_query": "Query 1: ",
+    "globals": {
+      "memory": [
+        {
+          "score": 0.0,
+          "session_id": "127e508e-2a9b-4ecd-8143-d1e6fd51aa14",
+          "original_query": "Query 1: ",
+          "summary_output": "The task of opening [https://www.inkers.ai](https://www.inkers.ai) and clicking the 'Demo' button was successfully completed in a previous session. The browser state, including element IDs for interactive elements, was also successfully retrieved. This information can be used for further automated interactions with the website.",
+          "timestamp": "2026-01-20T11:58:59Z"
+        },
+        {
+          "score": 0.0,
+          "session_id": "8820d7c2-8996-4f42-a658-5ef85cc48438",
+          "original_query": "Query 1: Open https://www.inkers.ai in a new tab, and click on Demo Button. Inform Decision that whenever it calls any tool, it will immediately return the broswer state, which will have id's for buttons and things it can interact with. So it will have to save them for reuse for next step.",
+          "summary_output": "The task of opening [https://www.inkers.ai](https://www.inkers.ai) in a new tab and clicking the 'Demo' button was successfully completed in a previous session. The browser state, including element IDs for interactive elements, was also successfully retrieved. This information can be used for further automated interactions with the website.",
+          "timestamp": "2026-01-20T11:16:25Z"
+        },
+        {
+          "score": 0.0,
+          "session_id": "2b8d0b9c-a0a9-4e2f-82f1-a04022477f2c",
+          "original_query": "Query 1: Open https://www.inkers.ai in a new tab, and click on Demo Button. Inform Decision that whenever it calls any tool, it will immediately return the broswer state, which will have id's for buttons and things it can interact with. So it will have to save them for reuse for next step.",
+          "summary_output": "Successfully opened [https://www.inkers.ai](https://www.inkers.ai) in a new tab and clicked the 'Demo' button. The browser state, including element IDs for interactive elements, has been successfully retrieved. The interactive elements include navigation links, forms, and buttons, each with a unique ID and description. This information can be used for further automated interactions with the website.",
+          "timestamp": "2026-01-20T11:07:51Z"
+        }
+      ]
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: ",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "The task of opening [https://www.inkers.ai](https://www.inkers.ai) and clicking the 'Demo' button was successfully completed in a previous session. The browser state, including element IDs for interactive elements, was also successfully retrieved.",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "inkers.ai",
+                "Demo button"
+              ],
+              "result_requirement": "Click the Demo button on inkers.ai",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "0.95",
+              "reasoning": "The memory excerpt indicates that the task of opening inkers.ai and clicking the Demo button was successfully completed in a previous session. The browser state, including element IDs, was also retrieved.",
+              "local_reasoning": "The memory excerpt confirms the task is already completed.",
+              "last_tooluse_summary": "Task completed in previous session",
+              "solution_summary": "The task of opening https://www.inkers.ai and clicking the 'Demo' button was successfully completed in a previous session. The browser state, including element IDs for interactive elements, was also successfully retrieved.",
+              "route": "summarize",
+              "instruction_to_summarize": "Summarize that the task of opening https://www.inkers.ai and clicking the 'Demo' button was successfully completed in a previous session, according to memory."
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        }
+      ],
+      "links": []
+    }
+  },
+  "session": {
+    "session_id": "55bed28c-70ab-456c-940d-3091c4d72d1c",
+    "original_query": "Query 1: ",
+    "perception_snapshots": [
+      {
+        "run_id": "55bed28c-70ab-456c-940d-3091c4d72d1c-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "inkers.ai",
+          "Demo button"
+        ],
+        "result_requirement": "Click the Demo button on inkers.ai",
+        "original_goal_achieved": true,
+        "reasoning": "The memory excerpt indicates that the task of opening inkers.ai and clicking the Demo button was successfully completed in a previous session. The browser state, including element IDs, was also retrieved.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The memory excerpt confirms the task is already completed.",
+        "last_tooluse_summary": "Task completed in previous session",
+        "solution_summary": "The task of opening https://www.inkers.ai and clicking the 'Demo' button was successfully completed in a previous session. The browser state, including element IDs for interactive elements, was also successfully retrieved.",
+        "confidence": "0.95",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [],
+    "execution_snapshots": [],
+    "summarizer_snapshots": [
+      {
+        "run_id": "93e8fc43-5f17-4015-a7fe-b7ba1587bf3b",
+        "input": {
+          "original_query": "Query 1: ",
+          "globals_schema": {
+            "memory": [
+              {
+                "score": 0.0,
+                "session_id": "127e508e-2a9b-4ecd-8143-d1e6fd51aa14",
+                "original_query": "Query 1: ",
+                "summary_output": "The task of opening [https://www.inkers.ai](https://www.inkers.ai) and clicking the 'Demo' button was successfully completed in a previous session. The browser state, including element IDs for interactive elements, was also successfully retrieved. This information can be used for further automated interactions with the website.",
+                "timestamp": "2026-01-20T11:58:59Z"
+              },
+              {
+                "score": 0.0,
+                "session_id": "8820d7c2-8996-4f42-a658-5ef85cc48438",
+                "original_query": "Query 1: Open https://www.inkers.ai in a new tab, and click on Demo Button. Inform Decision that whenever it calls any tool, it will immediately return the broswer state, which will have id's for buttons and things it can interact with. So it will have to save them for reuse for next step.",
+                "summary_output": "The task of opening [https://www.inkers.ai](https://www.inkers.ai) in a new tab and clicking the 'Demo' button was successfully completed in a previous session. The browser state, including element IDs for interactive elements, was also successfully retrieved. This information can be used for further automated interactions with the website.",
+                "timestamp": "2026-01-20T11:16:25Z"
+              },
+              {
+                "score": 0.0,
+                "session_id": "2b8d0b9c-a0a9-4e2f-82f1-a04022477f2c",
+                "original_query": "Query 1: Open https://www.inkers.ai in a new tab, and click on Demo Button. Inform Decision that whenever it calls any tool, it will immediately return the broswer state, which will have id's for buttons and things it can interact with. So it will have to save them for reuse for next step.",
+                "summary_output": "Successfully opened [https://www.inkers.ai](https://www.inkers.ai) in a new tab and clicked the 'Demo' button. The browser state, including element IDs for interactive elements, has been successfully retrieved. The interactive elements include navigation links, forms, and buttons, each with a unique ID and description. This information can be used for further automated interactions with the website.",
+                "timestamp": "2026-01-20T11:07:51Z"
+              }
+            ]
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "inkers.ai",
+                      "Demo button"
+                    ],
+                    "result_requirement": "Click the Demo button on inkers.ai",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "0.95",
+                    "reasoning": "The memory excerpt indicates that the task of opening inkers.ai and clicking the Demo button was successfully completed in a previous session. The browser state, including element IDs, was also retrieved.",
+                    "local_reasoning": "The memory excerpt confirms the task is already completed.",
+                    "last_tooluse_summary": "Task completed in previous session",
+                    "solution_summary": "The task of opening https://www.inkers.ai and clicking the 'Demo' button was successfully completed in a previous session. The browser state, including element IDs for interactive elements, was also successfully retrieved.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Summarize that the task of opening https://www.inkers.ai and clicking the 'Demo' button was successfully completed in a previous session, according to memory."
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              }
+            ],
+            "links": []
+          },
+          "perception": {
+            "entities": [
+              "inkers.ai",
+              "Demo button"
+            ],
+            "result_requirement": "Click the Demo button on inkers.ai",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.95",
+            "reasoning": "The memory excerpt indicates that the task of opening inkers.ai and clicking the Demo button was successfully completed in a previous session. The browser state, including element IDs, was also retrieved.",
+            "local_reasoning": "The memory excerpt confirms the task is already completed.",
+            "last_tooluse_summary": "Task completed in previous session",
+            "solution_summary": "The task of opening https://www.inkers.ai and clicking the 'Demo' button was successfully completed in a previous session. The browser state, including element IDs for interactive elements, was also successfully retrieved.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize that the task of opening https://www.inkers.ai and clicking the 'Demo' button was successfully completed in a previous session, according to memory."
+          }
+        },
+        "summary_output": "The task of opening [https://www.inkers.ai](https://www.inkers.ai) and clicking the 'Demo' button was successfully completed in a previous session. The browser state, including element IDs for interactive elements, was also successfully retrieved.",
+        "success": true,
+        "error": null,
+        "timestamp": "2026-01-20T12:11:48Z",
+        "return_to": ""
+      }
+    ],
+    "browser_snapshots": [],
+    "final_summary": "The task of opening [https://www.inkers.ai](https://www.inkers.ai) and clicking the 'Demo' button was successfully completed in a previous session. The browser state, including element IDs for interactive elements, was also successfully retrieved.",
+    "status": "success",
+    "completed_at": "2026-01-20T12:16:39.906383"
+  },
+  "status": "success",
+  "final_step_id": "ROOT",
+  "reason": "Summarized successfully",
+  "timestamp": "2026-01-20T12:16:39.906383",
+  "original_query": "Query 1: ",
+  "final_summary": "The task of opening [https://www.inkers.ai](https://www.inkers.ai) and clicking the 'Demo' button was successfully completed in a previous session. The browser state, including element IDs for interactive elements, was also successfully retrieved."
+}

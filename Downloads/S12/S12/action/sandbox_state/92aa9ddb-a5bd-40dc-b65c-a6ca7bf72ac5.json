@@ -1,0 +1,31 @@
+{
+  "original_query": "Open https://forms.gle/6Nc6QaaJyDvePxLv7 and fill the form with the following details:\n- Course (what course is he/she in?): EAG V2\n- Email ID: riteshv2@gmail.com\n- Master's name: Rohan Shravan\n- Which course is he/she taking?: EAG\n- Date of birth: 04/09/1987\n- Marital status: Yes\n\nSubmit the form after all required fields are filled.",
+  "perception": {
+    "entities": [
+      "Google Form",
+      "EAG V2",
+      "riteshv2@gmail.com",
+      "Rohan Shravan",
+      "EAG",
+      "04/09/1987",
+      "Yes"
+    ],
+    "result_requirement": "Confirmation that the Google Form was successfully filled and submitted with the provided details.",
+    "original_goal_achieved": false,
+    "local_goal_achieved": false,
+    "confidence": "0.9",
+    "reasoning": "The user wants to fill out a Google Form. This requires opening the form, inputting the provided data into the correct fields, and submitting the form. This task requires tool use to interact with the webpage and fill the form. The goal is not yet achieved.",
+    "local_reasoning": "The form needs to be filled and submitted. This requires a tool to interact with the webpage.",
+    "last_tooluse_summary": "Not applicable",
+    "solution_summary": "Not ready yet.",
+    "route": "decision"
+  },
+  "form_data_0C": {
+    "Course (what course is he/she in?)": "EAG V2",
+    "Email ID": "riteshv2@gmail.com",
+    "Master's name": "Rohan Shravan",
+    "Which course is he/she taking?": "EAG",
+    "Date of birth": "04/09/1987",
+    "Marital status": "Yes"
+  }
+}

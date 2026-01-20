@@ -1,0 +1,209 @@
+{
+  "context": {
+    "session_id": "1f40791e-0486-4e8d-9968-e2066285d692",
+    "original_query": "Query 1: What's the latest between India and France?",
+    "globals": {
+      "memory": [
+        {
+          "score": 200.0,
+          "session_id": "e4499c82-eb51-4412-9c90-941eb209a9a1",
+          "original_query": "Query 1: What's the latest between India and France?",
+          "summary_output": "The latest developments between India and France include discussions from a bilateral meeting held on January 26th, focusing on several key areas of cooperation:\n\n- **Cooperation in the Southwest Indian Ocean:** Both countries agreed to intensify cooperation, building on previous joint surveillance missions to enhance the securitization of strategic sea lanes of communication. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Indo-Pacific Partnership:** Both sides emphasized the significance of the Indo-Pacific Region and committed to deepening their partnership based on a common vision. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Defence and Security Partnership:** The defense and security partnership in the Indo-Pacific region was highlighted as a cornerstone of their collaboration, including joint tri-services exercises and increasing capacities in the maritime domain. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)",
+          "timestamp": "2025-05-19T03:26:58Z"
+        },
+        {
+          "score": 200.0,
+          "session_id": "e26e0fb6-6460-4666-bc95-8ca1ddd8d39c",
+          "original_query": "Query 1: What's the latest between India and France?",
+          "summary_output": "On January 26th, India and France held a bilateral meeting where they discussed several key areas of cooperation:\n\n- **Cooperation in the Southwest Indian Ocean:** Both countries agreed to intensify cooperation, building on previous joint surveillance missions. This aims to enhance the securitization of strategic sea lanes of communication. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Indo-Pacific Partnership:** Both sides emphasized the significance of the Indo-Pacific Region and committed to deepening their partnership based on a common vision. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Defence and Security Partnership:** The defense and security partnership in the Indo-Pacific region was highlighted as a cornerstone of their collaboration, including joint tri-services exercises and increasing capacities in the maritime domain. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)",
+          "timestamp": "2025-05-19T01:09:05Z"
+        },
+        {
+          "score": 200.0,
+          "session_id": "d1acf55c-7982-49de-9cb9-f52f25f8ce17",
+          "original_query": "Query 1: What's the latest between India and France?",
+          "summary_output": "Here are some recent articles discussing relations between India and France:\n\n*   [https://visionias.in/current-affairs/monthly-magazine/2025-03-24/international-relations/india-france-relations-2](https://visionias.in/current-affairs/monthly-magazine/2025-03-24/international-relations/india-france-relations-2)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-strategic-dialogue](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-strategic-dialogue)\n*   [https://www.insightsonindia.com/2025/02/13/india-france-relations/](https://www.insightsonindia.com/2025/02/13/india-france-relations/)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/25th-anniversary-of-the-india-france-strategic-partnership](https://www.drishtiias.com/daily-updates/daily-news-analysis/25th-anniversary-of-the-india-france-strategic-partnership)\n\nUnfortunately, the summarization of these linked pages failed.",
+          "timestamp": "2025-05-19T01:01:35Z"
+        }
+      ]
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: What's the latest between India and France?",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "The latest developments between India and France include discussions from a bilateral meeting held on January 26th, focusing on several key areas of cooperation:\n\n- **Cooperation in the Southwest Indian Ocean:** Both countries agreed to intensify cooperation, building on previous joint surveillance missions to enhance the securitization of strategic sea lanes of communication. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Indo-Pacific Partnership:** Both sides emphasized the significance of the Indo-Pacific Region and committed to deepening their partnership based on a common vision. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Defence and Security Partnership:** The defense and security partnership in the Indo-Pacific region was highlighted as a cornerstone of their collaboration, including joint tri-services exercises and increasing capacities in the maritime domain. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n\nRecent articles discussing relations between India and France:\n\n*   [Vision IAS](https://visionias.in/current-affairs/monthly-magazine/2025-03-24/international-relations/india-france-relations-2)\n*   [Drishti IAS](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n*   [Drishti IAS Strategic Dialogue](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-strategic-dialogue)\n*   [Insights on India](https://www.insightsonindia.com/2025/02/13/india-france-relations/)\n*   [Drishti IAS 25th Anniversary](https://www.drishtiias.com/daily-updates/daily-news-analysis/25th-anniversary-of-the-india-france-strategic-partnership)",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "India",
+                "France",
+                "latest developments"
+              ],
+              "result_requirement": "Summary of the latest news and developments between India and France",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "0.95",
+              "reasoning": "The memory excerpt contains several summaries of recent developments between India and France. The summaries cover key areas of cooperation discussed in a bilateral meeting on January 26th, including cooperation in the Southwest Indian Ocean, the Indo-Pacific Partnership, and Defence and Security Partnership.",
+              "local_reasoning": "The memory excerpt provides the information needed to fulfill the user's query.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Summaries are available in memory.",
+              "route": "summarize",
+              "instruction_to_summarize": "Synthesize a comprehensive summary of the latest developments between India and France, based on the information available in the memory excerpt. Include details about cooperation in the Southwest Indian Ocean, the Indo-Pacific Partnership, and the Defence and Security Partnership, as discussed in the bilateral meeting on January 26th. Prioritize information from the most recent memory entries. Provide the summary in markdown format."
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        }
+      ],
+      "links": []
+    }
+  },
+  "session": {
+    "session_id": "1f40791e-0486-4e8d-9968-e2066285d692",
+    "original_query": "Query 1: What's the latest between India and France?",
+    "perception_snapshots": [
+      {
+        "run_id": "1f40791e-0486-4e8d-9968-e2066285d692-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "India",
+          "France",
+          "latest developments"
+        ],
+        "result_requirement": "Summary of the latest news and developments between India and France",
+        "original_goal_achieved": true,
+        "reasoning": "The memory excerpt contains several summaries of recent developments between India and France. The summaries cover key areas of cooperation discussed in a bilateral meeting on January 26th, including cooperation in the Southwest Indian Ocean, the Indo-Pacific Partnership, and Defence and Security Partnership.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The memory excerpt provides the information needed to fulfill the user's query.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Summaries are available in memory.",
+        "confidence": "0.95",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [],
+    "execution_snapshots": [],
+    "summarizer_snapshots": [
+      {
+        "run_id": "12f0153a-204a-44fb-860c-45935557ae25",
+        "input": {
+          "original_query": "Query 1: What's the latest between India and France?",
+          "globals_schema": {
+            "memory": [
+              {
+                "score": 200.0,
+                "session_id": "e4499c82-eb51-4412-9c90-941eb209a9a1",
+                "original_query": "Query 1: What's the latest between India and France?",
+                "summary_output": "The latest developments between India and France include discussions from a bilateral meeting held on January 26th, focusing on several key areas of cooperation:\n\n- **Cooperation in the Southwest Indian Ocean:** Both countries agreed to intensify cooperation, building on previous joint surveillance missions to enhance the securitization of strategic sea lanes of communication. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Indo-Pacific Partnership:** Both sides emphasized the significance of the Indo-Pacific Region and committed to deepening their partnership based on a common vision. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Defence and Security Partnership:** The defense and security partnership in the Indo-Pacific region was highlighted as a cornerstone of their collaboration, including joint tri-services exercises and increasing capacities in the maritime domain. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)",
+                "timestamp": "2025-05-19T03:26:58Z"
+              },
+              {
+                "score": 200.0,
+                "session_id": "e26e0fb6-6460-4666-bc95-8ca1ddd8d39c",
+                "original_query": "Query 1: What's the latest between India and France?",
+                "summary_output": "On January 26th, India and France held a bilateral meeting where they discussed several key areas of cooperation:\n\n- **Cooperation in the Southwest Indian Ocean:** Both countries agreed to intensify cooperation, building on previous joint surveillance missions. This aims to enhance the securitization of strategic sea lanes of communication. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Indo-Pacific Partnership:** Both sides emphasized the significance of the Indo-Pacific Region and committed to deepening their partnership based on a common vision. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Defence and Security Partnership:** The defense and security partnership in the Indo-Pacific region was highlighted as a cornerstone of their collaboration, including joint tri-services exercises and increasing capacities in the maritime domain. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)",
+                "timestamp": "2025-05-19T01:09:05Z"
+              },
+              {
+                "score": 200.0,
+                "session_id": "d1acf55c-7982-49de-9cb9-f52f25f8ce17",
+                "original_query": "Query 1: What's the latest between India and France?",
+                "summary_output": "Here are some recent articles discussing relations between India and France:\n\n*   [https://visionias.in/current-affairs/monthly-magazine/2025-03-24/international-relations/india-france-relations-2](https://visionias.in/current-affairs/monthly-magazine/2025-03-24/international-relations/india-france-relations-2)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-strategic-dialogue](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-strategic-dialogue)\n*   [https://www.insightsonindia.com/2025/02/13/india-france-relations/](https://www.insightsonindia.com/2025/02/13/india-france-relations/)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/25th-anniversary-of-the-india-france-strategic-partnership](https://www.drishtiias.com/daily-updates/daily-news-analysis/25th-anniversary-of-the-india-france-strategic-partnership)\n\nUnfortunately, the summarization of these linked pages failed.",
+                "timestamp": "2025-05-19T01:01:35Z"
+              }
+            ]
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "India",
+                      "France",
+                      "latest developments"
+                    ],
+                    "result_requirement": "Summary of the latest news and developments between India and France",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "0.95",
+                    "reasoning": "The memory excerpt contains several summaries of recent developments between India and France. The summaries cover key areas of cooperation discussed in a bilateral meeting on January 26th, including cooperation in the Southwest Indian Ocean, the Indo-Pacific Partnership, and Defence and Security Partnership.",
+                    "local_reasoning": "The memory excerpt provides the information needed to fulfill the user's query.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Summaries are available in memory.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Synthesize a comprehensive summary of the latest developments between India and France, based on the information available in the memory excerpt. Include details about cooperation in the Southwest Indian Ocean, the Indo-Pacific Partnership, and the Defence and Security Partnership, as discussed in the bilateral meeting on January 26th. Prioritize information from the most recent memory entries. Provide the summary in markdown format."
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              }
+            ],
+            "links": []
+          },
+          "perception": {
+            "entities": [
+              "India",
+              "France",
+              "latest developments"
+            ],
+            "result_requirement": "Summary of the latest news and developments between India and France",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.95",
+            "reasoning": "The memory excerpt contains several summaries of recent developments between India and France. The summaries cover key areas of cooperation discussed in a bilateral meeting on January 26th, including cooperation in the Southwest Indian Ocean, the Indo-Pacific Partnership, and Defence and Security Partnership.",
+            "local_reasoning": "The memory excerpt provides the information needed to fulfill the user's query.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Summaries are available in memory.",
+            "route": "summarize",
+            "instruction_to_summarize": "Synthesize a comprehensive summary of the latest developments between India and France, based on the information available in the memory excerpt. Include details about cooperation in the Southwest Indian Ocean, the Indo-Pacific Partnership, and the Defence and Security Partnership, as discussed in the bilateral meeting on January 26th. Prioritize information from the most recent memory entries. Provide the summary in markdown format."
+          }
+        },
+        "summary_output": "The latest developments between India and France include discussions from a bilateral meeting held on January 26th, focusing on several key areas of cooperation:\n\n- **Cooperation in the Southwest Indian Ocean:** Both countries agreed to intensify cooperation, building on previous joint surveillance missions to enhance the securitization of strategic sea lanes of communication. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Indo-Pacific Partnership:** Both sides emphasized the significance of the Indo-Pacific Region and committed to deepening their partnership based on a common vision. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Defence and Security Partnership:** The defense and security partnership in the Indo-Pacific region was highlighted as a cornerstone of their collaboration, including joint tri-services exercises and increasing capacities in the maritime domain. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n\nRecent articles discussing relations between India and France:\n\n*   [Vision IAS](https://visionias.in/current-affairs/monthly-magazine/2025-03-24/international-relations/india-france-relations-2)\n*   [Drishti IAS](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n*   [Drishti IAS Strategic Dialogue](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-strategic-dialogue)\n*   [Insights on India](https://www.insightsonindia.com/2025/02/13/india-france-relations/)\n*   [Drishti IAS 25th Anniversary](https://www.drishtiias.com/daily-updates/daily-news-analysis/25th-anniversary-of-the-india-france-strategic-partnership)",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-19T05:32:25Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "The latest developments between India and France include discussions from a bilateral meeting held on January 26th, focusing on several key areas of cooperation:\n\n- **Cooperation in the Southwest Indian Ocean:** Both countries agreed to intensify cooperation, building on previous joint surveillance missions to enhance the securitization of strategic sea lanes of communication. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Indo-Pacific Partnership:** Both sides emphasized the significance of the Indo-Pacific Region and committed to deepening their partnership based on a common vision. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Defence and Security Partnership:** The defense and security partnership in the Indo-Pacific region was highlighted as a cornerstone of their collaboration, including joint tri-services exercises and increasing capacities in the maritime domain. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n\nRecent articles discussing relations between India and France:\n\n*   [Vision IAS](https://visionias.in/current-affairs/monthly-magazine/2025-03-24/international-relations/india-france-relations-2)\n*   [Drishti IAS](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n*   [Drishti IAS Strategic Dialogue](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-strategic-dialogue)\n*   [Insights on India](https://www.insightsonindia.com/2025/02/13/india-france-relations/)\n*   [Drishti IAS 25th Anniversary](https://www.drishtiias.com/daily-updates/daily-news-analysis/25th-anniversary-of-the-india-france-strategic-partnership)",
+    "status": "success",
+    "completed_at": "2025-05-19T05:33:03.785887"
+  },
+  "status": "success",
+  "final_step_id": "ROOT",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-19T05:33:03.788895",
+  "original_query": "Query 1: What's the latest between India and France?",
+  "final_summary": "The latest developments between India and France include discussions from a bilateral meeting held on January 26th, focusing on several key areas of cooperation:\n\n- **Cooperation in the Southwest Indian Ocean:** Both countries agreed to intensify cooperation, building on previous joint surveillance missions to enhance the securitization of strategic sea lanes of communication. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Indo-Pacific Partnership:** Both sides emphasized the significance of the Indo-Pacific Region and committed to deepening their partnership based on a common vision. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Defence and Security Partnership:** The defense and security partnership in the Indo-Pacific region was highlighted as a cornerstone of their collaboration, including joint tri-services exercises and increasing capacities in the maritime domain. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n\nRecent articles discussing relations between India and France:\n\n*   [Vision IAS](https://visionias.in/current-affairs/monthly-magazine/2025-03-24/international-relations/india-france-relations-2)\n*   [Drishti IAS](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n*   [Drishti IAS Strategic Dialogue](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-strategic-dialogue)\n*   [Insights on India](https://www.insightsonindia.com/2025/02/13/india-france-relations/)\n*   [Drishti IAS 25th Anniversary](https://www.drishtiias.com/daily-updates/daily-news-analysis/25th-anniversary-of-the-india-france-strategic-partnership)"
+}

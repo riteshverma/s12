@@ -1,0 +1,205 @@
+{
+  "context": {
+    "session_id": "008bbb4d-b2f6-4f80-be87-cea0651c12cd",
+    "original_query": "Query 1: What is happening between India and Pakistan recently?",
+    "globals": {
+      "memory": [
+        {
+          "score": 183.49514563106794,
+          "session_id": "66e3fbda-81b1-49ee-b802-eab9531d554f",
+          "original_query": "Query 1: What happened between India and Pakistan last week?",
+          "summary_output": "In May 2025, tensions between **India** and **Pakistan** escalated, involving exchanged fire following India's missile attack on Pakistan. The attack was a response to the **Pahalgam incident** in April, where 26 people died in Indian-controlled Kashmir; India blamed Pakistan for the incident, a claim Pakistan denies.\n\nKey events:\n\n*   **Military Strikes:** India claimed its strikes inside Pakistan killed over 100 militants. Pakistan reported that Indian strikes killed 51 people (40 civilians, 11 armed forces) last week, a rise from a previous toll of 33 civilians. India reported casualties of at least 5 military personnel and 16 civilians. India stated it targeted \"terrorist infrastructure\" in Pakistan and Pakistan-administered Kashmir.\n*   **Ceasefire and Violations:** A ceasefire was brokered by the U.S., according to Secretary of State Marco Rubio. However, both sides accused each other of violating the agreement.\n*   **Kashmir Conflict:** The conflict is rooted in the 1947 independence and centers on Kashmir.\n\n\ud83d\udd17 Sources:\n\n*   [AP News](https://apnews.com/article/pakistan-india-ceasefire-kashmir-6fa80010fa8ffee1da1f28e7b593aa2d)\n*   [ABC News](https://abcnews.go.com/International/india-pakistan-kashmir-conflict-threat/story?id=121656628)\n*   [National Post](https://nationalpost.com/news/world/india-pakistan-ceasefire-shelling)\n*   [Sky News](https://news.sky.com/story/india-pakistan-live-dozens-killed-as-india-launches-missile-strikes-on-pakistan-controlled-territory-13363087)\n*   [DW](https://www.dw.com/en/pakistan-says-over-50-killed-in-last-weeks-india-clashes/a-72528430)",
+          "timestamp": "2025-05-19T10:52:16Z"
+        },
+        {
+          "score": 170.7317073170732,
+          "session_id": "ebbd1bb6-e63f-4d33-b2aa-729f27c66722",
+          "original_query": "Query 1: How are the current relations between India and Afghanistan?\nResponse 1: Following the Jaishankar-Muttaqi conversation, India is planning \"bold moves\" to strengthen relations with Taliban-ruled Afghanistan, including potential humanitarian aid for Afghan refugees repatriated by Pakistan. India will deepen direct humanitarian support to Afghanistan, considering requests raised by Muttaqi with Foreign Secretary Misri in Dubai on January 8, 2025. India attaches significance to the Jaishankar-Muttaqi conversation amid Muttaqi's upcoming visit to Iran and China. Discussions included cooperation on the Chabahar port, especially given India's ban on trade via Pakistan. Muttaqi's visit is part of Afghanistan's \"active foreign policy.\" Despite lacking formal recognition, India is willing to do \"whatever is necessary\" regarding the Taliban, increasing exchanges since the 2021 overthrow of President Ashraf Ghani's government.\n\nMore information is available at [The Hindu](https://www.thehindu.com/news/national/india-to-make-a-bold-move-on-afghanistan/article69584396.ece).\nQuery 2: How are the current relations between India and Netherlands? Give me a detailed outlook.",
+          "summary_output": "## Current Relations Between India and Afghanistan & India and Netherlands\n\nHere's a detailed outlook on the current relations between India and Afghanistan, as well as India and the Netherlands, based on recent information.\n\n### India-Afghanistan Relations\n\nFollowing the Jaishankar-Muttaqi conversation, India is reportedly planning \"bold moves\" to strengthen relations with Taliban-ruled Afghanistan. This includes potential humanitarian aid for Afghan refugees repatriated by Pakistan. India is considering requests raised by Muttaqi with Foreign Secretary Misri in Dubai on January 8, 2025, and will deepen direct humanitarian support.\n\n*   India attaches significance to the Jaishankar-Muttaqi conversation amid Muttaqi's upcoming visit to Iran and China.\n*   Discussions included cooperation on the Chabahar port, especially given India's ban on trade via Pakistan.\n*   Muttaqi's visit is part of Afghanistan's \"active foreign policy.\"\n*   Despite lacking formal recognition, India is willing to do \"whatever is necessary\" regarding the Taliban, increasing exchanges since the 2021 overthrow of President Ashraf Ghani's government.\n\nRecent news suggests an emerging dynamic in India's Afghanistan outreach. More information is available at [The Hindu](https://www.thehindu.com/news/national/india-to-make-a-bold-move-on-afghanistan/article69584396.ece). Additional coverage is available at [The Economic Times](https://economictimes.indiatimes.com/news/politics-and-nation/indias-afghanistan-outreach-points-to-emerging-dynamics/articleshow/121219628.cms), [BBC News](https://www.bbc.com/news/articles/cp8ke9e27dxo), and [India Today](https://www.indiatoday.in/the-lowdown/story/frenemies-india-afghanistan-taking-again-jaishankar-taliban-pakistan-conflict-2725710-2025-05-16).\n\n### India-Netherlands Relations\n\nFor information on India-Netherlands relations, refer to:\n\n*   [Wikipedia](https://en.wikipedia.org/wiki/India%E2%80%93Netherlands_relations)\n*   [Indian Embassy in the Netherlands](https://www.indianembassynetherlands.gov.in/page/india-netherlands-relations/)\n*   [Brief on India-Netherlands Bilateral Trade and Investment](https://www.indianembassynetherlands.gov.in/section/news/brief-on-india-netherlands-bilateral-trade-and-investment/)",
+          "timestamp": "2025-05-19T10:24:50Z"
+        },
+        {
+          "score": 166.07142857142856,
+          "session_id": "aa76146e-a902-4460-a828-513eed0dc90f",
+          "original_query": "Query 1: How are the current relations between India and Afghanistan?",
+          "summary_output": "Following the Jaishankar-Muttaqi conversation, India is planning \"bold moves\" to strengthen relations with Taliban-ruled Afghanistan, including potential humanitarian aid for Afghan refugees repatriated by Pakistan. India will deepen direct humanitarian support to Afghanistan, considering requests raised by Muttaqi with Foreign Secretary Misri in Dubai on January 8, 2025. India attaches significance to the Jaishankar-Muttaqi conversation amid Muttaqi's upcoming visit to Iran and China. Discussions included cooperation on the Chabahar port, especially given India's ban on trade via Pakistan. Muttaqi's visit is part of Afghanistan's \"active foreign policy.\" Despite lacking formal recognition, India is willing to do \"whatever is necessary\" regarding the Taliban, increasing exchanges since the 2021 overthrow of President Ashraf Ghani's government.\n\nMore information is available at [The Hindu](https://www.thehindu.com/news/national/india-to-make-a-bold-move-on-afghanistan/article69584396.ece).",
+          "timestamp": "2025-05-19T10:24:50Z"
+        }
+      ]
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: What is happening between India and Pakistan recently?",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "In May 2025, tensions between India and Pakistan escalated following a missile attack by India in response to the Pahalgam incident. Here are the key events:\n\n### Key Incidents:\n- **Pahalgam Incident:** The Pahalgam incident triggered the escalation of tensions.\n- **Missile Attack:** India launched missile strikes on Pakistan-controlled territory.\n\n### Casualty Reports:\n- Both sides reported casualties from military strikes:\n  - Pakistan claimed over 50 deaths due to the last week's India-Pakistan clashes.\n  - India reported several casualties but did not disclose exact figures.\n\n### Ceasefire Agreement:\n- A ceasefire agreement was brokered by the U.S., but both sides accused each other of violating it.\n\n### Sources for More Information:\n- [National Post](https://nationalpost.com/news/world/india-pakistan-ceasefire-shelling)\n- [Sky News](https://news.sky.com/story/india-pakistan-live-dozens-killed-as-india-launches-missile-strikes-on-pakistan-controlled-territory-13363087)\n- [DW](https://www.dw.com/en/pakistan-says-over-50-killed-in-last-weeks-india-clashes/a-72528430)\n\nThis summary provides a detailed outlook on the recent events and tensions between India and Pakistan.",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "India",
+                "Pakistan"
+              ],
+              "result_requirement": "Recent events and tensions between India and Pakistan",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "0.95",
+              "reasoning": "Previous query regarding recent events between India and Pakistan is very similar to the current one.",
+              "local_reasoning": "The memory excerpt provides detailed information about recent tensions, including military strikes, ceasefire violations, and the Pahalgam incident.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "In May 2025, tensions between India and Pakistan escalated following a missile attack by India in response to the Pahalgam incident. Both sides reported casualties from military strikes and accused each other of violating a ceasefire agreement brokered by the U.S.",
+              "route": "summarize",
+              "instruction_to_summarize": "Summarize recent events and tensions between India and Pakistan, including key incidents such as the Pahalgam incident and military responses. Include casualty reports and details about any ceasefires in markdown format."
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        }
+      ],
+      "links": []
+    }
+  },
+  "session": {
+    "session_id": "008bbb4d-b2f6-4f80-be87-cea0651c12cd",
+    "original_query": "Query 1: What is happening between India and Pakistan recently?",
+    "perception_snapshots": [
+      {
+        "run_id": "008bbb4d-b2f6-4f80-be87-cea0651c12cd-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "India",
+          "Pakistan"
+        ],
+        "result_requirement": "Recent events and tensions between India and Pakistan",
+        "original_goal_achieved": true,
+        "reasoning": "Previous query regarding recent events between India and Pakistan is very similar to the current one.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The memory excerpt provides detailed information about recent tensions, including military strikes, ceasefire violations, and the Pahalgam incident.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "In May 2025, tensions between India and Pakistan escalated following a missile attack by India in response to the Pahalgam incident. Both sides reported casualties from military strikes and accused each other of violating a ceasefire agreement brokered by the U.S.",
+        "confidence": "0.95",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [],
+    "execution_snapshots": [],
+    "summarizer_snapshots": [
+      {
+        "run_id": "18262376-0e9c-47ac-8bc3-944e40f8c87a",
+        "input": {
+          "original_query": "Query 1: What is happening between India and Pakistan recently?",
+          "globals_schema": {
+            "memory": [
+              {
+                "score": 183.49514563106794,
+                "session_id": "66e3fbda-81b1-49ee-b802-eab9531d554f",
+                "original_query": "Query 1: What happened between India and Pakistan last week?",
+                "summary_output": "In May 2025, tensions between **India** and **Pakistan** escalated, involving exchanged fire following India's missile attack on Pakistan. The attack was a response to the **Pahalgam incident** in April, where 26 people died in Indian-controlled Kashmir; India blamed Pakistan for the incident, a claim Pakistan denies.\n\nKey events:\n\n*   **Military Strikes:** India claimed its strikes inside Pakistan killed over 100 militants. Pakistan reported that Indian strikes killed 51 people (40 civilians, 11 armed forces) last week, a rise from a previous toll of 33 civilians. India reported casualties of at least 5 military personnel and 16 civilians. India stated it targeted \"terrorist infrastructure\" in Pakistan and Pakistan-administered Kashmir.\n*   **Ceasefire and Violations:** A ceasefire was brokered by the U.S., according to Secretary of State Marco Rubio. However, both sides accused each other of violating the agreement.\n*   **Kashmir Conflict:** The conflict is rooted in the 1947 independence and centers on Kashmir.\n\n\ud83d\udd17 Sources:\n\n*   [AP News](https://apnews.com/article/pakistan-india-ceasefire-kashmir-6fa80010fa8ffee1da1f28e7b593aa2d)\n*   [ABC News](https://abcnews.go.com/International/india-pakistan-kashmir-conflict-threat/story?id=121656628)\n*   [National Post](https://nationalpost.com/news/world/india-pakistan-ceasefire-shelling)\n*   [Sky News](https://news.sky.com/story/india-pakistan-live-dozens-killed-as-india-launches-missile-strikes-on-pakistan-controlled-territory-13363087)\n*   [DW](https://www.dw.com/en/pakistan-says-over-50-killed-in-last-weeks-india-clashes/a-72528430)",
+                "timestamp": "2025-05-19T10:52:16Z"
+              },
+              {
+                "score": 170.7317073170732,
+                "session_id": "ebbd1bb6-e63f-4d33-b2aa-729f27c66722",
+                "original_query": "Query 1: How are the current relations between India and Afghanistan?\nResponse 1: Following the Jaishankar-Muttaqi conversation, India is planning \"bold moves\" to strengthen relations with Taliban-ruled Afghanistan, including potential humanitarian aid for Afghan refugees repatriated by Pakistan. India will deepen direct humanitarian support to Afghanistan, considering requests raised by Muttaqi with Foreign Secretary Misri in Dubai on January 8, 2025. India attaches significance to the Jaishankar-Muttaqi conversation amid Muttaqi's upcoming visit to Iran and China. Discussions included cooperation on the Chabahar port, especially given India's ban on trade via Pakistan. Muttaqi's visit is part of Afghanistan's \"active foreign policy.\" Despite lacking formal recognition, India is willing to do \"whatever is necessary\" regarding the Taliban, increasing exchanges since the 2021 overthrow of President Ashraf Ghani's government.\n\nMore information is available at [The Hindu](https://www.thehindu.com/news/national/india-to-make-a-bold-move-on-afghanistan/article69584396.ece).\nQuery 2: How are the current relations between India and Netherlands? Give me a detailed outlook.",
+                "summary_output": "## Current Relations Between India and Afghanistan & India and Netherlands\n\nHere's a detailed outlook on the current relations between India and Afghanistan, as well as India and the Netherlands, based on recent information.\n\n### India-Afghanistan Relations\n\nFollowing the Jaishankar-Muttaqi conversation, India is reportedly planning \"bold moves\" to strengthen relations with Taliban-ruled Afghanistan. This includes potential humanitarian aid for Afghan refugees repatriated by Pakistan. India is considering requests raised by Muttaqi with Foreign Secretary Misri in Dubai on January 8, 2025, and will deepen direct humanitarian support.\n\n*   India attaches significance to the Jaishankar-Muttaqi conversation amid Muttaqi's upcoming visit to Iran and China.\n*   Discussions included cooperation on the Chabahar port, especially given India's ban on trade via Pakistan.\n*   Muttaqi's visit is part of Afghanistan's \"active foreign policy.\"\n*   Despite lacking formal recognition, India is willing to do \"whatever is necessary\" regarding the Taliban, increasing exchanges since the 2021 overthrow of President Ashraf Ghani's government.\n\nRecent news suggests an emerging dynamic in India's Afghanistan outreach. More information is available at [The Hindu](https://www.thehindu.com/news/national/india-to-make-a-bold-move-on-afghanistan/article69584396.ece). Additional coverage is available at [The Economic Times](https://economictimes.indiatimes.com/news/politics-and-nation/indias-afghanistan-outreach-points-to-emerging-dynamics/articleshow/121219628.cms), [BBC News](https://www.bbc.com/news/articles/cp8ke9e27dxo), and [India Today](https://www.indiatoday.in/the-lowdown/story/frenemies-india-afghanistan-taking-again-jaishankar-taliban-pakistan-conflict-2725710-2025-05-16).\n\n### India-Netherlands Relations\n\nFor information on India-Netherlands relations, refer to:\n\n*   [Wikipedia](https://en.wikipedia.org/wiki/India%E2%80%93Netherlands_relations)\n*   [Indian Embassy in the Netherlands](https://www.indianembassynetherlands.gov.in/page/india-netherlands-relations/)\n*   [Brief on India-Netherlands Bilateral Trade and Investment](https://www.indianembassynetherlands.gov.in/section/news/brief-on-india-netherlands-bilateral-trade-and-investment/)",
+                "timestamp": "2025-05-19T10:24:50Z"
+              },
+              {
+                "score": 166.07142857142856,
+                "session_id": "aa76146e-a902-4460-a828-513eed0dc90f",
+                "original_query": "Query 1: How are the current relations between India and Afghanistan?",
+                "summary_output": "Following the Jaishankar-Muttaqi conversation, India is planning \"bold moves\" to strengthen relations with Taliban-ruled Afghanistan, including potential humanitarian aid for Afghan refugees repatriated by Pakistan. India will deepen direct humanitarian support to Afghanistan, considering requests raised by Muttaqi with Foreign Secretary Misri in Dubai on January 8, 2025. India attaches significance to the Jaishankar-Muttaqi conversation amid Muttaqi's upcoming visit to Iran and China. Discussions included cooperation on the Chabahar port, especially given India's ban on trade via Pakistan. Muttaqi's visit is part of Afghanistan's \"active foreign policy.\" Despite lacking formal recognition, India is willing to do \"whatever is necessary\" regarding the Taliban, increasing exchanges since the 2021 overthrow of President Ashraf Ghani's government.\n\nMore information is available at [The Hindu](https://www.thehindu.com/news/national/india-to-make-a-bold-move-on-afghanistan/article69584396.ece).",
+                "timestamp": "2025-05-19T10:24:50Z"
+              }
+            ]
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "India",
+                      "Pakistan"
+                    ],
+                    "result_requirement": "Recent events and tensions between India and Pakistan",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "0.95",
+                    "reasoning": "Previous query regarding recent events between India and Pakistan is very similar to the current one.",
+                    "local_reasoning": "The memory excerpt provides detailed information about recent tensions, including military strikes, ceasefire violations, and the Pahalgam incident.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "In May 2025, tensions between India and Pakistan escalated following a missile attack by India in response to the Pahalgam incident. Both sides reported casualties from military strikes and accused each other of violating a ceasefire agreement brokered by the U.S.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Summarize recent events and tensions between India and Pakistan, including key incidents such as the Pahalgam incident and military responses. Include casualty reports and details about any ceasefires in markdown format."
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              }
+            ],
+            "links": []
+          },
+          "perception": {
+            "entities": [
+              "India",
+              "Pakistan"
+            ],
+            "result_requirement": "Recent events and tensions between India and Pakistan",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.95",
+            "reasoning": "Previous query regarding recent events between India and Pakistan is very similar to the current one.",
+            "local_reasoning": "The memory excerpt provides detailed information about recent tensions, including military strikes, ceasefire violations, and the Pahalgam incident.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "In May 2025, tensions between India and Pakistan escalated following a missile attack by India in response to the Pahalgam incident. Both sides reported casualties from military strikes and accused each other of violating a ceasefire agreement brokered by the U.S.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize recent events and tensions between India and Pakistan, including key incidents such as the Pahalgam incident and military responses. Include casualty reports and details about any ceasefires in markdown format."
+          }
+        },
+        "summary_output": "In May 2025, tensions between India and Pakistan escalated following a missile attack by India in response to the Pahalgam incident. Here are the key events:\n\n### Key Incidents:\n- **Pahalgam Incident:** The Pahalgam incident triggered the escalation of tensions.\n- **Missile Attack:** India launched missile strikes on Pakistan-controlled territory.\n\n### Casualty Reports:\n- Both sides reported casualties from military strikes:\n  - Pakistan claimed over 50 deaths due to the last week's India-Pakistan clashes.\n  - India reported several casualties but did not disclose exact figures.\n\n### Ceasefire Agreement:\n- A ceasefire agreement was brokered by the U.S., but both sides accused each other of violating it.\n\n### Sources for More Information:\n- [National Post](https://nationalpost.com/news/world/india-pakistan-ceasefire-shelling)\n- [Sky News](https://news.sky.com/story/india-pakistan-live-dozens-killed-as-india-launches-missile-strikes-on-pakistan-controlled-territory-13363087)\n- [DW](https://www.dw.com/en/pakistan-says-over-50-killed-in-last-weeks-india-clashes/a-72528430)\n\nThis summary provides a detailed outlook on the recent events and tensions between India and Pakistan.",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-23T05:16:55Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "In May 2025, tensions between India and Pakistan escalated following a missile attack by India in response to the Pahalgam incident. Here are the key events:\n\n### Key Incidents:\n- **Pahalgam Incident:** The Pahalgam incident triggered the escalation of tensions.\n- **Missile Attack:** India launched missile strikes on Pakistan-controlled territory.\n\n### Casualty Reports:\n- Both sides reported casualties from military strikes:\n  - Pakistan claimed over 50 deaths due to the last week's India-Pakistan clashes.\n  - India reported several casualties but did not disclose exact figures.\n\n### Ceasefire Agreement:\n- A ceasefire agreement was brokered by the U.S., but both sides accused each other of violating it.\n\n### Sources for More Information:\n- [National Post](https://nationalpost.com/news/world/india-pakistan-ceasefire-shelling)\n- [Sky News](https://news.sky.com/story/india-pakistan-live-dozens-killed-as-india-launches-missile-strikes-on-pakistan-controlled-territory-13363087)\n- [DW](https://www.dw.com/en/pakistan-says-over-50-killed-in-last-weeks-india-clashes/a-72528430)\n\nThis summary provides a detailed outlook on the recent events and tensions between India and Pakistan.",
+    "status": "success",
+    "completed_at": "2025-05-23T05:19:37.964151"
+  },
+  "status": "success",
+  "final_step_id": "ROOT",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-23T05:19:37.966231",
+  "original_query": "Query 1: What is happening between India and Pakistan recently?",
+  "final_summary": "In May 2025, tensions between India and Pakistan escalated following a missile attack by India in response to the Pahalgam incident. Here are the key events:\n\n### Key Incidents:\n- **Pahalgam Incident:** The Pahalgam incident triggered the escalation of tensions.\n- **Missile Attack:** India launched missile strikes on Pakistan-controlled territory.\n\n### Casualty Reports:\n- Both sides reported casualties from military strikes:\n  - Pakistan claimed over 50 deaths due to the last week's India-Pakistan clashes.\n  - India reported several casualties but did not disclose exact figures.\n\n### Ceasefire Agreement:\n- A ceasefire agreement was brokered by the U.S., but both sides accused each other of violating it.\n\n### Sources for More Information:\n- [National Post](https://nationalpost.com/news/world/india-pakistan-ceasefire-shelling)\n- [Sky News](https://news.sky.com/story/india-pakistan-live-dozens-killed-as-india-launches-missile-strikes-on-pakistan-controlled-territory-13363087)\n- [DW](https://www.dw.com/en/pakistan-says-over-50-killed-in-last-weeks-india-clashes/a-72528430)\n\nThis summary provides a detailed outlook on the recent events and tensions between India and Pakistan."
+}

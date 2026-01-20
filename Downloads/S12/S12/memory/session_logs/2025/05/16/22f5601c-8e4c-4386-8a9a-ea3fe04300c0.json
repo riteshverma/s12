@@ -1,0 +1,42 @@
+{
+  "session_id": "22f5601c-8e4c-4386-8a9a-ea3fe04300c0",
+  "original_query": "What is 4 + 4?",
+  "globals": {},
+  "memory": [],
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "data": {
+          "index": "ROOT",
+          "description": "initial query",
+          "type": "ROOT",
+          "status": "completed",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "4 + 4"
+            ],
+            "result_requirement": "The result of the addition of 4 and 4",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "1.0",
+            "reasoning": "The original query is a simple arithmetic question that can be immediately answered.",
+            "local_reasoning": "The query directly asks for the sum of 4 and 4.",
+            "last_tooluse_summary": "Not applicable",
+            "summarizer_summary": "8",
+            "route": "summarize",
+            "instruction_to_summarize": "Provide the answer to the question \"What is 4 + 4?\" in a plain language format. The answer is 8."
+          },
+          "from_step": null
+        },
+        "id": "ROOT"
+      }
+    ],
+    "links": []
+  }
+}

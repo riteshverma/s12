@@ -1,0 +1,125 @@
+{
+  "session_id": "d62e3535-e321-4fac-895c-c2e92078f40b",
+  "original_query": "Query 1: How are current relations between India and azerbaijan?",
+  "globals": {
+    "search_results": "Found 5 search results:\n\n1. Indians sour on Turkey, Azerbaijan after conflict | Latest News India ...\n   URL: https://www.hindustantimes.com/india-news/indians-sour-on-turkey-azerbaijan-after-conflict-101747250696478.html\n   Summary: India'srelationswithAzerbaijanand Turkey are facing significant strain in the aftermath ofNewDelhi's military confrontation with Pakistan | LatestNewsIndia\n\n2. Explained: India's Trade Ties With Turkey And Azerbaijan Amid Pak Conflict\n   URL: https://www.ndtv.com/world-news/india-pakistan-tensions-explained-indias-trade-ties-with-turkey-and-azerbaijan-amid-pakistan-conflict-8410441\n   Summary: In fact, Indian traders too have started boycotting Turkish products such as apples and marble.India'straderelationswith Turkey andAzerbaijanare expected to come under strain due to Ankara ...\n\n3. Turkey, Azerbaijan Face Indian Boycott After Backing Pakistan ... - News18\n   URL: https://www.news18.com/india/indians-boycott-trade-tourism-turkey-azerbaijan-operation-sindoor-pakistan-terrorism-ws-l-9335478.html\n   Summary: 'Operation Sindoor' has become a defining moment not only forIndia-Pakistan ties, but also forIndia'srelationswith Turkey andAzerbaijan, as a massive 'Boycott Turkey andAzerbaijan'movement has gained momentum in the country, with prominent Indian businesses and even politicians voicing support. ... Stay informed with the latest ...\n\n4. Amid BoycottTurkey, BoycottAzerbaijan Calls; Here's Looking ... - Zee News\n   URL: https://zeenews.india.com/economy/amid-boycottturkey-boycottazerbaijan-calls-heres-looking-at-indias-trade-relations-with-both-countries-2901246.html\n   Summary: During the year,India'simport fromAzerbaijanwere US$ 1.235 billion and exports were US$ 201 million.India'sexports toAzerbaijanwas at USD 86.07 million during April-February 2024-2025 as against USD 89.67 million in 2023-2024.India'sImports fromAzerbaijanstood at USD 1.93 million during April-February 2024-25 as compared to USD 0. ...\n\n5. Explainer: India's trade relations with Turkey, Azerbaijan and how it ...\n   URL: https://timesofindia.indiatimes.com/business/india-business/explainer-indias-trade-relations-with-turkey-azerbaijan-and-how-it-may-be-affected-after-pakistan-conflict/articleshow/121166804.cms\n   Summary: India-AzerbaijanTrade:Indiaimported goods worth $2.84 billion from Turkiye between April and February 2024-25, down from $3.78 billion in 2023-24. This makes up about 0.5% ofIndia'stotal ...\n"
+  },
+  "memory": [],
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "data": {
+          "index": "ROOT",
+          "description": "initial query",
+          "type": "ROOT",
+          "status": "completed",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "India",
+              "Azerbaijan",
+              "current relations"
+            ],
+            "result_requirement": "Summary of current relations between India and Azerbaijan",
+            "original_goal_achieved": false,
+            "local_goal_achieved": true,
+            "confidence": "0.8",
+            "reasoning": "The query requires gathering information about current relations between India and Azerbaijan, which is not readily available in memory or globals. Requires external search.",
+            "local_reasoning": "The query is well-defined but needs external data to fulfill the request.",
+            "last_tooluse_summary": "Not applicable",
+            "summarizer_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "from_step": null
+        },
+        "id": "ROOT"
+      },
+      {
+        "data": {
+          "index": "0",
+          "description": "Search for recent news articles on India-Azerbaijan relations.",
+          "type": "CODE",
+          "status": "completed",
+          "result": {
+            "search_results": "Found 5 search results:\n\n1. Indians sour on Turkey, Azerbaijan after conflict | Latest News India ...\n   URL: https://www.hindustantimes.com/india-news/indians-sour-on-turkey-azerbaijan-after-conflict-101747250696478.html\n   Summary: India'srelationswithAzerbaijanand Turkey are facing significant strain in the aftermath ofNewDelhi's military confrontation with Pakistan | LatestNewsIndia\n\n2. Explained: India's Trade Ties With Turkey And Azerbaijan Amid Pak Conflict\n   URL: https://www.ndtv.com/world-news/india-pakistan-tensions-explained-indias-trade-ties-with-turkey-and-azerbaijan-amid-pakistan-conflict-8410441\n   Summary: In fact, Indian traders too have started boycotting Turkish products such as apples and marble.India'straderelationswith Turkey andAzerbaijanare expected to come under strain due to Ankara ...\n\n3. Turkey, Azerbaijan Face Indian Boycott After Backing Pakistan ... - News18\n   URL: https://www.news18.com/india/indians-boycott-trade-tourism-turkey-azerbaijan-operation-sindoor-pakistan-terrorism-ws-l-9335478.html\n   Summary: 'Operation Sindoor' has become a defining moment not only forIndia-Pakistan ties, but also forIndia'srelationswith Turkey andAzerbaijan, as a massive 'Boycott Turkey andAzerbaijan'movement has gained momentum in the country, with prominent Indian businesses and even politicians voicing support. ... Stay informed with the latest ...\n\n4. Amid BoycottTurkey, BoycottAzerbaijan Calls; Here's Looking ... - Zee News\n   URL: https://zeenews.india.com/economy/amid-boycottturkey-boycottazerbaijan-calls-heres-looking-at-indias-trade-relations-with-both-countries-2901246.html\n   Summary: During the year,India'simport fromAzerbaijanwere US$ 1.235 billion and exports were US$ 201 million.India'sexports toAzerbaijanwas at USD 86.07 million during April-February 2024-2025 as against USD 89.67 million in 2023-2024.India'sImports fromAzerbaijanstood at USD 1.93 million during April-February 2024-25 as compared to USD 0. ...\n\n5. Explainer: India's trade relations with Turkey, Azerbaijan and how it ...\n   URL: https://timesofindia.indiatimes.com/business/india-business/explainer-indias-trade-relations-with-turkey-azerbaijan-and-how-it-may-be-affected-after-pakistan-conflict/articleshow/121166804.cms\n   Summary: India-AzerbaijanTrade:Indiaimported goods worth $2.84 billion from Turkiye between April and February 2024-25, down from $3.78 billion in 2023-24. This makes up about 0.5% ofIndia'stotal ...\n"
+          },
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "India",
+              "Azerbaijan",
+              "relations",
+              "trade",
+              "boycott",
+              "Pakistan",
+              "Turkey"
+            ],
+            "result_requirement": "Summary of current relations between India and Azerbaijan",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.9",
+            "reasoning": "The search results provide enough information to summarize the current relations between India and Azerbaijan, including the impact of the India-Pakistan conflict and boycotts. Relations are strained.",
+            "local_reasoning": "The search tool successfully returned relevant results. The summaries contain specific details about trade relations and the impact of external events.",
+            "last_tooluse_summary": "Search tool for India-Azerbaijan relations succeeded.",
+            "summarizer_summary": "Relations between India and Azerbaijan are strained due to the India-Pakistan conflict and subsequent boycotts. Trade relations are also affected.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize the current relations between India and Azerbaijan, focusing on the impact of the India-Pakistan conflict, trade relations, and any boycotts. Use the information from the search results. Give the relevant trade figures. Format in markdown."
+          },
+          "from_step": "ROOT"
+        },
+        "id": "0"
+      },
+      {
+        "data": {
+          "index": "1",
+          "description": "Extract relevant information from the search results.",
+          "type": "CODE",
+          "status": "pending",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "ROOT"
+        },
+        "id": "1"
+      },
+      {
+        "data": {
+          "index": "2",
+          "description": "Summarize the extracted information to provide an overview of current relations.",
+          "type": "CODE",
+          "status": "pending",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "ROOT"
+        },
+        "id": "2"
+      }
+    ],
+    "links": [
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "0"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "1"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "2"
+      }
+    ]
+  }
+}

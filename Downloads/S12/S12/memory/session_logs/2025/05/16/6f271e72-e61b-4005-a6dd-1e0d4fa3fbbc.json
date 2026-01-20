@@ -1,0 +1,134 @@
+{
+  "session_id": "6f271e72-e61b-4005-a6dd-1e0d4fa3fbbc",
+  "original_query": "Query 1: How are current relations between India and azerbaijan?\nResponse 1: India and Azerbaijan share warm relations rooted in civilizational linkages, cultural affinities, and shared values. Economically, India is Azerbaijan's seventh-largest trading partner, with bilateral trade reaching US$ 1.435 billion in 2023. The relationship also has historical connections, evidenced by the Ateshgah fire temple near Baku, which features Devanagari and Gurmukhi inscriptions.\nQuery 2: when did either of them got independence?",
+  "globals": {
+    "india_independence_search_results": "Found 1 search results:\n\n1. Indian independence movement - Wikipedia\n   URL: https://en.wikipedia.org/wiki/Indian_independence_movement\n   Summary: The Indianindependencemovement was a series of historic events in South Asia with the ultimate aim of ending British colonial rule.It lasted until 1947, when the IndianIndependenceAct 1947 was passed.. The first nationalistic movement took root in the newly formed Indian National Congress with prominent moderate leaders seeking the right to appear for Indian Civil Service examinations in ...\n",
+    "azerbaijan_independence_search_results": "Found 1 search results:\n\n1. Independence Day (Azerbaijan) - Wikipedia\n   URL: https://en.wikipedia.org/wiki/Independence_Day_(Azerbaijan)\n   Summary: A ceremony held on Istiglaliyyat Street in 2019..IndependenceDay (Azerbaijani: M\u00fcst\u0259qillik G\u00fcn\u00fc) honors thedateon which theAzerbaijanDemocratic Republic (ADR) was founded as the first secular democratic state in the Muslim East: 28 May 1918. Since 1990, Republic Day is celebrated as a national holiday inAzerbaijan. [1]Until 2021, it was marked as Republic Day.\n"
+  },
+  "memory": [],
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "data": {
+          "index": "ROOT",
+          "description": "initial query",
+          "type": "ROOT",
+          "status": "completed",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "India",
+              "Azerbaijan",
+              "current relations",
+              "independence"
+            ],
+            "result_requirement": "Summary of current relations between India and Azerbaijan and their independence dates.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": true,
+            "confidence": "0.8",
+            "reasoning": "The first part of the query regarding current relations has been answered in the raw input. However, the second part regarding independence dates requires further information retrieval.",
+            "local_reasoning": "The raw input directly provides information on the current relations but does not include independence dates.",
+            "last_tooluse_summary": "Not applicable",
+            "summarizer_summary": "Current relations between India and Azerbaijan are warm, rooted in civilizational linkages, cultural affinities, and shared values. India is Azerbaijan's seventh-largest trading partner, with bilateral trade reaching US$ 1.435 billion in 2023.",
+            "route": "decision"
+          },
+          "from_step": null
+        },
+        "id": "ROOT"
+      },
+      {
+        "data": {
+          "index": "0",
+          "description": "Find the independence date of Azerbaijan.",
+          "type": "CODE",
+          "status": "completed",
+          "result": {
+            "azerbaijan_independence_search_results": "Found 1 search results:\n\n1. Independence Day (Azerbaijan) - Wikipedia\n   URL: https://en.wikipedia.org/wiki/Independence_Day_(Azerbaijan)\n   Summary: A ceremony held on Istiglaliyyat Street in 2019..IndependenceDay (Azerbaijani: M\u00fcst\u0259qillik G\u00fcn\u00fc) honors thedateon which theAzerbaijanDemocratic Republic (ADR) was founded as the first secular democratic state in the Muslim East: 28 May 1918. Since 1990, Republic Day is celebrated as a national holiday inAzerbaijan. [1]Until 2021, it was marked as Republic Day.\n"
+          },
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "India",
+              "Azerbaijan",
+              "relations",
+              "independence dates"
+            ],
+            "result_requirement": "Summary of current relations between India and Azerbaijan, including their independence dates.",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.95",
+            "reasoning": "The raw input and global schema contain information about the current relations between India and Azerbaijan, as well as their respective independence dates. The original query has been fully addressed.",
+            "local_reasoning": "Tool results provided summaries including independence dates for both countries. The initial query about the relations was also addressed initially.",
+            "last_tooluse_summary": "Web searches for India and Azerbaijan independence dates succeeded.",
+            "summarizer_summary": "India and Azerbaijan share warm relations. India is Azerbaijan's seventh-largest trading partner. Azerbaijan's independence day is celebrated on May 28, commemorating the founding of the Azerbaijan Democratic Republic in 1918. India's independence was achieved in 1947.",
+            "route": "summarize",
+            "instruction_to_summarize": "Create a user-friendly summary of the relations between India and Azerbaijan, including the date each country gained independence. Use information from the 'raw_input' field (specifically the search results) and the first part of the 'original_query' response.  Format the output in markdown."
+          },
+          "from_step": "0"
+        },
+        "id": "0"
+      },
+      {
+        "data": {
+          "index": "1",
+          "description": "Summarize the current relations between India and Azerbaijan and their independence dates.",
+          "type": "CODE",
+          "status": "pending",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "0"
+        },
+        "id": "1"
+      },
+      {
+        "data": {
+          "index": "2",
+          "description": "Combine information about current relations, India's independence date, and Azerbaijan's independence date into a summary.",
+          "type": "CODE",
+          "status": "pending",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "ROOT"
+        },
+        "id": "2"
+      }
+    ],
+    "links": [
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "0"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "1"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "2"
+      },
+      {
+        "type": "normal",
+        "source": "0",
+        "target": "0"
+      },
+      {
+        "type": "normal",
+        "source": "0",
+        "target": "1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1091 @@
+{
+  "context": {
+    "session_id": "2bae2597-ebdb-4943-ad61-956367509ae0",
+    "original_query": "Query 1: How are the current relations between India and Vietnam? Specially militarily.",
+    "globals": {
+      "memory": [
+        {
+          "score": 188.67924528301887,
+          "session_id": "aa76146e-a902-4460-a828-513eed0dc90f",
+          "original_query": "Query 1: How are the current relations between India and Afghanistan?",
+          "summary_output": "Following the Jaishankar-Muttaqi conversation, India is planning \"bold moves\" to strengthen relations with Taliban-ruled Afghanistan, including potential humanitarian aid for Afghan refugees repatriated by Pakistan. India will deepen direct humanitarian support to Afghanistan, considering requests raised by Muttaqi with Foreign Secretary Misri in Dubai on January 8, 2025. India attaches significance to the Jaishankar-Muttaqi conversation amid Muttaqi's upcoming visit to Iran and China. Discussions included cooperation on the Chabahar port, especially given India's ban on trade via Pakistan. Muttaqi's visit is part of Afghanistan's \"active foreign policy.\" Despite lacking formal recognition, India is willing to do \"whatever is necessary\" regarding the Taliban, increasing exchanges since the 2021 overthrow of President Ashraf Ghani's government.\n\nMore information is available at [The Hindu](https://www.thehindu.com/news/national/india-to-make-a-bold-move-on-afghanistan/article69584396.ece).",
+          "timestamp": "2025-05-19T10:24:50Z"
+        },
+        {
+          "score": 188.67924528301887,
+          "session_id": "5c95253d-0fd3-41c4-9a90-836057b2cbb2",
+          "original_query": "Query 1: How are the current relations between India and Afghanistan?",
+          "summary_output": "I was unable to retrieve information about the current relations between India and Afghanistan. The initial web search failed due to an encoding error, which prevented the tool from correctly interpreting the search results. As a result, any subsequent steps that depended on this initial search, such as analyzing government reports or news articles, were also unsuccessful. The memory contains information about India-Bhutan relations, which is not relevant to your query. The tool failure was caused by a \"charmap\" codec error, indicating a problem with character encoding during the web search process.",
+          "timestamp": "2025-05-19T10:19:46Z"
+        },
+        {
+          "score": 182.97872340425533,
+          "session_id": "fc5367ee-de63-4d80-8aa7-373de6cb014e",
+          "original_query": "Query 1: How are the military relations between India and Bhutan?",
+          "summary_output": "India and Bhutan share a special relationship characterized by India's influence on Bhutan's foreign policy, defense, and commerce. A key component of their military relations is the Indian Military Training Team (IMTRAT), where India maintains a 2,000-strong presence in Bhutan to train the Royal Bhutan Army. Security cooperation is a vital aspect of the India-Bhutan relationship.",
+          "timestamp": "2025-05-18T04:43:09Z"
+        }
+      ],
+      "search_results_0A": [
+        "https://en.wikipedia.org/wiki/India%E2%80%93Vietnam_relations",
+        "https://visionias.in/current-affairs/monthly-magazine/2024-09-12/international-relations/india-vietnam-relation",
+        "https://www.indembassyhanoi.gov.in/page/bilateral-relations/",
+        "https://www.iasgyan.in/daily-current-affairs/india-vietnam-relations-48",
+        "https://asia.nikkei.com/Politics/International-relations/India-and-Vietnam-to-enhance-defense-cooperation"
+      ],
+      "summary_list_1A": [
+        [
+          {
+            "type": "text",
+            "text": "India and Vietnam have strong military relations characterized by:\n\n*   **Defense cooperation:** Including the sale of military equipment, intelligence sharing, joint naval exercises, and training in counterinsurgency and jungle warfare.\n*   **Goodwill visits:** India regularly sends warships to Vietnamese seas.\n*   **Strategic Partnership:** Bilateral relations were elevated to this level in 2007, further solidifying their military ties.",
+            "annotations": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "I am sorry, but the provided text focuses on the Vision IAS website and its content offerings (current affairs, magazines, etc.) and does not contain any information about military relations between India and Vietnam. Therefore, I cannot provide a summary of their military relations based on this text.",
+            "annotations": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "I'm sorry, but the document you provided focuses on general bilateral relations between India and Vietnam. It mentions high-level visits, development partnerships, cultural exchanges, and economic ties. However, it **doesn't specifically detail military relations** between the two countries. Therefore, I cannot provide a summary of their military relations based solely on this text.",
+            "annotations": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "The military relations between India and Vietnam are strengthening, with a focus on emerging areas such as cyber security, information security, and military medicine. The 14th India-Vietnam Defence Policy Dialogue in August 2024 highlighted this progress. Key aspects include:\n\n*   **Joint Vision Statement 2030:** A significant agreement signed in June 2022 to advance defense relations.\n*   **Vietnam's Focus:** Delegation exchanges, staff talks, service-to-service cooperation, education and training, and defence industry collaboration.\n*   **India's Proposal:** Cooperation in cyber security, information security, military medicine, and submarine search and rescue.\n*   **Defence Industry:** India aims to contribute to Vietnam's defence capabilities through its domestic defence industry.\n*   **Training:** A Letter of Intent was signed to increase cooperation in training, including exchange of instructors and experts.",
+            "annotations": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "The provided text only mentions that India and Vietnam are looking to enhance defense cooperation and that the Vietnamese Prime Minister visited India for this purpose. It doesn't specify the details of the existing or planned cooperation.",
+            "annotations": null
+          }
+        ]
+      ]
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: How are the current relations between India and Vietnam? Specially militarily.",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "## Current Military Relations Between India and Vietnam\n\nIndia and Vietnam share strong military relations characterized by ongoing defense cooperation. This includes:\n\n*   Sale of military equipment\n*   Intelligence sharing\n*   Joint naval exercises\n*   Training in counterinsurgency and jungle warfare\n\nIndia frequently sends warships on goodwill visits to Vietnamese seas. The bilateral relationship was elevated to a Strategic Partnership in 2007, further solidifying their military ties.\n\nEmerging areas of cooperation include:\n\n*   Cyber security\n*   Information security\n*   Military medicine\n\nThe 14th India-Vietnam Defence Policy Dialogue in August 2024 highlighted progress in these areas. The **Joint Vision Statement 2030**, signed in June 2022, is a significant agreement to advance defense relations. India aims to contribute to Vietnam's defense capabilities through its domestic defense industry. A Letter of Intent was signed to increase cooperation in training, including exchange of instructors and experts.\n\n\ud83d\udd17 [India-Vietnam Relations - Wikipedia](https://en.wikipedia.org/wiki/India%E2%80%93Vietnam_relations)\n\ud83d\udd17 [India-Vietnam Relations - IASGYAN](https://www.iasgyan.in/daily-current-affairs/india-vietnam-relations-48)",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "India",
+                "Vietnam",
+                "military relations"
+              ],
+              "result_requirement": "Description of current India-Vietnam relations, focusing on military aspects",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.85",
+              "reasoning": "The query asks about current India-Vietnam relations, specifically military relations. There is no readily available information in memory or globals to answer this question directly. Therefore, further planning and tool use is needed to gather relevant information.",
+              "local_reasoning": "The query requires external information about the current relationship between India and Vietnam, especially their military ties. Since this information is not available in the current context, it's necessary to proceed to the decision-making stage to formulate a plan to obtain it.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Search for recent news articles about India-Vietnam relations, focusing on military aspects.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "search_results_0A": [
+                "https://en.wikipedia.org/wiki/India%E2%80%93Vietnam_relations",
+                "https://visionias.in/current-affairs/monthly-magazine/2024-09-12/international-relations/india-vietnam-relation",
+                "https://www.indembassyhanoi.gov.in/page/bilateral-relations/",
+                "https://www.iasgyan.in/daily-current-affairs/india-vietnam-relations-48",
+                "https://asia.nikkei.com/Politics/International-relations/India-and-Vietnam-to-enhance-defense-cooperation"
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "India",
+                "Vietnam",
+                "military relations"
+              ],
+              "result_requirement": "Description of current India-Vietnam relations, focusing on military aspects",
+              "original_goal_achieved": false,
+              "local_goal_achieved": true,
+              "confidence": "0.9",
+              "reasoning": "A web search was performed and links to relevant articles about India-Vietnam relations were found. The next step should be to extract and summarize the information from these links, particularly focusing on military relations.",
+              "local_reasoning": "The search results provide potential sources of information about the India-Vietnam relationship. The tool successfully returned relevant URLs.",
+              "last_tooluse_summary": "Web search for India-Vietnam military relations succeeded, returning multiple URLs.",
+              "solution_summary": "Not ready yet. Requires summarization of search results.",
+              "route": "decision"
+            },
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        },
+        {
+          "data": {
+            "index": "1",
+            "description": "Extract and summarize the content of the identified URLs, focusing on military cooperation and relations.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "summary_list_1A": [
+                [
+                  {
+                    "type": "text",
+                    "text": "India and Vietnam have strong military relations characterized by:\n\n*   **Defense cooperation:** Including the sale of military equipment, intelligence sharing, joint naval exercises, and training in counterinsurgency and jungle warfare.\n*   **Goodwill visits:** India regularly sends warships to Vietnamese seas.\n*   **Strategic Partnership:** Bilateral relations were elevated to this level in 2007, further solidifying their military ties.",
+                    "annotations": null
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "I am sorry, but the provided text focuses on the Vision IAS website and its content offerings (current affairs, magazines, etc.) and does not contain any information about military relations between India and Vietnam. Therefore, I cannot provide a summary of their military relations based on this text.",
+                    "annotations": null
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "I'm sorry, but the document you provided focuses on general bilateral relations between India and Vietnam. It mentions high-level visits, development partnerships, cultural exchanges, and economic ties. However, it **doesn't specifically detail military relations** between the two countries. Therefore, I cannot provide a summary of their military relations based solely on this text.",
+                    "annotations": null
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "The military relations between India and Vietnam are strengthening, with a focus on emerging areas such as cyber security, information security, and military medicine. The 14th India-Vietnam Defence Policy Dialogue in August 2024 highlighted this progress. Key aspects include:\n\n*   **Joint Vision Statement 2030:** A significant agreement signed in June 2022 to advance defense relations.\n*   **Vietnam's Focus:** Delegation exchanges, staff talks, service-to-service cooperation, education and training, and defence industry collaboration.\n*   **India's Proposal:** Cooperation in cyber security, information security, military medicine, and submarine search and rescue.\n*   **Defence Industry:** India aims to contribute to Vietnam's defence capabilities through its domestic defence industry.\n*   **Training:** A Letter of Intent was signed to increase cooperation in training, including exchange of instructors and experts.",
+                    "annotations": null
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "The provided text only mentions that India and Vietnam are looking to enhance defense cooperation and that the Vietnamese Prime Minister visited India for this purpose. It doesn't specify the details of the existing or planned cooperation.",
+                    "annotations": null
+                  }
+                ]
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "India",
+                "Vietnam",
+                "military relations",
+                "defense cooperation",
+                "cyber security",
+                "information security",
+                "military medicine"
+              ],
+              "result_requirement": "Summary of current India-Vietnam military relations including specific areas of cooperation.",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "0.95",
+              "reasoning": "The tool has successfully extracted and summarized information about India-Vietnam military relations from multiple sources. The summaries cover various aspects of their cooperation, including defense, cybersecurity, and training. The original query is now satisfied.",
+              "local_reasoning": "The last step provided a list of summaries, which together provide a comprehensive overview of the military relationship. This fulfills the original query's requirement.",
+              "last_tooluse_summary": "Extracted and summarized content from multiple URLs, focusing on India-Vietnam military relations. Some links did not contain relevant information.",
+              "solution_summary": "India and Vietnam have strong military relations characterized by defense cooperation (including military equipment sales, intelligence sharing, joint naval exercises, and training). Emerging areas of cooperation include cyber security, information security, and military medicine, highlighted by the 14th India-Vietnam Defence Policy Dialogue in August 2024. A Joint Vision Statement 2030, signed in June 2022, further advances defense relations.",
+              "route": "summarize",
+              "instruction_to_summarize": "Create a user-facing summary of the current military relations between India and Vietnam. Include details about defense cooperation, intelligence sharing, joint exercises, training, and emerging areas such as cyber security, information security, and military medicine. Mention the Joint Vision Statement 2030 and the 14th India-Vietnam Defence Policy Dialogue. Summarize in markdown format."
+            },
+            "from_step": "1"
+          },
+          "id": "1"
+        },
+        {
+          "data": {
+            "index": "2",
+            "description": "Synthesize the extracted information to provide a concise overview of current India-Vietnam military relations.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "1"
+          },
+          "id": "2"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "2"
+        },
+        {
+          "type": "normal",
+          "source": "1",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "1",
+          "target": "2"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "2bae2597-ebdb-4943-ad61-956367509ae0",
+    "original_query": "Query 1: How are the current relations between India and Vietnam? Specially militarily.",
+    "perception_snapshots": [
+      {
+        "run_id": "2bae2597-ebdb-4943-ad61-956367509ae0-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "India",
+          "Vietnam",
+          "military relations"
+        ],
+        "result_requirement": "Description of current India-Vietnam relations, focusing on military aspects",
+        "original_goal_achieved": false,
+        "reasoning": "The query asks about current India-Vietnam relations, specifically military relations. There is no readily available information in memory or globals to answer this question directly. Therefore, further planning and tool use is needed to gather relevant information.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The query requires external information about the current relationship between India and Vietnam, especially their military ties. Since this information is not available in the current context, it's necessary to proceed to the decision-making stage to formulate a plan to obtain it.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.85",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "2bae2597-ebdb-4943-ad61-956367509ae0-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "India",
+          "Vietnam",
+          "military relations"
+        ],
+        "result_requirement": "Description of current India-Vietnam relations, focusing on military aspects",
+        "original_goal_achieved": false,
+        "reasoning": "A web search was performed and links to relevant articles about India-Vietnam relations were found. The next step should be to extract and summarize the information from these links, particularly focusing on military relations.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The search results provide potential sources of information about the India-Vietnam relationship. The tool successfully returned relevant URLs.",
+        "last_tooluse_summary": "Web search for India-Vietnam military relations succeeded, returning multiple URLs.",
+        "solution_summary": "Not ready yet. Requires summarization of search results.",
+        "confidence": "0.9",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "2bae2597-ebdb-4943-ad61-956367509ae0-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "India",
+          "Vietnam",
+          "military relations",
+          "defense cooperation",
+          "cyber security",
+          "information security",
+          "military medicine"
+        ],
+        "result_requirement": "Summary of current India-Vietnam military relations including specific areas of cooperation.",
+        "original_goal_achieved": true,
+        "reasoning": "The tool has successfully extracted and summarized information about India-Vietnam military relations from multiple sources. The summaries cover various aspects of their cooperation, including defense, cybersecurity, and training. The original query is now satisfied.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The last step provided a list of summaries, which together provide a comprehensive overview of the military relationship. This fulfills the original query's requirement.",
+        "last_tooluse_summary": "Extracted and summarized content from multiple URLs, focusing on India-Vietnam military relations. Some links did not contain relevant information.",
+        "solution_summary": "India and Vietnam have strong military relations characterized by defense cooperation (including military equipment sales, intelligence sharing, joint naval exercises, and training). Emerging areas of cooperation include cyber security, information security, and military medicine, highlighted by the 14th India-Vietnam Defence Policy Dialogue in August 2024. A Joint Vision Statement 2030, signed in June 2022, further advances defense relations.",
+        "confidence": "0.95",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "cf7cc4f0-fdb8-409e-a4c4-29bf71938ab0",
+        "input": {
+          "current_time": "2025-05-19T11:49:37.426524",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: How are the current relations between India and Vietnam? Specially militarily.",
+          "perception": {
+            "entities": [
+              "India",
+              "Vietnam",
+              "military relations"
+            ],
+            "result_requirement": "Description of current India-Vietnam relations, focusing on military aspects",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.85",
+            "reasoning": "The query asks about current India-Vietnam relations, specifically military relations. There is no readily available information in memory or globals to answer this question directly. Therefore, further planning and tool use is needed to gather relevant information.",
+            "local_reasoning": "The query requires external information about the current relationship between India and Vietnam, especially their military ties. Since this information is not available in the current context, it's necessary to proceed to the decision-making stage to formulate a plan to obtain it.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "Vietnam",
+                  "military relations"
+                ],
+                "result_requirement": "Description of current India-Vietnam relations, focusing on military aspects",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.85",
+                "reasoning": "The query asks about current India-Vietnam relations, specifically military relations. There is no readily available information in memory or globals to answer this question directly. Therefore, further planning and tool use is needed to gather relevant information.",
+                "local_reasoning": "The query requires external information about the current relationship between India and Vietnam, especially their military ties. Since this information is not available in the current context, it's necessary to proceed to the decision-making stage to formulate a plan to obtain it.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "Vietnam",
+                  "military relations"
+                ],
+                "result_requirement": "Description of current India-Vietnam relations, focusing on military aspects",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.85",
+                "reasoning": "The query asks about current India-Vietnam relations, specifically military relations. There is no readily available information in memory or globals to answer this question directly. Therefore, further planning and tool use is needed to gather relevant information.",
+                "local_reasoning": "The query requires external information about the current relationship between India and Vietnam, especially their military ties. Since this information is not available in the current context, it's necessary to proceed to the decision-making stage to formulate a plan to obtain it.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[{'score': 188.67924528301887, 'session_id': 'aa76146e-a902-4460-a828-513eed0dc90f', 'original_query': 'Query 1: How are the current relations between India and Afghanistan?', 'summary_output': 'Following the Jaishankar-Muttaqi conversation, India is planning \"bold moves\" to strengthen relations with Taliban-ruled Afghanistan, including potential humanitarian aid for Afghan refugees repatriated by Pakistan. India will deepen direct humanitarian support to Afghanistan, considering requests raised\u2026"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search for recent news articles about India-Vietnam relations, focusing on military aspects."
+              },
+              {
+                "id": "1",
+                "description": "Summarize the search results, prioritizing military cooperation and agreements."
+              },
+              {
+                "id": "2",
+                "description": "Synthesize the information and provide a concise overview of current India-Vietnam military relations."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              },
+              {
+                "from": "1",
+                "to": "2",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "search_results_0A = web_search_urls(\"India Vietnam military relations\", 5)\nreturn {\"search_results_0A\": search_results_0A}",
+            "CODE_0B": "search_results_0B = web_search_urls(\"India Vietnam defense cooperation\", 5)\nreturn {\"search_results_0B\": search_results_0B}",
+            "CODE_0C": "search_results_0C = web_search_urls(\"India Vietnam military exercises\", 5)\nreturn {\"search_results_0C\": search_results_0C}"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search for recent news articles about India-Vietnam relations, focusing on military aspects."
+            },
+            {
+              "id": "1",
+              "description": "Summarize the search results, prioritizing military cooperation and agreements."
+            },
+            {
+              "id": "2",
+              "description": "Synthesize the information and provide a concise overview of current India-Vietnam military relations."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            },
+            {
+              "from": "1",
+              "to": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "search_results_0A = web_search_urls(\"India Vietnam military relations\", 5)\nreturn {\"search_results_0A\": search_results_0A}",
+          "CODE_0B": "search_results_0B = web_search_urls(\"India Vietnam defense cooperation\", 5)\nreturn {\"search_results_0B\": search_results_0B}",
+          "CODE_0C": "search_results_0C = web_search_urls(\"India Vietnam military exercises\", 5)\nreturn {\"search_results_0C\": search_results_0C}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      },
+      {
+        "run_id": "94181764-392a-4968-89c0-8748129e3bf8",
+        "input": {
+          "current_time": "2025-05-19T11:49:55.001493",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: How are the current relations between India and Vietnam? Specially militarily.",
+          "perception": {
+            "entities": [
+              "India",
+              "Vietnam",
+              "military relations"
+            ],
+            "result_requirement": "Description of current India-Vietnam relations, focusing on military aspects",
+            "original_goal_achieved": false,
+            "local_goal_achieved": true,
+            "confidence": "0.9",
+            "reasoning": "A web search was performed and links to relevant articles about India-Vietnam relations were found. The next step should be to extract and summarize the information from these links, particularly focusing on military relations.",
+            "local_reasoning": "The search results provide potential sources of information about the India-Vietnam relationship. The tool successfully returned relevant URLs.",
+            "last_tooluse_summary": "Web search for India-Vietnam military relations succeeded, returning multiple URLs.",
+            "solution_summary": "Not ready yet. Requires summarization of search results.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "Vietnam",
+                  "military relations"
+                ],
+                "result_requirement": "Description of current India-Vietnam relations, focusing on military aspects",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.85",
+                "reasoning": "The query asks about current India-Vietnam relations, specifically military relations. There is no readily available information in memory or globals to answer this question directly. Therefore, further planning and tool use is needed to gather relevant information.",
+                "local_reasoning": "The query requires external information about the current relationship between India and Vietnam, especially their military ties. Since this information is not available in the current context, it's necessary to proceed to the decision-making stage to formulate a plan to obtain it.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            },
+            {
+              "index": "0",
+              "description": "Search for recent news articles about India-Vietnam relations, focusing on military aspects.",
+              "type": "CODE",
+              "status": "completed",
+              "result": {
+                "search_results_0A": [
+                  "https://en.wikipedia.org/wiki/India%E2%80%93Vietnam_relations",
+                  "https://visionias.in/current-affairs/monthly-magazine/2024-09-12/international-relations/india-vietnam-relation",
+                  "https://www.indembassyhanoi.gov.in/page/bilateral-relations/",
+                  "https://www.iasgyan.in/daily-current-affairs/india-vietnam-relations-48",
+                  "https://asia.nikkei.com/Politics/International-relations/India-and-Vietnam-to-enhance-defense-cooperation"
+                ]
+              },
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "Vietnam",
+                  "military relations"
+                ],
+                "result_requirement": "Description of current India-Vietnam relations, focusing on military aspects",
+                "original_goal_achieved": false,
+                "local_goal_achieved": true,
+                "confidence": "0.9",
+                "reasoning": "A web search was performed and links to relevant articles about India-Vietnam relations were found. The next step should be to extract and summarize the information from these links, particularly focusing on military relations.",
+                "local_reasoning": "The search results provide potential sources of information about the India-Vietnam relationship. The tool successfully returned relevant URLs.",
+                "last_tooluse_summary": "Web search for India-Vietnam military relations succeeded, returning multiple URLs.",
+                "solution_summary": "Not ready yet. Requires summarization of search results.",
+                "route": "decision"
+              },
+              "from_step": "ROOT"
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "Vietnam",
+                  "military relations"
+                ],
+                "result_requirement": "Description of current India-Vietnam relations, focusing on military aspects",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.85",
+                "reasoning": "The query asks about current India-Vietnam relations, specifically military relations. There is no readily available information in memory or globals to answer this question directly. Therefore, further planning and tool use is needed to gather relevant information.",
+                "local_reasoning": "The query requires external information about the current relationship between India and Vietnam, especially their military ties. Since this information is not available in the current context, it's necessary to proceed to the decision-making stage to formulate a plan to obtain it.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[{'score': 188.67924528301887, 'session_id': 'aa76146e-a902-4460-a828-513eed0dc90f', 'original_query': 'Query 1: How are the current relations between India and Afghanistan?', 'summary_output': 'Following the Jaishankar-Muttaqi conversation, India is planning \"bold moves\" to strengthen relations with Taliban-ruled Afghanistan, including potential humanitarian aid for Afghan refugees repatriated by Pakistan. India will deepen direct humanitarian support to Afghanistan, considering requests raised\u2026"
+            },
+            "search_results_0A": {
+              "type": "list",
+              "preview": "['https://en.wikipedia.org/wiki/India%E2%80%93Vietnam_relations', 'https://visionias.in/current-affairs/monthly-magazine/2024-09-12/international-relations/india-vietnam-relation', 'https://www.indembassyhanoi.gov.in/page/bilateral-relations/', 'https://www.iasgyan.in/daily-current-affairs/india-vietnam-relations-48', 'https://asia.nikkei.com/Politics/International-relations/India-and-Vietnam-to-enhance-defense-cooperation']"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search for recent news articles about India-Vietnam relations, focusing on military aspects."
+              },
+              {
+                "id": "1",
+                "description": "Extract and summarize the content of the identified URLs, focusing on military cooperation and relations."
+              },
+              {
+                "id": "2",
+                "description": "Synthesize the extracted information to provide a concise overview of current India-Vietnam military relations."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              },
+              {
+                "from": "1",
+                "to": "2",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "1",
+          "code_variants": {
+            "CODE_1A": "urls = globals_schema.get(\"search_results_0A\", [])\nif urls:\n  summary_list = []\n  for url in urls:\n    summary = webpage_url_to_llm_summary(url, \"Summarize the military relations between India and Vietnam.\")\n    summary_list.append(summary)\n  return {\"summary_list_1A\": summary_list}\nelse:\n  return {\"summary_list_1A\": \"No URLs found\"}",
+            "CODE_1B": "urls = globals_schema.get(\"search_results_0A\", [])\nif urls:\n  raw_text_list = []\n  for url in urls:\n    raw_text = webpage_url_to_raw_text(url)\n    raw_text_list.append(raw_text)\n  return {\"raw_text_list_1B\": raw_text_list}\nelse:\n  return {\"raw_text_list_1B\": \"No URLs found\"}",
+            "CODE_1C": "urls = globals_schema.get(\"search_results_0A\", [])\nif urls:\n  combined_summary = ''\n  for url in urls:\n    summary = webpage_url_to_llm_summary(url, \"Focus on military relations, agreements, and collaborations between India and Vietnam.\")\n    combined_summary += summary + '\\n\\n'\n  return {\"combined_summary_1C\": combined_summary}\nelse:\n  return {\"combined_summary_1C\": \"No URLs found\"}"
+          }
+        },
+        "next_step_id": "1",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search for recent news articles about India-Vietnam relations, focusing on military aspects."
+            },
+            {
+              "id": "1",
+              "description": "Extract and summarize the content of the identified URLs, focusing on military cooperation and relations."
+            },
+            {
+              "id": "2",
+              "description": "Synthesize the extracted information to provide a concise overview of current India-Vietnam military relations."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            },
+            {
+              "from": "1",
+              "to": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_1A": "urls = globals_schema.get(\"search_results_0A\", [])\nif urls:\n  summary_list = []\n  for url in urls:\n    summary = webpage_url_to_llm_summary(url, \"Summarize the military relations between India and Vietnam.\")\n    summary_list.append(summary)\n  return {\"summary_list_1A\": summary_list}\nelse:\n  return {\"summary_list_1A\": \"No URLs found\"}",
+          "CODE_1B": "urls = globals_schema.get(\"search_results_0A\", [])\nif urls:\n  raw_text_list = []\n  for url in urls:\n    raw_text = webpage_url_to_raw_text(url)\n    raw_text_list.append(raw_text)\n  return {\"raw_text_list_1B\": raw_text_list}\nelse:\n  return {\"raw_text_list_1B\": \"No URLs found\"}",
+          "CODE_1C": "urls = globals_schema.get(\"search_results_0A\", [])\nif urls:\n  combined_summary = ''\n  for url in urls:\n    summary = webpage_url_to_llm_summary(url, \"Focus on military relations, agreements, and collaborations between India and Vietnam.\")\n    combined_summary += summary + '\\n\\n'\n  return {\"combined_summary_1C\": combined_summary}\nelse:\n  return {\"combined_summary_1C\": \"No URLs found\"}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [
+      {
+        "run_id": "5eeab1ab-f724-4074-85b1-ed6b6d0dc383",
+        "step_id": "0",
+        "variant_used": "CODE_0A",
+        "code": "search_results_0A = web_search_urls(\"India Vietnam military relations\", 5)\nreturn {\"search_results_0A\": search_results_0A}",
+        "status": "success",
+        "result": {
+          "search_results_0A": [
+            "https://en.wikipedia.org/wiki/India%E2%80%93Vietnam_relations",
+            "https://visionias.in/current-affairs/monthly-magazine/2024-09-12/international-relations/india-vietnam-relation",
+            "https://www.indembassyhanoi.gov.in/page/bilateral-relations/",
+            "https://www.iasgyan.in/daily-current-affairs/india-vietnam-relations-48",
+            "https://asia.nikkei.com/Politics/International-relations/India-and-Vietnam-to-enhance-defense-cooperation"
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 17:19:42",
+        "total_time": "8.867",
+        "return_to": ""
+      },
+      {
+        "run_id": "7f67beaf-e635-47aa-8a72-c65d9a9e268f",
+        "step_id": "1",
+        "variant_used": "CODE_1A",
+        "code": "urls = globals_schema.get(\"search_results_0A\", [])\nif urls:\n  summary_list = []\n  for url in urls:\n    summary = webpage_url_to_llm_summary(url, \"Summarize the military relations between India and Vietnam.\")\n    summary_list.append(summary)\n  return {\"summary_list_1A\": summary_list}\nelse:\n  return {\"summary_list_1A\": \"No URLs found\"}",
+        "status": "success",
+        "result": {
+          "summary_list_1A": [
+            [
+              {
+                "type": "text",
+                "text": "India and Vietnam have strong military relations characterized by:\n\n*   **Defense cooperation:** Including the sale of military equipment, intelligence sharing, joint naval exercises, and training in counterinsurgency and jungle warfare.\n*   **Goodwill visits:** India regularly sends warships to Vietnamese seas.\n*   **Strategic Partnership:** Bilateral relations were elevated to this level in 2007, further solidifying their military ties.",
+                "annotations": null
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "I am sorry, but the provided text focuses on the Vision IAS website and its content offerings (current affairs, magazines, etc.) and does not contain any information about military relations between India and Vietnam. Therefore, I cannot provide a summary of their military relations based on this text.",
+                "annotations": null
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "I'm sorry, but the document you provided focuses on general bilateral relations between India and Vietnam. It mentions high-level visits, development partnerships, cultural exchanges, and economic ties. However, it **doesn't specifically detail military relations** between the two countries. Therefore, I cannot provide a summary of their military relations based solely on this text.",
+                "annotations": null
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "The military relations between India and Vietnam are strengthening, with a focus on emerging areas such as cyber security, information security, and military medicine. The 14th India-Vietnam Defence Policy Dialogue in August 2024 highlighted this progress. Key aspects include:\n\n*   **Joint Vision Statement 2030:** A significant agreement signed in June 2022 to advance defense relations.\n*   **Vietnam's Focus:** Delegation exchanges, staff talks, service-to-service cooperation, education and training, and defence industry collaboration.\n*   **India's Proposal:** Cooperation in cyber security, information security, military medicine, and submarine search and rescue.\n*   **Defence Industry:** India aims to contribute to Vietnam's defence capabilities through its domestic defence industry.\n*   **Training:** A Letter of Intent was signed to increase cooperation in training, including exchange of instructors and experts.",
+                "annotations": null
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "The provided text only mentions that India and Vietnam are looking to enhance defense cooperation and that the Vietnamese Prime Minister visited India for this purpose. It doesn't specify the details of the existing or planned cooperation.",
+                "annotations": null
+              }
+            ]
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 17:20:02",
+        "total_time": "45.659",
+        "return_to": ""
+      }
+    ],
+    "summarizer_snapshots": [
+      {
+        "run_id": "ebed43db-babb-4ad8-977e-7c086e63b3d0",
+        "input": {
+          "original_query": "Query 1: How are the current relations between India and Vietnam? Specially militarily.",
+          "globals_schema": {
+            "memory": [
+              {
+                "score": 188.67924528301887,
+                "session_id": "aa76146e-a902-4460-a828-513eed0dc90f",
+                "original_query": "Query 1: How are the current relations between India and Afghanistan?",
+                "summary_output": "Following the Jaishankar-Muttaqi conversation, India is planning \"bold moves\" to strengthen relations with Taliban-ruled Afghanistan, including potential humanitarian aid for Afghan refugees repatriated by Pakistan. India will deepen direct humanitarian support to Afghanistan, considering requests raised by Muttaqi with Foreign Secretary Misri in Dubai on January 8, 2025. India attaches significance to the Jaishankar-Muttaqi conversation amid Muttaqi's upcoming visit to Iran and China. Discussions included cooperation on the Chabahar port, especially given India's ban on trade via Pakistan. Muttaqi's visit is part of Afghanistan's \"active foreign policy.\" Despite lacking formal recognition, India is willing to do \"whatever is necessary\" regarding the Taliban, increasing exchanges since the 2021 overthrow of President Ashraf Ghani's government.\n\nMore information is available at [The Hindu](https://www.thehindu.com/news/national/india-to-make-a-bold-move-on-afghanistan/article69584396.ece).",
+                "timestamp": "2025-05-19T10:24:50Z"
+              },
+              {
+                "score": 188.67924528301887,
+                "session_id": "5c95253d-0fd3-41c4-9a90-836057b2cbb2",
+                "original_query": "Query 1: How are the current relations between India and Afghanistan?",
+                "summary_output": "I was unable to retrieve information about the current relations between India and Afghanistan. The initial web search failed due to an encoding error, which prevented the tool from correctly interpreting the search results. As a result, any subsequent steps that depended on this initial search, such as analyzing government reports or news articles, were also unsuccessful. The memory contains information about India-Bhutan relations, which is not relevant to your query. The tool failure was caused by a \"charmap\" codec error, indicating a problem with character encoding during the web search process.",
+                "timestamp": "2025-05-19T10:19:46Z"
+              },
+              {
+                "score": 182.97872340425533,
+                "session_id": "fc5367ee-de63-4d80-8aa7-373de6cb014e",
+                "original_query": "Query 1: How are the military relations between India and Bhutan?",
+                "summary_output": "India and Bhutan share a special relationship characterized by India's influence on Bhutan's foreign policy, defense, and commerce. A key component of their military relations is the Indian Military Training Team (IMTRAT), where India maintains a 2,000-strong presence in Bhutan to train the Royal Bhutan Army. Security cooperation is a vital aspect of the India-Bhutan relationship.",
+                "timestamp": "2025-05-18T04:43:09Z"
+              }
+            ],
+            "search_results_0A": [
+              "https://en.wikipedia.org/wiki/India%E2%80%93Vietnam_relations",
+              "https://visionias.in/current-affairs/monthly-magazine/2024-09-12/international-relations/india-vietnam-relation",
+              "https://www.indembassyhanoi.gov.in/page/bilateral-relations/",
+              "https://www.iasgyan.in/daily-current-affairs/india-vietnam-relations-48",
+              "https://asia.nikkei.com/Politics/International-relations/India-and-Vietnam-to-enhance-defense-cooperation"
+            ],
+            "summary_list_1A": [
+              [
+                {
+                  "type": "text",
+                  "text": "India and Vietnam have strong military relations characterized by:\n\n*   **Defense cooperation:** Including the sale of military equipment, intelligence sharing, joint naval exercises, and training in counterinsurgency and jungle warfare.\n*   **Goodwill visits:** India regularly sends warships to Vietnamese seas.\n*   **Strategic Partnership:** Bilateral relations were elevated to this level in 2007, further solidifying their military ties.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "I am sorry, but the provided text focuses on the Vision IAS website and its content offerings (current affairs, magazines, etc.) and does not contain any information about military relations between India and Vietnam. Therefore, I cannot provide a summary of their military relations based on this text.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "I'm sorry, but the document you provided focuses on general bilateral relations between India and Vietnam. It mentions high-level visits, development partnerships, cultural exchanges, and economic ties. However, it **doesn't specifically detail military relations** between the two countries. Therefore, I cannot provide a summary of their military relations based solely on this text.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "The military relations between India and Vietnam are strengthening, with a focus on emerging areas such as cyber security, information security, and military medicine. The 14th India-Vietnam Defence Policy Dialogue in August 2024 highlighted this progress. Key aspects include:\n\n*   **Joint Vision Statement 2030:** A significant agreement signed in June 2022 to advance defense relations.\n*   **Vietnam's Focus:** Delegation exchanges, staff talks, service-to-service cooperation, education and training, and defence industry collaboration.\n*   **India's Proposal:** Cooperation in cyber security, information security, military medicine, and submarine search and rescue.\n*   **Defence Industry:** India aims to contribute to Vietnam's defence capabilities through its domestic defence industry.\n*   **Training:** A Letter of Intent was signed to increase cooperation in training, including exchange of instructors and experts.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "The provided text only mentions that India and Vietnam are looking to enhance defense cooperation and that the Vietnamese Prime Minister visited India for this purpose. It doesn't specify the details of the existing or planned cooperation.",
+                  "annotations": null
+                }
+              ]
+            ]
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "India",
+                      "Vietnam",
+                      "military relations"
+                    ],
+                    "result_requirement": "Description of current India-Vietnam relations, focusing on military aspects",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.85",
+                    "reasoning": "The query asks about current India-Vietnam relations, specifically military relations. There is no readily available information in memory or globals to answer this question directly. Therefore, further planning and tool use is needed to gather relevant information.",
+                    "local_reasoning": "The query requires external information about the current relationship between India and Vietnam, especially their military ties. Since this information is not available in the current context, it's necessary to proceed to the decision-making stage to formulate a plan to obtain it.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "0",
+                  "description": "Search for recent news articles about India-Vietnam relations, focusing on military aspects.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "search_results_0A": [
+                      "https://en.wikipedia.org/wiki/India%E2%80%93Vietnam_relations",
+                      "https://visionias.in/current-affairs/monthly-magazine/2024-09-12/international-relations/india-vietnam-relation",
+                      "https://www.indembassyhanoi.gov.in/page/bilateral-relations/",
+                      "https://www.iasgyan.in/daily-current-affairs/india-vietnam-relations-48",
+                      "https://asia.nikkei.com/Politics/International-relations/India-and-Vietnam-to-enhance-defense-cooperation"
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "India",
+                      "Vietnam",
+                      "military relations"
+                    ],
+                    "result_requirement": "Description of current India-Vietnam relations, focusing on military aspects",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": true,
+                    "confidence": "0.9",
+                    "reasoning": "A web search was performed and links to relevant articles about India-Vietnam relations were found. The next step should be to extract and summarize the information from these links, particularly focusing on military relations.",
+                    "local_reasoning": "The search results provide potential sources of information about the India-Vietnam relationship. The tool successfully returned relevant URLs.",
+                    "last_tooluse_summary": "Web search for India-Vietnam military relations succeeded, returning multiple URLs.",
+                    "solution_summary": "Not ready yet. Requires summarization of search results.",
+                    "route": "decision"
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "0"
+              },
+              {
+                "data": {
+                  "index": "1",
+                  "description": "Extract and summarize the content of the identified URLs, focusing on military cooperation and relations.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "summary_list_1A": [
+                      [
+                        {
+                          "type": "text",
+                          "text": "India and Vietnam have strong military relations characterized by:\n\n*   **Defense cooperation:** Including the sale of military equipment, intelligence sharing, joint naval exercises, and training in counterinsurgency and jungle warfare.\n*   **Goodwill visits:** India regularly sends warships to Vietnamese seas.\n*   **Strategic Partnership:** Bilateral relations were elevated to this level in 2007, further solidifying their military ties.",
+                          "annotations": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "I am sorry, but the provided text focuses on the Vision IAS website and its content offerings (current affairs, magazines, etc.) and does not contain any information about military relations between India and Vietnam. Therefore, I cannot provide a summary of their military relations based on this text.",
+                          "annotations": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "I'm sorry, but the document you provided focuses on general bilateral relations between India and Vietnam. It mentions high-level visits, development partnerships, cultural exchanges, and economic ties. However, it **doesn't specifically detail military relations** between the two countries. Therefore, I cannot provide a summary of their military relations based solely on this text.",
+                          "annotations": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "The military relations between India and Vietnam are strengthening, with a focus on emerging areas such as cyber security, information security, and military medicine. The 14th India-Vietnam Defence Policy Dialogue in August 2024 highlighted this progress. Key aspects include:\n\n*   **Joint Vision Statement 2030:** A significant agreement signed in June 2022 to advance defense relations.\n*   **Vietnam's Focus:** Delegation exchanges, staff talks, service-to-service cooperation, education and training, and defence industry collaboration.\n*   **India's Proposal:** Cooperation in cyber security, information security, military medicine, and submarine search and rescue.\n*   **Defence Industry:** India aims to contribute to Vietnam's defence capabilities through its domestic defence industry.\n*   **Training:** A Letter of Intent was signed to increase cooperation in training, including exchange of instructors and experts.",
+                          "annotations": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "The provided text only mentions that India and Vietnam are looking to enhance defense cooperation and that the Vietnamese Prime Minister visited India for this purpose. It doesn't specify the details of the existing or planned cooperation.",
+                          "annotations": null
+                        }
+                      ]
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "India",
+                      "Vietnam",
+                      "military relations",
+                      "defense cooperation",
+                      "cyber security",
+                      "information security",
+                      "military medicine"
+                    ],
+                    "result_requirement": "Summary of current India-Vietnam military relations including specific areas of cooperation.",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "0.95",
+                    "reasoning": "The tool has successfully extracted and summarized information about India-Vietnam military relations from multiple sources. The summaries cover various aspects of their cooperation, including defense, cybersecurity, and training. The original query is now satisfied.",
+                    "local_reasoning": "The last step provided a list of summaries, which together provide a comprehensive overview of the military relationship. This fulfills the original query's requirement.",
+                    "last_tooluse_summary": "Extracted and summarized content from multiple URLs, focusing on India-Vietnam military relations. Some links did not contain relevant information.",
+                    "solution_summary": "India and Vietnam have strong military relations characterized by defense cooperation (including military equipment sales, intelligence sharing, joint naval exercises, and training). Emerging areas of cooperation include cyber security, information security, and military medicine, highlighted by the 14th India-Vietnam Defence Policy Dialogue in August 2024. A Joint Vision Statement 2030, signed in June 2022, further advances defense relations.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Create a user-facing summary of the current military relations between India and Vietnam. Include details about defense cooperation, intelligence sharing, joint exercises, training, and emerging areas such as cyber security, information security, and military medicine. Mention the Joint Vision Statement 2030 and the 14th India-Vietnam Defence Policy Dialogue. Summarize in markdown format."
+                  },
+                  "from_step": "1"
+                },
+                "id": "1"
+              },
+              {
+                "data": {
+                  "index": "2",
+                  "description": "Synthesize the extracted information to provide a concise overview of current India-Vietnam military relations.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "1"
+                },
+                "id": "2"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "0"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "2"
+              },
+              {
+                "type": "normal",
+                "source": "1",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "1",
+                "target": "2"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "India",
+              "Vietnam",
+              "military relations",
+              "defense cooperation",
+              "cyber security",
+              "information security",
+              "military medicine"
+            ],
+            "result_requirement": "Summary of current India-Vietnam military relations including specific areas of cooperation.",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.95",
+            "reasoning": "The tool has successfully extracted and summarized information about India-Vietnam military relations from multiple sources. The summaries cover various aspects of their cooperation, including defense, cybersecurity, and training. The original query is now satisfied.",
+            "local_reasoning": "The last step provided a list of summaries, which together provide a comprehensive overview of the military relationship. This fulfills the original query's requirement.",
+            "last_tooluse_summary": "Extracted and summarized content from multiple URLs, focusing on India-Vietnam military relations. Some links did not contain relevant information.",
+            "solution_summary": "India and Vietnam have strong military relations characterized by defense cooperation (including military equipment sales, intelligence sharing, joint naval exercises, and training). Emerging areas of cooperation include cyber security, information security, and military medicine, highlighted by the 14th India-Vietnam Defence Policy Dialogue in August 2024. A Joint Vision Statement 2030, signed in June 2022, further advances defense relations.",
+            "route": "summarize",
+            "instruction_to_summarize": "Create a user-facing summary of the current military relations between India and Vietnam. Include details about defense cooperation, intelligence sharing, joint exercises, training, and emerging areas such as cyber security, information security, and military medicine. Mention the Joint Vision Statement 2030 and the 14th India-Vietnam Defence Policy Dialogue. Summarize in markdown format."
+          }
+        },
+        "summary_output": "## Current Military Relations Between India and Vietnam\n\nIndia and Vietnam share strong military relations characterized by ongoing defense cooperation. This includes:\n\n*   Sale of military equipment\n*   Intelligence sharing\n*   Joint naval exercises\n*   Training in counterinsurgency and jungle warfare\n\nIndia frequently sends warships on goodwill visits to Vietnamese seas. The bilateral relationship was elevated to a Strategic Partnership in 2007, further solidifying their military ties.\n\nEmerging areas of cooperation include:\n\n*   Cyber security\n*   Information security\n*   Military medicine\n\nThe 14th India-Vietnam Defence Policy Dialogue in August 2024 highlighted progress in these areas. The **Joint Vision Statement 2030**, signed in June 2022, is a significant agreement to advance defense relations. India aims to contribute to Vietnam's defense capabilities through its domestic defense industry. A Letter of Intent was signed to increase cooperation in training, including exchange of instructors and experts.\n\n\ud83d\udd17 [India-Vietnam Relations - Wikipedia](https://en.wikipedia.org/wiki/India%E2%80%93Vietnam_relations)\n\ud83d\udd17 [India-Vietnam Relations - IASGYAN](https://www.iasgyan.in/daily-current-affairs/india-vietnam-relations-48)",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-19T11:48:55Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "## Current Military Relations Between India and Vietnam\n\nIndia and Vietnam share strong military relations characterized by ongoing defense cooperation. This includes:\n\n*   Sale of military equipment\n*   Intelligence sharing\n*   Joint naval exercises\n*   Training in counterinsurgency and jungle warfare\n\nIndia frequently sends warships on goodwill visits to Vietnamese seas. The bilateral relationship was elevated to a Strategic Partnership in 2007, further solidifying their military ties.\n\nEmerging areas of cooperation include:\n\n*   Cyber security\n*   Information security\n*   Military medicine\n\nThe 14th India-Vietnam Defence Policy Dialogue in August 2024 highlighted progress in these areas. The **Joint Vision Statement 2030**, signed in June 2022, is a significant agreement to advance defense relations. India aims to contribute to Vietnam's defense capabilities through its domestic defense industry. A Letter of Intent was signed to increase cooperation in training, including exchange of instructors and experts.\n\n\ud83d\udd17 [India-Vietnam Relations - Wikipedia](https://en.wikipedia.org/wiki/India%E2%80%93Vietnam_relations)\n\ud83d\udd17 [India-Vietnam Relations - IASGYAN](https://www.iasgyan.in/daily-current-affairs/india-vietnam-relations-48)",
+    "status": "success",
+    "completed_at": "2025-05-19T11:50:59.148825"
+  },
+  "status": "success",
+  "final_step_id": "2",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-19T11:50:59.154153",
+  "original_query": "Query 1: How are the current relations between India and Vietnam? Specially militarily.",
+  "final_summary": "## Current Military Relations Between India and Vietnam\n\nIndia and Vietnam share strong military relations characterized by ongoing defense cooperation. This includes:\n\n*   Sale of military equipment\n*   Intelligence sharing\n*   Joint naval exercises\n*   Training in counterinsurgency and jungle warfare\n\nIndia frequently sends warships on goodwill visits to Vietnamese seas. The bilateral relationship was elevated to a Strategic Partnership in 2007, further solidifying their military ties.\n\nEmerging areas of cooperation include:\n\n*   Cyber security\n*   Information security\n*   Military medicine\n\nThe 14th India-Vietnam Defence Policy Dialogue in August 2024 highlighted progress in these areas. The **Joint Vision Statement 2030**, signed in June 2022, is a significant agreement to advance defense relations. India aims to contribute to Vietnam's defense capabilities through its domestic defense industry. A Letter of Intent was signed to increase cooperation in training, including exchange of instructors and experts.\n\n\ud83d\udd17 [India-Vietnam Relations - Wikipedia](https://en.wikipedia.org/wiki/India%E2%80%93Vietnam_relations)\n\ud83d\udd17 [India-Vietnam Relations - IASGYAN](https://www.iasgyan.in/daily-current-affairs/india-vietnam-relations-48)"
+}

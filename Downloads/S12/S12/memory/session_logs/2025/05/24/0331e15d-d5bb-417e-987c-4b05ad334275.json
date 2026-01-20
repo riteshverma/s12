@@ -1,0 +1,393 @@
+{
+  "context": {
+    "session_id": "0331e15d-d5bb-417e-987c-4b05ad334275",
+    "original_query": "Query 1: Open news.ycombinator in browser. Use tools",
+    "globals": {
+      "memory": []
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: Open news.ycombinator in browser. Use tools",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "The news.ycombinator website has been successfully opened in the browser, satisfying your request.",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "news.ycombinator",
+                "browser"
+              ],
+              "result_requirement": "Open news.ycombinator in browser",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.9",
+              "reasoning": "The user wants to open news.ycombinator in a browser. This requires a tool to interact with the browser.",
+              "local_reasoning": "The query requires tool use to open a browser and navigate to the specified URL.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Open news.ycombinator in the browser.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {},
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "news.ycombinator",
+                "browser"
+              ],
+              "result_requirement": "Open news.ycombinator in browser",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "0.95",
+              "reasoning": "The step successfully opened news.ycombinator in the browser. The user's initial query has been satisfied.",
+              "local_reasoning": "The tool execution resulted in the website being opened.",
+              "last_tooluse_summary": "Browser opened news.ycombinator",
+              "solution_summary": "Successfully opened news.ycombinator in the browser.",
+              "route": "summarize",
+              "instruction_to_summarize": "Summarize that the news.ycombinator website has been successfully opened in the browser, satisfying the user's request. In markdown format."
+            },
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "0331e15d-d5bb-417e-987c-4b05ad334275",
+    "original_query": "Query 1: Open news.ycombinator in browser. Use tools",
+    "perception_snapshots": [
+      {
+        "run_id": "0331e15d-d5bb-417e-987c-4b05ad334275-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "news.ycombinator",
+          "browser"
+        ],
+        "result_requirement": "Open news.ycombinator in browser",
+        "original_goal_achieved": false,
+        "reasoning": "The user wants to open news.ycombinator in a browser. This requires a tool to interact with the browser.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The query requires tool use to open a browser and navigate to the specified URL.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.9",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "0331e15d-d5bb-417e-987c-4b05ad334275-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "news.ycombinator",
+          "browser"
+        ],
+        "result_requirement": "Open news.ycombinator in browser",
+        "original_goal_achieved": true,
+        "reasoning": "The step successfully opened news.ycombinator in the browser. The user's initial query has been satisfied.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The tool execution resulted in the website being opened.",
+        "last_tooluse_summary": "Browser opened news.ycombinator",
+        "solution_summary": "Successfully opened news.ycombinator in the browser.",
+        "confidence": "0.95",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "51f14b83-7d74-45fd-8e1d-796e8dffed6f",
+        "input": {
+          "current_time": "2025-05-24T00:33:37.265104",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: Open news.ycombinator in browser. Use tools",
+          "perception": {
+            "entities": [
+              "news.ycombinator",
+              "browser"
+            ],
+            "result_requirement": "Open news.ycombinator in browser",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.9",
+            "reasoning": "The user wants to open news.ycombinator in a browser. This requires a tool to interact with the browser.",
+            "local_reasoning": "The query requires tool use to open a browser and navigate to the specified URL.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "news.ycombinator",
+                  "browser"
+                ],
+                "result_requirement": "Open news.ycombinator in browser",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The user wants to open news.ycombinator in a browser. This requires a tool to interact with the browser.",
+                "local_reasoning": "The query requires tool use to open a browser and navigate to the specified URL.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "news.ycombinator",
+                  "browser"
+                ],
+                "result_requirement": "Open news.ycombinator in browser",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The user wants to open news.ycombinator in a browser. This requires a tool to interact with the browser.",
+                "local_reasoning": "The query requires tool use to open a browser and navigate to the specified URL.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[]"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Open news.ycombinator in the browser."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "url = 'https://news.ycombinator.com'\nopen_tab(url)\nreturn {}",
+            "CODE_0B": "url = 'news.ycombinator.com'\nopen_tab(url)\nreturn {}",
+            "CODE_0C": "url = 'https://news.ycombinator.com'\nopen_tab(url)\nreturn {}"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Open news.ycombinator in the browser."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "url = 'https://news.ycombinator.com'\nopen_tab(url)\nreturn {}",
+          "CODE_0B": "url = 'news.ycombinator.com'\nopen_tab(url)\nreturn {}",
+          "CODE_0C": "url = 'https://news.ycombinator.com'\nopen_tab(url)\nreturn {}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [
+      {
+        "run_id": "954bf075-450c-42f8-8614-1287e7c10c9d",
+        "step_id": "0",
+        "variant_used": "CODE_0A",
+        "code": "url = 'https://news.ycombinator.com'\nopen_tab(url)\nreturn {}",
+        "status": "success",
+        "result": {},
+        "error": null,
+        "execution_time": "2025-05-24 06:03:42",
+        "total_time": "0.276",
+        "return_to": ""
+      }
+    ],
+    "summarizer_snapshots": [
+      {
+        "run_id": "3517925d-7df0-49c3-8980-e501c3b7368d",
+        "input": {
+          "original_query": "Query 1: Open news.ycombinator in browser. Use tools",
+          "globals_schema": {
+            "memory": []
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "news.ycombinator",
+                      "browser"
+                    ],
+                    "result_requirement": "Open news.ycombinator in browser",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.9",
+                    "reasoning": "The user wants to open news.ycombinator in a browser. This requires a tool to interact with the browser.",
+                    "local_reasoning": "The query requires tool use to open a browser and navigate to the specified URL.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "0",
+                  "description": "Open news.ycombinator in the browser.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {},
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "news.ycombinator",
+                      "browser"
+                    ],
+                    "result_requirement": "Open news.ycombinator in browser",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "0.95",
+                    "reasoning": "The step successfully opened news.ycombinator in the browser. The user's initial query has been satisfied.",
+                    "local_reasoning": "The tool execution resulted in the website being opened.",
+                    "last_tooluse_summary": "Browser opened news.ycombinator",
+                    "solution_summary": "Successfully opened news.ycombinator in the browser.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Summarize that the news.ycombinator website has been successfully opened in the browser, satisfying the user's request. In markdown format."
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "0"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "0"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "news.ycombinator",
+              "browser"
+            ],
+            "result_requirement": "Open news.ycombinator in browser",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.95",
+            "reasoning": "The step successfully opened news.ycombinator in the browser. The user's initial query has been satisfied.",
+            "local_reasoning": "The tool execution resulted in the website being opened.",
+            "last_tooluse_summary": "Browser opened news.ycombinator",
+            "solution_summary": "Successfully opened news.ycombinator in the browser.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize that the news.ycombinator website has been successfully opened in the browser, satisfying the user's request. In markdown format."
+          }
+        },
+        "summary_output": "The news.ycombinator website has been successfully opened in the browser, satisfying your request.",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-24T00:32:51Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "The news.ycombinator website has been successfully opened in the browser, satisfying your request.",
+    "status": "success",
+    "completed_at": "2025-05-24T00:33:51.838482"
+  },
+  "status": "success",
+  "final_step_id": "0",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-24T00:33:51.841422",
+  "original_query": "Query 1: Open news.ycombinator in browser. Use tools",
+  "final_summary": "The news.ycombinator website has been successfully opened in the browser, satisfying your request."
+}

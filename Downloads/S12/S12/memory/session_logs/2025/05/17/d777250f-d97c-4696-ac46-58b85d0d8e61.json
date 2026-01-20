@@ -1,0 +1,125 @@
+{
+  "session_id": "d777250f-d97c-4696-ac46-58b85d0d8e61",
+  "original_query": "Query 1: Extract all the content in this image: https://bijnicollege.ac.in/wp-content/uploads/2022/01/1641017173522-897x1024.jpg",
+  "globals": {
+    "image_caption": "The contents of this image are: B.C.S.U Election Notice, 2021-2022\n\nDate- 01.01.2022\n\nThis is for general information of the candidates contesting for different portfolios are arranged in alphabetical order in the ballot paper of BC.\n\nDr. Mahanta Talukdar\nReturning Officer\nBCSU Election, 2021-2022\nReturning Officer"
+  },
+  "memory": [],
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "data": {
+          "index": "ROOT",
+          "description": "initial query",
+          "type": "ROOT",
+          "status": "completed",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "image",
+              "content extraction",
+              "https://bijnicollege.ac.in/wp-content/uploads/2022/01/1641017173522-897x1024.jpg"
+            ],
+            "result_requirement": "Textual content extracted from the given image URL.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.9",
+            "reasoning": "The user is asking to extract text from an image. This requires using a tool capable of OCR (Optical Character Recognition). The globals schema is empty, and the prompt does not contain an OCR capability, therefore planning is required.",
+            "local_reasoning": "The initial query cannot be answered without further steps to process the image.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "from_step": null
+        },
+        "id": "ROOT"
+      },
+      {
+        "data": {
+          "index": "0",
+          "description": "Caption the image to get a description of the visual content.",
+          "type": "CODE",
+          "status": "completed",
+          "result": {
+            "image_caption": "The contents of this image are: B.C.S.U Election Notice, 2021-2022\n\nDate- 01.01.2022\n\nThis is for general information of the candidates contesting for different portfolios are arranged in alphabetical order in the ballot paper of BC.\n\nDr. Mahanta Talukdar\nReturning Officer\nBCSU Election, 2021-2022\nReturning Officer"
+          },
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "image",
+              "content extraction",
+              "B.C.S.U Election Notice",
+              "2021-2022",
+              "Date- 01.01.2022",
+              "Dr. Mahanta Talukdar",
+              "Returning Officer"
+            ],
+            "result_requirement": "Textual content extracted from the image URL.",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.95",
+            "reasoning": "The image captioning step successfully extracted the text from the image. The original query asked to extract the content from the image and now the 'raw_input' field contains that output.",
+            "local_reasoning": "The tool successfully read the image and extracted the text.",
+            "last_tooluse_summary": "Image captioning succeeded in extracting relevant information.",
+            "solution_summary": "The contents of the image include a B.C.S.U Election Notice for 2021-2022, dated 01.01.2022, with information for candidates and the name of the Returning Officer, Dr. Mahanta Talukdar.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize the extracted content from the image, focusing on the key information such as the election notice details, date, and the name of the Returning Officer. Format in markdown."
+          },
+          "from_step": "ROOT"
+        },
+        "id": "0"
+      },
+      {
+        "data": {
+          "index": "1",
+          "description": "If the caption contains text, return the text. Otherwise, search for information about the image source URL to understand the context.",
+          "type": "CODE",
+          "status": "Skipped",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "ROOT"
+        },
+        "id": "1"
+      },
+      {
+        "data": {
+          "index": "2",
+          "description": "Summarize the search results to extract relevant information.",
+          "type": "CODE",
+          "status": "Skipped",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "ROOT"
+        },
+        "id": "2"
+      }
+    ],
+    "links": [
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "0"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "1"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "2"
+      }
+    ]
+  }
+}

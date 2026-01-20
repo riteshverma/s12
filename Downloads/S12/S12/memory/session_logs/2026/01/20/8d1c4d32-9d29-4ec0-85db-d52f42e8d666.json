@@ -1,0 +1,202 @@
+{
+  "context": {
+    "session_id": "8d1c4d32-9d29-4ec0-85db-d52f42e8d666",
+    "original_query": "Query 1: Open Google Cloud Console for me.\nResponse 1: The attempt to open Google Cloud Console (https://console.cloud.google.com/) in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools.\nQuery 2: ",
+    "globals": {
+      "memory": [
+        {
+          "score": 100.0,
+          "session_id": "32b6614d-ba1a-4cbb-a497-b998e42abe4f",
+          "original_query": "Query 1: Open Google Cloud Console for me.",
+          "summary_output": "The attempt to open Google Cloud Console (https://console.cloud.google.com/) in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools.",
+          "timestamp": "2026-01-20T10:57:24Z"
+        },
+        {
+          "score": 67.74193548387098,
+          "session_id": "0331e15d-d5bb-417e-987c-4b05ad334275",
+          "original_query": "Query 1: Open news.ycombinator in browser. Use tools",
+          "summary_output": "The news.ycombinator website has been successfully opened in the browser, satisfying your request.",
+          "timestamp": "2025-05-24T00:32:51Z"
+        },
+        {
+          "score": 60.46511627906977,
+          "session_id": "c3147517-fc26-4efc-b294-84a9d9e3fd66",
+          "original_query": "Query 1: Open a new tab in the browser and browse to https://www.inkers.ai/",
+          "summary_output": "A new tab was opened in the browser and the user was directed to the specified URL: https://www.inkers.ai/.",
+          "timestamp": "2025-05-22T23:15:47Z"
+        }
+      ]
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: Open Google Cloud Console for me.\nResponse 1: The attempt to open Google Cloud Console (https://console.cloud.google.com/) in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools.\nQuery 2: ",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "The attempt to open Google Cloud Console (https://console.cloud.google.com/) in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools.",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Google Cloud Console"
+              ],
+              "result_requirement": "Open Google Cloud Console in a browser",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.95",
+              "reasoning": "The tools 'open_tab' and 'get_session_snapshot' are not available, so the action cannot be completed. The query cannot be solved by python code.",
+              "local_reasoning": "The error message indicates that the required tools are missing.",
+              "last_tooluse_summary": "Tools 'open_tab' and 'get_session_snapshot' are not available.",
+              "solution_summary": "The attempt to open Google Cloud Console failed due to missing tools.",
+              "route": "summarize",
+              "instruction_to_summarize": "Summarize that the attempt to open Google Cloud Console (https://console.cloud.google.com/) in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools."
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        }
+      ],
+      "links": []
+    }
+  },
+  "session": {
+    "session_id": "8d1c4d32-9d29-4ec0-85db-d52f42e8d666",
+    "original_query": "Query 1: Open Google Cloud Console for me.\nResponse 1: The attempt to open Google Cloud Console (https://console.cloud.google.com/) in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools.\nQuery 2: ",
+    "perception_snapshots": [
+      {
+        "run_id": "8d1c4d32-9d29-4ec0-85db-d52f42e8d666-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "Google Cloud Console"
+        ],
+        "result_requirement": "Open Google Cloud Console in a browser",
+        "original_goal_achieved": false,
+        "reasoning": "The tools 'open_tab' and 'get_session_snapshot' are not available, so the action cannot be completed. The query cannot be solved by python code.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The error message indicates that the required tools are missing.",
+        "last_tooluse_summary": "Tools 'open_tab' and 'get_session_snapshot' are not available.",
+        "solution_summary": "The attempt to open Google Cloud Console failed due to missing tools.",
+        "confidence": "0.95",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [],
+    "execution_snapshots": [],
+    "summarizer_snapshots": [
+      {
+        "run_id": "780f9bab-4ffc-40ee-886e-4a772b52eecf",
+        "input": {
+          "original_query": "Query 1: Open Google Cloud Console for me.\nResponse 1: The attempt to open Google Cloud Console (https://console.cloud.google.com/) in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools.\nQuery 2: ",
+          "globals_schema": {
+            "memory": [
+              {
+                "score": 100.0,
+                "session_id": "32b6614d-ba1a-4cbb-a497-b998e42abe4f",
+                "original_query": "Query 1: Open Google Cloud Console for me.",
+                "summary_output": "The attempt to open Google Cloud Console (https://console.cloud.google.com/) in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools.",
+                "timestamp": "2026-01-20T10:57:24Z"
+              },
+              {
+                "score": 67.74193548387098,
+                "session_id": "0331e15d-d5bb-417e-987c-4b05ad334275",
+                "original_query": "Query 1: Open news.ycombinator in browser. Use tools",
+                "summary_output": "The news.ycombinator website has been successfully opened in the browser, satisfying your request.",
+                "timestamp": "2025-05-24T00:32:51Z"
+              },
+              {
+                "score": 60.46511627906977,
+                "session_id": "c3147517-fc26-4efc-b294-84a9d9e3fd66",
+                "original_query": "Query 1: Open a new tab in the browser and browse to https://www.inkers.ai/",
+                "summary_output": "A new tab was opened in the browser and the user was directed to the specified URL: https://www.inkers.ai/.",
+                "timestamp": "2025-05-22T23:15:47Z"
+              }
+            ]
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Google Cloud Console"
+                    ],
+                    "result_requirement": "Open Google Cloud Console in a browser",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.95",
+                    "reasoning": "The tools 'open_tab' and 'get_session_snapshot' are not available, so the action cannot be completed. The query cannot be solved by python code.",
+                    "local_reasoning": "The error message indicates that the required tools are missing.",
+                    "last_tooluse_summary": "Tools 'open_tab' and 'get_session_snapshot' are not available.",
+                    "solution_summary": "The attempt to open Google Cloud Console failed due to missing tools.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Summarize that the attempt to open Google Cloud Console (https://console.cloud.google.com/) in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools."
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              }
+            ],
+            "links": []
+          },
+          "perception": {
+            "entities": [
+              "Google Cloud Console"
+            ],
+            "result_requirement": "Open Google Cloud Console in a browser",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.95",
+            "reasoning": "The tools 'open_tab' and 'get_session_snapshot' are not available, so the action cannot be completed. The query cannot be solved by python code.",
+            "local_reasoning": "The error message indicates that the required tools are missing.",
+            "last_tooluse_summary": "Tools 'open_tab' and 'get_session_snapshot' are not available.",
+            "solution_summary": "The attempt to open Google Cloud Console failed due to missing tools.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize that the attempt to open Google Cloud Console (https://console.cloud.google.com/) in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools."
+          }
+        },
+        "summary_output": "The attempt to open Google Cloud Console (https://console.cloud.google.com/) in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools.",
+        "success": true,
+        "error": null,
+        "timestamp": "2026-01-20T10:57:24Z",
+        "return_to": ""
+      }
+    ],
+    "browser_snapshots": [],
+    "final_summary": "The attempt to open Google Cloud Console (https://console.cloud.google.com/) in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools.",
+    "status": "success",
+    "completed_at": "2026-01-20T10:58:36.977745"
+  },
+  "status": "success",
+  "final_step_id": "ROOT",
+  "reason": "Summarized successfully",
+  "timestamp": "2026-01-20T10:58:36.977745",
+  "original_query": "Query 1: Open Google Cloud Console for me.\nResponse 1: The attempt to open Google Cloud Console (https://console.cloud.google.com/) in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools.\nQuery 2: ",
+  "final_summary": "The attempt to open Google Cloud Console (https://console.cloud.google.com/) in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools."
+}

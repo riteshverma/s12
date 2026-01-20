@@ -1,0 +1,495 @@
+{
+  "context": {
+    "session_id": "eeef73ac-e83c-4bc7-9ba1-878dbddd72c6",
+    "original_query": "Open https://forms.gle/6Nc6QaaJyDvePxLv7 and fill the form with the following details:\n- Course (what course is he/she in?): EAG V2\n- Email ID: riteshv2@gmail.com\n- Master's name: Rohan Shravan\n- Which course is he/she taking?: EAG\n- Date of birth: 04/09/1987\n- Marital status: Yes\n\nSubmit the form after all required fields are filled.",
+    "globals": {
+      "memory": [
+        {
+          "score": 87.5,
+          "session_id": "be0e37b2-c3bb-4997-b149-3eb2f7f0cfaf",
+          "original_query": "Query 1: What is 4 * 4?",
+          "summary_output": "4 * 4 = 16",
+          "timestamp": "2025-05-19T05:55:46Z"
+        },
+        {
+          "score": 73.6842105263158,
+          "session_id": "f90886c1-5ad4-4bf5-8ced-809d6a361bd3",
+          "original_query": "Query 1: What is 64/16?",
+          "summary_output": "64/16 = 4",
+          "timestamp": "2025-05-19T06:01:25Z"
+        },
+        {
+          "score": 66.66666666666666,
+          "session_id": "16118c09-ce4c-44a9-b058-82dfdd079aef",
+          "original_query": "Query 1: What is the time today?",
+          "summary_output": "The current date and time is **May 22, 2025, 12:58 PM**.",
+          "timestamp": "2025-05-22T12:57:48Z"
+        }
+      ]
+    },
+    "memory": [
+      {
+        "query": "Extract relevant information from the original query.",
+        "result_requirement": "Tool failed",
+        "solution_summary": "NameError: name 'perception' is not defined"
+      },
+      {
+        "query": "Extract relevant information from the original query.",
+        "result_requirement": "Tool failed",
+        "solution_summary": "NameError: name 'original_query' is not defined"
+      },
+      {
+        "query": "Extract relevant information from the original query.",
+        "result_requirement": "Tool failed",
+        "solution_summary": "NameError: name 'perception' is not defined"
+      },
+      {
+        "query": "Extract relevant information from the original query.",
+        "result_requirement": "Tool failed",
+        "solution_summary": "All fallback variants failed"
+      },
+      {
+        "query": "Extract relevant information from the original query.",
+        "result_requirement": "Tool failed",
+        "solution_summary": "All fallback variants failed"
+      },
+      {
+        "query": "Extract relevant information from the original query.",
+        "result_requirement": "Tool failed",
+        "solution_summary": "All fallback variants failed"
+      },
+      {
+        "query": "Extract relevant information from the original query.",
+        "result_requirement": "Tool failed",
+        "solution_summary": "All fallback variants failed"
+      },
+      {
+        "query": "Extract relevant information from the original query.",
+        "result_requirement": "Tool failed",
+        "solution_summary": "All fallback variants failed"
+      },
+      {
+        "query": "Identify the form fields and map them to the extracted information.",
+        "result_requirement": "Tool failed",
+        "solution_summary": "All fallback variants failed"
+      },
+      {
+        "query": "Identify the form fields and map them to the extracted information.",
+        "result_requirement": "Tool failed",
+        "solution_summary": "All fallback variants failed"
+      },
+      {
+        "query": "Identify the form fields and map them to the extracted information.",
+        "result_requirement": "Tool failed",
+        "solution_summary": "All fallback variants failed"
+      },
+      {
+        "query": "Identify the form fields and map them to the extracted information.",
+        "result_requirement": "Tool failed",
+        "solution_summary": "All fallback variants failed"
+      },
+      {
+        "query": "Identify the form fields and map them to the extracted information.",
+        "result_requirement": "Tool failed",
+        "solution_summary": "All fallback variants failed"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Google Forms",
+                "EAG V2",
+                "riteshv2@gmail.com",
+                "Rohan Shravan",
+                "EAG",
+                "04/09/1987",
+                "Marital status: Yes"
+              ],
+              "result_requirement": "Fill out the Google Form with the provided details and submit it.",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.9",
+              "reasoning": "The user wants to fill out a Google Form. This requires opening the form and inputting the provided details into the correct fields. This task requires tool use to interact with the webpage and fill the form.",
+              "local_reasoning": "The form needs to be filled with the provided information. This requires a tool to interact with the webpage.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Extract relevant information from the original query.",
+            "type": "CODE",
+            "status": "failed",
+            "result": null,
+            "conclusion": null,
+            "error": "All fallback variants failed",
+            "perception": null,
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        },
+        {
+          "data": {
+            "index": "1",
+            "description": "Identify the form fields and map them to the extracted information.",
+            "type": "CODE",
+            "status": "failed",
+            "result": null,
+            "conclusion": null,
+            "error": "All fallback variants failed",
+            "perception": null,
+            "from_step": "ROOT"
+          },
+          "id": "1"
+        },
+        {
+          "data": {
+            "index": "2",
+            "description": "Fill out the Google Form with the mapped information.",
+            "type": "CODE",
+            "status": "pending",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "ROOT"
+          },
+          "id": "2"
+        },
+        {
+          "data": {
+            "index": "3",
+            "description": "Submit the form.",
+            "type": "CODE",
+            "status": "pending",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "ROOT"
+          },
+          "id": "3"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "2"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "3"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "eeef73ac-e83c-4bc7-9ba1-878dbddd72c6",
+    "original_query": "Open https://forms.gle/6Nc6QaaJyDvePxLv7 and fill the form with the following details:\n- Course (what course is he/she in?): EAG V2\n- Email ID: riteshv2@gmail.com\n- Master's name: Rohan Shravan\n- Which course is he/she taking?: EAG\n- Date of birth: 04/09/1987\n- Marital status: Yes\n\nSubmit the form after all required fields are filled.",
+    "perception_snapshots": [
+      {
+        "run_id": "eeef73ac-e83c-4bc7-9ba1-878dbddd72c6-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "Google Forms",
+          "EAG V2",
+          "riteshv2@gmail.com",
+          "Rohan Shravan",
+          "EAG",
+          "04/09/1987",
+          "Marital status: Yes"
+        ],
+        "result_requirement": "Fill out the Google Form with the provided details and submit it.",
+        "original_goal_achieved": false,
+        "reasoning": "The user wants to fill out a Google Form. This requires opening the form and inputting the provided details into the correct fields. This task requires tool use to interact with the webpage and fill the form.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The form needs to be filled with the provided information. This requires a tool to interact with the webpage.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.9",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "19507ff2-55cc-4099-9c08-df23344250ec",
+        "input": {
+          "current_time": "2026-01-20T08:12:49.860983",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Open https://forms.gle/6Nc6QaaJyDvePxLv7 and fill the form with the following details:\n- Course (what course is he/she in?): EAG V2\n- Email ID: riteshv2@gmail.com\n- Master's name: Rohan Shravan\n- Which course is he/she taking?: EAG\n- Date of birth: 04/09/1987\n- Marital status: Yes\n\nSubmit the form after all required fields are filled.",
+          "perception": {
+            "entities": [
+              "Google Forms",
+              "EAG V2",
+              "riteshv2@gmail.com",
+              "Rohan Shravan",
+              "EAG",
+              "04/09/1987",
+              "Marital status: Yes"
+            ],
+            "result_requirement": "Fill out the Google Form with the provided details and submit it.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.9",
+            "reasoning": "The user wants to fill out a Google Form. This requires opening the form and inputting the provided details into the correct fields. This task requires tool use to interact with the webpage and fill the form.",
+            "local_reasoning": "The form needs to be filled with the provided information. This requires a tool to interact with the webpage.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Google Forms",
+                  "EAG V2",
+                  "riteshv2@gmail.com",
+                  "Rohan Shravan",
+                  "EAG",
+                  "04/09/1987",
+                  "Marital status: Yes"
+                ],
+                "result_requirement": "Fill out the Google Form with the provided details and submit it.",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The user wants to fill out a Google Form. This requires opening the form and inputting the provided details into the correct fields. This task requires tool use to interact with the webpage and fill the form.",
+                "local_reasoning": "The form needs to be filled with the provided information. This requires a tool to interact with the webpage.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Google Forms",
+                  "EAG V2",
+                  "riteshv2@gmail.com",
+                  "Rohan Shravan",
+                  "EAG",
+                  "04/09/1987",
+                  "Marital status: Yes"
+                ],
+                "result_requirement": "Fill out the Google Form with the provided details and submit it.",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The user wants to fill out a Google Form. This requires opening the form and inputting the provided details into the correct fields. This task requires tool use to interact with the webpage and fill the form.",
+                "local_reasoning": "The form needs to be filled with the provided information. This requires a tool to interact with the webpage.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[{'score': 87.5, 'session_id': 'be0e37b2-c3bb-4997-b149-3eb2f7f0cfaf', 'original_query': 'Query 1: What is 4 * 4?', 'summary_output': '4 * 4 = 16', 'timestamp': '2025-05-19T05:55:46Z'}, {'score': 73.6842105263158, 'session_id': 'f90886c1-5ad4-4bf5-8ced-809d6a361bd3', 'original_query': 'Query 1: What is 64/16?', 'summary_output': '64/16 = 4', 'timestamp': '2025-05-19T06:01:25Z'}, {'score': 66.66666666666666, 'session_id': '16118c09-ce4c-44a9-b058-82dfdd079aef', 'original_query': 'Query 1: What is\u2026"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Extract relevant information from the original query."
+              },
+              {
+                "id": "1",
+                "description": "Identify the form fields and map them to the extracted information."
+              },
+              {
+                "id": "2",
+                "description": "Fill out the Google Form with the mapped information."
+              },
+              {
+                "id": "3",
+                "description": "Submit the form."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              },
+              {
+                "from": "1",
+                "to": "2",
+                "type": "normal"
+              },
+              {
+                "from": "2",
+                "to": "3",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "entities = perception.get(\"entities\", [])\nreturn {\"extracted_entities_0A\": entities}",
+            "CODE_0B": "query = original_query\nreturn {\"original_query_0B\": query}",
+            "CODE_0C": "entities = perception.get(\"entities\", [])\ntext = f\"The entities found are: {entities}\"\nreturn {\"text_0C\": text}"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Extract relevant information from the original query."
+            },
+            {
+              "id": "1",
+              "description": "Identify the form fields and map them to the extracted information."
+            },
+            {
+              "id": "2",
+              "description": "Fill out the Google Form with the mapped information."
+            },
+            {
+              "id": "3",
+              "description": "Submit the form."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            },
+            {
+              "from": "1",
+              "to": "2",
+              "type": "normal"
+            },
+            {
+              "from": "2",
+              "to": "3",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "entities = perception.get(\"entities\", [])\nreturn {\"extracted_entities_0A\": entities}",
+          "CODE_0B": "query = original_query\nreturn {\"original_query_0B\": query}",
+          "CODE_0C": "entities = perception.get(\"entities\", [])\ntext = f\"The entities found are: {entities}\"\nreturn {\"text_0C\": text}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [
+      {
+        "run_id": "1e5e70d5-dd40-4c98-bbb6-d7f7cdcb2a48",
+        "step_id": "0",
+        "variant_used": "CODE_0A",
+        "code": "entities = perception.get(\"entities\", [])\nreturn {\"extracted_entities_0A\": entities}",
+        "status": "error",
+        "result": null,
+        "error": "NameError: name 'perception' is not defined",
+        "execution_time": "2026-01-20 13:42:55",
+        "total_time": "0.033",
+        "return_to": ""
+      },
+      {
+        "run_id": "437aa3ab-a4a8-45f5-9b0c-c38283d91355",
+        "step_id": "0",
+        "variant_used": "CODE_0B",
+        "code": "query = original_query\nreturn {\"original_query_0B\": query}",
+        "status": "error",
+        "result": null,
+        "error": "NameError: name 'original_query' is not defined",
+        "execution_time": "2026-01-20 13:42:55",
+        "total_time": "0.003",
+        "return_to": ""
+      },
+      {
+        "run_id": "8f7fcf3d-f4d4-45d6-928b-18f54be7e5f7",
+        "step_id": "0",
+        "variant_used": "CODE_0C",
+        "code": "entities = perception.get(\"entities\", [])\ntext = f\"The entities found are: {entities}\"\nreturn {\"text_0C\": text}",
+        "status": "error",
+        "result": null,
+        "error": "NameError: name 'perception' is not defined",
+        "execution_time": "2026-01-20 13:42:55",
+        "total_time": "0.003",
+        "return_to": ""
+      }
+    ],
+    "summarizer_snapshots": [],
+    "final_summary": null,
+    "status": "failed",
+    "completed_at": "2026-01-20T08:12:55.300323"
+  },
+  "status": "failed",
+  "final_step_id": "3",
+  "reason": "Agent halted after max iterations or step failures.",
+  "timestamp": "2026-01-20T08:12:55.300323",
+  "original_query": "Open https://forms.gle/6Nc6QaaJyDvePxLv7 and fill the form with the following details:\n- Course (what course is he/she in?): EAG V2\n- Email ID: riteshv2@gmail.com\n- Master's name: Rohan Shravan\n- Which course is he/she taking?: EAG\n- Date of birth: 04/09/1987\n- Marital status: Yes\n\nSubmit the form after all required fields are filled."
+}

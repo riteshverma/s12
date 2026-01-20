@@ -1,0 +1,157 @@
+{
+  "context": {
+    "session_id": "f90886c1-5ad4-4bf5-8ced-809d6a361bd3",
+    "original_query": "Query 1: What is 64/16?",
+    "globals": {
+      "memory": []
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: What is 64/16?",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "64/16 = 4",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "64/16"
+              ],
+              "result_requirement": "The result of 64 divided by 16",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "1.0",
+              "reasoning": "The query can be directly calculated without external tools or memory. The answer is 4.",
+              "local_reasoning": "Simple mathematical calculation.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "64/16 = 4",
+              "route": "summarize",
+              "instruction_to_summarize": "Provide the result of the calculation 64/16. The answer is 4. Format in plain text."
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        }
+      ],
+      "links": []
+    }
+  },
+  "session": {
+    "session_id": "f90886c1-5ad4-4bf5-8ced-809d6a361bd3",
+    "original_query": "Query 1: What is 64/16?",
+    "perception_snapshots": [
+      {
+        "run_id": "f90886c1-5ad4-4bf5-8ced-809d6a361bd3-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "64/16"
+        ],
+        "result_requirement": "The result of 64 divided by 16",
+        "original_goal_achieved": true,
+        "reasoning": "The query can be directly calculated without external tools or memory. The answer is 4.",
+        "local_goal_achieved": true,
+        "local_reasoning": "Simple mathematical calculation.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "64/16 = 4",
+        "confidence": "1.0",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [],
+    "execution_snapshots": [],
+    "summarizer_snapshots": [
+      {
+        "run_id": "db313f89-6540-4a7d-b70d-ec76b9b309f6",
+        "input": {
+          "original_query": "Query 1: What is 64/16?",
+          "globals_schema": {
+            "memory": []
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "64/16"
+                    ],
+                    "result_requirement": "The result of 64 divided by 16",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "1.0",
+                    "reasoning": "The query can be directly calculated without external tools or memory. The answer is 4.",
+                    "local_reasoning": "Simple mathematical calculation.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "64/16 = 4",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Provide the result of the calculation 64/16. The answer is 4. Format in plain text."
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              }
+            ],
+            "links": []
+          },
+          "perception": {
+            "entities": [
+              "64/16"
+            ],
+            "result_requirement": "The result of 64 divided by 16",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "1.0",
+            "reasoning": "The query can be directly calculated without external tools or memory. The answer is 4.",
+            "local_reasoning": "Simple mathematical calculation.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "64/16 = 4",
+            "route": "summarize",
+            "instruction_to_summarize": "Provide the result of the calculation 64/16. The answer is 4. Format in plain text."
+          }
+        },
+        "summary_output": "64/16 = 4",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-19T06:01:25Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "64/16 = 4",
+    "status": "success",
+    "completed_at": "2025-05-19T06:01:56.256301"
+  },
+  "status": "success",
+  "final_step_id": "ROOT",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-19T06:01:56.258247",
+  "original_query": "Query 1: What is 64/16?",
+  "final_summary": "64/16 = 4"
+}

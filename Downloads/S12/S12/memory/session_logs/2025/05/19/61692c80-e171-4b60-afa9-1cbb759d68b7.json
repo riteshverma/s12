@@ -1,0 +1,1014 @@
+{
+  "context": {
+    "session_id": "61692c80-e171-4b60-afa9-1cbb759d68b7",
+    "original_query": "Query 1: What is Model Context Protocol?  Give me details.",
+    "globals": {
+      "memory": [],
+      "search_results_0B": [
+        "https://modelcontextprotocol.io/introduction",
+        "https://towardsdatascience.com/clear-intro-to-mcp/",
+        "https://techcommunity.microsoft.com/blog/educatordeveloperblog/unleashing-the-power-of-model-context-protocol-mcp-a-game-changer-in-ai-integrat/4397564",
+        "https://codebasics.io/blog/model-context-protocol-explained-streamlining-ai-integration-and-development",
+        "https://www.zdnet.com/article/what-is-model-context-protocol-the-emerging-standard-bridging-ai-and-data-explained/"
+      ],
+      "search_results_0C": [
+        "https://modelcontextprotocol.io/introduction",
+        "https://github.com/modelcontextprotocol",
+        "https://en.wikipedia.org/wiki/Model_Context_Protocol",
+        "https://www.anthropic.com/news/model-context-protocol",
+        "https://modelcontextprotocol.info/"
+      ],
+      "search_results_0A": [
+        "https://modelcontextprotocol.io/introduction",
+        "https://techcommunity.microsoft.com/blog/educatordeveloperblog/unleashing-the-power-of-model-context-protocol-mcp-a-game-changer-in-ai-integrat/4397564",
+        "https://github.blog/ai-and-ml/llms/what-the-heck-is-mcp-and-why-is-everyone-talking-about-it/",
+        "https://codebasics.io/blog/model-context-protocol-explained-streamlining-ai-integration-and-development",
+        "https://www.digitalocean.com/community/tutorials/model-context-protocol"
+      ],
+      "summary_1C": [
+        {
+          "type": "text",
+          "text": "The Model Context Protocol (MCP) standardizes how applications provide context to LLMs, similar to USB-C for AI. It uses a client-server architecture with MCP Hosts, Clients, and Servers to connect LLMs to Local Data Sources and Remote Services. MCP aims to facilitate agent building, LLM provider flexibility, and secure data handling. Resources for getting started include guides for Server, Client, and Claude Desktop Users, examples, tutorials on building/debugging, the MCP Inspector debugging tool, and a workshop video. Key concepts include architecture, resources (data exposure), prompts, tools, sampling, and transports. Contributions and feedback are encouraged via GitHub issues and the \"spec\" for discussion.",
+          "annotations": null
+        }
+      ],
+      "text_1A": [
+        {
+          "type": "text",
+          "text": "[trafilatura] Introduction\nGet started with the Model Context Protocol (MCP)\nMCP is an open protocol that standardizes how applications provide context to LLMs. Think of MCP like a USB-C port for AI applications. Just as USB-C provides a standardized way to connect your devices to various peripherals and accessories, MCP provides a standardized way to connect AI models to different data sources and tools.\nWhy MCP?\nMCP helps you build agents and complex workflows on top of LLMs. LLMs frequently need to integrate with data and tools, and MCP provides:\n- A growing list of pre-built integrations that your LLM can directly plug into\n- The flexibility to switch between LLM providers and vendors\n- Best practices for securing your data within your infrastructure\nGeneral architecture\nAt its core, MCP follows a client-server architecture where a host application can connect to multiple servers:\n- MCP Hosts: Programs like Claude Desktop, IDEs, or AI tools that want to access data through MCP\n- MCP Clients: Protocol clients that maintain 1:1 connections with servers\n- MCP Servers: Lightweight programs that each expose specific capabilities through the standardized Model Context Protocol\n- Local Data Sources: Your computers files, databases, and services that MCP servers can securely access\n- Remote Services: External systems available over the internet (e.g., through APIs) that MCP servers can connect to\nGet started\nChoose the path that best fits your needs:\nQuick Starts\nFor Server Developers\nGet started building your own server to use in Claude for Desktop and other clients\nFor Client Developers\nGet started building your own client that can integrate with all MCP servers\nFor Claude Desktop Users\nGet started using pre-built servers in Claude for Desktop\nExamples\nExample Servers\nCheck out our gallery of official MCP servers and implementations\nExample Clients\nView the list of clients that support MCP integrations\nTutorials\nBuilding MCP with LLMs\nLearn how to use LLMs like Claude to speed up your MCP development\nDebugging Guide\nLearn how to effectively debug MCP servers and integrations\nMCP Inspector\nTest and inspect your MCP servers with our interactive debugging tool\nMCP Workshop (Video, 2hr)\nExplore MCP\nDive deeper into MCPs core concepts and capabilities:\nCore architecture\nUnderstand how MCP connects clients, servers, and LLMs\nResources\nExpose data and content from your servers to LLMs\nPrompts\nCreate reusable prompt templates and workflows\nTools\nEnable LLMs to perform actions through your server\nSampling\nLet your servers request completions from LLMs\nTransports\nLearn about MCPs communication mechanism\nContributing\nWant to contribute? Check out our Contributing Guide to learn how you can help improve MCP.\nSupport and Feedback\nHeres how to get help or provide feedback:\n- For bug reports and feature requests related to the MCP specification, SDKs, or documentation (open source), please create a GitHub issue\n- For discussions or Q&A about the MCP specification, use the spec",
+          "annotations": null
+        }
+      ],
+      "summary_1A": [
+        {
+          "type": "text",
+          "text": "The Model Context Protocol (MCP) is an open protocol that standardizes how applications provide context to LLMs, similar to a USB-C port for AI, enabling connection to diverse data sources and tools. It uses a client-server architecture: MCP Hosts (e.g., Claude Desktop), MCP Clients (1:1 connections with servers), MCP Servers (expose capabilities), Local Data Sources, and Remote Services. MCP facilitates building agents and workflows with benefits like pre-built integrations, LLM vendor flexibility, and data security. Resources for getting started include options for Server Developers, Client Developers, and Claude Desktop Users, plus Example Servers/Clients, Tutorials, and a Debugging Guide. MCP allows exposing data, prompts, and tools to LLMs with resources on sampling and transports. Contributions and feedback are welcome via GitHub issues or discussions.",
+          "annotations": null
+        }
+      ],
+      "text1_1B": [
+        {
+          "type": "text",
+          "text": "[trafilatura] Introduction\nGet started with the Model Context Protocol (MCP)\nMCP is an open protocol that standardizes how applications provide context to LLMs. Think of MCP like a USB-C port for AI applications. Just as USB-C provides a standardized way to connect your devices to various peripherals and accessories, MCP provides a standardized way to connect AI models to different data sources and tools.\nWhy MCP?\nMCP helps you build agents and complex workflows on top of LLMs. LLMs frequently need to integrate with data and tools, and MCP provides:\n- A growing list of pre-built integrations that your LLM can directly plug into\n- The flexibility to switch between LLM providers and vendors\n- Best practices for securing your data within your infrastructure\nGeneral architecture\nAt its core, MCP follows a client-server architecture where a host application can connect to multiple servers:\n- MCP Hosts: Programs like Claude Desktop, IDEs, or AI tools that want to access data through MCP\n- MCP Clients: Protocol clients that maintain 1:1 connections with servers\n- MCP Servers: Lightweight programs that each expose specific capabilities through the standardized Model Context Protocol\n- Local Data Sources: Your computers files, databases, and services that MCP servers can securely access\n- Remote Services: External systems available over the internet (e.g., through APIs) that MCP servers can connect to\nGet started\nChoose the path that best fits your needs:\nQuick Starts\nFor Server Developers\nGet started building your own server to use in Claude for Desktop and other clients\nFor Client Developers\nGet started building your own client that can integrate with all MCP servers\nFor Claude Desktop Users\nGet started using pre-built servers in Claude for Desktop\nExamples\nExample Servers\nCheck out our gallery of official MCP servers and implementations\nExample Clients\nView the list of clients that support MCP integrations\nTutorials\nBuilding MCP with LLMs\nLearn how to use LLMs like Claude to speed up your MCP development\nDebugging Guide\nLearn how to effectively debug MCP servers and integrations\nMCP Inspector\nTest and inspect your MCP servers with our interactive debugging tool\nMCP Workshop (Video, 2hr)\nExplore MCP\nDive deeper into MCPs core concepts and capabilities:\nCore architecture\nUnderstand how MCP connects clients, servers, and LLMs\nResources\nExpose data and content from your servers to LLMs\nPrompts\nCreate reusable prompt templates and workflows\nTools\nEnable LLMs to perform actions through your server\nSampling\nLet your servers request completions from LLMs\nTransports\nLearn about MCPs communication mechanism\nContributing\nWant to contribute? Check out our Contributing Guide to learn how you can help improve MCP.\nSupport and Feedback\nHeres how to get help or provide feedback:\n- For bug reports and feature requests related to the MCP specification, SDKs, or documentation (open source), please create a GitHub issue\n- For discussions or Q&A about the MCP specification, use the spec",
+          "annotations": null
+        }
+      ],
+      "text2_1B": [
+        {
+          "type": "text",
+          "text": "[trafilatura] One thing Im personally excited about is how tool-calling standards like MCP can actually make Ai Systems safer. With easier access to well-tested tools more companies can avoid reinventing the wheel, which reduces security risks and minimizes the chance of malicious code. As Ai systems start scaling in 2025, these are valid concerns.\nAs I dove into MCP, I realized a huge gap in documentation. Theres plenty of high-level what does it do content, but when you actually want to understand how it works, the resources start to fall shortespecially for those who arent native developers. Its either high level explainers or deep in the source code.\nIn this piece, Im going to break MCP down for a broader audiencemaking the concepts and functionality clear and digestible. If youre able, follow along in the coding section, if not it will be well explained in natural language above the code snippets.\nAn Analogy to Understand MCP: The Restaurant\nLets imagine the concept of MCP as a restaurant where we have:\nThe Host = The restaurant building (the environment where the agent runs)\nThe Server = The kitchen (where tools live)\nThe Client = The waiter (who sends tool requests)\nThe Agent = The customer (who decides what tool to use)\nThe Tools = The recipes (the code that gets executed)\nThe Components of MCP\nHost\nThis is where the agent operates. In our analogy, its the restaurant building; in MCP, its wherever your agents or LLMs actually run. If youre using Ollama locally, youre the host. If youre using Claude or GPT, then Anthropic or OpenAI are the hosts.\nClient\nThis is the environment that sends tool call requests from the agent. Think of it as the waiter who takes your order and delivers it to the kitchen. In practical terms, its the application or interface where your agent runs. The client passes tool call requests to the Server using MCP.\nServer\nThis is the kitchen where recipes, or tools, are housed. It centralizes tools so agents can access them easily. Servers can be local (spun up by users) or remote (hosted by companies offering tools). Tools on a server are typically either grouped by function or integration. For instance, all Slack-related tools can be on a Slack server, or all messaging tools can be grouped together on a messaging server. That decision is based on architectural and developer preferences.\nAgent\nThe brains of the operation. Powered by an LLM, it decides which tools to call to complete a task. When it determines a tool is needed, it initiates a request to the server. The agent doesnt need to natively understand MCP because it learns how to use it through the metadata associated with each of the tools. This metadata associated with each tool tells the agent the protocol for calling the tool and the execution method. But it is important to note that the platform or agent needs to support MCP so that it handles tool calls automatically. Otherwise it is up to the developer to write the complex translation logic of how to parse the metadata",
+          "annotations": null
+        }
+      ],
+      "summary_1B": [
+        {
+          "type": "text",
+          "text": "The Model Context Protocol (MCP) is an open protocol that standardizes how applications provide context to LLMs, similar to a \"USB-C port for AI.\" It uses a client-server architecture with MCP Hosts (like Claude Desktop), MCP Clients, and MCP Servers, connecting LLMs to Local Data Sources and Remote Services. MCP facilitates LLM integration with data/tools, offering pre-built integrations, LLM vendor flexibility, and data security. Resources are available for Server Developers, Client Developers, and Claude Desktop Users, with examples, tutorials, and debugging tools. Key areas include architecture, resources (data, prompts, tools, sampling), transports, contributing, and support/feedback channels via GitHub.",
+          "annotations": null
+        }
+      ]
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: What is Model Context Protocol?  Give me details.",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "The **Model Context Protocol (MCP)** is an open protocol that standardizes how applications provide context to Large Language Models (LLMs). Think of it as a \"USB-C port for AI,\" offering a standardized way to connect AI models to different data sources and tools.\n\n**Key Components and Architecture:**\n\nMCP uses a client-server architecture:\n\n*   **MCP Hosts:** Programs like Claude Desktop, IDEs, or AI tools that want to access data through MCP.\n*   **MCP Clients:** Protocol clients that maintain 1:1 connections with servers. They send tool call requests from the agent.\n*   **MCP Servers:** Lightweight programs that expose specific capabilities through the standardized Model Context Protocol. They centralize tools so agents can access them easily. Servers can be local (spun up by users) or remote (hosted by companies offering tools).\n*   **Local Data Sources:** Your computers' files, databases, and services that MCP servers can securely access.\n*   **Remote Services:** External systems available over the internet (e.g., through APIs) that MCP servers can connect to.\n\n**Benefits of MCP:**\n\n*   **Integration:** Facilitates seamless integration of LLMs with diverse data and tools. Offers a growing list of pre-built integrations that LLMs can directly plug into.\n*   **Flexibility:** Provides the flexibility to switch between LLM providers and vendors.\n*   **Security:** Promotes best practices for securing data within your infrastructure.\n\n**Analogy: MCP as a Restaurant**\n\n*   **Host = The restaurant building:** The environment where the agent runs.\n*   **Server = The kitchen:** Where tools live.\n*   **Client = The waiter:** Who sends tool requests.\n*   **Agent = The customer:** Who decides what tool to use.\n*   **Tools = The recipes:** The code that gets executed.\n\n**Getting Started:**\n\nResources are available for:\n\n*   **Server Developers:** Building your own server to use in Claude for Desktop and other clients.\n*   **Client Developers:** Building your own client that can integrate with all MCP servers.\n*   **Claude Desktop Users:** Using pre-built servers in Claude for Desktop.\n\nExamples, tutorials, and debugging tools are also available. [Model Context Protocol Official Website](https://modelcontextprotocol.io/introduction) offers comprehensive documentation.\n\n**Contributing and Support:**\n\nContributions and feedback are encouraged via [GitHub issues](https://github.com/modelcontextprotocol) and the \"spec\" for discussion.",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Model Context Protocol"
+              ],
+              "result_requirement": "Detailed explanation of Model Context Protocol",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.8",
+              "reasoning": "The user is asking for a definition and details about 'Model Context Protocol'. This information is not readily available in memory or globals. Further planning is required to find the information.",
+              "local_reasoning": "The query requires external research to define and explain 'Model Context Protocol'.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision",
+              "instruction_to_summarize": "Not applicable"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Search for 'Model Context Protocol' definition and details using DuckDuckGo.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "search_results_0A": [
+                "https://modelcontextprotocol.io/introduction",
+                "https://techcommunity.microsoft.com/blog/educatordeveloperblog/unleashing-the-power-of-model-context-protocol-mcp-a-game-changer-in-ai-integrat/4397564",
+                "https://github.blog/ai-and-ml/llms/what-the-heck-is-mcp-and-why-is-everyone-talking-about-it/",
+                "https://codebasics.io/blog/model-context-protocol-explained-streamlining-ai-integration-and-development",
+                "https://www.digitalocean.com/community/tutorials/model-context-protocol"
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Model Context Protocol",
+                "MCP"
+              ],
+              "result_requirement": "Detailed explanation of Model Context Protocol",
+              "original_goal_achieved": false,
+              "local_goal_achieved": true,
+              "confidence": "0.9",
+              "reasoning": "The search tool returned multiple relevant URLs that likely contain the definition and details about Model Context Protocol. We need to extract the content from these webpages to summarize the information for the user.",
+              "local_reasoning": "The search results provide a good starting point for understanding Model Context Protocol.",
+              "last_tooluse_summary": "DuckDuckGo search for 'Model Context Protocol' returned multiple URLs.",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        },
+        {
+          "data": {
+            "index": "1",
+            "description": "Extract content from the most relevant URLs and summarize.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "text1_1B": [
+                {
+                  "type": "text",
+                  "text": "[trafilatura] Introduction\nGet started with the Model Context Protocol (MCP)\nMCP is an open protocol that standardizes how applications provide context to LLMs. Think of MCP like a USB-C port for AI applications. Just as USB-C provides a standardized way to connect your devices to various peripherals and accessories, MCP provides a standardized way to connect AI models to different data sources and tools.\nWhy MCP?\nMCP helps you build agents and complex workflows on top of LLMs. LLMs frequently need to integrate with data and tools, and MCP provides:\n- A growing list of pre-built integrations that your LLM can directly plug into\n- The flexibility to switch between LLM providers and vendors\n- Best practices for securing your data within your infrastructure\nGeneral architecture\nAt its core, MCP follows a client-server architecture where a host application can connect to multiple servers:\n- MCP Hosts: Programs like Claude Desktop, IDEs, or AI tools that want to access data through MCP\n- MCP Clients: Protocol clients that maintain 1:1 connections with servers\n- MCP Servers: Lightweight programs that each expose specific capabilities through the standardized Model Context Protocol\n- Local Data Sources: Your computers files, databases, and services that MCP servers can securely access\n- Remote Services: External systems available over the internet (e.g., through APIs) that MCP servers can connect to\nGet started\nChoose the path that best fits your needs:\nQuick Starts\nFor Server Developers\nGet started building your own server to use in Claude for Desktop and other clients\nFor Client Developers\nGet started building your own client that can integrate with all MCP servers\nFor Claude Desktop Users\nGet started using pre-built servers in Claude for Desktop\nExamples\nExample Servers\nCheck out our gallery of official MCP servers and implementations\nExample Clients\nView the list of clients that support MCP integrations\nTutorials\nBuilding MCP with LLMs\nLearn how to use LLMs like Claude to speed up your MCP development\nDebugging Guide\nLearn how to effectively debug MCP servers and integrations\nMCP Inspector\nTest and inspect your MCP servers with our interactive debugging tool\nMCP Workshop (Video, 2hr)\nExplore MCP\nDive deeper into MCPs core concepts and capabilities:\nCore architecture\nUnderstand how MCP connects clients, servers, and LLMs\nResources\nExpose data and content from your servers to LLMs\nPrompts\nCreate reusable prompt templates and workflows\nTools\nEnable LLMs to perform actions through your server\nSampling\nLet your servers request completions from LLMs\nTransports\nLearn about MCPs communication mechanism\nContributing\nWant to contribute? Check out our Contributing Guide to learn how you can help improve MCP.\nSupport and Feedback\nHeres how to get help or provide feedback:\n- For bug reports and feature requests related to the MCP specification, SDKs, or documentation (open source), please create a GitHub issue\n- For discussions or Q&A about the MCP specification, use the spec",
+                  "annotations": null
+                }
+              ],
+              "text2_1B": [
+                {
+                  "type": "text",
+                  "text": "[trafilatura] One thing Im personally excited about is how tool-calling standards like MCP can actually make Ai Systems safer. With easier access to well-tested tools more companies can avoid reinventing the wheel, which reduces security risks and minimizes the chance of malicious code. As Ai systems start scaling in 2025, these are valid concerns.\nAs I dove into MCP, I realized a huge gap in documentation. Theres plenty of high-level what does it do content, but when you actually want to understand how it works, the resources start to fall shortespecially for those who arent native developers. Its either high level explainers or deep in the source code.\nIn this piece, Im going to break MCP down for a broader audiencemaking the concepts and functionality clear and digestible. If youre able, follow along in the coding section, if not it will be well explained in natural language above the code snippets.\nAn Analogy to Understand MCP: The Restaurant\nLets imagine the concept of MCP as a restaurant where we have:\nThe Host = The restaurant building (the environment where the agent runs)\nThe Server = The kitchen (where tools live)\nThe Client = The waiter (who sends tool requests)\nThe Agent = The customer (who decides what tool to use)\nThe Tools = The recipes (the code that gets executed)\nThe Components of MCP\nHost\nThis is where the agent operates. In our analogy, its the restaurant building; in MCP, its wherever your agents or LLMs actually run. If youre using Ollama locally, youre the host. If youre using Claude or GPT, then Anthropic or OpenAI are the hosts.\nClient\nThis is the environment that sends tool call requests from the agent. Think of it as the waiter who takes your order and delivers it to the kitchen. In practical terms, its the application or interface where your agent runs. The client passes tool call requests to the Server using MCP.\nServer\nThis is the kitchen where recipes, or tools, are housed. It centralizes tools so agents can access them easily. Servers can be local (spun up by users) or remote (hosted by companies offering tools). Tools on a server are typically either grouped by function or integration. For instance, all Slack-related tools can be on a Slack server, or all messaging tools can be grouped together on a messaging server. That decision is based on architectural and developer preferences.\nAgent\nThe brains of the operation. Powered by an LLM, it decides which tools to call to complete a task. When it determines a tool is needed, it initiates a request to the server. The agent doesnt need to natively understand MCP because it learns how to use it through the metadata associated with each of the tools. This metadata associated with each tool tells the agent the protocol for calling the tool and the execution method. But it is important to note that the platform or agent needs to support MCP so that it handles tool calls automatically. Otherwise it is up to the developer to write the complex translation logic of how to parse the metadata",
+                  "annotations": null
+                }
+              ],
+              "summary_1B": [
+                {
+                  "type": "text",
+                  "text": "The Model Context Protocol (MCP) is an open protocol that standardizes how applications provide context to LLMs, similar to a \"USB-C port for AI.\" It uses a client-server architecture with MCP Hosts (like Claude Desktop), MCP Clients, and MCP Servers, connecting LLMs to Local Data Sources and Remote Services. MCP facilitates LLM integration with data/tools, offering pre-built integrations, LLM vendor flexibility, and data security. Resources are available for Server Developers, Client Developers, and Claude Desktop Users, with examples, tutorials, and debugging tools. Key areas include architecture, resources (data, prompts, tools, sampling), transports, contributing, and support/feedback channels via GitHub.",
+                  "annotations": null
+                }
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Model Context Protocol",
+                "MCP"
+              ],
+              "result_requirement": "Detailed explanation of Model Context Protocol",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "0.95",
+              "reasoning": "The available summaries and extracted texts contain sufficient information to define and explain the Model Context Protocol. The summaries provide a concise overview, while the extracted texts offer more detailed explanations and analogies.",
+              "local_reasoning": "The information extracted from the webpages sufficiently explains the Model Context Protocol.",
+              "last_tooluse_summary": "Extracted and summarized content from multiple URLs related to Model Context Protocol.",
+              "solution_summary": "The Model Context Protocol (MCP) is an open protocol standardizing how applications provide context to LLMs, akin to a 'USB-C port for AI.' It employs a client-server architecture, including MCP Hosts, Clients, and Servers, connecting LLMs to data sources and services. MCP facilitates LLM integration with data/tools, offering pre-built integrations, LLM vendor flexibility, and data security.",
+              "route": "summarize",
+              "instruction_to_summarize": "Provide a comprehensive explanation of Model Context Protocol (MCP) based on the available summaries and extracted texts. Start with a concise definition, then elaborate on its architecture (client-server model with Hosts, Clients, Servers), key benefits (integration, flexibility, security), and resources for getting started. Use markdown formatting for readability. Include the restaurant analogy."
+            },
+            "from_step": "1"
+          },
+          "id": "1"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "1",
+          "target": "1"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "61692c80-e171-4b60-afa9-1cbb759d68b7",
+    "original_query": "Query 1: What is Model Context Protocol?  Give me details.",
+    "perception_snapshots": [
+      {
+        "run_id": "61692c80-e171-4b60-afa9-1cbb759d68b7-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "Model Context Protocol"
+        ],
+        "result_requirement": "Detailed explanation of Model Context Protocol",
+        "original_goal_achieved": false,
+        "reasoning": "The user is asking for a definition and details about 'Model Context Protocol'. This information is not readily available in memory or globals. Further planning is required to find the information.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The query requires external research to define and explain 'Model Context Protocol'.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.8",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "61692c80-e171-4b60-afa9-1cbb759d68b7-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "Model Context Protocol",
+          "MCP"
+        ],
+        "result_requirement": "Detailed explanation of Model Context Protocol",
+        "original_goal_achieved": false,
+        "reasoning": "The search tool returned multiple relevant URLs that likely contain the definition and details about Model Context Protocol. We need to extract the content from these webpages to summarize the information for the user.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The search results provide a good starting point for understanding Model Context Protocol.",
+        "last_tooluse_summary": "DuckDuckGo search for 'Model Context Protocol' returned multiple URLs.",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.9",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "61692c80-e171-4b60-afa9-1cbb759d68b7-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "Model Context Protocol",
+          "MCP"
+        ],
+        "result_requirement": "Detailed explanation of Model Context Protocol",
+        "original_goal_achieved": true,
+        "reasoning": "The available summaries and extracted texts contain sufficient information to define and explain the Model Context Protocol. The summaries provide a concise overview, while the extracted texts offer more detailed explanations and analogies.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The information extracted from the webpages sufficiently explains the Model Context Protocol.",
+        "last_tooluse_summary": "Extracted and summarized content from multiple URLs related to Model Context Protocol.",
+        "solution_summary": "The Model Context Protocol (MCP) is an open protocol standardizing how applications provide context to LLMs, akin to a 'USB-C port for AI.' It employs a client-server architecture, including MCP Hosts, Clients, and Servers, connecting LLMs to data sources and services. MCP facilitates LLM integration with data/tools, offering pre-built integrations, LLM vendor flexibility, and data security.",
+        "confidence": "0.95",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "a1c44ff5-519f-4a65-bd51-96f75591db1e",
+        "input": {
+          "current_time": "2025-05-19T08:37:44.312769",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: What is Model Context Protocol?  Give me details.",
+          "perception": {
+            "entities": [
+              "Model Context Protocol"
+            ],
+            "result_requirement": "Detailed explanation of Model Context Protocol",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.8",
+            "reasoning": "The user is asking for a definition and details about 'Model Context Protocol'. This information is not readily available in memory or globals. Further planning is required to find the information.",
+            "local_reasoning": "The query requires external research to define and explain 'Model Context Protocol'.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision",
+            "instruction_to_summarize": "Not applicable"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Model Context Protocol"
+                ],
+                "result_requirement": "Detailed explanation of Model Context Protocol",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.8",
+                "reasoning": "The user is asking for a definition and details about 'Model Context Protocol'. This information is not readily available in memory or globals. Further planning is required to find the information.",
+                "local_reasoning": "The query requires external research to define and explain 'Model Context Protocol'.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision",
+                "instruction_to_summarize": "Not applicable"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Model Context Protocol"
+                ],
+                "result_requirement": "Detailed explanation of Model Context Protocol",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.8",
+                "reasoning": "The user is asking for a definition and details about 'Model Context Protocol'. This information is not readily available in memory or globals. Further planning is required to find the information.",
+                "local_reasoning": "The query requires external research to define and explain 'Model Context Protocol'.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision",
+                "instruction_to_summarize": "Not applicable"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[]"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search for 'Model Context Protocol' definition and details using DuckDuckGo."
+              },
+              {
+                "id": "1",
+                "description": "Extract and summarize information from the most relevant webpage to define 'Model Context Protocol'."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "query = 'Model Context Protocol definition'\nurls = duckduckgo_search(query, 5)\nreturn { \"search_results_0A\": urls }",
+            "CODE_0B": "query = 'Model Context Protocol explained'\nurls = duckduckgo_search(query, 5)\nreturn { \"search_results_0B\": urls }",
+            "CODE_0C": "query = 'Model Context Protocol'\nurls = duckduckgo_search(query, 5)\nreturn { \"search_results_0C\": urls }"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search for 'Model Context Protocol' definition and details using DuckDuckGo."
+            },
+            {
+              "id": "1",
+              "description": "Extract and summarize information from the most relevant webpage to define 'Model Context Protocol'."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "query = 'Model Context Protocol definition'\nurls = duckduckgo_search(query, 5)\nreturn { \"search_results_0A\": urls }",
+          "CODE_0B": "query = 'Model Context Protocol explained'\nurls = duckduckgo_search(query, 5)\nreturn { \"search_results_0B\": urls }",
+          "CODE_0C": "query = 'Model Context Protocol'\nurls = duckduckgo_search(query, 5)\nreturn { \"search_results_0C\": urls }"
+        },
+        "timestamp": null,
+        "return_to": ""
+      },
+      {
+        "run_id": "b88df949-fe19-45b3-9400-5a03e930d5bd",
+        "input": {
+          "current_time": "2025-05-19T08:38:01.647166",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: What is Model Context Protocol?  Give me details.",
+          "perception": {
+            "entities": [
+              "Model Context Protocol",
+              "MCP"
+            ],
+            "result_requirement": "Detailed explanation of Model Context Protocol",
+            "original_goal_achieved": false,
+            "local_goal_achieved": true,
+            "confidence": "0.9",
+            "reasoning": "The search tool returned multiple relevant URLs that likely contain the definition and details about Model Context Protocol. We need to extract the content from these webpages to summarize the information for the user.",
+            "local_reasoning": "The search results provide a good starting point for understanding Model Context Protocol.",
+            "last_tooluse_summary": "DuckDuckGo search for 'Model Context Protocol' returned multiple URLs.",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Model Context Protocol"
+                ],
+                "result_requirement": "Detailed explanation of Model Context Protocol",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.8",
+                "reasoning": "The user is asking for a definition and details about 'Model Context Protocol'. This information is not readily available in memory or globals. Further planning is required to find the information.",
+                "local_reasoning": "The query requires external research to define and explain 'Model Context Protocol'.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision",
+                "instruction_to_summarize": "Not applicable"
+              },
+              "from_step": null
+            },
+            {
+              "index": "0",
+              "description": "Search for 'Model Context Protocol' definition and details using DuckDuckGo.",
+              "type": "CODE",
+              "status": "completed",
+              "result": {
+                "search_results_0A": [
+                  "https://modelcontextprotocol.io/introduction",
+                  "https://techcommunity.microsoft.com/blog/educatordeveloperblog/unleashing-the-power-of-model-context-protocol-mcp-a-game-changer-in-ai-integrat/4397564",
+                  "https://github.blog/ai-and-ml/llms/what-the-heck-is-mcp-and-why-is-everyone-talking-about-it/",
+                  "https://codebasics.io/blog/model-context-protocol-explained-streamlining-ai-integration-and-development",
+                  "https://www.digitalocean.com/community/tutorials/model-context-protocol"
+                ]
+              },
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Model Context Protocol",
+                  "MCP"
+                ],
+                "result_requirement": "Detailed explanation of Model Context Protocol",
+                "original_goal_achieved": false,
+                "local_goal_achieved": true,
+                "confidence": "0.9",
+                "reasoning": "The search tool returned multiple relevant URLs that likely contain the definition and details about Model Context Protocol. We need to extract the content from these webpages to summarize the information for the user.",
+                "local_reasoning": "The search results provide a good starting point for understanding Model Context Protocol.",
+                "last_tooluse_summary": "DuckDuckGo search for 'Model Context Protocol' returned multiple URLs.",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": "ROOT"
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Model Context Protocol"
+                ],
+                "result_requirement": "Detailed explanation of Model Context Protocol",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.8",
+                "reasoning": "The user is asking for a definition and details about 'Model Context Protocol'. This information is not readily available in memory or globals. Further planning is required to find the information.",
+                "local_reasoning": "The query requires external research to define and explain 'Model Context Protocol'.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision",
+                "instruction_to_summarize": "Not applicable"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[]"
+            },
+            "search_results_0B": {
+              "type": "list",
+              "preview": "['https://modelcontextprotocol.io/introduction', 'https://towardsdatascience.com/clear-intro-to-mcp/', 'https://techcommunity.microsoft.com/blog/educatordeveloperblog/unleashing-the-power-of-model-context-protocol-mcp-a-game-changer-in-ai-integrat/4397564', 'https://codebasics.io/blog/model-context-protocol-explained-streamlining-ai-integration-and-development', 'https://www.zdnet.com/article/what-is-model-context-protocol-the-emerging-standard-bridging-ai-and-data-explained/']"
+            },
+            "search_results_0C": {
+              "type": "list",
+              "preview": "['https://modelcontextprotocol.io/introduction', 'https://github.com/modelcontextprotocol', 'https://en.wikipedia.org/wiki/Model_Context_Protocol', 'https://www.anthropic.com/news/model-context-protocol', 'https://modelcontextprotocol.info/']"
+            },
+            "search_results_0A": {
+              "type": "list",
+              "preview": "['https://modelcontextprotocol.io/introduction', 'https://techcommunity.microsoft.com/blog/educatordeveloperblog/unleashing-the-power-of-model-context-protocol-mcp-a-game-changer-in-ai-integrat/4397564', 'https://github.blog/ai-and-ml/llms/what-the-heck-is-mcp-and-why-is-everyone-talking-about-it/', 'https://codebasics.io/blog/model-context-protocol-explained-streamlining-ai-integration-and-development', 'https://www.digitalocean.com/community/tutorials/model-context-protocol']"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search for 'Model Context Protocol' definition and details using DuckDuckGo."
+              },
+              {
+                "id": "1",
+                "description": "Extract content from the most relevant URLs and summarize."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "1",
+          "code_variants": {
+            "CODE_1A": "urls = globals_schema.get(\"search_results_0A\", [])\nif urls:\n  url = urls[0]\n  text = webpage_url_to_raw_text(url)\n  summary = webpage_url_to_summary(url)\n  return { \"text_1A\": text, \"summary_1A\": summary }\nelse:\n  return { \"text_1A\": \"No URLs found.\", \"summary_1A\": \"No URLs found.\" }",
+            "CODE_1B": "urls = globals_schema.get(\"search_results_0B\", [])\nif urls:\n  url1 = urls[0]\n  url2 = urls[1]\n  text1 = webpage_url_to_raw_text(url1)\n  text2 = webpage_url_to_raw_text(url2)\n  summary = webpage_url_to_summary(url1)\n  return { \"text1_1B\": text1, \"text2_1B\": text2, \"summary_1B\": summary }\nelse:\n  return { \"text1_1B\": \"No URLs found.\", \"text2_1B\": \"No URLs found.\", \"summary_1B\": \"No URLs found.\" }",
+            "CODE_1C": "urls = globals_schema.get(\"search_results_0C\", [])\nif urls:\n  url = urls[0]\n  summary = webpage_url_to_summary(url)\n  return { \"summary_1C\": summary }\nelse:\n  return { \"summary_1C\": \"No URLs found.\" }"
+          }
+        },
+        "next_step_id": "1",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search for 'Model Context Protocol' definition and details using DuckDuckGo."
+            },
+            {
+              "id": "1",
+              "description": "Extract content from the most relevant URLs and summarize."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_1A": "urls = globals_schema.get(\"search_results_0A\", [])\nif urls:\n  url = urls[0]\n  text = webpage_url_to_raw_text(url)\n  summary = webpage_url_to_summary(url)\n  return { \"text_1A\": text, \"summary_1A\": summary }\nelse:\n  return { \"text_1A\": \"No URLs found.\", \"summary_1A\": \"No URLs found.\" }",
+          "CODE_1B": "urls = globals_schema.get(\"search_results_0B\", [])\nif urls:\n  url1 = urls[0]\n  url2 = urls[1]\n  text1 = webpage_url_to_raw_text(url1)\n  text2 = webpage_url_to_raw_text(url2)\n  summary = webpage_url_to_summary(url1)\n  return { \"text1_1B\": text1, \"text2_1B\": text2, \"summary_1B\": summary }\nelse:\n  return { \"text1_1B\": \"No URLs found.\", \"text2_1B\": \"No URLs found.\", \"summary_1B\": \"No URLs found.\" }",
+          "CODE_1C": "urls = globals_schema.get(\"search_results_0C\", [])\nif urls:\n  url = urls[0]\n  summary = webpage_url_to_summary(url)\n  return { \"summary_1C\": summary }\nelse:\n  return { \"summary_1C\": \"No URLs found.\" }"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [
+      {
+        "run_id": "86e226a6-d83f-454e-bd03-5e326e4b9d86",
+        "step_id": "0",
+        "variant_used": "CODE_0B",
+        "code": "query = 'Model Context Protocol explained'\nurls = duckduckgo_search(query, 5)\nreturn { \"search_results_0B\": urls }",
+        "status": "success",
+        "result": {
+          "search_results_0B": [
+            "https://modelcontextprotocol.io/introduction",
+            "https://towardsdatascience.com/clear-intro-to-mcp/",
+            "https://techcommunity.microsoft.com/blog/educatordeveloperblog/unleashing-the-power-of-model-context-protocol-mcp-a-game-changer-in-ai-integrat/4397564",
+            "https://codebasics.io/blog/model-context-protocol-explained-streamlining-ai-integration-and-development",
+            "https://www.zdnet.com/article/what-is-model-context-protocol-the-emerging-standard-bridging-ai-and-data-explained/"
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 14:07:49",
+        "total_time": "6.97",
+        "return_to": ""
+      },
+      {
+        "run_id": "78c420e0-8ba3-4206-ad9d-60bc4d7bb182",
+        "step_id": "0",
+        "variant_used": "CODE_0C",
+        "code": "query = 'Model Context Protocol'\nurls = duckduckgo_search(query, 5)\nreturn { \"search_results_0C\": urls }",
+        "status": "success",
+        "result": {
+          "search_results_0C": [
+            "https://modelcontextprotocol.io/introduction",
+            "https://github.com/modelcontextprotocol",
+            "https://en.wikipedia.org/wiki/Model_Context_Protocol",
+            "https://www.anthropic.com/news/model-context-protocol",
+            "https://modelcontextprotocol.info/"
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 14:07:49",
+        "total_time": "7.042",
+        "return_to": ""
+      },
+      {
+        "run_id": "2c4b1e03-f275-4e9c-94a6-241e570d8fa1",
+        "step_id": "0",
+        "variant_used": "CODE_0A",
+        "code": "query = 'Model Context Protocol definition'\nurls = duckduckgo_search(query, 5)\nreturn { \"search_results_0A\": urls }",
+        "status": "success",
+        "result": {
+          "search_results_0A": [
+            "https://modelcontextprotocol.io/introduction",
+            "https://techcommunity.microsoft.com/blog/educatordeveloperblog/unleashing-the-power-of-model-context-protocol-mcp-a-game-changer-in-ai-integrat/4397564",
+            "https://github.blog/ai-and-ml/llms/what-the-heck-is-mcp-and-why-is-everyone-talking-about-it/",
+            "https://codebasics.io/blog/model-context-protocol-explained-streamlining-ai-integration-and-development",
+            "https://www.digitalocean.com/community/tutorials/model-context-protocol"
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 14:07:49",
+        "total_time": "7.045",
+        "return_to": ""
+      },
+      {
+        "run_id": "5fa5a4dc-19e4-46f4-85b5-194ae3e8f0ce",
+        "step_id": "1",
+        "variant_used": "CODE_1C",
+        "code": "urls = globals_schema.get(\"search_results_0C\", [])\nif urls:\n  url = urls[0]\n  summary = webpage_url_to_summary(url)\n  return { \"summary_1C\": summary }\nelse:\n  return { \"summary_1C\": \"No URLs found.\" }",
+        "status": "success",
+        "result": {
+          "summary_1C": [
+            {
+              "type": "text",
+              "text": "The Model Context Protocol (MCP) standardizes how applications provide context to LLMs, similar to USB-C for AI. It uses a client-server architecture with MCP Hosts, Clients, and Servers to connect LLMs to Local Data Sources and Remote Services. MCP aims to facilitate agent building, LLM provider flexibility, and secure data handling. Resources for getting started include guides for Server, Client, and Claude Desktop Users, examples, tutorials on building/debugging, the MCP Inspector debugging tool, and a workshop video. Key concepts include architecture, resources (data exposure), prompts, tools, sampling, and transports. Contributions and feedback are encouraged via GitHub issues and the \"spec\" for discussion.",
+              "annotations": null
+            }
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 14:08:06",
+        "total_time": "8.867",
+        "return_to": ""
+      },
+      {
+        "run_id": "eca05fab-caef-41c9-9ab1-3429ae6b5d39",
+        "step_id": "1",
+        "variant_used": "CODE_1A",
+        "code": "urls = globals_schema.get(\"search_results_0A\", [])\nif urls:\n  url = urls[0]\n  text = webpage_url_to_raw_text(url)\n  summary = webpage_url_to_summary(url)\n  return { \"text_1A\": text, \"summary_1A\": summary }\nelse:\n  return { \"text_1A\": \"No URLs found.\", \"summary_1A\": \"No URLs found.\" }",
+        "status": "success",
+        "result": {
+          "text_1A": [
+            {
+              "type": "text",
+              "text": "[trafilatura] Introduction\nGet started with the Model Context Protocol (MCP)\nMCP is an open protocol that standardizes how applications provide context to LLMs. Think of MCP like a USB-C port for AI applications. Just as USB-C provides a standardized way to connect your devices to various peripherals and accessories, MCP provides a standardized way to connect AI models to different data sources and tools.\nWhy MCP?\nMCP helps you build agents and complex workflows on top of LLMs. LLMs frequently need to integrate with data and tools, and MCP provides:\n- A growing list of pre-built integrations that your LLM can directly plug into\n- The flexibility to switch between LLM providers and vendors\n- Best practices for securing your data within your infrastructure\nGeneral architecture\nAt its core, MCP follows a client-server architecture where a host application can connect to multiple servers:\n- MCP Hosts: Programs like Claude Desktop, IDEs, or AI tools that want to access data through MCP\n- MCP Clients: Protocol clients that maintain 1:1 connections with servers\n- MCP Servers: Lightweight programs that each expose specific capabilities through the standardized Model Context Protocol\n- Local Data Sources: Your computers files, databases, and services that MCP servers can securely access\n- Remote Services: External systems available over the internet (e.g., through APIs) that MCP servers can connect to\nGet started\nChoose the path that best fits your needs:\nQuick Starts\nFor Server Developers\nGet started building your own server to use in Claude for Desktop and other clients\nFor Client Developers\nGet started building your own client that can integrate with all MCP servers\nFor Claude Desktop Users\nGet started using pre-built servers in Claude for Desktop\nExamples\nExample Servers\nCheck out our gallery of official MCP servers and implementations\nExample Clients\nView the list of clients that support MCP integrations\nTutorials\nBuilding MCP with LLMs\nLearn how to use LLMs like Claude to speed up your MCP development\nDebugging Guide\nLearn how to effectively debug MCP servers and integrations\nMCP Inspector\nTest and inspect your MCP servers with our interactive debugging tool\nMCP Workshop (Video, 2hr)\nExplore MCP\nDive deeper into MCPs core concepts and capabilities:\nCore architecture\nUnderstand how MCP connects clients, servers, and LLMs\nResources\nExpose data and content from your servers to LLMs\nPrompts\nCreate reusable prompt templates and workflows\nTools\nEnable LLMs to perform actions through your server\nSampling\nLet your servers request completions from LLMs\nTransports\nLearn about MCPs communication mechanism\nContributing\nWant to contribute? Check out our Contributing Guide to learn how you can help improve MCP.\nSupport and Feedback\nHeres how to get help or provide feedback:\n- For bug reports and feature requests related to the MCP specification, SDKs, or documentation (open source), please create a GitHub issue\n- For discussions or Q&A about the MCP specification, use the spec",
+              "annotations": null
+            }
+          ],
+          "summary_1A": [
+            {
+              "type": "text",
+              "text": "The Model Context Protocol (MCP) is an open protocol that standardizes how applications provide context to LLMs, similar to a USB-C port for AI, enabling connection to diverse data sources and tools. It uses a client-server architecture: MCP Hosts (e.g., Claude Desktop), MCP Clients (1:1 connections with servers), MCP Servers (expose capabilities), Local Data Sources, and Remote Services. MCP facilitates building agents and workflows with benefits like pre-built integrations, LLM vendor flexibility, and data security. Resources for getting started include options for Server Developers, Client Developers, and Claude Desktop Users, plus Example Servers/Clients, Tutorials, and a Debugging Guide. MCP allows exposing data, prompts, and tools to LLMs with resources on sampling and transports. Contributions and feedback are welcome via GitHub issues or discussions.",
+              "annotations": null
+            }
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 14:08:06",
+        "total_time": "14.008",
+        "return_to": ""
+      },
+      {
+        "run_id": "1d6bd973-cfa2-483f-ade4-ca68c2f218dd",
+        "step_id": "1",
+        "variant_used": "CODE_1B",
+        "code": "urls = globals_schema.get(\"search_results_0B\", [])\nif urls:\n  url1 = urls[0]\n  url2 = urls[1]\n  text1 = webpage_url_to_raw_text(url1)\n  text2 = webpage_url_to_raw_text(url2)\n  summary = webpage_url_to_summary(url1)\n  return { \"text1_1B\": text1, \"text2_1B\": text2, \"summary_1B\": summary }\nelse:\n  return { \"text1_1B\": \"No URLs found.\", \"text2_1B\": \"No URLs found.\", \"summary_1B\": \"No URLs found.\" }",
+        "status": "success",
+        "result": {
+          "text1_1B": [
+            {
+              "type": "text",
+              "text": "[trafilatura] Introduction\nGet started with the Model Context Protocol (MCP)\nMCP is an open protocol that standardizes how applications provide context to LLMs. Think of MCP like a USB-C port for AI applications. Just as USB-C provides a standardized way to connect your devices to various peripherals and accessories, MCP provides a standardized way to connect AI models to different data sources and tools.\nWhy MCP?\nMCP helps you build agents and complex workflows on top of LLMs. LLMs frequently need to integrate with data and tools, and MCP provides:\n- A growing list of pre-built integrations that your LLM can directly plug into\n- The flexibility to switch between LLM providers and vendors\n- Best practices for securing your data within your infrastructure\nGeneral architecture\nAt its core, MCP follows a client-server architecture where a host application can connect to multiple servers:\n- MCP Hosts: Programs like Claude Desktop, IDEs, or AI tools that want to access data through MCP\n- MCP Clients: Protocol clients that maintain 1:1 connections with servers\n- MCP Servers: Lightweight programs that each expose specific capabilities through the standardized Model Context Protocol\n- Local Data Sources: Your computers files, databases, and services that MCP servers can securely access\n- Remote Services: External systems available over the internet (e.g., through APIs) that MCP servers can connect to\nGet started\nChoose the path that best fits your needs:\nQuick Starts\nFor Server Developers\nGet started building your own server to use in Claude for Desktop and other clients\nFor Client Developers\nGet started building your own client that can integrate with all MCP servers\nFor Claude Desktop Users\nGet started using pre-built servers in Claude for Desktop\nExamples\nExample Servers\nCheck out our gallery of official MCP servers and implementations\nExample Clients\nView the list of clients that support MCP integrations\nTutorials\nBuilding MCP with LLMs\nLearn how to use LLMs like Claude to speed up your MCP development\nDebugging Guide\nLearn how to effectively debug MCP servers and integrations\nMCP Inspector\nTest and inspect your MCP servers with our interactive debugging tool\nMCP Workshop (Video, 2hr)\nExplore MCP\nDive deeper into MCPs core concepts and capabilities:\nCore architecture\nUnderstand how MCP connects clients, servers, and LLMs\nResources\nExpose data and content from your servers to LLMs\nPrompts\nCreate reusable prompt templates and workflows\nTools\nEnable LLMs to perform actions through your server\nSampling\nLet your servers request completions from LLMs\nTransports\nLearn about MCPs communication mechanism\nContributing\nWant to contribute? Check out our Contributing Guide to learn how you can help improve MCP.\nSupport and Feedback\nHeres how to get help or provide feedback:\n- For bug reports and feature requests related to the MCP specification, SDKs, or documentation (open source), please create a GitHub issue\n- For discussions or Q&A about the MCP specification, use the spec",
+              "annotations": null
+            }
+          ],
+          "text2_1B": [
+            {
+              "type": "text",
+              "text": "[trafilatura] One thing Im personally excited about is how tool-calling standards like MCP can actually make Ai Systems safer. With easier access to well-tested tools more companies can avoid reinventing the wheel, which reduces security risks and minimizes the chance of malicious code. As Ai systems start scaling in 2025, these are valid concerns.\nAs I dove into MCP, I realized a huge gap in documentation. Theres plenty of high-level what does it do content, but when you actually want to understand how it works, the resources start to fall shortespecially for those who arent native developers. Its either high level explainers or deep in the source code.\nIn this piece, Im going to break MCP down for a broader audiencemaking the concepts and functionality clear and digestible. If youre able, follow along in the coding section, if not it will be well explained in natural language above the code snippets.\nAn Analogy to Understand MCP: The Restaurant\nLets imagine the concept of MCP as a restaurant where we have:\nThe Host = The restaurant building (the environment where the agent runs)\nThe Server = The kitchen (where tools live)\nThe Client = The waiter (who sends tool requests)\nThe Agent = The customer (who decides what tool to use)\nThe Tools = The recipes (the code that gets executed)\nThe Components of MCP\nHost\nThis is where the agent operates. In our analogy, its the restaurant building; in MCP, its wherever your agents or LLMs actually run. If youre using Ollama locally, youre the host. If youre using Claude or GPT, then Anthropic or OpenAI are the hosts.\nClient\nThis is the environment that sends tool call requests from the agent. Think of it as the waiter who takes your order and delivers it to the kitchen. In practical terms, its the application or interface where your agent runs. The client passes tool call requests to the Server using MCP.\nServer\nThis is the kitchen where recipes, or tools, are housed. It centralizes tools so agents can access them easily. Servers can be local (spun up by users) or remote (hosted by companies offering tools). Tools on a server are typically either grouped by function or integration. For instance, all Slack-related tools can be on a Slack server, or all messaging tools can be grouped together on a messaging server. That decision is based on architectural and developer preferences.\nAgent\nThe brains of the operation. Powered by an LLM, it decides which tools to call to complete a task. When it determines a tool is needed, it initiates a request to the server. The agent doesnt need to natively understand MCP because it learns how to use it through the metadata associated with each of the tools. This metadata associated with each tool tells the agent the protocol for calling the tool and the execution method. But it is important to note that the platform or agent needs to support MCP so that it handles tool calls automatically. Otherwise it is up to the developer to write the complex translation logic of how to parse the metadata",
+              "annotations": null
+            }
+          ],
+          "summary_1B": [
+            {
+              "type": "text",
+              "text": "The Model Context Protocol (MCP) is an open protocol that standardizes how applications provide context to LLMs, similar to a \"USB-C port for AI.\" It uses a client-server architecture with MCP Hosts (like Claude Desktop), MCP Clients, and MCP Servers, connecting LLMs to Local Data Sources and Remote Services. MCP facilitates LLM integration with data/tools, offering pre-built integrations, LLM vendor flexibility, and data security. Resources are available for Server Developers, Client Developers, and Claude Desktop Users, with examples, tutorials, and debugging tools. Key areas include architecture, resources (data, prompts, tools, sampling), transports, contributing, and support/feedback channels via GitHub.",
+              "annotations": null
+            }
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 14:08:06",
+        "total_time": "20.591",
+        "return_to": ""
+      }
+    ],
+    "summarizer_snapshots": [
+      {
+        "run_id": "13fd4e1d-aa3d-452e-912c-a9bff5cf018a",
+        "input": {
+          "original_query": "Query 1: What is Model Context Protocol?  Give me details.",
+          "globals_schema": {
+            "memory": [],
+            "search_results_0B": [
+              "https://modelcontextprotocol.io/introduction",
+              "https://towardsdatascience.com/clear-intro-to-mcp/",
+              "https://techcommunity.microsoft.com/blog/educatordeveloperblog/unleashing-the-power-of-model-context-protocol-mcp-a-game-changer-in-ai-integrat/4397564",
+              "https://codebasics.io/blog/model-context-protocol-explained-streamlining-ai-integration-and-development",
+              "https://www.zdnet.com/article/what-is-model-context-protocol-the-emerging-standard-bridging-ai-and-data-explained/"
+            ],
+            "search_results_0C": [
+              "https://modelcontextprotocol.io/introduction",
+              "https://github.com/modelcontextprotocol",
+              "https://en.wikipedia.org/wiki/Model_Context_Protocol",
+              "https://www.anthropic.com/news/model-context-protocol",
+              "https://modelcontextprotocol.info/"
+            ],
+            "search_results_0A": [
+              "https://modelcontextprotocol.io/introduction",
+              "https://techcommunity.microsoft.com/blog/educatordeveloperblog/unleashing-the-power-of-model-context-protocol-mcp-a-game-changer-in-ai-integrat/4397564",
+              "https://github.blog/ai-and-ml/llms/what-the-heck-is-mcp-and-why-is-everyone-talking-about-it/",
+              "https://codebasics.io/blog/model-context-protocol-explained-streamlining-ai-integration-and-development",
+              "https://www.digitalocean.com/community/tutorials/model-context-protocol"
+            ],
+            "summary_1C": [
+              {
+                "type": "text",
+                "text": "The Model Context Protocol (MCP) standardizes how applications provide context to LLMs, similar to USB-C for AI. It uses a client-server architecture with MCP Hosts, Clients, and Servers to connect LLMs to Local Data Sources and Remote Services. MCP aims to facilitate agent building, LLM provider flexibility, and secure data handling. Resources for getting started include guides for Server, Client, and Claude Desktop Users, examples, tutorials on building/debugging, the MCP Inspector debugging tool, and a workshop video. Key concepts include architecture, resources (data exposure), prompts, tools, sampling, and transports. Contributions and feedback are encouraged via GitHub issues and the \"spec\" for discussion.",
+                "annotations": null
+              }
+            ],
+            "text_1A": [
+              {
+                "type": "text",
+                "text": "[trafilatura] Introduction\nGet started with the Model Context Protocol (MCP)\nMCP is an open protocol that standardizes how applications provide context to LLMs. Think of MCP like a USB-C port for AI applications. Just as USB-C provides a standardized way to connect your devices to various peripherals and accessories, MCP provides a standardized way to connect AI models to different data sources and tools.\nWhy MCP?\nMCP helps you build agents and complex workflows on top of LLMs. LLMs frequently need to integrate with data and tools, and MCP provides:\n- A growing list of pre-built integrations that your LLM can directly plug into\n- The flexibility to switch between LLM providers and vendors\n- Best practices for securing your data within your infrastructure\nGeneral architecture\nAt its core, MCP follows a client-server architecture where a host application can connect to multiple servers:\n- MCP Hosts: Programs like Claude Desktop, IDEs, or AI tools that want to access data through MCP\n- MCP Clients: Protocol clients that maintain 1:1 connections with servers\n- MCP Servers: Lightweight programs that each expose specific capabilities through the standardized Model Context Protocol\n- Local Data Sources: Your computers files, databases, and services that MCP servers can securely access\n- Remote Services: External systems available over the internet (e.g., through APIs) that MCP servers can connect to\nGet started\nChoose the path that best fits your needs:\nQuick Starts\nFor Server Developers\nGet started building your own server to use in Claude for Desktop and other clients\nFor Client Developers\nGet started building your own client that can integrate with all MCP servers\nFor Claude Desktop Users\nGet started using pre-built servers in Claude for Desktop\nExamples\nExample Servers\nCheck out our gallery of official MCP servers and implementations\nExample Clients\nView the list of clients that support MCP integrations\nTutorials\nBuilding MCP with LLMs\nLearn how to use LLMs like Claude to speed up your MCP development\nDebugging Guide\nLearn how to effectively debug MCP servers and integrations\nMCP Inspector\nTest and inspect your MCP servers with our interactive debugging tool\nMCP Workshop (Video, 2hr)\nExplore MCP\nDive deeper into MCPs core concepts and capabilities:\nCore architecture\nUnderstand how MCP connects clients, servers, and LLMs\nResources\nExpose data and content from your servers to LLMs\nPrompts\nCreate reusable prompt templates and workflows\nTools\nEnable LLMs to perform actions through your server\nSampling\nLet your servers request completions from LLMs\nTransports\nLearn about MCPs communication mechanism\nContributing\nWant to contribute? Check out our Contributing Guide to learn how you can help improve MCP.\nSupport and Feedback\nHeres how to get help or provide feedback:\n- For bug reports and feature requests related to the MCP specification, SDKs, or documentation (open source), please create a GitHub issue\n- For discussions or Q&A about the MCP specification, use the spec",
+                "annotations": null
+              }
+            ],
+            "summary_1A": [
+              {
+                "type": "text",
+                "text": "The Model Context Protocol (MCP) is an open protocol that standardizes how applications provide context to LLMs, similar to a USB-C port for AI, enabling connection to diverse data sources and tools. It uses a client-server architecture: MCP Hosts (e.g., Claude Desktop), MCP Clients (1:1 connections with servers), MCP Servers (expose capabilities), Local Data Sources, and Remote Services. MCP facilitates building agents and workflows with benefits like pre-built integrations, LLM vendor flexibility, and data security. Resources for getting started include options for Server Developers, Client Developers, and Claude Desktop Users, plus Example Servers/Clients, Tutorials, and a Debugging Guide. MCP allows exposing data, prompts, and tools to LLMs with resources on sampling and transports. Contributions and feedback are welcome via GitHub issues or discussions.",
+                "annotations": null
+              }
+            ],
+            "text1_1B": [
+              {
+                "type": "text",
+                "text": "[trafilatura] Introduction\nGet started with the Model Context Protocol (MCP)\nMCP is an open protocol that standardizes how applications provide context to LLMs. Think of MCP like a USB-C port for AI applications. Just as USB-C provides a standardized way to connect your devices to various peripherals and accessories, MCP provides a standardized way to connect AI models to different data sources and tools.\nWhy MCP?\nMCP helps you build agents and complex workflows on top of LLMs. LLMs frequently need to integrate with data and tools, and MCP provides:\n- A growing list of pre-built integrations that your LLM can directly plug into\n- The flexibility to switch between LLM providers and vendors\n- Best practices for securing your data within your infrastructure\nGeneral architecture\nAt its core, MCP follows a client-server architecture where a host application can connect to multiple servers:\n- MCP Hosts: Programs like Claude Desktop, IDEs, or AI tools that want to access data through MCP\n- MCP Clients: Protocol clients that maintain 1:1 connections with servers\n- MCP Servers: Lightweight programs that each expose specific capabilities through the standardized Model Context Protocol\n- Local Data Sources: Your computers files, databases, and services that MCP servers can securely access\n- Remote Services: External systems available over the internet (e.g., through APIs) that MCP servers can connect to\nGet started\nChoose the path that best fits your needs:\nQuick Starts\nFor Server Developers\nGet started building your own server to use in Claude for Desktop and other clients\nFor Client Developers\nGet started building your own client that can integrate with all MCP servers\nFor Claude Desktop Users\nGet started using pre-built servers in Claude for Desktop\nExamples\nExample Servers\nCheck out our gallery of official MCP servers and implementations\nExample Clients\nView the list of clients that support MCP integrations\nTutorials\nBuilding MCP with LLMs\nLearn how to use LLMs like Claude to speed up your MCP development\nDebugging Guide\nLearn how to effectively debug MCP servers and integrations\nMCP Inspector\nTest and inspect your MCP servers with our interactive debugging tool\nMCP Workshop (Video, 2hr)\nExplore MCP\nDive deeper into MCPs core concepts and capabilities:\nCore architecture\nUnderstand how MCP connects clients, servers, and LLMs\nResources\nExpose data and content from your servers to LLMs\nPrompts\nCreate reusable prompt templates and workflows\nTools\nEnable LLMs to perform actions through your server\nSampling\nLet your servers request completions from LLMs\nTransports\nLearn about MCPs communication mechanism\nContributing\nWant to contribute? Check out our Contributing Guide to learn how you can help improve MCP.\nSupport and Feedback\nHeres how to get help or provide feedback:\n- For bug reports and feature requests related to the MCP specification, SDKs, or documentation (open source), please create a GitHub issue\n- For discussions or Q&A about the MCP specification, use the spec",
+                "annotations": null
+              }
+            ],
+            "text2_1B": [
+              {
+                "type": "text",
+                "text": "[trafilatura] One thing Im personally excited about is how tool-calling standards like MCP can actually make Ai Systems safer. With easier access to well-tested tools more companies can avoid reinventing the wheel, which reduces security risks and minimizes the chance of malicious code. As Ai systems start scaling in 2025, these are valid concerns.\nAs I dove into MCP, I realized a huge gap in documentation. Theres plenty of high-level what does it do content, but when you actually want to understand how it works, the resources start to fall shortespecially for those who arent native developers. Its either high level explainers or deep in the source code.\nIn this piece, Im going to break MCP down for a broader audiencemaking the concepts and functionality clear and digestible. If youre able, follow along in the coding section, if not it will be well explained in natural language above the code snippets.\nAn Analogy to Understand MCP: The Restaurant\nLets imagine the concept of MCP as a restaurant where we have:\nThe Host = The restaurant building (the environment where the agent runs)\nThe Server = The kitchen (where tools live)\nThe Client = The waiter (who sends tool requests)\nThe Agent = The customer (who decides what tool to use)\nThe Tools = The recipes (the code that gets executed)\nThe Components of MCP\nHost\nThis is where the agent operates. In our analogy, its the restaurant building; in MCP, its wherever your agents or LLMs actually run. If youre using Ollama locally, youre the host. If youre using Claude or GPT, then Anthropic or OpenAI are the hosts.\nClient\nThis is the environment that sends tool call requests from the agent. Think of it as the waiter who takes your order and delivers it to the kitchen. In practical terms, its the application or interface where your agent runs. The client passes tool call requests to the Server using MCP.\nServer\nThis is the kitchen where recipes, or tools, are housed. It centralizes tools so agents can access them easily. Servers can be local (spun up by users) or remote (hosted by companies offering tools). Tools on a server are typically either grouped by function or integration. For instance, all Slack-related tools can be on a Slack server, or all messaging tools can be grouped together on a messaging server. That decision is based on architectural and developer preferences.\nAgent\nThe brains of the operation. Powered by an LLM, it decides which tools to call to complete a task. When it determines a tool is needed, it initiates a request to the server. The agent doesnt need to natively understand MCP because it learns how to use it through the metadata associated with each of the tools. This metadata associated with each tool tells the agent the protocol for calling the tool and the execution method. But it is important to note that the platform or agent needs to support MCP so that it handles tool calls automatically. Otherwise it is up to the developer to write the complex translation logic of how to parse the metadata",
+                "annotations": null
+              }
+            ],
+            "summary_1B": [
+              {
+                "type": "text",
+                "text": "The Model Context Protocol (MCP) is an open protocol that standardizes how applications provide context to LLMs, similar to a \"USB-C port for AI.\" It uses a client-server architecture with MCP Hosts (like Claude Desktop), MCP Clients, and MCP Servers, connecting LLMs to Local Data Sources and Remote Services. MCP facilitates LLM integration with data/tools, offering pre-built integrations, LLM vendor flexibility, and data security. Resources are available for Server Developers, Client Developers, and Claude Desktop Users, with examples, tutorials, and debugging tools. Key areas include architecture, resources (data, prompts, tools, sampling), transports, contributing, and support/feedback channels via GitHub.",
+                "annotations": null
+              }
+            ]
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Model Context Protocol"
+                    ],
+                    "result_requirement": "Detailed explanation of Model Context Protocol",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.8",
+                    "reasoning": "The user is asking for a definition and details about 'Model Context Protocol'. This information is not readily available in memory or globals. Further planning is required to find the information.",
+                    "local_reasoning": "The query requires external research to define and explain 'Model Context Protocol'.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision",
+                    "instruction_to_summarize": "Not applicable"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "0",
+                  "description": "Search for 'Model Context Protocol' definition and details using DuckDuckGo.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "search_results_0A": [
+                      "https://modelcontextprotocol.io/introduction",
+                      "https://techcommunity.microsoft.com/blog/educatordeveloperblog/unleashing-the-power-of-model-context-protocol-mcp-a-game-changer-in-ai-integrat/4397564",
+                      "https://github.blog/ai-and-ml/llms/what-the-heck-is-mcp-and-why-is-everyone-talking-about-it/",
+                      "https://codebasics.io/blog/model-context-protocol-explained-streamlining-ai-integration-and-development",
+                      "https://www.digitalocean.com/community/tutorials/model-context-protocol"
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Model Context Protocol",
+                      "MCP"
+                    ],
+                    "result_requirement": "Detailed explanation of Model Context Protocol",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": true,
+                    "confidence": "0.9",
+                    "reasoning": "The search tool returned multiple relevant URLs that likely contain the definition and details about Model Context Protocol. We need to extract the content from these webpages to summarize the information for the user.",
+                    "local_reasoning": "The search results provide a good starting point for understanding Model Context Protocol.",
+                    "last_tooluse_summary": "DuckDuckGo search for 'Model Context Protocol' returned multiple URLs.",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "0"
+              },
+              {
+                "data": {
+                  "index": "1",
+                  "description": "Extract content from the most relevant URLs and summarize.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "text1_1B": [
+                      {
+                        "type": "text",
+                        "text": "[trafilatura] Introduction\nGet started with the Model Context Protocol (MCP)\nMCP is an open protocol that standardizes how applications provide context to LLMs. Think of MCP like a USB-C port for AI applications. Just as USB-C provides a standardized way to connect your devices to various peripherals and accessories, MCP provides a standardized way to connect AI models to different data sources and tools.\nWhy MCP?\nMCP helps you build agents and complex workflows on top of LLMs. LLMs frequently need to integrate with data and tools, and MCP provides:\n- A growing list of pre-built integrations that your LLM can directly plug into\n- The flexibility to switch between LLM providers and vendors\n- Best practices for securing your data within your infrastructure\nGeneral architecture\nAt its core, MCP follows a client-server architecture where a host application can connect to multiple servers:\n- MCP Hosts: Programs like Claude Desktop, IDEs, or AI tools that want to access data through MCP\n- MCP Clients: Protocol clients that maintain 1:1 connections with servers\n- MCP Servers: Lightweight programs that each expose specific capabilities through the standardized Model Context Protocol\n- Local Data Sources: Your computers files, databases, and services that MCP servers can securely access\n- Remote Services: External systems available over the internet (e.g., through APIs) that MCP servers can connect to\nGet started\nChoose the path that best fits your needs:\nQuick Starts\nFor Server Developers\nGet started building your own server to use in Claude for Desktop and other clients\nFor Client Developers\nGet started building your own client that can integrate with all MCP servers\nFor Claude Desktop Users\nGet started using pre-built servers in Claude for Desktop\nExamples\nExample Servers\nCheck out our gallery of official MCP servers and implementations\nExample Clients\nView the list of clients that support MCP integrations\nTutorials\nBuilding MCP with LLMs\nLearn how to use LLMs like Claude to speed up your MCP development\nDebugging Guide\nLearn how to effectively debug MCP servers and integrations\nMCP Inspector\nTest and inspect your MCP servers with our interactive debugging tool\nMCP Workshop (Video, 2hr)\nExplore MCP\nDive deeper into MCPs core concepts and capabilities:\nCore architecture\nUnderstand how MCP connects clients, servers, and LLMs\nResources\nExpose data and content from your servers to LLMs\nPrompts\nCreate reusable prompt templates and workflows\nTools\nEnable LLMs to perform actions through your server\nSampling\nLet your servers request completions from LLMs\nTransports\nLearn about MCPs communication mechanism\nContributing\nWant to contribute? Check out our Contributing Guide to learn how you can help improve MCP.\nSupport and Feedback\nHeres how to get help or provide feedback:\n- For bug reports and feature requests related to the MCP specification, SDKs, or documentation (open source), please create a GitHub issue\n- For discussions or Q&A about the MCP specification, use the spec",
+                        "annotations": null
+                      }
+                    ],
+                    "text2_1B": [
+                      {
+                        "type": "text",
+                        "text": "[trafilatura] One thing Im personally excited about is how tool-calling standards like MCP can actually make Ai Systems safer. With easier access to well-tested tools more companies can avoid reinventing the wheel, which reduces security risks and minimizes the chance of malicious code. As Ai systems start scaling in 2025, these are valid concerns.\nAs I dove into MCP, I realized a huge gap in documentation. Theres plenty of high-level what does it do content, but when you actually want to understand how it works, the resources start to fall shortespecially for those who arent native developers. Its either high level explainers or deep in the source code.\nIn this piece, Im going to break MCP down for a broader audiencemaking the concepts and functionality clear and digestible. If youre able, follow along in the coding section, if not it will be well explained in natural language above the code snippets.\nAn Analogy to Understand MCP: The Restaurant\nLets imagine the concept of MCP as a restaurant where we have:\nThe Host = The restaurant building (the environment where the agent runs)\nThe Server = The kitchen (where tools live)\nThe Client = The waiter (who sends tool requests)\nThe Agent = The customer (who decides what tool to use)\nThe Tools = The recipes (the code that gets executed)\nThe Components of MCP\nHost\nThis is where the agent operates. In our analogy, its the restaurant building; in MCP, its wherever your agents or LLMs actually run. If youre using Ollama locally, youre the host. If youre using Claude or GPT, then Anthropic or OpenAI are the hosts.\nClient\nThis is the environment that sends tool call requests from the agent. Think of it as the waiter who takes your order and delivers it to the kitchen. In practical terms, its the application or interface where your agent runs. The client passes tool call requests to the Server using MCP.\nServer\nThis is the kitchen where recipes, or tools, are housed. It centralizes tools so agents can access them easily. Servers can be local (spun up by users) or remote (hosted by companies offering tools). Tools on a server are typically either grouped by function or integration. For instance, all Slack-related tools can be on a Slack server, or all messaging tools can be grouped together on a messaging server. That decision is based on architectural and developer preferences.\nAgent\nThe brains of the operation. Powered by an LLM, it decides which tools to call to complete a task. When it determines a tool is needed, it initiates a request to the server. The agent doesnt need to natively understand MCP because it learns how to use it through the metadata associated with each of the tools. This metadata associated with each tool tells the agent the protocol for calling the tool and the execution method. But it is important to note that the platform or agent needs to support MCP so that it handles tool calls automatically. Otherwise it is up to the developer to write the complex translation logic of how to parse the metadata",
+                        "annotations": null
+                      }
+                    ],
+                    "summary_1B": [
+                      {
+                        "type": "text",
+                        "text": "The Model Context Protocol (MCP) is an open protocol that standardizes how applications provide context to LLMs, similar to a \"USB-C port for AI.\" It uses a client-server architecture with MCP Hosts (like Claude Desktop), MCP Clients, and MCP Servers, connecting LLMs to Local Data Sources and Remote Services. MCP facilitates LLM integration with data/tools, offering pre-built integrations, LLM vendor flexibility, and data security. Resources are available for Server Developers, Client Developers, and Claude Desktop Users, with examples, tutorials, and debugging tools. Key areas include architecture, resources (data, prompts, tools, sampling), transports, contributing, and support/feedback channels via GitHub.",
+                        "annotations": null
+                      }
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Model Context Protocol",
+                      "MCP"
+                    ],
+                    "result_requirement": "Detailed explanation of Model Context Protocol",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "0.95",
+                    "reasoning": "The available summaries and extracted texts contain sufficient information to define and explain the Model Context Protocol. The summaries provide a concise overview, while the extracted texts offer more detailed explanations and analogies.",
+                    "local_reasoning": "The information extracted from the webpages sufficiently explains the Model Context Protocol.",
+                    "last_tooluse_summary": "Extracted and summarized content from multiple URLs related to Model Context Protocol.",
+                    "solution_summary": "The Model Context Protocol (MCP) is an open protocol standardizing how applications provide context to LLMs, akin to a 'USB-C port for AI.' It employs a client-server architecture, including MCP Hosts, Clients, and Servers, connecting LLMs to data sources and services. MCP facilitates LLM integration with data/tools, offering pre-built integrations, LLM vendor flexibility, and data security.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Provide a comprehensive explanation of Model Context Protocol (MCP) based on the available summaries and extracted texts. Start with a concise definition, then elaborate on its architecture (client-server model with Hosts, Clients, Servers), key benefits (integration, flexibility, security), and resources for getting started. Use markdown formatting for readability. Include the restaurant analogy."
+                  },
+                  "from_step": "1"
+                },
+                "id": "1"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "0"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "1",
+                "target": "1"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "Model Context Protocol",
+              "MCP"
+            ],
+            "result_requirement": "Detailed explanation of Model Context Protocol",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.95",
+            "reasoning": "The available summaries and extracted texts contain sufficient information to define and explain the Model Context Protocol. The summaries provide a concise overview, while the extracted texts offer more detailed explanations and analogies.",
+            "local_reasoning": "The information extracted from the webpages sufficiently explains the Model Context Protocol.",
+            "last_tooluse_summary": "Extracted and summarized content from multiple URLs related to Model Context Protocol.",
+            "solution_summary": "The Model Context Protocol (MCP) is an open protocol standardizing how applications provide context to LLMs, akin to a 'USB-C port for AI.' It employs a client-server architecture, including MCP Hosts, Clients, and Servers, connecting LLMs to data sources and services. MCP facilitates LLM integration with data/tools, offering pre-built integrations, LLM vendor flexibility, and data security.",
+            "route": "summarize",
+            "instruction_to_summarize": "Provide a comprehensive explanation of Model Context Protocol (MCP) based on the available summaries and extracted texts. Start with a concise definition, then elaborate on its architecture (client-server model with Hosts, Clients, Servers), key benefits (integration, flexibility, security), and resources for getting started. Use markdown formatting for readability. Include the restaurant analogy."
+          }
+        },
+        "summary_output": "The **Model Context Protocol (MCP)** is an open protocol that standardizes how applications provide context to Large Language Models (LLMs). Think of it as a \"USB-C port for AI,\" offering a standardized way to connect AI models to different data sources and tools.\n\n**Key Components and Architecture:**\n\nMCP uses a client-server architecture:\n\n*   **MCP Hosts:** Programs like Claude Desktop, IDEs, or AI tools that want to access data through MCP.\n*   **MCP Clients:** Protocol clients that maintain 1:1 connections with servers. They send tool call requests from the agent.\n*   **MCP Servers:** Lightweight programs that expose specific capabilities through the standardized Model Context Protocol. They centralize tools so agents can access them easily. Servers can be local (spun up by users) or remote (hosted by companies offering tools).\n*   **Local Data Sources:** Your computers' files, databases, and services that MCP servers can securely access.\n*   **Remote Services:** External systems available over the internet (e.g., through APIs) that MCP servers can connect to.\n\n**Benefits of MCP:**\n\n*   **Integration:** Facilitates seamless integration of LLMs with diverse data and tools. Offers a growing list of pre-built integrations that LLMs can directly plug into.\n*   **Flexibility:** Provides the flexibility to switch between LLM providers and vendors.\n*   **Security:** Promotes best practices for securing data within your infrastructure.\n\n**Analogy: MCP as a Restaurant**\n\n*   **Host = The restaurant building:** The environment where the agent runs.\n*   **Server = The kitchen:** Where tools live.\n*   **Client = The waiter:** Who sends tool requests.\n*   **Agent = The customer:** Who decides what tool to use.\n*   **Tools = The recipes:** The code that gets executed.\n\n**Getting Started:**\n\nResources are available for:\n\n*   **Server Developers:** Building your own server to use in Claude for Desktop and other clients.\n*   **Client Developers:** Building your own client that can integrate with all MCP servers.\n*   **Claude Desktop Users:** Using pre-built servers in Claude for Desktop.\n\nExamples, tutorials, and debugging tools are also available. [Model Context Protocol Official Website](https://modelcontextprotocol.io/introduction) offers comprehensive documentation.\n\n**Contributing and Support:**\n\nContributions and feedback are encouraged via [GitHub issues](https://github.com/modelcontextprotocol) and the \"spec\" for discussion.",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-19T08:37:21Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "The **Model Context Protocol (MCP)** is an open protocol that standardizes how applications provide context to Large Language Models (LLMs). Think of it as a \"USB-C port for AI,\" offering a standardized way to connect AI models to different data sources and tools.\n\n**Key Components and Architecture:**\n\nMCP uses a client-server architecture:\n\n*   **MCP Hosts:** Programs like Claude Desktop, IDEs, or AI tools that want to access data through MCP.\n*   **MCP Clients:** Protocol clients that maintain 1:1 connections with servers. They send tool call requests from the agent.\n*   **MCP Servers:** Lightweight programs that expose specific capabilities through the standardized Model Context Protocol. They centralize tools so agents can access them easily. Servers can be local (spun up by users) or remote (hosted by companies offering tools).\n*   **Local Data Sources:** Your computers' files, databases, and services that MCP servers can securely access.\n*   **Remote Services:** External systems available over the internet (e.g., through APIs) that MCP servers can connect to.\n\n**Benefits of MCP:**\n\n*   **Integration:** Facilitates seamless integration of LLMs with diverse data and tools. Offers a growing list of pre-built integrations that LLMs can directly plug into.\n*   **Flexibility:** Provides the flexibility to switch between LLM providers and vendors.\n*   **Security:** Promotes best practices for securing data within your infrastructure.\n\n**Analogy: MCP as a Restaurant**\n\n*   **Host = The restaurant building:** The environment where the agent runs.\n*   **Server = The kitchen:** Where tools live.\n*   **Client = The waiter:** Who sends tool requests.\n*   **Agent = The customer:** Who decides what tool to use.\n*   **Tools = The recipes:** The code that gets executed.\n\n**Getting Started:**\n\nResources are available for:\n\n*   **Server Developers:** Building your own server to use in Claude for Desktop and other clients.\n*   **Client Developers:** Building your own client that can integrate with all MCP servers.\n*   **Claude Desktop Users:** Using pre-built servers in Claude for Desktop.\n\nExamples, tutorials, and debugging tools are also available. [Model Context Protocol Official Website](https://modelcontextprotocol.io/introduction) offers comprehensive documentation.\n\n**Contributing and Support:**\n\nContributions and feedback are encouraged via [GitHub issues](https://github.com/modelcontextprotocol) and the \"spec\" for discussion.",
+    "status": "success",
+    "completed_at": "2025-05-19T08:38:42.129517"
+  },
+  "status": "success",
+  "final_step_id": "1",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-19T08:38:42.135300",
+  "original_query": "Query 1: What is Model Context Protocol?  Give me details.",
+  "final_summary": "The **Model Context Protocol (MCP)** is an open protocol that standardizes how applications provide context to Large Language Models (LLMs). Think of it as a \"USB-C port for AI,\" offering a standardized way to connect AI models to different data sources and tools.\n\n**Key Components and Architecture:**\n\nMCP uses a client-server architecture:\n\n*   **MCP Hosts:** Programs like Claude Desktop, IDEs, or AI tools that want to access data through MCP.\n*   **MCP Clients:** Protocol clients that maintain 1:1 connections with servers. They send tool call requests from the agent.\n*   **MCP Servers:** Lightweight programs that expose specific capabilities through the standardized Model Context Protocol. They centralize tools so agents can access them easily. Servers can be local (spun up by users) or remote (hosted by companies offering tools).\n*   **Local Data Sources:** Your computers' files, databases, and services that MCP servers can securely access.\n*   **Remote Services:** External systems available over the internet (e.g., through APIs) that MCP servers can connect to.\n\n**Benefits of MCP:**\n\n*   **Integration:** Facilitates seamless integration of LLMs with diverse data and tools. Offers a growing list of pre-built integrations that LLMs can directly plug into.\n*   **Flexibility:** Provides the flexibility to switch between LLM providers and vendors.\n*   **Security:** Promotes best practices for securing data within your infrastructure.\n\n**Analogy: MCP as a Restaurant**\n\n*   **Host = The restaurant building:** The environment where the agent runs.\n*   **Server = The kitchen:** Where tools live.\n*   **Client = The waiter:** Who sends tool requests.\n*   **Agent = The customer:** Who decides what tool to use.\n*   **Tools = The recipes:** The code that gets executed.\n\n**Getting Started:**\n\nResources are available for:\n\n*   **Server Developers:** Building your own server to use in Claude for Desktop and other clients.\n*   **Client Developers:** Building your own client that can integrate with all MCP servers.\n*   **Claude Desktop Users:** Using pre-built servers in Claude for Desktop.\n\nExamples, tutorials, and debugging tools are also available. [Model Context Protocol Official Website](https://modelcontextprotocol.io/introduction) offers comprehensive documentation.\n\n**Contributing and Support:**\n\nContributions and feedback are encouraged via [GitHub issues](https://github.com/modelcontextprotocol) and the \"spec\" for discussion."
+}

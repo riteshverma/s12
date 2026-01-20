@@ -1,0 +1,975 @@
+{
+  "context": {
+    "session_id": "5c95253d-0fd3-41c4-9a90-836057b2cbb2",
+    "original_query": "Query 1: How are the current relations between India and Afghanistan?",
+    "globals": {
+      "memory": [
+        {
+          "score": 182.97872340425533,
+          "session_id": "fc5367ee-de63-4d80-8aa7-373de6cb014e",
+          "original_query": "Query 1: How are the military relations between India and Bhutan?",
+          "summary_output": "India and Bhutan share a special relationship characterized by India's influence on Bhutan's foreign policy, defense, and commerce. A key component of their military relations is the Indian Military Training Team (IMTRAT), where India maintains a 2,000-strong presence in Bhutan to train the Royal Bhutan Army. Security cooperation is a vital aspect of the India-Bhutan relationship.",
+          "timestamp": "2025-05-18T04:43:09Z"
+        },
+        {
+          "score": 182.97872340425533,
+          "session_id": "2ca4f0e8-122f-41d5-83c0-2f3e883b2402",
+          "original_query": "Query 1: How are the military relations between India and Bhutan?",
+          "summary_output": "I am unable to provide a summary of the military relations between India and Bhutan at this time. No tool has been used to extract and synthesize the text from the URLs provided.",
+          "timestamp": "2025-05-18T04:36:36Z"
+        },
+        {
+          "score": 179.59183673469389,
+          "session_id": "c33dd381-fdd1-480f-b7ee-ef79b3d5ed9b",
+          "original_query": "Query 1: How are the military relations between India and Bhutan?\nResponse 1: I am unable to provide a summary of the military relations between India and Bhutan at this time. No tool has been used to extract and synthesize the text from the URLs provided.\nQuery 2: How are the military relations between India and Bhutan?\nResponse 2: Due to technical difficulties in extracting and synthesizing text from the provided URLs, a comprehensive summary of the military relations between India and Bhutan could not be generated. However, here are the search results that were found, which may contain relevant information:\n\n*   [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations)\n*   [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3)\n*   [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/)\n*   [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations)\nQuery 3: How are the military relations between India and Bhutan?\nResponse 3: I was unable to extract and summarize text from the provided URLs regarding the military relations between India and Bhutan. For your convenience, here are the URLs that were used in the search. You may find the information you need by reviewing them directly:\n\n*   [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations)\n*   [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3)\n*   [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/)\n*   [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations)\nQuery 4: How are the military relations between India and Bhutan? If a tool failes, ask decision to use some other tools to find this information",
+          "summary_output": "Due to technical difficulties in extracting and synthesizing text from the provided URLs, a comprehensive summary of the military relations between India and Bhutan could not be generated. The tools attempted to retrieve information from the following links, but were unsuccessful:\n\n*   [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations)\n*   [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3)\n*   [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/)\n*   [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations)",
+          "timestamp": "2025-05-18T04:36:36Z"
+        }
+      ],
+      "search_results_0A": [
+        "[error] 'charmap' codec can't encode character '\\U0001f50d' in position 1: character maps to <undefined>"
+      ]
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: How are the current relations between India and Afghanistan?",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "I was unable to retrieve information about the current relations between India and Afghanistan. The initial web search failed due to an encoding error, which prevented the tool from correctly interpreting the search results. As a result, any subsequent steps that depended on this initial search, such as analyzing government reports or news articles, were also unsuccessful. The memory contains information about India-Bhutan relations, which is not relevant to your query. The tool failure was caused by a \"charmap\" codec error, indicating a problem with character encoding during the web search process.",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "India",
+                "Afghanistan",
+                "current relations"
+              ],
+              "result_requirement": "Description of current relations between India and Afghanistan",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.9",
+              "reasoning": "The query asks about the current relations between India and Afghanistan. The memory excerpt contains information about India-Bhutan relations, which is not relevant. Therefore, further planning is required to gather information about the India-Afghanistan relationship.",
+              "local_reasoning": "The memory excerpt and globals do not contain information about India-Afghanistan relations.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Search the web for recent news articles about India-Afghanistan relations.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "search_results_0A": [
+                "[error] 'charmap' codec can't encode character '\\U0001f50d' in position 1: character maps to <undefined>"
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "India",
+                "Afghanistan",
+                "current relations"
+              ],
+              "result_requirement": "Description of current relations between India and Afghanistan",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.6",
+              "reasoning": "The web search failed to return useful results due to encoding errors. The memory excerpt is irrelevant (India-Bhutan relations). No progress was made.",
+              "local_reasoning": "The search_results_0A returned an error. The memory refers to India-Bhutan, not India-Afghanistan.",
+              "last_tooluse_summary": "Web search tool failed due to encoding errors.",
+              "solution_summary": "Unable to retrieve information about India-Afghanistan relations.",
+              "route": "decision"
+            },
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        },
+        {
+          "data": {
+            "index": "1",
+            "description": "If government reports are found, extract relevant information and summarize the key points about the relations.",
+            "type": "CODE",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "India",
+                "Afghanistan",
+                "current relations"
+              ],
+              "result_requirement": "Description of current relations between India and Afghanistan",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.5",
+              "reasoning": "The initial web search failed due to encoding issues. Step 1 which was conditional upon the success of the first also failed. The memory contains irrelevant information about India-Bhutan relations. Given the failure and the nature of the error, further attempts to use web search are unlikely to succeed without a change in approach (e.g., fixing the encoding issue, which is beyond the scope of planning). Therefore, it's best to summarize the lack of results and inform the user.",
+              "local_reasoning": "Web search tool returned a codec error, making further web searches unlikely to succeed. Step 1 was dependent on the results of the first, therefore it also failed.",
+              "last_tooluse_summary": "Web search tool failed due to encoding errors.",
+              "solution_summary": "Unable to retrieve information about India-Afghanistan relations due to web search errors.",
+              "route": "summarize",
+              "instruction_to_summarize": "Summarize that the system was unable to retrieve information about the current relations between India and Afghanistan due to encoding errors during web search. Mention that the initial web search failed and subsequent steps depending on it were also unsuccessful. Also mention that memory contains irrelevant information. Explain the tool failure in plain language."
+            },
+            "from_step": "0"
+          },
+          "id": "1"
+        },
+        {
+          "data": {
+            "index": "2",
+            "description": "If government reports aren't available, search for news articles from reputable sources (e.g., Reuters, BBC) on India-Afghanistan relations.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "0"
+          },
+          "id": "2"
+        },
+        {
+          "data": {
+            "index": "3",
+            "description": "If news articles are found, extract and summarize key information about the current relations.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "0"
+          },
+          "id": "3"
+        },
+        {
+          "data": {
+            "index": "4",
+            "description": "Synthesize information from government reports or news articles to describe the current relations between India and Afghanistan.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "0"
+          },
+          "id": "4"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "0",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "0",
+          "target": "2"
+        },
+        {
+          "type": "normal",
+          "source": "0",
+          "target": "3"
+        },
+        {
+          "type": "normal",
+          "source": "0",
+          "target": "4"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "5c95253d-0fd3-41c4-9a90-836057b2cbb2",
+    "original_query": "Query 1: How are the current relations between India and Afghanistan?",
+    "perception_snapshots": [
+      {
+        "run_id": "5c95253d-0fd3-41c4-9a90-836057b2cbb2-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "India",
+          "Afghanistan",
+          "current relations"
+        ],
+        "result_requirement": "Description of current relations between India and Afghanistan",
+        "original_goal_achieved": false,
+        "reasoning": "The query asks about the current relations between India and Afghanistan. The memory excerpt contains information about India-Bhutan relations, which is not relevant. Therefore, further planning is required to gather information about the India-Afghanistan relationship.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The memory excerpt and globals do not contain information about India-Afghanistan relations.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.9",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "5c95253d-0fd3-41c4-9a90-836057b2cbb2-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "India",
+          "Afghanistan",
+          "current relations"
+        ],
+        "result_requirement": "Description of current relations between India and Afghanistan",
+        "original_goal_achieved": false,
+        "reasoning": "The web search failed to return useful results due to encoding errors. The memory excerpt is irrelevant (India-Bhutan relations). No progress was made.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The search_results_0A returned an error. The memory refers to India-Bhutan, not India-Afghanistan.",
+        "last_tooluse_summary": "Web search tool failed due to encoding errors.",
+        "solution_summary": "Unable to retrieve information about India-Afghanistan relations.",
+        "confidence": "0.6",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "5c95253d-0fd3-41c4-9a90-836057b2cbb2-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "India",
+          "Afghanistan",
+          "current relations"
+        ],
+        "result_requirement": "Description of current relations between India and Afghanistan",
+        "original_goal_achieved": false,
+        "reasoning": "The initial web search failed due to encoding issues. Step 1 which was conditional upon the success of the first also failed. The memory contains irrelevant information about India-Bhutan relations. Given the failure and the nature of the error, further attempts to use web search are unlikely to succeed without a change in approach (e.g., fixing the encoding issue, which is beyond the scope of planning). Therefore, it's best to summarize the lack of results and inform the user.",
+        "local_goal_achieved": false,
+        "local_reasoning": "Web search tool returned a codec error, making further web searches unlikely to succeed. Step 1 was dependent on the results of the first, therefore it also failed.",
+        "last_tooluse_summary": "Web search tool failed due to encoding errors.",
+        "solution_summary": "Unable to retrieve information about India-Afghanistan relations due to web search errors.",
+        "confidence": "0.5",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "c448df96-5fcf-4208-8bb3-f79769e97657",
+        "input": {
+          "current_time": "2025-05-19T10:20:30.608031",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: How are the current relations between India and Afghanistan?",
+          "perception": {
+            "entities": [
+              "India",
+              "Afghanistan",
+              "current relations"
+            ],
+            "result_requirement": "Description of current relations between India and Afghanistan",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.9",
+            "reasoning": "The query asks about the current relations between India and Afghanistan. The memory excerpt contains information about India-Bhutan relations, which is not relevant. Therefore, further planning is required to gather information about the India-Afghanistan relationship.",
+            "local_reasoning": "The memory excerpt and globals do not contain information about India-Afghanistan relations.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "Afghanistan",
+                  "current relations"
+                ],
+                "result_requirement": "Description of current relations between India and Afghanistan",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The query asks about the current relations between India and Afghanistan. The memory excerpt contains information about India-Bhutan relations, which is not relevant. Therefore, further planning is required to gather information about the India-Afghanistan relationship.",
+                "local_reasoning": "The memory excerpt and globals do not contain information about India-Afghanistan relations.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "Afghanistan",
+                  "current relations"
+                ],
+                "result_requirement": "Description of current relations between India and Afghanistan",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The query asks about the current relations between India and Afghanistan. The memory excerpt contains information about India-Bhutan relations, which is not relevant. Therefore, further planning is required to gather information about the India-Afghanistan relationship.",
+                "local_reasoning": "The memory excerpt and globals do not contain information about India-Afghanistan relations.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[{'score': 182.97872340425533, 'session_id': 'fc5367ee-de63-4d80-8aa7-373de6cb014e', 'original_query': 'Query 1: How are the military relations between India and Bhutan?', 'summary_output': \"India and Bhutan share a special relationship characterized by India's influence on Bhutan's foreign policy, defense, and commerce. A key component of their military relations is the Indian Military Training Team (IMTRAT), where India maintains a 2,000-strong presence in Bhutan to train the Royal Bhutan Army\u2026"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search the web for recent news articles about India-Afghanistan relations."
+              },
+              {
+                "id": "1",
+                "description": "Summarize the key points from the search results."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "urls = web_search_urls(\"India Afghanistan relations current\", 5)\nreturn {\"search_results_0A\": urls}",
+            "CODE_0B": "urls = web_search_urls(\"India Afghanistan diplomacy\", 5)\nreturn {\"search_results_0B\": urls}",
+            "CODE_0C": "urls = web_search_urls(\"India Afghanistan recent developments\", 5)\nreturn {\"search_results_0C\": urls}"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search the web for recent news articles about India-Afghanistan relations."
+            },
+            {
+              "id": "1",
+              "description": "Summarize the key points from the search results."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "urls = web_search_urls(\"India Afghanistan relations current\", 5)\nreturn {\"search_results_0A\": urls}",
+          "CODE_0B": "urls = web_search_urls(\"India Afghanistan diplomacy\", 5)\nreturn {\"search_results_0B\": urls}",
+          "CODE_0C": "urls = web_search_urls(\"India Afghanistan recent developments\", 5)\nreturn {\"search_results_0C\": urls}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      },
+      {
+        "run_id": "fff2a642-6bcc-4d3c-a94d-fd4c491268d9",
+        "input": {
+          "current_time": "2025-05-19T10:20:46.303720",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: How are the current relations between India and Afghanistan?",
+          "perception": {
+            "entities": [
+              "India",
+              "Afghanistan",
+              "current relations"
+            ],
+            "result_requirement": "Description of current relations between India and Afghanistan",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.6",
+            "reasoning": "The web search failed to return useful results due to encoding errors. The memory excerpt is irrelevant (India-Bhutan relations). No progress was made.",
+            "local_reasoning": "The search_results_0A returned an error. The memory refers to India-Bhutan, not India-Afghanistan.",
+            "last_tooluse_summary": "Web search tool failed due to encoding errors.",
+            "solution_summary": "Unable to retrieve information about India-Afghanistan relations.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "Afghanistan",
+                  "current relations"
+                ],
+                "result_requirement": "Description of current relations between India and Afghanistan",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The query asks about the current relations between India and Afghanistan. The memory excerpt contains information about India-Bhutan relations, which is not relevant. Therefore, further planning is required to gather information about the India-Afghanistan relationship.",
+                "local_reasoning": "The memory excerpt and globals do not contain information about India-Afghanistan relations.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            },
+            {
+              "index": "0",
+              "description": "Search the web for recent news articles about India-Afghanistan relations.",
+              "type": "CODE",
+              "status": "completed",
+              "result": {
+                "search_results_0A": [
+                  "[error] 'charmap' codec can't encode character '\\U0001f50d' in position 1: character maps to <undefined>"
+                ]
+              },
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "Afghanistan",
+                  "current relations"
+                ],
+                "result_requirement": "Description of current relations between India and Afghanistan",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.6",
+                "reasoning": "The web search failed to return useful results due to encoding errors. The memory excerpt is irrelevant (India-Bhutan relations). No progress was made.",
+                "local_reasoning": "The search_results_0A returned an error. The memory refers to India-Bhutan, not India-Afghanistan.",
+                "last_tooluse_summary": "Web search tool failed due to encoding errors.",
+                "solution_summary": "Unable to retrieve information about India-Afghanistan relations.",
+                "route": "decision"
+              },
+              "from_step": "ROOT"
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "Afghanistan",
+                  "current relations"
+                ],
+                "result_requirement": "Description of current relations between India and Afghanistan",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The query asks about the current relations between India and Afghanistan. The memory excerpt contains information about India-Bhutan relations, which is not relevant. Therefore, further planning is required to gather information about the India-Afghanistan relationship.",
+                "local_reasoning": "The memory excerpt and globals do not contain information about India-Afghanistan relations.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            },
+            {
+              "index": "0",
+              "description": "Search the web for recent news articles about India-Afghanistan relations.",
+              "type": "CODE",
+              "status": "completed",
+              "result": {
+                "search_results_0A": [
+                  "[error] 'charmap' codec can't encode character '\\U0001f50d' in position 1: character maps to <undefined>"
+                ]
+              },
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "Afghanistan",
+                  "current relations"
+                ],
+                "result_requirement": "Description of current relations between India and Afghanistan",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.6",
+                "reasoning": "The web search failed to return useful results due to encoding errors. The memory excerpt is irrelevant (India-Bhutan relations). No progress was made.",
+                "local_reasoning": "The search_results_0A returned an error. The memory refers to India-Bhutan, not India-Afghanistan.",
+                "last_tooluse_summary": "Web search tool failed due to encoding errors.",
+                "solution_summary": "Unable to retrieve information about India-Afghanistan relations.",
+                "route": "decision"
+              },
+              "from_step": "ROOT"
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[{'score': 182.97872340425533, 'session_id': 'fc5367ee-de63-4d80-8aa7-373de6cb014e', 'original_query': 'Query 1: How are the military relations between India and Bhutan?', 'summary_output': \"India and Bhutan share a special relationship characterized by India's influence on Bhutan's foreign policy, defense, and commerce. A key component of their military relations is the Indian Military Training Team (IMTRAT), where India maintains a 2,000-strong presence in Bhutan to train the Royal Bhutan Army\u2026"
+            },
+            "search_results_0A": {
+              "type": "list",
+              "preview": "[\"[error] 'charmap' codec can't encode character '\\\\U0001f50d' in position 1: character maps to <undefined>\"]"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search for official government reports or statements on India-Afghanistan relations."
+              },
+              {
+                "id": "1",
+                "description": "If government reports are found, extract relevant information and summarize the key points about the relations."
+              },
+              {
+                "id": "2",
+                "description": "If government reports aren't available, search for news articles from reputable sources (e.g., Reuters, BBC) on India-Afghanistan relations."
+              },
+              {
+                "id": "3",
+                "description": "If news articles are found, extract and summarize key information about the current relations."
+              },
+              {
+                "id": "4",
+                "description": "Synthesize information from government reports or news articles to describe the current relations between India and Afghanistan."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "conditional"
+              },
+              {
+                "from": "0",
+                "to": "2",
+                "type": "alternative"
+              },
+              {
+                "from": "2",
+                "to": "3",
+                "type": "conditional"
+              },
+              {
+                "from": "1",
+                "to": "4",
+                "type": "normal"
+              },
+              {
+                "from": "3",
+                "to": "4",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "search_term = 'India Afghanistan relations government report'\nurls = web_search_urls(search_term, 3)\nreturn {\"gov_report_urls_0A\": urls}",
+            "CODE_0B": "search_term = 'India Afghanistan relations official statement'\nurls = web_search_urls(search_term, 3)\nreturn {\"official_statement_urls_0B\": urls}",
+            "CODE_0C": "search_term = 'India Afghanistan relations \"Ministry of External Affairs\"'\nurls = web_search_urls(search_term, 3)\nreturn {\"mea_urls_0C\": urls}"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search for official government reports or statements on India-Afghanistan relations."
+            },
+            {
+              "id": "1",
+              "description": "If government reports are found, extract relevant information and summarize the key points about the relations."
+            },
+            {
+              "id": "2",
+              "description": "If government reports aren't available, search for news articles from reputable sources (e.g., Reuters, BBC) on India-Afghanistan relations."
+            },
+            {
+              "id": "3",
+              "description": "If news articles are found, extract and summarize key information about the current relations."
+            },
+            {
+              "id": "4",
+              "description": "Synthesize information from government reports or news articles to describe the current relations between India and Afghanistan."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "conditional"
+            },
+            {
+              "from": "0",
+              "to": "2",
+              "type": "alternative"
+            },
+            {
+              "from": "2",
+              "to": "3",
+              "type": "conditional"
+            },
+            {
+              "from": "1",
+              "to": "4",
+              "type": "normal"
+            },
+            {
+              "from": "3",
+              "to": "4",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "search_term = 'India Afghanistan relations government report'\nurls = web_search_urls(search_term, 3)\nreturn {\"gov_report_urls_0A\": urls}",
+          "CODE_0B": "search_term = 'India Afghanistan relations official statement'\nurls = web_search_urls(search_term, 3)\nreturn {\"official_statement_urls_0B\": urls}",
+          "CODE_0C": "search_term = 'India Afghanistan relations \"Ministry of External Affairs\"'\nurls = web_search_urls(search_term, 3)\nreturn {\"mea_urls_0C\": urls}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [
+      {
+        "run_id": "93230001-ef4c-447f-a35a-e4eecd2d5634",
+        "step_id": "0",
+        "variant_used": "CODE_0A",
+        "code": "urls = web_search_urls(\"India Afghanistan relations current\", 5)\nreturn {\"search_results_0A\": urls}",
+        "status": "success",
+        "result": {
+          "search_results_0A": [
+            "[error] 'charmap' codec can't encode character '\\U0001f50d' in position 1: character maps to <undefined>"
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 15:50:35",
+        "total_time": "5.01",
+        "return_to": ""
+      }
+    ],
+    "summarizer_snapshots": [
+      {
+        "run_id": "0ed60a9f-17a7-4912-942c-0626e7bfb7f5",
+        "input": {
+          "original_query": "Query 1: How are the current relations between India and Afghanistan?",
+          "globals_schema": {
+            "memory": [
+              {
+                "score": 182.97872340425533,
+                "session_id": "fc5367ee-de63-4d80-8aa7-373de6cb014e",
+                "original_query": "Query 1: How are the military relations between India and Bhutan?",
+                "summary_output": "India and Bhutan share a special relationship characterized by India's influence on Bhutan's foreign policy, defense, and commerce. A key component of their military relations is the Indian Military Training Team (IMTRAT), where India maintains a 2,000-strong presence in Bhutan to train the Royal Bhutan Army. Security cooperation is a vital aspect of the India-Bhutan relationship.",
+                "timestamp": "2025-05-18T04:43:09Z"
+              },
+              {
+                "score": 182.97872340425533,
+                "session_id": "2ca4f0e8-122f-41d5-83c0-2f3e883b2402",
+                "original_query": "Query 1: How are the military relations between India and Bhutan?",
+                "summary_output": "I am unable to provide a summary of the military relations between India and Bhutan at this time. No tool has been used to extract and synthesize the text from the URLs provided.",
+                "timestamp": "2025-05-18T04:36:36Z"
+              },
+              {
+                "score": 179.59183673469389,
+                "session_id": "c33dd381-fdd1-480f-b7ee-ef79b3d5ed9b",
+                "original_query": "Query 1: How are the military relations between India and Bhutan?\nResponse 1: I am unable to provide a summary of the military relations between India and Bhutan at this time. No tool has been used to extract and synthesize the text from the URLs provided.\nQuery 2: How are the military relations between India and Bhutan?\nResponse 2: Due to technical difficulties in extracting and synthesizing text from the provided URLs, a comprehensive summary of the military relations between India and Bhutan could not be generated. However, here are the search results that were found, which may contain relevant information:\n\n*   [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations)\n*   [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3)\n*   [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/)\n*   [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations)\nQuery 3: How are the military relations between India and Bhutan?\nResponse 3: I was unable to extract and summarize text from the provided URLs regarding the military relations between India and Bhutan. For your convenience, here are the URLs that were used in the search. You may find the information you need by reviewing them directly:\n\n*   [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations)\n*   [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3)\n*   [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/)\n*   [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations)\nQuery 4: How are the military relations between India and Bhutan? If a tool failes, ask decision to use some other tools to find this information",
+                "summary_output": "Due to technical difficulties in extracting and synthesizing text from the provided URLs, a comprehensive summary of the military relations between India and Bhutan could not be generated. The tools attempted to retrieve information from the following links, but were unsuccessful:\n\n*   [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations)\n*   [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3)\n*   [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/)\n*   [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations)",
+                "timestamp": "2025-05-18T04:36:36Z"
+              }
+            ],
+            "search_results_0A": [
+              "[error] 'charmap' codec can't encode character '\\U0001f50d' in position 1: character maps to <undefined>"
+            ]
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "India",
+                      "Afghanistan",
+                      "current relations"
+                    ],
+                    "result_requirement": "Description of current relations between India and Afghanistan",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.9",
+                    "reasoning": "The query asks about the current relations between India and Afghanistan. The memory excerpt contains information about India-Bhutan relations, which is not relevant. Therefore, further planning is required to gather information about the India-Afghanistan relationship.",
+                    "local_reasoning": "The memory excerpt and globals do not contain information about India-Afghanistan relations.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "0",
+                  "description": "Search the web for recent news articles about India-Afghanistan relations.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "search_results_0A": [
+                      "[error] 'charmap' codec can't encode character '\\U0001f50d' in position 1: character maps to <undefined>"
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "India",
+                      "Afghanistan",
+                      "current relations"
+                    ],
+                    "result_requirement": "Description of current relations between India and Afghanistan",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.6",
+                    "reasoning": "The web search failed to return useful results due to encoding errors. The memory excerpt is irrelevant (India-Bhutan relations). No progress was made.",
+                    "local_reasoning": "The search_results_0A returned an error. The memory refers to India-Bhutan, not India-Afghanistan.",
+                    "last_tooluse_summary": "Web search tool failed due to encoding errors.",
+                    "solution_summary": "Unable to retrieve information about India-Afghanistan relations.",
+                    "route": "decision"
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "0"
+              },
+              {
+                "data": {
+                  "index": "1",
+                  "description": "If government reports are found, extract relevant information and summarize the key points about the relations.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "India",
+                      "Afghanistan",
+                      "current relations"
+                    ],
+                    "result_requirement": "Description of current relations between India and Afghanistan",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.5",
+                    "reasoning": "The initial web search failed due to encoding issues. Step 1 which was conditional upon the success of the first also failed. The memory contains irrelevant information about India-Bhutan relations. Given the failure and the nature of the error, further attempts to use web search are unlikely to succeed without a change in approach (e.g., fixing the encoding issue, which is beyond the scope of planning). Therefore, it's best to summarize the lack of results and inform the user.",
+                    "local_reasoning": "Web search tool returned a codec error, making further web searches unlikely to succeed. Step 1 was dependent on the results of the first, therefore it also failed.",
+                    "last_tooluse_summary": "Web search tool failed due to encoding errors.",
+                    "solution_summary": "Unable to retrieve information about India-Afghanistan relations due to web search errors.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Summarize that the system was unable to retrieve information about the current relations between India and Afghanistan due to encoding errors during web search. Mention that the initial web search failed and subsequent steps depending on it were also unsuccessful. Also mention that memory contains irrelevant information. Explain the tool failure in plain language."
+                  },
+                  "from_step": "0"
+                },
+                "id": "1"
+              },
+              {
+                "data": {
+                  "index": "2",
+                  "description": "If government reports aren't available, search for news articles from reputable sources (e.g., Reuters, BBC) on India-Afghanistan relations.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "0"
+                },
+                "id": "2"
+              },
+              {
+                "data": {
+                  "index": "3",
+                  "description": "If news articles are found, extract and summarize key information about the current relations.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "0"
+                },
+                "id": "3"
+              },
+              {
+                "data": {
+                  "index": "4",
+                  "description": "Synthesize information from government reports or news articles to describe the current relations between India and Afghanistan.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "0"
+                },
+                "id": "4"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "0"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "0",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "0",
+                "target": "2"
+              },
+              {
+                "type": "normal",
+                "source": "0",
+                "target": "3"
+              },
+              {
+                "type": "normal",
+                "source": "0",
+                "target": "4"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "India",
+              "Afghanistan",
+              "current relations"
+            ],
+            "result_requirement": "Description of current relations between India and Afghanistan",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.5",
+            "reasoning": "The initial web search failed due to encoding issues. Step 1 which was conditional upon the success of the first also failed. The memory contains irrelevant information about India-Bhutan relations. Given the failure and the nature of the error, further attempts to use web search are unlikely to succeed without a change in approach (e.g., fixing the encoding issue, which is beyond the scope of planning). Therefore, it's best to summarize the lack of results and inform the user.",
+            "local_reasoning": "Web search tool returned a codec error, making further web searches unlikely to succeed. Step 1 was dependent on the results of the first, therefore it also failed.",
+            "last_tooluse_summary": "Web search tool failed due to encoding errors.",
+            "solution_summary": "Unable to retrieve information about India-Afghanistan relations due to web search errors.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize that the system was unable to retrieve information about the current relations between India and Afghanistan due to encoding errors during web search. Mention that the initial web search failed and subsequent steps depending on it were also unsuccessful. Also mention that memory contains irrelevant information. Explain the tool failure in plain language."
+          }
+        },
+        "summary_output": "I was unable to retrieve information about the current relations between India and Afghanistan. The initial web search failed due to an encoding error, which prevented the tool from correctly interpreting the search results. As a result, any subsequent steps that depended on this initial search, such as analyzing government reports or news articles, were also unsuccessful. The memory contains information about India-Bhutan relations, which is not relevant to your query. The tool failure was caused by a \"charmap\" codec error, indicating a problem with character encoding during the web search process.",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-19T10:19:46Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "I was unable to retrieve information about the current relations between India and Afghanistan. The initial web search failed due to an encoding error, which prevented the tool from correctly interpreting the search results. As a result, any subsequent steps that depended on this initial search, such as analyzing government reports or news articles, were also unsuccessful. The memory contains information about India-Bhutan relations, which is not relevant to your query. The tool failure was caused by a \"charmap\" codec error, indicating a problem with character encoding during the web search process.",
+    "status": "success",
+    "completed_at": "2025-05-19T10:21:03.470963"
+  },
+  "status": "success",
+  "final_step_id": "4",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-19T10:21:03.475962",
+  "original_query": "Query 1: How are the current relations between India and Afghanistan?",
+  "final_summary": "I was unable to retrieve information about the current relations between India and Afghanistan. The initial web search failed due to an encoding error, which prevented the tool from correctly interpreting the search results. As a result, any subsequent steps that depended on this initial search, such as analyzing government reports or news articles, were also unsuccessful. The memory contains information about India-Bhutan relations, which is not relevant to your query. The tool failure was caused by a \"charmap\" codec error, indicating a problem with character encoding during the web search process."
+}

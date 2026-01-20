@@ -1,0 +1,32 @@
+{
+  "search_results_0A": [
+    "https://www.desmos.com/scientific"
+  ],
+  "search_results_0B": [
+    "https://www.wolframalpha.com/"
+  ],
+  "search_results_0C": [
+    "https://www.calculator.net/"
+  ],
+  "calculator_raw_text_1C": [
+    {
+      "type": "text",
+      "text": "[trafilatura] sign in\n0\nsin\ncos\ntan\nDeg\nRad\nsin\n-1\ncos\n-1\ntan\n-1\n\ne\nx\ny\nx\n3\nx\n2\ne\nx\n10\nx\ny\nx\n3\nx\nx\nln\nlog\n(\n)\n1/x\n%\nn!\n7\n8\n9\n+\nBack\n4\n5\n6\n\nAns\n1\n2\n3\n\nM+\n0\n.\nEXP\n/\nM-\n\nRND\nAC\n=\nMR\nFree Online Calculators\nSearch\nFinancial Calculators\nMortgage Calculator\nLoan Calculator\nAuto Loan Calculator\nInterest Calculator\nPayment Calculator\nRetirement Calculator\nAmortization Calculator\nInvestment Calculator\nInflation Calculator\nFinance Calculator\nIncome Tax Calculator\nCompound Interest Calculator\nSalary Calculator\nInterest Rate Calculator\nSales Tax Calculator\nFitness & Health Calculators\nBMI Calculator\nCalorie Calculator\nBody Fat Calculator\nBMR Calculator\nIdeal Weight Calculator\nPace Calculator\nPregnancy Calculator\nPregnancy Conception Calculator\nDue Date Calculator\nMath Calculators\nScientific Calculator\nFraction Calculator\nPercentage Calculator\nRandom Number Generator\nTriangle Calculator\nStandard Deviation Calculator\nOther Calculators\nAge Calculator\nDate Calculator\nTime Calculator\nHours Calculator\nGPA Calculator\nGrade Calculator\nConcrete Calculator\nSubnet Calculator\nPassword Generator\nConversion Calculator",
+      "annotations": null
+    }
+  ],
+  "calculator_raw_text_1B": [
+    {
+      "type": "text",
+      "text": "[body_text] Wolfram|Alpha: Computational Intelligence\nUh oh! Wolfram|Alpha doesn't run without JavaScript.\nPlease enable JavaScript. If you don't know how, you can find instructions\nhere\n.\nOnce you've done that, refresh this page to start using Wolfram|Alpha.\nEnter what you want to calculate or know about\nNatural Language\nMath Input\nExtended Keyboard\nExamples\nUpload\nRandom\nCompute expert-level answers using Wolframs breakthrough\nalgorithms, knowledgebase and AI technology\nMathematics\n\nStep-by-Step Solutions\nElementary Math\nAlgebra\nPlotting & Graphics\nCalculus & Analysis\nGeometry\nDifferential Equations\nStatistics\nMore Topics \nScience & Technology\n\nUnits & Measures\nPhysics\nChemistry\nEngineering\nComputational Sciences\nEarth Sciences\nMaterials\nTransportation\nMore Topics \nSociety & Culture\n\nPeople\nArts & Media\nDates & Times\nWords & Linguistics\nMoney & Finance\nFood & Nutrition\nPolitical Geography\nHistory\nMore Topics \nEveryday Life\n\nPersonal Health\nPersonal Finance\nSurprises\nEntertainment\nHousehold Science\nHousehold Math\nHobbies\nToday's World\nMore Topics \nMade possible by the\nWolfram Language\nbuilding on 35+ years of\nresearch&development \nWolfram|Alpha\nNatural Language Understanding\nCurated Data & Knowledge\nDynamic Algorithmic Computation\nComputed Visual Computation\nPro\nMobile Apps\nProducts\nBusiness\nAPI & Developer Solutions\nLLM Solutions\nResources & Tools\nAbout\nContact\nConnect\n\n2025\nWolfram\nTerms\nPrivacy\nwolfram.com\nWolfram Language\nMathematica\nWolfram Demonstrations\nWolfram for Education\nMathWorld",
+      "annotations": null
+    }
+  ],
+  "calculator_raw_text_1A": [
+    {
+      "type": "text",
+      "text": "[trafilatura] Loading...\nDesmos Logo\nMath Tools\nResources\nPartnerships\nLog In\nSign Up\nExpression 1:\nmain\nabc\nfunc\nrad\ndeg\nclear all\n\"a\" squared\na\n2\n\"a\" Superscript, \"b\" , Baseline\na\nb\n| \"a\" |\n|\na\n|\n7\n7\n8\n8\n9\n9\nover\n\n%\n%\nStartFraction, \"a\" Over \"b\" , EndFraction\na\nb\nStartRoot, , EndRoot\nRoot Index \"n\" , Start Root, , End Root\nn\npi\n\n4\n4\n5\n5\n6\n6\ntimes\n\nsin\ncos\ntan\n1\n1\n2\n2\n3\n3\nnegative\n\n(\n(\n)\n)\n,\n,\n0\n0\n.\n.\nans\npositive\n+",
+      "annotations": null
+    }
+  ]
+}

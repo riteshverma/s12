@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LLM Quote Tab</title>
+    <link rel="stylesheet" href="newtab.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="header">
+        <div class="eyebrow">Today's perspective</div>
+        <h1 class="title">A quote for your current headspace</h1>
+      </header>
+
+      <section class="quote-card" aria-live="polite">
+        <p class="quote" id="quoteText">Loading your quote…</p>
+        <p class="author" id="quoteAuthor"></p>
+        <p class="topic" id="quoteTopic"></p>
+      </section>
+
+      <section class="meta">
+        <button class="link-button" id="refreshQuote" type="button">New quote</button>
+        <a class="link-button" href="options.html">Update recent chats</a>
+      </section>
+    </main>
+
+    <script src="newtab.js"></script>
+  </body>
+</html>

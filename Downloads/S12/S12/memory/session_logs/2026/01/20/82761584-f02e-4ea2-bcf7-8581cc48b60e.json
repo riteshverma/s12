@@ -1,0 +1,188 @@
+{
+  "context": {
+    "session_id": "82761584-f02e-4ea2-bcf7-8581cc48b60e",
+    "original_query": "Query 1: EAG - V2 (AI Agents)",
+    "globals": {
+      "memory": [
+        {
+          "score": 200.0,
+          "session_id": "88079262-a610-45e1-92e0-f0987ec82d6e",
+          "original_query": "Open https://forms.gle/6Nc6QaaJyDvePxLv7 and fill the form with the following details:\n- Course (what course is he/she in?): EAG - V2 (AI Agents)\n- Email ID: riteshv2@gmail.com\n- Master's name: Rohan Shravan\n- Which course is he/she taking?: EAG\n- Date of birth: 04/09/1987\n- Marital status: Yes\n\nSubmit the form after all required fields are filled. After submission, verify success by locating a confirmation message or a URL change that indicates the form was submitted. Report the exact confirmation text or resulting URL.",
+          "summary_output": "The Google Form at [https://forms.gle/6Nc6QaaJyDvePxLv7](https://forms.gle/6Nc6QaaJyDvePxLv7) has been filled out and submitted with the following details:\n\n*   **Course:** EAG - V2 (AI Agents)\n*   **Email ID:** riteshv2@gmail.com\n*   **Master's name:** Rohan Shravan\n*   **Which course is he/she taking?:** EAG\n*   **Date of birth:** 04/09/1987\n*   **Marital status:** Yes\n\nThe form was submitted successfully!",
+          "timestamp": "2026-01-20T08:28:59Z"
+        },
+        {
+          "score": 154.54545454545456,
+          "session_id": "7389b5b3-6fb6-44fe-97e0-2d3918066fd7",
+          "original_query": "Open https://forms.gle/6Nc6QaaJyDvePxLv7 and fill the form with the following details:\n- Course (what course is he/she in?): EAG V2\n- Email ID: riteshv2@gmail.com\n- Master's name: Rohan Shravan\n- Which course is he/she taking?: EAG\n- Date of birth: 04/09/1987\n- Marital status: Yes\n\nSubmit the form after all required fields are filled. After submission, verify success by locating a confirmation message or a URL change that indicates the form was submitted. Report the exact confirmation text or resulting URL.",
+          "summary_output": "The Google Form at [https://forms.gle/6Nc6QaaJyDvePxLv7](https://forms.gle/6Nc6QaaJyDvePxLv7) has been filled out and submitted with the following details:\n\n*   **Course:** EAG V2\n*   **Email ID:** riteshv2@gmail.com\n*   **Master's name:** Rohan Shravan\n*   **Which course is he/she taking?:** EAG\n*   **Date of birth:** 04/09/1987\n*   **Marital status:** Yes\n\nThe form was submitted successfully!",
+          "timestamp": "2026-01-20T08:21:43Z"
+        }
+      ]
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: EAG - V2 (AI Agents)",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "The Google Form at [https://forms.gle/6Nc6QaaJyDvePxLv7](https://forms.gle/6Nc6QaaJyDvePxLv7) has been previously filled out and submitted with the following details for the course **EAG - V2 (AI Agents)**:\n\n*   **Course:** EAG - V2 (AI Agents)\n*   **Email ID:** riteshv2@gmail.com\n*   **Master's name:** Rohan Shravan\n*   **Which course is he/she taking?:** EAG\n*   **Date of birth:** 04/09/1987\n*   **Marital status:** Yes\n\nThe form was submitted successfully!",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "EAG - V2 (AI Agents)"
+              ],
+              "result_requirement": "Confirmation that the Google Form has been filled with the course 'EAG - V2 (AI Agents)' and other details.",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "0.95",
+              "reasoning": "The memory excerpt contains a previous successful submission of the Google Form with similar details. The current query matches the 'Course' field in the previous submission. Therefore, the goal is achieved.",
+              "local_reasoning": "The memory excerpt shows a successful form submission with the course 'EAG - V2 (AI Agents)'.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "The Google Form has been previously filled with the course 'EAG - V2 (AI Agents)' and other details.",
+              "route": "summarize",
+              "instruction_to_summarize": "Summarize that the Google Form has been previously filled with the course 'EAG - V2 (AI Agents)' and other details, referencing the memory excerpt. Include the URL of the form and the details that were filled in the previous submission. Format in markdown."
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        }
+      ],
+      "links": []
+    }
+  },
+  "session": {
+    "session_id": "82761584-f02e-4ea2-bcf7-8581cc48b60e",
+    "original_query": "Query 1: EAG - V2 (AI Agents)",
+    "perception_snapshots": [
+      {
+        "run_id": "82761584-f02e-4ea2-bcf7-8581cc48b60e-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "EAG - V2 (AI Agents)"
+        ],
+        "result_requirement": "Confirmation that the Google Form has been filled with the course 'EAG - V2 (AI Agents)' and other details.",
+        "original_goal_achieved": true,
+        "reasoning": "The memory excerpt contains a previous successful submission of the Google Form with similar details. The current query matches the 'Course' field in the previous submission. Therefore, the goal is achieved.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The memory excerpt shows a successful form submission with the course 'EAG - V2 (AI Agents)'.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "The Google Form has been previously filled with the course 'EAG - V2 (AI Agents)' and other details.",
+        "confidence": "0.95",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [],
+    "execution_snapshots": [],
+    "summarizer_snapshots": [
+      {
+        "run_id": "0bdf6a39-c4a0-471e-ba01-17e2dfa012e0",
+        "input": {
+          "original_query": "Query 1: EAG - V2 (AI Agents)",
+          "globals_schema": {
+            "memory": [
+              {
+                "score": 200.0,
+                "session_id": "88079262-a610-45e1-92e0-f0987ec82d6e",
+                "original_query": "Open https://forms.gle/6Nc6QaaJyDvePxLv7 and fill the form with the following details:\n- Course (what course is he/she in?): EAG - V2 (AI Agents)\n- Email ID: riteshv2@gmail.com\n- Master's name: Rohan Shravan\n- Which course is he/she taking?: EAG\n- Date of birth: 04/09/1987\n- Marital status: Yes\n\nSubmit the form after all required fields are filled. After submission, verify success by locating a confirmation message or a URL change that indicates the form was submitted. Report the exact confirmation text or resulting URL.",
+                "summary_output": "The Google Form at [https://forms.gle/6Nc6QaaJyDvePxLv7](https://forms.gle/6Nc6QaaJyDvePxLv7) has been filled out and submitted with the following details:\n\n*   **Course:** EAG - V2 (AI Agents)\n*   **Email ID:** riteshv2@gmail.com\n*   **Master's name:** Rohan Shravan\n*   **Which course is he/she taking?:** EAG\n*   **Date of birth:** 04/09/1987\n*   **Marital status:** Yes\n\nThe form was submitted successfully!",
+                "timestamp": "2026-01-20T08:28:59Z"
+              },
+              {
+                "score": 154.54545454545456,
+                "session_id": "7389b5b3-6fb6-44fe-97e0-2d3918066fd7",
+                "original_query": "Open https://forms.gle/6Nc6QaaJyDvePxLv7 and fill the form with the following details:\n- Course (what course is he/she in?): EAG V2\n- Email ID: riteshv2@gmail.com\n- Master's name: Rohan Shravan\n- Which course is he/she taking?: EAG\n- Date of birth: 04/09/1987\n- Marital status: Yes\n\nSubmit the form after all required fields are filled. After submission, verify success by locating a confirmation message or a URL change that indicates the form was submitted. Report the exact confirmation text or resulting URL.",
+                "summary_output": "The Google Form at [https://forms.gle/6Nc6QaaJyDvePxLv7](https://forms.gle/6Nc6QaaJyDvePxLv7) has been filled out and submitted with the following details:\n\n*   **Course:** EAG V2\n*   **Email ID:** riteshv2@gmail.com\n*   **Master's name:** Rohan Shravan\n*   **Which course is he/she taking?:** EAG\n*   **Date of birth:** 04/09/1987\n*   **Marital status:** Yes\n\nThe form was submitted successfully!",
+                "timestamp": "2026-01-20T08:21:43Z"
+              }
+            ]
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "EAG - V2 (AI Agents)"
+                    ],
+                    "result_requirement": "Confirmation that the Google Form has been filled with the course 'EAG - V2 (AI Agents)' and other details.",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "0.95",
+                    "reasoning": "The memory excerpt contains a previous successful submission of the Google Form with similar details. The current query matches the 'Course' field in the previous submission. Therefore, the goal is achieved.",
+                    "local_reasoning": "The memory excerpt shows a successful form submission with the course 'EAG - V2 (AI Agents)'.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "The Google Form has been previously filled with the course 'EAG - V2 (AI Agents)' and other details.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Summarize that the Google Form has been previously filled with the course 'EAG - V2 (AI Agents)' and other details, referencing the memory excerpt. Include the URL of the form and the details that were filled in the previous submission. Format in markdown."
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              }
+            ],
+            "links": []
+          },
+          "perception": {
+            "entities": [
+              "EAG - V2 (AI Agents)"
+            ],
+            "result_requirement": "Confirmation that the Google Form has been filled with the course 'EAG - V2 (AI Agents)' and other details.",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.95",
+            "reasoning": "The memory excerpt contains a previous successful submission of the Google Form with similar details. The current query matches the 'Course' field in the previous submission. Therefore, the goal is achieved.",
+            "local_reasoning": "The memory excerpt shows a successful form submission with the course 'EAG - V2 (AI Agents)'.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "The Google Form has been previously filled with the course 'EAG - V2 (AI Agents)' and other details.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize that the Google Form has been previously filled with the course 'EAG - V2 (AI Agents)' and other details, referencing the memory excerpt. Include the URL of the form and the details that were filled in the previous submission. Format in markdown."
+          }
+        },
+        "summary_output": "The Google Form at [https://forms.gle/6Nc6QaaJyDvePxLv7](https://forms.gle/6Nc6QaaJyDvePxLv7) has been previously filled out and submitted with the following details for the course **EAG - V2 (AI Agents)**:\n\n*   **Course:** EAG - V2 (AI Agents)\n*   **Email ID:** riteshv2@gmail.com\n*   **Master's name:** Rohan Shravan\n*   **Which course is he/she taking?:** EAG\n*   **Date of birth:** 04/09/1987\n*   **Marital status:** Yes\n\nThe form was submitted successfully!",
+        "success": true,
+        "error": null,
+        "timestamp": "2026-01-20T12:20:17Z",
+        "return_to": ""
+      }
+    ],
+    "browser_snapshots": [],
+    "final_summary": "The Google Form at [https://forms.gle/6Nc6QaaJyDvePxLv7](https://forms.gle/6Nc6QaaJyDvePxLv7) has been previously filled out and submitted with the following details for the course **EAG - V2 (AI Agents)**:\n\n*   **Course:** EAG - V2 (AI Agents)\n*   **Email ID:** riteshv2@gmail.com\n*   **Master's name:** Rohan Shravan\n*   **Which course is he/she taking?:** EAG\n*   **Date of birth:** 04/09/1987\n*   **Marital status:** Yes\n\nThe form was submitted successfully!",
+    "status": "success",
+    "completed_at": "2026-01-20T12:20:46.326806"
+  },
+  "status": "success",
+  "final_step_id": "ROOT",
+  "reason": "Summarized successfully",
+  "timestamp": "2026-01-20T12:20:46.327925",
+  "original_query": "Query 1: EAG - V2 (AI Agents)",
+  "final_summary": "The Google Form at [https://forms.gle/6Nc6QaaJyDvePxLv7](https://forms.gle/6Nc6QaaJyDvePxLv7) has been previously filled out and submitted with the following details for the course **EAG - V2 (AI Agents)**:\n\n*   **Course:** EAG - V2 (AI Agents)\n*   **Email ID:** riteshv2@gmail.com\n*   **Master's name:** Rohan Shravan\n*   **Which course is he/she taking?:** EAG\n*   **Date of birth:** 04/09/1987\n*   **Marital status:** Yes\n\nThe form was submitted successfully!"
+}

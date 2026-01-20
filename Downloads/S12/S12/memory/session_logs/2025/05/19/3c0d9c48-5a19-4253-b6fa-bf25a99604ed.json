@@ -1,0 +1,563 @@
+{
+  "context": {
+    "session_id": "3c0d9c48-5a19-4253-b6fa-bf25a99604ed",
+    "original_query": "Query 1: How did BHEL stock performed today? check on https://www.nseindia.com/get-quotes/equity?symbol=BHEL",
+    "globals": {
+      "memory": [],
+      "raw_text_0A": [
+        {
+          "type": "text",
+          "text": "[visible] Option Chain Market Turnover Listings IPO Circulars Daily Report Holidays Corporates Press Releases Contact Us \nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\n \n24,945.45\n-74.35 (-0.3%)\n\n19-May-2025 15:30\n\nStreaming\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\nFutures 29-May-2025\n25,003.50  12.00 (0.05%)\n\n19-May-2025 17:39\n\nUSDINR  Futures\n\n28-May-2025 | 85.4600\n\n19-May-2025 17:00\n\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\nFutures 29-May-2025\n25,003.50  12.00 (0.05%)\n\n19-May-2025 17:39\n\nUSDINR  Futures\n\n28-May-2025 | 85.4600\n\n19-May-2025 17:00\n\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\n01\n02\n03\nHOME\nABOUT\nMARKET DATA\nINVEST\nLIST\nTRADE\nREGULATION\nLEARN\nRESOURCES\nCOMPLAINTS\nRESEARCH\nBHEL\nBHARAT HEAVY ELECTRICALS LIMITED (INE257A01026)\nEQUITY\nDERIVATIVES\nSLB\nAs on 19-May-2025 16:00:00 IST (All price values in ) \n244.45\nquote value High\n-5.90 (-2.36 %)\nPREV. CLOSE\tOPEN\tHIGH\tLOW\tCLOSE*\tINDICATIVE CLOSE\tVWAP\tADJUSTED PRICE *\n250.35\t252.99\t253.89\t243.20\t-\t-\t247.65\t-\nTrade Information\nHistorical Data\nCogencis iInvest\nSeries :\nEQ\n| \nScrip PE is greater than 50 for prev. 4 trailing Qtrs. \nOrder book\nQty\tBid()\tAsk()\tQty\n-\t-\t-\t-\n-\t-\t-\t-\n-\t-\t-\t-\n-\t-\t-\t-\n-\t-\t-\t-\nBuy Quantity\n-\nSell Quantity\n-\nTrade Information\nTraded Volume (Lakhs)\t157.30\nTraded Value ( Cr.)\t389.57\nTotal Market Cap ( Cr.)\t85,119.04\nFree Float Market Cap ( Cr.)\t31,333.08\nImpact cost\t0.03\n% of Deliverable / Traded\nQuantity \t34.69 %\nApplicable Margin Rate \t21.77\nFace Value\t2\nPrice Information\n52 Week High (09-Jul-2024)\t335.35\n52 Week Low (03-Mar-2025)\t176.00\nUpper Band\t275.38\nLower Band\t225.31\nPrice Band (%)\tNo Band\nDaily Volatility\t2.80\nAnnualised Volatility\t53.49\nTick Size\t0.01\nSecurities Information\nStatus\tListed\nTrading Status\tActive\nDate of Listing\t11-Nov-2003\nAdjusted P/E\t183.57\nSymbol P/E\t183.57\nIndex \tNIFTY MIDCAP 50\nBasic Industry \tHeavy Electrical Equipment\nDashboard\nAnnouncements\nAnnouncements XBRL\nAnnual Reports\nBusiness Responsibility And Sustainability Report\nBoard Meetings\nCorporate Actions\nCompany Directory\nCorporate Governance\nCorporate Information\nDaily Buy Back\nEvent Calendar\nFinancial Results\nFinancial Results Comparision\nFurther Issues XBRL Fillings\nInsider Trading\nInsider Trading-Plan\nIntegrated Filing XBRL\nInvestor Complaints\nPromoter Encumbrance Details\nIssue Offer Documents / Issue Summary Documents\nRelated Party Transactions\nSAST Regulations\nStatement Of Deviation/Variation\nSystem Driven Disclosures - PIT\nSystem Driven Disclosures - SAST\nSecretarial Compliance\nShare Transfers\nShareholder's Meetings\nShareholding Patterns\nShareholding Patterns SDD\nStatement Of Impact Of Audit Qualification\nVoting Results\nAnnouncements\nSubject\n\t\nDate\nCopy of Newspaper Publication\t17-May-2025\nUpdates\t16-May-2025\nChange in Management\t16-May-2025\nChange in Directors/ Key Managerial Personnel/ Auditor/ Compliance Officer/ Share Transfer Agent\t1",
+          "annotations": null
+        }
+      ]
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: How did BHEL stock performed today? check on https://www.nseindia.com/get-quotes/equity?symbol=BHEL",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "BHEL's stock performance on May 19, 2025, was as follows:\n\n*   **Price:** 244.45\n*   **Change:** -5.90 (-2.36 %)\n*   **Time:** As on 19-May-2025 16:00:00 IST",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "BHEL",
+                "stock performance",
+                "today",
+                "NSE"
+              ],
+              "result_requirement": "BHEL stock performance data for today from NSE India.",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.85",
+              "reasoning": "The user wants to know how BHEL stock performed today based on the provided URL from NSE India. This requires fetching and parsing the data from the webpage.",
+              "local_reasoning": "The query requires fetching and parsing data. It cannot be solved immediately.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Fetch the content of the NSE India webpage for BHEL stock.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "raw_text_0A": [
+                {
+                  "type": "text",
+                  "text": "[visible] Option Chain Market Turnover Listings IPO Circulars Daily Report Holidays Corporates Press Releases Contact Us \nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\n \n24,945.45\n-74.35 (-0.3%)\n\n19-May-2025 15:30\n\nStreaming\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\nFutures 29-May-2025\n25,003.50  12.00 (0.05%)\n\n19-May-2025 17:39\n\nUSDINR  Futures\n\n28-May-2025 | 85.4600\n\n19-May-2025 17:00\n\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\nFutures 29-May-2025\n25,003.50  12.00 (0.05%)\n\n19-May-2025 17:39\n\nUSDINR  Futures\n\n28-May-2025 | 85.4600\n\n19-May-2025 17:00\n\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\n01\n02\n03\nHOME\nABOUT\nMARKET DATA\nINVEST\nLIST\nTRADE\nREGULATION\nLEARN\nRESOURCES\nCOMPLAINTS\nRESEARCH\nBHEL\nBHARAT HEAVY ELECTRICALS LIMITED (INE257A01026)\nEQUITY\nDERIVATIVES\nSLB\nAs on 19-May-2025 16:00:00 IST (All price values in ) \n244.45\nquote value High\n-5.90 (-2.36 %)\nPREV. CLOSE\tOPEN\tHIGH\tLOW\tCLOSE*\tINDICATIVE CLOSE\tVWAP\tADJUSTED PRICE *\n250.35\t252.99\t253.89\t243.20\t-\t-\t247.65\t-\nTrade Information\nHistorical Data\nCogencis iInvest\nSeries :\nEQ\n| \nScrip PE is greater than 50 for prev. 4 trailing Qtrs. \nOrder book\nQty\tBid()\tAsk()\tQty\n-\t-\t-\t-\n-\t-\t-\t-\n-\t-\t-\t-\n-\t-\t-\t-\n-\t-\t-\t-\nBuy Quantity\n-\nSell Quantity\n-\nTrade Information\nTraded Volume (Lakhs)\t157.30\nTraded Value ( Cr.)\t389.57\nTotal Market Cap ( Cr.)\t85,119.04\nFree Float Market Cap ( Cr.)\t31,333.08\nImpact cost\t0.03\n% of Deliverable / Traded\nQuantity \t34.69 %\nApplicable Margin Rate \t21.77\nFace Value\t2\nPrice Information\n52 Week High (09-Jul-2024)\t335.35\n52 Week Low (03-Mar-2025)\t176.00\nUpper Band\t275.38\nLower Band\t225.31\nPrice Band (%)\tNo Band\nDaily Volatility\t2.80\nAnnualised Volatility\t53.49\nTick Size\t0.01\nSecurities Information\nStatus\tListed\nTrading Status\tActive\nDate of Listing\t11-Nov-2003\nAdjusted P/E\t183.57\nSymbol P/E\t183.57\nIndex \tNIFTY MIDCAP 50\nBasic Industry \tHeavy Electrical Equipment\nDashboard\nAnnouncements\nAnnouncements XBRL\nAnnual Reports\nBusiness Responsibility And Sustainability Report\nBoard Meetings\nCorporate Actions\nCompany Directory\nCorporate Governance\nCorporate Information\nDaily Buy Back\nEvent Calendar\nFinancial Results\nFinancial Results Comparision\nFurther Issues XBRL Fillings\nInsider Trading\nInsider Trading-Plan\nIntegrated Filing XBRL\nInvestor Complaints\nPromoter Encumbrance Details\nIssue Offer Documents / Issue Summary Documents\nRelated Party Transactions\nSAST Regulations\nStatement Of Deviation/Variation\nSystem Driven Disclosures - PIT\nSystem Driven Disclosures - SAST\nSecretarial Compliance\nShare Transfers\nShareholder's Meetings\nShareholding Patterns\nShareholding Patterns SDD\nStatement Of Impact Of Audit Qualification\nVoting Results\nAnnouncements\nSubject\n\t\nDate\nCopy of Newspaper Publication\t17-May-2025\nUpdates\t16-May-2025\nChange in Management\t16-May-2025\nChange in Directors/ Key Managerial Personnel/ Auditor/ Compliance Officer/ Share Transfer Agent\t1",
+                  "annotations": null
+                }
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "BHEL",
+                "stock performance",
+                "May 19, 2025",
+                "NSE"
+              ],
+              "result_requirement": "BHEL stock's performance on May 19, 2025, including price, change, and other relevant metrics from NSE India.",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "0.95",
+              "reasoning": "The provided webpage content contains the BHEL stock data as of May 19, 2025. Key information such as the current price, change, and other relevant details are available for summarization.",
+              "local_reasoning": "The tool output provides the necessary data points to answer the user's query about BHEL stock performance today.",
+              "last_tooluse_summary": "webpage_url_to_raw_text succeeded in fetching the content from NSE India.",
+              "solution_summary": "The price of BHEL is 244.45, change is -5.90 (-2.36%) as on 19-May-2025 16:00:00 IST.",
+              "route": "summarize",
+              "instruction_to_summarize": "Provide a concise summary of BHEL's stock performance on May 19, 2025, based on the provided data. Include the current price, the change in price (both absolute and percentage), and the time of the data. Format the summary in markdown."
+            },
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        },
+        {
+          "data": {
+            "index": "1",
+            "description": "Extract key stock performance indicators from the webpage content.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "ROOT"
+          },
+          "id": "1"
+        },
+        {
+          "data": {
+            "index": "2",
+            "description": "Summarize the extracted BHEL stock performance data.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "ROOT"
+          },
+          "id": "2"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "2"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "3c0d9c48-5a19-4253-b6fa-bf25a99604ed",
+    "original_query": "Query 1: How did BHEL stock performed today? check on https://www.nseindia.com/get-quotes/equity?symbol=BHEL",
+    "perception_snapshots": [
+      {
+        "run_id": "3c0d9c48-5a19-4253-b6fa-bf25a99604ed-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "BHEL",
+          "stock performance",
+          "today",
+          "NSE"
+        ],
+        "result_requirement": "BHEL stock performance data for today from NSE India.",
+        "original_goal_achieved": false,
+        "reasoning": "The user wants to know how BHEL stock performed today based on the provided URL from NSE India. This requires fetching and parsing the data from the webpage.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The query requires fetching and parsing data. It cannot be solved immediately.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.85",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "3c0d9c48-5a19-4253-b6fa-bf25a99604ed-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "BHEL",
+          "stock performance",
+          "May 19, 2025",
+          "NSE"
+        ],
+        "result_requirement": "BHEL stock's performance on May 19, 2025, including price, change, and other relevant metrics from NSE India.",
+        "original_goal_achieved": true,
+        "reasoning": "The provided webpage content contains the BHEL stock data as of May 19, 2025. Key information such as the current price, change, and other relevant details are available for summarization.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The tool output provides the necessary data points to answer the user's query about BHEL stock performance today.",
+        "last_tooluse_summary": "webpage_url_to_raw_text succeeded in fetching the content from NSE India.",
+        "solution_summary": "The price of BHEL is 244.45, change is -5.90 (-2.36%) as on 19-May-2025 16:00:00 IST.",
+        "confidence": "0.95",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "2dd5d0de-a337-4046-80c5-3b36efb59df2",
+        "input": {
+          "current_time": "2025-05-19T12:11:04.632137",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: How did BHEL stock performed today? check on https://www.nseindia.com/get-quotes/equity?symbol=BHEL",
+          "perception": {
+            "entities": [
+              "BHEL",
+              "stock performance",
+              "today",
+              "NSE"
+            ],
+            "result_requirement": "BHEL stock performance data for today from NSE India.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.85",
+            "reasoning": "The user wants to know how BHEL stock performed today based on the provided URL from NSE India. This requires fetching and parsing the data from the webpage.",
+            "local_reasoning": "The query requires fetching and parsing data. It cannot be solved immediately.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "BHEL",
+                  "stock performance",
+                  "today",
+                  "NSE"
+                ],
+                "result_requirement": "BHEL stock performance data for today from NSE India.",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.85",
+                "reasoning": "The user wants to know how BHEL stock performed today based on the provided URL from NSE India. This requires fetching and parsing the data from the webpage.",
+                "local_reasoning": "The query requires fetching and parsing data. It cannot be solved immediately.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "BHEL",
+                  "stock performance",
+                  "today",
+                  "NSE"
+                ],
+                "result_requirement": "BHEL stock performance data for today from NSE India.",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.85",
+                "reasoning": "The user wants to know how BHEL stock performed today based on the provided URL from NSE India. This requires fetching and parsing the data from the webpage.",
+                "local_reasoning": "The query requires fetching and parsing data. It cannot be solved immediately.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[]"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Fetch the content of the NSE India webpage for BHEL stock."
+              },
+              {
+                "id": "1",
+                "description": "Extract key stock performance indicators from the webpage content."
+              },
+              {
+                "id": "2",
+                "description": "Summarize the extracted BHEL stock performance data."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              },
+              {
+                "from": "1",
+                "to": "2",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=BHEL'\nraw_text = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0A\": raw_text}",
+            "CODE_0B": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=BHEL'\nsummary = webpage_url_to_llm_summary(url, \"Extract key stock performance indicators such as opening price, closing price, high, low, and volume.\")\nreturn {\"summary_0B\": summary}",
+            "CODE_0C": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=BHEL'\nraw_text = webpage_url_to_raw_text(url)\nif raw_text:\n    search_results = search_stored_documents_rag(raw_text)\n    return {\"search_results_0C\": search_results}\nelse:\n    return {\"search_results_0C\": \"\"}"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Fetch the content of the NSE India webpage for BHEL stock."
+            },
+            {
+              "id": "1",
+              "description": "Extract key stock performance indicators from the webpage content."
+            },
+            {
+              "id": "2",
+              "description": "Summarize the extracted BHEL stock performance data."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            },
+            {
+              "from": "1",
+              "to": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=BHEL'\nraw_text = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0A\": raw_text}",
+          "CODE_0B": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=BHEL'\nsummary = webpage_url_to_llm_summary(url, \"Extract key stock performance indicators such as opening price, closing price, high, low, and volume.\")\nreturn {\"summary_0B\": summary}",
+          "CODE_0C": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=BHEL'\nraw_text = webpage_url_to_raw_text(url)\nif raw_text:\n    search_results = search_stored_documents_rag(raw_text)\n    return {\"search_results_0C\": search_results}\nelse:\n    return {\"search_results_0C\": \"\"}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [
+      {
+        "run_id": "c0e81c7c-e0ca-4591-a6d5-49ea53dc55aa",
+        "step_id": "0",
+        "variant_used": "CODE_0A",
+        "code": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=BHEL'\nraw_text = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0A\": raw_text}",
+        "status": "success",
+        "result": {
+          "raw_text_0A": [
+            {
+              "type": "text",
+              "text": "[visible] Option Chain Market Turnover Listings IPO Circulars Daily Report Holidays Corporates Press Releases Contact Us \nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\n \n24,945.45\n-74.35 (-0.3%)\n\n19-May-2025 15:30\n\nStreaming\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\nFutures 29-May-2025\n25,003.50  12.00 (0.05%)\n\n19-May-2025 17:39\n\nUSDINR  Futures\n\n28-May-2025 | 85.4600\n\n19-May-2025 17:00\n\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\nFutures 29-May-2025\n25,003.50  12.00 (0.05%)\n\n19-May-2025 17:39\n\nUSDINR  Futures\n\n28-May-2025 | 85.4600\n\n19-May-2025 17:00\n\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\n01\n02\n03\nHOME\nABOUT\nMARKET DATA\nINVEST\nLIST\nTRADE\nREGULATION\nLEARN\nRESOURCES\nCOMPLAINTS\nRESEARCH\nBHEL\nBHARAT HEAVY ELECTRICALS LIMITED (INE257A01026)\nEQUITY\nDERIVATIVES\nSLB\nAs on 19-May-2025 16:00:00 IST (All price values in ) \n244.45\nquote value High\n-5.90 (-2.36 %)\nPREV. CLOSE\tOPEN\tHIGH\tLOW\tCLOSE*\tINDICATIVE CLOSE\tVWAP\tADJUSTED PRICE *\n250.35\t252.99\t253.89\t243.20\t-\t-\t247.65\t-\nTrade Information\nHistorical Data\nCogencis iInvest\nSeries :\nEQ\n| \nScrip PE is greater than 50 for prev. 4 trailing Qtrs. \nOrder book\nQty\tBid()\tAsk()\tQty\n-\t-\t-\t-\n-\t-\t-\t-\n-\t-\t-\t-\n-\t-\t-\t-\n-\t-\t-\t-\nBuy Quantity\n-\nSell Quantity\n-\nTrade Information\nTraded Volume (Lakhs)\t157.30\nTraded Value ( Cr.)\t389.57\nTotal Market Cap ( Cr.)\t85,119.04\nFree Float Market Cap ( Cr.)\t31,333.08\nImpact cost\t0.03\n% of Deliverable / Traded\nQuantity \t34.69 %\nApplicable Margin Rate \t21.77\nFace Value\t2\nPrice Information\n52 Week High (09-Jul-2024)\t335.35\n52 Week Low (03-Mar-2025)\t176.00\nUpper Band\t275.38\nLower Band\t225.31\nPrice Band (%)\tNo Band\nDaily Volatility\t2.80\nAnnualised Volatility\t53.49\nTick Size\t0.01\nSecurities Information\nStatus\tListed\nTrading Status\tActive\nDate of Listing\t11-Nov-2003\nAdjusted P/E\t183.57\nSymbol P/E\t183.57\nIndex \tNIFTY MIDCAP 50\nBasic Industry \tHeavy Electrical Equipment\nDashboard\nAnnouncements\nAnnouncements XBRL\nAnnual Reports\nBusiness Responsibility And Sustainability Report\nBoard Meetings\nCorporate Actions\nCompany Directory\nCorporate Governance\nCorporate Information\nDaily Buy Back\nEvent Calendar\nFinancial Results\nFinancial Results Comparision\nFurther Issues XBRL Fillings\nInsider Trading\nInsider Trading-Plan\nIntegrated Filing XBRL\nInvestor Complaints\nPromoter Encumbrance Details\nIssue Offer Documents / Issue Summary Documents\nRelated Party Transactions\nSAST Regulations\nStatement Of Deviation/Variation\nSystem Driven Disclosures - PIT\nSystem Driven Disclosures - SAST\nSecretarial Compliance\nShare Transfers\nShareholder's Meetings\nShareholding Patterns\nShareholding Patterns SDD\nStatement Of Impact Of Audit Qualification\nVoting Results\nAnnouncements\nSubject\n\t\nDate\nCopy of Newspaper Publication\t17-May-2025\nUpdates\t16-May-2025\nChange in Management\t16-May-2025\nChange in Directors/ Key Managerial Personnel/ Auditor/ Compliance Officer/ Share Transfer Agent\t1",
+              "annotations": null
+            }
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 17:41:10",
+        "total_time": "30.53",
+        "return_to": ""
+      }
+    ],
+    "summarizer_snapshots": [
+      {
+        "run_id": "d3a87739-bc93-4213-8113-ef225ba56a69",
+        "input": {
+          "original_query": "Query 1: How did BHEL stock performed today? check on https://www.nseindia.com/get-quotes/equity?symbol=BHEL",
+          "globals_schema": {
+            "memory": [],
+            "raw_text_0A": [
+              {
+                "type": "text",
+                "text": "[visible] Option Chain Market Turnover Listings IPO Circulars Daily Report Holidays Corporates Press Releases Contact Us \nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\n \n24,945.45\n-74.35 (-0.3%)\n\n19-May-2025 15:30\n\nStreaming\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\nFutures 29-May-2025\n25,003.50  12.00 (0.05%)\n\n19-May-2025 17:39\n\nUSDINR  Futures\n\n28-May-2025 | 85.4600\n\n19-May-2025 17:00\n\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\nFutures 29-May-2025\n25,003.50  12.00 (0.05%)\n\n19-May-2025 17:39\n\nUSDINR  Futures\n\n28-May-2025 | 85.4600\n\n19-May-2025 17:00\n\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\n01\n02\n03\nHOME\nABOUT\nMARKET DATA\nINVEST\nLIST\nTRADE\nREGULATION\nLEARN\nRESOURCES\nCOMPLAINTS\nRESEARCH\nBHEL\nBHARAT HEAVY ELECTRICALS LIMITED (INE257A01026)\nEQUITY\nDERIVATIVES\nSLB\nAs on 19-May-2025 16:00:00 IST (All price values in ) \n244.45\nquote value High\n-5.90 (-2.36 %)\nPREV. CLOSE\tOPEN\tHIGH\tLOW\tCLOSE*\tINDICATIVE CLOSE\tVWAP\tADJUSTED PRICE *\n250.35\t252.99\t253.89\t243.20\t-\t-\t247.65\t-\nTrade Information\nHistorical Data\nCogencis iInvest\nSeries :\nEQ\n| \nScrip PE is greater than 50 for prev. 4 trailing Qtrs. \nOrder book\nQty\tBid()\tAsk()\tQty\n-\t-\t-\t-\n-\t-\t-\t-\n-\t-\t-\t-\n-\t-\t-\t-\n-\t-\t-\t-\nBuy Quantity\n-\nSell Quantity\n-\nTrade Information\nTraded Volume (Lakhs)\t157.30\nTraded Value ( Cr.)\t389.57\nTotal Market Cap ( Cr.)\t85,119.04\nFree Float Market Cap ( Cr.)\t31,333.08\nImpact cost\t0.03\n% of Deliverable / Traded\nQuantity \t34.69 %\nApplicable Margin Rate \t21.77\nFace Value\t2\nPrice Information\n52 Week High (09-Jul-2024)\t335.35\n52 Week Low (03-Mar-2025)\t176.00\nUpper Band\t275.38\nLower Band\t225.31\nPrice Band (%)\tNo Band\nDaily Volatility\t2.80\nAnnualised Volatility\t53.49\nTick Size\t0.01\nSecurities Information\nStatus\tListed\nTrading Status\tActive\nDate of Listing\t11-Nov-2003\nAdjusted P/E\t183.57\nSymbol P/E\t183.57\nIndex \tNIFTY MIDCAP 50\nBasic Industry \tHeavy Electrical Equipment\nDashboard\nAnnouncements\nAnnouncements XBRL\nAnnual Reports\nBusiness Responsibility And Sustainability Report\nBoard Meetings\nCorporate Actions\nCompany Directory\nCorporate Governance\nCorporate Information\nDaily Buy Back\nEvent Calendar\nFinancial Results\nFinancial Results Comparision\nFurther Issues XBRL Fillings\nInsider Trading\nInsider Trading-Plan\nIntegrated Filing XBRL\nInvestor Complaints\nPromoter Encumbrance Details\nIssue Offer Documents / Issue Summary Documents\nRelated Party Transactions\nSAST Regulations\nStatement Of Deviation/Variation\nSystem Driven Disclosures - PIT\nSystem Driven Disclosures - SAST\nSecretarial Compliance\nShare Transfers\nShareholder's Meetings\nShareholding Patterns\nShareholding Patterns SDD\nStatement Of Impact Of Audit Qualification\nVoting Results\nAnnouncements\nSubject\n\t\nDate\nCopy of Newspaper Publication\t17-May-2025\nUpdates\t16-May-2025\nChange in Management\t16-May-2025\nChange in Directors/ Key Managerial Personnel/ Auditor/ Compliance Officer/ Share Transfer Agent\t1",
+                "annotations": null
+              }
+            ]
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "BHEL",
+                      "stock performance",
+                      "today",
+                      "NSE"
+                    ],
+                    "result_requirement": "BHEL stock performance data for today from NSE India.",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.85",
+                    "reasoning": "The user wants to know how BHEL stock performed today based on the provided URL from NSE India. This requires fetching and parsing the data from the webpage.",
+                    "local_reasoning": "The query requires fetching and parsing data. It cannot be solved immediately.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "0",
+                  "description": "Fetch the content of the NSE India webpage for BHEL stock.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "raw_text_0A": [
+                      {
+                        "type": "text",
+                        "text": "[visible] Option Chain Market Turnover Listings IPO Circulars Daily Report Holidays Corporates Press Releases Contact Us \nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\n \n24,945.45\n-74.35 (-0.3%)\n\n19-May-2025 15:30\n\nStreaming\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\nFutures 29-May-2025\n25,003.50  12.00 (0.05%)\n\n19-May-2025 17:39\n\nUSDINR  Futures\n\n28-May-2025 | 85.4600\n\n19-May-2025 17:00\n\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\nFutures 29-May-2025\n25,003.50  12.00 (0.05%)\n\n19-May-2025 17:39\n\nUSDINR  Futures\n\n28-May-2025 | 85.4600\n\n19-May-2025 17:00\n\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\n01\n02\n03\nHOME\nABOUT\nMARKET DATA\nINVEST\nLIST\nTRADE\nREGULATION\nLEARN\nRESOURCES\nCOMPLAINTS\nRESEARCH\nBHEL\nBHARAT HEAVY ELECTRICALS LIMITED (INE257A01026)\nEQUITY\nDERIVATIVES\nSLB\nAs on 19-May-2025 16:00:00 IST (All price values in ) \n244.45\nquote value High\n-5.90 (-2.36 %)\nPREV. CLOSE\tOPEN\tHIGH\tLOW\tCLOSE*\tINDICATIVE CLOSE\tVWAP\tADJUSTED PRICE *\n250.35\t252.99\t253.89\t243.20\t-\t-\t247.65\t-\nTrade Information\nHistorical Data\nCogencis iInvest\nSeries :\nEQ\n| \nScrip PE is greater than 50 for prev. 4 trailing Qtrs. \nOrder book\nQty\tBid()\tAsk()\tQty\n-\t-\t-\t-\n-\t-\t-\t-\n-\t-\t-\t-\n-\t-\t-\t-\n-\t-\t-\t-\nBuy Quantity\n-\nSell Quantity\n-\nTrade Information\nTraded Volume (Lakhs)\t157.30\nTraded Value ( Cr.)\t389.57\nTotal Market Cap ( Cr.)\t85,119.04\nFree Float Market Cap ( Cr.)\t31,333.08\nImpact cost\t0.03\n% of Deliverable / Traded\nQuantity \t34.69 %\nApplicable Margin Rate \t21.77\nFace Value\t2\nPrice Information\n52 Week High (09-Jul-2024)\t335.35\n52 Week Low (03-Mar-2025)\t176.00\nUpper Band\t275.38\nLower Band\t225.31\nPrice Band (%)\tNo Band\nDaily Volatility\t2.80\nAnnualised Volatility\t53.49\nTick Size\t0.01\nSecurities Information\nStatus\tListed\nTrading Status\tActive\nDate of Listing\t11-Nov-2003\nAdjusted P/E\t183.57\nSymbol P/E\t183.57\nIndex \tNIFTY MIDCAP 50\nBasic Industry \tHeavy Electrical Equipment\nDashboard\nAnnouncements\nAnnouncements XBRL\nAnnual Reports\nBusiness Responsibility And Sustainability Report\nBoard Meetings\nCorporate Actions\nCompany Directory\nCorporate Governance\nCorporate Information\nDaily Buy Back\nEvent Calendar\nFinancial Results\nFinancial Results Comparision\nFurther Issues XBRL Fillings\nInsider Trading\nInsider Trading-Plan\nIntegrated Filing XBRL\nInvestor Complaints\nPromoter Encumbrance Details\nIssue Offer Documents / Issue Summary Documents\nRelated Party Transactions\nSAST Regulations\nStatement Of Deviation/Variation\nSystem Driven Disclosures - PIT\nSystem Driven Disclosures - SAST\nSecretarial Compliance\nShare Transfers\nShareholder's Meetings\nShareholding Patterns\nShareholding Patterns SDD\nStatement Of Impact Of Audit Qualification\nVoting Results\nAnnouncements\nSubject\n\t\nDate\nCopy of Newspaper Publication\t17-May-2025\nUpdates\t16-May-2025\nChange in Management\t16-May-2025\nChange in Directors/ Key Managerial Personnel/ Auditor/ Compliance Officer/ Share Transfer Agent\t1",
+                        "annotations": null
+                      }
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "BHEL",
+                      "stock performance",
+                      "May 19, 2025",
+                      "NSE"
+                    ],
+                    "result_requirement": "BHEL stock's performance on May 19, 2025, including price, change, and other relevant metrics from NSE India.",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "0.95",
+                    "reasoning": "The provided webpage content contains the BHEL stock data as of May 19, 2025. Key information such as the current price, change, and other relevant details are available for summarization.",
+                    "local_reasoning": "The tool output provides the necessary data points to answer the user's query about BHEL stock performance today.",
+                    "last_tooluse_summary": "webpage_url_to_raw_text succeeded in fetching the content from NSE India.",
+                    "solution_summary": "The price of BHEL is 244.45, change is -5.90 (-2.36%) as on 19-May-2025 16:00:00 IST.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Provide a concise summary of BHEL's stock performance on May 19, 2025, based on the provided data. Include the current price, the change in price (both absolute and percentage), and the time of the data. Format the summary in markdown."
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "0"
+              },
+              {
+                "data": {
+                  "index": "1",
+                  "description": "Extract key stock performance indicators from the webpage content.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "ROOT"
+                },
+                "id": "1"
+              },
+              {
+                "data": {
+                  "index": "2",
+                  "description": "Summarize the extracted BHEL stock performance data.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "ROOT"
+                },
+                "id": "2"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "0"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "2"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "BHEL",
+              "stock performance",
+              "May 19, 2025",
+              "NSE"
+            ],
+            "result_requirement": "BHEL stock's performance on May 19, 2025, including price, change, and other relevant metrics from NSE India.",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.95",
+            "reasoning": "The provided webpage content contains the BHEL stock data as of May 19, 2025. Key information such as the current price, change, and other relevant details are available for summarization.",
+            "local_reasoning": "The tool output provides the necessary data points to answer the user's query about BHEL stock performance today.",
+            "last_tooluse_summary": "webpage_url_to_raw_text succeeded in fetching the content from NSE India.",
+            "solution_summary": "The price of BHEL is 244.45, change is -5.90 (-2.36%) as on 19-May-2025 16:00:00 IST.",
+            "route": "summarize",
+            "instruction_to_summarize": "Provide a concise summary of BHEL's stock performance on May 19, 2025, based on the provided data. Include the current price, the change in price (both absolute and percentage), and the time of the data. Format the summary in markdown."
+          }
+        },
+        "summary_output": "BHEL's stock performance on May 19, 2025, was as follows:\n\n*   **Price:** 244.45\n*   **Change:** -5.90 (-2.36 %)\n*   **Time:** As on 19-May-2025 16:00:00 IST",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-19T12:10:07Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "BHEL's stock performance on May 19, 2025, was as follows:\n\n*   **Price:** 244.45\n*   **Change:** -5.90 (-2.36 %)\n*   **Time:** As on 19-May-2025 16:00:00 IST",
+    "status": "success",
+    "completed_at": "2025-05-19T12:11:51.745227"
+  },
+  "status": "success",
+  "final_step_id": "2",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-19T12:11:51.748681",
+  "original_query": "Query 1: How did BHEL stock performed today? check on https://www.nseindia.com/get-quotes/equity?symbol=BHEL",
+  "final_summary": "BHEL's stock performance on May 19, 2025, was as follows:\n\n*   **Price:** 244.45\n*   **Change:** -5.90 (-2.36 %)\n*   **Time:** As on 19-May-2025 16:00:00 IST"
+}

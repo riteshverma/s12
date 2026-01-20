@@ -1,0 +1,121 @@
+{
+  "session_id": "70bae22a-ec0e-440a-a083-8f83cfebcb5d",
+  "original_query": "Query 1: What does www.theschoolofai.in do?",
+  "globals": {
+    "raw_text": [
+      {
+        "type": "text",
+        "text": "[trafilatura] A disciplined and structured approach to learning and implementing the fundamentals of AIML.\nthrough bleeding edge concepts, and an amazing peer group to learn with.\nThrough ERA, EMLO and EPAi, TSAI has trained more than 7000 students! And now we have added EAG, a course dedicated to Agents, to this list!\nThis comprehensive 20-session course equips students to build advanced Agentic AI systems, capable of autonomous decision-making, task orchestration, and seamless interaction within complex web environments. Unlike traditional AI programs, this curriculum focuses on designing browser-based agents that leverage the latest advancements in LLMs, retrieval-augmented systems, and multi-agent collaboration, preparing students to lead the development of next-generation AI solutions.\nThrough hands-on experience with cutting-edge tools like SmolAgents, LangChain, OpenAI Evals, Selenium/Playwright, and retrieval-augmented frameworks (RAGs), students rapidly progress from foundational concepts to real-world applications. The course emphasizes creating end-to-end systems, where AI agents autonomously browse, retrieve, and reason across diverse web-based contexts, all while ensuring state management, error correction, and optimal performance.\nFrom advanced prompt engineering and knowledge graphs to vision-based interaction and multi-modal AI systems, the curriculum is aligned with the latest trends in the industry. The capstone project challenges students to design and deploy a fully autonomous browser assistant, demonstrating their expertise in creating scalable and intelligent Agentic AI systems. Key features include: Agentic Intelligence Focus, Modern Automation Toolsets, and Real-World Relevance!\nThe EAG course offers a revolutionary approach to learning AI, enabling students to design agents that mirror human-like intelligence in interacting with the web, bridging the gap between theory and application.\nEAG V2 will start in August 2025.\nEAG V1/V2\n| Lecture Title |\n|---|\n| Session 1: Foundations of the Transformer Architecture - A deep dive into the self-attention mechanism and why Transformers revolutionized NLP. |\n| Session 2: Modern Language Model Internals - Examines pre-training objectives, parameter scaling, and advanced fine-tuning for LLMs. |\n| Session 3: Introduction to Agentic AI - Overviews AI agents that plan, reason, and take actions beyond simple text generation. |\n| Session 4: Planning and Reasoning with Language Models - Covers chain-of-thought prompting, multi-step reasoning, and structured thinking in LLMs. |\n| Session 5: Agent Architecture  Cognitive Layers - Explores layered designs for perception, memory, and action to build robust AI agents. |\n| Session 6: Memory, Context, and State Management - Focuses on methods (vector stores, retrieval-augmented generation) for handling extended context. |\n| Session 7: Tool Use and External APIs - Shows how agents can call external tools or APIs (including Python scripts) to augment capabilities",
+        "annotations": null
+      }
+    ]
+  },
+  "memory": [
+    {
+      "query": "Extract raw text from www.theschoolofai.in",
+      "result_requirement": "Tool failed",
+      "solution_summary": "Error executing tool webpage_url_to_raw_text: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>"
+    }
+  ],
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "data": {
+          "index": "ROOT",
+          "description": "initial query",
+          "type": "ROOT",
+          "status": "completed",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "www.theschoolofai.in",
+              "The School of AI"
+            ],
+            "result_requirement": "Description of what the website www.theschoolofai.in does.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.6",
+            "reasoning": "The query asks for a description of a website.  The memory contains summaries of the same website, but they are empty strings. Therefore, the query is not solvable from memory and requires further steps to extract and summarize the website content.",
+            "local_reasoning": "The root step is completed, but it only represents the initial query and doesn't provide any actual information. The memory contains previous attempts to summarize the same website, which were unsuccessful.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "from_step": null
+        },
+        "id": "ROOT"
+      },
+      {
+        "data": {
+          "index": "0",
+          "description": "Extract raw text from www.theschoolofai.in",
+          "type": "CODE",
+          "status": "completed",
+          "result": {
+            "raw_text": [
+              {
+                "type": "text",
+                "text": "[trafilatura] A disciplined and structured approach to learning and implementing the fundamentals of AIML.\nthrough bleeding edge concepts, and an amazing peer group to learn with.\nThrough ERA, EMLO and EPAi, TSAI has trained more than 7000 students! And now we have added EAG, a course dedicated to Agents, to this list!\nThis comprehensive 20-session course equips students to build advanced Agentic AI systems, capable of autonomous decision-making, task orchestration, and seamless interaction within complex web environments. Unlike traditional AI programs, this curriculum focuses on designing browser-based agents that leverage the latest advancements in LLMs, retrieval-augmented systems, and multi-agent collaboration, preparing students to lead the development of next-generation AI solutions.\nThrough hands-on experience with cutting-edge tools like SmolAgents, LangChain, OpenAI Evals, Selenium/Playwright, and retrieval-augmented frameworks (RAGs), students rapidly progress from foundational concepts to real-world applications. The course emphasizes creating end-to-end systems, where AI agents autonomously browse, retrieve, and reason across diverse web-based contexts, all while ensuring state management, error correction, and optimal performance.\nFrom advanced prompt engineering and knowledge graphs to vision-based interaction and multi-modal AI systems, the curriculum is aligned with the latest trends in the industry. The capstone project challenges students to design and deploy a fully autonomous browser assistant, demonstrating their expertise in creating scalable and intelligent Agentic AI systems. Key features include: Agentic Intelligence Focus, Modern Automation Toolsets, and Real-World Relevance!\nThe EAG course offers a revolutionary approach to learning AI, enabling students to design agents that mirror human-like intelligence in interacting with the web, bridging the gap between theory and application.\nEAG V2 will start in August 2025.\nEAG V1/V2\n| Lecture Title |\n|---|\n| Session 1: Foundations of the Transformer Architecture - A deep dive into the self-attention mechanism and why Transformers revolutionized NLP. |\n| Session 2: Modern Language Model Internals - Examines pre-training objectives, parameter scaling, and advanced fine-tuning for LLMs. |\n| Session 3: Introduction to Agentic AI - Overviews AI agents that plan, reason, and take actions beyond simple text generation. |\n| Session 4: Planning and Reasoning with Language Models - Covers chain-of-thought prompting, multi-step reasoning, and structured thinking in LLMs. |\n| Session 5: Agent Architecture  Cognitive Layers - Explores layered designs for perception, memory, and action to build robust AI agents. |\n| Session 6: Memory, Context, and State Management - Focuses on methods (vector stores, retrieval-augmented generation) for handling extended context. |\n| Session 7: Tool Use and External APIs - Shows how agents can call external tools or APIs (including Python scripts) to augment capabilities",
+                "annotations": null
+              }
+            ]
+          },
+          "conclusion": null,
+          "error": "Error executing tool webpage_url_to_raw_text: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>",
+          "perception": {
+            "entities": [
+              "www.theschoolofai.in",
+              "The School of AI",
+              "AIML",
+              "Agentic AI systems",
+              "EAG course"
+            ],
+            "result_requirement": "Description of what the website www.theschoolofai.in does.",
+            "original_goal_achieved": true,
+            "local_goal_achieved": false,
+            "confidence": "0.8",
+            "reasoning": "The tool failed to extract raw text correctly due to encoding issues. However, `globals_schema` contains the extracted text from the website, which describes the School of AI as an institution providing training in AIML and Agentic AI systems, especially highlighting the EAG course. Since we have the text available, we can proceed to summarize.",
+            "local_reasoning": "The tool failed, but `globals_schema` provides the text needed for summarization.",
+            "last_tooluse_summary": "webpage_url_to_raw_text failed due to encoding error.",
+            "solution_summary": "Not ready yet.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize the content of www.theschoolofai.in based on the text available in `globals_schema['raw_text']`. Focus on describing what the School of AI does, mentioning its focus on AIML, Agentic AI systems, and the EAG course. Return the summary in markdown format."
+          },
+          "from_step": "ROOT"
+        },
+        "id": "0"
+      },
+      {
+        "data": {
+          "index": "1",
+          "description": "Summarize the extracted text",
+          "type": "CODE",
+          "status": "Skipped",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "ROOT"
+        },
+        "id": "1"
+      }
+    ],
+    "links": [
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "0"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "1"
+      }
+    ]
+  }
+}

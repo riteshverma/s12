@@ -1,0 +1,104 @@
+{
+  "session_id": "27791db6-1fcf-4d21-b8f3-c4279a751d66",
+  "original_query": "Query 1: Did Azerbaijan supported India or Pakistan in recent war?",
+  "globals": {
+    "search_results": "Found 5 search results:\n\n1. Here's why Azerbaijan was cheering for Pakistan during clashes with India\n   URL: https://thecurrent.pk/heres-why-azerbaijan-was-cheering-for-pakistan-during-clashes-with-india\n   Summary: Azerbaijanwas among the countries that announced fullsupportforPakistanduring therecentescalation in tensions betweenPakistanandIndia, which brought the region to the brink of war.Azerbaijan'sAmbassador toPakistan, Khazar Farhadov, conveyed his government'ssupportand condemned Indian aggression at the time.\n\n2. India-Pakistan war: There are over 50 Muslim countries, but only Turkey ...\n   URL: https://www.india.com/news/world/india-pakistan-war-there-are-over-50-muslim-countries-but-only-turkey-and-azerbaijan-support-pakistan-heres-why-7810188/\n   Summary: Following Operation Sindoor,Pakistanhas accusedIndiaof violating Article 51 of the United Nations Charter. Islamabad had hoped that it would receivesupportfrom Muslim countries, but out of ...\n\n3. Amid Turkey 'brotherhood,' Pak PM praises 'Azerbaijan's resolute ...\n   URL: https://www.financialexpress.com/world-news/amid-turkey-brotherhood-pakistani-pm-praises-azerbaijans-resolute-support/3846662/\n   Summary: Boycott calls against Turkey andAzerbaijancontinue to mount inIndiadue to their pro-Pakistanstance in the ongoing South Asianconflictbetween two nuclear-powered neighbours. Just this week ...\n\n4. Explained: India's Trade Ties With Turkey And Azerbaijan Amid Pak Conflict\n   URL: https://www.ndtv.com/world-news/india-pakistan-tensions-explained-indias-trade-ties-with-turkey-and-azerbaijan-amid-pakistan-conflict-8410441\n   Summary: Explained:India'sTrade Ties With Turkey AndAzerbaijanAmid PakConflictFollowing theirsupporttoPakistan, calls for boycotting Turkish goods and tourism have surfaced across the country ...\n\n5. Azerbaijan backs Pakistan amid tensions with India - The Express Tribune\n   URL: https://tribune.com.pk/story/2544718/azerbaijan-expresses-full-support-for-pakistan\n   Summary: Listen to article. Amid escalating tensions betweenPakistanandIndia,Azerbaijanhas announced fullsupportforPakistanand expressed strong solidarity with its government and people.\n"
+  },
+  "memory": [],
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "data": {
+          "index": "ROOT",
+          "description": "initial query",
+          "type": "ROOT",
+          "status": "completed",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "Azerbaijan",
+              "India",
+              "Pakistan",
+              "recent war"
+            ],
+            "result_requirement": "Determine if Azerbaijan supported India or Pakistan in a recent war.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": true,
+            "confidence": "0.6",
+            "reasoning": "The query requires external knowledge about international relations and recent conflicts.  The memory excerpts discuss India and Pakistan, but not Azerbaijan's involvement. The globals schema is empty. Therefore, a tool-based decision is needed to find the answer.",
+            "local_reasoning": "The query is well-defined but requires external information to answer.",
+            "last_tooluse_summary": "Not applicable",
+            "summarizer_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "from_step": null
+        },
+        "id": "ROOT"
+      },
+      {
+        "data": {
+          "index": "0",
+          "description": "Search for information on Azerbaijan's support for India or Pakistan in recent conflicts.",
+          "type": "CODE",
+          "status": "completed",
+          "result": {
+            "search_results": "Found 5 search results:\n\n1. Here's why Azerbaijan was cheering for Pakistan during clashes with India\n   URL: https://thecurrent.pk/heres-why-azerbaijan-was-cheering-for-pakistan-during-clashes-with-india\n   Summary: Azerbaijanwas among the countries that announced fullsupportforPakistanduring therecentescalation in tensions betweenPakistanandIndia, which brought the region to the brink of war.Azerbaijan'sAmbassador toPakistan, Khazar Farhadov, conveyed his government'ssupportand condemned Indian aggression at the time.\n\n2. India-Pakistan war: There are over 50 Muslim countries, but only Turkey ...\n   URL: https://www.india.com/news/world/india-pakistan-war-there-are-over-50-muslim-countries-but-only-turkey-and-azerbaijan-support-pakistan-heres-why-7810188/\n   Summary: Following Operation Sindoor,Pakistanhas accusedIndiaof violating Article 51 of the United Nations Charter. Islamabad had hoped that it would receivesupportfrom Muslim countries, but out of ...\n\n3. Amid Turkey 'brotherhood,' Pak PM praises 'Azerbaijan's resolute ...\n   URL: https://www.financialexpress.com/world-news/amid-turkey-brotherhood-pakistani-pm-praises-azerbaijans-resolute-support/3846662/\n   Summary: Boycott calls against Turkey andAzerbaijancontinue to mount inIndiadue to their pro-Pakistanstance in the ongoing South Asianconflictbetween two nuclear-powered neighbours. Just this week ...\n\n4. Explained: India's Trade Ties With Turkey And Azerbaijan Amid Pak Conflict\n   URL: https://www.ndtv.com/world-news/india-pakistan-tensions-explained-indias-trade-ties-with-turkey-and-azerbaijan-amid-pakistan-conflict-8410441\n   Summary: Explained:India'sTrade Ties With Turkey AndAzerbaijanAmid PakConflictFollowing theirsupporttoPakistan, calls for boycotting Turkish goods and tourism have surfaced across the country ...\n\n5. Azerbaijan backs Pakistan amid tensions with India - The Express Tribune\n   URL: https://tribune.com.pk/story/2544718/azerbaijan-expresses-full-support-for-pakistan\n   Summary: Listen to article. Amid escalating tensions betweenPakistanandIndia,Azerbaijanhas announced fullsupportforPakistanand expressed strong solidarity with its government and people.\n"
+          },
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "Azerbaijan",
+              "India",
+              "Pakistan",
+              "recent war"
+            ],
+            "result_requirement": "Determine if Azerbaijan supported India or Pakistan in a recent war.",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.95",
+            "reasoning": "Search results clearly indicate that Azerbaijan supported Pakistan during recent tensions with India.",
+            "local_reasoning": "The search results provide direct evidence of Azerbaijan's support for Pakistan.",
+            "last_tooluse_summary": "Search tool succeeded and provided relevant information.",
+            "summarizer_summary": "Azerbaijan supported Pakistan during recent tensions with India.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize the search results to confirm that Azerbaijan supported Pakistan during recent tensions with India.  Provide the URL of the most relevant article (the first one) in markdown format."
+          },
+          "from_step": "ROOT"
+        },
+        "id": "0"
+      },
+      {
+        "data": {
+          "index": "1",
+          "description": "Summarize the search results to determine Azerbaijan's stance.",
+          "type": "CODE",
+          "status": "pending",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "ROOT"
+        },
+        "id": "1"
+      }
+    ],
+    "links": [
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "0"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "1"
+      }
+    ]
+  }
+}

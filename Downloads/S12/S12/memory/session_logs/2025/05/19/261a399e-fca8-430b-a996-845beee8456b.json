@@ -1,0 +1,553 @@
+{
+  "context": {
+    "session_id": "261a399e-fca8-430b-a996-845beee8456b",
+    "original_query": "Query 1: What happened to the stock on Reliance on https://www.nseindia.com/get-quotes/equity?symbol=RELIANCE ?",
+    "globals": {
+      "memory": [],
+      "raw_text_0A": [
+        {
+          "type": "text",
+          "text": "[visible] Reliance Industries Limited Share Price Today, Stock Price, Live NSE News, Quotes, Tips  NSE India\nOption Chain\nMarket Turnover\nListings\nIPO\nCirculars\nDaily Report\nHolidays\nCorporates\nPress Releases\nContact Us\nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\nFont Size\nA+\n|\nReset\n|\nA-\nContrast\nHigh Contrast\n|\nReset\n24,945.45\n-74.35\n(\n-0.3\n%)\n19-May-2025 15:30\nStreaming\nStreaming\non\noff\nStreaming Speed\nSlow\nMedium\nFast\n(\n%)\nIndicative close\nFutures 29-May-2025\n25,009.00\n17.50\n(\n0.07\n%)\n19-May-2025 16:45\nUSDINR\nFutures\n28-May-2025\n|\n85.4700\n19-May-2025 16:45\nMarket Capitalization\nLac Crs 441.37\n|\nTn $ 5.16\n19-May-2025\nHome\nAbout\nAbout NSE\nAbout Us\nStructure & Key Personnel\nInvestor Relations\nAwards and Recognitions\nRegulations\nEvent Gallery\nMedia\nHolidays\nCareers\nContact Us\nNSE Group companies\nNSE Academy\nNSE Clearing\nNSE Data & Analytics\nNSE Foundation\nNSE Indices\nNSE International Exchange\nNSE International Clearing\nNSE Investments\nView all\nProducts & Services\nEquity Market\nIndices\nEmerge Platform\nMutual Funds\nEquity Derivatives\nCurrency Derivatives\nCommodity Derivatives\nInterest Rate Derivatives\nFixed Income and Debt\nPublic Issues\nAbout Us\nFind everything about the leading stock exchange of India\nOur Group\nCheck NSE's group of the companies\nOur Products\nBrowse a comprehensive and innovative product and service offerings by NSE\nMarket Data\nEquity\nNew Listings\nPre-Open Market\nEquity & SME Market\nIndices\nGainers/Losers\nMost Active Equities\nPrice Band Hitters\n52 Week High/Low\nLarge Deals\nAdvances / Declines\nSecurities Lending & Borrowing\nCall auction for Illiquid Securities\nSecurities available for Trading\nPrice Bands & Surveillance Actions\nPosition/Investment Limits\nLegend of series\nDaily Reports\nHistorical Reports\nDerivatives\nDerivatives Market\nOption Chain\nMost Active Contracts\nMost Active Underlying\nChange in Open Interest\nLiquidity Enhancement Scheme\nContracts available for Trading\nDaily Reports\nHistorical Reports\nDebt & Fixed Income\nTraded on CM\nCBRICS\nRFQ\nNegotiated Trades\nTrade Repository\nTri-Party Repo\nDaily Reports\nHistorical Reports\nPrimary Markets\nIPO\nOffer For Sale\nNCB G-SEC\nInstitutional Placement Program (IPP)\nTender Offer\nRights\nINVITS\nREITS\nReverse Book Building\nMarket Snapshot\nLive Analysis of top gainers/losers, most active securities/contracts, price band hitters, overview of the market.\nOption Chain\nView Option chain for the exchange\nHistorical Reports\nView Historical Reports of securities/contracts traded on the Exchange.\nInvest\nInvestor Education\nInvesting in Securities Market\nProduct Segment\nCharges and Taxes\nInvestment limits for FIIs\nInvestor Awareness\nInvestor Charter\nProtection from Fraud\nInvestor Awareness Programs\nRegulatory Action\nRegistered Investors\nForeign Portfolio Investors (FPI)\nResources & Tools\nLocate your Stock Broker\nCompany Directory\nExit Option for shareholders\nFeedback\nInvestor's Home\nInvestor education on how to invest saf",
+          "annotations": null
+        }
+      ]
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: What happened to the stock on Reliance on https://www.nseindia.com/get-quotes/equity?symbol=RELIANCE ?",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "As of May 19, 2025, at 15:30, the stock price for Reliance Industries Limited on NSE is 24,945.45. The change is -74.35, which represents a -0.3% change.",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Reliance",
+                "stock price",
+                "NSE"
+              ],
+              "result_requirement": "Information about Reliance stock from NSE website",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.9",
+              "reasoning": "The query requires fetching and parsing data from a specific URL. The goal is not achievable without tool use.",
+              "local_reasoning": "The query cannot be satisfied from memory or globals, requiring a tool to access the provided URL.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Fetch raw text from the provided NSE India URL for Reliance stock.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "raw_text_0A": [
+                {
+                  "type": "text",
+                  "text": "[visible] Reliance Industries Limited Share Price Today, Stock Price, Live NSE News, Quotes, Tips  NSE India\nOption Chain\nMarket Turnover\nListings\nIPO\nCirculars\nDaily Report\nHolidays\nCorporates\nPress Releases\nContact Us\nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\nFont Size\nA+\n|\nReset\n|\nA-\nContrast\nHigh Contrast\n|\nReset\n24,945.45\n-74.35\n(\n-0.3\n%)\n19-May-2025 15:30\nStreaming\nStreaming\non\noff\nStreaming Speed\nSlow\nMedium\nFast\n(\n%)\nIndicative close\nFutures 29-May-2025\n25,009.00\n17.50\n(\n0.07\n%)\n19-May-2025 16:45\nUSDINR\nFutures\n28-May-2025\n|\n85.4700\n19-May-2025 16:45\nMarket Capitalization\nLac Crs 441.37\n|\nTn $ 5.16\n19-May-2025\nHome\nAbout\nAbout NSE\nAbout Us\nStructure & Key Personnel\nInvestor Relations\nAwards and Recognitions\nRegulations\nEvent Gallery\nMedia\nHolidays\nCareers\nContact Us\nNSE Group companies\nNSE Academy\nNSE Clearing\nNSE Data & Analytics\nNSE Foundation\nNSE Indices\nNSE International Exchange\nNSE International Clearing\nNSE Investments\nView all\nProducts & Services\nEquity Market\nIndices\nEmerge Platform\nMutual Funds\nEquity Derivatives\nCurrency Derivatives\nCommodity Derivatives\nInterest Rate Derivatives\nFixed Income and Debt\nPublic Issues\nAbout Us\nFind everything about the leading stock exchange of India\nOur Group\nCheck NSE's group of the companies\nOur Products\nBrowse a comprehensive and innovative product and service offerings by NSE\nMarket Data\nEquity\nNew Listings\nPre-Open Market\nEquity & SME Market\nIndices\nGainers/Losers\nMost Active Equities\nPrice Band Hitters\n52 Week High/Low\nLarge Deals\nAdvances / Declines\nSecurities Lending & Borrowing\nCall auction for Illiquid Securities\nSecurities available for Trading\nPrice Bands & Surveillance Actions\nPosition/Investment Limits\nLegend of series\nDaily Reports\nHistorical Reports\nDerivatives\nDerivatives Market\nOption Chain\nMost Active Contracts\nMost Active Underlying\nChange in Open Interest\nLiquidity Enhancement Scheme\nContracts available for Trading\nDaily Reports\nHistorical Reports\nDebt & Fixed Income\nTraded on CM\nCBRICS\nRFQ\nNegotiated Trades\nTrade Repository\nTri-Party Repo\nDaily Reports\nHistorical Reports\nPrimary Markets\nIPO\nOffer For Sale\nNCB G-SEC\nInstitutional Placement Program (IPP)\nTender Offer\nRights\nINVITS\nREITS\nReverse Book Building\nMarket Snapshot\nLive Analysis of top gainers/losers, most active securities/contracts, price band hitters, overview of the market.\nOption Chain\nView Option chain for the exchange\nHistorical Reports\nView Historical Reports of securities/contracts traded on the Exchange.\nInvest\nInvestor Education\nInvesting in Securities Market\nProduct Segment\nCharges and Taxes\nInvestment limits for FIIs\nInvestor Awareness\nInvestor Charter\nProtection from Fraud\nInvestor Awareness Programs\nRegulatory Action\nRegistered Investors\nForeign Portfolio Investors (FPI)\nResources & Tools\nLocate your Stock Broker\nCompany Directory\nExit Option for shareholders\nFeedback\nInvestor's Home\nInvestor education on how to invest saf",
+                  "annotations": null
+                }
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Reliance",
+                "stock price",
+                "NSE"
+              ],
+              "result_requirement": "Live stock price of Reliance from NSE website",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "0.95",
+              "reasoning": "The raw text from the NSE website contains the live stock price and related information for Reliance.  The price is directly extractable.",
+              "local_reasoning": "The fetched content contains the stock price, change, and percentage change. No further steps are needed.",
+              "last_tooluse_summary": "webpage_url_to_raw_text succeeded and extracted the stock price.",
+              "solution_summary": "Reliance stock price data extracted from NSE.",
+              "route": "summarize",
+              "instruction_to_summarize": "Provide the current stock price, change, and percentage change for Reliance Industries as of May 19, 2025, at 15:30, based on the NSE data. Format in markdown."
+            },
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        },
+        {
+          "data": {
+            "index": "1",
+            "description": "Extract relevant stock data (e.g., current price, change) from the raw text.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "ROOT"
+          },
+          "id": "1"
+        },
+        {
+          "data": {
+            "index": "2",
+            "description": "Summarize the extracted stock data for Reliance.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "ROOT"
+          },
+          "id": "2"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "2"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "261a399e-fca8-430b-a996-845beee8456b",
+    "original_query": "Query 1: What happened to the stock on Reliance on https://www.nseindia.com/get-quotes/equity?symbol=RELIANCE ?",
+    "perception_snapshots": [
+      {
+        "run_id": "261a399e-fca8-430b-a996-845beee8456b-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "Reliance",
+          "stock price",
+          "NSE"
+        ],
+        "result_requirement": "Information about Reliance stock from NSE website",
+        "original_goal_achieved": false,
+        "reasoning": "The query requires fetching and parsing data from a specific URL. The goal is not achievable without tool use.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The query cannot be satisfied from memory or globals, requiring a tool to access the provided URL.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.9",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "261a399e-fca8-430b-a996-845beee8456b-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "Reliance",
+          "stock price",
+          "NSE"
+        ],
+        "result_requirement": "Live stock price of Reliance from NSE website",
+        "original_goal_achieved": true,
+        "reasoning": "The raw text from the NSE website contains the live stock price and related information for Reliance.  The price is directly extractable.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The fetched content contains the stock price, change, and percentage change. No further steps are needed.",
+        "last_tooluse_summary": "webpage_url_to_raw_text succeeded and extracted the stock price.",
+        "solution_summary": "Reliance stock price data extracted from NSE.",
+        "confidence": "0.95",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "88b54b4b-6eed-4e53-8e66-e3388a671af3",
+        "input": {
+          "current_time": "2025-05-19T11:16:22.732757",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: What happened to the stock on Reliance on https://www.nseindia.com/get-quotes/equity?symbol=RELIANCE ?",
+          "perception": {
+            "entities": [
+              "Reliance",
+              "stock price",
+              "NSE"
+            ],
+            "result_requirement": "Information about Reliance stock from NSE website",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.9",
+            "reasoning": "The query requires fetching and parsing data from a specific URL. The goal is not achievable without tool use.",
+            "local_reasoning": "The query cannot be satisfied from memory or globals, requiring a tool to access the provided URL.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Reliance",
+                  "stock price",
+                  "NSE"
+                ],
+                "result_requirement": "Information about Reliance stock from NSE website",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The query requires fetching and parsing data from a specific URL. The goal is not achievable without tool use.",
+                "local_reasoning": "The query cannot be satisfied from memory or globals, requiring a tool to access the provided URL.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Reliance",
+                  "stock price",
+                  "NSE"
+                ],
+                "result_requirement": "Information about Reliance stock from NSE website",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The query requires fetching and parsing data from a specific URL. The goal is not achievable without tool use.",
+                "local_reasoning": "The query cannot be satisfied from memory or globals, requiring a tool to access the provided URL.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[]"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Fetch raw text from the provided NSE India URL for Reliance stock."
+              },
+              {
+                "id": "1",
+                "description": "Extract relevant stock data (e.g., current price, change) from the raw text."
+              },
+              {
+                "id": "2",
+                "description": "Summarize the extracted stock data for Reliance."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              },
+              {
+                "from": "1",
+                "to": "2",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=RELIANCE'\nraw_text = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0A\": raw_text}",
+            "CODE_0B": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=RELIANCE'\nsummary = webpage_url_to_summary(url)\nreturn {\"summary_0B\": summary}",
+            "CODE_0C": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=RELIANCE'\nraw_text = webpage_url_to_raw_text(url)\nif raw_text:\n    search_rag = search_stored_documents_rag(raw_text)\n    return {\"raw_text_0C\": raw_text, \"search_rag_0C\": search_rag}\nelse:\n    return {\"raw_text_0C\": \"\", \"search_rag_0C\": \"\"}"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Fetch raw text from the provided NSE India URL for Reliance stock."
+            },
+            {
+              "id": "1",
+              "description": "Extract relevant stock data (e.g., current price, change) from the raw text."
+            },
+            {
+              "id": "2",
+              "description": "Summarize the extracted stock data for Reliance."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            },
+            {
+              "from": "1",
+              "to": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=RELIANCE'\nraw_text = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0A\": raw_text}",
+          "CODE_0B": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=RELIANCE'\nsummary = webpage_url_to_summary(url)\nreturn {\"summary_0B\": summary}",
+          "CODE_0C": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=RELIANCE'\nraw_text = webpage_url_to_raw_text(url)\nif raw_text:\n    search_rag = search_stored_documents_rag(raw_text)\n    return {\"raw_text_0C\": raw_text, \"search_rag_0C\": search_rag}\nelse:\n    return {\"raw_text_0C\": \"\", \"search_rag_0C\": \"\"}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [
+      {
+        "run_id": "d19bcda7-9632-48e9-b462-15c0ff5503b3",
+        "step_id": "0",
+        "variant_used": "CODE_0A",
+        "code": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=RELIANCE'\nraw_text = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0A\": raw_text}",
+        "status": "success",
+        "result": {
+          "raw_text_0A": [
+            {
+              "type": "text",
+              "text": "[visible] Reliance Industries Limited Share Price Today, Stock Price, Live NSE News, Quotes, Tips  NSE India\nOption Chain\nMarket Turnover\nListings\nIPO\nCirculars\nDaily Report\nHolidays\nCorporates\nPress Releases\nContact Us\nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\nFont Size\nA+\n|\nReset\n|\nA-\nContrast\nHigh Contrast\n|\nReset\n24,945.45\n-74.35\n(\n-0.3\n%)\n19-May-2025 15:30\nStreaming\nStreaming\non\noff\nStreaming Speed\nSlow\nMedium\nFast\n(\n%)\nIndicative close\nFutures 29-May-2025\n25,009.00\n17.50\n(\n0.07\n%)\n19-May-2025 16:45\nUSDINR\nFutures\n28-May-2025\n|\n85.4700\n19-May-2025 16:45\nMarket Capitalization\nLac Crs 441.37\n|\nTn $ 5.16\n19-May-2025\nHome\nAbout\nAbout NSE\nAbout Us\nStructure & Key Personnel\nInvestor Relations\nAwards and Recognitions\nRegulations\nEvent Gallery\nMedia\nHolidays\nCareers\nContact Us\nNSE Group companies\nNSE Academy\nNSE Clearing\nNSE Data & Analytics\nNSE Foundation\nNSE Indices\nNSE International Exchange\nNSE International Clearing\nNSE Investments\nView all\nProducts & Services\nEquity Market\nIndices\nEmerge Platform\nMutual Funds\nEquity Derivatives\nCurrency Derivatives\nCommodity Derivatives\nInterest Rate Derivatives\nFixed Income and Debt\nPublic Issues\nAbout Us\nFind everything about the leading stock exchange of India\nOur Group\nCheck NSE's group of the companies\nOur Products\nBrowse a comprehensive and innovative product and service offerings by NSE\nMarket Data\nEquity\nNew Listings\nPre-Open Market\nEquity & SME Market\nIndices\nGainers/Losers\nMost Active Equities\nPrice Band Hitters\n52 Week High/Low\nLarge Deals\nAdvances / Declines\nSecurities Lending & Borrowing\nCall auction for Illiquid Securities\nSecurities available for Trading\nPrice Bands & Surveillance Actions\nPosition/Investment Limits\nLegend of series\nDaily Reports\nHistorical Reports\nDerivatives\nDerivatives Market\nOption Chain\nMost Active Contracts\nMost Active Underlying\nChange in Open Interest\nLiquidity Enhancement Scheme\nContracts available for Trading\nDaily Reports\nHistorical Reports\nDebt & Fixed Income\nTraded on CM\nCBRICS\nRFQ\nNegotiated Trades\nTrade Repository\nTri-Party Repo\nDaily Reports\nHistorical Reports\nPrimary Markets\nIPO\nOffer For Sale\nNCB G-SEC\nInstitutional Placement Program (IPP)\nTender Offer\nRights\nINVITS\nREITS\nReverse Book Building\nMarket Snapshot\nLive Analysis of top gainers/losers, most active securities/contracts, price band hitters, overview of the market.\nOption Chain\nView Option chain for the exchange\nHistorical Reports\nView Historical Reports of securities/contracts traded on the Exchange.\nInvest\nInvestor Education\nInvesting in Securities Market\nProduct Segment\nCharges and Taxes\nInvestment limits for FIIs\nInvestor Awareness\nInvestor Charter\nProtection from Fraud\nInvestor Awareness Programs\nRegulatory Action\nRegistered Investors\nForeign Portfolio Investors (FPI)\nResources & Tools\nLocate your Stock Broker\nCompany Directory\nExit Option for shareholders\nFeedback\nInvestor's Home\nInvestor education on how to invest saf",
+              "annotations": null
+            }
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 16:46:28",
+        "total_time": "6.363",
+        "return_to": ""
+      }
+    ],
+    "summarizer_snapshots": [
+      {
+        "run_id": "6081d56c-e03d-4a0e-ac28-b294698674fd",
+        "input": {
+          "original_query": "Query 1: What happened to the stock on Reliance on https://www.nseindia.com/get-quotes/equity?symbol=RELIANCE ?",
+          "globals_schema": {
+            "memory": [],
+            "raw_text_0A": [
+              {
+                "type": "text",
+                "text": "[visible] Reliance Industries Limited Share Price Today, Stock Price, Live NSE News, Quotes, Tips  NSE India\nOption Chain\nMarket Turnover\nListings\nIPO\nCirculars\nDaily Report\nHolidays\nCorporates\nPress Releases\nContact Us\nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\nFont Size\nA+\n|\nReset\n|\nA-\nContrast\nHigh Contrast\n|\nReset\n24,945.45\n-74.35\n(\n-0.3\n%)\n19-May-2025 15:30\nStreaming\nStreaming\non\noff\nStreaming Speed\nSlow\nMedium\nFast\n(\n%)\nIndicative close\nFutures 29-May-2025\n25,009.00\n17.50\n(\n0.07\n%)\n19-May-2025 16:45\nUSDINR\nFutures\n28-May-2025\n|\n85.4700\n19-May-2025 16:45\nMarket Capitalization\nLac Crs 441.37\n|\nTn $ 5.16\n19-May-2025\nHome\nAbout\nAbout NSE\nAbout Us\nStructure & Key Personnel\nInvestor Relations\nAwards and Recognitions\nRegulations\nEvent Gallery\nMedia\nHolidays\nCareers\nContact Us\nNSE Group companies\nNSE Academy\nNSE Clearing\nNSE Data & Analytics\nNSE Foundation\nNSE Indices\nNSE International Exchange\nNSE International Clearing\nNSE Investments\nView all\nProducts & Services\nEquity Market\nIndices\nEmerge Platform\nMutual Funds\nEquity Derivatives\nCurrency Derivatives\nCommodity Derivatives\nInterest Rate Derivatives\nFixed Income and Debt\nPublic Issues\nAbout Us\nFind everything about the leading stock exchange of India\nOur Group\nCheck NSE's group of the companies\nOur Products\nBrowse a comprehensive and innovative product and service offerings by NSE\nMarket Data\nEquity\nNew Listings\nPre-Open Market\nEquity & SME Market\nIndices\nGainers/Losers\nMost Active Equities\nPrice Band Hitters\n52 Week High/Low\nLarge Deals\nAdvances / Declines\nSecurities Lending & Borrowing\nCall auction for Illiquid Securities\nSecurities available for Trading\nPrice Bands & Surveillance Actions\nPosition/Investment Limits\nLegend of series\nDaily Reports\nHistorical Reports\nDerivatives\nDerivatives Market\nOption Chain\nMost Active Contracts\nMost Active Underlying\nChange in Open Interest\nLiquidity Enhancement Scheme\nContracts available for Trading\nDaily Reports\nHistorical Reports\nDebt & Fixed Income\nTraded on CM\nCBRICS\nRFQ\nNegotiated Trades\nTrade Repository\nTri-Party Repo\nDaily Reports\nHistorical Reports\nPrimary Markets\nIPO\nOffer For Sale\nNCB G-SEC\nInstitutional Placement Program (IPP)\nTender Offer\nRights\nINVITS\nREITS\nReverse Book Building\nMarket Snapshot\nLive Analysis of top gainers/losers, most active securities/contracts, price band hitters, overview of the market.\nOption Chain\nView Option chain for the exchange\nHistorical Reports\nView Historical Reports of securities/contracts traded on the Exchange.\nInvest\nInvestor Education\nInvesting in Securities Market\nProduct Segment\nCharges and Taxes\nInvestment limits for FIIs\nInvestor Awareness\nInvestor Charter\nProtection from Fraud\nInvestor Awareness Programs\nRegulatory Action\nRegistered Investors\nForeign Portfolio Investors (FPI)\nResources & Tools\nLocate your Stock Broker\nCompany Directory\nExit Option for shareholders\nFeedback\nInvestor's Home\nInvestor education on how to invest saf",
+                "annotations": null
+              }
+            ]
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Reliance",
+                      "stock price",
+                      "NSE"
+                    ],
+                    "result_requirement": "Information about Reliance stock from NSE website",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.9",
+                    "reasoning": "The query requires fetching and parsing data from a specific URL. The goal is not achievable without tool use.",
+                    "local_reasoning": "The query cannot be satisfied from memory or globals, requiring a tool to access the provided URL.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "0",
+                  "description": "Fetch raw text from the provided NSE India URL for Reliance stock.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "raw_text_0A": [
+                      {
+                        "type": "text",
+                        "text": "[visible] Reliance Industries Limited Share Price Today, Stock Price, Live NSE News, Quotes, Tips  NSE India\nOption Chain\nMarket Turnover\nListings\nIPO\nCirculars\nDaily Report\nHolidays\nCorporates\nPress Releases\nContact Us\nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\nFont Size\nA+\n|\nReset\n|\nA-\nContrast\nHigh Contrast\n|\nReset\n24,945.45\n-74.35\n(\n-0.3\n%)\n19-May-2025 15:30\nStreaming\nStreaming\non\noff\nStreaming Speed\nSlow\nMedium\nFast\n(\n%)\nIndicative close\nFutures 29-May-2025\n25,009.00\n17.50\n(\n0.07\n%)\n19-May-2025 16:45\nUSDINR\nFutures\n28-May-2025\n|\n85.4700\n19-May-2025 16:45\nMarket Capitalization\nLac Crs 441.37\n|\nTn $ 5.16\n19-May-2025\nHome\nAbout\nAbout NSE\nAbout Us\nStructure & Key Personnel\nInvestor Relations\nAwards and Recognitions\nRegulations\nEvent Gallery\nMedia\nHolidays\nCareers\nContact Us\nNSE Group companies\nNSE Academy\nNSE Clearing\nNSE Data & Analytics\nNSE Foundation\nNSE Indices\nNSE International Exchange\nNSE International Clearing\nNSE Investments\nView all\nProducts & Services\nEquity Market\nIndices\nEmerge Platform\nMutual Funds\nEquity Derivatives\nCurrency Derivatives\nCommodity Derivatives\nInterest Rate Derivatives\nFixed Income and Debt\nPublic Issues\nAbout Us\nFind everything about the leading stock exchange of India\nOur Group\nCheck NSE's group of the companies\nOur Products\nBrowse a comprehensive and innovative product and service offerings by NSE\nMarket Data\nEquity\nNew Listings\nPre-Open Market\nEquity & SME Market\nIndices\nGainers/Losers\nMost Active Equities\nPrice Band Hitters\n52 Week High/Low\nLarge Deals\nAdvances / Declines\nSecurities Lending & Borrowing\nCall auction for Illiquid Securities\nSecurities available for Trading\nPrice Bands & Surveillance Actions\nPosition/Investment Limits\nLegend of series\nDaily Reports\nHistorical Reports\nDerivatives\nDerivatives Market\nOption Chain\nMost Active Contracts\nMost Active Underlying\nChange in Open Interest\nLiquidity Enhancement Scheme\nContracts available for Trading\nDaily Reports\nHistorical Reports\nDebt & Fixed Income\nTraded on CM\nCBRICS\nRFQ\nNegotiated Trades\nTrade Repository\nTri-Party Repo\nDaily Reports\nHistorical Reports\nPrimary Markets\nIPO\nOffer For Sale\nNCB G-SEC\nInstitutional Placement Program (IPP)\nTender Offer\nRights\nINVITS\nREITS\nReverse Book Building\nMarket Snapshot\nLive Analysis of top gainers/losers, most active securities/contracts, price band hitters, overview of the market.\nOption Chain\nView Option chain for the exchange\nHistorical Reports\nView Historical Reports of securities/contracts traded on the Exchange.\nInvest\nInvestor Education\nInvesting in Securities Market\nProduct Segment\nCharges and Taxes\nInvestment limits for FIIs\nInvestor Awareness\nInvestor Charter\nProtection from Fraud\nInvestor Awareness Programs\nRegulatory Action\nRegistered Investors\nForeign Portfolio Investors (FPI)\nResources & Tools\nLocate your Stock Broker\nCompany Directory\nExit Option for shareholders\nFeedback\nInvestor's Home\nInvestor education on how to invest saf",
+                        "annotations": null
+                      }
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Reliance",
+                      "stock price",
+                      "NSE"
+                    ],
+                    "result_requirement": "Live stock price of Reliance from NSE website",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "0.95",
+                    "reasoning": "The raw text from the NSE website contains the live stock price and related information for Reliance.  The price is directly extractable.",
+                    "local_reasoning": "The fetched content contains the stock price, change, and percentage change. No further steps are needed.",
+                    "last_tooluse_summary": "webpage_url_to_raw_text succeeded and extracted the stock price.",
+                    "solution_summary": "Reliance stock price data extracted from NSE.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Provide the current stock price, change, and percentage change for Reliance Industries as of May 19, 2025, at 15:30, based on the NSE data. Format in markdown."
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "0"
+              },
+              {
+                "data": {
+                  "index": "1",
+                  "description": "Extract relevant stock data (e.g., current price, change) from the raw text.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "ROOT"
+                },
+                "id": "1"
+              },
+              {
+                "data": {
+                  "index": "2",
+                  "description": "Summarize the extracted stock data for Reliance.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "ROOT"
+                },
+                "id": "2"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "0"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "2"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "Reliance",
+              "stock price",
+              "NSE"
+            ],
+            "result_requirement": "Live stock price of Reliance from NSE website",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.95",
+            "reasoning": "The raw text from the NSE website contains the live stock price and related information for Reliance.  The price is directly extractable.",
+            "local_reasoning": "The fetched content contains the stock price, change, and percentage change. No further steps are needed.",
+            "last_tooluse_summary": "webpage_url_to_raw_text succeeded and extracted the stock price.",
+            "solution_summary": "Reliance stock price data extracted from NSE.",
+            "route": "summarize",
+            "instruction_to_summarize": "Provide the current stock price, change, and percentage change for Reliance Industries as of May 19, 2025, at 15:30, based on the NSE data. Format in markdown."
+          }
+        },
+        "summary_output": "As of May 19, 2025, at 15:30, the stock price for Reliance Industries Limited on NSE is 24,945.45. The change is -74.35, which represents a -0.3% change.",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-19T11:15:45Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "As of May 19, 2025, at 15:30, the stock price for Reliance Industries Limited on NSE is 24,945.45. The change is -74.35, which represents a -0.3% change.",
+    "status": "success",
+    "completed_at": "2025-05-19T11:16:42.215122"
+  },
+  "status": "success",
+  "final_step_id": "2",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-19T11:16:42.217588",
+  "original_query": "Query 1: What happened to the stock on Reliance on https://www.nseindia.com/get-quotes/equity?symbol=RELIANCE ?",
+  "final_summary": "As of May 19, 2025, at 15:30, the stock price for Reliance Industries Limited on NSE is 24,945.45. The change is -74.35, which represents a -0.3% change."
+}

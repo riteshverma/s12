@@ -1,0 +1,853 @@
+{
+  "context": {
+    "session_id": "813a68a2-9512-476d-aa69-616c59d61f0b",
+    "original_query": "Query 1: What's the latest news about F-15 Eagle?",
+    "globals": {
+      "search_results_0A": [
+        "https://www.twz.com/air/f-15-eagles-win-big-in-supersized-defense-spending-bill",
+        "https://www.newsweek.com/us-f-15-indian-ocean-fighter-jets-2073575",
+        "https://www.armyrecognition.com/news/aerospace-news/2025/breaking-news-boeing-ready-to-deliver-first-new-fighter-jet-f-15ex-of-lot-2-and-third-eagle-ii-to-us-air-force-142nd-wing",
+        "https://www.airandspaceforces.com/air-force-full-production-rate-f-15-ew/",
+        "https://www.twz.com/air/f-15-eagles-deploy-to-diego-garcia-to-protect-the-indian-ocean-outpost"
+      ],
+      "search_results_0B": [
+        "https://www.twz.com/air/f-15-eagles-win-big-in-supersized-defense-spending-bill",
+        "https://www.armyrecognition.com/news/aerospace-news/2025/breaking-news-boeing-ramps-up-new-f15-ex-fighter-jet-production-to-accelerate-us-air-force-modernization",
+        "https://www.newsweek.com/us-f-15-indian-ocean-fighter-jets-2073575",
+        "https://www.airandspaceforces.com/air-force-full-production-rate-f-15-ew/",
+        "https://nationalinterest.org/blog/buzz/americas-f-15-eagles-are-getting-another-upgrade"
+      ],
+      "search_results_0C": [
+        "https://www.armyrecognition.com/news/aerospace-news/2025/breaking-news-boeing-ramps-up-new-f15-ex-fighter-jet-production-to-accelerate-us-air-force-modernization",
+        "https://www.19fortyfive.com/2025/05/the-f-15ex-fighter-can-hit-mach-2-5-and-fire-hypersonic-missiles/",
+        "https://www.twz.com/air/f-15-eagles-win-big-in-supersized-defense-spending-bill",
+        "https://www.19fortyfive.com/2025/04/the-f-15-active-fighter-had-just-1-mission/",
+        "https://en.wikipedia.org/wiki/Boeing_F-15EX_Eagle_II"
+      ],
+      "summary_1A": "A proposed spending package includes $7.2 billion for tactical aircraft procurement and modernization, with $3.1 billion earmarked to increase F-15EX production. The Air Force wants to buy 98 F-15EX aircraft, costing $90-$95 million each. The plan also allocates $127.46 million to prevent the retirement of F-15E aircraft, despite the NDAA already blocking retirements until at least Oct. 1, 2027.",
+      "summary_1B": "Proposed legislation from Republican leaders includes $7.2 billion for tactical aircraft procurement and modernization, benefitting the F-15E Strike Eagle and F-15EX Eagle II. $3.1 billion is earmarked to increase F-15EX production; the Air Force wants 98 F-15EX aircraft (sufficient for 5 operational squadrons). $127.46 million is allocated to prevent F-15E retirement, despite the 2025 NDAA already blocking retirement until Oct. 1, 2027, potentially funding F-15E maintenance.",
+      "summary_1C": "Boeing is accelerating F-15EX Eagle II fighter jet production for U.S. Air Force modernization, aiming for 2 aircraft per month by end of 2026, with 90 units in assembly. Factory enhancements and the \"Cut the CoRRS\" campaign are reducing rework and improving efficiency. Fast F-15EX delivery is vital to replace aging F-15C/D fleets and maintain combat readiness amid global tensions, with the F-15EX able to carry 12 AIM-120 AMRAAMs. Tom Altamuro, Boeings director of F-15 manufacturing and safety, said factory performance is improving."
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: What's the latest news about F-15 Eagle?",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "Here's the latest on the F-15 Eagle:\n\nBoeing is ramping up production of the **F-15EX Eagle II** for the U.S. Air Force, aiming for two aircraft per month by the end of 2026, with 90 units currently in assembly. This acceleration is crucial for modernizing the Air Force and replacing aging F-15C/D fleets.\n\nA proposed spending package includes **$7.2 billion** for tactical aircraft procurement and modernization, with **$3.1 billion** specifically allocated to boost F-15EX production. The Air Force plans to acquire 98 F-15EX aircraft at a cost of **$90-$95 million each.** Additionally, **$127.46 million** is earmarked to prevent the retirement of F-15E aircraft.",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "F-15 Eagle",
+                "latest news"
+              ],
+              "result_requirement": "Summary of latest news about the F-15 Eagle",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.9",
+              "reasoning": "The query requires finding and summarizing the latest news about the F-15 Eagle. This information is not available in the memory excerpt or global schema. Therefore, external search and summarization are needed.",
+              "local_reasoning": "The query is new and needs external search.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Search for recent news articles about the F-15 Eagle.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "search_results_0C": [
+                "https://www.armyrecognition.com/news/aerospace-news/2025/breaking-news-boeing-ramps-up-new-f15-ex-fighter-jet-production-to-accelerate-us-air-force-modernization",
+                "https://www.19fortyfive.com/2025/05/the-f-15ex-fighter-can-hit-mach-2-5-and-fire-hypersonic-missiles/",
+                "https://www.twz.com/air/f-15-eagles-win-big-in-supersized-defense-spending-bill",
+                "https://www.19fortyfive.com/2025/04/the-f-15-active-fighter-had-just-1-mission/",
+                "https://en.wikipedia.org/wiki/Boeing_F-15EX_Eagle_II"
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "F-15 Eagle",
+                "latest news"
+              ],
+              "result_requirement": "Summary of latest news about the F-15 Eagle",
+              "original_goal_achieved": false,
+              "local_goal_achieved": true,
+              "confidence": "0.85",
+              "reasoning": "The search tool returned multiple URLs related to the F-15 Eagle. While this provides potential sources of information, the actual news content needs to be extracted and summarized. Another tool like webpage_url_to_text is required, then summarize.",
+              "local_reasoning": "The search results provide URLs that need to be further processed to extract the actual news content.",
+              "last_tooluse_summary": "Search tool for 'F-15 Eagle latest news' succeeded.",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        },
+        {
+          "data": {
+            "index": "1",
+            "description": "Summarize the content of the most relevant news article.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "summary_1C": "Boeing is accelerating F-15EX Eagle II fighter jet production for U.S. Air Force modernization, aiming for 2 aircraft per month by end of 2026, with 90 units in assembly. Factory enhancements and the \"Cut the CoRRS\" campaign are reducing rework and improving efficiency. Fast F-15EX delivery is vital to replace aging F-15C/D fleets and maintain combat readiness amid global tensions, with the F-15EX able to carry 12 AIM-120 AMRAAMs. Tom Altamuro, Boeings director of F-15 manufacturing and safety, said factory performance is improving."
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "F-15 Eagle",
+                "latest news",
+                "F-15EX Eagle II",
+                "Boeing"
+              ],
+              "result_requirement": "Summary of latest news about the F-15 Eagle",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "0.92",
+              "reasoning": "The summaries provide sufficient information about the latest news regarding the F-15 Eagle, including production updates and spending allocations. The summarization of one of the news articles provides information about Boeing accelerating the production. Combining the summaries gives a well-rounded view of the latest developments.",
+              "local_reasoning": "The tool provided a summary of a relevant news article and also gave links to the news articles. There is information regarding the spending bill in globals schema.",
+              "last_tooluse_summary": "Summarization of news article succeeded.",
+              "solution_summary": "Boeing is accelerating F-15EX Eagle II fighter jet production for U.S. Air Force modernization. A proposed spending package includes $7.2 billion for tactical aircraft procurement and modernization, with $3.1 billion earmarked to increase F-15EX production. The Air Force wants to buy 98 F-15EX aircraft, costing $90-$95 million each.",
+              "route": "summarize",
+              "instruction_to_summarize": "Create a concise user-facing summary of the latest news about the F-15 Eagle, incorporating information from summary_1A, summary_1B and summary_1C in `globals_schema`. Highlight Boeing's acceleration of F-15EX Eagle II fighter jet production and the proposed spending package for tactical aircraft procurement and modernization. Focus on key details like production numbers, costs, and the impact on the U.S. Air Force. Format the summary in markdown."
+            },
+            "from_step": "1"
+          },
+          "id": "1"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "1",
+          "target": "1"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "813a68a2-9512-476d-aa69-616c59d61f0b",
+    "original_query": "Query 1: What's the latest news about F-15 Eagle?",
+    "perception_snapshots": [
+      {
+        "run_id": "813a68a2-9512-476d-aa69-616c59d61f0b-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "F-15 Eagle",
+          "latest news"
+        ],
+        "result_requirement": "Summary of latest news about the F-15 Eagle",
+        "original_goal_achieved": false,
+        "reasoning": "The query requires finding and summarizing the latest news about the F-15 Eagle. This information is not available in the memory excerpt or global schema. Therefore, external search and summarization are needed.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The query is new and needs external search.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.9",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "813a68a2-9512-476d-aa69-616c59d61f0b-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "F-15 Eagle",
+          "latest news"
+        ],
+        "result_requirement": "Summary of latest news about the F-15 Eagle",
+        "original_goal_achieved": false,
+        "reasoning": "The search tool returned multiple URLs related to the F-15 Eagle. While this provides potential sources of information, the actual news content needs to be extracted and summarized. Another tool like webpage_url_to_text is required, then summarize.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The search results provide URLs that need to be further processed to extract the actual news content.",
+        "last_tooluse_summary": "Search tool for 'F-15 Eagle latest news' succeeded.",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.85",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "813a68a2-9512-476d-aa69-616c59d61f0b-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "F-15 Eagle",
+          "latest news",
+          "F-15EX Eagle II",
+          "Boeing"
+        ],
+        "result_requirement": "Summary of latest news about the F-15 Eagle",
+        "original_goal_achieved": true,
+        "reasoning": "The summaries provide sufficient information about the latest news regarding the F-15 Eagle, including production updates and spending allocations. The summarization of one of the news articles provides information about Boeing accelerating the production. Combining the summaries gives a well-rounded view of the latest developments.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The tool provided a summary of a relevant news article and also gave links to the news articles. There is information regarding the spending bill in globals schema.",
+        "last_tooluse_summary": "Summarization of news article succeeded.",
+        "solution_summary": "Boeing is accelerating F-15EX Eagle II fighter jet production for U.S. Air Force modernization. A proposed spending package includes $7.2 billion for tactical aircraft procurement and modernization, with $3.1 billion earmarked to increase F-15EX production. The Air Force wants to buy 98 F-15EX aircraft, costing $90-$95 million each.",
+        "confidence": "0.92",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "a39a865d-a3e7-4591-8262-852f1dd379b0",
+        "input": {
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: What's the latest news about F-15 Eagle?",
+          "perception": {
+            "entities": [
+              "F-15 Eagle",
+              "latest news"
+            ],
+            "result_requirement": "Summary of latest news about the F-15 Eagle",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.9",
+            "reasoning": "The query requires finding and summarizing the latest news about the F-15 Eagle. This information is not available in the memory excerpt or global schema. Therefore, external search and summarization are needed.",
+            "local_reasoning": "The query is new and needs external search.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "F-15 Eagle",
+                  "latest news"
+                ],
+                "result_requirement": "Summary of latest news about the F-15 Eagle",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The query requires finding and summarizing the latest news about the F-15 Eagle. This information is not available in the memory excerpt or global schema. Therefore, external search and summarization are needed.",
+                "local_reasoning": "The query is new and needs external search.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "F-15 Eagle",
+                  "latest news"
+                ],
+                "result_requirement": "Summary of latest news about the F-15 Eagle",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The query requires finding and summarizing the latest news about the F-15 Eagle. This information is not available in the memory excerpt or global schema. Therefore, external search and summarization are needed.",
+                "local_reasoning": "The query is new and needs external search.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {}
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search for recent news articles about the F-15 Eagle."
+              },
+              {
+                "id": "1",
+                "description": "Summarize the most relevant news article about the F-15 Eagle."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "urls = duckduckgo_search('F-15 Eagle latest news', 5)\nreturn { \"search_results_0A\": urls }",
+            "CODE_0B": "urls = duckduckgo_search('F-15 Eagle news today', 5)\nreturn { \"search_results_0B\": urls }",
+            "CODE_0C": "urls = duckduckgo_search('recent developments F-15 Eagle', 5)\nreturn { \"search_results_0C\": urls }"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search for recent news articles about the F-15 Eagle."
+            },
+            {
+              "id": "1",
+              "description": "Summarize the most relevant news article about the F-15 Eagle."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "urls = duckduckgo_search('F-15 Eagle latest news', 5)\nreturn { \"search_results_0A\": urls }",
+          "CODE_0B": "urls = duckduckgo_search('F-15 Eagle news today', 5)\nreturn { \"search_results_0B\": urls }",
+          "CODE_0C": "urls = duckduckgo_search('recent developments F-15 Eagle', 5)\nreturn { \"search_results_0C\": urls }"
+        },
+        "timestamp": null,
+        "return_to": ""
+      },
+      {
+        "run_id": "42581948-63b3-433b-ac1d-01184b81b050",
+        "input": {
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: What's the latest news about F-15 Eagle?",
+          "perception": {
+            "entities": [
+              "F-15 Eagle",
+              "latest news"
+            ],
+            "result_requirement": "Summary of latest news about the F-15 Eagle",
+            "original_goal_achieved": false,
+            "local_goal_achieved": true,
+            "confidence": "0.85",
+            "reasoning": "The search tool returned multiple URLs related to the F-15 Eagle. While this provides potential sources of information, the actual news content needs to be extracted and summarized. Another tool like webpage_url_to_text is required, then summarize.",
+            "local_reasoning": "The search results provide URLs that need to be further processed to extract the actual news content.",
+            "last_tooluse_summary": "Search tool for 'F-15 Eagle latest news' succeeded.",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "F-15 Eagle",
+                  "latest news"
+                ],
+                "result_requirement": "Summary of latest news about the F-15 Eagle",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The query requires finding and summarizing the latest news about the F-15 Eagle. This information is not available in the memory excerpt or global schema. Therefore, external search and summarization are needed.",
+                "local_reasoning": "The query is new and needs external search.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            },
+            {
+              "index": "0",
+              "description": "Search for recent news articles about the F-15 Eagle.",
+              "type": "CODE",
+              "status": "completed",
+              "result": {
+                "search_results_0C": [
+                  "https://www.armyrecognition.com/news/aerospace-news/2025/breaking-news-boeing-ramps-up-new-f15-ex-fighter-jet-production-to-accelerate-us-air-force-modernization",
+                  "https://www.19fortyfive.com/2025/05/the-f-15ex-fighter-can-hit-mach-2-5-and-fire-hypersonic-missiles/",
+                  "https://www.twz.com/air/f-15-eagles-win-big-in-supersized-defense-spending-bill",
+                  "https://www.19fortyfive.com/2025/04/the-f-15-active-fighter-had-just-1-mission/",
+                  "https://en.wikipedia.org/wiki/Boeing_F-15EX_Eagle_II"
+                ]
+              },
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "F-15 Eagle",
+                  "latest news"
+                ],
+                "result_requirement": "Summary of latest news about the F-15 Eagle",
+                "original_goal_achieved": false,
+                "local_goal_achieved": true,
+                "confidence": "0.85",
+                "reasoning": "The search tool returned multiple URLs related to the F-15 Eagle. While this provides potential sources of information, the actual news content needs to be extracted and summarized. Another tool like webpage_url_to_text is required, then summarize.",
+                "local_reasoning": "The search results provide URLs that need to be further processed to extract the actual news content.",
+                "last_tooluse_summary": "Search tool for 'F-15 Eagle latest news' succeeded.",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": "ROOT"
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "F-15 Eagle",
+                  "latest news"
+                ],
+                "result_requirement": "Summary of latest news about the F-15 Eagle",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The query requires finding and summarizing the latest news about the F-15 Eagle. This information is not available in the memory excerpt or global schema. Therefore, external search and summarization are needed.",
+                "local_reasoning": "The query is new and needs external search.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "search_results_0A": {
+              "type": "list",
+              "preview": "['https://www.twz.com/air/f-15-eagles-win-big-in-supersized-defense-spending-bill', 'https://www.newsweek.com/us-f-15-indian-ocean-fighter-jets-2073575', 'https://www.armyrecognition.com/news/aerospace-news/2025/breaking-news-boeing-ready-to-deliver-first-new-fighter-jet-f-15ex-of-lot-2-and-third-eagle-ii-to-us-air-force-142nd-wing', 'https://www.airandspaceforces.com/air-force-full-production-rate-f-15-ew/', 'https://www.twz.com/air/f-15-eagles-deploy-to-diego-garcia-to-protect-the-indian-ocean\u2026"
+            },
+            "search_results_0B": {
+              "type": "list",
+              "preview": "['https://www.twz.com/air/f-15-eagles-win-big-in-supersized-defense-spending-bill', 'https://www.armyrecognition.com/news/aerospace-news/2025/breaking-news-boeing-ramps-up-new-f15-ex-fighter-jet-production-to-accelerate-us-air-force-modernization', 'https://www.newsweek.com/us-f-15-indian-ocean-fighter-jets-2073575', 'https://www.airandspaceforces.com/air-force-full-production-rate-f-15-ew/', 'https://nationalinterest.org/blog/buzz/americas-f-15-eagles-are-getting-another-upgrade']"
+            },
+            "search_results_0C": {
+              "type": "list",
+              "preview": "['https://www.armyrecognition.com/news/aerospace-news/2025/breaking-news-boeing-ramps-up-new-f15-ex-fighter-jet-production-to-accelerate-us-air-force-modernization', 'https://www.19fortyfive.com/2025/05/the-f-15ex-fighter-can-hit-mach-2-5-and-fire-hypersonic-missiles/', 'https://www.twz.com/air/f-15-eagles-win-big-in-supersized-defense-spending-bill', 'https://www.19fortyfive.com/2025/04/the-f-15-active-fighter-had-just-1-mission/', 'https://en.wikipedia.org/wiki/Boeing_F-15EX_Eagle_II']"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search for recent news articles about the F-15 Eagle."
+              },
+              {
+                "id": "1",
+                "description": "Summarize the content of the most relevant news article."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "1",
+          "code_variants": {
+            "CODE_1A": "urls = globals_schema.get(\"search_results_0A\", [])\nif urls:\n  summary = webpage_url_to_summary(urls[0])\nelse:\n  summary = \"No URLs found.\"\nreturn {\"summary_1A\": summary}",
+            "CODE_1B": "urls = globals_schema.get(\"search_results_0B\", [])\nif urls:\n  summary = webpage_url_to_summary(urls[0])\nelse:\n  summary = \"No URLs found.\"\nreturn {\"summary_1B\": summary}",
+            "CODE_1C": "urls = globals_schema.get(\"search_results_0C\", [])\nif urls:\n  summary = webpage_url_to_summary(urls[0])\nelse:\n  summary = \"No URLs found.\"\nreturn {\"summary_1C\": summary}"
+          }
+        },
+        "next_step_id": "1",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search for recent news articles about the F-15 Eagle."
+            },
+            {
+              "id": "1",
+              "description": "Summarize the content of the most relevant news article."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_1A": "urls = globals_schema.get(\"search_results_0A\", [])\nif urls:\n  summary = webpage_url_to_summary(urls[0])\nelse:\n  summary = \"No URLs found.\"\nreturn {\"summary_1A\": summary}",
+          "CODE_1B": "urls = globals_schema.get(\"search_results_0B\", [])\nif urls:\n  summary = webpage_url_to_summary(urls[0])\nelse:\n  summary = \"No URLs found.\"\nreturn {\"summary_1B\": summary}",
+          "CODE_1C": "urls = globals_schema.get(\"search_results_0C\", [])\nif urls:\n  summary = webpage_url_to_summary(urls[0])\nelse:\n  summary = \"No URLs found.\"\nreturn {\"summary_1C\": summary}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [
+      {
+        "run_id": "e42165d9-cb62-4506-8d69-3963762f020f",
+        "step_id": "0",
+        "variant_used": "CODE_0A",
+        "code": "urls = duckduckgo_search('F-15 Eagle latest news', 5)\nreturn { \"search_results_0A\": urls }",
+        "status": "success",
+        "result": {
+          "search_results_0A": [
+            "https://www.twz.com/air/f-15-eagles-win-big-in-supersized-defense-spending-bill",
+            "https://www.newsweek.com/us-f-15-indian-ocean-fighter-jets-2073575",
+            "https://www.armyrecognition.com/news/aerospace-news/2025/breaking-news-boeing-ready-to-deliver-first-new-fighter-jet-f-15ex-of-lot-2-and-third-eagle-ii-to-us-air-force-142nd-wing",
+            "https://www.airandspaceforces.com/air-force-full-production-rate-f-15-ew/",
+            "https://www.twz.com/air/f-15-eagles-deploy-to-diego-garcia-to-protect-the-indian-ocean-outpost"
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-18 14:22:13",
+        "total_time": "6.62",
+        "return_to": ""
+      },
+      {
+        "run_id": "f8c16474-5467-42ae-a193-5beadec1b263",
+        "step_id": "0",
+        "variant_used": "CODE_0B",
+        "code": "urls = duckduckgo_search('F-15 Eagle news today', 5)\nreturn { \"search_results_0B\": urls }",
+        "status": "success",
+        "result": {
+          "search_results_0B": [
+            "https://www.twz.com/air/f-15-eagles-win-big-in-supersized-defense-spending-bill",
+            "https://www.armyrecognition.com/news/aerospace-news/2025/breaking-news-boeing-ramps-up-new-f15-ex-fighter-jet-production-to-accelerate-us-air-force-modernization",
+            "https://www.newsweek.com/us-f-15-indian-ocean-fighter-jets-2073575",
+            "https://www.airandspaceforces.com/air-force-full-production-rate-f-15-ew/",
+            "https://nationalinterest.org/blog/buzz/americas-f-15-eagles-are-getting-another-upgrade"
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-18 14:22:20",
+        "total_time": "6.835",
+        "return_to": ""
+      },
+      {
+        "run_id": "b252d1cc-3305-4e94-bce5-6384a24327e9",
+        "step_id": "0",
+        "variant_used": "CODE_0C",
+        "code": "urls = duckduckgo_search('recent developments F-15 Eagle', 5)\nreturn { \"search_results_0C\": urls }",
+        "status": "success",
+        "result": {
+          "search_results_0C": [
+            "https://www.armyrecognition.com/news/aerospace-news/2025/breaking-news-boeing-ramps-up-new-f15-ex-fighter-jet-production-to-accelerate-us-air-force-modernization",
+            "https://www.19fortyfive.com/2025/05/the-f-15ex-fighter-can-hit-mach-2-5-and-fire-hypersonic-missiles/",
+            "https://www.twz.com/air/f-15-eagles-win-big-in-supersized-defense-spending-bill",
+            "https://www.19fortyfive.com/2025/04/the-f-15-active-fighter-had-just-1-mission/",
+            "https://en.wikipedia.org/wiki/Boeing_F-15EX_Eagle_II"
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-18 14:22:27",
+        "total_time": "6.832",
+        "return_to": ""
+      },
+      {
+        "run_id": "e398fba4-1824-476e-ad06-e37dc081cd3b",
+        "step_id": "1",
+        "variant_used": "CODE_1A",
+        "code": "urls = globals_schema.get(\"search_results_0A\", [])\nif urls:\n  summary = webpage_url_to_summary(urls[0])\nelse:\n  summary = \"No URLs found.\"\nreturn {\"summary_1A\": summary}",
+        "status": "success",
+        "result": {
+          "summary_1A": "A proposed spending package includes $7.2 billion for tactical aircraft procurement and modernization, with $3.1 billion earmarked to increase F-15EX production. The Air Force wants to buy 98 F-15EX aircraft, costing $90-$95 million each. The plan also allocates $127.46 million to prevent the retirement of F-15E aircraft, despite the NDAA already blocking retirements until at least Oct. 1, 2027."
+        },
+        "error": null,
+        "execution_time": "2025-05-18 14:22:43",
+        "total_time": "10.394",
+        "return_to": ""
+      },
+      {
+        "run_id": "fb50e127-1d6f-458b-879f-55d4f6d3a6b6",
+        "step_id": "1",
+        "variant_used": "CODE_1B",
+        "code": "urls = globals_schema.get(\"search_results_0B\", [])\nif urls:\n  summary = webpage_url_to_summary(urls[0])\nelse:\n  summary = \"No URLs found.\"\nreturn {\"summary_1B\": summary}",
+        "status": "success",
+        "result": {
+          "summary_1B": "Proposed legislation from Republican leaders includes $7.2 billion for tactical aircraft procurement and modernization, benefitting the F-15E Strike Eagle and F-15EX Eagle II. $3.1 billion is earmarked to increase F-15EX production; the Air Force wants 98 F-15EX aircraft (sufficient for 5 operational squadrons). $127.46 million is allocated to prevent F-15E retirement, despite the 2025 NDAA already blocking retirement until Oct. 1, 2027, potentially funding F-15E maintenance."
+        },
+        "error": null,
+        "execution_time": "2025-05-18 14:22:54",
+        "total_time": "9.644",
+        "return_to": ""
+      },
+      {
+        "run_id": "cd1292b2-d674-48a7-9072-76e92800b029",
+        "step_id": "1",
+        "variant_used": "CODE_1C",
+        "code": "urls = globals_schema.get(\"search_results_0C\", [])\nif urls:\n  summary = webpage_url_to_summary(urls[0])\nelse:\n  summary = \"No URLs found.\"\nreturn {\"summary_1C\": summary}",
+        "status": "success",
+        "result": {
+          "summary_1C": "Boeing is accelerating F-15EX Eagle II fighter jet production for U.S. Air Force modernization, aiming for 2 aircraft per month by end of 2026, with 90 units in assembly. Factory enhancements and the \"Cut the CoRRS\" campaign are reducing rework and improving efficiency. Fast F-15EX delivery is vital to replace aging F-15C/D fleets and maintain combat readiness amid global tensions, with the F-15EX able to carry 12 AIM-120 AMRAAMs. Tom Altamuro, Boeings director of F-15 manufacturing and safety, said factory performance is improving."
+        },
+        "error": null,
+        "execution_time": "2025-05-18 14:23:03",
+        "total_time": "10.523",
+        "return_to": ""
+      }
+    ],
+    "summarizer_snapshots": [
+      {
+        "run_id": "c73781c2-5207-4188-be9a-68802e04c053",
+        "input": {
+          "original_query": "Query 1: What's the latest news about F-15 Eagle?",
+          "globals_schema": {
+            "search_results_0A": [
+              "https://www.twz.com/air/f-15-eagles-win-big-in-supersized-defense-spending-bill",
+              "https://www.newsweek.com/us-f-15-indian-ocean-fighter-jets-2073575",
+              "https://www.armyrecognition.com/news/aerospace-news/2025/breaking-news-boeing-ready-to-deliver-first-new-fighter-jet-f-15ex-of-lot-2-and-third-eagle-ii-to-us-air-force-142nd-wing",
+              "https://www.airandspaceforces.com/air-force-full-production-rate-f-15-ew/",
+              "https://www.twz.com/air/f-15-eagles-deploy-to-diego-garcia-to-protect-the-indian-ocean-outpost"
+            ],
+            "search_results_0B": [
+              "https://www.twz.com/air/f-15-eagles-win-big-in-supersized-defense-spending-bill",
+              "https://www.armyrecognition.com/news/aerospace-news/2025/breaking-news-boeing-ramps-up-new-f15-ex-fighter-jet-production-to-accelerate-us-air-force-modernization",
+              "https://www.newsweek.com/us-f-15-indian-ocean-fighter-jets-2073575",
+              "https://www.airandspaceforces.com/air-force-full-production-rate-f-15-ew/",
+              "https://nationalinterest.org/blog/buzz/americas-f-15-eagles-are-getting-another-upgrade"
+            ],
+            "search_results_0C": [
+              "https://www.armyrecognition.com/news/aerospace-news/2025/breaking-news-boeing-ramps-up-new-f15-ex-fighter-jet-production-to-accelerate-us-air-force-modernization",
+              "https://www.19fortyfive.com/2025/05/the-f-15ex-fighter-can-hit-mach-2-5-and-fire-hypersonic-missiles/",
+              "https://www.twz.com/air/f-15-eagles-win-big-in-supersized-defense-spending-bill",
+              "https://www.19fortyfive.com/2025/04/the-f-15-active-fighter-had-just-1-mission/",
+              "https://en.wikipedia.org/wiki/Boeing_F-15EX_Eagle_II"
+            ],
+            "summary_1A": "A proposed spending package includes $7.2 billion for tactical aircraft procurement and modernization, with $3.1 billion earmarked to increase F-15EX production. The Air Force wants to buy 98 F-15EX aircraft, costing $90-$95 million each. The plan also allocates $127.46 million to prevent the retirement of F-15E aircraft, despite the NDAA already blocking retirements until at least Oct. 1, 2027.",
+            "summary_1B": "Proposed legislation from Republican leaders includes $7.2 billion for tactical aircraft procurement and modernization, benefitting the F-15E Strike Eagle and F-15EX Eagle II. $3.1 billion is earmarked to increase F-15EX production; the Air Force wants 98 F-15EX aircraft (sufficient for 5 operational squadrons). $127.46 million is allocated to prevent F-15E retirement, despite the 2025 NDAA already blocking retirement until Oct. 1, 2027, potentially funding F-15E maintenance.",
+            "summary_1C": "Boeing is accelerating F-15EX Eagle II fighter jet production for U.S. Air Force modernization, aiming for 2 aircraft per month by end of 2026, with 90 units in assembly. Factory enhancements and the \"Cut the CoRRS\" campaign are reducing rework and improving efficiency. Fast F-15EX delivery is vital to replace aging F-15C/D fleets and maintain combat readiness amid global tensions, with the F-15EX able to carry 12 AIM-120 AMRAAMs. Tom Altamuro, Boeings director of F-15 manufacturing and safety, said factory performance is improving."
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "F-15 Eagle",
+                      "latest news"
+                    ],
+                    "result_requirement": "Summary of latest news about the F-15 Eagle",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.9",
+                    "reasoning": "The query requires finding and summarizing the latest news about the F-15 Eagle. This information is not available in the memory excerpt or global schema. Therefore, external search and summarization are needed.",
+                    "local_reasoning": "The query is new and needs external search.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "0",
+                  "description": "Search for recent news articles about the F-15 Eagle.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "search_results_0C": [
+                      "https://www.armyrecognition.com/news/aerospace-news/2025/breaking-news-boeing-ramps-up-new-f15-ex-fighter-jet-production-to-accelerate-us-air-force-modernization",
+                      "https://www.19fortyfive.com/2025/05/the-f-15ex-fighter-can-hit-mach-2-5-and-fire-hypersonic-missiles/",
+                      "https://www.twz.com/air/f-15-eagles-win-big-in-supersized-defense-spending-bill",
+                      "https://www.19fortyfive.com/2025/04/the-f-15-active-fighter-had-just-1-mission/",
+                      "https://en.wikipedia.org/wiki/Boeing_F-15EX_Eagle_II"
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "F-15 Eagle",
+                      "latest news"
+                    ],
+                    "result_requirement": "Summary of latest news about the F-15 Eagle",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": true,
+                    "confidence": "0.85",
+                    "reasoning": "The search tool returned multiple URLs related to the F-15 Eagle. While this provides potential sources of information, the actual news content needs to be extracted and summarized. Another tool like webpage_url_to_text is required, then summarize.",
+                    "local_reasoning": "The search results provide URLs that need to be further processed to extract the actual news content.",
+                    "last_tooluse_summary": "Search tool for 'F-15 Eagle latest news' succeeded.",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "0"
+              },
+              {
+                "data": {
+                  "index": "1",
+                  "description": "Summarize the content of the most relevant news article.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "summary_1C": "Boeing is accelerating F-15EX Eagle II fighter jet production for U.S. Air Force modernization, aiming for 2 aircraft per month by end of 2026, with 90 units in assembly. Factory enhancements and the \"Cut the CoRRS\" campaign are reducing rework and improving efficiency. Fast F-15EX delivery is vital to replace aging F-15C/D fleets and maintain combat readiness amid global tensions, with the F-15EX able to carry 12 AIM-120 AMRAAMs. Tom Altamuro, Boeings director of F-15 manufacturing and safety, said factory performance is improving."
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "F-15 Eagle",
+                      "latest news",
+                      "F-15EX Eagle II",
+                      "Boeing"
+                    ],
+                    "result_requirement": "Summary of latest news about the F-15 Eagle",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "0.92",
+                    "reasoning": "The summaries provide sufficient information about the latest news regarding the F-15 Eagle, including production updates and spending allocations. The summarization of one of the news articles provides information about Boeing accelerating the production. Combining the summaries gives a well-rounded view of the latest developments.",
+                    "local_reasoning": "The tool provided a summary of a relevant news article and also gave links to the news articles. There is information regarding the spending bill in globals schema.",
+                    "last_tooluse_summary": "Summarization of news article succeeded.",
+                    "solution_summary": "Boeing is accelerating F-15EX Eagle II fighter jet production for U.S. Air Force modernization. A proposed spending package includes $7.2 billion for tactical aircraft procurement and modernization, with $3.1 billion earmarked to increase F-15EX production. The Air Force wants to buy 98 F-15EX aircraft, costing $90-$95 million each.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Create a concise user-facing summary of the latest news about the F-15 Eagle, incorporating information from summary_1A, summary_1B and summary_1C in `globals_schema`. Highlight Boeing's acceleration of F-15EX Eagle II fighter jet production and the proposed spending package for tactical aircraft procurement and modernization. Focus on key details like production numbers, costs, and the impact on the U.S. Air Force. Format the summary in markdown."
+                  },
+                  "from_step": "1"
+                },
+                "id": "1"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "0"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "1",
+                "target": "1"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "F-15 Eagle",
+              "latest news",
+              "F-15EX Eagle II",
+              "Boeing"
+            ],
+            "result_requirement": "Summary of latest news about the F-15 Eagle",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.92",
+            "reasoning": "The summaries provide sufficient information about the latest news regarding the F-15 Eagle, including production updates and spending allocations. The summarization of one of the news articles provides information about Boeing accelerating the production. Combining the summaries gives a well-rounded view of the latest developments.",
+            "local_reasoning": "The tool provided a summary of a relevant news article and also gave links to the news articles. There is information regarding the spending bill in globals schema.",
+            "last_tooluse_summary": "Summarization of news article succeeded.",
+            "solution_summary": "Boeing is accelerating F-15EX Eagle II fighter jet production for U.S. Air Force modernization. A proposed spending package includes $7.2 billion for tactical aircraft procurement and modernization, with $3.1 billion earmarked to increase F-15EX production. The Air Force wants to buy 98 F-15EX aircraft, costing $90-$95 million each.",
+            "route": "summarize",
+            "instruction_to_summarize": "Create a concise user-facing summary of the latest news about the F-15 Eagle, incorporating information from summary_1A, summary_1B and summary_1C in `globals_schema`. Highlight Boeing's acceleration of F-15EX Eagle II fighter jet production and the proposed spending package for tactical aircraft procurement and modernization. Focus on key details like production numbers, costs, and the impact on the U.S. Air Force. Format the summary in markdown."
+          }
+        },
+        "summary_output": "Here's the latest on the F-15 Eagle:\n\nBoeing is ramping up production of the **F-15EX Eagle II** for the U.S. Air Force, aiming for two aircraft per month by the end of 2026, with 90 units currently in assembly. This acceleration is crucial for modernizing the Air Force and replacing aging F-15C/D fleets.\n\nA proposed spending package includes **$7.2 billion** for tactical aircraft procurement and modernization, with **$3.1 billion** specifically allocated to boost F-15EX production. The Air Force plans to acquire 98 F-15EX aircraft at a cost of **$90-$95 million each.** Additionally, **$127.46 million** is earmarked to prevent the retirement of F-15E aircraft.",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-18T08:51:46Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "Boeing is accelerating F-15EX Eagle II fighter jet production for U.S. Air Force modernization. A proposed spending package includes $7.2 billion for tactical aircraft procurement and modernization, with $3.1 billion earmarked to increase F-15EX production. The Air Force wants to buy 98 F-15EX aircraft, costing $90-$95 million each.",
+    "status": "success",
+    "completed_at": "2025-05-18T08:53:25.664306"
+  },
+  "status": "success",
+  "final_step_id": "1",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-18T08:53:25.669302",
+  "original_query": "Query 1: What's the latest news about F-15 Eagle?",
+  "final_summary": "Boeing is accelerating F-15EX Eagle II fighter jet production for U.S. Air Force modernization. A proposed spending package includes $7.2 billion for tactical aircraft procurement and modernization, with $3.1 billion earmarked to increase F-15EX production. The Air Force wants to buy 98 F-15EX aircraft, costing $90-$95 million each."
+}

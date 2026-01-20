@@ -1,0 +1,1083 @@
+{
+  "context": {
+    "session_id": "66e3fbda-81b1-49ee-b802-eab9531d554f",
+    "original_query": "Query 1: What happened between India and Pakistan last week?",
+    "globals": {
+      "memory": [
+        {
+          "score": 174.72527472527474,
+          "session_id": "1f40791e-0486-4e8d-9968-e2066285d692",
+          "original_query": "Query 1: What's the latest between India and France?",
+          "summary_output": "The latest developments between India and France include discussions from a bilateral meeting held on January 26th, focusing on several key areas of cooperation:\n\n- **Cooperation in the Southwest Indian Ocean:** Both countries agreed to intensify cooperation, building on previous joint surveillance missions to enhance the securitization of strategic sea lanes of communication. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Indo-Pacific Partnership:** Both sides emphasized the significance of the Indo-Pacific Region and committed to deepening their partnership based on a common vision. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Defence and Security Partnership:** The defense and security partnership in the Indo-Pacific region was highlighted as a cornerstone of their collaboration, including joint tri-services exercises and increasing capacities in the maritime domain. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n\nRecent articles discussing relations between India and France:\n\n*   [Vision IAS](https://visionias.in/current-affairs/monthly-magazine/2025-03-24/international-relations/india-france-relations-2)\n*   [Drishti IAS](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n*   [Drishti IAS Strategic Dialogue](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-strategic-dialogue)\n*   [Insights on India](https://www.insightsonindia.com/2025/02/13/india-france-relations/)\n*   [Drishti IAS 25th Anniversary](https://www.drishtiias.com/daily-updates/daily-news-analysis/25th-anniversary-of-the-india-france-strategic-partnership)",
+          "timestamp": "2025-05-19T05:32:25Z"
+        },
+        {
+          "score": 174.72527472527474,
+          "session_id": "e4499c82-eb51-4412-9c90-941eb209a9a1",
+          "original_query": "Query 1: What's the latest between India and France?",
+          "summary_output": "The latest developments between India and France include discussions from a bilateral meeting held on January 26th, focusing on several key areas of cooperation:\n\n- **Cooperation in the Southwest Indian Ocean:** Both countries agreed to intensify cooperation, building on previous joint surveillance missions to enhance the securitization of strategic sea lanes of communication. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Indo-Pacific Partnership:** Both sides emphasized the significance of the Indo-Pacific Region and committed to deepening their partnership based on a common vision. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Defence and Security Partnership:** The defense and security partnership in the Indo-Pacific region was highlighted as a cornerstone of their collaboration, including joint tri-services exercises and increasing capacities in the maritime domain. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)",
+          "timestamp": "2025-05-19T03:26:58Z"
+        },
+        {
+          "score": 174.72527472527474,
+          "session_id": "e26e0fb6-6460-4666-bc95-8ca1ddd8d39c",
+          "original_query": "Query 1: What's the latest between India and France?",
+          "summary_output": "On January 26th, India and France held a bilateral meeting where they discussed several key areas of cooperation:\n\n- **Cooperation in the Southwest Indian Ocean:** Both countries agreed to intensify cooperation, building on previous joint surveillance missions. This aims to enhance the securitization of strategic sea lanes of communication. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Indo-Pacific Partnership:** Both sides emphasized the significance of the Indo-Pacific Region and committed to deepening their partnership based on a common vision. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Defence and Security Partnership:** The defense and security partnership in the Indo-Pacific region was highlighted as a cornerstone of their collaboration, including joint tri-services exercises and increasing capacities in the maritime domain. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)",
+          "timestamp": "2025-05-19T01:09:05Z"
+        }
+      ],
+      "search_results_0A": [
+        "https://apnews.com/article/pakistan-india-ceasefire-kashmir-6fa80010fa8ffee1da1f28e7b593aa2d",
+        "https://abcnews.go.com/International/india-pakistan-kashmir-conflict-threat/story?id=121656628",
+        "https://nationalpost.com/news/world/india-pakistan-ceasefire-shelling",
+        "https://news.sky.com/story/india-pakistan-live-dozens-killed-as-india-launches-missile-strikes-on-pakistan-controlled-territory-13363087",
+        "https://www.dw.com/en/pakistan-says-over-50-killed-in-last-weeks-india-clashes/a-72528430"
+      ],
+      "article_summaries_1A": [
+        [
+          {
+            "type": "text",
+            "text": "India claims its strikes inside Pakistan last week killed over 100 militants.",
+            "annotations": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "In May 2025, tensions escalated between India and Pakistan, resulting in several days of exchanged fire after India's missile attack on Pakistan following the Pahalgam incident in April that left 26 dead in Indian-controlled Kashmir, which India blamed on Pakistan, a claim Pakistan denies. A ceasefire was brokered by the U.S., according to Secretary of State Marco Rubio, but India accused Pakistan of violating it. Experts, like Col. Stephen Ganyard, emphasize the danger due to both countries possessing nuclear weapons. The conflict is rooted in the 1947 independence and centers on Kashmir, according to Surupa Gupta, professor at the University of Mary Washington.",
+            "annotations": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "India claims \"surprise\" military strikes killed over 100 militants, including leadership, inside Pakistan's territory (including Pakistan-controlled Kashmir) earlier this week, according to India's military operations head, published in National Post May 11, 2025. Both sides accuse each other of violating a ceasefire agreed upon hours prior.",
+            "annotations": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "India and Pakistan accused each other of violating a ceasefire agreement after a deal brokered by the US. Donald Trump offered to boost trade to both sides and help solve the Kashmir dispute. The ceasefire held overnight. Pope 'happy to hear' about ceasefire and calls for 'no more war'.",
+            "annotations": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "On 05/13/2025, DW reported Pakistan stated 51 people (40 civilians, 11 armed forces) were killed by Indian strikes last week, a rise from the previous toll of 33 civilians. India launched strikes targeting \"terrorist infrastructure\" in Pakistan and Pakistan-administered Kashmir in response to an April attack that killed 26 Hindu tourists in India-administered Kashmir. India said at least 5 military personnel and 16 civilians died in the clashes. After tit-for-tat missile and drone strikes, a US-brokered ceasefire appears to be holding. Indian Prime Minister Narendra Modi said India has only \"paused\" its military action. India's Air Chief Marshal AK Bharti said India's fight was \"with terrorists\".",
+            "annotations": null
+          }
+        ]
+      ]
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: What happened between India and Pakistan last week?",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "In May 2025, tensions between **India** and **Pakistan** escalated, involving exchanged fire following India's missile attack on Pakistan. The attack was a response to the **Pahalgam incident** in April, where 26 people died in Indian-controlled Kashmir; India blamed Pakistan for the incident, a claim Pakistan denies.\n\nKey events:\n\n*   **Military Strikes:** India claimed its strikes inside Pakistan killed over 100 militants. Pakistan reported that Indian strikes killed 51 people (40 civilians, 11 armed forces) last week, a rise from a previous toll of 33 civilians. India reported casualties of at least 5 military personnel and 16 civilians. India stated it targeted \"terrorist infrastructure\" in Pakistan and Pakistan-administered Kashmir.\n*   **Ceasefire and Violations:** A ceasefire was brokered by the U.S., according to Secretary of State Marco Rubio. However, both sides accused each other of violating the agreement.\n*   **Kashmir Conflict:** The conflict is rooted in the 1947 independence and centers on Kashmir.\n\n\ud83d\udd17 Sources:\n\n*   [AP News](https://apnews.com/article/pakistan-india-ceasefire-kashmir-6fa80010fa8ffee1da1f28e7b593aa2d)\n*   [ABC News](https://abcnews.go.com/International/india-pakistan-kashmir-conflict-threat/story?id=121656628)\n*   [National Post](https://nationalpost.com/news/world/india-pakistan-ceasefire-shelling)\n*   [Sky News](https://news.sky.com/story/india-pakistan-live-dozens-killed-as-india-launches-missile-strikes-on-pakistan-controlled-territory-13363087)\n*   [DW](https://www.dw.com/en/pakistan-says-over-50-killed-in-last-weeks-india-clashes/a-72528430)",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "India",
+                "Pakistan",
+                "last week"
+              ],
+              "result_requirement": "Summary of events between India and Pakistan in the past week",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.9",
+              "reasoning": "The query asks about events between India and Pakistan in the last week. No relevant information is present in memory.  A tool is needed to fetch current events.",
+              "local_reasoning": "The query is new, and requires external search for relevant information.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Search for recent news articles about India and Pakistan from the last week.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "search_results_0A": [
+                "https://apnews.com/article/pakistan-india-ceasefire-kashmir-6fa80010fa8ffee1da1f28e7b593aa2d",
+                "https://abcnews.go.com/International/india-pakistan-kashmir-conflict-threat/story?id=121656628",
+                "https://nationalpost.com/news/world/india-pakistan-ceasefire-shelling",
+                "https://news.sky.com/story/india-pakistan-live-dozens-killed-as-india-launches-missile-strikes-on-pakistan-controlled-territory-13363087",
+                "https://www.dw.com/en/pakistan-says-over-50-killed-in-last-weeks-india-clashes/a-72528430"
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "India",
+                "Pakistan",
+                "last week"
+              ],
+              "result_requirement": "Summary of events between India and Pakistan in the past week",
+              "original_goal_achieved": false,
+              "local_goal_achieved": true,
+              "confidence": "0.85",
+              "reasoning": "Search results provide URLs related to India and Pakistan.  Need to extract information from the URLs to summarize events of the last week.",
+              "local_reasoning": "The search tool successfully returned URLs. The next step is to summarize content from the URLs.",
+              "last_tooluse_summary": "search_results_0A: Successfully retrieved URLs related to India and Pakistan.",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        },
+        {
+          "data": {
+            "index": "1",
+            "description": "Extract and summarize the content of each URL to identify events between India and Pakistan in the last week.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "article_summaries_1A": [
+                [
+                  {
+                    "type": "text",
+                    "text": "India claims its strikes inside Pakistan last week killed over 100 militants.",
+                    "annotations": null
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "In May 2025, tensions escalated between India and Pakistan, resulting in several days of exchanged fire after India's missile attack on Pakistan following the Pahalgam incident in April that left 26 dead in Indian-controlled Kashmir, which India blamed on Pakistan, a claim Pakistan denies. A ceasefire was brokered by the U.S., according to Secretary of State Marco Rubio, but India accused Pakistan of violating it. Experts, like Col. Stephen Ganyard, emphasize the danger due to both countries possessing nuclear weapons. The conflict is rooted in the 1947 independence and centers on Kashmir, according to Surupa Gupta, professor at the University of Mary Washington.",
+                    "annotations": null
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "India claims \"surprise\" military strikes killed over 100 militants, including leadership, inside Pakistan's territory (including Pakistan-controlled Kashmir) earlier this week, according to India's military operations head, published in National Post May 11, 2025. Both sides accuse each other of violating a ceasefire agreed upon hours prior.",
+                    "annotations": null
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "India and Pakistan accused each other of violating a ceasefire agreement after a deal brokered by the US. Donald Trump offered to boost trade to both sides and help solve the Kashmir dispute. The ceasefire held overnight. Pope 'happy to hear' about ceasefire and calls for 'no more war'.",
+                    "annotations": null
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "On 05/13/2025, DW reported Pakistan stated 51 people (40 civilians, 11 armed forces) were killed by Indian strikes last week, a rise from the previous toll of 33 civilians. India launched strikes targeting \"terrorist infrastructure\" in Pakistan and Pakistan-administered Kashmir in response to an April attack that killed 26 Hindu tourists in India-administered Kashmir. India said at least 5 military personnel and 16 civilians died in the clashes. After tit-for-tat missile and drone strikes, a US-brokered ceasefire appears to be holding. Indian Prime Minister Narendra Modi said India has only \"paused\" its military action. India's Air Chief Marshal AK Bharti said India's fight was \"with terrorists\".",
+                    "annotations": null
+                  }
+                ]
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "India",
+                "Pakistan",
+                "last week",
+                "Kashmir",
+                "ceasefire"
+              ],
+              "result_requirement": "Summary of events between India and Pakistan in the past week",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "0.9",
+              "reasoning": "The tool successfully extracted summaries of recent news articles about India and Pakistan.  The extracted information provides sufficient details to answer the user's query.",
+              "local_reasoning": "The article summaries cover the key events, including military strikes, casualties, ceasefire agreements and violations, and the involvement of the US.",
+              "last_tooluse_summary": "article_summaries_1A: Successfully extracted summaries from the URLs.",
+              "solution_summary": "Summaries of articles related to conflict between India and Pakistan in the last week.",
+              "route": "summarize",
+              "instruction_to_summarize": "Provide a concise summary of the key events between India and Pakistan in the last week, as detailed in the extracted article summaries. Focus on the military strikes, casualties reported by both sides, the ceasefire brokered by the US, and any accusations of violations. Include the context of the Pahalgam incident and the Kashmir conflict. Use markdown formatting."
+            },
+            "from_step": "1"
+          },
+          "id": "1"
+        },
+        {
+          "data": {
+            "index": "2",
+            "description": "Combine the summaries from different sources to provide a comprehensive summary of events between India and Pakistan in the last week.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "1"
+          },
+          "id": "2"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "2"
+        },
+        {
+          "type": "normal",
+          "source": "1",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "1",
+          "target": "2"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "66e3fbda-81b1-49ee-b802-eab9531d554f",
+    "original_query": "Query 1: What happened between India and Pakistan last week?",
+    "perception_snapshots": [
+      {
+        "run_id": "66e3fbda-81b1-49ee-b802-eab9531d554f-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "India",
+          "Pakistan",
+          "last week"
+        ],
+        "result_requirement": "Summary of events between India and Pakistan in the past week",
+        "original_goal_achieved": false,
+        "reasoning": "The query asks about events between India and Pakistan in the last week. No relevant information is present in memory.  A tool is needed to fetch current events.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The query is new, and requires external search for relevant information.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.9",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "66e3fbda-81b1-49ee-b802-eab9531d554f-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "India",
+          "Pakistan",
+          "last week"
+        ],
+        "result_requirement": "Summary of events between India and Pakistan in the past week",
+        "original_goal_achieved": false,
+        "reasoning": "Search results provide URLs related to India and Pakistan.  Need to extract information from the URLs to summarize events of the last week.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The search tool successfully returned URLs. The next step is to summarize content from the URLs.",
+        "last_tooluse_summary": "search_results_0A: Successfully retrieved URLs related to India and Pakistan.",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.85",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "66e3fbda-81b1-49ee-b802-eab9531d554f-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "India",
+          "Pakistan",
+          "last week",
+          "Kashmir",
+          "ceasefire"
+        ],
+        "result_requirement": "Summary of events between India and Pakistan in the past week",
+        "original_goal_achieved": true,
+        "reasoning": "The tool successfully extracted summaries of recent news articles about India and Pakistan.  The extracted information provides sufficient details to answer the user's query.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The article summaries cover the key events, including military strikes, casualties, ceasefire agreements and violations, and the involvement of the US.",
+        "last_tooluse_summary": "article_summaries_1A: Successfully extracted summaries from the URLs.",
+        "solution_summary": "Summaries of articles related to conflict between India and Pakistan in the last week.",
+        "confidence": "0.9",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "78495c28-1c48-461a-b18c-e49f1fd4131b",
+        "input": {
+          "current_time": "2025-05-19T10:52:57.222937",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: What happened between India and Pakistan last week?",
+          "perception": {
+            "entities": [
+              "India",
+              "Pakistan",
+              "last week"
+            ],
+            "result_requirement": "Summary of events between India and Pakistan in the past week",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.9",
+            "reasoning": "The query asks about events between India and Pakistan in the last week. No relevant information is present in memory.  A tool is needed to fetch current events.",
+            "local_reasoning": "The query is new, and requires external search for relevant information.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "Pakistan",
+                  "last week"
+                ],
+                "result_requirement": "Summary of events between India and Pakistan in the past week",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The query asks about events between India and Pakistan in the last week. No relevant information is present in memory.  A tool is needed to fetch current events.",
+                "local_reasoning": "The query is new, and requires external search for relevant information.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "Pakistan",
+                  "last week"
+                ],
+                "result_requirement": "Summary of events between India and Pakistan in the past week",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The query asks about events between India and Pakistan in the last week. No relevant information is present in memory.  A tool is needed to fetch current events.",
+                "local_reasoning": "The query is new, and requires external search for relevant information.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[{'score': 174.72527472527474, 'session_id': '1f40791e-0486-4e8d-9968-e2066285d692', 'original_query': \"Query 1: What's the latest between India and France?\", 'summary_output': 'The latest developments between India and France include discussions from a bilateral meeting held on January 26th, focusing on several key areas of cooperation:\\n\\n- **Cooperation in the Southwest Indian Ocean:** Both countries agreed to intensify cooperation, building on previous joint surveillance missions to enhance \u2026"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search for recent news articles about India and Pakistan from the last week."
+              },
+              {
+                "id": "1",
+                "description": "Summarize the relevant news articles."
+              },
+              {
+                "id": "2",
+                "description": "Present a summary of the events between India and Pakistan in the last week."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              },
+              {
+                "from": "1",
+                "to": "2",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "query = 'India Pakistan last week'\nurls = web_search_urls(query, 5)\nreturn {\"search_results_0A\": urls}",
+            "CODE_0B": "query = 'India Pakistan news events last week'\nurls = web_search_urls(query, 5)\nreturn {\"search_results_0B\": urls}",
+            "CODE_0C": "query = 'India Pakistan tensions last week'\nurls = web_search_urls(query, 5)\nreturn {\"search_results_0C\": urls}"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search for recent news articles about India and Pakistan from the last week."
+            },
+            {
+              "id": "1",
+              "description": "Summarize the relevant news articles."
+            },
+            {
+              "id": "2",
+              "description": "Present a summary of the events between India and Pakistan in the last week."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            },
+            {
+              "from": "1",
+              "to": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "query = 'India Pakistan last week'\nurls = web_search_urls(query, 5)\nreturn {\"search_results_0A\": urls}",
+          "CODE_0B": "query = 'India Pakistan news events last week'\nurls = web_search_urls(query, 5)\nreturn {\"search_results_0B\": urls}",
+          "CODE_0C": "query = 'India Pakistan tensions last week'\nurls = web_search_urls(query, 5)\nreturn {\"search_results_0C\": urls}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      },
+      {
+        "run_id": "5207cb76-ea22-40ed-aaa9-7e229179dadc",
+        "input": {
+          "current_time": "2025-05-19T10:53:25.017044",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: What happened between India and Pakistan last week?",
+          "perception": {
+            "entities": [
+              "India",
+              "Pakistan",
+              "last week"
+            ],
+            "result_requirement": "Summary of events between India and Pakistan in the past week",
+            "original_goal_achieved": false,
+            "local_goal_achieved": true,
+            "confidence": "0.85",
+            "reasoning": "Search results provide URLs related to India and Pakistan.  Need to extract information from the URLs to summarize events of the last week.",
+            "local_reasoning": "The search tool successfully returned URLs. The next step is to summarize content from the URLs.",
+            "last_tooluse_summary": "search_results_0A: Successfully retrieved URLs related to India and Pakistan.",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "Pakistan",
+                  "last week"
+                ],
+                "result_requirement": "Summary of events between India and Pakistan in the past week",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The query asks about events between India and Pakistan in the last week. No relevant information is present in memory.  A tool is needed to fetch current events.",
+                "local_reasoning": "The query is new, and requires external search for relevant information.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            },
+            {
+              "index": "0",
+              "description": "Search for recent news articles about India and Pakistan from the last week.",
+              "type": "CODE",
+              "status": "completed",
+              "result": {
+                "search_results_0A": [
+                  "https://apnews.com/article/pakistan-india-ceasefire-kashmir-6fa80010fa8ffee1da1f28e7b593aa2d",
+                  "https://abcnews.go.com/International/india-pakistan-kashmir-conflict-threat/story?id=121656628",
+                  "https://nationalpost.com/news/world/india-pakistan-ceasefire-shelling",
+                  "https://news.sky.com/story/india-pakistan-live-dozens-killed-as-india-launches-missile-strikes-on-pakistan-controlled-territory-13363087",
+                  "https://www.dw.com/en/pakistan-says-over-50-killed-in-last-weeks-india-clashes/a-72528430"
+                ]
+              },
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "Pakistan",
+                  "last week"
+                ],
+                "result_requirement": "Summary of events between India and Pakistan in the past week",
+                "original_goal_achieved": false,
+                "local_goal_achieved": true,
+                "confidence": "0.85",
+                "reasoning": "Search results provide URLs related to India and Pakistan.  Need to extract information from the URLs to summarize events of the last week.",
+                "local_reasoning": "The search tool successfully returned URLs. The next step is to summarize content from the URLs.",
+                "last_tooluse_summary": "search_results_0A: Successfully retrieved URLs related to India and Pakistan.",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": "ROOT"
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "Pakistan",
+                  "last week"
+                ],
+                "result_requirement": "Summary of events between India and Pakistan in the past week",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The query asks about events between India and Pakistan in the last week. No relevant information is present in memory.  A tool is needed to fetch current events.",
+                "local_reasoning": "The query is new, and requires external search for relevant information.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[{'score': 174.72527472527474, 'session_id': '1f40791e-0486-4e8d-9968-e2066285d692', 'original_query': \"Query 1: What's the latest between India and France?\", 'summary_output': 'The latest developments between India and France include discussions from a bilateral meeting held on January 26th, focusing on several key areas of cooperation:\\n\\n- **Cooperation in the Southwest Indian Ocean:** Both countries agreed to intensify cooperation, building on previous joint surveillance missions to enhance \u2026"
+            },
+            "search_results_0A": {
+              "type": "list",
+              "preview": "['https://apnews.com/article/pakistan-india-ceasefire-kashmir-6fa80010fa8ffee1da1f28e7b593aa2d', 'https://abcnews.go.com/International/india-pakistan-kashmir-conflict-threat/story?id=121656628', 'https://nationalpost.com/news/world/india-pakistan-ceasefire-shelling', 'https://news.sky.com/story/india-pakistan-live-dozens-killed-as-india-launches-missile-strikes-on-pakistan-controlled-territory-13363087', 'https://www.dw.com/en/pakistan-says-over-50-killed-in-last-weeks-india-clashes/a-72528430']"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search for recent news articles about India and Pakistan from the last week."
+              },
+              {
+                "id": "1",
+                "description": "Extract and summarize the content of each URL to identify events between India and Pakistan in the last week."
+              },
+              {
+                "id": "2",
+                "description": "Combine the summaries from different sources to provide a comprehensive summary of events between India and Pakistan in the last week."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              },
+              {
+                "from": "1",
+                "to": "2",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "1",
+          "code_variants": {
+            "CODE_1A": "urls = globals_schema.get(\"search_results_0A\", [])\nsummaries = []\nif urls:\n    for url in urls:\n        try:\n            summary = webpage_url_to_summary(url)\n            summaries.append(summary)\n        except Exception as e:\n            print(f\"Error processing URL: {url} - {e}\")\n            summaries.append(f\"Could not summarize {url}\")\nelse:\n    summaries.append(\"No URLs found.\")\nreturn {\"article_summaries_1A\": summaries}",
+            "CODE_1B": "urls = globals_schema.get(\"search_results_0A\", [])\nraw_texts = []\nif urls:\n    for url in urls:\n        try:\n            text = webpage_url_to_raw_text(url)\n            raw_texts.append(text)\n        except Exception as e:\n            print(f\"Error processing URL: {url} - {e}\")\n            raw_texts.append(f\"Could not extract text from {url}\")\nelse:\n    raw_texts.append(\"No URLs found.\")\nreturn {\"raw_article_texts_1B\": raw_texts}",
+            "CODE_1C": "urls = globals_schema.get(\"search_results_0A\", [])\ncombined_data = []\nif urls:\n    for url in urls:\n        try:\n            summary = webpage_url_to_summary(url)\n            combined_data.append({\"url\": url, \"summary\": summary})\n        except Exception as e:\n            print(f\"Error processing URL: {url} - {e}\")\n            combined_data.append({\"url\": url, \"error\": str(e)})\nelse:\n    combined_data.append(\"No URLs found.\")\nreturn {\"article_data_1C\": combined_data}"
+          }
+        },
+        "next_step_id": "1",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search for recent news articles about India and Pakistan from the last week."
+            },
+            {
+              "id": "1",
+              "description": "Extract and summarize the content of each URL to identify events between India and Pakistan in the last week."
+            },
+            {
+              "id": "2",
+              "description": "Combine the summaries from different sources to provide a comprehensive summary of events between India and Pakistan in the last week."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            },
+            {
+              "from": "1",
+              "to": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_1A": "urls = globals_schema.get(\"search_results_0A\", [])\nsummaries = []\nif urls:\n    for url in urls:\n        try:\n            summary = webpage_url_to_summary(url)\n            summaries.append(summary)\n        except Exception as e:\n            print(f\"Error processing URL: {url} - {e}\")\n            summaries.append(f\"Could not summarize {url}\")\nelse:\n    summaries.append(\"No URLs found.\")\nreturn {\"article_summaries_1A\": summaries}",
+          "CODE_1B": "urls = globals_schema.get(\"search_results_0A\", [])\nraw_texts = []\nif urls:\n    for url in urls:\n        try:\n            text = webpage_url_to_raw_text(url)\n            raw_texts.append(text)\n        except Exception as e:\n            print(f\"Error processing URL: {url} - {e}\")\n            raw_texts.append(f\"Could not extract text from {url}\")\nelse:\n    raw_texts.append(\"No URLs found.\")\nreturn {\"raw_article_texts_1B\": raw_texts}",
+          "CODE_1C": "urls = globals_schema.get(\"search_results_0A\", [])\ncombined_data = []\nif urls:\n    for url in urls:\n        try:\n            summary = webpage_url_to_summary(url)\n            combined_data.append({\"url\": url, \"summary\": summary})\n        except Exception as e:\n            print(f\"Error processing URL: {url} - {e}\")\n            combined_data.append({\"url\": url, \"error\": str(e)})\nelse:\n    combined_data.append(\"No URLs found.\")\nreturn {\"article_data_1C\": combined_data}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [
+      {
+        "run_id": "0ba512ee-d395-478e-8150-dfad70b5c9b4",
+        "step_id": "0",
+        "variant_used": "CODE_0A",
+        "code": "query = 'India Pakistan last week'\nurls = web_search_urls(query, 5)\nreturn {\"search_results_0A\": urls}",
+        "status": "success",
+        "result": {
+          "search_results_0A": [
+            "https://apnews.com/article/pakistan-india-ceasefire-kashmir-6fa80010fa8ffee1da1f28e7b593aa2d",
+            "https://abcnews.go.com/International/india-pakistan-kashmir-conflict-threat/story?id=121656628",
+            "https://nationalpost.com/news/world/india-pakistan-ceasefire-shelling",
+            "https://news.sky.com/story/india-pakistan-live-dozens-killed-as-india-launches-missile-strikes-on-pakistan-controlled-territory-13363087",
+            "https://www.dw.com/en/pakistan-says-over-50-killed-in-last-weeks-india-clashes/a-72528430"
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 16:23:02",
+        "total_time": "17.273",
+        "return_to": ""
+      },
+      {
+        "run_id": "809b4687-b9fe-432e-9996-7831a7e1978c",
+        "step_id": "1",
+        "variant_used": "CODE_1A",
+        "code": "urls = globals_schema.get(\"search_results_0A\", [])\nsummaries = []\nif urls:\n    for url in urls:\n        try:\n            summary = webpage_url_to_summary(url)\n            summaries.append(summary)\n        except Exception as e:\n            print(f\"Error processing URL: {url} - {e}\")\n            summaries.append(f\"Could not summarize {url}\")\nelse:\n    summaries.append(\"No URLs found.\")\nreturn {\"article_summaries_1A\": summaries}",
+        "status": "success",
+        "result": {
+          "article_summaries_1A": [
+            [
+              {
+                "type": "text",
+                "text": "India claims its strikes inside Pakistan last week killed over 100 militants.",
+                "annotations": null
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "In May 2025, tensions escalated between India and Pakistan, resulting in several days of exchanged fire after India's missile attack on Pakistan following the Pahalgam incident in April that left 26 dead in Indian-controlled Kashmir, which India blamed on Pakistan, a claim Pakistan denies. A ceasefire was brokered by the U.S., according to Secretary of State Marco Rubio, but India accused Pakistan of violating it. Experts, like Col. Stephen Ganyard, emphasize the danger due to both countries possessing nuclear weapons. The conflict is rooted in the 1947 independence and centers on Kashmir, according to Surupa Gupta, professor at the University of Mary Washington.",
+                "annotations": null
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "India claims \"surprise\" military strikes killed over 100 militants, including leadership, inside Pakistan's territory (including Pakistan-controlled Kashmir) earlier this week, according to India's military operations head, published in National Post May 11, 2025. Both sides accuse each other of violating a ceasefire agreed upon hours prior.",
+                "annotations": null
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "India and Pakistan accused each other of violating a ceasefire agreement after a deal brokered by the US. Donald Trump offered to boost trade to both sides and help solve the Kashmir dispute. The ceasefire held overnight. Pope 'happy to hear' about ceasefire and calls for 'no more war'.",
+                "annotations": null
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "On 05/13/2025, DW reported Pakistan stated 51 people (40 civilians, 11 armed forces) were killed by Indian strikes last week, a rise from the previous toll of 33 civilians. India launched strikes targeting \"terrorist infrastructure\" in Pakistan and Pakistan-administered Kashmir in response to an April attack that killed 26 Hindu tourists in India-administered Kashmir. India said at least 5 military personnel and 16 civilians died in the clashes. After tit-for-tat missile and drone strikes, a US-brokered ceasefire appears to be holding. Indian Prime Minister Narendra Modi said India has only \"paused\" its military action. India's Air Chief Marshal AK Bharti said India's fight was \"with terrorists\".",
+                "annotations": null
+              }
+            ]
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 16:23:31",
+        "total_time": "43.849",
+        "return_to": ""
+      }
+    ],
+    "summarizer_snapshots": [
+      {
+        "run_id": "e542aea1-87a2-41c6-b4ea-f21428cd1d31",
+        "input": {
+          "original_query": "Query 1: What happened between India and Pakistan last week?",
+          "globals_schema": {
+            "memory": [
+              {
+                "score": 174.72527472527474,
+                "session_id": "1f40791e-0486-4e8d-9968-e2066285d692",
+                "original_query": "Query 1: What's the latest between India and France?",
+                "summary_output": "The latest developments between India and France include discussions from a bilateral meeting held on January 26th, focusing on several key areas of cooperation:\n\n- **Cooperation in the Southwest Indian Ocean:** Both countries agreed to intensify cooperation, building on previous joint surveillance missions to enhance the securitization of strategic sea lanes of communication. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Indo-Pacific Partnership:** Both sides emphasized the significance of the Indo-Pacific Region and committed to deepening their partnership based on a common vision. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Defence and Security Partnership:** The defense and security partnership in the Indo-Pacific region was highlighted as a cornerstone of their collaboration, including joint tri-services exercises and increasing capacities in the maritime domain. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n\nRecent articles discussing relations between India and France:\n\n*   [Vision IAS](https://visionias.in/current-affairs/monthly-magazine/2025-03-24/international-relations/india-france-relations-2)\n*   [Drishti IAS](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n*   [Drishti IAS Strategic Dialogue](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-strategic-dialogue)\n*   [Insights on India](https://www.insightsonindia.com/2025/02/13/india-france-relations/)\n*   [Drishti IAS 25th Anniversary](https://www.drishtiias.com/daily-updates/daily-news-analysis/25th-anniversary-of-the-india-france-strategic-partnership)",
+                "timestamp": "2025-05-19T05:32:25Z"
+              },
+              {
+                "score": 174.72527472527474,
+                "session_id": "e4499c82-eb51-4412-9c90-941eb209a9a1",
+                "original_query": "Query 1: What's the latest between India and France?",
+                "summary_output": "The latest developments between India and France include discussions from a bilateral meeting held on January 26th, focusing on several key areas of cooperation:\n\n- **Cooperation in the Southwest Indian Ocean:** Both countries agreed to intensify cooperation, building on previous joint surveillance missions to enhance the securitization of strategic sea lanes of communication. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Indo-Pacific Partnership:** Both sides emphasized the significance of the Indo-Pacific Region and committed to deepening their partnership based on a common vision. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Defence and Security Partnership:** The defense and security partnership in the Indo-Pacific region was highlighted as a cornerstone of their collaboration, including joint tri-services exercises and increasing capacities in the maritime domain. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)",
+                "timestamp": "2025-05-19T03:26:58Z"
+              },
+              {
+                "score": 174.72527472527474,
+                "session_id": "e26e0fb6-6460-4666-bc95-8ca1ddd8d39c",
+                "original_query": "Query 1: What's the latest between India and France?",
+                "summary_output": "On January 26th, India and France held a bilateral meeting where they discussed several key areas of cooperation:\n\n- **Cooperation in the Southwest Indian Ocean:** Both countries agreed to intensify cooperation, building on previous joint surveillance missions. This aims to enhance the securitization of strategic sea lanes of communication. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Indo-Pacific Partnership:** Both sides emphasized the significance of the Indo-Pacific Region and committed to deepening their partnership based on a common vision. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n- **Defence and Security Partnership:** The defense and security partnership in the Indo-Pacific region was highlighted as a cornerstone of their collaboration, including joint tri-services exercises and increasing capacities in the maritime domain. [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)",
+                "timestamp": "2025-05-19T01:09:05Z"
+              }
+            ],
+            "search_results_0A": [
+              "https://apnews.com/article/pakistan-india-ceasefire-kashmir-6fa80010fa8ffee1da1f28e7b593aa2d",
+              "https://abcnews.go.com/International/india-pakistan-kashmir-conflict-threat/story?id=121656628",
+              "https://nationalpost.com/news/world/india-pakistan-ceasefire-shelling",
+              "https://news.sky.com/story/india-pakistan-live-dozens-killed-as-india-launches-missile-strikes-on-pakistan-controlled-territory-13363087",
+              "https://www.dw.com/en/pakistan-says-over-50-killed-in-last-weeks-india-clashes/a-72528430"
+            ],
+            "article_summaries_1A": [
+              [
+                {
+                  "type": "text",
+                  "text": "India claims its strikes inside Pakistan last week killed over 100 militants.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "In May 2025, tensions escalated between India and Pakistan, resulting in several days of exchanged fire after India's missile attack on Pakistan following the Pahalgam incident in April that left 26 dead in Indian-controlled Kashmir, which India blamed on Pakistan, a claim Pakistan denies. A ceasefire was brokered by the U.S., according to Secretary of State Marco Rubio, but India accused Pakistan of violating it. Experts, like Col. Stephen Ganyard, emphasize the danger due to both countries possessing nuclear weapons. The conflict is rooted in the 1947 independence and centers on Kashmir, according to Surupa Gupta, professor at the University of Mary Washington.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "India claims \"surprise\" military strikes killed over 100 militants, including leadership, inside Pakistan's territory (including Pakistan-controlled Kashmir) earlier this week, according to India's military operations head, published in National Post May 11, 2025. Both sides accuse each other of violating a ceasefire agreed upon hours prior.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "India and Pakistan accused each other of violating a ceasefire agreement after a deal brokered by the US. Donald Trump offered to boost trade to both sides and help solve the Kashmir dispute. The ceasefire held overnight. Pope 'happy to hear' about ceasefire and calls for 'no more war'.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "On 05/13/2025, DW reported Pakistan stated 51 people (40 civilians, 11 armed forces) were killed by Indian strikes last week, a rise from the previous toll of 33 civilians. India launched strikes targeting \"terrorist infrastructure\" in Pakistan and Pakistan-administered Kashmir in response to an April attack that killed 26 Hindu tourists in India-administered Kashmir. India said at least 5 military personnel and 16 civilians died in the clashes. After tit-for-tat missile and drone strikes, a US-brokered ceasefire appears to be holding. Indian Prime Minister Narendra Modi said India has only \"paused\" its military action. India's Air Chief Marshal AK Bharti said India's fight was \"with terrorists\".",
+                  "annotations": null
+                }
+              ]
+            ]
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "India",
+                      "Pakistan",
+                      "last week"
+                    ],
+                    "result_requirement": "Summary of events between India and Pakistan in the past week",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.9",
+                    "reasoning": "The query asks about events between India and Pakistan in the last week. No relevant information is present in memory.  A tool is needed to fetch current events.",
+                    "local_reasoning": "The query is new, and requires external search for relevant information.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "0",
+                  "description": "Search for recent news articles about India and Pakistan from the last week.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "search_results_0A": [
+                      "https://apnews.com/article/pakistan-india-ceasefire-kashmir-6fa80010fa8ffee1da1f28e7b593aa2d",
+                      "https://abcnews.go.com/International/india-pakistan-kashmir-conflict-threat/story?id=121656628",
+                      "https://nationalpost.com/news/world/india-pakistan-ceasefire-shelling",
+                      "https://news.sky.com/story/india-pakistan-live-dozens-killed-as-india-launches-missile-strikes-on-pakistan-controlled-territory-13363087",
+                      "https://www.dw.com/en/pakistan-says-over-50-killed-in-last-weeks-india-clashes/a-72528430"
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "India",
+                      "Pakistan",
+                      "last week"
+                    ],
+                    "result_requirement": "Summary of events between India and Pakistan in the past week",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": true,
+                    "confidence": "0.85",
+                    "reasoning": "Search results provide URLs related to India and Pakistan.  Need to extract information from the URLs to summarize events of the last week.",
+                    "local_reasoning": "The search tool successfully returned URLs. The next step is to summarize content from the URLs.",
+                    "last_tooluse_summary": "search_results_0A: Successfully retrieved URLs related to India and Pakistan.",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "0"
+              },
+              {
+                "data": {
+                  "index": "1",
+                  "description": "Extract and summarize the content of each URL to identify events between India and Pakistan in the last week.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "article_summaries_1A": [
+                      [
+                        {
+                          "type": "text",
+                          "text": "India claims its strikes inside Pakistan last week killed over 100 militants.",
+                          "annotations": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "In May 2025, tensions escalated between India and Pakistan, resulting in several days of exchanged fire after India's missile attack on Pakistan following the Pahalgam incident in April that left 26 dead in Indian-controlled Kashmir, which India blamed on Pakistan, a claim Pakistan denies. A ceasefire was brokered by the U.S., according to Secretary of State Marco Rubio, but India accused Pakistan of violating it. Experts, like Col. Stephen Ganyard, emphasize the danger due to both countries possessing nuclear weapons. The conflict is rooted in the 1947 independence and centers on Kashmir, according to Surupa Gupta, professor at the University of Mary Washington.",
+                          "annotations": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "India claims \"surprise\" military strikes killed over 100 militants, including leadership, inside Pakistan's territory (including Pakistan-controlled Kashmir) earlier this week, according to India's military operations head, published in National Post May 11, 2025. Both sides accuse each other of violating a ceasefire agreed upon hours prior.",
+                          "annotations": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "India and Pakistan accused each other of violating a ceasefire agreement after a deal brokered by the US. Donald Trump offered to boost trade to both sides and help solve the Kashmir dispute. The ceasefire held overnight. Pope 'happy to hear' about ceasefire and calls for 'no more war'.",
+                          "annotations": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "On 05/13/2025, DW reported Pakistan stated 51 people (40 civilians, 11 armed forces) were killed by Indian strikes last week, a rise from the previous toll of 33 civilians. India launched strikes targeting \"terrorist infrastructure\" in Pakistan and Pakistan-administered Kashmir in response to an April attack that killed 26 Hindu tourists in India-administered Kashmir. India said at least 5 military personnel and 16 civilians died in the clashes. After tit-for-tat missile and drone strikes, a US-brokered ceasefire appears to be holding. Indian Prime Minister Narendra Modi said India has only \"paused\" its military action. India's Air Chief Marshal AK Bharti said India's fight was \"with terrorists\".",
+                          "annotations": null
+                        }
+                      ]
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "India",
+                      "Pakistan",
+                      "last week",
+                      "Kashmir",
+                      "ceasefire"
+                    ],
+                    "result_requirement": "Summary of events between India and Pakistan in the past week",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "0.9",
+                    "reasoning": "The tool successfully extracted summaries of recent news articles about India and Pakistan.  The extracted information provides sufficient details to answer the user's query.",
+                    "local_reasoning": "The article summaries cover the key events, including military strikes, casualties, ceasefire agreements and violations, and the involvement of the US.",
+                    "last_tooluse_summary": "article_summaries_1A: Successfully extracted summaries from the URLs.",
+                    "solution_summary": "Summaries of articles related to conflict between India and Pakistan in the last week.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Provide a concise summary of the key events between India and Pakistan in the last week, as detailed in the extracted article summaries. Focus on the military strikes, casualties reported by both sides, the ceasefire brokered by the US, and any accusations of violations. Include the context of the Pahalgam incident and the Kashmir conflict. Use markdown formatting."
+                  },
+                  "from_step": "1"
+                },
+                "id": "1"
+              },
+              {
+                "data": {
+                  "index": "2",
+                  "description": "Combine the summaries from different sources to provide a comprehensive summary of events between India and Pakistan in the last week.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "1"
+                },
+                "id": "2"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "0"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "2"
+              },
+              {
+                "type": "normal",
+                "source": "1",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "1",
+                "target": "2"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "India",
+              "Pakistan",
+              "last week",
+              "Kashmir",
+              "ceasefire"
+            ],
+            "result_requirement": "Summary of events between India and Pakistan in the past week",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.9",
+            "reasoning": "The tool successfully extracted summaries of recent news articles about India and Pakistan.  The extracted information provides sufficient details to answer the user's query.",
+            "local_reasoning": "The article summaries cover the key events, including military strikes, casualties, ceasefire agreements and violations, and the involvement of the US.",
+            "last_tooluse_summary": "article_summaries_1A: Successfully extracted summaries from the URLs.",
+            "solution_summary": "Summaries of articles related to conflict between India and Pakistan in the last week.",
+            "route": "summarize",
+            "instruction_to_summarize": "Provide a concise summary of the key events between India and Pakistan in the last week, as detailed in the extracted article summaries. Focus on the military strikes, casualties reported by both sides, the ceasefire brokered by the US, and any accusations of violations. Include the context of the Pahalgam incident and the Kashmir conflict. Use markdown formatting."
+          }
+        },
+        "summary_output": "In May 2025, tensions between **India** and **Pakistan** escalated, involving exchanged fire following India's missile attack on Pakistan. The attack was a response to the **Pahalgam incident** in April, where 26 people died in Indian-controlled Kashmir; India blamed Pakistan for the incident, a claim Pakistan denies.\n\nKey events:\n\n*   **Military Strikes:** India claimed its strikes inside Pakistan killed over 100 militants. Pakistan reported that Indian strikes killed 51 people (40 civilians, 11 armed forces) last week, a rise from a previous toll of 33 civilians. India reported casualties of at least 5 military personnel and 16 civilians. India stated it targeted \"terrorist infrastructure\" in Pakistan and Pakistan-administered Kashmir.\n*   **Ceasefire and Violations:** A ceasefire was brokered by the U.S., according to Secretary of State Marco Rubio. However, both sides accused each other of violating the agreement.\n*   **Kashmir Conflict:** The conflict is rooted in the 1947 independence and centers on Kashmir.\n\n\ud83d\udd17 Sources:\n\n*   [AP News](https://apnews.com/article/pakistan-india-ceasefire-kashmir-6fa80010fa8ffee1da1f28e7b593aa2d)\n*   [ABC News](https://abcnews.go.com/International/india-pakistan-kashmir-conflict-threat/story?id=121656628)\n*   [National Post](https://nationalpost.com/news/world/india-pakistan-ceasefire-shelling)\n*   [Sky News](https://news.sky.com/story/india-pakistan-live-dozens-killed-as-india-launches-missile-strikes-on-pakistan-controlled-territory-13363087)\n*   [DW](https://www.dw.com/en/pakistan-says-over-50-killed-in-last-weeks-india-clashes/a-72528430)",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-19T10:52:16Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "In May 2025, tensions between **India** and **Pakistan** escalated, involving exchanged fire following India's missile attack on Pakistan. The attack was a response to the **Pahalgam incident** in April, where 26 people died in Indian-controlled Kashmir; India blamed Pakistan for the incident, a claim Pakistan denies.\n\nKey events:\n\n*   **Military Strikes:** India claimed its strikes inside Pakistan killed over 100 militants. Pakistan reported that Indian strikes killed 51 people (40 civilians, 11 armed forces) last week, a rise from a previous toll of 33 civilians. India reported casualties of at least 5 military personnel and 16 civilians. India stated it targeted \"terrorist infrastructure\" in Pakistan and Pakistan-administered Kashmir.\n*   **Ceasefire and Violations:** A ceasefire was brokered by the U.S., according to Secretary of State Marco Rubio. However, both sides accused each other of violating the agreement.\n*   **Kashmir Conflict:** The conflict is rooted in the 1947 independence and centers on Kashmir.\n\n\ud83d\udd17 Sources:\n\n*   [AP News](https://apnews.com/article/pakistan-india-ceasefire-kashmir-6fa80010fa8ffee1da1f28e7b593aa2d)\n*   [ABC News](https://abcnews.go.com/International/india-pakistan-kashmir-conflict-threat/story?id=121656628)\n*   [National Post](https://nationalpost.com/news/world/india-pakistan-ceasefire-shelling)\n*   [Sky News](https://news.sky.com/story/india-pakistan-live-dozens-killed-as-india-launches-missile-strikes-on-pakistan-controlled-territory-13363087)\n*   [DW](https://www.dw.com/en/pakistan-says-over-50-killed-in-last-weeks-india-clashes/a-72528430)",
+    "status": "success",
+    "completed_at": "2025-05-19T10:54:26.800846"
+  },
+  "status": "success",
+  "final_step_id": "2",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-19T10:54:26.805847",
+  "original_query": "Query 1: What happened between India and Pakistan last week?",
+  "final_summary": "In May 2025, tensions between **India** and **Pakistan** escalated, involving exchanged fire following India's missile attack on Pakistan. The attack was a response to the **Pahalgam incident** in April, where 26 people died in Indian-controlled Kashmir; India blamed Pakistan for the incident, a claim Pakistan denies.\n\nKey events:\n\n*   **Military Strikes:** India claimed its strikes inside Pakistan killed over 100 militants. Pakistan reported that Indian strikes killed 51 people (40 civilians, 11 armed forces) last week, a rise from a previous toll of 33 civilians. India reported casualties of at least 5 military personnel and 16 civilians. India stated it targeted \"terrorist infrastructure\" in Pakistan and Pakistan-administered Kashmir.\n*   **Ceasefire and Violations:** A ceasefire was brokered by the U.S., according to Secretary of State Marco Rubio. However, both sides accused each other of violating the agreement.\n*   **Kashmir Conflict:** The conflict is rooted in the 1947 independence and centers on Kashmir.\n\n\ud83d\udd17 Sources:\n\n*   [AP News](https://apnews.com/article/pakistan-india-ceasefire-kashmir-6fa80010fa8ffee1da1f28e7b593aa2d)\n*   [ABC News](https://abcnews.go.com/International/india-pakistan-kashmir-conflict-threat/story?id=121656628)\n*   [National Post](https://nationalpost.com/news/world/india-pakistan-ceasefire-shelling)\n*   [Sky News](https://news.sky.com/story/india-pakistan-live-dozens-killed-as-india-launches-missile-strikes-on-pakistan-controlled-territory-13363087)\n*   [DW](https://www.dw.com/en/pakistan-says-over-50-killed-in-last-weeks-india-clashes/a-72528430)"
+}

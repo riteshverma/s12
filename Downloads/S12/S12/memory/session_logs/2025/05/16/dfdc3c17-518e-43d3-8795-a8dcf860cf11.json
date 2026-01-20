@@ -1,0 +1,133 @@
+{
+  "session_id": "dfdc3c17-518e-43d3-8795-a8dcf860cf11",
+  "original_query": "Why was Celebi, a turkey company in news recently?",
+  "globals": {
+    "search_results": "Found 5 search results:\n\n1. Centre cancels clearance of Turkish firm running high ... - Firstpost\n   URL: https://www.firstpost.com/explainers/turkey-celebi-aviation-india-aiports-13888717.html\n   Summary: Across these airports,Celebihandles more than 58,000 flights and 540,000 tonnes of cargo annually, with a workforce of approximately 7,800 employees on the ground.CelebiAviation Holding is a Turkish-origincompanyspecialising in integrated ground handling services in the aviation industry.\n\n2. India revokes security clearance of Turkish firm Celebi at several ...\n   URL: https://www.financialexpress.com/business/airlines-aviation-india-revokes-security-clearance-of-turkish-firm-celebi-at-several-airports-over-national-security-concerns-3846269/\n   Summary: As per reports, over the past decade,Celebihas expanded its operations to nine major airports across India, including Delhi, Bengaluru, Hyderabad, Chennai, Ahmedabad, Goa, Cochin, and Kannur.\n\n3. Turkish aviation firm Celebi vows commitment to India's ... - India TV News\n   URL: https://www.indiatvnews.com/news/india/turkish-firm-celebi-vows-commitment-to-india-s-national-security-after-licence-at-9-airports-revoked-2025-05-16-990505\n   Summary: It further explained that Actera Partners II L.P., a Jersey-based investment fund, holds a 50 percent stake inCelebiHavacilik Holding AS, the Turkish parentcompany.\n\n4. India revokes Celebi security clearance over Turkish support for ...\n   URL: https://www.reuters.com/world/india/india-revokes-security-clearance-turkeys-celebi-2025-05-15/\n   Summary: India revoked the security clearance ofCelebiAirport Services India, a unit ofTurkey'sCelebi, with immediate effect, citing national security concerns, the country's civil aviation ministry ...\n\n5. India Begins Crackdown Against Turkey, Cancels Celebi Aviation's ...\n   URL: https://www.republicworld.com/india/india-takes-action-against-turkey-cancels-celebi-aviation-security-clearance-in-interest-of-national-security-india-pakistan-tension\n   Summary: NewDelhi: In a major crackdown againstTurkeyfor helping Pakistan amid conflict with India, the Bureau of Civil Aviation Security (BCAS) has cancelled the security clearance of Turkish firmCelebiAviation. Thecompanyis involved in handling ground and cargo operations for several airlines at various Indian airports.\n"
+  },
+  "memory": [],
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "data": {
+          "index": "ROOT",
+          "description": "initial query",
+          "type": "CODE",
+          "status": "pending",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "Celebi",
+              "turkey company",
+              "news"
+            ],
+            "result_requirement": "Explanation of why Celebi, a turkey company, was in the news recently.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.8",
+            "reasoning": "The query requires finding information about a specific company, Celebi, and the reasons for its recent media attention. This information is not available in the memory excerpt or globals schema.",
+            "local_reasoning": "The memory excerpt contains information about India-Turkey relations and attacks on Pakistan bases, which are not directly relevant to the query about Celebi.",
+            "last_tooluse_summary": "Not applicable",
+            "summarizer_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "from_step": null
+        },
+        "id": "ROOT"
+      },
+      {
+        "data": {
+          "index": "0",
+          "description": "Search for recent news articles about Celebi, a turkey company.",
+          "type": "CODE",
+          "status": "completed",
+          "result": {
+            "search_results": "Found 5 search results:\n\n1. Centre cancels clearance of Turkish firm running high ... - Firstpost\n   URL: https://www.firstpost.com/explainers/turkey-celebi-aviation-india-aiports-13888717.html\n   Summary: Across these airports,Celebihandles more than 58,000 flights and 540,000 tonnes of cargo annually, with a workforce of approximately 7,800 employees on the ground.CelebiAviation Holding is a Turkish-origincompanyspecialising in integrated ground handling services in the aviation industry.\n\n2. India revokes security clearance of Turkish firm Celebi at several ...\n   URL: https://www.financialexpress.com/business/airlines-aviation-india-revokes-security-clearance-of-turkish-firm-celebi-at-several-airports-over-national-security-concerns-3846269/\n   Summary: As per reports, over the past decade,Celebihas expanded its operations to nine major airports across India, including Delhi, Bengaluru, Hyderabad, Chennai, Ahmedabad, Goa, Cochin, and Kannur.\n\n3. Turkish aviation firm Celebi vows commitment to India's ... - India TV News\n   URL: https://www.indiatvnews.com/news/india/turkish-firm-celebi-vows-commitment-to-india-s-national-security-after-licence-at-9-airports-revoked-2025-05-16-990505\n   Summary: It further explained that Actera Partners II L.P., a Jersey-based investment fund, holds a 50 percent stake inCelebiHavacilik Holding AS, the Turkish parentcompany.\n\n4. India revokes Celebi security clearance over Turkish support for ...\n   URL: https://www.reuters.com/world/india/india-revokes-security-clearance-turkeys-celebi-2025-05-15/\n   Summary: India revoked the security clearance ofCelebiAirport Services India, a unit ofTurkey'sCelebi, with immediate effect, citing national security concerns, the country's civil aviation ministry ...\n\n5. India Begins Crackdown Against Turkey, Cancels Celebi Aviation's ...\n   URL: https://www.republicworld.com/india/india-takes-action-against-turkey-cancels-celebi-aviation-security-clearance-in-interest-of-national-security-india-pakistan-tension\n   Summary: NewDelhi: In a major crackdown againstTurkeyfor helping Pakistan amid conflict with India, the Bureau of Civil Aviation Security (BCAS) has cancelled the security clearance of Turkish firmCelebiAviation. Thecompanyis involved in handling ground and cargo operations for several airlines at various Indian airports.\n"
+          },
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "Celebi",
+              "Turkish company",
+              "security clearance",
+              "India",
+              "national security"
+            ],
+            "result_requirement": "Explanation of why Celebi, a Turkish company, was in the news recently, focusing on the reason for the revoked security clearance.",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.9",
+            "reasoning": "The search results indicate that Celebi, a Turkish company, had its security clearance revoked in India due to national security concerns. The summaries provide enough information to answer the query.",
+            "local_reasoning": "The tool output provides relevant search results explicitly mentioning Celebi and the reason for its news presence.",
+            "last_tooluse_summary": "Search tool provided relevant results about Celebi's security clearance revocation.",
+            "summarizer_summary": "Celebi, a Turkish company, was in the news recently because India revoked its security clearance due to national security concerns. This is linked to broader tensions between India and Turkey.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize why Celebi, a Turkish company, was in the news, focusing on the revocation of its security clearance in India due to national security concerns. Include the connection to India-Turkey relations."
+          },
+          "from_step": "ROOT"
+        },
+        "id": "0"
+      },
+      {
+        "data": {
+          "index": "1",
+          "description": "Extract relevant information from the search results.",
+          "type": "CODE",
+          "status": "pending",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "ROOT"
+        },
+        "id": "1"
+      },
+      {
+        "data": {
+          "index": "2",
+          "description": "Summarize the reasons why Celebi was in the news.",
+          "type": "CODE",
+          "status": "pending",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "ROOT"
+        },
+        "id": "2"
+      }
+    ],
+    "links": [
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "0"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "1"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "2"
+      },
+      {
+        "type": "normal",
+        "source": "0",
+        "target": "1"
+      },
+      {
+        "type": "normal",
+        "source": "1",
+        "target": "2"
+      }
+    ]
+  }
+}

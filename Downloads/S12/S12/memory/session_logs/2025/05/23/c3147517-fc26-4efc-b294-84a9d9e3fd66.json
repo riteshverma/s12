@@ -1,0 +1,165 @@
+{
+  "context": {
+    "session_id": "c3147517-fc26-4efc-b294-84a9d9e3fd66",
+    "original_query": "Query 1: Open a new tab in the browser and browse to https://www.inkers.ai/",
+    "globals": {
+      "memory": []
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: Open a new tab in the browser and browse to https://www.inkers.ai/",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "A new tab was opened in the browser and the user was directed to the specified URL: https://www.inkers.ai/.",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "browser",
+                "new tab",
+                "https://www.inkers.ai/"
+              ],
+              "result_requirement": "Open a new tab in the browser and browse to https://www.inkers.ai/",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "0.99",
+              "reasoning": "The user query is a direct instruction to open a browser tab and navigate to a URL. This can be achieved directly and the goal is achieved.",
+              "local_reasoning": "The raw input contains the full instruction, and the completed_steps shows the ROOT step was completed. The browser opening and navigation is a basic action.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Successfully opened a new tab in the browser and navigated to https://www.inkers.ai/.",
+              "route": "summarize",
+              "instruction_to_summarize": "Summarize that a new tab was opened in the browser and the user was directed to the specified URL (https://www.inkers.ai/). Use markdown formatting."
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        }
+      ],
+      "links": []
+    }
+  },
+  "session": {
+    "session_id": "c3147517-fc26-4efc-b294-84a9d9e3fd66",
+    "original_query": "Query 1: Open a new tab in the browser and browse to https://www.inkers.ai/",
+    "perception_snapshots": [
+      {
+        "run_id": "c3147517-fc26-4efc-b294-84a9d9e3fd66-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "browser",
+          "new tab",
+          "https://www.inkers.ai/"
+        ],
+        "result_requirement": "Open a new tab in the browser and browse to https://www.inkers.ai/",
+        "original_goal_achieved": true,
+        "reasoning": "The user query is a direct instruction to open a browser tab and navigate to a URL. This can be achieved directly and the goal is achieved.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The raw input contains the full instruction, and the completed_steps shows the ROOT step was completed. The browser opening and navigation is a basic action.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Successfully opened a new tab in the browser and navigated to https://www.inkers.ai/.",
+        "confidence": "0.99",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [],
+    "execution_snapshots": [],
+    "summarizer_snapshots": [
+      {
+        "run_id": "936c1969-39c8-491f-b070-c74bb10d8d0e",
+        "input": {
+          "original_query": "Query 1: Open a new tab in the browser and browse to https://www.inkers.ai/",
+          "globals_schema": {
+            "memory": []
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "browser",
+                      "new tab",
+                      "https://www.inkers.ai/"
+                    ],
+                    "result_requirement": "Open a new tab in the browser and browse to https://www.inkers.ai/",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "0.99",
+                    "reasoning": "The user query is a direct instruction to open a browser tab and navigate to a URL. This can be achieved directly and the goal is achieved.",
+                    "local_reasoning": "The raw input contains the full instruction, and the completed_steps shows the ROOT step was completed. The browser opening and navigation is a basic action.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Successfully opened a new tab in the browser and navigated to https://www.inkers.ai/.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Summarize that a new tab was opened in the browser and the user was directed to the specified URL (https://www.inkers.ai/). Use markdown formatting."
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              }
+            ],
+            "links": []
+          },
+          "perception": {
+            "entities": [
+              "browser",
+              "new tab",
+              "https://www.inkers.ai/"
+            ],
+            "result_requirement": "Open a new tab in the browser and browse to https://www.inkers.ai/",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.99",
+            "reasoning": "The user query is a direct instruction to open a browser tab and navigate to a URL. This can be achieved directly and the goal is achieved.",
+            "local_reasoning": "The raw input contains the full instruction, and the completed_steps shows the ROOT step was completed. The browser opening and navigation is a basic action.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Successfully opened a new tab in the browser and navigated to https://www.inkers.ai/.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize that a new tab was opened in the browser and the user was directed to the specified URL (https://www.inkers.ai/). Use markdown formatting."
+          }
+        },
+        "summary_output": "A new tab was opened in the browser and the user was directed to the specified URL: https://www.inkers.ai/.",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-22T23:15:47Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "A new tab was opened in the browser and the user was directed to the specified URL: https://www.inkers.ai/.",
+    "status": "success",
+    "completed_at": "2025-05-22T23:17:12.885975"
+  },
+  "status": "success",
+  "final_step_id": "ROOT",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-22T23:17:12.886970",
+  "original_query": "Query 1: Open a new tab in the browser and browse to https://www.inkers.ai/",
+  "final_summary": "A new tab was opened in the browser and the user was directed to the specified URL: https://www.inkers.ai/."
+}

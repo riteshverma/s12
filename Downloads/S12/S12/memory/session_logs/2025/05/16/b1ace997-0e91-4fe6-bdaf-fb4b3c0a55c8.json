@@ -1,0 +1,142 @@
+{
+  "session_id": "b1ace997-0e91-4fe6-bdaf-fb4b3c0a55c8",
+  "original_query": "Query 1: How are the relations between India and Armenia?\nResponse 1: India and Armenia share friendly relations with strong ties in economics, culture, military, and technology. The two countries are exploring long-term military cooperation and have embassies in each other's capitals. Bilateral relations have potential for development, especially in the defense sector, and trade relations are growing, totaling $400 million in precious metals, broadcasting equipment, and infrastructure. Diplomatic relations were established in 1992.\nQuery 2: How far are their capitals?",
+  "globals": {
+    "india_capital": "Found 1 search results:\n\n1. New Delhi - Wikipedia\n   URL: https://en.wikipedia.org/wiki/New_Delhi\n   Summary: New Delhi (/ \u02c8 nj u\u02d0 \u02c8 d \u025b. l i / \u24d8; [6] Hindi: Na\u012b Dill\u012b, pronounced [\u02c8n\u0259i\u02d0 \u02c8d\u026al\u02d0i\u02d0]) is thecapitalofIndiaand a part of the NationalCapitalTerritory of Delhi (NCT). New Delhi is the seat of all three branches of the Government ofIndia, hosting the Rashtrapati Bhavan, Sansad Bhavan, and the Supreme Court.New Delhi is a municipality within the NCT, administered by the New ...\n",
+    "armenia_capital": "Found 1 search results:\n\n1. Yerevan - Wikipedia\n   URL: https://en.wikipedia.org/wiki/Yerevan\n   Summary: Yerevan Opera Theatre is the main spectacle hall of the Armeniancapital, the National Gallery ofArmeniais the largest art museum inArmeniaand shares a building with the History Museum ofArmenia, and the Matenadaran contains one of the largest depositories of ancient books and manuscripts in the world.\n",
+    "distance": "Found 1 search results:\n\n1. Distance from New Delhi to Yerevan (DEL - Air Miles Calculator\n   URL: https://www.airmilescalculator.com/distance/del-to-evn/\n   Summary: ThedistancebetweenNewDelhi(Indira Gandhi International Airport) andYerevan(Zvartnots International Airport) is 2018 miles / 3248 kilometers / 1754 nautical miles. The drivingdistancefromNewDelhi(DEL) toYerevan(EVN) is 2855 miles / 4595 kilometers, and travel time by car is about 58 hours 23 minutes.\n"
+  },
+  "memory": [],
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "data": {
+          "index": "ROOT",
+          "description": "initial query",
+          "type": "ROOT",
+          "status": "completed",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "India",
+              "Armenia",
+              "relations",
+              "capitals",
+              "economics",
+              "culture",
+              "military",
+              "technology"
+            ],
+            "result_requirement": "Information about India-Armenia relations and the distance between their capitals.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": true,
+            "confidence": "0.9",
+            "reasoning": "The initial query about India-Armenia relations has been answered in the raw input. However, the second query about the distance between their capitals has not been answered. Therefore, the original goal is not fully achieved.",
+            "local_reasoning": "The raw input provides a summary of the relations between India and Armenia but does not provide the distance between their capitals.",
+            "last_tooluse_summary": "Not applicable",
+            "summarizer_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "from_step": null
+        },
+        "id": "ROOT"
+      },
+      {
+        "data": {
+          "index": "0",
+          "description": "Determine the capitals of India and Armenia.",
+          "type": "CODE",
+          "status": "Skipped",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "1"
+        },
+        "id": "0"
+      },
+      {
+        "data": {
+          "index": "1",
+          "description": "Find the distance between New Delhi and Yerevan.",
+          "type": "CODE",
+          "status": "completed",
+          "result": {
+            "distance": "Found 1 search results:\n\n1. Distance from New Delhi to Yerevan (DEL - Air Miles Calculator\n   URL: https://www.airmilescalculator.com/distance/del-to-evn/\n   Summary: ThedistancebetweenNewDelhi(Indira Gandhi International Airport) andYerevan(Zvartnots International Airport) is 2018 miles / 3248 kilometers / 1754 nautical miles. The drivingdistancefromNewDelhi(DEL) toYerevan(EVN) is 2855 miles / 4595 kilometers, and travel time by car is about 58 hours 23 minutes.\n"
+          },
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "India",
+              "Armenia",
+              "relations",
+              "capitals",
+              "New Delhi",
+              "Yerevan",
+              "distance"
+            ],
+            "result_requirement": "Information about India-Armenia relations and the distance between their capitals.",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.95",
+            "reasoning": "The raw input contains information about the relations between India and Armenia and the distance between their capitals, New Delhi and Yerevan.  The tool successfully retrieved the distance. All information is available in 'raw_input'.",
+            "local_reasoning": "The 'raw_input' and globals_schema contain the required information about India-Armenia relations and the distance between their capitals.",
+            "last_tooluse_summary": "Successfully retrieved capital cities and distance using search tool.",
+            "summarizer_summary": "Ready for summarization",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize the relations between India and Armenia, mentioning key aspects such as economics, culture, military, and technology.  Also, include the distance between the capitals, New Delhi and Yerevan, which is 3248 kilometers or 2018 miles.  Provide the summary in markdown format."
+          },
+          "from_step": "1"
+        },
+        "id": "1"
+      },
+      {
+        "data": {
+          "index": "2",
+          "description": "Summarize the relations between India and Armenia and the distance between their capitals.",
+          "type": "CODE",
+          "status": "Skipped",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "1"
+        },
+        "id": "2"
+      }
+    ],
+    "links": [
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "0"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "1"
+      },
+      {
+        "type": "normal",
+        "source": "1",
+        "target": "0"
+      },
+      {
+        "type": "normal",
+        "source": "1",
+        "target": "1"
+      },
+      {
+        "type": "normal",
+        "source": "1",
+        "target": "2"
+      }
+    ]
+  }
+}

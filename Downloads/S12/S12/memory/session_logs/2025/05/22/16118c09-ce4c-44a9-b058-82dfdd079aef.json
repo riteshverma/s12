@@ -1,0 +1,161 @@
+{
+  "context": {
+    "session_id": "16118c09-ce4c-44a9-b058-82dfdd079aef",
+    "original_query": "Query 1: What is the time today?",
+    "globals": {
+      "memory": []
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: What is the time today?",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "The current date and time is **May 22, 2025, 12:58 PM**.",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Time",
+                "Today"
+              ],
+              "result_requirement": "Current date and time",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "1.0",
+              "reasoning": "The current time is available and does not require any external tools or calculations.",
+              "local_reasoning": "The current time is available.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Current time is 2025-05-22T12:58:17.713440",
+              "route": "summarize",
+              "instruction_to_summarize": "Summarize the current date and time for the user in a user-friendly format. The current time is 2025-05-22T12:58:17.713440. Use markdown formatting."
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        }
+      ],
+      "links": []
+    }
+  },
+  "session": {
+    "session_id": "16118c09-ce4c-44a9-b058-82dfdd079aef",
+    "original_query": "Query 1: What is the time today?",
+    "perception_snapshots": [
+      {
+        "run_id": "16118c09-ce4c-44a9-b058-82dfdd079aef-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "Time",
+          "Today"
+        ],
+        "result_requirement": "Current date and time",
+        "original_goal_achieved": true,
+        "reasoning": "The current time is available and does not require any external tools or calculations.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The current time is available.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Current time is 2025-05-22T12:58:17.713440",
+        "confidence": "1.0",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [],
+    "execution_snapshots": [],
+    "summarizer_snapshots": [
+      {
+        "run_id": "f95b22b2-4f27-4e6e-80e5-ea29cb94173d",
+        "input": {
+          "original_query": "Query 1: What is the time today?",
+          "globals_schema": {
+            "memory": []
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Time",
+                      "Today"
+                    ],
+                    "result_requirement": "Current date and time",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "1.0",
+                    "reasoning": "The current time is available and does not require any external tools or calculations.",
+                    "local_reasoning": "The current time is available.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Current time is 2025-05-22T12:58:17.713440",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Summarize the current date and time for the user in a user-friendly format. The current time is 2025-05-22T12:58:17.713440. Use markdown formatting."
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              }
+            ],
+            "links": []
+          },
+          "perception": {
+            "entities": [
+              "Time",
+              "Today"
+            ],
+            "result_requirement": "Current date and time",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "1.0",
+            "reasoning": "The current time is available and does not require any external tools or calculations.",
+            "local_reasoning": "The current time is available.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Current time is 2025-05-22T12:58:17.713440",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize the current date and time for the user in a user-friendly format. The current time is 2025-05-22T12:58:17.713440. Use markdown formatting."
+          }
+        },
+        "summary_output": "The current date and time is **May 22, 2025, 12:58 PM**.",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-22T12:57:48Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "The current date and time is **May 22, 2025, 12:58 PM**.",
+    "status": "success",
+    "completed_at": "2025-05-22T12:58:25.941124"
+  },
+  "status": "success",
+  "final_step_id": "ROOT",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-22T12:58:25.942119",
+  "original_query": "Query 1: What is the time today?",
+  "final_summary": "The current date and time is **May 22, 2025, 12:58 PM**."
+}

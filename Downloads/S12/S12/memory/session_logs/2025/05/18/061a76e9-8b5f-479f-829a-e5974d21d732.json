@@ -1,0 +1,299 @@
+{
+  "context": {
+    "session_id": "061a76e9-8b5f-479f-829a-e5974d21d732",
+    "original_query": "Query 1: Tell me top 10 things about F35 from USA",
+    "globals": {},
+    "memory": [
+      {
+        "query": "Search for information on F35 from USA sources.",
+        "result_requirement": "Tool failed",
+        "solution_summary": "All fallback variants failed"
+      },
+      {
+        "query": "Search for information on F35 from USA sources.",
+        "result_requirement": "Tool failed",
+        "solution_summary": "All fallback variants failed"
+      },
+      {
+        "query": "Search for information on F35 from USA sources.",
+        "result_requirement": "Tool failed",
+        "solution_summary": "All fallback variants failed"
+      },
+      {
+        "query": "Extract and summarize the top 10 facts about the F35 from the search results.",
+        "result_requirement": "Tool failed",
+        "solution_summary": "All fallback variants failed"
+      },
+      {
+        "query": "Extract and summarize the top 10 facts about the F35 from the search results.",
+        "result_requirement": "Tool failed",
+        "solution_summary": "All fallback variants failed"
+      },
+      {
+        "query": "Extract and summarize the top 10 facts about the F35 from the search results.",
+        "result_requirement": "Tool failed",
+        "solution_summary": "All fallback variants failed"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "F35",
+                "USA",
+                "top 10 things"
+              ],
+              "result_requirement": "Top 10 facts or details about the F35 aircraft from the USA.",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.85",
+              "reasoning": "The query requires research and extraction of specific information about the F35 from the USA.  This cannot be directly answered from memory or globals.",
+              "local_reasoning": "The query is new and requires external information retrieval.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Search for information on F35 from USA sources.",
+            "type": "CODE",
+            "status": "failed",
+            "result": null,
+            "conclusion": null,
+            "error": "All fallback variants failed",
+            "perception": null,
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        },
+        {
+          "data": {
+            "index": "1",
+            "description": "Extract and summarize the top 10 facts about the F35 from the search results.",
+            "type": "CODE",
+            "status": "failed",
+            "result": null,
+            "conclusion": null,
+            "error": "All fallback variants failed",
+            "perception": null,
+            "from_step": "ROOT"
+          },
+          "id": "1"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "1"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "061a76e9-8b5f-479f-829a-e5974d21d732",
+    "original_query": "Query 1: Tell me top 10 things about F35 from USA",
+    "perception_snapshots": [
+      {
+        "run_id": "061a76e9-8b5f-479f-829a-e5974d21d732-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "F35",
+          "USA",
+          "top 10 things"
+        ],
+        "result_requirement": "Top 10 facts or details about the F35 aircraft from the USA.",
+        "original_goal_achieved": false,
+        "reasoning": "The query requires research and extraction of specific information about the F35 from the USA.  This cannot be directly answered from memory or globals.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The query is new and requires external information retrieval.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.85",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "f09ac0ea-9811-4263-82af-5c531cacf3c4",
+        "input": {
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: Tell me top 10 things about F35 from USA",
+          "perception": {
+            "entities": [
+              "F35",
+              "USA",
+              "top 10 things"
+            ],
+            "result_requirement": "Top 10 facts or details about the F35 aircraft from the USA.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.85",
+            "reasoning": "The query requires research and extraction of specific information about the F35 from the USA.  This cannot be directly answered from memory or globals.",
+            "local_reasoning": "The query is new and requires external information retrieval.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "F35",
+                  "USA",
+                  "top 10 things"
+                ],
+                "result_requirement": "Top 10 facts or details about the F35 aircraft from the USA.",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.85",
+                "reasoning": "The query requires research and extraction of specific information about the F35 from the USA.  This cannot be directly answered from memory or globals.",
+                "local_reasoning": "The query is new and requires external information retrieval.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "F35",
+                  "USA",
+                  "top 10 things"
+                ],
+                "result_requirement": "Top 10 facts or details about the F35 aircraft from the USA.",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.85",
+                "reasoning": "The query requires research and extraction of specific information about the F35 from the USA.  This cannot be directly answered from memory or globals.",
+                "local_reasoning": "The query is new and requires external information retrieval.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {}
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search for information on F35 from USA sources."
+              },
+              {
+                "id": "1",
+                "description": "Extract and summarize the top 10 facts about the F35 from the search results."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "search_results = duckduckgo_search('F35 facts USA', 5)\nreturn {\"search_results\": search_results}",
+            "CODE_0B": "search_results = duckduckgo_search('F35 from United States', 5)\nreturn {\"search_results\": search_results}",
+            "CODE_0C": "search_results = duckduckgo_search('F35 developed by USA', 5)\nreturn {\"search_results\": search_results}"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search for information on F35 from USA sources."
+            },
+            {
+              "id": "1",
+              "description": "Extract and summarize the top 10 facts about the F35 from the search results."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "search_results = duckduckgo_search('F35 facts USA', 5)\nreturn {\"search_results\": search_results}",
+          "CODE_0B": "search_results = duckduckgo_search('F35 from United States', 5)\nreturn {\"search_results\": search_results}",
+          "CODE_0C": "search_results = duckduckgo_search('F35 developed by USA', 5)\nreturn {\"search_results\": search_results}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [],
+    "summarizer_snapshots": [],
+    "final_summary": null,
+    "status": "failed",
+    "completed_at": "2025-05-18T07:33:45.416821"
+  },
+  "status": "failed",
+  "final_step_id": "1",
+  "reason": "Agent halted after max iterations or step failures.",
+  "timestamp": "2025-05-18T07:33:45.417857",
+  "original_query": "Query 1: Tell me top 10 things about F35 from USA"
+}

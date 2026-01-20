@@ -1,0 +1,90 @@
+{
+  "session_id": "7cb03eb4-28f9-474d-bbb1-4fe43ee46d9e",
+  "original_query": "Query 1: What is log10(45) + cos(0.45)",
+  "globals": {
+    "result": 2.5536596161280207
+  },
+  "memory": [
+    {
+      "original_query": "Query 1: What is log10(45) + cos(0.45)",
+      "result_requirement": "Final summary",
+      "summarizer_summary": "log10(45) + cos(0.45) = 2.5536596161280207",
+      "confidence": 0.95,
+      "original_goal_achieved": true,
+      "route": "summarize"
+    }
+  ],
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "data": {
+          "index": "ROOT",
+          "description": "initial query",
+          "type": "ROOT",
+          "status": "completed",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "log10(45)",
+              "cos(0.45)"
+            ],
+            "result_requirement": "Numerical result of log10(45) + cos(0.45)",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.9",
+            "reasoning": "The query requires calculating a mathematical expression. This can be solved using a calculator tool or python code.",
+            "local_reasoning": "The query is a straightforward calculation.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "from_step": null
+        },
+        "id": "ROOT"
+      },
+      {
+        "data": {
+          "index": "0",
+          "description": "Calculate log10(45) + cos(0.45) using python",
+          "type": "CODE",
+          "status": "completed",
+          "result": {
+            "result": 2.5536596161280207
+          },
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "log10(45)",
+              "cos(0.45)"
+            ],
+            "result_requirement": "Numerical result of log10(45) + cos(0.45)",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.99",
+            "reasoning": "The python code successfully calculated the value of log10(45) + cos(0.45).",
+            "local_reasoning": "The result is directly provided in the tool output.",
+            "last_tooluse_summary": "CODE execution succeeded and provided result",
+            "solution_summary": "The result of log10(45) + cos(0.45) is 2.5536596161280207.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize the final result of the calculation in a user-friendly format. State that log10(45) + cos(0.45) = 2.5536596161280207."
+          },
+          "from_step": "ROOT"
+        },
+        "id": "0"
+      }
+    ],
+    "links": [
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "0"
+      }
+    ]
+  }
+}

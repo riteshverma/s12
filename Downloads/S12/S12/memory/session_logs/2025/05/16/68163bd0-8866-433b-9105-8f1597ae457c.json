@@ -1,0 +1,246 @@
+{
+  "session_id": "68163bd0-8866-433b-9105-8f1597ae457c",
+  "original_query": "Query 1: List the specifications of iphone 13 max and iphone 16 max in a markdown table",
+  "globals": {
+    "search_results_13_max": [
+      "https://support.apple.com/en-us/111870",
+      "https://www.apple.com/iphone/compare/?modelList=iphone-13-pro,iphone-13,iphone-13-pro-max",
+      "https://www.gsmarena.com/apple_iphone_13_pro_max-11089.php"
+    ],
+    "search_results_16_max": [
+      "https://www.apple.com/iphone-16-pro/specs/",
+      "https://www.gsmarena.com/apple_iphone_16_pro_max-13123.php",
+      "https://support.apple.com/en-us/121032"
+    ],
+    "iphone_13_max_specs": [
+      {
+        "type": "text",
+        "text": "The iPhone 13 Pro Max (2021) features a Ceramic Shield front, textured matte glass back, and stainless steel design. Available in Graphite, Gold, Silver, Sierra Blue, and Alpine Green, it offers 128GB, 256GB, 512GB, or 1TB storage. It measures 3.07\" x 6.33\" x 0.30\", weighing 8.46 ounces. The 6.7\" Super Retina XDR display with ProMotion (2778x1284 at 458 ppi, up to 120Hz) has a 2,000,000:1 contrast ratio and 1000-1200 nits brightness. It's rated IP68. Powered by the A15 Bionic chip (6-core CPU, 5-core GPU, 16-core Neural Engine), it has a Pro 12MP camera system (Telephoto f/2.8, Wide f/1.5, Ultra Wide f/1.8 with 120\u00b0 FOV), offering 3x optical zoom in, 2x out, and up to 15x digital zoom, plus features like Night mode, Apple ProRAW, and Cinematic mode for video (1080p at 30 fps), and Dolby Vision HDR up to 4K at 60 fps, and ProRes video up to 4k at 30 fps.",
+        "annotations": null
+      }
+    ],
+    "iphone_13_max_specs__2": [
+      {
+        "type": "text",
+        "text": "[trafilatura] iPhone 13 Pro Max - Technical Specifications\nYear introduced : 2021\nFinish\nGraphite\nGold\nSilver\nSierra Blue\nAlpine Green\nCeramic Shield front, Textured matte glass back and stainless steel design\nCapacity1\n128GB\n256GB\n512GB\n1TB\nSize and Weight2\nWidth: 3.07 inches (78.1 mm)\nHeight: 6.33 inches (160.8 mm)\nDepth: 0.30 inch (7.65 mm)\nWeight: 8.46 ounces (240 grams)\nDisplay\nSuper Retina XDR display with ProMotion\n6.7inch (diagonal) allscreen OLED display\n2778by1284-pixel resolution at 458 ppi\nProMotion technology with adaptive refresh rates up to 120Hz\nHDR display\nTrue Tone\nWide color (P3)\nHaptic Touch\n2,000,000:1 contrast ratio (typical)\n1000 nits max brightness (typical); 1200 nits max brightness (HDR)\nFingerprint-resistant oleophobic coating\nSupport for display of multiple languages and characters simultaneously\nThe iPhone 13 Pro Max display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.68 inches diagonally (actual viewable area is less).\nSplash, Water, and Dust Resistant3\nRated IP68 (maximum depth of 6 meters up to 30 minutes) under IEC standard 60529\nChip\nA15 Bionic chip\nNew 6core CPU with 2 performance and 4 efficiency cores\nNew 5core GPU\nNew 16core Neural Engine\nCamera\nPro 12MP camera system: Telephoto, Wide, and Ultra Wide cameras\nTelephoto: /2.8 aperture\nWide: /1.5 aperture\nUltra Wide: /1.8 aperture and 120 field of view\n3x optical zoom in, 2x optical zoom out; 6x optical zoom range\nDigital zoom up to 15x\nNight mode portraits enabled by LiDAR Scanner\nPortrait mode with advanced bokeh and Depth Control\nPortrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, HighKey Mono)\nDual optical image stabilization (Telephoto and Wide)\nSensorshift optical image stabilization (Wide)\nSixelement lens (Telephoto and Ultra Wide); sevenelement lens (Wide)\nTrue Tone flash with Slow Sync\nPanorama (up to 63MP)\nSapphire crystal lens cover\n100% Focus Pixels (Wide)\nNight mode\nDeep Fusion\nSmart HDR 4\nPhotographic Styles\nMacro photography\nApple ProRAW\nWide color capture for photos and Live Photos\nLens correction (Ultra Wide)\nAdvanced redeye correction\nPhoto geotagging\nAuto image stabilization\nBurst mode\nImage formats captured: HEIF and JPEG\nVideo Recording\nCinematic mode for recording videos with shallow depth of field (in 1080p at 30 fps)\nHDR video recording with Dolby Vision up to 4K at 60 fps\n4K video recording at 24 fps, 25 fps, 30 fps, or 60 fps\n1080p HD video recording at 25 fps, 30 fps, or 60 fps\n720p HD video recording at 30 fps\nProRes video recording up to 4K at 30 fps (1080p at 30 fps for 128GB storage)\nMacro video recording, including slo-mo and timelapse\nDual optical image stabilization for video (Telephoto and Wide)\nSensorshift optical image stabilization for video (Wide)\n3x optical zoom in, 2x optical zoom out; 6x optical zoom range\nDigital zoom up to 9x\nAudio zoom\nTrue Tone flash\nQuickTake video\nSlomo vid",
+        "annotations": null
+      }
+    ],
+    "iphone_16_max_specs": [
+      {
+        "type": "text",
+        "text": "[trafilatura] iPhone 16 Pro Technical Specifications\nBlack Titanium, White Titanium, Natural Titanium, Desert Titanium\nBlack Titanium, White Titanium, Natural Titanium, Desert Titanium\n7.03 ounces (199 grams)\n7.99 ounces (227 grams)\n- Super Retina XDR display\n- 6.3inch (diagonal) allscreen OLED display\n- 2622by1206-pixel resolution at 460 ppi\n- Super Retina XDR display\n- 6.9inch (diagonal) allscreen OLED display\n- 2868by1320-pixel resolution at 460 ppi\n- Dynamic Island\n- Always-On display\n- ProMotion technology with adaptive refresh rates up to 120Hz\n- HDR display\n- True Tone\n- Wide color (P3)\n- Haptic Touch\n- 2,000,000:1 contrast ratio (typical)\n- 1000 nits max brightness (typical); 1600 nits peak brightness (HDR); 2000 nits peak brightness (outdoor); 1 nit minimum brightness\n- Fingerprint-resistant oleophobic coating\n- Support for display of multiple languages and characters simultaneously\nRated IP68 (maximum depth of 6 meters up to 30 minutes) under IEC standard 60529\nBuilt into your iPhone, Apple Intelligence is the personal intelligence system that helps you write, express yourself, and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data  not even Apple.4\n- A18 Pro chip\n- New 6core CPU with 2 performance and 4 efficiency cores\n- New 6core GPU\n- New 16core Neural Engine\n- Pro camera system\n- 48MP Fusion: 24 mm, /1.78 aperture, secondgeneration sensorshift optical image stabilization, 100% Focus Pixels, support for superhighresolution photos (24MP and 48MP)\n- Also enables 12MP 2x Telephoto: 48 mm, /1.78 aperture, second generation sensorshift optical image stabilization, 100% Focus Pixels\n- 48MP Ultra Wide: 13 mm, /2.2 aperture and 120 field of view, Hybrid Focus Pixels, super-high-resolution photos (48MP)\n- 12MP 5x Telephoto: 120 mm, /2.8 aperture and 20 field of view, 100% Focus Pixels, seven-element lens, 3D sensor-shift optical image stabilization and autofocus, tetraprism design\n- 5x optical zoom in, 2x optical zoom out; 10x optical zoom range\n- Digital zoom up to 25x\n- Camera Control\n- Customizable default lens (Fusion)\n- Sapphire crystal lens cover\n- Adaptive True Tone flash\n- Photonic Engine\n- Deep Fusion\n- Smart HDR 5\n- Next-generation portraits with Focus and Depth Control\n- Portrait Lighting with six effects\n- Night mode\n- Night mode portraits enabled by LiDAR Scanner\n- Panorama (up to 63MP)\n- Latest-generation Photographic Styles\n- Spatial photos\n- 48MP macro photography\n- Apple ProRAW\n- Wide color capture for photos and Live Photos\n- Lens correction (Ultra Wide)\n- Advanced red-eye correction\n- Auto image stabilization\n- Burst mode\n- Photo geotagging\n- Image formats captured: HEIF, JPEG, and DNG\n- 4K Dolby Vision video recording at 24 fps, 25 fps, 30 fps, 60 fps, 100 fps (Fusion), or 120 fps (Fusion)\n- 1080p Dolby Vision video recording at 25 fps, 30 fps, 60 fps, or 120 fps (Fusion)\n- 720p Dolby Vision video recording at 30 fps\n- Cinematic mode up to 4K Dolby Vis",
+        "annotations": null
+      }
+    ]
+  },
+  "memory": [
+    {
+      "query": "Extract specifications of iPhone 13 Max from URLs.",
+      "result_requirement": "Tool failed",
+      "summarizer_summary": "TypeError: expected string or bytes-like object, got 'list'"
+    }
+  ],
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "data": {
+          "index": "ROOT",
+          "description": "initial query",
+          "type": "ROOT",
+          "status": "completed",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "iPhone 13 Max",
+              "iPhone 16 Max",
+              "specifications"
+            ],
+            "result_requirement": "Markdown table comparing specifications of iPhone 13 Max and iPhone 16 Max",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.85",
+            "reasoning": "The query requires fetching and comparing specifications of two phone models. This requires external data retrieval and processing to create a markdown table. No information present in `memory_excerpt` or `globals_schema` to directly answer this.",
+            "local_reasoning": "Initial query requires information retrieval, which is not available in memory.",
+            "last_tooluse_summary": "Not applicable",
+            "summarizer_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "from_step": null
+        },
+        "id": "ROOT"
+      },
+      {
+        "data": {
+          "index": "0",
+          "description": "Extract specifications of iPhone 13 Max from URLs.",
+          "type": "CODE",
+          "status": "Skipped",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "1"
+        },
+        "id": "0"
+      },
+      {
+        "data": {
+          "index": "1",
+          "description": "Extract specifications of iPhone 16 Max from URLs.",
+          "type": "CODE",
+          "status": "completed",
+          "result": {
+            "iphone_16_max_specs": [
+              {
+                "type": "text",
+                "text": "[trafilatura] iPhone 16 Pro Technical Specifications\nBlack Titanium, White Titanium, Natural Titanium, Desert Titanium\nBlack Titanium, White Titanium, Natural Titanium, Desert Titanium\n7.03 ounces (199 grams)\n7.99 ounces (227 grams)\n- Super Retina XDR display\n- 6.3inch (diagonal) allscreen OLED display\n- 2622by1206-pixel resolution at 460 ppi\n- Super Retina XDR display\n- 6.9inch (diagonal) allscreen OLED display\n- 2868by1320-pixel resolution at 460 ppi\n- Dynamic Island\n- Always-On display\n- ProMotion technology with adaptive refresh rates up to 120Hz\n- HDR display\n- True Tone\n- Wide color (P3)\n- Haptic Touch\n- 2,000,000:1 contrast ratio (typical)\n- 1000 nits max brightness (typical); 1600 nits peak brightness (HDR); 2000 nits peak brightness (outdoor); 1 nit minimum brightness\n- Fingerprint-resistant oleophobic coating\n- Support for display of multiple languages and characters simultaneously\nRated IP68 (maximum depth of 6 meters up to 30 minutes) under IEC standard 60529\nBuilt into your iPhone, Apple Intelligence is the personal intelligence system that helps you write, express yourself, and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data  not even Apple.4\n- A18 Pro chip\n- New 6core CPU with 2 performance and 4 efficiency cores\n- New 6core GPU\n- New 16core Neural Engine\n- Pro camera system\n- 48MP Fusion: 24 mm, /1.78 aperture, secondgeneration sensorshift optical image stabilization, 100% Focus Pixels, support for superhighresolution photos (24MP and 48MP)\n- Also enables 12MP 2x Telephoto: 48 mm, /1.78 aperture, second generation sensorshift optical image stabilization, 100% Focus Pixels\n- 48MP Ultra Wide: 13 mm, /2.2 aperture and 120 field of view, Hybrid Focus Pixels, super-high-resolution photos (48MP)\n- 12MP 5x Telephoto: 120 mm, /2.8 aperture and 20 field of view, 100% Focus Pixels, seven-element lens, 3D sensor-shift optical image stabilization and autofocus, tetraprism design\n- 5x optical zoom in, 2x optical zoom out; 10x optical zoom range\n- Digital zoom up to 25x\n- Camera Control\n- Customizable default lens (Fusion)\n- Sapphire crystal lens cover\n- Adaptive True Tone flash\n- Photonic Engine\n- Deep Fusion\n- Smart HDR 5\n- Next-generation portraits with Focus and Depth Control\n- Portrait Lighting with six effects\n- Night mode\n- Night mode portraits enabled by LiDAR Scanner\n- Panorama (up to 63MP)\n- Latest-generation Photographic Styles\n- Spatial photos\n- 48MP macro photography\n- Apple ProRAW\n- Wide color capture for photos and Live Photos\n- Lens correction (Ultra Wide)\n- Advanced red-eye correction\n- Auto image stabilization\n- Burst mode\n- Photo geotagging\n- Image formats captured: HEIF, JPEG, and DNG\n- 4K Dolby Vision video recording at 24 fps, 25 fps, 30 fps, 60 fps, 100 fps (Fusion), or 120 fps (Fusion)\n- 1080p Dolby Vision video recording at 25 fps, 30 fps, 60 fps, or 120 fps (Fusion)\n- 720p Dolby Vision video recording at 30 fps\n- Cinematic mode up to 4K Dolby Vis",
+                "annotations": null
+              }
+            ]
+          },
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "iPhone 13 Max",
+              "iPhone 16 Max",
+              "specifications"
+            ],
+            "result_requirement": "Markdown table comparing specifications of iPhone 13 Max and iPhone 16 Max",
+            "original_goal_achieved": false,
+            "local_goal_achieved": true,
+            "confidence": "0.9",
+            "reasoning": "We have specifications for both iPhone 13 Max and iPhone 16 Max in the `globals_schema`. We can now summarize into a markdown table.",
+            "local_reasoning": "Tool run was successful and we can proceed to summary.",
+            "last_tooluse_summary": "CODE ran to extract specifications.",
+            "summarizer_summary": "Ready to summarize the comparison.",
+            "route": "summarize",
+            "instruction_to_summarize": "Create a markdown table comparing the specifications of iPhone 13 Max and iPhone 16 Max. Use the data available in `globals_schema`. Include key specifications like display, processor, camera, storage, and dimensions. Focus on user-relevant details."
+          },
+          "from_step": "1"
+        },
+        "id": "1"
+      },
+      {
+        "data": {
+          "index": "2",
+          "description": "Generate a markdown table comparing iPhone 13 Max and iPhone 16 Max specifications.",
+          "type": "CODE",
+          "status": "Skipped",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "1"
+        },
+        "id": "2"
+      },
+      {
+        "data": {
+          "index": "3",
+          "description": "Compare the specifications of iPhone 13 Max and iPhone 16 Max and output in markdown table format.",
+          "type": "CODE",
+          "status": "Skipped",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "0"
+        },
+        "id": "3"
+      },
+      {
+        "data": {
+          "index": "4",
+          "description": "Combine and present specifications in a markdown table.",
+          "type": "CODE",
+          "status": "Skipped",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "1"
+        },
+        "id": "4"
+      }
+    ],
+    "links": [
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "0"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "1"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "2"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "3"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "4"
+      },
+      {
+        "type": "normal",
+        "source": "0",
+        "target": "0"
+      },
+      {
+        "type": "normal",
+        "source": "0",
+        "target": "1"
+      },
+      {
+        "type": "normal",
+        "source": "0",
+        "target": "2"
+      },
+      {
+        "type": "normal",
+        "source": "0",
+        "target": "3"
+      },
+      {
+        "type": "normal",
+        "source": "1",
+        "target": "0"
+      },
+      {
+        "type": "normal",
+        "source": "1",
+        "target": "1"
+      },
+      {
+        "type": "normal",
+        "source": "1",
+        "target": "2"
+      },
+      {
+        "type": "normal",
+        "source": "1",
+        "target": "3"
+      },
+      {
+        "type": "normal",
+        "source": "1",
+        "target": "4"
+      }
+    ]
+  }
+}

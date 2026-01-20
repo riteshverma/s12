@@ -1,0 +1,609 @@
+{
+  "context": {
+    "session_id": "d157520e-d973-4683-b267-85b6939daef1",
+    "original_query": "Query 1: What happened to stock price of Wipro on https://www.nseindia.com/get-quotes/equity?symbol=WIPRO",
+    "globals": {
+      "memory": [],
+      "raw_text_0A": [
+        {
+          "type": "text",
+          "text": "[visible] Wipro Limited Share Price Today, Stock Price, Live NSE News, Quotes, Tips  NSE India\nOption Chain\nMarket Turnover\nListings\nIPO\nCirculars\nDaily Report\nHolidays\nCorporates\nPress Releases\nContact Us\nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\nFont Size\nA+\n|\nReset\n|\nA-\nContrast\nHigh Contrast\n|\nReset\n24,945.45\n-74.35\n(\n-0.3\n%)\n19-May-2025 15:30\nStreaming\nStreaming\non\noff\nStreaming Speed\nSlow\nMedium\nFast\n(\n%)\nIndicative close\nFutures 29-May-2025\n25,013.00\n21.50\n(\n0.09\n%)\n19-May-2025 16:55\nUSDINR\nFutures\n28-May-2025\n|\n85.4650\n19-May-2025 16:55\nMarket Capitalization\nLac Crs 441.37\n|\nTn $ 5.16\n19-May-2025\nHome\nAbout\nAbout NSE\nAbout Us\nStructure & Key Personnel\nInvestor Relations\nAwards and Recognitions\nRegulations\nEvent Gallery\nMedia\nHolidays\nCareers\nContact Us\nNSE Group companies\nNSE Academy\nNSE Clearing\nNSE Data & Analytics\nNSE Foundation\nNSE Indices\nNSE International Exchange\nNSE International Clearing\nNSE Investments\nView all\nProducts & Services\nEquity Market\nIndices\nEmerge Platform\nMutual Funds\nEquity Derivatives\nCurrency Derivatives\nCommodity Derivatives\nInterest Rate Derivatives\nFixed Income and Debt\nPublic Issues\nAbout Us\nFind everything about the leading stock exchange of India\nOur Group\nCheck NSE's group of the companies\nOur Products\nBrowse a comprehensive and innovative product and service offerings by NSE\nMarket Data\nEquity\nNew Listings\nPre-Open Market\nEquity & SME Market\nIndices\nGainers/Losers\nMost Active Equities\nPrice Band Hitters\n52 Week High/Low\nLarge Deals\nAdvances / Declines\nSecurities Lending & Borrowing\nCall auction for Illiquid Securities\nSecurities available for Trading\nPrice Bands & Surveillance Actions\nPosition/Investment Limits\nLegend of series\nDaily Reports\nHistorical Reports\nDerivatives\nDerivatives Market\nOption Chain\nMost Active Contracts\nMost Active Underlying\nChange in Open Interest\nLiquidity Enhancement Scheme\nContracts available for Trading\nDaily Reports\nHistorical Reports\nDebt & Fixed Income\nTraded on CM\nCBRICS\nRFQ\nNegotiated Trades\nTrade Repository\nTri-Party Repo\nDaily Reports\nHistorical Reports\nPrimary Markets\nIPO\nOffer For Sale\nNCB G-SEC\nInstitutional Placement Program (IPP)\nTender Offer\nRights\nINVITS\nREITS\nReverse Book Building\nMarket Snapshot\nLive Analysis of top gainers/losers, most active securities/contracts, price band hitters, overview of the market.\nOption Chain\nView Option chain for the exchange\nHistorical Reports\nView Historical Reports of securities/contracts traded on the Exchange.\nInvest\nInvestor Education\nInvesting in Securities Market\nProduct Segment\nCharges and Taxes\nInvestment limits for FIIs\nInvestor Awareness\nInvestor Charter\nProtection from Fraud\nInvestor Awareness Programs\nRegulatory Action\nRegistered Investors\nForeign Portfolio Investors (FPI)\nResources & Tools\nLocate your Stock Broker\nCompany Directory\nExit Option for shareholders\nFeedback\nInvestor's Home\nInvestor education on how to invest safely and protec",
+          "annotations": null
+        }
+      ]
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: What happened to stock price of Wipro on https://www.nseindia.com/get-quotes/equity?symbol=WIPRO",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "As of 15:30 on May 19, 2025, the stock price of **Wipro** is **24,945.45** on the NSE, with a change of **-74.35 (-0.3%)**.",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Wipro",
+                "stock price",
+                "NSE"
+              ],
+              "result_requirement": "Stock price change of Wipro from NSE India website",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.9",
+              "reasoning": "The query requires fetching and processing information from a specific URL to determine the stock price change of Wipro. This requires a tool.",
+              "local_reasoning": "The query is not solvable from memory or globals and requires external information retrieval.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Fetch the raw text content from the NSE India webpage for Wipro.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "raw_text_0A": [
+                {
+                  "type": "text",
+                  "text": "[visible] Wipro Limited Share Price Today, Stock Price, Live NSE News, Quotes, Tips  NSE India\nOption Chain\nMarket Turnover\nListings\nIPO\nCirculars\nDaily Report\nHolidays\nCorporates\nPress Releases\nContact Us\nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\nFont Size\nA+\n|\nReset\n|\nA-\nContrast\nHigh Contrast\n|\nReset\n24,945.45\n-74.35\n(\n-0.3\n%)\n19-May-2025 15:30\nStreaming\nStreaming\non\noff\nStreaming Speed\nSlow\nMedium\nFast\n(\n%)\nIndicative close\nFutures 29-May-2025\n25,013.00\n21.50\n(\n0.09\n%)\n19-May-2025 16:55\nUSDINR\nFutures\n28-May-2025\n|\n85.4650\n19-May-2025 16:55\nMarket Capitalization\nLac Crs 441.37\n|\nTn $ 5.16\n19-May-2025\nHome\nAbout\nAbout NSE\nAbout Us\nStructure & Key Personnel\nInvestor Relations\nAwards and Recognitions\nRegulations\nEvent Gallery\nMedia\nHolidays\nCareers\nContact Us\nNSE Group companies\nNSE Academy\nNSE Clearing\nNSE Data & Analytics\nNSE Foundation\nNSE Indices\nNSE International Exchange\nNSE International Clearing\nNSE Investments\nView all\nProducts & Services\nEquity Market\nIndices\nEmerge Platform\nMutual Funds\nEquity Derivatives\nCurrency Derivatives\nCommodity Derivatives\nInterest Rate Derivatives\nFixed Income and Debt\nPublic Issues\nAbout Us\nFind everything about the leading stock exchange of India\nOur Group\nCheck NSE's group of the companies\nOur Products\nBrowse a comprehensive and innovative product and service offerings by NSE\nMarket Data\nEquity\nNew Listings\nPre-Open Market\nEquity & SME Market\nIndices\nGainers/Losers\nMost Active Equities\nPrice Band Hitters\n52 Week High/Low\nLarge Deals\nAdvances / Declines\nSecurities Lending & Borrowing\nCall auction for Illiquid Securities\nSecurities available for Trading\nPrice Bands & Surveillance Actions\nPosition/Investment Limits\nLegend of series\nDaily Reports\nHistorical Reports\nDerivatives\nDerivatives Market\nOption Chain\nMost Active Contracts\nMost Active Underlying\nChange in Open Interest\nLiquidity Enhancement Scheme\nContracts available for Trading\nDaily Reports\nHistorical Reports\nDebt & Fixed Income\nTraded on CM\nCBRICS\nRFQ\nNegotiated Trades\nTrade Repository\nTri-Party Repo\nDaily Reports\nHistorical Reports\nPrimary Markets\nIPO\nOffer For Sale\nNCB G-SEC\nInstitutional Placement Program (IPP)\nTender Offer\nRights\nINVITS\nREITS\nReverse Book Building\nMarket Snapshot\nLive Analysis of top gainers/losers, most active securities/contracts, price band hitters, overview of the market.\nOption Chain\nView Option chain for the exchange\nHistorical Reports\nView Historical Reports of securities/contracts traded on the Exchange.\nInvest\nInvestor Education\nInvesting in Securities Market\nProduct Segment\nCharges and Taxes\nInvestment limits for FIIs\nInvestor Awareness\nInvestor Charter\nProtection from Fraud\nInvestor Awareness Programs\nRegulatory Action\nRegistered Investors\nForeign Portfolio Investors (FPI)\nResources & Tools\nLocate your Stock Broker\nCompany Directory\nExit Option for shareholders\nFeedback\nInvestor's Home\nInvestor education on how to invest safely and protec",
+                  "annotations": null
+                }
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Wipro",
+                "stock price",
+                "NSE"
+              ],
+              "result_requirement": "Stock price and change of Wipro from NSE India website",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "0.95",
+              "reasoning": "The stock price and its change are present in the extracted text.",
+              "local_reasoning": "The tool extracted the relevant information from the NSE website.",
+              "last_tooluse_summary": "webpage_url_to_raw_text succeeded and extracted stock price information.",
+              "solution_summary": "Wipro's stock price is 24,945.45, with a change of -74.35 (-0.3%) as of 19-May-2025 15:30.",
+              "route": "summarize",
+              "instruction_to_summarize": "Summarize the stock price of Wipro, its change, and the timestamp from the extracted text in markdown format."
+            },
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        },
+        {
+          "data": {
+            "index": "1",
+            "description": "Extract the current stock price of Wipro from the fetched text.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "ROOT"
+          },
+          "id": "1"
+        },
+        {
+          "data": {
+            "index": "2",
+            "description": "Search for historical Wipro stock data (e.g., previous day's closing price) to calculate the price change.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "ROOT"
+          },
+          "id": "2"
+        },
+        {
+          "data": {
+            "index": "3",
+            "description": "Calculate the stock price change and summarize the findings.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "ROOT"
+          },
+          "id": "3"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "2"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "3"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "d157520e-d973-4683-b267-85b6939daef1",
+    "original_query": "Query 1: What happened to stock price of Wipro on https://www.nseindia.com/get-quotes/equity?symbol=WIPRO",
+    "perception_snapshots": [
+      {
+        "run_id": "d157520e-d973-4683-b267-85b6939daef1-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "Wipro",
+          "stock price",
+          "NSE"
+        ],
+        "result_requirement": "Stock price change of Wipro from NSE India website",
+        "original_goal_achieved": false,
+        "reasoning": "The query requires fetching and processing information from a specific URL to determine the stock price change of Wipro. This requires a tool.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The query is not solvable from memory or globals and requires external information retrieval.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.9",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "d157520e-d973-4683-b267-85b6939daef1-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "Wipro",
+          "stock price",
+          "NSE"
+        ],
+        "result_requirement": "Stock price and change of Wipro from NSE India website",
+        "original_goal_achieved": true,
+        "reasoning": "The stock price and its change are present in the extracted text.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The tool extracted the relevant information from the NSE website.",
+        "last_tooluse_summary": "webpage_url_to_raw_text succeeded and extracted stock price information.",
+        "solution_summary": "Wipro's stock price is 24,945.45, with a change of -74.35 (-0.3%) as of 19-May-2025 15:30.",
+        "confidence": "0.95",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "cace5d67-420d-4ee2-b353-3dfb2865a108",
+        "input": {
+          "current_time": "2025-05-19T11:26:29.583421",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: What happened to stock price of Wipro on https://www.nseindia.com/get-quotes/equity?symbol=WIPRO",
+          "perception": {
+            "entities": [
+              "Wipro",
+              "stock price",
+              "NSE"
+            ],
+            "result_requirement": "Stock price change of Wipro from NSE India website",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.9",
+            "reasoning": "The query requires fetching and processing information from a specific URL to determine the stock price change of Wipro. This requires a tool.",
+            "local_reasoning": "The query is not solvable from memory or globals and requires external information retrieval.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Wipro",
+                  "stock price",
+                  "NSE"
+                ],
+                "result_requirement": "Stock price change of Wipro from NSE India website",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The query requires fetching and processing information from a specific URL to determine the stock price change of Wipro. This requires a tool.",
+                "local_reasoning": "The query is not solvable from memory or globals and requires external information retrieval.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Wipro",
+                  "stock price",
+                  "NSE"
+                ],
+                "result_requirement": "Stock price change of Wipro from NSE India website",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The query requires fetching and processing information from a specific URL to determine the stock price change of Wipro. This requires a tool.",
+                "local_reasoning": "The query is not solvable from memory or globals and requires external information retrieval.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[]"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Fetch the raw text content from the NSE India webpage for Wipro."
+              },
+              {
+                "id": "1",
+                "description": "Extract the current stock price of Wipro from the fetched text."
+              },
+              {
+                "id": "2",
+                "description": "Search for historical Wipro stock data (e.g., previous day's closing price) to calculate the price change."
+              },
+              {
+                "id": "3",
+                "description": "Calculate the stock price change and summarize the findings."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              },
+              {
+                "from": "1",
+                "to": "2",
+                "type": "normal"
+              },
+              {
+                "from": "2",
+                "to": "3",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "url = \"https://www.nseindia.com/get-quotes/equity?symbol=WIPRO\"\nraw_text_0A = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0A\": raw_text_0A}",
+            "CODE_0B": "url = \"https://www.nseindia.com/get-quotes/equity?symbol=WIPRO\"\nsummary_0B = webpage_url_to_summary(url)\nreturn {\"summary_0B\": summary_0B}",
+            "CODE_0C": "url = \"https://www.nseindia.com/get-quotes/equity?symbol=WIPRO\"\nraw_text_0C = webpage_url_to_raw_text(url)\nif raw_text_0C:\n    return {\"raw_text_0C\": raw_text_0C}\nelse:\n    return {\"raw_text_0C\": \"\"}"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Fetch the raw text content from the NSE India webpage for Wipro."
+            },
+            {
+              "id": "1",
+              "description": "Extract the current stock price of Wipro from the fetched text."
+            },
+            {
+              "id": "2",
+              "description": "Search for historical Wipro stock data (e.g., previous day's closing price) to calculate the price change."
+            },
+            {
+              "id": "3",
+              "description": "Calculate the stock price change and summarize the findings."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            },
+            {
+              "from": "1",
+              "to": "2",
+              "type": "normal"
+            },
+            {
+              "from": "2",
+              "to": "3",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "url = \"https://www.nseindia.com/get-quotes/equity?symbol=WIPRO\"\nraw_text_0A = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0A\": raw_text_0A}",
+          "CODE_0B": "url = \"https://www.nseindia.com/get-quotes/equity?symbol=WIPRO\"\nsummary_0B = webpage_url_to_summary(url)\nreturn {\"summary_0B\": summary_0B}",
+          "CODE_0C": "url = \"https://www.nseindia.com/get-quotes/equity?symbol=WIPRO\"\nraw_text_0C = webpage_url_to_raw_text(url)\nif raw_text_0C:\n    return {\"raw_text_0C\": raw_text_0C}\nelse:\n    return {\"raw_text_0C\": \"\"}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [
+      {
+        "run_id": "48937a05-1814-4ade-b0ba-69d492d0ee48",
+        "step_id": "0",
+        "variant_used": "CODE_0A",
+        "code": "url = \"https://www.nseindia.com/get-quotes/equity?symbol=WIPRO\"\nraw_text_0A = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0A\": raw_text_0A}",
+        "status": "success",
+        "result": {
+          "raw_text_0A": [
+            {
+              "type": "text",
+              "text": "[visible] Wipro Limited Share Price Today, Stock Price, Live NSE News, Quotes, Tips  NSE India\nOption Chain\nMarket Turnover\nListings\nIPO\nCirculars\nDaily Report\nHolidays\nCorporates\nPress Releases\nContact Us\nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\nFont Size\nA+\n|\nReset\n|\nA-\nContrast\nHigh Contrast\n|\nReset\n24,945.45\n-74.35\n(\n-0.3\n%)\n19-May-2025 15:30\nStreaming\nStreaming\non\noff\nStreaming Speed\nSlow\nMedium\nFast\n(\n%)\nIndicative close\nFutures 29-May-2025\n25,013.00\n21.50\n(\n0.09\n%)\n19-May-2025 16:55\nUSDINR\nFutures\n28-May-2025\n|\n85.4650\n19-May-2025 16:55\nMarket Capitalization\nLac Crs 441.37\n|\nTn $ 5.16\n19-May-2025\nHome\nAbout\nAbout NSE\nAbout Us\nStructure & Key Personnel\nInvestor Relations\nAwards and Recognitions\nRegulations\nEvent Gallery\nMedia\nHolidays\nCareers\nContact Us\nNSE Group companies\nNSE Academy\nNSE Clearing\nNSE Data & Analytics\nNSE Foundation\nNSE Indices\nNSE International Exchange\nNSE International Clearing\nNSE Investments\nView all\nProducts & Services\nEquity Market\nIndices\nEmerge Platform\nMutual Funds\nEquity Derivatives\nCurrency Derivatives\nCommodity Derivatives\nInterest Rate Derivatives\nFixed Income and Debt\nPublic Issues\nAbout Us\nFind everything about the leading stock exchange of India\nOur Group\nCheck NSE's group of the companies\nOur Products\nBrowse a comprehensive and innovative product and service offerings by NSE\nMarket Data\nEquity\nNew Listings\nPre-Open Market\nEquity & SME Market\nIndices\nGainers/Losers\nMost Active Equities\nPrice Band Hitters\n52 Week High/Low\nLarge Deals\nAdvances / Declines\nSecurities Lending & Borrowing\nCall auction for Illiquid Securities\nSecurities available for Trading\nPrice Bands & Surveillance Actions\nPosition/Investment Limits\nLegend of series\nDaily Reports\nHistorical Reports\nDerivatives\nDerivatives Market\nOption Chain\nMost Active Contracts\nMost Active Underlying\nChange in Open Interest\nLiquidity Enhancement Scheme\nContracts available for Trading\nDaily Reports\nHistorical Reports\nDebt & Fixed Income\nTraded on CM\nCBRICS\nRFQ\nNegotiated Trades\nTrade Repository\nTri-Party Repo\nDaily Reports\nHistorical Reports\nPrimary Markets\nIPO\nOffer For Sale\nNCB G-SEC\nInstitutional Placement Program (IPP)\nTender Offer\nRights\nINVITS\nREITS\nReverse Book Building\nMarket Snapshot\nLive Analysis of top gainers/losers, most active securities/contracts, price band hitters, overview of the market.\nOption Chain\nView Option chain for the exchange\nHistorical Reports\nView Historical Reports of securities/contracts traded on the Exchange.\nInvest\nInvestor Education\nInvesting in Securities Market\nProduct Segment\nCharges and Taxes\nInvestment limits for FIIs\nInvestor Awareness\nInvestor Charter\nProtection from Fraud\nInvestor Awareness Programs\nRegulatory Action\nRegistered Investors\nForeign Portfolio Investors (FPI)\nResources & Tools\nLocate your Stock Broker\nCompany Directory\nExit Option for shareholders\nFeedback\nInvestor's Home\nInvestor education on how to invest safely and protec",
+              "annotations": null
+            }
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 16:56:34",
+        "total_time": "6.809",
+        "return_to": ""
+      }
+    ],
+    "summarizer_snapshots": [
+      {
+        "run_id": "6ccf93f3-fde6-4f40-bc71-d1a12d1ed4bc",
+        "input": {
+          "original_query": "Query 1: What happened to stock price of Wipro on https://www.nseindia.com/get-quotes/equity?symbol=WIPRO",
+          "globals_schema": {
+            "memory": [],
+            "raw_text_0A": [
+              {
+                "type": "text",
+                "text": "[visible] Wipro Limited Share Price Today, Stock Price, Live NSE News, Quotes, Tips  NSE India\nOption Chain\nMarket Turnover\nListings\nIPO\nCirculars\nDaily Report\nHolidays\nCorporates\nPress Releases\nContact Us\nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\nFont Size\nA+\n|\nReset\n|\nA-\nContrast\nHigh Contrast\n|\nReset\n24,945.45\n-74.35\n(\n-0.3\n%)\n19-May-2025 15:30\nStreaming\nStreaming\non\noff\nStreaming Speed\nSlow\nMedium\nFast\n(\n%)\nIndicative close\nFutures 29-May-2025\n25,013.00\n21.50\n(\n0.09\n%)\n19-May-2025 16:55\nUSDINR\nFutures\n28-May-2025\n|\n85.4650\n19-May-2025 16:55\nMarket Capitalization\nLac Crs 441.37\n|\nTn $ 5.16\n19-May-2025\nHome\nAbout\nAbout NSE\nAbout Us\nStructure & Key Personnel\nInvestor Relations\nAwards and Recognitions\nRegulations\nEvent Gallery\nMedia\nHolidays\nCareers\nContact Us\nNSE Group companies\nNSE Academy\nNSE Clearing\nNSE Data & Analytics\nNSE Foundation\nNSE Indices\nNSE International Exchange\nNSE International Clearing\nNSE Investments\nView all\nProducts & Services\nEquity Market\nIndices\nEmerge Platform\nMutual Funds\nEquity Derivatives\nCurrency Derivatives\nCommodity Derivatives\nInterest Rate Derivatives\nFixed Income and Debt\nPublic Issues\nAbout Us\nFind everything about the leading stock exchange of India\nOur Group\nCheck NSE's group of the companies\nOur Products\nBrowse a comprehensive and innovative product and service offerings by NSE\nMarket Data\nEquity\nNew Listings\nPre-Open Market\nEquity & SME Market\nIndices\nGainers/Losers\nMost Active Equities\nPrice Band Hitters\n52 Week High/Low\nLarge Deals\nAdvances / Declines\nSecurities Lending & Borrowing\nCall auction for Illiquid Securities\nSecurities available for Trading\nPrice Bands & Surveillance Actions\nPosition/Investment Limits\nLegend of series\nDaily Reports\nHistorical Reports\nDerivatives\nDerivatives Market\nOption Chain\nMost Active Contracts\nMost Active Underlying\nChange in Open Interest\nLiquidity Enhancement Scheme\nContracts available for Trading\nDaily Reports\nHistorical Reports\nDebt & Fixed Income\nTraded on CM\nCBRICS\nRFQ\nNegotiated Trades\nTrade Repository\nTri-Party Repo\nDaily Reports\nHistorical Reports\nPrimary Markets\nIPO\nOffer For Sale\nNCB G-SEC\nInstitutional Placement Program (IPP)\nTender Offer\nRights\nINVITS\nREITS\nReverse Book Building\nMarket Snapshot\nLive Analysis of top gainers/losers, most active securities/contracts, price band hitters, overview of the market.\nOption Chain\nView Option chain for the exchange\nHistorical Reports\nView Historical Reports of securities/contracts traded on the Exchange.\nInvest\nInvestor Education\nInvesting in Securities Market\nProduct Segment\nCharges and Taxes\nInvestment limits for FIIs\nInvestor Awareness\nInvestor Charter\nProtection from Fraud\nInvestor Awareness Programs\nRegulatory Action\nRegistered Investors\nForeign Portfolio Investors (FPI)\nResources & Tools\nLocate your Stock Broker\nCompany Directory\nExit Option for shareholders\nFeedback\nInvestor's Home\nInvestor education on how to invest safely and protec",
+                "annotations": null
+              }
+            ]
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Wipro",
+                      "stock price",
+                      "NSE"
+                    ],
+                    "result_requirement": "Stock price change of Wipro from NSE India website",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.9",
+                    "reasoning": "The query requires fetching and processing information from a specific URL to determine the stock price change of Wipro. This requires a tool.",
+                    "local_reasoning": "The query is not solvable from memory or globals and requires external information retrieval.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "0",
+                  "description": "Fetch the raw text content from the NSE India webpage for Wipro.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "raw_text_0A": [
+                      {
+                        "type": "text",
+                        "text": "[visible] Wipro Limited Share Price Today, Stock Price, Live NSE News, Quotes, Tips  NSE India\nOption Chain\nMarket Turnover\nListings\nIPO\nCirculars\nDaily Report\nHolidays\nCorporates\nPress Releases\nContact Us\nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\nFont Size\nA+\n|\nReset\n|\nA-\nContrast\nHigh Contrast\n|\nReset\n24,945.45\n-74.35\n(\n-0.3\n%)\n19-May-2025 15:30\nStreaming\nStreaming\non\noff\nStreaming Speed\nSlow\nMedium\nFast\n(\n%)\nIndicative close\nFutures 29-May-2025\n25,013.00\n21.50\n(\n0.09\n%)\n19-May-2025 16:55\nUSDINR\nFutures\n28-May-2025\n|\n85.4650\n19-May-2025 16:55\nMarket Capitalization\nLac Crs 441.37\n|\nTn $ 5.16\n19-May-2025\nHome\nAbout\nAbout NSE\nAbout Us\nStructure & Key Personnel\nInvestor Relations\nAwards and Recognitions\nRegulations\nEvent Gallery\nMedia\nHolidays\nCareers\nContact Us\nNSE Group companies\nNSE Academy\nNSE Clearing\nNSE Data & Analytics\nNSE Foundation\nNSE Indices\nNSE International Exchange\nNSE International Clearing\nNSE Investments\nView all\nProducts & Services\nEquity Market\nIndices\nEmerge Platform\nMutual Funds\nEquity Derivatives\nCurrency Derivatives\nCommodity Derivatives\nInterest Rate Derivatives\nFixed Income and Debt\nPublic Issues\nAbout Us\nFind everything about the leading stock exchange of India\nOur Group\nCheck NSE's group of the companies\nOur Products\nBrowse a comprehensive and innovative product and service offerings by NSE\nMarket Data\nEquity\nNew Listings\nPre-Open Market\nEquity & SME Market\nIndices\nGainers/Losers\nMost Active Equities\nPrice Band Hitters\n52 Week High/Low\nLarge Deals\nAdvances / Declines\nSecurities Lending & Borrowing\nCall auction for Illiquid Securities\nSecurities available for Trading\nPrice Bands & Surveillance Actions\nPosition/Investment Limits\nLegend of series\nDaily Reports\nHistorical Reports\nDerivatives\nDerivatives Market\nOption Chain\nMost Active Contracts\nMost Active Underlying\nChange in Open Interest\nLiquidity Enhancement Scheme\nContracts available for Trading\nDaily Reports\nHistorical Reports\nDebt & Fixed Income\nTraded on CM\nCBRICS\nRFQ\nNegotiated Trades\nTrade Repository\nTri-Party Repo\nDaily Reports\nHistorical Reports\nPrimary Markets\nIPO\nOffer For Sale\nNCB G-SEC\nInstitutional Placement Program (IPP)\nTender Offer\nRights\nINVITS\nREITS\nReverse Book Building\nMarket Snapshot\nLive Analysis of top gainers/losers, most active securities/contracts, price band hitters, overview of the market.\nOption Chain\nView Option chain for the exchange\nHistorical Reports\nView Historical Reports of securities/contracts traded on the Exchange.\nInvest\nInvestor Education\nInvesting in Securities Market\nProduct Segment\nCharges and Taxes\nInvestment limits for FIIs\nInvestor Awareness\nInvestor Charter\nProtection from Fraud\nInvestor Awareness Programs\nRegulatory Action\nRegistered Investors\nForeign Portfolio Investors (FPI)\nResources & Tools\nLocate your Stock Broker\nCompany Directory\nExit Option for shareholders\nFeedback\nInvestor's Home\nInvestor education on how to invest safely and protec",
+                        "annotations": null
+                      }
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Wipro",
+                      "stock price",
+                      "NSE"
+                    ],
+                    "result_requirement": "Stock price and change of Wipro from NSE India website",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "0.95",
+                    "reasoning": "The stock price and its change are present in the extracted text.",
+                    "local_reasoning": "The tool extracted the relevant information from the NSE website.",
+                    "last_tooluse_summary": "webpage_url_to_raw_text succeeded and extracted stock price information.",
+                    "solution_summary": "Wipro's stock price is 24,945.45, with a change of -74.35 (-0.3%) as of 19-May-2025 15:30.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Summarize the stock price of Wipro, its change, and the timestamp from the extracted text in markdown format."
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "0"
+              },
+              {
+                "data": {
+                  "index": "1",
+                  "description": "Extract the current stock price of Wipro from the fetched text.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "ROOT"
+                },
+                "id": "1"
+              },
+              {
+                "data": {
+                  "index": "2",
+                  "description": "Search for historical Wipro stock data (e.g., previous day's closing price) to calculate the price change.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "ROOT"
+                },
+                "id": "2"
+              },
+              {
+                "data": {
+                  "index": "3",
+                  "description": "Calculate the stock price change and summarize the findings.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "ROOT"
+                },
+                "id": "3"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "0"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "2"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "3"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "Wipro",
+              "stock price",
+              "NSE"
+            ],
+            "result_requirement": "Stock price and change of Wipro from NSE India website",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.95",
+            "reasoning": "The stock price and its change are present in the extracted text.",
+            "local_reasoning": "The tool extracted the relevant information from the NSE website.",
+            "last_tooluse_summary": "webpage_url_to_raw_text succeeded and extracted stock price information.",
+            "solution_summary": "Wipro's stock price is 24,945.45, with a change of -74.35 (-0.3%) as of 19-May-2025 15:30.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize the stock price of Wipro, its change, and the timestamp from the extracted text in markdown format."
+          }
+        },
+        "summary_output": "As of 15:30 on May 19, 2025, the stock price of **Wipro** is **24,945.45** on the NSE, with a change of **-74.35 (-0.3%)**.",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-19T11:25:57Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "As of 15:30 on May 19, 2025, the stock price of **Wipro** is **24,945.45** on the NSE, with a change of **-74.35 (-0.3%)**.",
+    "status": "success",
+    "completed_at": "2025-05-19T11:26:50.189099"
+  },
+  "status": "success",
+  "final_step_id": "3",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-19T11:26:50.192099",
+  "original_query": "Query 1: What happened to stock price of Wipro on https://www.nseindia.com/get-quotes/equity?symbol=WIPRO",
+  "final_summary": "As of 15:30 on May 19, 2025, the stock price of **Wipro** is **24,945.45** on the NSE, with a change of **-74.35 (-0.3%)**."
+}

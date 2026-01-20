@@ -1,0 +1,482 @@
+{
+  "context": {
+    "session_id": "766a38e6-a2bf-410c-96e3-0449eef9c6a2",
+    "original_query": "Query 1: What's the latest news about F35?",
+    "globals": {},
+    "memory": [
+      {
+        "original_query": "Query 1: What's the latest news about F35?",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "No recent news about the F35 was found using the search tool. The search returned no results.",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "F35",
+                "news"
+              ],
+              "result_requirement": "Latest news about the F35 fighter jet.",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.9",
+              "reasoning": "The query requires fetching and summarizing news about the F35. This requires a tool call.",
+              "local_reasoning": "The query is a straightforward request for information that is not immediately available in memory or globals.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Search for recent news articles about the F35.",
+            "type": "CODE",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "F35",
+                "news"
+              ],
+              "result_requirement": "Latest news about the F35 fighter jet.",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.4",
+              "reasoning": "The last step (search for news) resulted in an empty response. This is often a sign of no current results. There are no other avenues to pursue based on current information or memory.",
+              "local_reasoning": "The tool has returned an empty result and there is nothing to summarize from its output. No news found for F35.",
+              "last_tooluse_summary": "Search for recent news articles about the F35 returned an empty result.",
+              "solution_summary": "Not ready yet.",
+              "route": "summarize",
+              "instruction_to_summarize": "Report that no recent news about F35 was found using the search tool.  Clearly state that no results were returned. Use markdown format."
+            },
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        },
+        {
+          "data": {
+            "index": "1",
+            "description": "Summarize the content of the most relevant news articles.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "ROOT"
+          },
+          "id": "1"
+        },
+        {
+          "data": {
+            "index": "2",
+            "description": "Synthesize a concise summary of the latest F35 news.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "ROOT"
+          },
+          "id": "2"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "2"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "766a38e6-a2bf-410c-96e3-0449eef9c6a2",
+    "original_query": "Query 1: What's the latest news about F35?",
+    "perception_snapshots": [
+      {
+        "run_id": "766a38e6-a2bf-410c-96e3-0449eef9c6a2-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "F35",
+          "news"
+        ],
+        "result_requirement": "Latest news about the F35 fighter jet.",
+        "original_goal_achieved": false,
+        "reasoning": "The query requires fetching and summarizing news about the F35. This requires a tool call.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The query is a straightforward request for information that is not immediately available in memory or globals.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.9",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "766a38e6-a2bf-410c-96e3-0449eef9c6a2-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "F35",
+          "news"
+        ],
+        "result_requirement": "Latest news about the F35 fighter jet.",
+        "original_goal_achieved": false,
+        "reasoning": "The last step (search for news) resulted in an empty response. This is often a sign of no current results. There are no other avenues to pursue based on current information or memory.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The tool has returned an empty result and there is nothing to summarize from its output. No news found for F35.",
+        "last_tooluse_summary": "Search for recent news articles about the F35 returned an empty result.",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.4",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "d0fa303d-693f-4abc-b7ec-89ad1c3b1ebb",
+        "input": {
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: What's the latest news about F35?",
+          "perception": {
+            "entities": [
+              "F35",
+              "news"
+            ],
+            "result_requirement": "Latest news about the F35 fighter jet.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.9",
+            "reasoning": "The query requires fetching and summarizing news about the F35. This requires a tool call.",
+            "local_reasoning": "The query is a straightforward request for information that is not immediately available in memory or globals.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "F35",
+                  "news"
+                ],
+                "result_requirement": "Latest news about the F35 fighter jet.",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The query requires fetching and summarizing news about the F35. This requires a tool call.",
+                "local_reasoning": "The query is a straightforward request for information that is not immediately available in memory or globals.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "F35",
+                  "news"
+                ],
+                "result_requirement": "Latest news about the F35 fighter jet.",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The query requires fetching and summarizing news about the F35. This requires a tool call.",
+                "local_reasoning": "The query is a straightforward request for information that is not immediately available in memory or globals.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {}
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search for recent news articles about the F35."
+              },
+              {
+                "id": "1",
+                "description": "Summarize the content of the most relevant news articles."
+              },
+              {
+                "id": "2",
+                "description": "Synthesize a concise summary of the latest F35 news."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              },
+              {
+                "from": "1",
+                "to": "2",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "urls = duckduckgo_search('F35 news', 5)\nreturn { \"urls\": urls }",
+            "CODE_0B": "urls = duckduckgo_search('latest updates on F35 fighter jet', 5)\nreturn { \"urls\": urls }",
+            "CODE_0C": "urls = duckduckgo_search('F35 developments', 5)\nreturn { \"urls\": urls }"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search for recent news articles about the F35."
+            },
+            {
+              "id": "1",
+              "description": "Summarize the content of the most relevant news articles."
+            },
+            {
+              "id": "2",
+              "description": "Synthesize a concise summary of the latest F35 news."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            },
+            {
+              "from": "1",
+              "to": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "urls = duckduckgo_search('F35 news', 5)\nreturn { \"urls\": urls }",
+          "CODE_0B": "urls = duckduckgo_search('latest updates on F35 fighter jet', 5)\nreturn { \"urls\": urls }",
+          "CODE_0C": "urls = duckduckgo_search('F35 developments', 5)\nreturn { \"urls\": urls }"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [],
+    "summarizer_snapshots": [
+      {
+        "run_id": "5eb475fa-a31c-4b6e-8166-20da75c9802d",
+        "input": {
+          "original_query": "Query 1: What's the latest news about F35?",
+          "globals_schema": {},
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "F35",
+                      "news"
+                    ],
+                    "result_requirement": "Latest news about the F35 fighter jet.",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.9",
+                    "reasoning": "The query requires fetching and summarizing news about the F35. This requires a tool call.",
+                    "local_reasoning": "The query is a straightforward request for information that is not immediately available in memory or globals.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "0",
+                  "description": "Search for recent news articles about the F35.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "F35",
+                      "news"
+                    ],
+                    "result_requirement": "Latest news about the F35 fighter jet.",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.4",
+                    "reasoning": "The last step (search for news) resulted in an empty response. This is often a sign of no current results. There are no other avenues to pursue based on current information or memory.",
+                    "local_reasoning": "The tool has returned an empty result and there is nothing to summarize from its output. No news found for F35.",
+                    "last_tooluse_summary": "Search for recent news articles about the F35 returned an empty result.",
+                    "solution_summary": "Not ready yet.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Report that no recent news about F35 was found using the search tool.  Clearly state that no results were returned. Use markdown format."
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "0"
+              },
+              {
+                "data": {
+                  "index": "1",
+                  "description": "Summarize the content of the most relevant news articles.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "ROOT"
+                },
+                "id": "1"
+              },
+              {
+                "data": {
+                  "index": "2",
+                  "description": "Synthesize a concise summary of the latest F35 news.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "ROOT"
+                },
+                "id": "2"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "0"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "2"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "F35",
+              "news"
+            ],
+            "result_requirement": "Latest news about the F35 fighter jet.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.4",
+            "reasoning": "The last step (search for news) resulted in an empty response. This is often a sign of no current results. There are no other avenues to pursue based on current information or memory.",
+            "local_reasoning": "The tool has returned an empty result and there is nothing to summarize from its output. No news found for F35.",
+            "last_tooluse_summary": "Search for recent news articles about the F35 returned an empty result.",
+            "solution_summary": "Not ready yet.",
+            "route": "summarize",
+            "instruction_to_summarize": "Report that no recent news about F35 was found using the search tool.  Clearly state that no results were returned. Use markdown format."
+          }
+        },
+        "summary_output": "No recent news about the F35 was found using the search tool. The search returned no results.",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-18T08:31:24Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "Not ready yet.",
+    "status": "success",
+    "completed_at": "2025-05-18T08:31:58.725937"
+  },
+  "status": "success",
+  "final_step_id": "2",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-18T08:31:58.728180",
+  "original_query": "Query 1: What's the latest news about F35?",
+  "final_summary": "Not ready yet."
+}

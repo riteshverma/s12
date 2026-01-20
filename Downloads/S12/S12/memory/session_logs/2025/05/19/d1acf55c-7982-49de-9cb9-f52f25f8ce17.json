@@ -1,0 +1,852 @@
+{
+  "context": {
+    "session_id": "d1acf55c-7982-49de-9cb9-f52f25f8ce17",
+    "original_query": "Query 1: What's the latest between India and France?",
+    "globals": {
+      "search_results_0A": [
+        "https://visionias.in/current-affairs/monthly-magazine/2025-03-24/international-relations/india-france-relations-2",
+        "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1",
+        "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-strategic-dialogue",
+        "https://www.insightsonindia.com/2025/02/13/india-france-relations/",
+        "https://www.drishtiias.com/daily-updates/daily-news-analysis/25th-anniversary-of-the-india-france-strategic-partnership"
+      ]
+    },
+    "memory": [
+      {
+        "query": "Summarize the content of each retrieved URL.",
+        "result_requirement": "Tool failed",
+        "solution_summary": "TypeError: Object of type CallToolResult is not JSON serializable"
+      },
+      {
+        "query": "Summarize the content of each retrieved URL.",
+        "result_requirement": "Tool failed",
+        "solution_summary": "JSONDecodeError: Expecting value: line 10 column 5 (char 574)"
+      },
+      {
+        "query": "Summarize the content of each retrieved URL.",
+        "result_requirement": "Tool failed",
+        "solution_summary": "JSONDecodeError: Expecting value: line 10 column 5 (char 574)"
+      },
+      {
+        "original_query": "Query 1: What's the latest between India and France?",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "Here are some recent articles discussing relations between India and France:\n\n*   [https://visionias.in/current-affairs/monthly-magazine/2025-03-24/international-relations/india-france-relations-2](https://visionias.in/current-affairs/monthly-magazine/2025-03-24/international-relations/india-france-relations-2)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-strategic-dialogue](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-strategic-dialogue)\n*   [https://www.insightsonindia.com/2025/02/13/india-france-relations/](https://www.insightsonindia.com/2025/02/13/india-france-relations/)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/25th-anniversary-of-the-india-france-strategic-partnership](https://www.drishtiias.com/daily-updates/daily-news-analysis/25th-anniversary-of-the-india-france-strategic-partnership)\n\nUnfortunately, the summarization of these linked pages failed.",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "India",
+                "France",
+                "latest developments"
+              ],
+              "result_requirement": "Summary of latest developments between India and France.",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.8",
+              "reasoning": "The query requires fetching and summarizing the latest news/developments between India and France. This requires external tool usage.",
+              "local_reasoning": "The query is new and not directly solvable from memory or globals.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision",
+              "instruction_to_summarize": "Not applicable"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Search for recent news articles about relations between India and France.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "search_results_0A": [
+                "https://visionias.in/current-affairs/monthly-magazine/2025-03-24/international-relations/india-france-relations-2",
+                "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1",
+                "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-strategic-dialogue",
+                "https://www.insightsonindia.com/2025/02/13/india-france-relations/",
+                "https://www.drishtiias.com/daily-updates/daily-news-analysis/25th-anniversary-of-the-india-france-strategic-partnership"
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "India",
+                "France",
+                "latest developments"
+              ],
+              "result_requirement": "Summary of latest developments between India and France.",
+              "original_goal_achieved": false,
+              "local_goal_achieved": true,
+              "confidence": "0.85",
+              "reasoning": "Search results have been obtained. Now need to extract text from those URLs and summarize.",
+              "local_reasoning": "The tool ran successfully and returned a list of URLs.",
+              "last_tooluse_summary": "duckduckgo search succeeded and found 5 URLs related to India-France relations.",
+              "solution_summary": "Not ready yet.",
+              "route": "decision",
+              "instruction_to_summarize": "Not applicable"
+            },
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        },
+        {
+          "data": {
+            "index": "1",
+            "description": "Summarize the content of each retrieved URL.",
+            "type": "CODE",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": "JSONDecodeError: Expecting value: line 10 column 5 (char 574)",
+            "perception": {
+              "entities": [
+                "India",
+                "France",
+                "latest developments"
+              ],
+              "result_requirement": "Summary of latest developments between India and France.",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.6",
+              "reasoning": "The summarization tool has failed repeatedly. Further attempts to use tools is unlikely to succeed. The search results from the successful duckduckgo search are available in globals_schema. Summarizing available data.",
+              "local_reasoning": "Text extraction from the URLs failed multiple times. Unable to proceed with the current plan.",
+              "last_tooluse_summary": "Text summarization tool failed with JSONDecodeError",
+              "solution_summary": "Not ready yet.",
+              "route": "summarize",
+              "instruction_to_summarize": "Summarize the search results from the completed step. Include the URLs found: 'https://visionias.in/current-affairs/monthly-magazine/2025-03-24/international-relations/india-france-relations-2', 'https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1', 'https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-strategic-dialogue', 'https://www.insightsonindia.com/2025/02/13/india-france-relations/', 'https://www.drishtiias.com/daily-updates/daily-news-analysis/25th-anniversary-of-the-india-france-strategic-partnership'. State that summarization of the linked pages failed. The goal is to give the user at least the URLs that were identified, even if the full summarization was not possible."
+            },
+            "from_step": "1"
+          },
+          "id": "1"
+        },
+        {
+          "data": {
+            "index": "2",
+            "description": "Consolidate the summaries into a single comprehensive summary.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "1"
+          },
+          "id": "2"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "1",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "1",
+          "target": "2"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "d1acf55c-7982-49de-9cb9-f52f25f8ce17",
+    "original_query": "Query 1: What's the latest between India and France?",
+    "perception_snapshots": [
+      {
+        "run_id": "d1acf55c-7982-49de-9cb9-f52f25f8ce17-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "India",
+          "France",
+          "latest developments"
+        ],
+        "result_requirement": "Summary of latest developments between India and France.",
+        "original_goal_achieved": false,
+        "reasoning": "The query requires fetching and summarizing the latest news/developments between India and France. This requires external tool usage.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The query is new and not directly solvable from memory or globals.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.8",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "d1acf55c-7982-49de-9cb9-f52f25f8ce17-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "India",
+          "France",
+          "latest developments"
+        ],
+        "result_requirement": "Summary of latest developments between India and France.",
+        "original_goal_achieved": false,
+        "reasoning": "Search results have been obtained. Now need to extract text from those URLs and summarize.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The tool ran successfully and returned a list of URLs.",
+        "last_tooluse_summary": "duckduckgo search succeeded and found 5 URLs related to India-France relations.",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.85",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "d1acf55c-7982-49de-9cb9-f52f25f8ce17-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "India",
+          "France",
+          "latest developments"
+        ],
+        "result_requirement": "Summary of latest developments between India and France.",
+        "original_goal_achieved": false,
+        "reasoning": "The summarization tool has failed repeatedly. Further attempts to use tools is unlikely to succeed. The search results from the successful duckduckgo search are available in globals_schema. Summarizing available data.",
+        "local_goal_achieved": false,
+        "local_reasoning": "Text extraction from the URLs failed multiple times. Unable to proceed with the current plan.",
+        "last_tooluse_summary": "Text summarization tool failed with JSONDecodeError",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.6",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "2932d306-65c1-45af-b043-52123a622aac",
+        "input": {
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: What's the latest between India and France?",
+          "perception": {
+            "entities": [
+              "India",
+              "France",
+              "latest developments"
+            ],
+            "result_requirement": "Summary of latest developments between India and France.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.8",
+            "reasoning": "The query requires fetching and summarizing the latest news/developments between India and France. This requires external tool usage.",
+            "local_reasoning": "The query is new and not directly solvable from memory or globals.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision",
+            "instruction_to_summarize": "Not applicable"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "France",
+                  "latest developments"
+                ],
+                "result_requirement": "Summary of latest developments between India and France.",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.8",
+                "reasoning": "The query requires fetching and summarizing the latest news/developments between India and France. This requires external tool usage.",
+                "local_reasoning": "The query is new and not directly solvable from memory or globals.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision",
+                "instruction_to_summarize": "Not applicable"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "France",
+                  "latest developments"
+                ],
+                "result_requirement": "Summary of latest developments between India and France.",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.8",
+                "reasoning": "The query requires fetching and summarizing the latest news/developments between India and France. This requires external tool usage.",
+                "local_reasoning": "The query is new and not directly solvable from memory or globals.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision",
+                "instruction_to_summarize": "Not applicable"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {}
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search for recent news articles about relations between India and France."
+              },
+              {
+                "id": "1",
+                "description": "Summarize the search results to extract the latest developments."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "search_results_0A = duckduckgo_search(\"India France relations latest\", 5)\nreturn {\"search_results_0A\": search_results_0A}",
+            "CODE_0B": "search_results_0B = duckduckgo_search(\"India France recent agreements\", 5)\nreturn {\"search_results_0B\": search_results_0B}",
+            "CODE_0C": "search_results_0C = duckduckgo_search(\"India France cooperation\", 5)\nreturn {\"search_results_0C\": search_results_0C}"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search for recent news articles about relations between India and France."
+            },
+            {
+              "id": "1",
+              "description": "Summarize the search results to extract the latest developments."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "search_results_0A = duckduckgo_search(\"India France relations latest\", 5)\nreturn {\"search_results_0A\": search_results_0A}",
+          "CODE_0B": "search_results_0B = duckduckgo_search(\"India France recent agreements\", 5)\nreturn {\"search_results_0B\": search_results_0B}",
+          "CODE_0C": "search_results_0C = duckduckgo_search(\"India France cooperation\", 5)\nreturn {\"search_results_0C\": search_results_0C}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      },
+      {
+        "run_id": "5c29d128-ea48-4228-882c-8c5d342efc14",
+        "input": {
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: What's the latest between India and France?",
+          "perception": {
+            "entities": [
+              "India",
+              "France",
+              "latest developments"
+            ],
+            "result_requirement": "Summary of latest developments between India and France.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": true,
+            "confidence": "0.85",
+            "reasoning": "Search results have been obtained. Now need to extract text from those URLs and summarize.",
+            "local_reasoning": "The tool ran successfully and returned a list of URLs.",
+            "last_tooluse_summary": "duckduckgo search succeeded and found 5 URLs related to India-France relations.",
+            "solution_summary": "Not ready yet.",
+            "route": "decision",
+            "instruction_to_summarize": "Not applicable"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "France",
+                  "latest developments"
+                ],
+                "result_requirement": "Summary of latest developments between India and France.",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.8",
+                "reasoning": "The query requires fetching and summarizing the latest news/developments between India and France. This requires external tool usage.",
+                "local_reasoning": "The query is new and not directly solvable from memory or globals.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision",
+                "instruction_to_summarize": "Not applicable"
+              },
+              "from_step": null
+            },
+            {
+              "index": "0",
+              "description": "Search for recent news articles about relations between India and France.",
+              "type": "CODE",
+              "status": "completed",
+              "result": {
+                "search_results_0A": [
+                  "https://visionias.in/current-affairs/monthly-magazine/2025-03-24/international-relations/india-france-relations-2",
+                  "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1",
+                  "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-strategic-dialogue",
+                  "https://www.insightsonindia.com/2025/02/13/india-france-relations/",
+                  "https://www.drishtiias.com/daily-updates/daily-news-analysis/25th-anniversary-of-the-india-france-strategic-partnership"
+                ]
+              },
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "France",
+                  "latest developments"
+                ],
+                "result_requirement": "Summary of latest developments between India and France.",
+                "original_goal_achieved": false,
+                "local_goal_achieved": true,
+                "confidence": "0.85",
+                "reasoning": "Search results have been obtained. Now need to extract text from those URLs and summarize.",
+                "local_reasoning": "The tool ran successfully and returned a list of URLs.",
+                "last_tooluse_summary": "duckduckgo search succeeded and found 5 URLs related to India-France relations.",
+                "solution_summary": "Not ready yet.",
+                "route": "decision",
+                "instruction_to_summarize": "Not applicable"
+              },
+              "from_step": "ROOT"
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "France",
+                  "latest developments"
+                ],
+                "result_requirement": "Summary of latest developments between India and France.",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.8",
+                "reasoning": "The query requires fetching and summarizing the latest news/developments between India and France. This requires external tool usage.",
+                "local_reasoning": "The query is new and not directly solvable from memory or globals.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision",
+                "instruction_to_summarize": "Not applicable"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "search_results_0A": {
+              "type": "list",
+              "preview": "['https://visionias.in/current-affairs/monthly-magazine/2025-03-24/international-relations/india-france-relations-2', 'https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1', 'https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-strategic-dialogue', 'https://www.insightsonindia.com/2025/02/13/india-france-relations/', 'https://www.drishtiias.com/daily-updates/daily-news-analysis/25th-anniversary-of-the-india-france-strategic-partnership']"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search for recent news articles about relations between India and France."
+              },
+              {
+                "id": "1",
+                "description": "Summarize the content of each retrieved URL."
+              },
+              {
+                "id": "2",
+                "description": "Consolidate the summaries into a single comprehensive summary."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              },
+              {
+                "from": "1",
+                "to": "2",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "1",
+          "code_variants": {
+            "CODE_1A": "urls = globals_schema.get(\"search_results_0A\", [])\nsummaries = []\nfor url in urls:\n    try:\n        summary = webpage_url_to_summary(url)\n        summaries.append(summary)\n    except:\n        summaries.append(\"Summary not available for this URL.\")\n\nreturn {\"url_summaries_1A\": summaries}",
+            "CODE_1B": "urls = globals_schema.get(\"search_results_0A\", [])\nif not urls:\n    return {\"error_1B\": \"No URLs found.\", \"url_summaries_1B\": []}\n\nfirst_url = urls[0]\nsummary = webpage_url_to_summary(first_url)\n\nreturn {\"url_summaries_1B\": [summary]}",
+            "CODE_1C": "urls = globals_schema.get(\"search_results_0A\", [])\nif not urls:\n    return {\"error_1C\": \"No URLs found.\", \"url_summaries_1C\": []}\n\nsummaries = []\nfor i in range(min(3, len(urls))):\n    url = urls[i]\n    try:\n        summary = webpage_url_to_summary(url)\n        summaries.append(summary)\n    except:\n        summaries.append(\"Summary not available for this URL.\")\n\nreturn {\"url_summaries_1C\": summaries}"
+          }
+        },
+        "next_step_id": "1",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search for recent news articles about relations between India and France."
+            },
+            {
+              "id": "1",
+              "description": "Summarize the content of each retrieved URL."
+            },
+            {
+              "id": "2",
+              "description": "Consolidate the summaries into a single comprehensive summary."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            },
+            {
+              "from": "1",
+              "to": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_1A": "urls = globals_schema.get(\"search_results_0A\", [])\nsummaries = []\nfor url in urls:\n    try:\n        summary = webpage_url_to_summary(url)\n        summaries.append(summary)\n    except:\n        summaries.append(\"Summary not available for this URL.\")\n\nreturn {\"url_summaries_1A\": summaries}",
+          "CODE_1B": "urls = globals_schema.get(\"search_results_0A\", [])\nif not urls:\n    return {\"error_1B\": \"No URLs found.\", \"url_summaries_1B\": []}\n\nfirst_url = urls[0]\nsummary = webpage_url_to_summary(first_url)\n\nreturn {\"url_summaries_1B\": [summary]}",
+          "CODE_1C": "urls = globals_schema.get(\"search_results_0A\", [])\nif not urls:\n    return {\"error_1C\": \"No URLs found.\", \"url_summaries_1C\": []}\n\nsummaries = []\nfor i in range(min(3, len(urls))):\n    url = urls[i]\n    try:\n        summary = webpage_url_to_summary(url)\n        summaries.append(summary)\n    except:\n        summaries.append(\"Summary not available for this URL.\")\n\nreturn {\"url_summaries_1C\": summaries}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [
+      {
+        "run_id": "57b83594-132c-42f5-8a6e-4f1e22f4e985",
+        "step_id": "0",
+        "variant_used": "CODE_0A",
+        "code": "search_results_0A = duckduckgo_search(\"India France relations latest\", 5)\nreturn {\"search_results_0A\": search_results_0A}",
+        "status": "success",
+        "result": {
+          "search_results_0A": [
+            "https://visionias.in/current-affairs/monthly-magazine/2025-03-24/international-relations/india-france-relations-2",
+            "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1",
+            "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-strategic-dialogue",
+            "https://www.insightsonindia.com/2025/02/13/india-france-relations/",
+            "https://www.drishtiias.com/daily-updates/daily-news-analysis/25th-anniversary-of-the-india-france-strategic-partnership"
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 06:32:09",
+        "total_time": "6.508",
+        "return_to": ""
+      },
+      {
+        "run_id": "c6033a45-9cb8-4c8a-be85-2a0ca8f7f6d2",
+        "step_id": "1",
+        "variant_used": "CODE_1A",
+        "code": "urls = globals_schema.get(\"search_results_0A\", [])\nsummaries = []\nfor url in urls:\n    try:\n        summary = webpage_url_to_summary(url)\n        summaries.append(summary)\n    except:\n        summaries.append(\"Summary not available for this URL.\")\n\nreturn {\"url_summaries_1A\": summaries}",
+        "status": "error",
+        "result": null,
+        "error": "TypeError: Object of type CallToolResult is not JSON serializable",
+        "execution_time": "2025-05-19 06:32:27",
+        "total_time": "50.984",
+        "return_to": ""
+      },
+      {
+        "run_id": "469e9c75-d0c4-4e19-b9a2-e58f642ebe28",
+        "step_id": "1",
+        "variant_used": "CODE_1B",
+        "code": "urls = globals_schema.get(\"search_results_0A\", [])\nif not urls:\n    return {\"error_1B\": \"No URLs found.\", \"url_summaries_1B\": []}\n\nfirst_url = urls[0]\nsummary = webpage_url_to_summary(first_url)\n\nreturn {\"url_summaries_1B\": [summary]}",
+        "status": "error",
+        "result": null,
+        "error": "JSONDecodeError: Expecting value: line 10 column 5 (char 574)",
+        "execution_time": "2025-05-19 06:33:18",
+        "total_time": "0.032",
+        "return_to": ""
+      },
+      {
+        "run_id": "e8b2c66e-d521-4ce4-908c-15d79cf19a4e",
+        "step_id": "1",
+        "variant_used": "CODE_1C",
+        "code": "urls = globals_schema.get(\"search_results_0A\", [])\nif not urls:\n    return {\"error_1C\": \"No URLs found.\", \"url_summaries_1C\": []}\n\nsummaries = []\nfor i in range(min(3, len(urls))):\n    url = urls[i]\n    try:\n        summary = webpage_url_to_summary(url)\n        summaries.append(summary)\n    except:\n        summaries.append(\"Summary not available for this URL.\")\n\nreturn {\"url_summaries_1C\": summaries}",
+        "status": "error",
+        "result": null,
+        "error": "JSONDecodeError: Expecting value: line 10 column 5 (char 574)",
+        "execution_time": "2025-05-19 06:33:18",
+        "total_time": "0.006",
+        "return_to": ""
+      }
+    ],
+    "summarizer_snapshots": [
+      {
+        "run_id": "5444260b-08d3-4cfd-aa85-f053fbdec0bd",
+        "input": {
+          "original_query": "Query 1: What's the latest between India and France?",
+          "globals_schema": {
+            "search_results_0A": [
+              "https://visionias.in/current-affairs/monthly-magazine/2025-03-24/international-relations/india-france-relations-2",
+              "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1",
+              "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-strategic-dialogue",
+              "https://www.insightsonindia.com/2025/02/13/india-france-relations/",
+              "https://www.drishtiias.com/daily-updates/daily-news-analysis/25th-anniversary-of-the-india-france-strategic-partnership"
+            ]
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "India",
+                      "France",
+                      "latest developments"
+                    ],
+                    "result_requirement": "Summary of latest developments between India and France.",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.8",
+                    "reasoning": "The query requires fetching and summarizing the latest news/developments between India and France. This requires external tool usage.",
+                    "local_reasoning": "The query is new and not directly solvable from memory or globals.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision",
+                    "instruction_to_summarize": "Not applicable"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "0",
+                  "description": "Search for recent news articles about relations between India and France.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "search_results_0A": [
+                      "https://visionias.in/current-affairs/monthly-magazine/2025-03-24/international-relations/india-france-relations-2",
+                      "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1",
+                      "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-strategic-dialogue",
+                      "https://www.insightsonindia.com/2025/02/13/india-france-relations/",
+                      "https://www.drishtiias.com/daily-updates/daily-news-analysis/25th-anniversary-of-the-india-france-strategic-partnership"
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "India",
+                      "France",
+                      "latest developments"
+                    ],
+                    "result_requirement": "Summary of latest developments between India and France.",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": true,
+                    "confidence": "0.85",
+                    "reasoning": "Search results have been obtained. Now need to extract text from those URLs and summarize.",
+                    "local_reasoning": "The tool ran successfully and returned a list of URLs.",
+                    "last_tooluse_summary": "duckduckgo search succeeded and found 5 URLs related to India-France relations.",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision",
+                    "instruction_to_summarize": "Not applicable"
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "0"
+              },
+              {
+                "data": {
+                  "index": "1",
+                  "description": "Summarize the content of each retrieved URL.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": "JSONDecodeError: Expecting value: line 10 column 5 (char 574)",
+                  "perception": {
+                    "entities": [
+                      "India",
+                      "France",
+                      "latest developments"
+                    ],
+                    "result_requirement": "Summary of latest developments between India and France.",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.6",
+                    "reasoning": "The summarization tool has failed repeatedly. Further attempts to use tools is unlikely to succeed. The search results from the successful duckduckgo search are available in globals_schema. Summarizing available data.",
+                    "local_reasoning": "Text extraction from the URLs failed multiple times. Unable to proceed with the current plan.",
+                    "last_tooluse_summary": "Text summarization tool failed with JSONDecodeError",
+                    "solution_summary": "Not ready yet.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Summarize the search results from the completed step. Include the URLs found: 'https://visionias.in/current-affairs/monthly-magazine/2025-03-24/international-relations/india-france-relations-2', 'https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1', 'https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-strategic-dialogue', 'https://www.insightsonindia.com/2025/02/13/india-france-relations/', 'https://www.drishtiias.com/daily-updates/daily-news-analysis/25th-anniversary-of-the-india-france-strategic-partnership'. State that summarization of the linked pages failed. The goal is to give the user at least the URLs that were identified, even if the full summarization was not possible."
+                  },
+                  "from_step": "1"
+                },
+                "id": "1"
+              },
+              {
+                "data": {
+                  "index": "2",
+                  "description": "Consolidate the summaries into a single comprehensive summary.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "1"
+                },
+                "id": "2"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "0"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "1",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "1",
+                "target": "2"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "India",
+              "France",
+              "latest developments"
+            ],
+            "result_requirement": "Summary of latest developments between India and France.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.6",
+            "reasoning": "The summarization tool has failed repeatedly. Further attempts to use tools is unlikely to succeed. The search results from the successful duckduckgo search are available in globals_schema. Summarizing available data.",
+            "local_reasoning": "Text extraction from the URLs failed multiple times. Unable to proceed with the current plan.",
+            "last_tooluse_summary": "Text summarization tool failed with JSONDecodeError",
+            "solution_summary": "Not ready yet.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize the search results from the completed step. Include the URLs found: 'https://visionias.in/current-affairs/monthly-magazine/2025-03-24/international-relations/india-france-relations-2', 'https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1', 'https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-strategic-dialogue', 'https://www.insightsonindia.com/2025/02/13/india-france-relations/', 'https://www.drishtiias.com/daily-updates/daily-news-analysis/25th-anniversary-of-the-india-france-strategic-partnership'. State that summarization of the linked pages failed. The goal is to give the user at least the URLs that were identified, even if the full summarization was not possible."
+          }
+        },
+        "summary_output": "Here are some recent articles discussing relations between India and France:\n\n*   [https://visionias.in/current-affairs/monthly-magazine/2025-03-24/international-relations/india-france-relations-2](https://visionias.in/current-affairs/monthly-magazine/2025-03-24/international-relations/india-france-relations-2)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-relations-1)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-strategic-dialogue](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-france-strategic-dialogue)\n*   [https://www.insightsonindia.com/2025/02/13/india-france-relations/](https://www.insightsonindia.com/2025/02/13/india-france-relations/)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/25th-anniversary-of-the-india-france-strategic-partnership](https://www.drishtiias.com/daily-updates/daily-news-analysis/25th-anniversary-of-the-india-france-strategic-partnership)\n\nUnfortunately, the summarization of these linked pages failed.",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-19T01:01:35Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "Not ready yet.",
+    "status": "success",
+    "completed_at": "2025-05-19T01:03:30.472963"
+  },
+  "status": "success",
+  "final_step_id": "2",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-19T01:03:30.478021",
+  "original_query": "Query 1: What's the latest between India and France?",
+  "final_summary": "Not ready yet."
+}

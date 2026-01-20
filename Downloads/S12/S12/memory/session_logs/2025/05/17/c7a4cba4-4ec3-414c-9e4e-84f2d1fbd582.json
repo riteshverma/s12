@@ -1,0 +1,130 @@
+{
+  "session_id": "c7a4cba4-4ec3-414c-9e4e-84f2d1fbd582",
+  "original_query": "Query 1: How are Anmol Singh and BlueSmart related? Search local documents.",
+  "globals": {
+    "search_results_0": ""
+  },
+  "memory": [
+    {
+      "query": "Query 1: How are Anmol Singh and BlueSmart related? Search local documents.",
+      "result_requirement": "Final summary",
+      "summarizer_summary": "No information was found regarding the relationship between Anmol Singh and BlueSmart in the local documents. The local document search returned no results.",
+      "confidence": 0.95,
+      "original_goal_achieved": true,
+      "route": "summarize"
+    }
+  ],
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "data": {
+          "index": "ROOT",
+          "description": "initial query",
+          "type": "ROOT",
+          "status": "completed",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "Anmol Singh",
+              "BlueSmart",
+              "local documents"
+            ],
+            "result_requirement": "Explanation of the relationship between Anmol Singh and BlueSmart based on local documents.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.6",
+            "reasoning": "The query requires searching local documents to understand the relationship between Anmol Singh and BlueSmart. This information is not readily available and requires a tool-based approach to process local documents.",
+            "local_reasoning": "The current query cannot be answered from the available memory or global schema. Need to use tool.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "from_step": null
+        },
+        "id": "ROOT"
+      },
+      {
+        "data": {
+          "index": "0",
+          "description": "Search local documents for information about Anmol Singh and BlueSmart.",
+          "type": "CODE",
+          "status": "completed",
+          "result": {
+            "search_results_0": ""
+          },
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "Anmol Singh",
+              "BlueSmart",
+              "local documents"
+            ],
+            "result_requirement": "Explanation of the relationship between Anmol Singh and BlueSmart based on local documents.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.9",
+            "reasoning": "The search for the relationship between Anmol Singh and BlueSmart in local documents returned no results. Since the primary tool failed and there is no other tool to try for this query, we cannot determine the relationship. Therefore, we should summarize that no information was found.",
+            "local_reasoning": "The search_results_0 variable is empty, indicating that the search did not find relevant information in the local documents.",
+            "last_tooluse_summary": "Local document search returned no results.",
+            "solution_summary": "No relationship between Anmol Singh and BlueSmart could be found in the local documents.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize that no information was found regarding the relationship between Anmol Singh and BlueSmart in the local documents. State that the local document search returned no results. Use markdown formatting."
+          },
+          "from_step": "ROOT"
+        },
+        "id": "0"
+      },
+      {
+        "data": {
+          "index": "1",
+          "description": "Extract relevant information from the search results.",
+          "type": "CODE",
+          "status": "Skipped",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "ROOT"
+        },
+        "id": "1"
+      },
+      {
+        "data": {
+          "index": "2",
+          "description": "Summarize the relationship between Anmol Singh and BlueSmart based on the extracted information.",
+          "type": "CODE",
+          "status": "Skipped",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "ROOT"
+        },
+        "id": "2"
+      }
+    ],
+    "links": [
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "0"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "1"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "2"
+      }
+    ]
+  }
+}

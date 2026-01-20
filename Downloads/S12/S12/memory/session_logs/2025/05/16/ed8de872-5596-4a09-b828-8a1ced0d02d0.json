@@ -1,0 +1,133 @@
+{
+  "session_id": "ed8de872-5596-4a09-b828-8a1ced0d02d0",
+  "original_query": "Why was Celebi, a turkey company in news recently? Tell me in detail in html format",
+  "globals": {
+    "search_results": "Found 5 search results:\n\n1. Centre cancels clearance of Turkish firm running high ... - Firstpost\n   URL: https://www.firstpost.com/explainers/turkey-celebi-aviation-india-aiports-13888717.html\n   Summary: Across these airports,Celebihandles more than 58,000 flights and 540,000 tonnes of cargo annually, with a workforce of approximately 7,800 employees on the ground.CelebiAviation Holding is a Turkish-origincompanyspecialising in integrated ground handling services in the aviation industry.\n\n2. India revokes security clearance of Turkish firm Celebi at several ...\n   URL: https://www.financialexpress.com/business/airlines-aviation-india-revokes-security-clearance-of-turkish-firm-celebi-at-several-airports-over-national-security-concerns-3846269/\n   Summary: As per reports, over the past decade,Celebihas expanded its operations to nine major airports across India, including Delhi, Bengaluru, Hyderabad, Chennai, Ahmedabad, Goa, Cochin, and Kannur.\n\n3. Celebi Aviation firm on losing clearance: Erdogan's daughter not owner ...\n   URL: https://www.indiatoday.in/india/story/celebi-aviation-clearance-revoked-statement-turkey-india-pakistan-conflict-2725457-2025-05-15\n   Summary: CelebiAviation's security clearance was revoked by Indian authorities following tensions withTurkeyafter Operation Sindoor. Thecompanyhas denied any political affiliations or Turkish ownership. Listen to StoryCelebiAviation clarifies firm owned by Celebioglu family Says 65% ownership held by ...\n\n4. India Begins Crackdown Against Turkey, Cancels Celebi Aviation's ...\n   URL: https://www.republicworld.com/india/india-takes-action-against-turkey-cancels-celebi-aviation-security-clearance-in-interest-of-national-security-india-pakistan-tension\n   Summary: NewDelhi: In a major crackdown againstTurkeyfor helping Pakistan amid conflict with India, the Bureau of Civil Aviation Security (BCAS) has cancelled the security clearance of Turkish firmCelebiAviation. Thecompanyis involved in handling ground and cargo operations for several airlines at various Indian airports.\n\n5. Does Erdogan's daughter hold stake in Celebi Aviation? Turkish ... - Mint\n   URL: https://www.livemint.com/companies/celebi-aviation-denies-erdogan-s-daughter-holds-stake-as-india-pulls-security-cover-for-turkish-firm-11747326452232.html\n   Summary: Thecompanyspecifically denied allegations involving Ms S\u00fcmeyye Erdo\u011fan, daughter ofTurkey'sPresident Recep Tayyip Erdo\u011fan, stating that she holds no shareholding or ownership in the ...\n"
+  },
+  "memory": [],
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "data": {
+          "index": "ROOT",
+          "description": "initial query",
+          "type": "CODE",
+          "status": "pending",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "Celebi",
+              "turkey company",
+              "news"
+            ],
+            "result_requirement": "Detailed explanation of why Celebi, a turkey company, was in the news recently, in HTML format.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.85",
+            "reasoning": "The query requires finding the reason why a specific company was in the news. This information isn't readily available in memory or globals. An external search is necessary to fulfill this request.",
+            "local_reasoning": "The query is complex and requires external data retrieval. No memory excerpts directly address the question about 'Celebi' or its recent news.",
+            "last_tooluse_summary": "Not applicable",
+            "summarizer_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "from_step": null
+        },
+        "id": "ROOT"
+      },
+      {
+        "data": {
+          "index": "0",
+          "description": "Search for recent news articles about Celebi, a turkey company.",
+          "type": "CODE",
+          "status": "completed",
+          "result": {
+            "search_results": "Found 5 search results:\n\n1. Centre cancels clearance of Turkish firm running high ... - Firstpost\n   URL: https://www.firstpost.com/explainers/turkey-celebi-aviation-india-aiports-13888717.html\n   Summary: Across these airports,Celebihandles more than 58,000 flights and 540,000 tonnes of cargo annually, with a workforce of approximately 7,800 employees on the ground.CelebiAviation Holding is a Turkish-origincompanyspecialising in integrated ground handling services in the aviation industry.\n\n2. India revokes security clearance of Turkish firm Celebi at several ...\n   URL: https://www.financialexpress.com/business/airlines-aviation-india-revokes-security-clearance-of-turkish-firm-celebi-at-several-airports-over-national-security-concerns-3846269/\n   Summary: As per reports, over the past decade,Celebihas expanded its operations to nine major airports across India, including Delhi, Bengaluru, Hyderabad, Chennai, Ahmedabad, Goa, Cochin, and Kannur.\n\n3. Celebi Aviation firm on losing clearance: Erdogan's daughter not owner ...\n   URL: https://www.indiatoday.in/india/story/celebi-aviation-clearance-revoked-statement-turkey-india-pakistan-conflict-2725457-2025-05-15\n   Summary: CelebiAviation's security clearance was revoked by Indian authorities following tensions withTurkeyafter Operation Sindoor. Thecompanyhas denied any political affiliations or Turkish ownership. Listen to StoryCelebiAviation clarifies firm owned by Celebioglu family Says 65% ownership held by ...\n\n4. India Begins Crackdown Against Turkey, Cancels Celebi Aviation's ...\n   URL: https://www.republicworld.com/india/india-takes-action-against-turkey-cancels-celebi-aviation-security-clearance-in-interest-of-national-security-india-pakistan-tension\n   Summary: NewDelhi: In a major crackdown againstTurkeyfor helping Pakistan amid conflict with India, the Bureau of Civil Aviation Security (BCAS) has cancelled the security clearance of Turkish firmCelebiAviation. Thecompanyis involved in handling ground and cargo operations for several airlines at various Indian airports.\n\n5. Does Erdogan's daughter hold stake in Celebi Aviation? Turkish ... - Mint\n   URL: https://www.livemint.com/companies/celebi-aviation-denies-erdogan-s-daughter-holds-stake-as-india-pulls-security-cover-for-turkish-firm-11747326452232.html\n   Summary: Thecompanyspecifically denied allegations involving Ms S\u00fcmeyye Erdo\u011fan, daughter ofTurkey'sPresident Recep Tayyip Erdo\u011fan, stating that she holds no shareholding or ownership in the ...\n"
+          },
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "Celebi Aviation",
+              "Turkey",
+              "India",
+              "security clearance",
+              "Erdogan's daughter"
+            ],
+            "result_requirement": "Detailed explanation of why Celebi, a turkey company, was in the news recently, in HTML format.",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.90",
+            "reasoning": "The search results provide sufficient information to answer the question about why Celebi Aviation was in the news recently. The key reasons are the cancellation of their security clearance in India due to tensions with Turkey and allegations regarding ties to Erdogan's daughter.",
+            "local_reasoning": "The search results directly address the query by outlining the reasons for Celebi Aviation's recent news coverage.",
+            "last_tooluse_summary": "Search completed and returned relevant results.",
+            "summarizer_summary": "Celebi Aviation, a Turkish firm, was in the news recently because India revoked their security clearance due to tensions between India and Turkey.  There were also allegations that Erdogan's daughter held a stake in the company, which the company denied.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize the search results, explaining why Celebi Aviation was in the news recently. Include details about the security clearance revocation by India, the reasons behind it, and the allegations about Erdogan's daughter. The output should be in HTML format."
+          },
+          "from_step": "ROOT"
+        },
+        "id": "0"
+      },
+      {
+        "data": {
+          "index": "1",
+          "description": "Extract relevant information about why Celebi was in the news from the search results.",
+          "type": "CODE",
+          "status": "pending",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "ROOT"
+        },
+        "id": "1"
+      },
+      {
+        "data": {
+          "index": "2",
+          "description": "Format the extracted information into HTML.",
+          "type": "CODE",
+          "status": "pending",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "ROOT"
+        },
+        "id": "2"
+      }
+    ],
+    "links": [
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "0"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "1"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "2"
+      },
+      {
+        "type": "normal",
+        "source": "0",
+        "target": "1"
+      },
+      {
+        "type": "normal",
+        "source": "1",
+        "target": "2"
+      }
+    ]
+  }
+}

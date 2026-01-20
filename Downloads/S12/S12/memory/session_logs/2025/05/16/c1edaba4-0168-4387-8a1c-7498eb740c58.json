@@ -1,0 +1,230 @@
+{
+  "session_id": "c1edaba4-0168-4387-8a1c-7498eb740c58",
+  "original_query": "Query 1: What are the main differences between Mercedes S Class and E Class. Reply back in markdown list.",
+  "globals": {
+    "search_results": [
+      "https://ranwhenparked.net/mercedes-e-class-vs-s-class/",
+      "https://www.carsdirect.com/compare/mercedes-benz-e-class-vs-mercedes-benz-s-class",
+      "https://thisvsthat.io/e-class-vs-s-class",
+      "https://luxurycarsa2z.com/which-is-better-s-class-or-e-class/",
+      "https://www.carsdirect.com/compare/compare-tool/mercedes-benz/e-class/mercedes-benz/s-class"
+    ],
+    "summaries": [
+      [
+        {
+          "type": "text",
+          "text": "The Mercedes-Benz E-Class and S-Class are luxury sedans with similar designs but key differences. The E-Class is a midsize sedan with a sportier feel, while the S-Class is a larger, more premium full-size sedan with more legroom and cargo space. E-Class has a standard RWD drivetrain and a base 2.0L Turbo I4 engine (255hp, 273 lb-ft torque), while the S-Class has standard AWD and a base 3.0L Turbo I6 engine (429hp, 384 lb-ft torque). The E-Class is more affordable, while the S-Class offers more premium features like a panoramic moonroof and intelligent LED light system. Both are available as sedans and 2-door convertibles. The E-Class has impressive cabins, but the S-Class has additional premium interior features.",
+          "annotations": null
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "text": "[error] 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>",
+          "annotations": null
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "text": "Mercedes-Benz offers the E-Class and S-Class luxury sedans. The E-Class ($54,250 - $107,350) balances luxury and practicality with elegant design, advanced tech, and a comfortable ride. The S-Class ($94,250 - $244,450) prioritizes ultimate comfort and prestige with a more spacious interior, cutting-edge technology, and a smooth ride. Both offer various petrol, diesel, hybrid, and plug-in hybrid engine options, similar interior features, and advanced safety. The E-Class design is sleek and sporty, while the S-Class exudes elegance.",
+          "annotations": null
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "text": "The Mercedes E-Class and S-Class are both luxurious sedans with differences. The E-Class is a mid-size sedan that is more reliable, performs better, more fuel-efficient, and has more legroom than the S-Class. It also has wagon models, which the S-Class doesn't. In terms of performance, the E-Class provides outstanding power and acceleration, but the S-Class provides maximum speed. However, the S-Class is a full-size sedan that is more luxurious, advanced, and refined. It has features like AIRMATIC Air Suspension and soft close doors. The S-Class is more expensive, but offers more features overall.",
+          "annotations": null
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "text": "[error] 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>",
+          "annotations": null
+        }
+      ]
+    ]
+  },
+  "memory": [],
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "data": {
+          "index": "ROOT",
+          "description": "initial query",
+          "type": "ROOT",
+          "status": "completed",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "Mercedes S Class",
+              "Mercedes E Class"
+            ],
+            "result_requirement": "Main differences between Mercedes S Class and E Class in markdown list format.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.9",
+            "reasoning": "The query requires external information about the differences between Mercedes S Class and E Class. This information is not available in memory or globals.",
+            "local_reasoning": "The query is a factual question that requires external research.",
+            "last_tooluse_summary": "Not applicable",
+            "summarizer_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "from_step": null
+        },
+        "id": "ROOT"
+      },
+      {
+        "data": {
+          "index": "0",
+          "description": "Search for articles comparing Mercedes S Class and E Class.",
+          "type": "CODE",
+          "status": "completed",
+          "result": {
+            "search_results": [
+              "https://ranwhenparked.net/mercedes-e-class-vs-s-class/",
+              "https://www.carsdirect.com/compare/mercedes-benz-e-class-vs-mercedes-benz-s-class",
+              "https://thisvsthat.io/e-class-vs-s-class",
+              "https://luxurycarsa2z.com/which-is-better-s-class-or-e-class/",
+              "https://www.carsdirect.com/compare/compare-tool/mercedes-benz/e-class/mercedes-benz/s-class"
+            ]
+          },
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "Mercedes S Class",
+              "Mercedes E Class"
+            ],
+            "result_requirement": "Main differences between Mercedes S Class and E Class in markdown list format.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": true,
+            "confidence": "0.85",
+            "reasoning": "A list of URLs has been successfully retrieved, which should contain the information needed to answer the query about the differences between the Mercedes S Class and E Class. The next step is to extract and summarize the information from these web pages.",
+            "local_reasoning": "The search tool provided relevant URLs. The local goal of obtaining URLs has been achieved.",
+            "last_tooluse_summary": "Search tool succeeded in retrieving URLs related to the comparison of Mercedes S Class and E Class.",
+            "summarizer_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "from_step": "ROOT"
+        },
+        "id": "0"
+      },
+      {
+        "data": {
+          "index": "1",
+          "description": "Extract and summarize key differences from the search results.",
+          "type": "CODE",
+          "status": "completed",
+          "result": {
+            "summaries": [
+              [
+                {
+                  "type": "text",
+                  "text": "The Mercedes-Benz E-Class and S-Class are luxury sedans with similar designs but key differences. The E-Class is a midsize sedan with a sportier feel, while the S-Class is a larger, more premium full-size sedan with more legroom and cargo space. E-Class has a standard RWD drivetrain and a base 2.0L Turbo I4 engine (255hp, 273 lb-ft torque), while the S-Class has standard AWD and a base 3.0L Turbo I6 engine (429hp, 384 lb-ft torque). The E-Class is more affordable, while the S-Class offers more premium features like a panoramic moonroof and intelligent LED light system. Both are available as sedans and 2-door convertibles. The E-Class has impressive cabins, but the S-Class has additional premium interior features.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "[error] 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Mercedes-Benz offers the E-Class and S-Class luxury sedans. The E-Class ($54,250 - $107,350) balances luxury and practicality with elegant design, advanced tech, and a comfortable ride. The S-Class ($94,250 - $244,450) prioritizes ultimate comfort and prestige with a more spacious interior, cutting-edge technology, and a smooth ride. Both offer various petrol, diesel, hybrid, and plug-in hybrid engine options, similar interior features, and advanced safety. The E-Class design is sleek and sporty, while the S-Class exudes elegance.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "The Mercedes E-Class and S-Class are both luxurious sedans with differences. The E-Class is a mid-size sedan that is more reliable, performs better, more fuel-efficient, and has more legroom than the S-Class. It also has wagon models, which the S-Class doesn't. In terms of performance, the E-Class provides outstanding power and acceleration, but the S-Class provides maximum speed. However, the S-Class is a full-size sedan that is more luxurious, advanced, and refined. It has features like AIRMATIC Air Suspension and soft close doors. The S-Class is more expensive, but offers more features overall.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "[error] 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>",
+                  "annotations": null
+                }
+              ]
+            ]
+          },
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "Mercedes S Class",
+              "Mercedes E Class"
+            ],
+            "result_requirement": "Main differences between Mercedes S Class and E Class in markdown list format.",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.9",
+            "reasoning": "The summaries from the search results contain the information needed to answer the question about the differences between the Mercedes S Class and E Class. The summaries provide enough information to generate the final answer.",
+            "local_reasoning": "The summaries contain the required information.",
+            "last_tooluse_summary": "Extraction and summarization of webpage content succeeded.",
+            "summarizer_summary": "The summaries contain the information needed to answer the user query.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize the key differences between the Mercedes-Benz E-Class and S-Class based on the provided summaries in markdown list format."
+          },
+          "from_step": "1"
+        },
+        "id": "1"
+      },
+      {
+        "data": {
+          "index": "2",
+          "description": "Format the extracted differences into a markdown list.",
+          "type": "CODE",
+          "status": "Skipped",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "1"
+        },
+        "id": "2"
+      }
+    ],
+    "links": [
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "0"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "1"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "2"
+      },
+      {
+        "type": "normal",
+        "source": "1",
+        "target": "1"
+      },
+      {
+        "type": "normal",
+        "source": "1",
+        "target": "2"
+      }
+    ]
+  }
+}

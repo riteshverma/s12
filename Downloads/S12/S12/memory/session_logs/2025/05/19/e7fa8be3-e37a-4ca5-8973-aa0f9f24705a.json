@@ -1,0 +1,867 @@
+{
+  "context": {
+    "session_id": "e7fa8be3-e37a-4ca5-8973-aa0f9f24705a",
+    "original_query": "Query 1: visit this url: https://www.nseindia.com/get-quotes/equity?symbol=ATHERENERG and tell me the price mentioned for Ather Energy stock as of NOW.\nResponse 1: The latest stock price of **Ather Energy Ltd.** is \u20b9319.00, as of today's trading, according to the [Economic Times](https://economictimes.indiatimes.com/ather-energy-ltd/stocks/companyid-1965014.cms).\nQuery 2: I want it NOW, LATEST. dont search memory: https://www.nseindia.com/get-quotes/equity?symbol=ATHERENERG",
+    "globals": {
+      "memory": [
+        {
+          "score": 200.0,
+          "session_id": "e513fbb0-b47e-4d9a-9aa0-b542cc7b9698",
+          "original_query": "Query 1: visit this url: https://www.nseindia.com/get-quotes/equity?symbol=ATHERENERG and tell me the price mentioned for Ather Energy stock as of NOW.",
+          "summary_output": "The latest stock price of **Ather Energy Ltd.** is \u20b9319.00, as of today's trading, according to the [Economic Times](https://economictimes.indiatimes.com/ather-energy-ltd/stocks/companyid-1965014.cms).",
+          "timestamp": "2025-05-19T11:12:27Z"
+        },
+        {
+          "score": 192.6829268292683,
+          "session_id": "f7d71707-0dd8-42d6-95a4-67d41949ccf3",
+          "original_query": "Query 1: What's the latest stock price of Ather Energy?",
+          "summary_output": "The latest stock price of **Ather Energy Ltd.** is **\u20b9319.00**, as of today's trading on the [Economic Times](https://economictimes.indiatimes.com/ather-energy-ltd/stocks/companyid-1965014.cms).",
+          "timestamp": "2025-05-19T06:06:01Z"
+        },
+        {
+          "score": 192.6829268292683,
+          "session_id": "312b9051-8602-4276-96f9-68f2052e6227",
+          "original_query": "Query 1: What's the latest stock price of Ather Energy?",
+          "summary_output": "As of August 2024, Ather Energy's valuation reached **$1.3 billion** following a funding round led by NIIF.",
+          "timestamp": "2025-05-19T05:47:42Z"
+        }
+      ],
+      "raw_text_0A": [
+        {
+          "type": "text",
+          "text": "[visible] Ather Energy Limited Share Price Today, Stock Price, Live NSE News, Quotes, Tips  NSE India\nOption Chain\nMarket Turnover\nListings\nIPO\nCirculars\nDaily Report\nHolidays\nCorporates\nPress Releases\nContact Us\nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\nFont Size\nA+\n|\nReset\n|\nA-\nContrast\nHigh Contrast\n|\nReset\n24,945.45\n-74.35\n(\n-0.3\n%)\n19-May-2025 15:30\nStreaming\nStreaming\non\noff\nStreaming Speed\nSlow\nMedium\nFast\n(\n%)\nIndicative close\nFutures 29-May-2025\n25,019.00\n27.50\n(\n0.11\n%)\n19-May-2025 16:41\nUSDINR\nFutures\n28-May-2025\n|\n85.4625\n19-May-2025 16:42\nMarket Capitalization\nLac Crs 441.37\n|\nTn $ 5.16\n19-May-2025\nHome\nAbout\nAbout NSE\nAbout Us\nStructure & Key Personnel\nInvestor Relations\nAwards and Recognitions\nRegulations\nEvent Gallery\nMedia\nHolidays\nCareers\nContact Us\nNSE Group companies\nNSE Academy\nNSE Clearing\nNSE Data & Analytics\nNSE Foundation\nNSE Indices\nNSE International Exchange\nNSE International Clearing\nNSE Investments\nView all\nProducts & Services\nEquity Market\nIndices\nEmerge Platform\nMutual Funds\nEquity Derivatives\nCurrency Derivatives\nCommodity Derivatives\nInterest Rate Derivatives\nFixed Income and Debt\nPublic Issues\nAbout Us\nFind everything about the leading stock exchange of India\nOur Group\nCheck NSE's group of the companies\nOur Products\nBrowse a comprehensive and innovative product and service offerings by NSE\nMarket Data\nEquity\nNew Listings\nPre-Open Market\nEquity & SME Market\nIndices\nGainers/Losers\nMost Active Equities\nPrice Band Hitters\n52 Week High/Low\nLarge Deals\nAdvances / Declines\nSecurities Lending & Borrowing\nCall auction for Illiquid Securities\nSecurities available for Trading\nPrice Bands & Surveillance Actions\nPosition/Investment Limits\nLegend of series\nDaily Reports\nHistorical Reports\nDerivatives\nDerivatives Market\nOption Chain\nMost Active Contracts\nMost Active Underlying\nChange in Open Interest\nLiquidity Enhancement Scheme\nContracts available for Trading\nDaily Reports\nHistorical Reports\nDebt & Fixed Income\nTraded on CM\nCBRICS\nRFQ\nNegotiated Trades\nTrade Repository\nTri-Party Repo\nDaily Reports\nHistorical Reports\nPrimary Markets\nIPO\nOffer For Sale\nNCB G-SEC\nInstitutional Placement Program (IPP)\nTender Offer\nRights\nINVITS\nREITS\nReverse Book Building\nMarket Snapshot\nLive Analysis of top gainers/losers, most active securities/contracts, price band hitters, overview of the market.\nOption Chain\nView Option chain for the exchange\nHistorical Reports\nView Historical Reports of securities/contracts traded on the Exchange.\nInvest\nInvestor Education\nInvesting in Securities Market\nProduct Segment\nCharges and Taxes\nInvestment limits for FIIs\nInvestor Awareness\nInvestor Charter\nProtection from Fraud\nInvestor Awareness Programs\nRegulatory Action\nRegistered Investors\nForeign Portfolio Investors (FPI)\nResources & Tools\nLocate your Stock Broker\nCompany Directory\nExit Option for shareholders\nFeedback\nInvestor's Home\nInvestor education on how to invest safely and",
+          "annotations": null
+        }
+      ],
+      "ather_energy_price_1A": ","
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: visit this url: https://www.nseindia.com/get-quotes/equity?symbol=ATHERENERG and tell me the price mentioned for Ather Energy stock as of NOW.\nResponse 1: The latest stock price of **Ather Energy Ltd.** is \u20b9319.00, as of today's trading, according to the [Economic Times](https://economictimes.indiatimes.com/ather-energy-ltd/stocks/companyid-1965014.cms).\nQuery 2: I want it NOW, LATEST. dont search memory: https://www.nseindia.com/get-quotes/equity?symbol=ATHERENERG",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "The original query asked for the latest stock price of Ather Energy from NSE India. The current time is 2025-05-19T11:14:08.945380. The tool attempted to extract the stock price but failed.\n\nHere is the raw text fetched from the NSE India website:\n\n[visible] Ather Energy Limited Share Price Today, Stock Price, Live NSE News, Quotes, Tips  NSE India\nOption Chain\nMarket Turnover\nListings\nIPO\nCirculars\nDaily Report\nHolidays\nCorporates\nPress Releases\nContact Us\nEnglish\n(Hindi)\n(Marathi)\n(Gujarati)\n(Bengali)\n(Kannada)\n(Tamil)\n(Telugu)\n(Punjabi)\n(Malayalam)\n(Oriya)\n(Assamese)\n(Urdu)\nFont Size\nA+\n|\nReset\n|\nA-\nContrast\nHigh Contrast\n|\nReset\n24,945.45\n-74.35\n(\n-0.3\n%)\n19-May-2025 15:30\nStreaming\nStreaming\non\noff\nStreaming Speed\nSlow\nMedium\nFast\n(\n%)\nIndicative close\nFutures 29-May-2025\n25,019.00\n27.50\n(\n0.11\n%)\n19-May-2025 16:41\nUSDINR\nFutures\n28-May-2025\n|\n85.4625\n19-May-2025 16:42\nMarket Capitalization\nLac Crs 441.37\n|\nTn $ 5.16\n19-May-2025\nHome\nAbout\nAbout NSE\nAbout Us\nStructure & Key Personnel\nInvestor Relations\nAwards and Recognitions\nRegulations\nEvent Gallery\nMedia\nHolidays\nCareers\nContact Us\nNSE Group companies\nNSE Academy\nNSE Clearing\nNSE Data & Analytics\nNSE Foundation\nNSE Indices\nNSE International Exchange\nNSE International Clearing\nNSE Investments\nView all\nProducts & Services\nEquity Market\nIndices\nEmerge Platform\nMutual Funds\nEquity Derivatives\nCurrency Derivatives\nCommodity Derivatives\nInterest Rate Derivatives\nFixed Income and Debt\nPublic Issues\nAbout Us\nFind everything about the leading stock exchange of India\nOur Group\nCheck NSE's group of the companies\nOur Products\nBrowse a comprehensive and innovative product and service offerings by NSE\nMarket Data\nEquity\nNew Listings\nPre-Open Market\nEquity & SME Market\nIndices\nGainers/Losers\nMost Active Equities\nPrice Band Hitters\n52 Week High/Low\nLarge Deals\nAdvances / Declines\nSecurities Lending & Borrowing\nCall auction for Illiquid Securities\nSecurities available for Trading\nPrice Bands & Surveillance Actions\nPosition/Investment Limits\nLegend of series\nDaily Reports\nHistorical Reports\nDerivatives\nDerivatives Market\nOption Chain\nMost Active Contracts\nMost Active Underlying\nChange in Open Interest\nLiquidity Enhancement Scheme\nContracts available for Trading\nDaily Reports\nHistorical Reports\nDebt & Fixed Income\nTraded on CM\nCBRICS\nRFQ\nNegotiated Trades\nTrade Repository\nTri-Party Repo\nDaily Reports\nHistorical Reports\nPrimary Markets\nIPO\nOffer For Sale\nNCB G-SEC\nInstitutional Placement Program (IPP)\nTender Offer\nRights\nINVITS\nREITS\nReverse Book Building\nMarket Snapshot\nLive Analysis of top gainers/losers, most active securities/contracts, price band hitters, overview of the market.\nOption Chain\nView Option chain for the exchange\nHistorical Reports\nView Historical Reports of securities/contracts traded on the Exchange.\nInvest\nInvestor Education\nInvesting in Securities Market\nProduct Segment\nCharges and Taxes\nInvestment limits for FIIs\nInvestor Awareness\nInvestor Charter\nProtection from Fraud\nInvestor Awareness Programs\nRegulatory Action\nRegistered Investors\nForeign Portfolio Investors (FPI)\nResources & Tools\nLocate your Stock Broker\nCompany Directory\nExit Option for shareholders\nFeedback\nInvestor's Home\nInvestor education on how to invest safely and",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Ather Energy",
+                "stock price",
+                "NSE India"
+              ],
+              "result_requirement": "Latest stock price of Ather Energy from NSE India",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.6",
+              "reasoning": "The user is requesting the latest stock price from NSE India, but the information in memory is from the Economic Times. Although a URL for NSE India is provided, the system needs to fetch the latest price from that URL to satisfy the 'NOW, LATEST' requirement.  The memory should be ignored.",
+              "local_reasoning": "The user explicitly stated 'dont search memory' and requested the latest price. The existing information in memory is insufficient.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Fetch raw text from the provided NSE India URL.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "raw_text_0A": [
+                {
+                  "type": "text",
+                  "text": "[visible] Ather Energy Limited Share Price Today, Stock Price, Live NSE News, Quotes, Tips  NSE India\nOption Chain\nMarket Turnover\nListings\nIPO\nCirculars\nDaily Report\nHolidays\nCorporates\nPress Releases\nContact Us\nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\nFont Size\nA+\n|\nReset\n|\nA-\nContrast\nHigh Contrast\n|\nReset\n24,945.45\n-74.35\n(\n-0.3\n%)\n19-May-2025 15:30\nStreaming\nStreaming\non\noff\nStreaming Speed\nSlow\nMedium\nFast\n(\n%)\nIndicative close\nFutures 29-May-2025\n25,019.00\n27.50\n(\n0.11\n%)\n19-May-2025 16:41\nUSDINR\nFutures\n28-May-2025\n|\n85.4625\n19-May-2025 16:42\nMarket Capitalization\nLac Crs 441.37\n|\nTn $ 5.16\n19-May-2025\nHome\nAbout\nAbout NSE\nAbout Us\nStructure & Key Personnel\nInvestor Relations\nAwards and Recognitions\nRegulations\nEvent Gallery\nMedia\nHolidays\nCareers\nContact Us\nNSE Group companies\nNSE Academy\nNSE Clearing\nNSE Data & Analytics\nNSE Foundation\nNSE Indices\nNSE International Exchange\nNSE International Clearing\nNSE Investments\nView all\nProducts & Services\nEquity Market\nIndices\nEmerge Platform\nMutual Funds\nEquity Derivatives\nCurrency Derivatives\nCommodity Derivatives\nInterest Rate Derivatives\nFixed Income and Debt\nPublic Issues\nAbout Us\nFind everything about the leading stock exchange of India\nOur Group\nCheck NSE's group of the companies\nOur Products\nBrowse a comprehensive and innovative product and service offerings by NSE\nMarket Data\nEquity\nNew Listings\nPre-Open Market\nEquity & SME Market\nIndices\nGainers/Losers\nMost Active Equities\nPrice Band Hitters\n52 Week High/Low\nLarge Deals\nAdvances / Declines\nSecurities Lending & Borrowing\nCall auction for Illiquid Securities\nSecurities available for Trading\nPrice Bands & Surveillance Actions\nPosition/Investment Limits\nLegend of series\nDaily Reports\nHistorical Reports\nDerivatives\nDerivatives Market\nOption Chain\nMost Active Contracts\nMost Active Underlying\nChange in Open Interest\nLiquidity Enhancement Scheme\nContracts available for Trading\nDaily Reports\nHistorical Reports\nDebt & Fixed Income\nTraded on CM\nCBRICS\nRFQ\nNegotiated Trades\nTrade Repository\nTri-Party Repo\nDaily Reports\nHistorical Reports\nPrimary Markets\nIPO\nOffer For Sale\nNCB G-SEC\nInstitutional Placement Program (IPP)\nTender Offer\nRights\nINVITS\nREITS\nReverse Book Building\nMarket Snapshot\nLive Analysis of top gainers/losers, most active securities/contracts, price band hitters, overview of the market.\nOption Chain\nView Option chain for the exchange\nHistorical Reports\nView Historical Reports of securities/contracts traded on the Exchange.\nInvest\nInvestor Education\nInvesting in Securities Market\nProduct Segment\nCharges and Taxes\nInvestment limits for FIIs\nInvestor Awareness\nInvestor Charter\nProtection from Fraud\nInvestor Awareness Programs\nRegulatory Action\nRegistered Investors\nForeign Portfolio Investors (FPI)\nResources & Tools\nLocate your Stock Broker\nCompany Directory\nExit Option for shareholders\nFeedback\nInvestor's Home\nInvestor education on how to invest safely and",
+                  "annotations": null
+                }
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Ather Energy",
+                "stock price",
+                "NSE India"
+              ],
+              "result_requirement": "Latest stock price of Ather Energy from NSE India",
+              "original_goal_achieved": false,
+              "local_goal_achieved": true,
+              "confidence": "0.8",
+              "reasoning": "The tool successfully fetched the raw text from the NSE India website. The next step is to extract the stock price of Ather Energy from the raw text.",
+              "local_reasoning": "The raw text is now available. We need to extract the stock price from it.",
+              "last_tooluse_summary": "webpage_url_to_raw_text succeeded in fetching content from NSE India",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        },
+        {
+          "data": {
+            "index": "1",
+            "description": "Extract the Ather Energy stock price from the raw text.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "ather_energy_price_1A": ","
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Ather Energy",
+                "stock price",
+                "NSE India"
+              ],
+              "result_requirement": "Latest stock price of Ather Energy from NSE India",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.9",
+              "reasoning": "The tool failed to extract the stock price, and the previous step successfully fetched the raw text from NSE India. Given that decision agents cannot perform semantic extraction, and the extraction step failed, it is unlikely that further steps will be helpful. The raw text is available and should be used for summarization.",
+              "local_reasoning": "The extraction tool failed, and decision cannot resolve this. Need to summarize what we have.",
+              "last_tooluse_summary": "text_extraction failed to extract price",
+              "solution_summary": "Failed to extract Ather Energy stock price from NSE India website.",
+              "route": "summarize",
+              "instruction_to_summarize": "The original query asked for the latest stock price of Ather Energy from NSE India. The tool failed to extract the price, summarize and state the current time, that the tool failed to extract price. Include the raw text fetched from NSE India website."
+            },
+            "from_step": "1"
+          },
+          "id": "1"
+        },
+        {
+          "data": {
+            "index": "2",
+            "description": "Respond with the extracted Ather Energy stock price.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "1"
+          },
+          "id": "2"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "1",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "1",
+          "target": "2"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "e7fa8be3-e37a-4ca5-8973-aa0f9f24705a",
+    "original_query": "Query 1: visit this url: https://www.nseindia.com/get-quotes/equity?symbol=ATHERENERG and tell me the price mentioned for Ather Energy stock as of NOW.\nResponse 1: The latest stock price of **Ather Energy Ltd.** is \u20b9319.00, as of today's trading, according to the [Economic Times](https://economictimes.indiatimes.com/ather-energy-ltd/stocks/companyid-1965014.cms).\nQuery 2: I want it NOW, LATEST. dont search memory: https://www.nseindia.com/get-quotes/equity?symbol=ATHERENERG",
+    "perception_snapshots": [
+      {
+        "run_id": "e7fa8be3-e37a-4ca5-8973-aa0f9f24705a-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "Ather Energy",
+          "stock price",
+          "NSE India"
+        ],
+        "result_requirement": "Latest stock price of Ather Energy from NSE India",
+        "original_goal_achieved": false,
+        "reasoning": "The user is requesting the latest stock price from NSE India, but the information in memory is from the Economic Times. Although a URL for NSE India is provided, the system needs to fetch the latest price from that URL to satisfy the 'NOW, LATEST' requirement.  The memory should be ignored.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The user explicitly stated 'dont search memory' and requested the latest price. The existing information in memory is insufficient.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.6",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "e7fa8be3-e37a-4ca5-8973-aa0f9f24705a-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "Ather Energy",
+          "stock price",
+          "NSE India"
+        ],
+        "result_requirement": "Latest stock price of Ather Energy from NSE India",
+        "original_goal_achieved": false,
+        "reasoning": "The tool successfully fetched the raw text from the NSE India website. The next step is to extract the stock price of Ather Energy from the raw text.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The raw text is now available. We need to extract the stock price from it.",
+        "last_tooluse_summary": "webpage_url_to_raw_text succeeded in fetching content from NSE India",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.8",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "e7fa8be3-e37a-4ca5-8973-aa0f9f24705a-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "Ather Energy",
+          "stock price",
+          "NSE India"
+        ],
+        "result_requirement": "Latest stock price of Ather Energy from NSE India",
+        "original_goal_achieved": false,
+        "reasoning": "The tool failed to extract the stock price, and the previous step successfully fetched the raw text from NSE India. Given that decision agents cannot perform semantic extraction, and the extraction step failed, it is unlikely that further steps will be helpful. The raw text is available and should be used for summarization.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The extraction tool failed, and decision cannot resolve this. Need to summarize what we have.",
+        "last_tooluse_summary": "text_extraction failed to extract price",
+        "solution_summary": "Failed to extract Ather Energy stock price from NSE India website.",
+        "confidence": "0.9",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "736a5807-e518-45e7-8bfa-8d20bcdc98ee",
+        "input": {
+          "current_time": "2025-05-19T11:13:41.105289",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: visit this url: https://www.nseindia.com/get-quotes/equity?symbol=ATHERENERG and tell me the price mentioned for Ather Energy stock as of NOW.\nResponse 1: The latest stock price of **Ather Energy Ltd.** is \u20b9319.00, as of today's trading, according to the [Economic Times](https://economictimes.indiatimes.com/ather-energy-ltd/stocks/companyid-1965014.cms).\nQuery 2: I want it NOW, LATEST. dont search memory: https://www.nseindia.com/get-quotes/equity?symbol=ATHERENERG",
+          "perception": {
+            "entities": [
+              "Ather Energy",
+              "stock price",
+              "NSE India"
+            ],
+            "result_requirement": "Latest stock price of Ather Energy from NSE India",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.6",
+            "reasoning": "The user is requesting the latest stock price from NSE India, but the information in memory is from the Economic Times. Although a URL for NSE India is provided, the system needs to fetch the latest price from that URL to satisfy the 'NOW, LATEST' requirement.  The memory should be ignored.",
+            "local_reasoning": "The user explicitly stated 'dont search memory' and requested the latest price. The existing information in memory is insufficient.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Ather Energy",
+                  "stock price",
+                  "NSE India"
+                ],
+                "result_requirement": "Latest stock price of Ather Energy from NSE India",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.6",
+                "reasoning": "The user is requesting the latest stock price from NSE India, but the information in memory is from the Economic Times. Although a URL for NSE India is provided, the system needs to fetch the latest price from that URL to satisfy the 'NOW, LATEST' requirement.  The memory should be ignored.",
+                "local_reasoning": "The user explicitly stated 'dont search memory' and requested the latest price. The existing information in memory is insufficient.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Ather Energy",
+                  "stock price",
+                  "NSE India"
+                ],
+                "result_requirement": "Latest stock price of Ather Energy from NSE India",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.6",
+                "reasoning": "The user is requesting the latest stock price from NSE India, but the information in memory is from the Economic Times. Although a URL for NSE India is provided, the system needs to fetch the latest price from that URL to satisfy the 'NOW, LATEST' requirement.  The memory should be ignored.",
+                "local_reasoning": "The user explicitly stated 'dont search memory' and requested the latest price. The existing information in memory is insufficient.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[{'score': 200.0, 'session_id': 'e513fbb0-b47e-4d9a-9aa0-b542cc7b9698', 'original_query': 'Query 1: visit this url: https://www.nseindia.com/get-quotes/equity?symbol=ATHERENERG and tell me the price mentioned for Ather Energy stock as of NOW.', 'summary_output': \"The latest stock price of **Ather Energy Ltd.** is \u20b9319.00, as of today's trading, according to the [Economic Times](https://economictimes.indiatimes.com/ather-energy-ltd/stocks/companyid-1965014.cms).\", 'timestamp': '2025-05-19T11:12:2\u2026"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Fetch raw text from the provided NSE India URL."
+              },
+              {
+                "id": "1",
+                "description": "Extract the stock price of Ather Energy from the raw text."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=ATHERENERG'\nraw_text = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0A\": raw_text}",
+            "CODE_0B": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=ATHERENERG'\nraw_text = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0B\": raw_text}",
+            "CODE_0C": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=ATHERENERG'\nraw_text = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0C\": raw_text}"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Fetch raw text from the provided NSE India URL."
+            },
+            {
+              "id": "1",
+              "description": "Extract the stock price of Ather Energy from the raw text."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=ATHERENERG'\nraw_text = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0A\": raw_text}",
+          "CODE_0B": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=ATHERENERG'\nraw_text = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0B\": raw_text}",
+          "CODE_0C": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=ATHERENERG'\nraw_text = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0C\": raw_text}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      },
+      {
+        "run_id": "6c54387d-598f-47c6-88ba-869595f5da09",
+        "input": {
+          "current_time": "2025-05-19T11:13:56.915652",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: visit this url: https://www.nseindia.com/get-quotes/equity?symbol=ATHERENERG and tell me the price mentioned for Ather Energy stock as of NOW.\nResponse 1: The latest stock price of **Ather Energy Ltd.** is \u20b9319.00, as of today's trading, according to the [Economic Times](https://economictimes.indiatimes.com/ather-energy-ltd/stocks/companyid-1965014.cms).\nQuery 2: I want it NOW, LATEST. dont search memory: https://www.nseindia.com/get-quotes/equity?symbol=ATHERENERG",
+          "perception": {
+            "entities": [
+              "Ather Energy",
+              "stock price",
+              "NSE India"
+            ],
+            "result_requirement": "Latest stock price of Ather Energy from NSE India",
+            "original_goal_achieved": false,
+            "local_goal_achieved": true,
+            "confidence": "0.8",
+            "reasoning": "The tool successfully fetched the raw text from the NSE India website. The next step is to extract the stock price of Ather Energy from the raw text.",
+            "local_reasoning": "The raw text is now available. We need to extract the stock price from it.",
+            "last_tooluse_summary": "webpage_url_to_raw_text succeeded in fetching content from NSE India",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Ather Energy",
+                  "stock price",
+                  "NSE India"
+                ],
+                "result_requirement": "Latest stock price of Ather Energy from NSE India",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.6",
+                "reasoning": "The user is requesting the latest stock price from NSE India, but the information in memory is from the Economic Times. Although a URL for NSE India is provided, the system needs to fetch the latest price from that URL to satisfy the 'NOW, LATEST' requirement.  The memory should be ignored.",
+                "local_reasoning": "The user explicitly stated 'dont search memory' and requested the latest price. The existing information in memory is insufficient.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            },
+            {
+              "index": "0",
+              "description": "Fetch raw text from the provided NSE India URL.",
+              "type": "CODE",
+              "status": "completed",
+              "result": {
+                "raw_text_0A": [
+                  {
+                    "type": "text",
+                    "text": "[visible] Ather Energy Limited Share Price Today, Stock Price, Live NSE News, Quotes, Tips  NSE India\nOption Chain\nMarket Turnover\nListings\nIPO\nCirculars\nDaily Report\nHolidays\nCorporates\nPress Releases\nContact Us\nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\nFont Size\nA+\n|\nReset\n|\nA-\nContrast\nHigh Contrast\n|\nReset\n24,945.45\n-74.35\n(\n-0.3\n%)\n19-May-2025 15:30\nStreaming\nStreaming\non\noff\nStreaming Speed\nSlow\nMedium\nFast\n(\n%)\nIndicative close\nFutures 29-May-2025\n25,019.00\n27.50\n(\n0.11\n%)\n19-May-2025 16:41\nUSDINR\nFutures\n28-May-2025\n|\n85.4625\n19-May-2025 16:42\nMarket Capitalization\nLac Crs 441.37\n|\nTn $ 5.16\n19-May-2025\nHome\nAbout\nAbout NSE\nAbout Us\nStructure & Key Personnel\nInvestor Relations\nAwards and Recognitions\nRegulations\nEvent Gallery\nMedia\nHolidays\nCareers\nContact Us\nNSE Group companies\nNSE Academy\nNSE Clearing\nNSE Data & Analytics\nNSE Foundation\nNSE Indices\nNSE International Exchange\nNSE International Clearing\nNSE Investments\nView all\nProducts & Services\nEquity Market\nIndices\nEmerge Platform\nMutual Funds\nEquity Derivatives\nCurrency Derivatives\nCommodity Derivatives\nInterest Rate Derivatives\nFixed Income and Debt\nPublic Issues\nAbout Us\nFind everything about the leading stock exchange of India\nOur Group\nCheck NSE's group of the companies\nOur Products\nBrowse a comprehensive and innovative product and service offerings by NSE\nMarket Data\nEquity\nNew Listings\nPre-Open Market\nEquity & SME Market\nIndices\nGainers/Losers\nMost Active Equities\nPrice Band Hitters\n52 Week High/Low\nLarge Deals\nAdvances / Declines\nSecurities Lending & Borrowing\nCall auction for Illiquid Securities\nSecurities available for Trading\nPrice Bands & Surveillance Actions\nPosition/Investment Limits\nLegend of series\nDaily Reports\nHistorical Reports\nDerivatives\nDerivatives Market\nOption Chain\nMost Active Contracts\nMost Active Underlying\nChange in Open Interest\nLiquidity Enhancement Scheme\nContracts available for Trading\nDaily Reports\nHistorical Reports\nDebt & Fixed Income\nTraded on CM\nCBRICS\nRFQ\nNegotiated Trades\nTrade Repository\nTri-Party Repo\nDaily Reports\nHistorical Reports\nPrimary Markets\nIPO\nOffer For Sale\nNCB G-SEC\nInstitutional Placement Program (IPP)\nTender Offer\nRights\nINVITS\nREITS\nReverse Book Building\nMarket Snapshot\nLive Analysis of top gainers/losers, most active securities/contracts, price band hitters, overview of the market.\nOption Chain\nView Option chain for the exchange\nHistorical Reports\nView Historical Reports of securities/contracts traded on the Exchange.\nInvest\nInvestor Education\nInvesting in Securities Market\nProduct Segment\nCharges and Taxes\nInvestment limits for FIIs\nInvestor Awareness\nInvestor Charter\nProtection from Fraud\nInvestor Awareness Programs\nRegulatory Action\nRegistered Investors\nForeign Portfolio Investors (FPI)\nResources & Tools\nLocate your Stock Broker\nCompany Directory\nExit Option for shareholders\nFeedback\nInvestor's Home\nInvestor education on how to invest safely and",
+                    "annotations": null
+                  }
+                ]
+              },
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Ather Energy",
+                  "stock price",
+                  "NSE India"
+                ],
+                "result_requirement": "Latest stock price of Ather Energy from NSE India",
+                "original_goal_achieved": false,
+                "local_goal_achieved": true,
+                "confidence": "0.8",
+                "reasoning": "The tool successfully fetched the raw text from the NSE India website. The next step is to extract the stock price of Ather Energy from the raw text.",
+                "local_reasoning": "The raw text is now available. We need to extract the stock price from it.",
+                "last_tooluse_summary": "webpage_url_to_raw_text succeeded in fetching content from NSE India",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": "ROOT"
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Ather Energy",
+                  "stock price",
+                  "NSE India"
+                ],
+                "result_requirement": "Latest stock price of Ather Energy from NSE India",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.6",
+                "reasoning": "The user is requesting the latest stock price from NSE India, but the information in memory is from the Economic Times. Although a URL for NSE India is provided, the system needs to fetch the latest price from that URL to satisfy the 'NOW, LATEST' requirement.  The memory should be ignored.",
+                "local_reasoning": "The user explicitly stated 'dont search memory' and requested the latest price. The existing information in memory is insufficient.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[{'score': 200.0, 'session_id': 'e513fbb0-b47e-4d9a-9aa0-b542cc7b9698', 'original_query': 'Query 1: visit this url: https://www.nseindia.com/get-quotes/equity?symbol=ATHERENERG and tell me the price mentioned for Ather Energy stock as of NOW.', 'summary_output': \"The latest stock price of **Ather Energy Ltd.** is \u20b9319.00, as of today's trading, according to the [Economic Times](https://economictimes.indiatimes.com/ather-energy-ltd/stocks/companyid-1965014.cms).\", 'timestamp': '2025-05-19T11:12:2\u2026"
+            },
+            "raw_text_0A": {
+              "type": "list",
+              "preview": "[{'type': 'text', 'text': \"[visible] Ather Energy Limited Share Price Today, Stock Price, Live NSE News, Quotes, Tips  NSE India\\nOption Chain\\nMarket Turnover\\nListings\\nIPO\\nCirculars\\nDaily Report\\nHolidays\\nCorporates\\nPress Releases\\nContact Us\\nEnglish\\n (Hindi)\\n (Marathi)\\n (Gujarati)\\n (Bengali)\\n (Kannada)\\n (Tamil)\\n (Telugu)\\n (Punjabi)\\n (Malayalam)\\n (Oriya)\\n (Assamese)\\n (Urdu)\\nFont Size\\nA+\\n|\\nReset\\n|\\nA-\\nContrast\\nHigh Contrast\\n|\\nReset\\n24,945.45\\n-74.35\\n(\\n-0.3\\n%)\\n19-\u2026"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Fetch raw text from the provided NSE India URL."
+              },
+              {
+                "id": "1",
+                "description": "Extract the Ather Energy stock price from the raw text."
+              },
+              {
+                "id": "2",
+                "description": "Respond with the extracted Ather Energy stock price."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              },
+              {
+                "from": "1",
+                "to": "2",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "1",
+          "code_variants": {
+            "CODE_1A": "import re\nraw_text = globals_schema.get(\"raw_text_0A\", [{\"text\": \"\"}])[0].get(\"text\", \"\")\nmatch = re.search(r'Ather Energy Limited.*?([\\d,]+\\.?[\\d]{0,2})', raw_text, re.DOTALL)\nif match:\n    price = match.group(1)\n    return {\"ather_energy_price_1A\": price}\nelse:\n    return {\"ather_energy_price_1A\": \"Price not found\"}",
+            "CODE_1B": "import re\nraw_text = globals_schema.get(\"raw_text_0A\", [{\"text\": \"\"}])[0].get(\"text\", \"\")\nmatch = re.search(r'([\\d,]+\\.?[\\d]{0,2}).*?Ather Energy Limited', raw_text, re.DOTALL)\nif match:\n    price = match.group(1)\n    return {\"ather_energy_price_1B\": price}\nelse:\n    return {\"ather_energy_price_1B\": \"Price not found\"}",
+            "CODE_1C": "raw_text = globals_schema.get(\"raw_text_0A\", [{\"text\": \"\"}])[0].get(\"text\", \"\")\nif \"Ather Energy Limited\" in raw_text:\n    start_index = raw_text.find(\"Ather Energy Limited\")\n    relevant_text = raw_text[start_index:start_index+200] # Check within a window\n    import re\n    match = re.search(r'([\\d,]+\\.?[\\d]{0,2})', relevant_text)\n    if match:\n        price = match.group(1)\n        return {\"ather_energy_price_1C\": price}\n    else:\n        return {\"ather_energy_price_1C\": \"Price not found\"}\nelse:\n    return {\"ather_energy_price_1C\": \"Ather Energy not found\"}"
+          }
+        },
+        "next_step_id": "1",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Fetch raw text from the provided NSE India URL."
+            },
+            {
+              "id": "1",
+              "description": "Extract the Ather Energy stock price from the raw text."
+            },
+            {
+              "id": "2",
+              "description": "Respond with the extracted Ather Energy stock price."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            },
+            {
+              "from": "1",
+              "to": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_1A": "import re\nraw_text = globals_schema.get(\"raw_text_0A\", [{\"text\": \"\"}])[0].get(\"text\", \"\")\nmatch = re.search(r'Ather Energy Limited.*?([\\d,]+\\.?[\\d]{0,2})', raw_text, re.DOTALL)\nif match:\n    price = match.group(1)\n    return {\"ather_energy_price_1A\": price}\nelse:\n    return {\"ather_energy_price_1A\": \"Price not found\"}",
+          "CODE_1B": "import re\nraw_text = globals_schema.get(\"raw_text_0A\", [{\"text\": \"\"}])[0].get(\"text\", \"\")\nmatch = re.search(r'([\\d,]+\\.?[\\d]{0,2}).*?Ather Energy Limited', raw_text, re.DOTALL)\nif match:\n    price = match.group(1)\n    return {\"ather_energy_price_1B\": price}\nelse:\n    return {\"ather_energy_price_1B\": \"Price not found\"}",
+          "CODE_1C": "raw_text = globals_schema.get(\"raw_text_0A\", [{\"text\": \"\"}])[0].get(\"text\", \"\")\nif \"Ather Energy Limited\" in raw_text:\n    start_index = raw_text.find(\"Ather Energy Limited\")\n    relevant_text = raw_text[start_index:start_index+200] # Check within a window\n    import re\n    match = re.search(r'([\\d,]+\\.?[\\d]{0,2})', relevant_text)\n    if match:\n        price = match.group(1)\n        return {\"ather_energy_price_1C\": price}\n    else:\n        return {\"ather_energy_price_1C\": \"Price not found\"}\nelse:\n    return {\"ather_energy_price_1C\": \"Ather Energy not found\"}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [
+      {
+        "run_id": "a386a33a-5687-4ed6-940e-6337bb096a18",
+        "step_id": "0",
+        "variant_used": "CODE_0A",
+        "code": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=ATHERENERG'\nraw_text = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0A\": raw_text}",
+        "status": "success",
+        "result": {
+          "raw_text_0A": [
+            {
+              "type": "text",
+              "text": "[visible] Ather Energy Limited Share Price Today, Stock Price, Live NSE News, Quotes, Tips  NSE India\nOption Chain\nMarket Turnover\nListings\nIPO\nCirculars\nDaily Report\nHolidays\nCorporates\nPress Releases\nContact Us\nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\nFont Size\nA+\n|\nReset\n|\nA-\nContrast\nHigh Contrast\n|\nReset\n24,945.45\n-74.35\n(\n-0.3\n%)\n19-May-2025 15:30\nStreaming\nStreaming\non\noff\nStreaming Speed\nSlow\nMedium\nFast\n(\n%)\nIndicative close\nFutures 29-May-2025\n25,019.00\n27.50\n(\n0.11\n%)\n19-May-2025 16:41\nUSDINR\nFutures\n28-May-2025\n|\n85.4625\n19-May-2025 16:42\nMarket Capitalization\nLac Crs 441.37\n|\nTn $ 5.16\n19-May-2025\nHome\nAbout\nAbout NSE\nAbout Us\nStructure & Key Personnel\nInvestor Relations\nAwards and Recognitions\nRegulations\nEvent Gallery\nMedia\nHolidays\nCareers\nContact Us\nNSE Group companies\nNSE Academy\nNSE Clearing\nNSE Data & Analytics\nNSE Foundation\nNSE Indices\nNSE International Exchange\nNSE International Clearing\nNSE Investments\nView all\nProducts & Services\nEquity Market\nIndices\nEmerge Platform\nMutual Funds\nEquity Derivatives\nCurrency Derivatives\nCommodity Derivatives\nInterest Rate Derivatives\nFixed Income and Debt\nPublic Issues\nAbout Us\nFind everything about the leading stock exchange of India\nOur Group\nCheck NSE's group of the companies\nOur Products\nBrowse a comprehensive and innovative product and service offerings by NSE\nMarket Data\nEquity\nNew Listings\nPre-Open Market\nEquity & SME Market\nIndices\nGainers/Losers\nMost Active Equities\nPrice Band Hitters\n52 Week High/Low\nLarge Deals\nAdvances / Declines\nSecurities Lending & Borrowing\nCall auction for Illiquid Securities\nSecurities available for Trading\nPrice Bands & Surveillance Actions\nPosition/Investment Limits\nLegend of series\nDaily Reports\nHistorical Reports\nDerivatives\nDerivatives Market\nOption Chain\nMost Active Contracts\nMost Active Underlying\nChange in Open Interest\nLiquidity Enhancement Scheme\nContracts available for Trading\nDaily Reports\nHistorical Reports\nDebt & Fixed Income\nTraded on CM\nCBRICS\nRFQ\nNegotiated Trades\nTrade Repository\nTri-Party Repo\nDaily Reports\nHistorical Reports\nPrimary Markets\nIPO\nOffer For Sale\nNCB G-SEC\nInstitutional Placement Program (IPP)\nTender Offer\nRights\nINVITS\nREITS\nReverse Book Building\nMarket Snapshot\nLive Analysis of top gainers/losers, most active securities/contracts, price band hitters, overview of the market.\nOption Chain\nView Option chain for the exchange\nHistorical Reports\nView Historical Reports of securities/contracts traded on the Exchange.\nInvest\nInvestor Education\nInvesting in Securities Market\nProduct Segment\nCharges and Taxes\nInvestment limits for FIIs\nInvestor Awareness\nInvestor Charter\nProtection from Fraud\nInvestor Awareness Programs\nRegulatory Action\nRegistered Investors\nForeign Portfolio Investors (FPI)\nResources & Tools\nLocate your Stock Broker\nCompany Directory\nExit Option for shareholders\nFeedback\nInvestor's Home\nInvestor education on how to invest safely and",
+              "annotations": null
+            }
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 16:43:45",
+        "total_time": "6.518",
+        "return_to": ""
+      },
+      {
+        "run_id": "a6829af4-e005-41ed-8e12-4c2fac44fd98",
+        "step_id": "1",
+        "variant_used": "CODE_1A",
+        "code": "import re\nraw_text = globals_schema.get(\"raw_text_0A\", [{\"text\": \"\"}])[0].get(\"text\", \"\")\nmatch = re.search(r'Ather Energy Limited.*?([\\d,]+\\.?[\\d]{0,2})', raw_text, re.DOTALL)\nif match:\n    price = match.group(1)\n    return {\"ather_energy_price_1A\": price}\nelse:\n    return {\"ather_energy_price_1A\": \"Price not found\"}",
+        "status": "success",
+        "result": {
+          "ather_energy_price_1A": ","
+        },
+        "error": null,
+        "execution_time": "2025-05-19 16:44:04",
+        "total_time": "0.044",
+        "return_to": ""
+      }
+    ],
+    "summarizer_snapshots": [
+      {
+        "run_id": "b4ed6b43-b672-445a-9e14-c780183ae64d",
+        "input": {
+          "original_query": "Query 1: visit this url: https://www.nseindia.com/get-quotes/equity?symbol=ATHERENERG and tell me the price mentioned for Ather Energy stock as of NOW.\nResponse 1: The latest stock price of **Ather Energy Ltd.** is \u20b9319.00, as of today's trading, according to the [Economic Times](https://economictimes.indiatimes.com/ather-energy-ltd/stocks/companyid-1965014.cms).\nQuery 2: I want it NOW, LATEST. dont search memory: https://www.nseindia.com/get-quotes/equity?symbol=ATHERENERG",
+          "globals_schema": {
+            "memory": [
+              {
+                "score": 200.0,
+                "session_id": "e513fbb0-b47e-4d9a-9aa0-b542cc7b9698",
+                "original_query": "Query 1: visit this url: https://www.nseindia.com/get-quotes/equity?symbol=ATHERENERG and tell me the price mentioned for Ather Energy stock as of NOW.",
+                "summary_output": "The latest stock price of **Ather Energy Ltd.** is \u20b9319.00, as of today's trading, according to the [Economic Times](https://economictimes.indiatimes.com/ather-energy-ltd/stocks/companyid-1965014.cms).",
+                "timestamp": "2025-05-19T11:12:27Z"
+              },
+              {
+                "score": 192.6829268292683,
+                "session_id": "f7d71707-0dd8-42d6-95a4-67d41949ccf3",
+                "original_query": "Query 1: What's the latest stock price of Ather Energy?",
+                "summary_output": "The latest stock price of **Ather Energy Ltd.** is **\u20b9319.00**, as of today's trading on the [Economic Times](https://economictimes.indiatimes.com/ather-energy-ltd/stocks/companyid-1965014.cms).",
+                "timestamp": "2025-05-19T06:06:01Z"
+              },
+              {
+                "score": 192.6829268292683,
+                "session_id": "312b9051-8602-4276-96f9-68f2052e6227",
+                "original_query": "Query 1: What's the latest stock price of Ather Energy?",
+                "summary_output": "As of August 2024, Ather Energy's valuation reached **$1.3 billion** following a funding round led by NIIF.",
+                "timestamp": "2025-05-19T05:47:42Z"
+              }
+            ],
+            "raw_text_0A": [
+              {
+                "type": "text",
+                "text": "[visible] Ather Energy Limited Share Price Today, Stock Price, Live NSE News, Quotes, Tips  NSE India\nOption Chain\nMarket Turnover\nListings\nIPO\nCirculars\nDaily Report\nHolidays\nCorporates\nPress Releases\nContact Us\nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\nFont Size\nA+\n|\nReset\n|\nA-\nContrast\nHigh Contrast\n|\nReset\n24,945.45\n-74.35\n(\n-0.3\n%)\n19-May-2025 15:30\nStreaming\nStreaming\non\noff\nStreaming Speed\nSlow\nMedium\nFast\n(\n%)\nIndicative close\nFutures 29-May-2025\n25,019.00\n27.50\n(\n0.11\n%)\n19-May-2025 16:41\nUSDINR\nFutures\n28-May-2025\n|\n85.4625\n19-May-2025 16:42\nMarket Capitalization\nLac Crs 441.37\n|\nTn $ 5.16\n19-May-2025\nHome\nAbout\nAbout NSE\nAbout Us\nStructure & Key Personnel\nInvestor Relations\nAwards and Recognitions\nRegulations\nEvent Gallery\nMedia\nHolidays\nCareers\nContact Us\nNSE Group companies\nNSE Academy\nNSE Clearing\nNSE Data & Analytics\nNSE Foundation\nNSE Indices\nNSE International Exchange\nNSE International Clearing\nNSE Investments\nView all\nProducts & Services\nEquity Market\nIndices\nEmerge Platform\nMutual Funds\nEquity Derivatives\nCurrency Derivatives\nCommodity Derivatives\nInterest Rate Derivatives\nFixed Income and Debt\nPublic Issues\nAbout Us\nFind everything about the leading stock exchange of India\nOur Group\nCheck NSE's group of the companies\nOur Products\nBrowse a comprehensive and innovative product and service offerings by NSE\nMarket Data\nEquity\nNew Listings\nPre-Open Market\nEquity & SME Market\nIndices\nGainers/Losers\nMost Active Equities\nPrice Band Hitters\n52 Week High/Low\nLarge Deals\nAdvances / Declines\nSecurities Lending & Borrowing\nCall auction for Illiquid Securities\nSecurities available for Trading\nPrice Bands & Surveillance Actions\nPosition/Investment Limits\nLegend of series\nDaily Reports\nHistorical Reports\nDerivatives\nDerivatives Market\nOption Chain\nMost Active Contracts\nMost Active Underlying\nChange in Open Interest\nLiquidity Enhancement Scheme\nContracts available for Trading\nDaily Reports\nHistorical Reports\nDebt & Fixed Income\nTraded on CM\nCBRICS\nRFQ\nNegotiated Trades\nTrade Repository\nTri-Party Repo\nDaily Reports\nHistorical Reports\nPrimary Markets\nIPO\nOffer For Sale\nNCB G-SEC\nInstitutional Placement Program (IPP)\nTender Offer\nRights\nINVITS\nREITS\nReverse Book Building\nMarket Snapshot\nLive Analysis of top gainers/losers, most active securities/contracts, price band hitters, overview of the market.\nOption Chain\nView Option chain for the exchange\nHistorical Reports\nView Historical Reports of securities/contracts traded on the Exchange.\nInvest\nInvestor Education\nInvesting in Securities Market\nProduct Segment\nCharges and Taxes\nInvestment limits for FIIs\nInvestor Awareness\nInvestor Charter\nProtection from Fraud\nInvestor Awareness Programs\nRegulatory Action\nRegistered Investors\nForeign Portfolio Investors (FPI)\nResources & Tools\nLocate your Stock Broker\nCompany Directory\nExit Option for shareholders\nFeedback\nInvestor's Home\nInvestor education on how to invest safely and",
+                "annotations": null
+              }
+            ],
+            "ather_energy_price_1A": ","
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Ather Energy",
+                      "stock price",
+                      "NSE India"
+                    ],
+                    "result_requirement": "Latest stock price of Ather Energy from NSE India",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.6",
+                    "reasoning": "The user is requesting the latest stock price from NSE India, but the information in memory is from the Economic Times. Although a URL for NSE India is provided, the system needs to fetch the latest price from that URL to satisfy the 'NOW, LATEST' requirement.  The memory should be ignored.",
+                    "local_reasoning": "The user explicitly stated 'dont search memory' and requested the latest price. The existing information in memory is insufficient.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "0",
+                  "description": "Fetch raw text from the provided NSE India URL.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "raw_text_0A": [
+                      {
+                        "type": "text",
+                        "text": "[visible] Ather Energy Limited Share Price Today, Stock Price, Live NSE News, Quotes, Tips  NSE India\nOption Chain\nMarket Turnover\nListings\nIPO\nCirculars\nDaily Report\nHolidays\nCorporates\nPress Releases\nContact Us\nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\nFont Size\nA+\n|\nReset\n|\nA-\nContrast\nHigh Contrast\n|\nReset\n24,945.45\n-74.35\n(\n-0.3\n%)\n19-May-2025 15:30\nStreaming\nStreaming\non\noff\nStreaming Speed\nSlow\nMedium\nFast\n(\n%)\nIndicative close\nFutures 29-May-2025\n25,019.00\n27.50\n(\n0.11\n%)\n19-May-2025 16:41\nUSDINR\nFutures\n28-May-2025\n|\n85.4625\n19-May-2025 16:42\nMarket Capitalization\nLac Crs 441.37\n|\nTn $ 5.16\n19-May-2025\nHome\nAbout\nAbout NSE\nAbout Us\nStructure & Key Personnel\nInvestor Relations\nAwards and Recognitions\nRegulations\nEvent Gallery\nMedia\nHolidays\nCareers\nContact Us\nNSE Group companies\nNSE Academy\nNSE Clearing\nNSE Data & Analytics\nNSE Foundation\nNSE Indices\nNSE International Exchange\nNSE International Clearing\nNSE Investments\nView all\nProducts & Services\nEquity Market\nIndices\nEmerge Platform\nMutual Funds\nEquity Derivatives\nCurrency Derivatives\nCommodity Derivatives\nInterest Rate Derivatives\nFixed Income and Debt\nPublic Issues\nAbout Us\nFind everything about the leading stock exchange of India\nOur Group\nCheck NSE's group of the companies\nOur Products\nBrowse a comprehensive and innovative product and service offerings by NSE\nMarket Data\nEquity\nNew Listings\nPre-Open Market\nEquity & SME Market\nIndices\nGainers/Losers\nMost Active Equities\nPrice Band Hitters\n52 Week High/Low\nLarge Deals\nAdvances / Declines\nSecurities Lending & Borrowing\nCall auction for Illiquid Securities\nSecurities available for Trading\nPrice Bands & Surveillance Actions\nPosition/Investment Limits\nLegend of series\nDaily Reports\nHistorical Reports\nDerivatives\nDerivatives Market\nOption Chain\nMost Active Contracts\nMost Active Underlying\nChange in Open Interest\nLiquidity Enhancement Scheme\nContracts available for Trading\nDaily Reports\nHistorical Reports\nDebt & Fixed Income\nTraded on CM\nCBRICS\nRFQ\nNegotiated Trades\nTrade Repository\nTri-Party Repo\nDaily Reports\nHistorical Reports\nPrimary Markets\nIPO\nOffer For Sale\nNCB G-SEC\nInstitutional Placement Program (IPP)\nTender Offer\nRights\nINVITS\nREITS\nReverse Book Building\nMarket Snapshot\nLive Analysis of top gainers/losers, most active securities/contracts, price band hitters, overview of the market.\nOption Chain\nView Option chain for the exchange\nHistorical Reports\nView Historical Reports of securities/contracts traded on the Exchange.\nInvest\nInvestor Education\nInvesting in Securities Market\nProduct Segment\nCharges and Taxes\nInvestment limits for FIIs\nInvestor Awareness\nInvestor Charter\nProtection from Fraud\nInvestor Awareness Programs\nRegulatory Action\nRegistered Investors\nForeign Portfolio Investors (FPI)\nResources & Tools\nLocate your Stock Broker\nCompany Directory\nExit Option for shareholders\nFeedback\nInvestor's Home\nInvestor education on how to invest safely and",
+                        "annotations": null
+                      }
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Ather Energy",
+                      "stock price",
+                      "NSE India"
+                    ],
+                    "result_requirement": "Latest stock price of Ather Energy from NSE India",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": true,
+                    "confidence": "0.8",
+                    "reasoning": "The tool successfully fetched the raw text from the NSE India website. The next step is to extract the stock price of Ather Energy from the raw text.",
+                    "local_reasoning": "The raw text is now available. We need to extract the stock price from it.",
+                    "last_tooluse_summary": "webpage_url_to_raw_text succeeded in fetching content from NSE India",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "0"
+              },
+              {
+                "data": {
+                  "index": "1",
+                  "description": "Extract the Ather Energy stock price from the raw text.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "ather_energy_price_1A": ","
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Ather Energy",
+                      "stock price",
+                      "NSE India"
+                    ],
+                    "result_requirement": "Latest stock price of Ather Energy from NSE India",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.9",
+                    "reasoning": "The tool failed to extract the stock price, and the previous step successfully fetched the raw text from NSE India. Given that decision agents cannot perform semantic extraction, and the extraction step failed, it is unlikely that further steps will be helpful. The raw text is available and should be used for summarization.",
+                    "local_reasoning": "The extraction tool failed, and decision cannot resolve this. Need to summarize what we have.",
+                    "last_tooluse_summary": "text_extraction failed to extract price",
+                    "solution_summary": "Failed to extract Ather Energy stock price from NSE India website.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "The original query asked for the latest stock price of Ather Energy from NSE India. The tool failed to extract the price, summarize and state the current time, that the tool failed to extract price. Include the raw text fetched from NSE India website."
+                  },
+                  "from_step": "1"
+                },
+                "id": "1"
+              },
+              {
+                "data": {
+                  "index": "2",
+                  "description": "Respond with the extracted Ather Energy stock price.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "1"
+                },
+                "id": "2"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "0"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "1",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "1",
+                "target": "2"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "Ather Energy",
+              "stock price",
+              "NSE India"
+            ],
+            "result_requirement": "Latest stock price of Ather Energy from NSE India",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.9",
+            "reasoning": "The tool failed to extract the stock price, and the previous step successfully fetched the raw text from NSE India. Given that decision agents cannot perform semantic extraction, and the extraction step failed, it is unlikely that further steps will be helpful. The raw text is available and should be used for summarization.",
+            "local_reasoning": "The extraction tool failed, and decision cannot resolve this. Need to summarize what we have.",
+            "last_tooluse_summary": "text_extraction failed to extract price",
+            "solution_summary": "Failed to extract Ather Energy stock price from NSE India website.",
+            "route": "summarize",
+            "instruction_to_summarize": "The original query asked for the latest stock price of Ather Energy from NSE India. The tool failed to extract the price, summarize and state the current time, that the tool failed to extract price. Include the raw text fetched from NSE India website."
+          }
+        },
+        "summary_output": "The original query asked for the latest stock price of Ather Energy from NSE India. The current time is 2025-05-19T11:14:08.945380. The tool attempted to extract the stock price but failed.\n\nHere is the raw text fetched from the NSE India website:\n\n[visible] Ather Energy Limited Share Price Today, Stock Price, Live NSE News, Quotes, Tips  NSE India\nOption Chain\nMarket Turnover\nListings\nIPO\nCirculars\nDaily Report\nHolidays\nCorporates\nPress Releases\nContact Us\nEnglish\n(Hindi)\n(Marathi)\n(Gujarati)\n(Bengali)\n(Kannada)\n(Tamil)\n(Telugu)\n(Punjabi)\n(Malayalam)\n(Oriya)\n(Assamese)\n(Urdu)\nFont Size\nA+\n|\nReset\n|\nA-\nContrast\nHigh Contrast\n|\nReset\n24,945.45\n-74.35\n(\n-0.3\n%)\n19-May-2025 15:30\nStreaming\nStreaming\non\noff\nStreaming Speed\nSlow\nMedium\nFast\n(\n%)\nIndicative close\nFutures 29-May-2025\n25,019.00\n27.50\n(\n0.11\n%)\n19-May-2025 16:41\nUSDINR\nFutures\n28-May-2025\n|\n85.4625\n19-May-2025 16:42\nMarket Capitalization\nLac Crs 441.37\n|\nTn $ 5.16\n19-May-2025\nHome\nAbout\nAbout NSE\nAbout Us\nStructure & Key Personnel\nInvestor Relations\nAwards and Recognitions\nRegulations\nEvent Gallery\nMedia\nHolidays\nCareers\nContact Us\nNSE Group companies\nNSE Academy\nNSE Clearing\nNSE Data & Analytics\nNSE Foundation\nNSE Indices\nNSE International Exchange\nNSE International Clearing\nNSE Investments\nView all\nProducts & Services\nEquity Market\nIndices\nEmerge Platform\nMutual Funds\nEquity Derivatives\nCurrency Derivatives\nCommodity Derivatives\nInterest Rate Derivatives\nFixed Income and Debt\nPublic Issues\nAbout Us\nFind everything about the leading stock exchange of India\nOur Group\nCheck NSE's group of the companies\nOur Products\nBrowse a comprehensive and innovative product and service offerings by NSE\nMarket Data\nEquity\nNew Listings\nPre-Open Market\nEquity & SME Market\nIndices\nGainers/Losers\nMost Active Equities\nPrice Band Hitters\n52 Week High/Low\nLarge Deals\nAdvances / Declines\nSecurities Lending & Borrowing\nCall auction for Illiquid Securities\nSecurities available for Trading\nPrice Bands & Surveillance Actions\nPosition/Investment Limits\nLegend of series\nDaily Reports\nHistorical Reports\nDerivatives\nDerivatives Market\nOption Chain\nMost Active Contracts\nMost Active Underlying\nChange in Open Interest\nLiquidity Enhancement Scheme\nContracts available for Trading\nDaily Reports\nHistorical Reports\nDebt & Fixed Income\nTraded on CM\nCBRICS\nRFQ\nNegotiated Trades\nTrade Repository\nTri-Party Repo\nDaily Reports\nHistorical Reports\nPrimary Markets\nIPO\nOffer For Sale\nNCB G-SEC\nInstitutional Placement Program (IPP)\nTender Offer\nRights\nINVITS\nREITS\nReverse Book Building\nMarket Snapshot\nLive Analysis of top gainers/losers, most active securities/contracts, price band hitters, overview of the market.\nOption Chain\nView Option chain for the exchange\nHistorical Reports\nView Historical Reports of securities/contracts traded on the Exchange.\nInvest\nInvestor Education\nInvesting in Securities Market\nProduct Segment\nCharges and Taxes\nInvestment limits for FIIs\nInvestor Awareness\nInvestor Charter\nProtection from Fraud\nInvestor Awareness Programs\nRegulatory Action\nRegistered Investors\nForeign Portfolio Investors (FPI)\nResources & Tools\nLocate your Stock Broker\nCompany Directory\nExit Option for shareholders\nFeedback\nInvestor's Home\nInvestor education on how to invest safely and",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-19T11:12:27Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "The original query asked for the latest stock price of Ather Energy from NSE India. The current time is 2025-05-19T11:14:08.945380. The tool attempted to extract the stock price but failed.\n\nHere is the raw text fetched from the NSE India website:\n\n[visible] Ather Energy Limited Share Price Today, Stock Price, Live NSE News, Quotes, Tips  NSE India\nOption Chain\nMarket Turnover\nListings\nIPO\nCirculars\nDaily Report\nHolidays\nCorporates\nPress Releases\nContact Us\nEnglish\n(Hindi)\n(Marathi)\n(Gujarati)\n(Bengali)\n(Kannada)\n(Tamil)\n(Telugu)\n(Punjabi)\n(Malayalam)\n(Oriya)\n(Assamese)\n(Urdu)\nFont Size\nA+\n|\nReset\n|\nA-\nContrast\nHigh Contrast\n|\nReset\n24,945.45\n-74.35\n(\n-0.3\n%)\n19-May-2025 15:30\nStreaming\nStreaming\non\noff\nStreaming Speed\nSlow\nMedium\nFast\n(\n%)\nIndicative close\nFutures 29-May-2025\n25,019.00\n27.50\n(\n0.11\n%)\n19-May-2025 16:41\nUSDINR\nFutures\n28-May-2025\n|\n85.4625\n19-May-2025 16:42\nMarket Capitalization\nLac Crs 441.37\n|\nTn $ 5.16\n19-May-2025\nHome\nAbout\nAbout NSE\nAbout Us\nStructure & Key Personnel\nInvestor Relations\nAwards and Recognitions\nRegulations\nEvent Gallery\nMedia\nHolidays\nCareers\nContact Us\nNSE Group companies\nNSE Academy\nNSE Clearing\nNSE Data & Analytics\nNSE Foundation\nNSE Indices\nNSE International Exchange\nNSE International Clearing\nNSE Investments\nView all\nProducts & Services\nEquity Market\nIndices\nEmerge Platform\nMutual Funds\nEquity Derivatives\nCurrency Derivatives\nCommodity Derivatives\nInterest Rate Derivatives\nFixed Income and Debt\nPublic Issues\nAbout Us\nFind everything about the leading stock exchange of India\nOur Group\nCheck NSE's group of the companies\nOur Products\nBrowse a comprehensive and innovative product and service offerings by NSE\nMarket Data\nEquity\nNew Listings\nPre-Open Market\nEquity & SME Market\nIndices\nGainers/Losers\nMost Active Equities\nPrice Band Hitters\n52 Week High/Low\nLarge Deals\nAdvances / Declines\nSecurities Lending & Borrowing\nCall auction for Illiquid Securities\nSecurities available for Trading\nPrice Bands & Surveillance Actions\nPosition/Investment Limits\nLegend of series\nDaily Reports\nHistorical Reports\nDerivatives\nDerivatives Market\nOption Chain\nMost Active Contracts\nMost Active Underlying\nChange in Open Interest\nLiquidity Enhancement Scheme\nContracts available for Trading\nDaily Reports\nHistorical Reports\nDebt & Fixed Income\nTraded on CM\nCBRICS\nRFQ\nNegotiated Trades\nTrade Repository\nTri-Party Repo\nDaily Reports\nHistorical Reports\nPrimary Markets\nIPO\nOffer For Sale\nNCB G-SEC\nInstitutional Placement Program (IPP)\nTender Offer\nRights\nINVITS\nREITS\nReverse Book Building\nMarket Snapshot\nLive Analysis of top gainers/losers, most active securities/contracts, price band hitters, overview of the market.\nOption Chain\nView Option chain for the exchange\nHistorical Reports\nView Historical Reports of securities/contracts traded on the Exchange.\nInvest\nInvestor Education\nInvesting in Securities Market\nProduct Segment\nCharges and Taxes\nInvestment limits for FIIs\nInvestor Awareness\nInvestor Charter\nProtection from Fraud\nInvestor Awareness Programs\nRegulatory Action\nRegistered Investors\nForeign Portfolio Investors (FPI)\nResources & Tools\nLocate your Stock Broker\nCompany Directory\nExit Option for shareholders\nFeedback\nInvestor's Home\nInvestor education on how to invest safely and",
+    "status": "success",
+    "completed_at": "2025-05-19T11:14:17.871595"
+  },
+  "status": "success",
+  "final_step_id": "2",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-19T11:14:17.879549",
+  "original_query": "Query 1: visit this url: https://www.nseindia.com/get-quotes/equity?symbol=ATHERENERG and tell me the price mentioned for Ather Energy stock as of NOW.\nResponse 1: The latest stock price of **Ather Energy Ltd.** is \u20b9319.00, as of today's trading, according to the [Economic Times](https://economictimes.indiatimes.com/ather-energy-ltd/stocks/companyid-1965014.cms).\nQuery 2: I want it NOW, LATEST. dont search memory: https://www.nseindia.com/get-quotes/equity?symbol=ATHERENERG",
+  "final_summary": "The original query asked for the latest stock price of Ather Energy from NSE India. The current time is 2025-05-19T11:14:08.945380. The tool attempted to extract the stock price but failed.\n\nHere is the raw text fetched from the NSE India website:\n\n[visible] Ather Energy Limited Share Price Today, Stock Price, Live NSE News, Quotes, Tips  NSE India\nOption Chain\nMarket Turnover\nListings\nIPO\nCirculars\nDaily Report\nHolidays\nCorporates\nPress Releases\nContact Us\nEnglish\n(Hindi)\n(Marathi)\n(Gujarati)\n(Bengali)\n(Kannada)\n(Tamil)\n(Telugu)\n(Punjabi)\n(Malayalam)\n(Oriya)\n(Assamese)\n(Urdu)\nFont Size\nA+\n|\nReset\n|\nA-\nContrast\nHigh Contrast\n|\nReset\n24,945.45\n-74.35\n(\n-0.3\n%)\n19-May-2025 15:30\nStreaming\nStreaming\non\noff\nStreaming Speed\nSlow\nMedium\nFast\n(\n%)\nIndicative close\nFutures 29-May-2025\n25,019.00\n27.50\n(\n0.11\n%)\n19-May-2025 16:41\nUSDINR\nFutures\n28-May-2025\n|\n85.4625\n19-May-2025 16:42\nMarket Capitalization\nLac Crs 441.37\n|\nTn $ 5.16\n19-May-2025\nHome\nAbout\nAbout NSE\nAbout Us\nStructure & Key Personnel\nInvestor Relations\nAwards and Recognitions\nRegulations\nEvent Gallery\nMedia\nHolidays\nCareers\nContact Us\nNSE Group companies\nNSE Academy\nNSE Clearing\nNSE Data & Analytics\nNSE Foundation\nNSE Indices\nNSE International Exchange\nNSE International Clearing\nNSE Investments\nView all\nProducts & Services\nEquity Market\nIndices\nEmerge Platform\nMutual Funds\nEquity Derivatives\nCurrency Derivatives\nCommodity Derivatives\nInterest Rate Derivatives\nFixed Income and Debt\nPublic Issues\nAbout Us\nFind everything about the leading stock exchange of India\nOur Group\nCheck NSE's group of the companies\nOur Products\nBrowse a comprehensive and innovative product and service offerings by NSE\nMarket Data\nEquity\nNew Listings\nPre-Open Market\nEquity & SME Market\nIndices\nGainers/Losers\nMost Active Equities\nPrice Band Hitters\n52 Week High/Low\nLarge Deals\nAdvances / Declines\nSecurities Lending & Borrowing\nCall auction for Illiquid Securities\nSecurities available for Trading\nPrice Bands & Surveillance Actions\nPosition/Investment Limits\nLegend of series\nDaily Reports\nHistorical Reports\nDerivatives\nDerivatives Market\nOption Chain\nMost Active Contracts\nMost Active Underlying\nChange in Open Interest\nLiquidity Enhancement Scheme\nContracts available for Trading\nDaily Reports\nHistorical Reports\nDebt & Fixed Income\nTraded on CM\nCBRICS\nRFQ\nNegotiated Trades\nTrade Repository\nTri-Party Repo\nDaily Reports\nHistorical Reports\nPrimary Markets\nIPO\nOffer For Sale\nNCB G-SEC\nInstitutional Placement Program (IPP)\nTender Offer\nRights\nINVITS\nREITS\nReverse Book Building\nMarket Snapshot\nLive Analysis of top gainers/losers, most active securities/contracts, price band hitters, overview of the market.\nOption Chain\nView Option chain for the exchange\nHistorical Reports\nView Historical Reports of securities/contracts traded on the Exchange.\nInvest\nInvestor Education\nInvesting in Securities Market\nProduct Segment\nCharges and Taxes\nInvestment limits for FIIs\nInvestor Awareness\nInvestor Charter\nProtection from Fraud\nInvestor Awareness Programs\nRegulatory Action\nRegistered Investors\nForeign Portfolio Investors (FPI)\nResources & Tools\nLocate your Stock Broker\nCompany Directory\nExit Option for shareholders\nFeedback\nInvestor's Home\nInvestor education on how to invest safely and"
+}

@@ -1,0 +1,46 @@
+{
+  "search_results_0A": [
+    "https://medium.com/@elisowski/ai-agents-vs-agentic-ai-whats-the-difference-and-why-does-it-matter-03159ee8c2b4",
+    "https://arxiv.org/abs/2505.10468",
+    "https://www.geeksforgeeks.org/agentic-ai-vs-ai-agents/",
+    "https://www.forbes.com/sites/bernardmarr/2025/02/25/the-important-difference-between-agentic-ai-and-ai-agents/",
+    "https://codewave.com/insights/agentic-ai-vs-ai-agents-key-differences/"
+  ],
+  "url_summaries_1A": [
+    [
+      {
+        "type": "text",
+        "text": "AI Agents and Agentic AI are distinct AI types. Agentic AI is autonomous, making decisions, taking actions, and learning to achieve goals through perception, reasoning, action, and learning stages. AI Agents handle specific tasks, automating repetitive processes, but lack autonomy. Agentic AI examples include self-driving cars (like Tesla's Full Self-Driving) and supply chain management, autonomously optimizing inventory and delivery.",
+        "annotations": null
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "text": "AI Agents, driven by LLMs and LIMs, are modular systems for task-specific automation, enhanced by tool integration and prompt engineering. Agentic AI marks a shift to multi-agent collaboration, dynamic task decomposition, persistent memory, and orchestrated autonomy. The study taxonomizes, maps applications, and analyzes challenges (hallucination, brittleness, emergent behavior, coordination failure) proposing ReAct loops, RAG, orchestration layers, and causal modeling as solutions for robust, scalable, and explainable AI systems in areas like customer support, research automation, and medical decision support. Published by Konstantinos I. Roumeliotis on May 15, 2025.",
+        "annotations": null
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "text": "Agentic AI and AI Agents, while related, differ significantly. Agentic AI is advanced, independent, and adapts to changes, making decisions and improving workflows autonomously. AI Agents are task-specific, lack independent thought, and operate within strict guidelines. Agentic AI exhibits higher autonomy, advanced decision-making, continuous learning, goal-oriented behavior, and higher computational complexity compared to AI Agents, which are more limited, pre-programmed, and require less power.",
+        "annotations": null
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "text": "AI agents are specific applications that work independently to solve multi-step problems, like those used in banking and e-commerce for identity verification and automation. Agentic AI is the field researching and developing AI models to enable this autonomous work. AI agents are like specific medicines, while agentic AI is pharmaceutical science. Agentic AI is considered a path towards AGI, while current AI agents are not. Understanding both is crucial for leveraging technology, as agentic AI advancements will lead to more sophisticated agents automating diverse tasks.",
+        "annotations": null
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "text": "AI agents and agentic AI, while both autonomous systems, differ in scope and complexity. AI agents perform specific tasks with predefined rules and limited memory, suitable for structured environments like chatbots or RPA bots. Agentic AI, however, involves systems that reason, learn, and make contextual decisions over time, adjusting to changing priorities and operating independently. Understanding this distinction is crucial to avoid over or under-building AI solutions based on the problem. Many companies are exploring AI for more than task automation, but few have implemented agentic architectures.",
+        "annotations": null
+      }
+    ]
+  ]
+}

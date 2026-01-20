@@ -1,0 +1,874 @@
+{
+  "context": {
+    "session_id": "fc5367ee-de63-4d80-8aa7-373de6cb014e",
+    "original_query": "Query 1: How are the military relations between India and Bhutan?",
+    "globals": {
+      "search_results_0": [
+        "https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations",
+        "https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations",
+        "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3",
+        "https://www.newindianexpress.com/nation/2025/Feb/04/india-bhutan-strengthen-defence-ties-lt-gen-batoo-tshering-meets-rajnath-singh",
+        "https://testbook.com/ias-preparation/india-bhutan-relations"
+      ],
+      "summary_list": [
+        [
+          {
+            "type": "text",
+            "text": "Bhutan and India share a \"special relationship,\" with India influencing Bhutan's foreign policy, defense, and commerce. Bhutan is the largest beneficiary of Indian foreign aid. Key figures include Bhutanese Ambassador to India Vetsop Namgyel and Indian Ambassador to Bhutan Sudhakar Dalela. Historically, Bhutan became a protected state of British India in 1910. The 1949 Treaty of Friendship between Bhutan and India calls for peace and non-interference. It allows India to \"guide\" Bhutan's foreign policy, establishing free trade and extradition protocols. India maintains a 2,000-strong IMTRAT in Bhutan to train the Royal Bhutan Army. India is Bhutan's largest trading partner, accounting for 98% of exports and 90% of imports.",
+            "annotations": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "During his visit, the Indian Prime Minister received Bhutan's highest civilian honor, the \"Order of the Druk Gyalpo,\" recognizing contributions to India-Bhutan friendship and India's global rise. India will provide Rs. 10,000 crore in financial support to Bhutan over five years and MoUs were signed for Kokrajhar-Gelephu and Banarhat-Samtse rail links. The 1020 MW Punatsangchhu-II hydropower project is expected to be commissioned in 2024. Key aspects of India-Bhutan cooperation include the 1949 Treaty of Friendship and Cooperation (renewed in 2007), trade (India being Bhutan's top partner), development partnership (Bhutan being a major beneficiary of Indian aid), connectivity (Gelephu Mindfulness City), hydropower (Kurichhu, Tala, Chukha and Mangdechhu projects), cultural relations (India-Bhutan Foundation), security (Indian Military Training Team, BRO's project 'DANTAK'), and new initiatives like RuPay, BHIM app, Digital Drukyul, the 'India-Bhutan SAT', STEM teacher support, and Vaccine Maitri.",
+            "annotations": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "On March 18, 2024, India and Bhutan held bilateral talks, signing agreements on petroleum supply, food safety collaboration between Bhutan's Food and Drug Authority and India's FSSAI, and energy efficiency via an MoU. These talks occurred amidst China-Bhutan border dispute discussions, impacting Doklam and regional security. Bhutan's plans for the \"Gelephu Mindfulness City\" (GMC) regional economic hub were also noted. In the Interim Budget 2024-25, Bhutan received Rs 2,068 crore in aid, reflecting India's 'Neighbourhood First' policy. The talks highlight the close India-Bhutan ties, rooted in trust and shared values.",
+            "annotations": null
+          }
+        ]
+      ]
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: How are the military relations between India and Bhutan?",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "India and Bhutan share a special relationship characterized by India's influence on Bhutan's foreign policy, defense, and commerce. A key component of their military relations is the Indian Military Training Team (IMTRAT), where India maintains a 2,000-strong presence in Bhutan to train the Royal Bhutan Army. Security cooperation is a vital aspect of the India-Bhutan relationship.",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "India",
+                "Bhutan",
+                "military relations"
+              ],
+              "result_requirement": "Description of the military relations between India and Bhutan",
+              "original_goal_achieved": false,
+              "local_goal_achieved": true,
+              "confidence": "0.8",
+              "reasoning": "The user query is about the military relations between India and Bhutan. This is a new query that is not present in the memory excerpt. Therefore, I should route this query to the decision module to formulate a plan to retrieve relevant information.",
+              "local_reasoning": "The query is well-defined and requires research using external tools.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Search for information on military relations between India and Bhutan using DuckDuckGo.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "search_results_0": [
+                "https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations",
+                "https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations",
+                "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3",
+                "https://www.newindianexpress.com/nation/2025/Feb/04/india-bhutan-strengthen-defence-ties-lt-gen-batoo-tshering-meets-rajnath-singh",
+                "https://testbook.com/ias-preparation/india-bhutan-relations"
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "India",
+                "Bhutan",
+                "military relations"
+              ],
+              "result_requirement": "Description of the military relations between India and Bhutan",
+              "original_goal_achieved": false,
+              "local_goal_achieved": true,
+              "confidence": "0.8",
+              "reasoning": "DuckDuckGo search returned several promising URLs related to India-Bhutan relations. Next step is to extract text from these webpages to find information about their military relations.",
+              "local_reasoning": "Search results appear relevant; need to extract and analyze text.",
+              "last_tooluse_summary": "DuckDuckGo search for \"India Bhutan military relations\" succeeded.",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        },
+        {
+          "data": {
+            "index": "1",
+            "description": "Extract summaries from the most relevant URLs obtained from the search results.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "summary_list": [
+                [
+                  {
+                    "type": "text",
+                    "text": "Bhutan and India share a \"special relationship,\" with India influencing Bhutan's foreign policy, defense, and commerce. Bhutan is the largest beneficiary of Indian foreign aid. Key figures include Bhutanese Ambassador to India Vetsop Namgyel and Indian Ambassador to Bhutan Sudhakar Dalela. Historically, Bhutan became a protected state of British India in 1910. The 1949 Treaty of Friendship between Bhutan and India calls for peace and non-interference. It allows India to \"guide\" Bhutan's foreign policy, establishing free trade and extradition protocols. India maintains a 2,000-strong IMTRAT in Bhutan to train the Royal Bhutan Army. India is Bhutan's largest trading partner, accounting for 98% of exports and 90% of imports.",
+                    "annotations": null
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "During his visit, the Indian Prime Minister received Bhutan's highest civilian honor, the \"Order of the Druk Gyalpo,\" recognizing contributions to India-Bhutan friendship and India's global rise. India will provide Rs. 10,000 crore in financial support to Bhutan over five years and MoUs were signed for Kokrajhar-Gelephu and Banarhat-Samtse rail links. The 1020 MW Punatsangchhu-II hydropower project is expected to be commissioned in 2024. Key aspects of India-Bhutan cooperation include the 1949 Treaty of Friendship and Cooperation (renewed in 2007), trade (India being Bhutan's top partner), development partnership (Bhutan being a major beneficiary of Indian aid), connectivity (Gelephu Mindfulness City), hydropower (Kurichhu, Tala, Chukha and Mangdechhu projects), cultural relations (India-Bhutan Foundation), security (Indian Military Training Team, BRO's project 'DANTAK'), and new initiatives like RuPay, BHIM app, Digital Drukyul, the 'India-Bhutan SAT', STEM teacher support, and Vaccine Maitri.",
+                    "annotations": null
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "On March 18, 2024, India and Bhutan held bilateral talks, signing agreements on petroleum supply, food safety collaboration between Bhutan's Food and Drug Authority and India's FSSAI, and energy efficiency via an MoU. These talks occurred amidst China-Bhutan border dispute discussions, impacting Doklam and regional security. Bhutan's plans for the \"Gelephu Mindfulness City\" (GMC) regional economic hub were also noted. In the Interim Budget 2024-25, Bhutan received Rs 2,068 crore in aid, reflecting India's 'Neighbourhood First' policy. The talks highlight the close India-Bhutan ties, rooted in trust and shared values.",
+                    "annotations": null
+                  }
+                ]
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "India",
+                "Bhutan",
+                "military relations",
+                "IMTRAT",
+                "security cooperation"
+              ],
+              "result_requirement": "Description of the military relations between India and Bhutan",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "0.9",
+              "reasoning": "The summaries extracted from the search results contain relevant information about the military relations between India and Bhutan, specifically mentioning the Indian Military Training Team (IMTRAT) and general security cooperation.  The key aspects of the relationship have been extracted.",
+              "local_reasoning": "The extracted summaries provide sufficient details to summarize the military relationship between the two countries.",
+              "last_tooluse_summary": "Summarization of webpages was successful in extracting relevant details about the India-Bhutan military relationship.",
+              "solution_summary": "India and Bhutan maintain close military relations, with India playing a significant role in training the Royal Bhutan Army through the IMTRAT. Security cooperation is a key aspect of their relationship.",
+              "route": "summarize",
+              "instruction_to_summarize": "Provide a concise summary of the military relations between India and Bhutan based on the extracted information.  Include details about IMTRAT and security cooperation. Format the summary in markdown."
+            },
+            "from_step": "1"
+          },
+          "id": "1"
+        },
+        {
+          "data": {
+            "index": "2",
+            "description": "Consolidate the extracted summaries to provide a description of the military relations between India and Bhutan.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "1"
+          },
+          "id": "2"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "1",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "1",
+          "target": "2"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "fc5367ee-de63-4d80-8aa7-373de6cb014e",
+    "original_query": "Query 1: How are the military relations between India and Bhutan?",
+    "perception_snapshots": [
+      {
+        "run_id": "fc5367ee-de63-4d80-8aa7-373de6cb014e-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "India",
+          "Bhutan",
+          "military relations"
+        ],
+        "result_requirement": "Description of the military relations between India and Bhutan",
+        "original_goal_achieved": false,
+        "reasoning": "The user query is about the military relations between India and Bhutan. This is a new query that is not present in the memory excerpt. Therefore, I should route this query to the decision module to formulate a plan to retrieve relevant information.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The query is well-defined and requires research using external tools.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.8",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "fc5367ee-de63-4d80-8aa7-373de6cb014e-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "India",
+          "Bhutan",
+          "military relations"
+        ],
+        "result_requirement": "Description of the military relations between India and Bhutan",
+        "original_goal_achieved": false,
+        "reasoning": "DuckDuckGo search returned several promising URLs related to India-Bhutan relations. Next step is to extract text from these webpages to find information about their military relations.",
+        "local_goal_achieved": true,
+        "local_reasoning": "Search results appear relevant; need to extract and analyze text.",
+        "last_tooluse_summary": "DuckDuckGo search for \"India Bhutan military relations\" succeeded.",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.8",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "fc5367ee-de63-4d80-8aa7-373de6cb014e-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "India",
+          "Bhutan",
+          "military relations",
+          "IMTRAT",
+          "security cooperation"
+        ],
+        "result_requirement": "Description of the military relations between India and Bhutan",
+        "original_goal_achieved": true,
+        "reasoning": "The summaries extracted from the search results contain relevant information about the military relations between India and Bhutan, specifically mentioning the Indian Military Training Team (IMTRAT) and general security cooperation.  The key aspects of the relationship have been extracted.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The extracted summaries provide sufficient details to summarize the military relationship between the two countries.",
+        "last_tooluse_summary": "Summarization of webpages was successful in extracting relevant details about the India-Bhutan military relationship.",
+        "solution_summary": "India and Bhutan maintain close military relations, with India playing a significant role in training the Royal Bhutan Army through the IMTRAT. Security cooperation is a key aspect of their relationship.",
+        "confidence": "0.9",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "6b41889b-7b0b-4e77-97be-d18c6ac7520c",
+        "input": {
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: How are the military relations between India and Bhutan?",
+          "perception": {
+            "entities": [
+              "India",
+              "Bhutan",
+              "military relations"
+            ],
+            "result_requirement": "Description of the military relations between India and Bhutan",
+            "original_goal_achieved": false,
+            "local_goal_achieved": true,
+            "confidence": "0.8",
+            "reasoning": "The user query is about the military relations between India and Bhutan. This is a new query that is not present in the memory excerpt. Therefore, I should route this query to the decision module to formulate a plan to retrieve relevant information.",
+            "local_reasoning": "The query is well-defined and requires research using external tools.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "Bhutan",
+                  "military relations"
+                ],
+                "result_requirement": "Description of the military relations between India and Bhutan",
+                "original_goal_achieved": false,
+                "local_goal_achieved": true,
+                "confidence": "0.8",
+                "reasoning": "The user query is about the military relations between India and Bhutan. This is a new query that is not present in the memory excerpt. Therefore, I should route this query to the decision module to formulate a plan to retrieve relevant information.",
+                "local_reasoning": "The query is well-defined and requires research using external tools.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [],
+          "globals_schema": {}
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search for information on military relations between India and Bhutan using DuckDuckGo."
+              },
+              {
+                "id": "1",
+                "description": "Summarize the search results from multiple URLs to create a comprehensive summary."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "urls = duckduckgo_search(\"India Bhutan military relations\", 5)\nreturn {\"search_results_0\": urls}",
+            "CODE_0B": "urls = duckduckgo_search(\"military cooperation between India and Bhutan\", 5)\nreturn {\"search_results_0\": urls}",
+            "CODE_0C": "urls = duckduckgo_search(\"India Bhutan defense relations\", 5)\nreturn {\"search_results_0\": urls}"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search for information on military relations between India and Bhutan using DuckDuckGo."
+            },
+            {
+              "id": "1",
+              "description": "Summarize the search results from multiple URLs to create a comprehensive summary."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "urls = duckduckgo_search(\"India Bhutan military relations\", 5)\nreturn {\"search_results_0\": urls}",
+          "CODE_0B": "urls = duckduckgo_search(\"military cooperation between India and Bhutan\", 5)\nreturn {\"search_results_0\": urls}",
+          "CODE_0C": "urls = duckduckgo_search(\"India Bhutan defense relations\", 5)\nreturn {\"search_results_0\": urls}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      },
+      {
+        "run_id": "c00f62f5-a93f-4b93-af43-e439b3e7a348",
+        "input": {
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: How are the military relations between India and Bhutan?",
+          "perception": {
+            "entities": [
+              "India",
+              "Bhutan",
+              "military relations"
+            ],
+            "result_requirement": "Description of the military relations between India and Bhutan",
+            "original_goal_achieved": false,
+            "local_goal_achieved": true,
+            "confidence": "0.8",
+            "reasoning": "DuckDuckGo search returned several promising URLs related to India-Bhutan relations. Next step is to extract text from these webpages to find information about their military relations.",
+            "local_reasoning": "Search results appear relevant; need to extract and analyze text.",
+            "last_tooluse_summary": "DuckDuckGo search for \"India Bhutan military relations\" succeeded.",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "Bhutan",
+                  "military relations"
+                ],
+                "result_requirement": "Description of the military relations between India and Bhutan",
+                "original_goal_achieved": false,
+                "local_goal_achieved": true,
+                "confidence": "0.8",
+                "reasoning": "The user query is about the military relations between India and Bhutan. This is a new query that is not present in the memory excerpt. Therefore, I should route this query to the decision module to formulate a plan to retrieve relevant information.",
+                "local_reasoning": "The query is well-defined and requires research using external tools.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            },
+            {
+              "index": "0",
+              "description": "Search for information on military relations between India and Bhutan using DuckDuckGo.",
+              "type": "CODE",
+              "status": "completed",
+              "result": {
+                "search_results_0": [
+                  "https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations",
+                  "https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations",
+                  "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3",
+                  "https://www.newindianexpress.com/nation/2025/Feb/04/india-bhutan-strengthen-defence-ties-lt-gen-batoo-tshering-meets-rajnath-singh",
+                  "https://testbook.com/ias-preparation/india-bhutan-relations"
+                ]
+              },
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "Bhutan",
+                  "military relations"
+                ],
+                "result_requirement": "Description of the military relations between India and Bhutan",
+                "original_goal_achieved": false,
+                "local_goal_achieved": true,
+                "confidence": "0.8",
+                "reasoning": "DuckDuckGo search returned several promising URLs related to India-Bhutan relations. Next step is to extract text from these webpages to find information about their military relations.",
+                "local_reasoning": "Search results appear relevant; need to extract and analyze text.",
+                "last_tooluse_summary": "DuckDuckGo search for \"India Bhutan military relations\" succeeded.",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": "ROOT"
+            }
+          ],
+          "failed_steps": [],
+          "globals_schema": {
+            "search_results_0": {
+              "type": "list",
+              "preview": "['https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations', 'https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations', 'https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3', 'https://www.newindianexpress.com/nation/2025/Feb/04/india-bhutan-strengthen-defence-ties-lt-gen-batoo-tshering-meets-rajnath-singh', 'https://testbook.com/ias-preparation/india-bhutan-relations']"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search for information on military relations between India and Bhutan using DuckDuckGo."
+              },
+              {
+                "id": "1",
+                "description": "Extract summaries from the most relevant URLs obtained from the search results."
+              },
+              {
+                "id": "2",
+                "description": "Consolidate the extracted summaries to provide a description of the military relations between India and Bhutan."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              },
+              {
+                "from": "1",
+                "to": "2",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "1",
+          "code_variants": {
+            "CODE_1A": "urls = globals_schema.get(\"search_results_0\", [])\nif urls:\n  summary_list = [webpage_url_to_summary(url) for url in urls[:3]]\n  return {\"summary_list\": summary_list}\nelse:\n  return {\"text\": \"No URLs found in search_results_0.\", \"summary\": \"No URLs found.\"}",
+            "CODE_1B": "urls = globals_schema.get(\"search_results_0\", [])\nif urls:\n  url_1 = urls[0] if len(urls) > 0 else None\n  url_2 = urls[1] if len(urls) > 1 else None\n  summary1 = webpage_url_to_summary(url_1) if url_1 else \"\"\n  summary2 = webpage_url_to_summary(url_2) if url_2 else \"\"\n  return {\"summary1\": summary1, \"summary2\": summary2}\nelse:\n  return {\"text\": \"No URLs found in search_results_0.\", \"summary\": \"No URLs found.\"}",
+            "CODE_1C": "urls = globals_schema.get(\"search_results_0\", [])\nif urls:\n  summaries = []\n  for url in urls[:3]:\n    try:\n      summary = webpage_url_to_summary(url)\n      summaries.append(summary)\n    except Exception as e:\n      print(f\"Error summarizing {url}: {e}\")\n  return {\"summaries\": summaries}\nelse:\n  return {\"text\": \"No URLs found in search_results_0.\", \"summary\": \"No URLs found.\"}"
+          }
+        },
+        "next_step_id": "1",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search for information on military relations between India and Bhutan using DuckDuckGo."
+            },
+            {
+              "id": "1",
+              "description": "Extract summaries from the most relevant URLs obtained from the search results."
+            },
+            {
+              "id": "2",
+              "description": "Consolidate the extracted summaries to provide a description of the military relations between India and Bhutan."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            },
+            {
+              "from": "1",
+              "to": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_1A": "urls = globals_schema.get(\"search_results_0\", [])\nif urls:\n  summary_list = [webpage_url_to_summary(url) for url in urls[:3]]\n  return {\"summary_list\": summary_list}\nelse:\n  return {\"text\": \"No URLs found in search_results_0.\", \"summary\": \"No URLs found.\"}",
+          "CODE_1B": "urls = globals_schema.get(\"search_results_0\", [])\nif urls:\n  url_1 = urls[0] if len(urls) > 0 else None\n  url_2 = urls[1] if len(urls) > 1 else None\n  summary1 = webpage_url_to_summary(url_1) if url_1 else \"\"\n  summary2 = webpage_url_to_summary(url_2) if url_2 else \"\"\n  return {\"summary1\": summary1, \"summary2\": summary2}\nelse:\n  return {\"text\": \"No URLs found in search_results_0.\", \"summary\": \"No URLs found.\"}",
+          "CODE_1C": "urls = globals_schema.get(\"search_results_0\", [])\nif urls:\n  summaries = []\n  for url in urls[:3]:\n    try:\n      summary = webpage_url_to_summary(url)\n      summaries.append(summary)\n    except Exception as e:\n      print(f\"Error summarizing {url}: {e}\")\n  return {\"summaries\": summaries}\nelse:\n  return {\"text\": \"No URLs found in search_results_0.\", \"summary\": \"No URLs found.\"}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [
+      {
+        "run_id": "ac1a2616-83a3-4f54-adbc-121b9cde5463",
+        "step_id": "0",
+        "variant_used": "CODE_0A",
+        "code": "urls = duckduckgo_search(\"India Bhutan military relations\", 5)\nreturn {\"search_results_0\": urls}",
+        "status": "success",
+        "result": {
+          "search_results_0": [
+            "https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations",
+            "https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations",
+            "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3",
+            "https://www.newindianexpress.com/nation/2025/Feb/04/india-bhutan-strengthen-defence-ties-lt-gen-batoo-tshering-meets-rajnath-singh",
+            "https://testbook.com/ias-preparation/india-bhutan-relations"
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-18 10:13:35",
+        "total_time": "6.695",
+        "return_to": ""
+      },
+      {
+        "run_id": "b349b004-8f1f-453b-b341-ecffa9e463ca",
+        "step_id": "1",
+        "variant_used": "CODE_1A",
+        "code": "urls = globals_schema.get(\"search_results_0\", [])\nif urls:\n  summary_list = [webpage_url_to_summary(url) for url in urls[:3]]\n  return {\"summary_list\": summary_list}\nelse:\n  return {\"text\": \"No URLs found in search_results_0.\", \"summary\": \"No URLs found.\"}",
+        "status": "success",
+        "result": {
+          "summary_list": [
+            [
+              {
+                "type": "text",
+                "text": "Bhutan and India share a \"special relationship,\" with India influencing Bhutan's foreign policy, defense, and commerce. Bhutan is the largest beneficiary of Indian foreign aid. Key figures include Bhutanese Ambassador to India Vetsop Namgyel and Indian Ambassador to Bhutan Sudhakar Dalela. Historically, Bhutan became a protected state of British India in 1910. The 1949 Treaty of Friendship between Bhutan and India calls for peace and non-interference. It allows India to \"guide\" Bhutan's foreign policy, establishing free trade and extradition protocols. India maintains a 2,000-strong IMTRAT in Bhutan to train the Royal Bhutan Army. India is Bhutan's largest trading partner, accounting for 98% of exports and 90% of imports.",
+                "annotations": null
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "During his visit, the Indian Prime Minister received Bhutan's highest civilian honor, the \"Order of the Druk Gyalpo,\" recognizing contributions to India-Bhutan friendship and India's global rise. India will provide Rs. 10,000 crore in financial support to Bhutan over five years and MoUs were signed for Kokrajhar-Gelephu and Banarhat-Samtse rail links. The 1020 MW Punatsangchhu-II hydropower project is expected to be commissioned in 2024. Key aspects of India-Bhutan cooperation include the 1949 Treaty of Friendship and Cooperation (renewed in 2007), trade (India being Bhutan's top partner), development partnership (Bhutan being a major beneficiary of Indian aid), connectivity (Gelephu Mindfulness City), hydropower (Kurichhu, Tala, Chukha and Mangdechhu projects), cultural relations (India-Bhutan Foundation), security (Indian Military Training Team, BRO's project 'DANTAK'), and new initiatives like RuPay, BHIM app, Digital Drukyul, the 'India-Bhutan SAT', STEM teacher support, and Vaccine Maitri.",
+                "annotations": null
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "On March 18, 2024, India and Bhutan held bilateral talks, signing agreements on petroleum supply, food safety collaboration between Bhutan's Food and Drug Authority and India's FSSAI, and energy efficiency via an MoU. These talks occurred amidst China-Bhutan border dispute discussions, impacting Doklam and regional security. Bhutan's plans for the \"Gelephu Mindfulness City\" (GMC) regional economic hub were also noted. In the Interim Budget 2024-25, Bhutan received Rs 2,068 crore in aid, reflecting India's 'Neighbourhood First' policy. The talks highlight the close India-Bhutan ties, rooted in trust and shared values.",
+                "annotations": null
+              }
+            ]
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-18 10:13:54",
+        "total_time": "32.034",
+        "return_to": ""
+      }
+    ],
+    "summarizer_snapshots": [
+      {
+        "run_id": "471c1d20-f834-4f7f-b76f-71642411ea29",
+        "input": {
+          "original_query": "Query 1: How are the military relations between India and Bhutan?",
+          "globals_schema": {
+            "search_results_0": [
+              "https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations",
+              "https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations",
+              "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3",
+              "https://www.newindianexpress.com/nation/2025/Feb/04/india-bhutan-strengthen-defence-ties-lt-gen-batoo-tshering-meets-rajnath-singh",
+              "https://testbook.com/ias-preparation/india-bhutan-relations"
+            ],
+            "summary_list": [
+              [
+                {
+                  "type": "text",
+                  "text": "Bhutan and India share a \"special relationship,\" with India influencing Bhutan's foreign policy, defense, and commerce. Bhutan is the largest beneficiary of Indian foreign aid. Key figures include Bhutanese Ambassador to India Vetsop Namgyel and Indian Ambassador to Bhutan Sudhakar Dalela. Historically, Bhutan became a protected state of British India in 1910. The 1949 Treaty of Friendship between Bhutan and India calls for peace and non-interference. It allows India to \"guide\" Bhutan's foreign policy, establishing free trade and extradition protocols. India maintains a 2,000-strong IMTRAT in Bhutan to train the Royal Bhutan Army. India is Bhutan's largest trading partner, accounting for 98% of exports and 90% of imports.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "During his visit, the Indian Prime Minister received Bhutan's highest civilian honor, the \"Order of the Druk Gyalpo,\" recognizing contributions to India-Bhutan friendship and India's global rise. India will provide Rs. 10,000 crore in financial support to Bhutan over five years and MoUs were signed for Kokrajhar-Gelephu and Banarhat-Samtse rail links. The 1020 MW Punatsangchhu-II hydropower project is expected to be commissioned in 2024. Key aspects of India-Bhutan cooperation include the 1949 Treaty of Friendship and Cooperation (renewed in 2007), trade (India being Bhutan's top partner), development partnership (Bhutan being a major beneficiary of Indian aid), connectivity (Gelephu Mindfulness City), hydropower (Kurichhu, Tala, Chukha and Mangdechhu projects), cultural relations (India-Bhutan Foundation), security (Indian Military Training Team, BRO's project 'DANTAK'), and new initiatives like RuPay, BHIM app, Digital Drukyul, the 'India-Bhutan SAT', STEM teacher support, and Vaccine Maitri.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "On March 18, 2024, India and Bhutan held bilateral talks, signing agreements on petroleum supply, food safety collaboration between Bhutan's Food and Drug Authority and India's FSSAI, and energy efficiency via an MoU. These talks occurred amidst China-Bhutan border dispute discussions, impacting Doklam and regional security. Bhutan's plans for the \"Gelephu Mindfulness City\" (GMC) regional economic hub were also noted. In the Interim Budget 2024-25, Bhutan received Rs 2,068 crore in aid, reflecting India's 'Neighbourhood First' policy. The talks highlight the close India-Bhutan ties, rooted in trust and shared values.",
+                  "annotations": null
+                }
+              ]
+            ]
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "India",
+                      "Bhutan",
+                      "military relations"
+                    ],
+                    "result_requirement": "Description of the military relations between India and Bhutan",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": true,
+                    "confidence": "0.8",
+                    "reasoning": "The user query is about the military relations between India and Bhutan. This is a new query that is not present in the memory excerpt. Therefore, I should route this query to the decision module to formulate a plan to retrieve relevant information.",
+                    "local_reasoning": "The query is well-defined and requires research using external tools.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "0",
+                  "description": "Search for information on military relations between India and Bhutan using DuckDuckGo.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "search_results_0": [
+                      "https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations",
+                      "https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations",
+                      "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3",
+                      "https://www.newindianexpress.com/nation/2025/Feb/04/india-bhutan-strengthen-defence-ties-lt-gen-batoo-tshering-meets-rajnath-singh",
+                      "https://testbook.com/ias-preparation/india-bhutan-relations"
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "India",
+                      "Bhutan",
+                      "military relations"
+                    ],
+                    "result_requirement": "Description of the military relations between India and Bhutan",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": true,
+                    "confidence": "0.8",
+                    "reasoning": "DuckDuckGo search returned several promising URLs related to India-Bhutan relations. Next step is to extract text from these webpages to find information about their military relations.",
+                    "local_reasoning": "Search results appear relevant; need to extract and analyze text.",
+                    "last_tooluse_summary": "DuckDuckGo search for \"India Bhutan military relations\" succeeded.",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "0"
+              },
+              {
+                "data": {
+                  "index": "1",
+                  "description": "Extract summaries from the most relevant URLs obtained from the search results.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "summary_list": [
+                      [
+                        {
+                          "type": "text",
+                          "text": "Bhutan and India share a \"special relationship,\" with India influencing Bhutan's foreign policy, defense, and commerce. Bhutan is the largest beneficiary of Indian foreign aid. Key figures include Bhutanese Ambassador to India Vetsop Namgyel and Indian Ambassador to Bhutan Sudhakar Dalela. Historically, Bhutan became a protected state of British India in 1910. The 1949 Treaty of Friendship between Bhutan and India calls for peace and non-interference. It allows India to \"guide\" Bhutan's foreign policy, establishing free trade and extradition protocols. India maintains a 2,000-strong IMTRAT in Bhutan to train the Royal Bhutan Army. India is Bhutan's largest trading partner, accounting for 98% of exports and 90% of imports.",
+                          "annotations": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "During his visit, the Indian Prime Minister received Bhutan's highest civilian honor, the \"Order of the Druk Gyalpo,\" recognizing contributions to India-Bhutan friendship and India's global rise. India will provide Rs. 10,000 crore in financial support to Bhutan over five years and MoUs were signed for Kokrajhar-Gelephu and Banarhat-Samtse rail links. The 1020 MW Punatsangchhu-II hydropower project is expected to be commissioned in 2024. Key aspects of India-Bhutan cooperation include the 1949 Treaty of Friendship and Cooperation (renewed in 2007), trade (India being Bhutan's top partner), development partnership (Bhutan being a major beneficiary of Indian aid), connectivity (Gelephu Mindfulness City), hydropower (Kurichhu, Tala, Chukha and Mangdechhu projects), cultural relations (India-Bhutan Foundation), security (Indian Military Training Team, BRO's project 'DANTAK'), and new initiatives like RuPay, BHIM app, Digital Drukyul, the 'India-Bhutan SAT', STEM teacher support, and Vaccine Maitri.",
+                          "annotations": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "On March 18, 2024, India and Bhutan held bilateral talks, signing agreements on petroleum supply, food safety collaboration between Bhutan's Food and Drug Authority and India's FSSAI, and energy efficiency via an MoU. These talks occurred amidst China-Bhutan border dispute discussions, impacting Doklam and regional security. Bhutan's plans for the \"Gelephu Mindfulness City\" (GMC) regional economic hub were also noted. In the Interim Budget 2024-25, Bhutan received Rs 2,068 crore in aid, reflecting India's 'Neighbourhood First' policy. The talks highlight the close India-Bhutan ties, rooted in trust and shared values.",
+                          "annotations": null
+                        }
+                      ]
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "India",
+                      "Bhutan",
+                      "military relations",
+                      "IMTRAT",
+                      "security cooperation"
+                    ],
+                    "result_requirement": "Description of the military relations between India and Bhutan",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "0.9",
+                    "reasoning": "The summaries extracted from the search results contain relevant information about the military relations between India and Bhutan, specifically mentioning the Indian Military Training Team (IMTRAT) and general security cooperation.  The key aspects of the relationship have been extracted.",
+                    "local_reasoning": "The extracted summaries provide sufficient details to summarize the military relationship between the two countries.",
+                    "last_tooluse_summary": "Summarization of webpages was successful in extracting relevant details about the India-Bhutan military relationship.",
+                    "solution_summary": "India and Bhutan maintain close military relations, with India playing a significant role in training the Royal Bhutan Army through the IMTRAT. Security cooperation is a key aspect of their relationship.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Provide a concise summary of the military relations between India and Bhutan based on the extracted information.  Include details about IMTRAT and security cooperation. Format the summary in markdown."
+                  },
+                  "from_step": "1"
+                },
+                "id": "1"
+              },
+              {
+                "data": {
+                  "index": "2",
+                  "description": "Consolidate the extracted summaries to provide a description of the military relations between India and Bhutan.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "1"
+                },
+                "id": "2"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "0"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "1",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "1",
+                "target": "2"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "India",
+              "Bhutan",
+              "military relations",
+              "IMTRAT",
+              "security cooperation"
+            ],
+            "result_requirement": "Description of the military relations between India and Bhutan",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.9",
+            "reasoning": "The summaries extracted from the search results contain relevant information about the military relations between India and Bhutan, specifically mentioning the Indian Military Training Team (IMTRAT) and general security cooperation.  The key aspects of the relationship have been extracted.",
+            "local_reasoning": "The extracted summaries provide sufficient details to summarize the military relationship between the two countries.",
+            "last_tooluse_summary": "Summarization of webpages was successful in extracting relevant details about the India-Bhutan military relationship.",
+            "solution_summary": "India and Bhutan maintain close military relations, with India playing a significant role in training the Royal Bhutan Army through the IMTRAT. Security cooperation is a key aspect of their relationship.",
+            "route": "summarize",
+            "instruction_to_summarize": "Provide a concise summary of the military relations between India and Bhutan based on the extracted information.  Include details about IMTRAT and security cooperation. Format the summary in markdown."
+          }
+        },
+        "summary_output": "India and Bhutan share a special relationship characterized by India's influence on Bhutan's foreign policy, defense, and commerce. A key component of their military relations is the Indian Military Training Team (IMTRAT), where India maintains a 2,000-strong presence in Bhutan to train the Royal Bhutan Army. Security cooperation is a vital aspect of the India-Bhutan relationship.",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-18T04:43:09Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "India and Bhutan maintain close military relations, with India playing a significant role in training the Royal Bhutan Army through the IMTRAT. Security cooperation is a key aspect of their relationship.",
+    "status": "success",
+    "completed_at": "2025-05-18T04:44:36.220414"
+  },
+  "status": "success",
+  "final_step_id": "2",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-18T04:44:36.223429",
+  "original_query": "Query 1: How are the military relations between India and Bhutan?",
+  "final_summary": "India and Bhutan maintain close military relations, with India playing a significant role in training the Royal Bhutan Army through the IMTRAT. Security cooperation is a key aspect of their relationship."
+}

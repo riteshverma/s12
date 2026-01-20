@@ -1,0 +1,42 @@
+{
+  "session_id": "351808dc-5c67-45f0-b485-29969be985b7",
+  "original_query": "Summarize https://www.theschoolofai.in",
+  "globals": {},
+  "memory": [],
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "data": {
+          "index": "ROOT",
+          "description": "initial query",
+          "type": "CODE",
+          "status": "pending",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "theschoolofai.in"
+            ],
+            "result_requirement": "Summary of the website theschoolofai.in",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.95",
+            "reasoning": "Similar queries exist in memory and have been successfully resolved. A summary of the website content is available.",
+            "local_reasoning": "Memory contains summaries for this specific URL.",
+            "last_tooluse_summary": "Not applicable",
+            "summarizer_summary": "The EAG course by TSAI teaches students how to build Agentic AI systems. It covers topics such as Transformer Architecture, Language Models, Planning and Reasoning, Agent Architecture, Memory, Context, State Management, Tool Use, and External APIs. The course uses tools like SmolAgents, LangChain, OpenAI Evals, Selenium/Playwright, and RAGs.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize the content of the website theschoolofai.in, focusing on the EAG course and the topics covered. Mention the tools used in the course as well."
+          },
+          "from_step": null
+        },
+        "id": "ROOT"
+      }
+    ],
+    "links": []
+  }
+}

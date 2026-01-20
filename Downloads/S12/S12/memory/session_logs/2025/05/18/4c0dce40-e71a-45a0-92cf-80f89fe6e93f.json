@@ -1,0 +1,161 @@
+{
+  "context": {
+    "session_id": "4c0dce40-e71a-45a0-92cf-80f89fe6e93f",
+    "original_query": "Query 1: What is tan(45)/cos(45) + 56.7",
+    "globals": {},
+    "memory": [
+      {
+        "original_query": "Query 1: What is tan(45)/cos(45) + 56.7",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "Here's the calculation of tan(45)/cos(45) + 56.7:\n\n1.  **tan(45)** = 1\n2.  **cos(45)** \u2248 0.7071\n3.  **tan(45) / cos(45)** = 1 / 0.7071 \u2248 1.4142\n4.  **1.4142 + 56.7** = 58.1142\n\n**Result:** 58.1142",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "tan(45)",
+                "cos(45)",
+                "56.7"
+              ],
+              "result_requirement": "The result of the calculation: tan(45)/cos(45) + 56.7",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "0.99",
+              "reasoning": "The query is a straightforward mathematical calculation that can be directly computed without external tools or information.  The values of tan(45) and cos(45) are known, and the addition can be performed directly.",
+              "local_reasoning": "Direct calculation possible.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not applicable",
+              "route": "summarize",
+              "instruction_to_summarize": "Perform the calculation tan(45)/cos(45) + 56.7.  Assume tan(45) = 1 and cos(45) = 0.7071.  Present the result in markdown format, stating the calculated value. Include step by step mathematical calculation"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        }
+      ],
+      "links": []
+    }
+  },
+  "session": {
+    "session_id": "4c0dce40-e71a-45a0-92cf-80f89fe6e93f",
+    "original_query": "Query 1: What is tan(45)/cos(45) + 56.7",
+    "perception_snapshots": [
+      {
+        "run_id": "4c0dce40-e71a-45a0-92cf-80f89fe6e93f-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "tan(45)",
+          "cos(45)",
+          "56.7"
+        ],
+        "result_requirement": "The result of the calculation: tan(45)/cos(45) + 56.7",
+        "original_goal_achieved": true,
+        "reasoning": "The query is a straightforward mathematical calculation that can be directly computed without external tools or information.  The values of tan(45) and cos(45) are known, and the addition can be performed directly.",
+        "local_goal_achieved": true,
+        "local_reasoning": "Direct calculation possible.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not applicable",
+        "confidence": "0.99",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [],
+    "execution_snapshots": [],
+    "summarizer_snapshots": [
+      {
+        "run_id": "a2ac0221-f40a-4ac2-bd5b-2847f1e6e8ad",
+        "input": {
+          "original_query": "Query 1: What is tan(45)/cos(45) + 56.7",
+          "globals_schema": {},
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "tan(45)",
+                      "cos(45)",
+                      "56.7"
+                    ],
+                    "result_requirement": "The result of the calculation: tan(45)/cos(45) + 56.7",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "0.99",
+                    "reasoning": "The query is a straightforward mathematical calculation that can be directly computed without external tools or information.  The values of tan(45) and cos(45) are known, and the addition can be performed directly.",
+                    "local_reasoning": "Direct calculation possible.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not applicable",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Perform the calculation tan(45)/cos(45) + 56.7.  Assume tan(45) = 1 and cos(45) = 0.7071.  Present the result in markdown format, stating the calculated value. Include step by step mathematical calculation"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              }
+            ],
+            "links": []
+          },
+          "perception": {
+            "entities": [
+              "tan(45)",
+              "cos(45)",
+              "56.7"
+            ],
+            "result_requirement": "The result of the calculation: tan(45)/cos(45) + 56.7",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.99",
+            "reasoning": "The query is a straightforward mathematical calculation that can be directly computed without external tools or information.  The values of tan(45) and cos(45) are known, and the addition can be performed directly.",
+            "local_reasoning": "Direct calculation possible.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not applicable",
+            "route": "summarize",
+            "instruction_to_summarize": "Perform the calculation tan(45)/cos(45) + 56.7.  Assume tan(45) = 1 and cos(45) = 0.7071.  Present the result in markdown format, stating the calculated value. Include step by step mathematical calculation"
+          }
+        },
+        "summary_output": "Here's the calculation of tan(45)/cos(45) + 56.7:\n\n1.  **tan(45)** = 1\n2.  **cos(45)** \u2248 0.7071\n3.  **tan(45) / cos(45)** = 1 / 0.7071 \u2248 1.4142\n4.  **1.4142 + 56.7** = 58.1142\n\n**Result:** 58.1142",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-18T03:59:22Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": null,
+    "status": "success",
+    "completed_at": "2025-05-18T04:00:01.223224"
+  },
+  "status": "success",
+  "final_step_id": "ROOT",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-18T04:00:01.225164",
+  "original_query": "Query 1: What is tan(45)/cos(45) + 56.7",
+  "final_summary": null
+}

@@ -1,0 +1,42 @@
+{
+  "session_id": "a444ea8e-0396-41a1-a5ab-8c3719b7c9bc",
+  "original_query": "What is 60/10",
+  "globals": {},
+  "memory": [],
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "data": {
+          "index": "ROOT",
+          "description": "initial query",
+          "type": "ROOT",
+          "status": "completed",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "60/10"
+            ],
+            "result_requirement": "The result of 60 divided by 10",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.99",
+            "reasoning": "The original query is a simple mathematical expression that can be immediately calculated.",
+            "local_reasoning": "The query directly asks for the result of a division operation.",
+            "last_tooluse_summary": "Not applicable",
+            "summarizer_summary": "60 / 10 = 6",
+            "route": "summarize",
+            "instruction_to_summarize": "Provide the result of 60 divided by 10. The answer is 6. Format in markdown."
+          },
+          "from_step": null
+        },
+        "id": "ROOT"
+      }
+    ],
+    "links": []
+  }
+}

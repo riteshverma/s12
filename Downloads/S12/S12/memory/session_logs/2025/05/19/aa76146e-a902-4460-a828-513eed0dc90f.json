@@ -1,0 +1,933 @@
+{
+  "context": {
+    "session_id": "aa76146e-a902-4460-a828-513eed0dc90f",
+    "original_query": "Query 1: How are the current relations between India and Afghanistan?",
+    "globals": {
+      "memory": [
+        {
+          "score": 200.0,
+          "session_id": "5c95253d-0fd3-41c4-9a90-836057b2cbb2",
+          "original_query": "Query 1: How are the current relations between India and Afghanistan?",
+          "summary_output": "I was unable to retrieve information about the current relations between India and Afghanistan. The initial web search failed due to an encoding error, which prevented the tool from correctly interpreting the search results. As a result, any subsequent steps that depended on this initial search, such as analyzing government reports or news articles, were also unsuccessful. The memory contains information about India-Bhutan relations, which is not relevant to your query. The tool failure was caused by a \"charmap\" codec error, indicating a problem with character encoding during the web search process.",
+          "timestamp": "2025-05-19T10:19:46Z"
+        },
+        {
+          "score": 182.97872340425533,
+          "session_id": "fc5367ee-de63-4d80-8aa7-373de6cb014e",
+          "original_query": "Query 1: How are the military relations between India and Bhutan?",
+          "summary_output": "India and Bhutan share a special relationship characterized by India's influence on Bhutan's foreign policy, defense, and commerce. A key component of their military relations is the Indian Military Training Team (IMTRAT), where India maintains a 2,000-strong presence in Bhutan to train the Royal Bhutan Army. Security cooperation is a vital aspect of the India-Bhutan relationship.",
+          "timestamp": "2025-05-18T04:43:09Z"
+        },
+        {
+          "score": 182.97872340425533,
+          "session_id": "2ca4f0e8-122f-41d5-83c0-2f3e883b2402",
+          "original_query": "Query 1: How are the military relations between India and Bhutan?",
+          "summary_output": "I am unable to provide a summary of the military relations between India and Bhutan at this time. No tool has been used to extract and synthesize the text from the URLs provided.",
+          "timestamp": "2025-05-18T04:36:36Z"
+        }
+      ],
+      "search_results_0A": [
+        "https://www.thehindu.com/news/national/india-to-make-a-bold-move-on-afghanistan/article69584396.ece",
+        "https://www.indiatoday.in/the-lowdown/story/frenemies-india-afghanistan-taking-again-jaishankar-taliban-pakistan-conflict-2725710-2025-05-16",
+        "https://en.wikipedia.org/wiki/Afghanistan%E2%80%93India_relations",
+        "https://www.bbc.com/news/articles/cp8ke9e27dxo",
+        "https://theprint.in/diplomacy/a-look-at-indias-evolving-engagement-with-taliban-over-the-years/2627945/"
+      ],
+      "summary1_1A": [
+        {
+          "type": "text",
+          "text": "Following the May 15, 2025, Jaishankar-Muttaqi conversation, India plans \"bold moves\" to strengthen relations with Taliban-ruled Afghanistan, including potential humanitarian aid for Afghan refugees repatriated by Pakistan. India will deepen direct humanitarian support to Afghanistan, considering requests raised by Muttaqi with Foreign Secretary Misri in Dubai on January 8, 2025. India attaches significance to the Jaishankar-Muttaqi conversation amid Muttaqi's upcoming visit to Iran and China. Discussions included cooperation on the Chabahar port, especially given India's ban on trade via Pakistan. Muttaqi's visit is part of Afghanistan's \"active foreign policy\". Despite lacking formal recognition, India is willing to do \"whatever is necessary\" regarding the Taliban, increasing exchanges since the 2021 overthrow of President Ashraf Ghani's government.",
+          "annotations": null
+        }
+      ]
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: How are the current relations between India and Afghanistan?",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "Following the Jaishankar-Muttaqi conversation, India is planning \"bold moves\" to strengthen relations with Taliban-ruled Afghanistan, including potential humanitarian aid for Afghan refugees repatriated by Pakistan. India will deepen direct humanitarian support to Afghanistan, considering requests raised by Muttaqi with Foreign Secretary Misri in Dubai on January 8, 2025. India attaches significance to the Jaishankar-Muttaqi conversation amid Muttaqi's upcoming visit to Iran and China. Discussions included cooperation on the Chabahar port, especially given India's ban on trade via Pakistan. Muttaqi's visit is part of Afghanistan's \"active foreign policy.\" Despite lacking formal recognition, India is willing to do \"whatever is necessary\" regarding the Taliban, increasing exchanges since the 2021 overthrow of President Ashraf Ghani's government.\n\nMore information is available at [The Hindu](https://www.thehindu.com/news/national/india-to-make-a-bold-move-on-afghanistan/article69584396.ece).",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "India",
+                "Afghanistan",
+                "current relations"
+              ],
+              "result_requirement": "Description of the current relations between India and Afghanistan.",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.6",
+              "reasoning": "The memory contains a prior attempt to answer this question which failed due to a character encoding error during web search. Therefore, another attempt is needed.",
+              "local_reasoning": "The query requires gathering current information which is not available in memory or globals.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Search for recent news articles and reports detailing current relations between India and Afghanistan.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "search_results_0A": [
+                "https://www.thehindu.com/news/national/india-to-make-a-bold-move-on-afghanistan/article69584396.ece",
+                "https://www.indiatoday.in/the-lowdown/story/frenemies-india-afghanistan-taking-again-jaishankar-taliban-pakistan-conflict-2725710-2025-05-16",
+                "https://en.wikipedia.org/wiki/Afghanistan%E2%80%93India_relations",
+                "https://www.bbc.com/news/articles/cp8ke9e27dxo",
+                "https://theprint.in/diplomacy/a-look-at-indias-evolving-engagement-with-taliban-over-the-years/2627945/"
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "India",
+                "Afghanistan",
+                "current relations"
+              ],
+              "result_requirement": "Description of the current relations between India and Afghanistan.",
+              "original_goal_achieved": false,
+              "local_goal_achieved": true,
+              "confidence": "0.7",
+              "reasoning": "Successfully gathered search results. Need to extract relevant information from the URLs to describe current relations between India and Afghanistan.",
+              "local_reasoning": "The search tool successfully returned URLs that potentially contain information on the current relations between India and Afghanistan.",
+              "last_tooluse_summary": "Search tool returned URLs.",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        },
+        {
+          "data": {
+            "index": "1",
+            "description": "Extract and summarize information about current relations between India and Afghanistan from the top URLs.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "summary1_1A": [
+                {
+                  "type": "text",
+                  "text": "Following the May 15, 2025, Jaishankar-Muttaqi conversation, India plans \"bold moves\" to strengthen relations with Taliban-ruled Afghanistan, including potential humanitarian aid for Afghan refugees repatriated by Pakistan. India will deepen direct humanitarian support to Afghanistan, considering requests raised by Muttaqi with Foreign Secretary Misri in Dubai on January 8, 2025. India attaches significance to the Jaishankar-Muttaqi conversation amid Muttaqi's upcoming visit to Iran and China. Discussions included cooperation on the Chabahar port, especially given India's ban on trade via Pakistan. Muttaqi's visit is part of Afghanistan's \"active foreign policy\". Despite lacking formal recognition, India is willing to do \"whatever is necessary\" regarding the Taliban, increasing exchanges since the 2021 overthrow of President Ashraf Ghani's government.",
+                  "annotations": null
+                }
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "India",
+                "Afghanistan",
+                "current relations",
+                "Jaishankar-Muttaqi conversation",
+                "Taliban"
+              ],
+              "result_requirement": "Description of the current relations between India and Afghanistan.",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "0.9",
+              "reasoning": "The tool has provided a summary of the current relations between India and Afghanistan, mentioning the Jaishankar-Muttaqi conversation and India's stance towards the Taliban.",
+              "local_reasoning": "The extracted summary directly addresses the query, providing details about recent interactions and future plans between India and Afghanistan.",
+              "last_tooluse_summary": "Extracted and summarized information about current relations between India and Afghanistan from the top URLs.",
+              "solution_summary": "India is planning \"bold moves\" to strengthen relations with Taliban-ruled Afghanistan, including potential humanitarian aid. The Jaishankar-Muttaqi conversation is significant amidst Muttaqi's visits to Iran and China. Discussions included cooperation on the Chabahar port.",
+              "route": "summarize",
+              "instruction_to_summarize": "Summarize the current relations between India and Afghanistan, highlighting the key points from the provided summary regarding the Jaishankar-Muttaqi conversation, humanitarian aid, and India's stance towards the Taliban. Specifically include information related to Chabahar port. Do not include the May 15, 2025 date."
+            },
+            "from_step": "1"
+          },
+          "id": "1"
+        },
+        {
+          "data": {
+            "index": "2",
+            "description": "Synthesize a description of the current relations between India and Afghanistan based on the extracted summaries.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "1"
+          },
+          "id": "2"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "2"
+        },
+        {
+          "type": "normal",
+          "source": "1",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "1",
+          "target": "2"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "aa76146e-a902-4460-a828-513eed0dc90f",
+    "original_query": "Query 1: How are the current relations between India and Afghanistan?",
+    "perception_snapshots": [
+      {
+        "run_id": "aa76146e-a902-4460-a828-513eed0dc90f-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "India",
+          "Afghanistan",
+          "current relations"
+        ],
+        "result_requirement": "Description of the current relations between India and Afghanistan.",
+        "original_goal_achieved": false,
+        "reasoning": "The memory contains a prior attempt to answer this question which failed due to a character encoding error during web search. Therefore, another attempt is needed.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The query requires gathering current information which is not available in memory or globals.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.6",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "aa76146e-a902-4460-a828-513eed0dc90f-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "India",
+          "Afghanistan",
+          "current relations"
+        ],
+        "result_requirement": "Description of the current relations between India and Afghanistan.",
+        "original_goal_achieved": false,
+        "reasoning": "Successfully gathered search results. Need to extract relevant information from the URLs to describe current relations between India and Afghanistan.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The search tool successfully returned URLs that potentially contain information on the current relations between India and Afghanistan.",
+        "last_tooluse_summary": "Search tool returned URLs.",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.7",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "aa76146e-a902-4460-a828-513eed0dc90f-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "India",
+          "Afghanistan",
+          "current relations",
+          "Jaishankar-Muttaqi conversation",
+          "Taliban"
+        ],
+        "result_requirement": "Description of the current relations between India and Afghanistan.",
+        "original_goal_achieved": true,
+        "reasoning": "The tool has provided a summary of the current relations between India and Afghanistan, mentioning the Jaishankar-Muttaqi conversation and India's stance towards the Taliban.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The extracted summary directly addresses the query, providing details about recent interactions and future plans between India and Afghanistan.",
+        "last_tooluse_summary": "Extracted and summarized information about current relations between India and Afghanistan from the top URLs.",
+        "solution_summary": "India is planning \"bold moves\" to strengthen relations with Taliban-ruled Afghanistan, including potential humanitarian aid. The Jaishankar-Muttaqi conversation is significant amidst Muttaqi's visits to Iran and China. Discussions included cooperation on the Chabahar port.",
+        "confidence": "0.9",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "958138d1-bab4-40cb-a31f-7f3efc9e5917",
+        "input": {
+          "current_time": "2025-05-19T10:25:27.422155",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: How are the current relations between India and Afghanistan?",
+          "perception": {
+            "entities": [
+              "India",
+              "Afghanistan",
+              "current relations"
+            ],
+            "result_requirement": "Description of the current relations between India and Afghanistan.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.6",
+            "reasoning": "The memory contains a prior attempt to answer this question which failed due to a character encoding error during web search. Therefore, another attempt is needed.",
+            "local_reasoning": "The query requires gathering current information which is not available in memory or globals.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "Afghanistan",
+                  "current relations"
+                ],
+                "result_requirement": "Description of the current relations between India and Afghanistan.",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.6",
+                "reasoning": "The memory contains a prior attempt to answer this question which failed due to a character encoding error during web search. Therefore, another attempt is needed.",
+                "local_reasoning": "The query requires gathering current information which is not available in memory or globals.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "Afghanistan",
+                  "current relations"
+                ],
+                "result_requirement": "Description of the current relations between India and Afghanistan.",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.6",
+                "reasoning": "The memory contains a prior attempt to answer this question which failed due to a character encoding error during web search. Therefore, another attempt is needed.",
+                "local_reasoning": "The query requires gathering current information which is not available in memory or globals.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[{'score': 200.0, 'session_id': '5c95253d-0fd3-41c4-9a90-836057b2cbb2', 'original_query': 'Query 1: How are the current relations between India and Afghanistan?', 'summary_output': 'I was unable to retrieve information about the current relations between India and Afghanistan. The initial web search failed due to an encoding error, which prevented the tool from correctly interpreting the search results. As a result, any subsequent steps that depended on this initial search, such as analyzing gov\u2026"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search for recent news articles and reports detailing current relations between India and Afghanistan."
+              },
+              {
+                "id": "1",
+                "description": "Extract and summarize the key information from the retrieved articles regarding the relations between India and Afghanistan."
+              },
+              {
+                "id": "2",
+                "description": "Synthesize the extracted information into a concise description of the current relations between India and Afghanistan."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              },
+              {
+                "from": "1",
+                "to": "2",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "search_results_0A = web_search_urls(\"India Afghanistan relations\", 5)\nreturn {\"search_results_0A\": search_results_0A}",
+            "CODE_0B": "search_results_0B = web_search_urls(\"current diplomatic ties between India and Afghanistan\", 5)\nreturn {\"search_results_0B\": search_results_0B}",
+            "CODE_0C": "search_results_0C = web_search_urls(\"India Afghanistan cooperation\", 5)\nreturn {\"search_results_0C\": search_results_0C}"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search for recent news articles and reports detailing current relations between India and Afghanistan."
+            },
+            {
+              "id": "1",
+              "description": "Extract and summarize the key information from the retrieved articles regarding the relations between India and Afghanistan."
+            },
+            {
+              "id": "2",
+              "description": "Synthesize the extracted information into a concise description of the current relations between India and Afghanistan."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            },
+            {
+              "from": "1",
+              "to": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "search_results_0A = web_search_urls(\"India Afghanistan relations\", 5)\nreturn {\"search_results_0A\": search_results_0A}",
+          "CODE_0B": "search_results_0B = web_search_urls(\"current diplomatic ties between India and Afghanistan\", 5)\nreturn {\"search_results_0B\": search_results_0B}",
+          "CODE_0C": "search_results_0C = web_search_urls(\"India Afghanistan cooperation\", 5)\nreturn {\"search_results_0C\": search_results_0C}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      },
+      {
+        "run_id": "4c4ca028-02cc-4842-80f8-b9961131ba3e",
+        "input": {
+          "current_time": "2025-05-19T10:25:53.778759",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: How are the current relations between India and Afghanistan?",
+          "perception": {
+            "entities": [
+              "India",
+              "Afghanistan",
+              "current relations"
+            ],
+            "result_requirement": "Description of the current relations between India and Afghanistan.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": true,
+            "confidence": "0.7",
+            "reasoning": "Successfully gathered search results. Need to extract relevant information from the URLs to describe current relations between India and Afghanistan.",
+            "local_reasoning": "The search tool successfully returned URLs that potentially contain information on the current relations between India and Afghanistan.",
+            "last_tooluse_summary": "Search tool returned URLs.",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "Afghanistan",
+                  "current relations"
+                ],
+                "result_requirement": "Description of the current relations between India and Afghanistan.",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.6",
+                "reasoning": "The memory contains a prior attempt to answer this question which failed due to a character encoding error during web search. Therefore, another attempt is needed.",
+                "local_reasoning": "The query requires gathering current information which is not available in memory or globals.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            },
+            {
+              "index": "0",
+              "description": "Search for recent news articles and reports detailing current relations between India and Afghanistan.",
+              "type": "CODE",
+              "status": "completed",
+              "result": {
+                "search_results_0A": [
+                  "https://www.thehindu.com/news/national/india-to-make-a-bold-move-on-afghanistan/article69584396.ece",
+                  "https://www.indiatoday.in/the-lowdown/story/frenemies-india-afghanistan-taking-again-jaishankar-taliban-pakistan-conflict-2725710-2025-05-16",
+                  "https://en.wikipedia.org/wiki/Afghanistan%E2%80%93India_relations",
+                  "https://www.bbc.com/news/articles/cp8ke9e27dxo",
+                  "https://theprint.in/diplomacy/a-look-at-indias-evolving-engagement-with-taliban-over-the-years/2627945/"
+                ]
+              },
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "Afghanistan",
+                  "current relations"
+                ],
+                "result_requirement": "Description of the current relations between India and Afghanistan.",
+                "original_goal_achieved": false,
+                "local_goal_achieved": true,
+                "confidence": "0.7",
+                "reasoning": "Successfully gathered search results. Need to extract relevant information from the URLs to describe current relations between India and Afghanistan.",
+                "local_reasoning": "The search tool successfully returned URLs that potentially contain information on the current relations between India and Afghanistan.",
+                "last_tooluse_summary": "Search tool returned URLs.",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": "ROOT"
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "Afghanistan",
+                  "current relations"
+                ],
+                "result_requirement": "Description of the current relations between India and Afghanistan.",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.6",
+                "reasoning": "The memory contains a prior attempt to answer this question which failed due to a character encoding error during web search. Therefore, another attempt is needed.",
+                "local_reasoning": "The query requires gathering current information which is not available in memory or globals.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[{'score': 200.0, 'session_id': '5c95253d-0fd3-41c4-9a90-836057b2cbb2', 'original_query': 'Query 1: How are the current relations between India and Afghanistan?', 'summary_output': 'I was unable to retrieve information about the current relations between India and Afghanistan. The initial web search failed due to an encoding error, which prevented the tool from correctly interpreting the search results. As a result, any subsequent steps that depended on this initial search, such as analyzing gov\u2026"
+            },
+            "search_results_0A": {
+              "type": "list",
+              "preview": "['https://www.thehindu.com/news/national/india-to-make-a-bold-move-on-afghanistan/article69584396.ece', 'https://www.indiatoday.in/the-lowdown/story/frenemies-india-afghanistan-taking-again-jaishankar-taliban-pakistan-conflict-2725710-2025-05-16', 'https://en.wikipedia.org/wiki/Afghanistan%E2%80%93India_relations', 'https://www.bbc.com/news/articles/cp8ke9e27dxo', 'https://theprint.in/diplomacy/a-look-at-indias-evolving-engagement-with-taliban-over-the-years/2627945/']"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search for recent news articles and reports detailing current relations between India and Afghanistan."
+              },
+              {
+                "id": "1",
+                "description": "Extract and summarize information about current relations between India and Afghanistan from the top URLs."
+              },
+              {
+                "id": "2",
+                "description": "Synthesize a description of the current relations between India and Afghanistan based on the extracted summaries."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              },
+              {
+                "from": "1",
+                "to": "2",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "1",
+          "code_variants": {
+            "CODE_1A": "urls = globals_schema.get(\"search_results_0A\", [])\nif urls:\n  url1 = urls[0]\n  summary1 = webpage_url_to_summary(url1)\n  return {\"summary1_1A\": summary1}\nelse:\n  return {\"summary1_1A\": \"No URLs found.\"}",
+            "CODE_1B": "urls = globals_schema.get(\"search_results_0A\", [])\nif urls:\n  url1 = urls[1]\n  summary1 = webpage_url_to_summary(url1)\n  return {\"summary1_1B\": summary1}\nelse:\n  return {\"summary1_1B\": \"No URLs found.\"}",
+            "CODE_1C": "urls = globals_schema.get(\"search_results_0A\", [])\nif urls:\n  raw_text_1 = webpage_url_to_raw_text(urls[0])\n  return {\"raw_text_1_1C\": raw_text_1}\nelse:\n  return {\"raw_text_1_1C\": \"No URLs found.\"}"
+          }
+        },
+        "next_step_id": "1",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search for recent news articles and reports detailing current relations between India and Afghanistan."
+            },
+            {
+              "id": "1",
+              "description": "Extract and summarize information about current relations between India and Afghanistan from the top URLs."
+            },
+            {
+              "id": "2",
+              "description": "Synthesize a description of the current relations between India and Afghanistan based on the extracted summaries."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            },
+            {
+              "from": "1",
+              "to": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_1A": "urls = globals_schema.get(\"search_results_0A\", [])\nif urls:\n  url1 = urls[0]\n  summary1 = webpage_url_to_summary(url1)\n  return {\"summary1_1A\": summary1}\nelse:\n  return {\"summary1_1A\": \"No URLs found.\"}",
+          "CODE_1B": "urls = globals_schema.get(\"search_results_0A\", [])\nif urls:\n  url1 = urls[1]\n  summary1 = webpage_url_to_summary(url1)\n  return {\"summary1_1B\": summary1}\nelse:\n  return {\"summary1_1B\": \"No URLs found.\"}",
+          "CODE_1C": "urls = globals_schema.get(\"search_results_0A\", [])\nif urls:\n  raw_text_1 = webpage_url_to_raw_text(urls[0])\n  return {\"raw_text_1_1C\": raw_text_1}\nelse:\n  return {\"raw_text_1_1C\": \"No URLs found.\"}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [
+      {
+        "run_id": "57a94643-8566-4cba-8c7d-248bf19a6e59",
+        "step_id": "0",
+        "variant_used": "CODE_0A",
+        "code": "search_results_0A = web_search_urls(\"India Afghanistan relations\", 5)\nreturn {\"search_results_0A\": search_results_0A}",
+        "status": "success",
+        "result": {
+          "search_results_0A": [
+            "https://www.thehindu.com/news/national/india-to-make-a-bold-move-on-afghanistan/article69584396.ece",
+            "https://www.indiatoday.in/the-lowdown/story/frenemies-india-afghanistan-taking-again-jaishankar-taliban-pakistan-conflict-2725710-2025-05-16",
+            "https://en.wikipedia.org/wiki/Afghanistan%E2%80%93India_relations",
+            "https://www.bbc.com/news/articles/cp8ke9e27dxo",
+            "https://theprint.in/diplomacy/a-look-at-indias-evolving-engagement-with-taliban-over-the-years/2627945/"
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 15:55:33",
+        "total_time": "15.782",
+        "return_to": ""
+      },
+      {
+        "run_id": "76a6052d-68fc-4337-b21c-f2ef49066f0d",
+        "step_id": "1",
+        "variant_used": "CODE_1A",
+        "code": "urls = globals_schema.get(\"search_results_0A\", [])\nif urls:\n  url1 = urls[0]\n  summary1 = webpage_url_to_summary(url1)\n  return {\"summary1_1A\": summary1}\nelse:\n  return {\"summary1_1A\": \"No URLs found.\"}",
+        "status": "success",
+        "result": {
+          "summary1_1A": [
+            {
+              "type": "text",
+              "text": "Following the May 15, 2025, Jaishankar-Muttaqi conversation, India plans \"bold moves\" to strengthen relations with Taliban-ruled Afghanistan, including potential humanitarian aid for Afghan refugees repatriated by Pakistan. India will deepen direct humanitarian support to Afghanistan, considering requests raised by Muttaqi with Foreign Secretary Misri in Dubai on January 8, 2025. India attaches significance to the Jaishankar-Muttaqi conversation amid Muttaqi's upcoming visit to Iran and China. Discussions included cooperation on the Chabahar port, especially given India's ban on trade via Pakistan. Muttaqi's visit is part of Afghanistan's \"active foreign policy\". Despite lacking formal recognition, India is willing to do \"whatever is necessary\" regarding the Taliban, increasing exchanges since the 2021 overthrow of President Ashraf Ghani's government.",
+              "annotations": null
+            }
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 15:55:59",
+        "total_time": "7.768",
+        "return_to": ""
+      }
+    ],
+    "summarizer_snapshots": [
+      {
+        "run_id": "475fdd12-ba66-4fbe-9835-07a931641b4b",
+        "input": {
+          "original_query": "Query 1: How are the current relations between India and Afghanistan?",
+          "globals_schema": {
+            "memory": [
+              {
+                "score": 200.0,
+                "session_id": "5c95253d-0fd3-41c4-9a90-836057b2cbb2",
+                "original_query": "Query 1: How are the current relations between India and Afghanistan?",
+                "summary_output": "I was unable to retrieve information about the current relations between India and Afghanistan. The initial web search failed due to an encoding error, which prevented the tool from correctly interpreting the search results. As a result, any subsequent steps that depended on this initial search, such as analyzing government reports or news articles, were also unsuccessful. The memory contains information about India-Bhutan relations, which is not relevant to your query. The tool failure was caused by a \"charmap\" codec error, indicating a problem with character encoding during the web search process.",
+                "timestamp": "2025-05-19T10:19:46Z"
+              },
+              {
+                "score": 182.97872340425533,
+                "session_id": "fc5367ee-de63-4d80-8aa7-373de6cb014e",
+                "original_query": "Query 1: How are the military relations between India and Bhutan?",
+                "summary_output": "India and Bhutan share a special relationship characterized by India's influence on Bhutan's foreign policy, defense, and commerce. A key component of their military relations is the Indian Military Training Team (IMTRAT), where India maintains a 2,000-strong presence in Bhutan to train the Royal Bhutan Army. Security cooperation is a vital aspect of the India-Bhutan relationship.",
+                "timestamp": "2025-05-18T04:43:09Z"
+              },
+              {
+                "score": 182.97872340425533,
+                "session_id": "2ca4f0e8-122f-41d5-83c0-2f3e883b2402",
+                "original_query": "Query 1: How are the military relations between India and Bhutan?",
+                "summary_output": "I am unable to provide a summary of the military relations between India and Bhutan at this time. No tool has been used to extract and synthesize the text from the URLs provided.",
+                "timestamp": "2025-05-18T04:36:36Z"
+              }
+            ],
+            "search_results_0A": [
+              "https://www.thehindu.com/news/national/india-to-make-a-bold-move-on-afghanistan/article69584396.ece",
+              "https://www.indiatoday.in/the-lowdown/story/frenemies-india-afghanistan-taking-again-jaishankar-taliban-pakistan-conflict-2725710-2025-05-16",
+              "https://en.wikipedia.org/wiki/Afghanistan%E2%80%93India_relations",
+              "https://www.bbc.com/news/articles/cp8ke9e27dxo",
+              "https://theprint.in/diplomacy/a-look-at-indias-evolving-engagement-with-taliban-over-the-years/2627945/"
+            ],
+            "summary1_1A": [
+              {
+                "type": "text",
+                "text": "Following the May 15, 2025, Jaishankar-Muttaqi conversation, India plans \"bold moves\" to strengthen relations with Taliban-ruled Afghanistan, including potential humanitarian aid for Afghan refugees repatriated by Pakistan. India will deepen direct humanitarian support to Afghanistan, considering requests raised by Muttaqi with Foreign Secretary Misri in Dubai on January 8, 2025. India attaches significance to the Jaishankar-Muttaqi conversation amid Muttaqi's upcoming visit to Iran and China. Discussions included cooperation on the Chabahar port, especially given India's ban on trade via Pakistan. Muttaqi's visit is part of Afghanistan's \"active foreign policy\". Despite lacking formal recognition, India is willing to do \"whatever is necessary\" regarding the Taliban, increasing exchanges since the 2021 overthrow of President Ashraf Ghani's government.",
+                "annotations": null
+              }
+            ]
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "India",
+                      "Afghanistan",
+                      "current relations"
+                    ],
+                    "result_requirement": "Description of the current relations between India and Afghanistan.",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.6",
+                    "reasoning": "The memory contains a prior attempt to answer this question which failed due to a character encoding error during web search. Therefore, another attempt is needed.",
+                    "local_reasoning": "The query requires gathering current information which is not available in memory or globals.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "0",
+                  "description": "Search for recent news articles and reports detailing current relations between India and Afghanistan.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "search_results_0A": [
+                      "https://www.thehindu.com/news/national/india-to-make-a-bold-move-on-afghanistan/article69584396.ece",
+                      "https://www.indiatoday.in/the-lowdown/story/frenemies-india-afghanistan-taking-again-jaishankar-taliban-pakistan-conflict-2725710-2025-05-16",
+                      "https://en.wikipedia.org/wiki/Afghanistan%E2%80%93India_relations",
+                      "https://www.bbc.com/news/articles/cp8ke9e27dxo",
+                      "https://theprint.in/diplomacy/a-look-at-indias-evolving-engagement-with-taliban-over-the-years/2627945/"
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "India",
+                      "Afghanistan",
+                      "current relations"
+                    ],
+                    "result_requirement": "Description of the current relations between India and Afghanistan.",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": true,
+                    "confidence": "0.7",
+                    "reasoning": "Successfully gathered search results. Need to extract relevant information from the URLs to describe current relations between India and Afghanistan.",
+                    "local_reasoning": "The search tool successfully returned URLs that potentially contain information on the current relations between India and Afghanistan.",
+                    "last_tooluse_summary": "Search tool returned URLs.",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "0"
+              },
+              {
+                "data": {
+                  "index": "1",
+                  "description": "Extract and summarize information about current relations between India and Afghanistan from the top URLs.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "summary1_1A": [
+                      {
+                        "type": "text",
+                        "text": "Following the May 15, 2025, Jaishankar-Muttaqi conversation, India plans \"bold moves\" to strengthen relations with Taliban-ruled Afghanistan, including potential humanitarian aid for Afghan refugees repatriated by Pakistan. India will deepen direct humanitarian support to Afghanistan, considering requests raised by Muttaqi with Foreign Secretary Misri in Dubai on January 8, 2025. India attaches significance to the Jaishankar-Muttaqi conversation amid Muttaqi's upcoming visit to Iran and China. Discussions included cooperation on the Chabahar port, especially given India's ban on trade via Pakistan. Muttaqi's visit is part of Afghanistan's \"active foreign policy\". Despite lacking formal recognition, India is willing to do \"whatever is necessary\" regarding the Taliban, increasing exchanges since the 2021 overthrow of President Ashraf Ghani's government.",
+                        "annotations": null
+                      }
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "India",
+                      "Afghanistan",
+                      "current relations",
+                      "Jaishankar-Muttaqi conversation",
+                      "Taliban"
+                    ],
+                    "result_requirement": "Description of the current relations between India and Afghanistan.",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "0.9",
+                    "reasoning": "The tool has provided a summary of the current relations between India and Afghanistan, mentioning the Jaishankar-Muttaqi conversation and India's stance towards the Taliban.",
+                    "local_reasoning": "The extracted summary directly addresses the query, providing details about recent interactions and future plans between India and Afghanistan.",
+                    "last_tooluse_summary": "Extracted and summarized information about current relations between India and Afghanistan from the top URLs.",
+                    "solution_summary": "India is planning \"bold moves\" to strengthen relations with Taliban-ruled Afghanistan, including potential humanitarian aid. The Jaishankar-Muttaqi conversation is significant amidst Muttaqi's visits to Iran and China. Discussions included cooperation on the Chabahar port.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Summarize the current relations between India and Afghanistan, highlighting the key points from the provided summary regarding the Jaishankar-Muttaqi conversation, humanitarian aid, and India's stance towards the Taliban. Specifically include information related to Chabahar port. Do not include the May 15, 2025 date."
+                  },
+                  "from_step": "1"
+                },
+                "id": "1"
+              },
+              {
+                "data": {
+                  "index": "2",
+                  "description": "Synthesize a description of the current relations between India and Afghanistan based on the extracted summaries.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "1"
+                },
+                "id": "2"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "0"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "2"
+              },
+              {
+                "type": "normal",
+                "source": "1",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "1",
+                "target": "2"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "India",
+              "Afghanistan",
+              "current relations",
+              "Jaishankar-Muttaqi conversation",
+              "Taliban"
+            ],
+            "result_requirement": "Description of the current relations between India and Afghanistan.",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.9",
+            "reasoning": "The tool has provided a summary of the current relations between India and Afghanistan, mentioning the Jaishankar-Muttaqi conversation and India's stance towards the Taliban.",
+            "local_reasoning": "The extracted summary directly addresses the query, providing details about recent interactions and future plans between India and Afghanistan.",
+            "last_tooluse_summary": "Extracted and summarized information about current relations between India and Afghanistan from the top URLs.",
+            "solution_summary": "India is planning \"bold moves\" to strengthen relations with Taliban-ruled Afghanistan, including potential humanitarian aid. The Jaishankar-Muttaqi conversation is significant amidst Muttaqi's visits to Iran and China. Discussions included cooperation on the Chabahar port.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize the current relations between India and Afghanistan, highlighting the key points from the provided summary regarding the Jaishankar-Muttaqi conversation, humanitarian aid, and India's stance towards the Taliban. Specifically include information related to Chabahar port. Do not include the May 15, 2025 date."
+          }
+        },
+        "summary_output": "Following the Jaishankar-Muttaqi conversation, India is planning \"bold moves\" to strengthen relations with Taliban-ruled Afghanistan, including potential humanitarian aid for Afghan refugees repatriated by Pakistan. India will deepen direct humanitarian support to Afghanistan, considering requests raised by Muttaqi with Foreign Secretary Misri in Dubai on January 8, 2025. India attaches significance to the Jaishankar-Muttaqi conversation amid Muttaqi's upcoming visit to Iran and China. Discussions included cooperation on the Chabahar port, especially given India's ban on trade via Pakistan. Muttaqi's visit is part of Afghanistan's \"active foreign policy.\" Despite lacking formal recognition, India is willing to do \"whatever is necessary\" regarding the Taliban, increasing exchanges since the 2021 overthrow of President Ashraf Ghani's government.\n\nMore information is available at [The Hindu](https://www.thehindu.com/news/national/india-to-make-a-bold-move-on-afghanistan/article69584396.ece).",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-19T10:24:50Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "Following the Jaishankar-Muttaqi conversation, India is planning \"bold moves\" to strengthen relations with Taliban-ruled Afghanistan, including potential humanitarian aid for Afghan refugees repatriated by Pakistan. India will deepen direct humanitarian support to Afghanistan, considering requests raised by Muttaqi with Foreign Secretary Misri in Dubai on January 8, 2025. India attaches significance to the Jaishankar-Muttaqi conversation amid Muttaqi's upcoming visit to Iran and China. Discussions included cooperation on the Chabahar port, especially given India's ban on trade via Pakistan. Muttaqi's visit is part of Afghanistan's \"active foreign policy.\" Despite lacking formal recognition, India is willing to do \"whatever is necessary\" regarding the Taliban, increasing exchanges since the 2021 overthrow of President Ashraf Ghani's government.\n\nMore information is available at [The Hindu](https://www.thehindu.com/news/national/india-to-make-a-bold-move-on-afghanistan/article69584396.ece).",
+    "status": "success",
+    "completed_at": "2025-05-19T10:26:16.757286"
+  },
+  "status": "success",
+  "final_step_id": "2",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-19T10:26:16.761285",
+  "original_query": "Query 1: How are the current relations between India and Afghanistan?",
+  "final_summary": "Following the Jaishankar-Muttaqi conversation, India is planning \"bold moves\" to strengthen relations with Taliban-ruled Afghanistan, including potential humanitarian aid for Afghan refugees repatriated by Pakistan. India will deepen direct humanitarian support to Afghanistan, considering requests raised by Muttaqi with Foreign Secretary Misri in Dubai on January 8, 2025. India attaches significance to the Jaishankar-Muttaqi conversation amid Muttaqi's upcoming visit to Iran and China. Discussions included cooperation on the Chabahar port, especially given India's ban on trade via Pakistan. Muttaqi's visit is part of Afghanistan's \"active foreign policy.\" Despite lacking formal recognition, India is willing to do \"whatever is necessary\" regarding the Taliban, increasing exchanges since the 2021 overthrow of President Ashraf Ghani's government.\n\nMore information is available at [The Hindu](https://www.thehindu.com/news/national/india-to-make-a-bold-move-on-afghanistan/article69584396.ece)."
+}

@@ -1,0 +1,557 @@
+{
+  "context": {
+    "session_id": "db3a10e3-dc71-4391-a215-73a944195b26",
+    "original_query": "Query 1: How did ola stock performed today on NSE? https://www.nseindia.com/get-quotes/equity?symbol=OLAELEC",
+    "globals": {
+      "memory": [],
+      "raw_text_0A": [
+        {
+          "type": "text",
+          "text": "[visible] Option Chain Market Turnover Listings IPO Circulars Daily Report Holidays Corporates Press Releases Contact Us \nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\n \n24,945.45\n-74.35 (-0.3%)\n\n19-May-2025 15:30\n\nStreaming\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\nFutures 29-May-2025\n25,004.50  13.00 (0.05%)\n\n19-May-2025 17:05\n\nUSDINR  Futures\n\n28-May-2025 | 85.4600\n\n19-May-2025 17:00\n\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\nFutures 29-May-2025\n25,004.50  13.00 (0.05%)\n\n19-May-2025 17:05\n\nUSDINR  Futures\n\n28-May-2025 | 85.4600\n\n19-May-2025 17:00\n\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\n01\n02\n03\nHOME\nABOUT\nMARKET DATA\nINVEST\nLIST\nTRADE\nREGULATION\nLEARN\nRESOURCES\nCOMPLAINTS\nRESEARCH\nOLAELEC\nOLA ELECTRIC MOBILITY LIMITED (INE0LXG01040)\nEQUITY\nSLB\nAs on 19-May-2025 16:00:00 IST (All price values in ) \n52.57\nquote value High\n0.45 (0.86 %)\nPREV. CLOSE\tOPEN\tHIGH\tLOW\tCLOSE*\tINDICATIVE CLOSE\tVWAP\tADJUSTED PRICE *\n52.12\t52.21\t54.10\t52.12\t-\t-\t53.24\t-\nTrade Information\nHistorical Data\nCogencis iInvest\nSeries :\nEQ\n| \nEPS based on prev. 4 trailing Qtrs. in the scrip is zero | High low price var. was greater than 100% in prev. 6 mths. | View More \nOrder book\nQty\tBid()\tAsk()\tQty\n-\t-\t52.56\t57,337\n-\t-\t-\t-\n-\t-\t-\t-\n-\t-\t-\t-\n-\t-\t-\t-\nBuy Quantity\n-\nSell Quantity\n57,337\nTrade Information\nTraded Volume (Lakhs)\t270.02\nTraded Value ( Cr.)\t143.76\nTotal Market Cap ( Cr.)\t23,187.73\nFree Float Market Cap ( Cr.)\t4,676.85\nImpact cost\t0.05\n% of Deliverable / Traded\nQuantity \t34.06 %\nApplicable Margin Rate \t23.11\nFace Value\t10\nPrice Information\n52 Week High (20-Aug-2024)\t157.40\n52 Week Low (07-Apr-2025)\t45.35\nUpper Band\t62.54\nLower Band\t41.69\nPrice Band (%)\t20\nDaily Volatility\t2.99\nAnnualised Volatility\t57.12\nTick Size\t0.01\nSecurities Information\nStatus\tListed\nTrading Status\tActive\nDate of Listing\t09-Aug-2024\nAdjusted P/E\tNA\nSymbol P/E\tNA\nIndex \tNIFTY 500\nBasic Industry \t2/3 Wheelers\nDashboard\nAnnouncements\nAnnouncements XBRL\nAnnual Reports\nBusiness Responsibility And Sustainability Report\nBoard Meetings\nCorporate Actions\nCompany Directory\nCorporate Governance\nCorporate Information\nDaily Buy Back\nEvent Calendar\nFinancial Results\nFinancial Results Comparision\nFurther Issues XBRL Fillings\nInsider Trading\nInsider Trading-Plan\nIntegrated Filing XBRL\nInvestor Complaints\nPromoter Encumbrance Details\nIssue Offer Documents / Issue Summary Documents\nRelated Party Transactions\nSAST Regulations\nStatement Of Deviation/Variation\nSystem Driven Disclosures - PIT\nSystem Driven Disclosures - SAST\nSecretarial Compliance\nShare Transfers\nShareholder's Meetings\nShareholding Patterns\nShareholding Patterns SDD\nStatement Of Impact Of Audit Qualification\nVoting Results\nAnnouncements\nSubject\n\t\nDate\nMonitoring Agency Report\t15-May-2025\nNews Verification\t06-May-2025\nNews Verification\t05-May-2025\nRumour Verification - Regulation 30(11)\t02-May-2025\nGeneral Upd",
+          "annotations": null
+        }
+      ]
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: How did ola stock performed today on NSE? https://www.nseindia.com/get-quotes/equity?symbol=OLAELEC",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "Here's the stock performance of OLA Electric Mobility Limited (OLAELEC) on the NSE as of 19-May-2025 at 16:00:00 IST:\n\n*   **Current Price:** 52.57\n*   **Change:** 0.45 (0.86 %)\n*   **Previous Close:** 52.12\n*   **Open:** 52.21\n*   **High:** 54.10\n*   **Low:** 52.12\n*   **VWAP (Volume Weighted Average Price):** 53.24\n*   **Traded Volume (Lakhs):** 270.02\n*   **Traded Value (Cr.):** 143.76\n*   **52 Week High:** 157.40 (20-Aug-2024)\n*   **52 Week Low:** 45.35 (07-Apr-2025)\n\nSource: [NSE India](https://www.nseindia.com/get-quotes/equity?symbol=OLAELEC)",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "OLA",
+                "NSE",
+                "stock performance today"
+              ],
+              "result_requirement": "Stock performance of OLA on NSE today",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.9",
+              "reasoning": "The user wants to know about the stock performance of OLA on NSE today. We have the URL. Need to fetch content from the given URL and summarize stock performance.",
+              "local_reasoning": "The original query requires fetching information from a URL and then summarizing it. The goal is not achievable without further steps.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Fetch the content from the provided NSE URL.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "raw_text_0A": [
+                {
+                  "type": "text",
+                  "text": "[visible] Option Chain Market Turnover Listings IPO Circulars Daily Report Holidays Corporates Press Releases Contact Us \nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\n \n24,945.45\n-74.35 (-0.3%)\n\n19-May-2025 15:30\n\nStreaming\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\nFutures 29-May-2025\n25,004.50  13.00 (0.05%)\n\n19-May-2025 17:05\n\nUSDINR  Futures\n\n28-May-2025 | 85.4600\n\n19-May-2025 17:00\n\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\nFutures 29-May-2025\n25,004.50  13.00 (0.05%)\n\n19-May-2025 17:05\n\nUSDINR  Futures\n\n28-May-2025 | 85.4600\n\n19-May-2025 17:00\n\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\n01\n02\n03\nHOME\nABOUT\nMARKET DATA\nINVEST\nLIST\nTRADE\nREGULATION\nLEARN\nRESOURCES\nCOMPLAINTS\nRESEARCH\nOLAELEC\nOLA ELECTRIC MOBILITY LIMITED (INE0LXG01040)\nEQUITY\nSLB\nAs on 19-May-2025 16:00:00 IST (All price values in ) \n52.57\nquote value High\n0.45 (0.86 %)\nPREV. CLOSE\tOPEN\tHIGH\tLOW\tCLOSE*\tINDICATIVE CLOSE\tVWAP\tADJUSTED PRICE *\n52.12\t52.21\t54.10\t52.12\t-\t-\t53.24\t-\nTrade Information\nHistorical Data\nCogencis iInvest\nSeries :\nEQ\n| \nEPS based on prev. 4 trailing Qtrs. in the scrip is zero | High low price var. was greater than 100% in prev. 6 mths. | View More \nOrder book\nQty\tBid()\tAsk()\tQty\n-\t-\t52.56\t57,337\n-\t-\t-\t-\n-\t-\t-\t-\n-\t-\t-\t-\n-\t-\t-\t-\nBuy Quantity\n-\nSell Quantity\n57,337\nTrade Information\nTraded Volume (Lakhs)\t270.02\nTraded Value ( Cr.)\t143.76\nTotal Market Cap ( Cr.)\t23,187.73\nFree Float Market Cap ( Cr.)\t4,676.85\nImpact cost\t0.05\n% of Deliverable / Traded\nQuantity \t34.06 %\nApplicable Margin Rate \t23.11\nFace Value\t10\nPrice Information\n52 Week High (20-Aug-2024)\t157.40\n52 Week Low (07-Apr-2025)\t45.35\nUpper Band\t62.54\nLower Band\t41.69\nPrice Band (%)\t20\nDaily Volatility\t2.99\nAnnualised Volatility\t57.12\nTick Size\t0.01\nSecurities Information\nStatus\tListed\nTrading Status\tActive\nDate of Listing\t09-Aug-2024\nAdjusted P/E\tNA\nSymbol P/E\tNA\nIndex \tNIFTY 500\nBasic Industry \t2/3 Wheelers\nDashboard\nAnnouncements\nAnnouncements XBRL\nAnnual Reports\nBusiness Responsibility And Sustainability Report\nBoard Meetings\nCorporate Actions\nCompany Directory\nCorporate Governance\nCorporate Information\nDaily Buy Back\nEvent Calendar\nFinancial Results\nFinancial Results Comparision\nFurther Issues XBRL Fillings\nInsider Trading\nInsider Trading-Plan\nIntegrated Filing XBRL\nInvestor Complaints\nPromoter Encumbrance Details\nIssue Offer Documents / Issue Summary Documents\nRelated Party Transactions\nSAST Regulations\nStatement Of Deviation/Variation\nSystem Driven Disclosures - PIT\nSystem Driven Disclosures - SAST\nSecretarial Compliance\nShare Transfers\nShareholder's Meetings\nShareholding Patterns\nShareholding Patterns SDD\nStatement Of Impact Of Audit Qualification\nVoting Results\nAnnouncements\nSubject\n\t\nDate\nMonitoring Agency Report\t15-May-2025\nNews Verification\t06-May-2025\nNews Verification\t05-May-2025\nRumour Verification - Regulation 30(11)\t02-May-2025\nGeneral Upd",
+                  "annotations": null
+                }
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "OLA Electric",
+                "NSE",
+                "Stock Performance",
+                "19-May-2025"
+              ],
+              "result_requirement": "Stock performance of OLA Electric Mobility Limited on NSE as of 19-May-2025",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "0.95",
+              "reasoning": "The webpage content has been fetched successfully and it contains the required stock information like current price, previous close, high, low, traded volume, and other relevant data as of today (19-May-2025).  All required data points for summarization are present in the fetched content. No further steps needed.",
+              "local_reasoning": "The tool successfully retrieved the necessary information from the NSE website. The price, change, and other key metrics are available for OLA Electric.",
+              "last_tooluse_summary": "webpage_url_to_raw_text succeeded, content extracted.",
+              "solution_summary": "OLA Electric stock performance data extracted from NSE website for 19-May-2025.",
+              "route": "summarize",
+              "instruction_to_summarize": "Summarize the stock performance of OLA Electric Mobility Limited (OLAELEC) on the NSE as of 19-May-2025 at 16:00:00 IST. Include the following details in markdown format:\n\n*   Current Price\n*   Change (amount and percentage)\n*   Previous Close\n*   Open\n*   High\n*   Low\n*   VWAP (Volume Weighted Average Price)\n*   Traded Volume (Lakhs)\n*   Traded Value (Cr.)\n*   52 Week High\n*   52 Week Low\n\nExclude any information about order book, bid/ask, or announcements."
+            },
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        },
+        {
+          "data": {
+            "index": "1",
+            "description": "Extract the OLA stock data from the fetched content.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "ROOT"
+          },
+          "id": "1"
+        },
+        {
+          "data": {
+            "index": "2",
+            "description": "Summarize the stock performance.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "ROOT"
+          },
+          "id": "2"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "2"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "db3a10e3-dc71-4391-a215-73a944195b26",
+    "original_query": "Query 1: How did ola stock performed today on NSE? https://www.nseindia.com/get-quotes/equity?symbol=OLAELEC",
+    "perception_snapshots": [
+      {
+        "run_id": "db3a10e3-dc71-4391-a215-73a944195b26-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "OLA",
+          "NSE",
+          "stock performance today"
+        ],
+        "result_requirement": "Stock performance of OLA on NSE today",
+        "original_goal_achieved": false,
+        "reasoning": "The user wants to know about the stock performance of OLA on NSE today. We have the URL. Need to fetch content from the given URL and summarize stock performance.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The original query requires fetching information from a URL and then summarizing it. The goal is not achievable without further steps.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.9",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "db3a10e3-dc71-4391-a215-73a944195b26-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "OLA Electric",
+          "NSE",
+          "Stock Performance",
+          "19-May-2025"
+        ],
+        "result_requirement": "Stock performance of OLA Electric Mobility Limited on NSE as of 19-May-2025",
+        "original_goal_achieved": true,
+        "reasoning": "The webpage content has been fetched successfully and it contains the required stock information like current price, previous close, high, low, traded volume, and other relevant data as of today (19-May-2025).  All required data points for summarization are present in the fetched content. No further steps needed.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The tool successfully retrieved the necessary information from the NSE website. The price, change, and other key metrics are available for OLA Electric.",
+        "last_tooluse_summary": "webpage_url_to_raw_text succeeded, content extracted.",
+        "solution_summary": "OLA Electric stock performance data extracted from NSE website for 19-May-2025.",
+        "confidence": "0.95",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "3983c8b2-1a6d-44ae-b7be-a900aec31f59",
+        "input": {
+          "current_time": "2025-05-19T11:36:30.193443",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: How did ola stock performed today on NSE? https://www.nseindia.com/get-quotes/equity?symbol=OLAELEC",
+          "perception": {
+            "entities": [
+              "OLA",
+              "NSE",
+              "stock performance today"
+            ],
+            "result_requirement": "Stock performance of OLA on NSE today",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.9",
+            "reasoning": "The user wants to know about the stock performance of OLA on NSE today. We have the URL. Need to fetch content from the given URL and summarize stock performance.",
+            "local_reasoning": "The original query requires fetching information from a URL and then summarizing it. The goal is not achievable without further steps.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "OLA",
+                  "NSE",
+                  "stock performance today"
+                ],
+                "result_requirement": "Stock performance of OLA on NSE today",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The user wants to know about the stock performance of OLA on NSE today. We have the URL. Need to fetch content from the given URL and summarize stock performance.",
+                "local_reasoning": "The original query requires fetching information from a URL and then summarizing it. The goal is not achievable without further steps.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "OLA",
+                  "NSE",
+                  "stock performance today"
+                ],
+                "result_requirement": "Stock performance of OLA on NSE today",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The user wants to know about the stock performance of OLA on NSE today. We have the URL. Need to fetch content from the given URL and summarize stock performance.",
+                "local_reasoning": "The original query requires fetching information from a URL and then summarizing it. The goal is not achievable without further steps.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[]"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Fetch the content from the provided NSE URL."
+              },
+              {
+                "id": "1",
+                "description": "Extract the OLA stock data from the fetched content."
+              },
+              {
+                "id": "2",
+                "description": "Summarize the stock performance."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              },
+              {
+                "from": "1",
+                "to": "2",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=OLAELEC'\nraw_text = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0A\": raw_text}",
+            "CODE_0B": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=OLAELEC'\nsummary = webpage_url_to_summary(url)\nreturn {\"summary_0B\": summary}",
+            "CODE_0C": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=OLAELEC'\nraw_text = webpage_url_to_raw_text(url)\nif raw_text:\n    search_rag = search_stored_documents_rag(raw_text)\n    return {\"search_rag_0C\": search_rag}\nelse:\n    return {\"search_rag_0C\": 'No content found'}"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Fetch the content from the provided NSE URL."
+            },
+            {
+              "id": "1",
+              "description": "Extract the OLA stock data from the fetched content."
+            },
+            {
+              "id": "2",
+              "description": "Summarize the stock performance."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            },
+            {
+              "from": "1",
+              "to": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=OLAELEC'\nraw_text = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0A\": raw_text}",
+          "CODE_0B": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=OLAELEC'\nsummary = webpage_url_to_summary(url)\nreturn {\"summary_0B\": summary}",
+          "CODE_0C": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=OLAELEC'\nraw_text = webpage_url_to_raw_text(url)\nif raw_text:\n    search_rag = search_stored_documents_rag(raw_text)\n    return {\"search_rag_0C\": search_rag}\nelse:\n    return {\"search_rag_0C\": 'No content found'}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [
+      {
+        "run_id": "e6f81bc8-0451-4e10-92d9-b462033f5860",
+        "step_id": "0",
+        "variant_used": "CODE_0A",
+        "code": "url = 'https://www.nseindia.com/get-quotes/equity?symbol=OLAELEC'\nraw_text = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0A\": raw_text}",
+        "status": "success",
+        "result": {
+          "raw_text_0A": [
+            {
+              "type": "text",
+              "text": "[visible] Option Chain Market Turnover Listings IPO Circulars Daily Report Holidays Corporates Press Releases Contact Us \nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\n \n24,945.45\n-74.35 (-0.3%)\n\n19-May-2025 15:30\n\nStreaming\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\nFutures 29-May-2025\n25,004.50  13.00 (0.05%)\n\n19-May-2025 17:05\n\nUSDINR  Futures\n\n28-May-2025 | 85.4600\n\n19-May-2025 17:00\n\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\nFutures 29-May-2025\n25,004.50  13.00 (0.05%)\n\n19-May-2025 17:05\n\nUSDINR  Futures\n\n28-May-2025 | 85.4600\n\n19-May-2025 17:00\n\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\n01\n02\n03\nHOME\nABOUT\nMARKET DATA\nINVEST\nLIST\nTRADE\nREGULATION\nLEARN\nRESOURCES\nCOMPLAINTS\nRESEARCH\nOLAELEC\nOLA ELECTRIC MOBILITY LIMITED (INE0LXG01040)\nEQUITY\nSLB\nAs on 19-May-2025 16:00:00 IST (All price values in ) \n52.57\nquote value High\n0.45 (0.86 %)\nPREV. CLOSE\tOPEN\tHIGH\tLOW\tCLOSE*\tINDICATIVE CLOSE\tVWAP\tADJUSTED PRICE *\n52.12\t52.21\t54.10\t52.12\t-\t-\t53.24\t-\nTrade Information\nHistorical Data\nCogencis iInvest\nSeries :\nEQ\n| \nEPS based on prev. 4 trailing Qtrs. in the scrip is zero | High low price var. was greater than 100% in prev. 6 mths. | View More \nOrder book\nQty\tBid()\tAsk()\tQty\n-\t-\t52.56\t57,337\n-\t-\t-\t-\n-\t-\t-\t-\n-\t-\t-\t-\n-\t-\t-\t-\nBuy Quantity\n-\nSell Quantity\n57,337\nTrade Information\nTraded Volume (Lakhs)\t270.02\nTraded Value ( Cr.)\t143.76\nTotal Market Cap ( Cr.)\t23,187.73\nFree Float Market Cap ( Cr.)\t4,676.85\nImpact cost\t0.05\n% of Deliverable / Traded\nQuantity \t34.06 %\nApplicable Margin Rate \t23.11\nFace Value\t10\nPrice Information\n52 Week High (20-Aug-2024)\t157.40\n52 Week Low (07-Apr-2025)\t45.35\nUpper Band\t62.54\nLower Band\t41.69\nPrice Band (%)\t20\nDaily Volatility\t2.99\nAnnualised Volatility\t57.12\nTick Size\t0.01\nSecurities Information\nStatus\tListed\nTrading Status\tActive\nDate of Listing\t09-Aug-2024\nAdjusted P/E\tNA\nSymbol P/E\tNA\nIndex \tNIFTY 500\nBasic Industry \t2/3 Wheelers\nDashboard\nAnnouncements\nAnnouncements XBRL\nAnnual Reports\nBusiness Responsibility And Sustainability Report\nBoard Meetings\nCorporate Actions\nCompany Directory\nCorporate Governance\nCorporate Information\nDaily Buy Back\nEvent Calendar\nFinancial Results\nFinancial Results Comparision\nFurther Issues XBRL Fillings\nInsider Trading\nInsider Trading-Plan\nIntegrated Filing XBRL\nInvestor Complaints\nPromoter Encumbrance Details\nIssue Offer Documents / Issue Summary Documents\nRelated Party Transactions\nSAST Regulations\nStatement Of Deviation/Variation\nSystem Driven Disclosures - PIT\nSystem Driven Disclosures - SAST\nSecretarial Compliance\nShare Transfers\nShareholder's Meetings\nShareholding Patterns\nShareholding Patterns SDD\nStatement Of Impact Of Audit Qualification\nVoting Results\nAnnouncements\nSubject\n\t\nDate\nMonitoring Agency Report\t15-May-2025\nNews Verification\t06-May-2025\nNews Verification\t05-May-2025\nRumour Verification - Regulation 30(11)\t02-May-2025\nGeneral Upd",
+              "annotations": null
+            }
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 17:06:36",
+        "total_time": "13.597",
+        "return_to": ""
+      }
+    ],
+    "summarizer_snapshots": [
+      {
+        "run_id": "522373c8-12f7-496d-9392-4f15fe5e774e",
+        "input": {
+          "original_query": "Query 1: How did ola stock performed today on NSE? https://www.nseindia.com/get-quotes/equity?symbol=OLAELEC",
+          "globals_schema": {
+            "memory": [],
+            "raw_text_0A": [
+              {
+                "type": "text",
+                "text": "[visible] Option Chain Market Turnover Listings IPO Circulars Daily Report Holidays Corporates Press Releases Contact Us \nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\n \n24,945.45\n-74.35 (-0.3%)\n\n19-May-2025 15:30\n\nStreaming\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\nFutures 29-May-2025\n25,004.50  13.00 (0.05%)\n\n19-May-2025 17:05\n\nUSDINR  Futures\n\n28-May-2025 | 85.4600\n\n19-May-2025 17:00\n\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\nFutures 29-May-2025\n25,004.50  13.00 (0.05%)\n\n19-May-2025 17:05\n\nUSDINR  Futures\n\n28-May-2025 | 85.4600\n\n19-May-2025 17:00\n\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\n01\n02\n03\nHOME\nABOUT\nMARKET DATA\nINVEST\nLIST\nTRADE\nREGULATION\nLEARN\nRESOURCES\nCOMPLAINTS\nRESEARCH\nOLAELEC\nOLA ELECTRIC MOBILITY LIMITED (INE0LXG01040)\nEQUITY\nSLB\nAs on 19-May-2025 16:00:00 IST (All price values in ) \n52.57\nquote value High\n0.45 (0.86 %)\nPREV. CLOSE\tOPEN\tHIGH\tLOW\tCLOSE*\tINDICATIVE CLOSE\tVWAP\tADJUSTED PRICE *\n52.12\t52.21\t54.10\t52.12\t-\t-\t53.24\t-\nTrade Information\nHistorical Data\nCogencis iInvest\nSeries :\nEQ\n| \nEPS based on prev. 4 trailing Qtrs. in the scrip is zero | High low price var. was greater than 100% in prev. 6 mths. | View More \nOrder book\nQty\tBid()\tAsk()\tQty\n-\t-\t52.56\t57,337\n-\t-\t-\t-\n-\t-\t-\t-\n-\t-\t-\t-\n-\t-\t-\t-\nBuy Quantity\n-\nSell Quantity\n57,337\nTrade Information\nTraded Volume (Lakhs)\t270.02\nTraded Value ( Cr.)\t143.76\nTotal Market Cap ( Cr.)\t23,187.73\nFree Float Market Cap ( Cr.)\t4,676.85\nImpact cost\t0.05\n% of Deliverable / Traded\nQuantity \t34.06 %\nApplicable Margin Rate \t23.11\nFace Value\t10\nPrice Information\n52 Week High (20-Aug-2024)\t157.40\n52 Week Low (07-Apr-2025)\t45.35\nUpper Band\t62.54\nLower Band\t41.69\nPrice Band (%)\t20\nDaily Volatility\t2.99\nAnnualised Volatility\t57.12\nTick Size\t0.01\nSecurities Information\nStatus\tListed\nTrading Status\tActive\nDate of Listing\t09-Aug-2024\nAdjusted P/E\tNA\nSymbol P/E\tNA\nIndex \tNIFTY 500\nBasic Industry \t2/3 Wheelers\nDashboard\nAnnouncements\nAnnouncements XBRL\nAnnual Reports\nBusiness Responsibility And Sustainability Report\nBoard Meetings\nCorporate Actions\nCompany Directory\nCorporate Governance\nCorporate Information\nDaily Buy Back\nEvent Calendar\nFinancial Results\nFinancial Results Comparision\nFurther Issues XBRL Fillings\nInsider Trading\nInsider Trading-Plan\nIntegrated Filing XBRL\nInvestor Complaints\nPromoter Encumbrance Details\nIssue Offer Documents / Issue Summary Documents\nRelated Party Transactions\nSAST Regulations\nStatement Of Deviation/Variation\nSystem Driven Disclosures - PIT\nSystem Driven Disclosures - SAST\nSecretarial Compliance\nShare Transfers\nShareholder's Meetings\nShareholding Patterns\nShareholding Patterns SDD\nStatement Of Impact Of Audit Qualification\nVoting Results\nAnnouncements\nSubject\n\t\nDate\nMonitoring Agency Report\t15-May-2025\nNews Verification\t06-May-2025\nNews Verification\t05-May-2025\nRumour Verification - Regulation 30(11)\t02-May-2025\nGeneral Upd",
+                "annotations": null
+              }
+            ]
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "OLA",
+                      "NSE",
+                      "stock performance today"
+                    ],
+                    "result_requirement": "Stock performance of OLA on NSE today",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.9",
+                    "reasoning": "The user wants to know about the stock performance of OLA on NSE today. We have the URL. Need to fetch content from the given URL and summarize stock performance.",
+                    "local_reasoning": "The original query requires fetching information from a URL and then summarizing it. The goal is not achievable without further steps.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "0",
+                  "description": "Fetch the content from the provided NSE URL.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "raw_text_0A": [
+                      {
+                        "type": "text",
+                        "text": "[visible] Option Chain Market Turnover Listings IPO Circulars Daily Report Holidays Corporates Press Releases Contact Us \nEnglish\n (Hindi)\n (Marathi)\n (Gujarati)\n (Bengali)\n (Kannada)\n (Tamil)\n (Telugu)\n (Punjabi)\n (Malayalam)\n (Oriya)\n (Assamese)\n (Urdu)\n \n24,945.45\n-74.35 (-0.3%)\n\n19-May-2025 15:30\n\nStreaming\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\nFutures 29-May-2025\n25,004.50  13.00 (0.05%)\n\n19-May-2025 17:05\n\nUSDINR  Futures\n\n28-May-2025 | 85.4600\n\n19-May-2025 17:00\n\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\nFutures 29-May-2025\n25,004.50  13.00 (0.05%)\n\n19-May-2025 17:05\n\nUSDINR  Futures\n\n28-May-2025 | 85.4600\n\n19-May-2025 17:00\n\nMarket Capitalization\n\n Lac Crs 441.37 | Tn $ 5.16\n\n19-May-2025\n\n01\n02\n03\nHOME\nABOUT\nMARKET DATA\nINVEST\nLIST\nTRADE\nREGULATION\nLEARN\nRESOURCES\nCOMPLAINTS\nRESEARCH\nOLAELEC\nOLA ELECTRIC MOBILITY LIMITED (INE0LXG01040)\nEQUITY\nSLB\nAs on 19-May-2025 16:00:00 IST (All price values in ) \n52.57\nquote value High\n0.45 (0.86 %)\nPREV. CLOSE\tOPEN\tHIGH\tLOW\tCLOSE*\tINDICATIVE CLOSE\tVWAP\tADJUSTED PRICE *\n52.12\t52.21\t54.10\t52.12\t-\t-\t53.24\t-\nTrade Information\nHistorical Data\nCogencis iInvest\nSeries :\nEQ\n| \nEPS based on prev. 4 trailing Qtrs. in the scrip is zero | High low price var. was greater than 100% in prev. 6 mths. | View More \nOrder book\nQty\tBid()\tAsk()\tQty\n-\t-\t52.56\t57,337\n-\t-\t-\t-\n-\t-\t-\t-\n-\t-\t-\t-\n-\t-\t-\t-\nBuy Quantity\n-\nSell Quantity\n57,337\nTrade Information\nTraded Volume (Lakhs)\t270.02\nTraded Value ( Cr.)\t143.76\nTotal Market Cap ( Cr.)\t23,187.73\nFree Float Market Cap ( Cr.)\t4,676.85\nImpact cost\t0.05\n% of Deliverable / Traded\nQuantity \t34.06 %\nApplicable Margin Rate \t23.11\nFace Value\t10\nPrice Information\n52 Week High (20-Aug-2024)\t157.40\n52 Week Low (07-Apr-2025)\t45.35\nUpper Band\t62.54\nLower Band\t41.69\nPrice Band (%)\t20\nDaily Volatility\t2.99\nAnnualised Volatility\t57.12\nTick Size\t0.01\nSecurities Information\nStatus\tListed\nTrading Status\tActive\nDate of Listing\t09-Aug-2024\nAdjusted P/E\tNA\nSymbol P/E\tNA\nIndex \tNIFTY 500\nBasic Industry \t2/3 Wheelers\nDashboard\nAnnouncements\nAnnouncements XBRL\nAnnual Reports\nBusiness Responsibility And Sustainability Report\nBoard Meetings\nCorporate Actions\nCompany Directory\nCorporate Governance\nCorporate Information\nDaily Buy Back\nEvent Calendar\nFinancial Results\nFinancial Results Comparision\nFurther Issues XBRL Fillings\nInsider Trading\nInsider Trading-Plan\nIntegrated Filing XBRL\nInvestor Complaints\nPromoter Encumbrance Details\nIssue Offer Documents / Issue Summary Documents\nRelated Party Transactions\nSAST Regulations\nStatement Of Deviation/Variation\nSystem Driven Disclosures - PIT\nSystem Driven Disclosures - SAST\nSecretarial Compliance\nShare Transfers\nShareholder's Meetings\nShareholding Patterns\nShareholding Patterns SDD\nStatement Of Impact Of Audit Qualification\nVoting Results\nAnnouncements\nSubject\n\t\nDate\nMonitoring Agency Report\t15-May-2025\nNews Verification\t06-May-2025\nNews Verification\t05-May-2025\nRumour Verification - Regulation 30(11)\t02-May-2025\nGeneral Upd",
+                        "annotations": null
+                      }
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "OLA Electric",
+                      "NSE",
+                      "Stock Performance",
+                      "19-May-2025"
+                    ],
+                    "result_requirement": "Stock performance of OLA Electric Mobility Limited on NSE as of 19-May-2025",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "0.95",
+                    "reasoning": "The webpage content has been fetched successfully and it contains the required stock information like current price, previous close, high, low, traded volume, and other relevant data as of today (19-May-2025).  All required data points for summarization are present in the fetched content. No further steps needed.",
+                    "local_reasoning": "The tool successfully retrieved the necessary information from the NSE website. The price, change, and other key metrics are available for OLA Electric.",
+                    "last_tooluse_summary": "webpage_url_to_raw_text succeeded, content extracted.",
+                    "solution_summary": "OLA Electric stock performance data extracted from NSE website for 19-May-2025.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Summarize the stock performance of OLA Electric Mobility Limited (OLAELEC) on the NSE as of 19-May-2025 at 16:00:00 IST. Include the following details in markdown format:\n\n*   Current Price\n*   Change (amount and percentage)\n*   Previous Close\n*   Open\n*   High\n*   Low\n*   VWAP (Volume Weighted Average Price)\n*   Traded Volume (Lakhs)\n*   Traded Value (Cr.)\n*   52 Week High\n*   52 Week Low\n\nExclude any information about order book, bid/ask, or announcements."
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "0"
+              },
+              {
+                "data": {
+                  "index": "1",
+                  "description": "Extract the OLA stock data from the fetched content.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "ROOT"
+                },
+                "id": "1"
+              },
+              {
+                "data": {
+                  "index": "2",
+                  "description": "Summarize the stock performance.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "ROOT"
+                },
+                "id": "2"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "0"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "2"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "OLA Electric",
+              "NSE",
+              "Stock Performance",
+              "19-May-2025"
+            ],
+            "result_requirement": "Stock performance of OLA Electric Mobility Limited on NSE as of 19-May-2025",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.95",
+            "reasoning": "The webpage content has been fetched successfully and it contains the required stock information like current price, previous close, high, low, traded volume, and other relevant data as of today (19-May-2025).  All required data points for summarization are present in the fetched content. No further steps needed.",
+            "local_reasoning": "The tool successfully retrieved the necessary information from the NSE website. The price, change, and other key metrics are available for OLA Electric.",
+            "last_tooluse_summary": "webpage_url_to_raw_text succeeded, content extracted.",
+            "solution_summary": "OLA Electric stock performance data extracted from NSE website for 19-May-2025.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize the stock performance of OLA Electric Mobility Limited (OLAELEC) on the NSE as of 19-May-2025 at 16:00:00 IST. Include the following details in markdown format:\n\n*   Current Price\n*   Change (amount and percentage)\n*   Previous Close\n*   Open\n*   High\n*   Low\n*   VWAP (Volume Weighted Average Price)\n*   Traded Volume (Lakhs)\n*   Traded Value (Cr.)\n*   52 Week High\n*   52 Week Low\n\nExclude any information about order book, bid/ask, or announcements."
+          }
+        },
+        "summary_output": "Here's the stock performance of OLA Electric Mobility Limited (OLAELEC) on the NSE as of 19-May-2025 at 16:00:00 IST:\n\n*   **Current Price:** 52.57\n*   **Change:** 0.45 (0.86 %)\n*   **Previous Close:** 52.12\n*   **Open:** 52.21\n*   **High:** 54.10\n*   **Low:** 52.12\n*   **VWAP (Volume Weighted Average Price):** 53.24\n*   **Traded Volume (Lakhs):** 270.02\n*   **Traded Value (Cr.):** 143.76\n*   **52 Week High:** 157.40 (20-Aug-2024)\n*   **52 Week Low:** 45.35 (07-Apr-2025)\n\nSource: [NSE India](https://www.nseindia.com/get-quotes/equity?symbol=OLAELEC)",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-19T11:35:54Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "Here's the stock performance of OLA Electric Mobility Limited (OLAELEC) on the NSE as of 19-May-2025 at 16:00:00 IST:\n\n*   **Current Price:** 52.57\n*   **Change:** 0.45 (0.86 %)\n*   **Previous Close:** 52.12\n*   **Open:** 52.21\n*   **High:** 54.10\n*   **Low:** 52.12\n*   **VWAP (Volume Weighted Average Price):** 53.24\n*   **Traded Volume (Lakhs):** 270.02\n*   **Traded Value (Cr.):** 143.76\n*   **52 Week High:** 157.40 (20-Aug-2024)\n*   **52 Week Low:** 45.35 (07-Apr-2025)\n\nSource: [NSE India](https://www.nseindia.com/get-quotes/equity?symbol=OLAELEC)",
+    "status": "success",
+    "completed_at": "2025-05-19T11:37:01.216088"
+  },
+  "status": "success",
+  "final_step_id": "2",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-19T11:37:01.219090",
+  "original_query": "Query 1: How did ola stock performed today on NSE? https://www.nseindia.com/get-quotes/equity?symbol=OLAELEC",
+  "final_summary": "Here's the stock performance of OLA Electric Mobility Limited (OLAELEC) on the NSE as of 19-May-2025 at 16:00:00 IST:\n\n*   **Current Price:** 52.57\n*   **Change:** 0.45 (0.86 %)\n*   **Previous Close:** 52.12\n*   **Open:** 52.21\n*   **High:** 54.10\n*   **Low:** 52.12\n*   **VWAP (Volume Weighted Average Price):** 53.24\n*   **Traded Volume (Lakhs):** 270.02\n*   **Traded Value (Cr.):** 143.76\n*   **52 Week High:** 157.40 (20-Aug-2024)\n*   **52 Week Low:** 45.35 (07-Apr-2025)\n\nSource: [NSE India](https://www.nseindia.com/get-quotes/equity?symbol=OLAELEC)"
+}

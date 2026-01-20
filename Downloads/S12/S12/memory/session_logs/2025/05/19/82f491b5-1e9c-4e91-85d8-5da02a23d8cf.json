@@ -1,0 +1,548 @@
+{
+  "context": {
+    "session_id": "82f491b5-1e9c-4e91-85d8-5da02a23d8cf",
+    "original_query": "Query 1: What is the latest stock price of tata motors on nse?",
+    "globals": {
+      "memory": [],
+      "search_results_0A": [
+        "https://www.google.com/finance/quote/TATAMOTORS:NSE",
+        "https://www.nseindia.com/get-quotes/equity?symbol=TATAMOTORS",
+        "https://www.moneycontrol.com/india/stockpricequote/auto-lcvshcvs/tatamotors/TM03"
+      ]
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: What is the latest stock price of tata motors on nse?",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "No meaningful information was found in the sources available. You may try rephrasing or expanding your query.",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Tata Motors",
+                "stock price",
+                "NSE"
+              ],
+              "result_requirement": "Latest stock price of Tata Motors on NSE",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.9",
+              "reasoning": "The user is asking for the latest stock price of Tata Motors on the National Stock Exchange (NSE). This requires fetching real-time stock data, which necessitates using a tool. The information is not available in memory or globals.",
+              "local_reasoning": "No relevant information found in memory or globals. A tool is required to fetch the stock price.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not yet available.",
+              "route": "decision",
+              "instruction_to_summarize": "Not applicable"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Search for the latest stock price of Tata Motors on NSE using DuckDuckGo.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "search_results_0A": [
+                "https://www.google.com/finance/quote/TATAMOTORS:NSE",
+                "https://www.nseindia.com/get-quotes/equity?symbol=TATAMOTORS",
+                "https://www.moneycontrol.com/india/stockpricequote/auto-lcvshcvs/tatamotors/TM03"
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Tata Motors",
+                "stock price",
+                "NSE"
+              ],
+              "result_requirement": "Latest stock price of Tata Motors on NSE",
+              "original_goal_achieved": false,
+              "local_goal_achieved": true,
+              "confidence": "0.8",
+              "reasoning": "The search tool returned a list of URLs. Now, the next step is to extract the stock price from one of these URLs. Since decision agent will use keyword search, which will not be useful, I will route to summarize and ask to look at all URLs to find and summarize all available prices.",
+              "local_reasoning": "Search results obtained. Need to extract price from the URLs.",
+              "last_tooluse_summary": "DuckDuckGo search succeeded and returned URLs",
+              "solution_summary": "Not ready yet. Need to extract stock price from URLs.",
+              "route": "summarize",
+              "instruction_to_summarize": "Scrape all URLs provided in `search_results_0A` to find the latest stock price of Tata Motors on NSE. Return all available prices from all URLs and their source in markdown format."
+            },
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        },
+        {
+          "data": {
+            "index": "1",
+            "description": "Extract the stock price from the search result webpage.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "ROOT"
+          },
+          "id": "1"
+        },
+        {
+          "data": {
+            "index": "2",
+            "description": "Summarize the extracted stock price information.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "ROOT"
+          },
+          "id": "2"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "2"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "82f491b5-1e9c-4e91-85d8-5da02a23d8cf",
+    "original_query": "Query 1: What is the latest stock price of tata motors on nse?",
+    "perception_snapshots": [
+      {
+        "run_id": "82f491b5-1e9c-4e91-85d8-5da02a23d8cf-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "Tata Motors",
+          "stock price",
+          "NSE"
+        ],
+        "result_requirement": "Latest stock price of Tata Motors on NSE",
+        "original_goal_achieved": false,
+        "reasoning": "The user is asking for the latest stock price of Tata Motors on the National Stock Exchange (NSE). This requires fetching real-time stock data, which necessitates using a tool. The information is not available in memory or globals.",
+        "local_goal_achieved": false,
+        "local_reasoning": "No relevant information found in memory or globals. A tool is required to fetch the stock price.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not yet available.",
+        "confidence": "0.9",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "82f491b5-1e9c-4e91-85d8-5da02a23d8cf-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "Tata Motors",
+          "stock price",
+          "NSE"
+        ],
+        "result_requirement": "Latest stock price of Tata Motors on NSE",
+        "original_goal_achieved": false,
+        "reasoning": "The search tool returned a list of URLs. Now, the next step is to extract the stock price from one of these URLs. Since decision agent will use keyword search, which will not be useful, I will route to summarize and ask to look at all URLs to find and summarize all available prices.",
+        "local_goal_achieved": true,
+        "local_reasoning": "Search results obtained. Need to extract price from the URLs.",
+        "last_tooluse_summary": "DuckDuckGo search succeeded and returned URLs",
+        "solution_summary": "Not ready yet. Need to extract stock price from URLs.",
+        "confidence": "0.8",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "4683035b-e4e6-4a7f-b9a4-e1aa713bfca0",
+        "input": {
+          "current_time": "2025-05-19T06:09:18.490086",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: What is the latest stock price of tata motors on nse?",
+          "perception": {
+            "entities": [
+              "Tata Motors",
+              "stock price",
+              "NSE"
+            ],
+            "result_requirement": "Latest stock price of Tata Motors on NSE",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.9",
+            "reasoning": "The user is asking for the latest stock price of Tata Motors on the National Stock Exchange (NSE). This requires fetching real-time stock data, which necessitates using a tool. The information is not available in memory or globals.",
+            "local_reasoning": "No relevant information found in memory or globals. A tool is required to fetch the stock price.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not yet available.",
+            "route": "decision",
+            "instruction_to_summarize": "Not applicable"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Tata Motors",
+                  "stock price",
+                  "NSE"
+                ],
+                "result_requirement": "Latest stock price of Tata Motors on NSE",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The user is asking for the latest stock price of Tata Motors on the National Stock Exchange (NSE). This requires fetching real-time stock data, which necessitates using a tool. The information is not available in memory or globals.",
+                "local_reasoning": "No relevant information found in memory or globals. A tool is required to fetch the stock price.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not yet available.",
+                "route": "decision",
+                "instruction_to_summarize": "Not applicable"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Tata Motors",
+                  "stock price",
+                  "NSE"
+                ],
+                "result_requirement": "Latest stock price of Tata Motors on NSE",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The user is asking for the latest stock price of Tata Motors on the National Stock Exchange (NSE). This requires fetching real-time stock data, which necessitates using a tool. The information is not available in memory or globals.",
+                "local_reasoning": "No relevant information found in memory or globals. A tool is required to fetch the stock price.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not yet available.",
+                "route": "decision",
+                "instruction_to_summarize": "Not applicable"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[]"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search for the latest stock price of Tata Motors on NSE using DuckDuckGo."
+              },
+              {
+                "id": "1",
+                "description": "Extract the stock price from the search result webpage."
+              },
+              {
+                "id": "2",
+                "description": "Summarize the extracted stock price information."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              },
+              {
+                "from": "1",
+                "to": "2",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "search_results_0A = duckduckgo_search('Tata Motors stock price NSE', 3)\nreturn { \"search_results_0A\": search_results_0A }",
+            "CODE_0B": "search_results_0B = duckduckgo_search('Tata Motors share price National Stock Exchange', 3)\nreturn { \"search_results_0B\": search_results_0B }",
+            "CODE_0C": "search_results_0C = duckduckgo_search('Tata Motors NSE stock quote', 3)\nreturn { \"search_results_0C\": search_results_0C }"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search for the latest stock price of Tata Motors on NSE using DuckDuckGo."
+            },
+            {
+              "id": "1",
+              "description": "Extract the stock price from the search result webpage."
+            },
+            {
+              "id": "2",
+              "description": "Summarize the extracted stock price information."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            },
+            {
+              "from": "1",
+              "to": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "search_results_0A = duckduckgo_search('Tata Motors stock price NSE', 3)\nreturn { \"search_results_0A\": search_results_0A }",
+          "CODE_0B": "search_results_0B = duckduckgo_search('Tata Motors share price National Stock Exchange', 3)\nreturn { \"search_results_0B\": search_results_0B }",
+          "CODE_0C": "search_results_0C = duckduckgo_search('Tata Motors NSE stock quote', 3)\nreturn { \"search_results_0C\": search_results_0C }"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [
+      {
+        "run_id": "6efe3ce2-ac47-4411-8ea0-45dcd2e26854",
+        "step_id": "0",
+        "variant_used": "CODE_0A",
+        "code": "search_results_0A = duckduckgo_search('Tata Motors stock price NSE', 3)\nreturn { \"search_results_0A\": search_results_0A }",
+        "status": "success",
+        "result": {
+          "search_results_0A": [
+            "https://www.google.com/finance/quote/TATAMOTORS:NSE",
+            "https://www.nseindia.com/get-quotes/equity?symbol=TATAMOTORS",
+            "https://www.moneycontrol.com/india/stockpricequote/auto-lcvshcvs/tatamotors/TM03"
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 11:39:22",
+        "total_time": "6.98",
+        "return_to": ""
+      }
+    ],
+    "summarizer_snapshots": [
+      {
+        "run_id": "81cb36fa-fb14-443d-98fb-0a72abdb5ab2",
+        "input": {
+          "original_query": "Query 1: What is the latest stock price of tata motors on nse?",
+          "globals_schema": {
+            "memory": [],
+            "search_results_0A": [
+              "https://www.google.com/finance/quote/TATAMOTORS:NSE",
+              "https://www.nseindia.com/get-quotes/equity?symbol=TATAMOTORS",
+              "https://www.moneycontrol.com/india/stockpricequote/auto-lcvshcvs/tatamotors/TM03"
+            ]
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Tata Motors",
+                      "stock price",
+                      "NSE"
+                    ],
+                    "result_requirement": "Latest stock price of Tata Motors on NSE",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.9",
+                    "reasoning": "The user is asking for the latest stock price of Tata Motors on the National Stock Exchange (NSE). This requires fetching real-time stock data, which necessitates using a tool. The information is not available in memory or globals.",
+                    "local_reasoning": "No relevant information found in memory or globals. A tool is required to fetch the stock price.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not yet available.",
+                    "route": "decision",
+                    "instruction_to_summarize": "Not applicable"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "0",
+                  "description": "Search for the latest stock price of Tata Motors on NSE using DuckDuckGo.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "search_results_0A": [
+                      "https://www.google.com/finance/quote/TATAMOTORS:NSE",
+                      "https://www.nseindia.com/get-quotes/equity?symbol=TATAMOTORS",
+                      "https://www.moneycontrol.com/india/stockpricequote/auto-lcvshcvs/tatamotors/TM03"
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Tata Motors",
+                      "stock price",
+                      "NSE"
+                    ],
+                    "result_requirement": "Latest stock price of Tata Motors on NSE",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": true,
+                    "confidence": "0.8",
+                    "reasoning": "The search tool returned a list of URLs. Now, the next step is to extract the stock price from one of these URLs. Since decision agent will use keyword search, which will not be useful, I will route to summarize and ask to look at all URLs to find and summarize all available prices.",
+                    "local_reasoning": "Search results obtained. Need to extract price from the URLs.",
+                    "last_tooluse_summary": "DuckDuckGo search succeeded and returned URLs",
+                    "solution_summary": "Not ready yet. Need to extract stock price from URLs.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Scrape all URLs provided in `search_results_0A` to find the latest stock price of Tata Motors on NSE. Return all available prices from all URLs and their source in markdown format."
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "0"
+              },
+              {
+                "data": {
+                  "index": "1",
+                  "description": "Extract the stock price from the search result webpage.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "ROOT"
+                },
+                "id": "1"
+              },
+              {
+                "data": {
+                  "index": "2",
+                  "description": "Summarize the extracted stock price information.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "ROOT"
+                },
+                "id": "2"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "0"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "2"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "Tata Motors",
+              "stock price",
+              "NSE"
+            ],
+            "result_requirement": "Latest stock price of Tata Motors on NSE",
+            "original_goal_achieved": false,
+            "local_goal_achieved": true,
+            "confidence": "0.8",
+            "reasoning": "The search tool returned a list of URLs. Now, the next step is to extract the stock price from one of these URLs. Since decision agent will use keyword search, which will not be useful, I will route to summarize and ask to look at all URLs to find and summarize all available prices.",
+            "local_reasoning": "Search results obtained. Need to extract price from the URLs.",
+            "last_tooluse_summary": "DuckDuckGo search succeeded and returned URLs",
+            "solution_summary": "Not ready yet. Need to extract stock price from URLs.",
+            "route": "summarize",
+            "instruction_to_summarize": "Scrape all URLs provided in `search_results_0A` to find the latest stock price of Tata Motors on NSE. Return all available prices from all URLs and their source in markdown format."
+          }
+        },
+        "summary_output": "No meaningful information was found in the sources available. You may try rephrasing or expanding your query.",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-19T06:08:44Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "No meaningful information was found in the sources available. You may try rephrasing or expanding your query.",
+    "status": "success",
+    "completed_at": "2025-05-19T06:09:37.878380"
+  },
+  "status": "success",
+  "final_step_id": "2",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-19T06:09:37.880850",
+  "original_query": "Query 1: What is the latest stock price of tata motors on nse?",
+  "final_summary": "No meaningful information was found in the sources available. You may try rephrasing or expanding your query."
+}

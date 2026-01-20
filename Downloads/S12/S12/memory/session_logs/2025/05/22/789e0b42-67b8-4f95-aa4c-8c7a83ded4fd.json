@@ -1,0 +1,209 @@
+{
+  "context": {
+    "session_id": "789e0b42-67b8-4f95-aa4c-8c7a83ded4fd",
+    "original_query": "Query 1: What is the time today?\nResponse 1: The current date and time is **May 22, 2025, 12:58 PM**.\nQuery 2: What's the latest stock price of Ather Energy?",
+    "globals": {
+      "memory": [
+        {
+          "score": 200.0,
+          "session_id": "4ee050de-7756-47b1-a2da-efeaa778fd2b",
+          "original_query": "Query 1: What is the latest stock of Ather Energy?",
+          "summary_output": "The latest stock price of **Ather Energy Ltd.** is **\u20b9319.00**, as of recent trading information available on the [Economic Times](https://economictimes.indiatimes.com/ather-energy-ltd/stocks/companyid-1965014.cms).",
+          "timestamp": "2025-05-22T12:51:49Z"
+        },
+        {
+          "score": 200.0,
+          "session_id": "f7d71707-0dd8-42d6-95a4-67d41949ccf3",
+          "original_query": "Query 1: What's the latest stock price of Ather Energy?",
+          "summary_output": "The latest stock price of **Ather Energy Ltd.** is **\u20b9319.00**, as of today's trading on the [Economic Times](https://economictimes.indiatimes.com/ather-energy-ltd/stocks/companyid-1965014.cms).",
+          "timestamp": "2025-05-19T06:06:01Z"
+        },
+        {
+          "score": 200.0,
+          "session_id": "312b9051-8602-4276-96f9-68f2052e6227",
+          "original_query": "Query 1: What's the latest stock price of Ather Energy?",
+          "summary_output": "As of August 2024, Ather Energy's valuation reached **$1.3 billion** following a funding round led by NIIF.",
+          "timestamp": "2025-05-19T05:47:42Z"
+        }
+      ]
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: What is the time today?\nResponse 1: The current date and time is **May 22, 2025, 12:58 PM**.\nQuery 2: What's the latest stock price of Ather Energy?",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "The current date and time is **May 22, 2025, 12:58 PM**.\n\nThe latest stock price of **Ather Energy Ltd.** is **\u20b9319.00**, as of recent trading information available on the [Economic Times](https://economictimes.indiatimes.com/ather-energy-ltd/stocks/companyid-1965014.cms).",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "time",
+                "Ather Energy",
+                "stock price"
+              ],
+              "result_requirement": "Current time and latest stock price of Ather Energy",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "0.95",
+              "reasoning": "The current time is provided in the raw input. The latest stock price of Ather Energy is available in memory.",
+              "local_reasoning": "Memory contains the latest stock price and raw input contains the time. No need to use external tools.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Current time and Ather Energy stock price are available.",
+              "route": "summarize",
+              "instruction_to_summarize": "Provide the current time as May 22, 2025, 12:58 PM. Also, provide the latest stock price of Ather Energy as \u20b9319.00, as of recent trading information available on the Economic Times. Use markdown formatting."
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        }
+      ],
+      "links": []
+    }
+  },
+  "session": {
+    "session_id": "789e0b42-67b8-4f95-aa4c-8c7a83ded4fd",
+    "original_query": "Query 1: What is the time today?\nResponse 1: The current date and time is **May 22, 2025, 12:58 PM**.\nQuery 2: What's the latest stock price of Ather Energy?",
+    "perception_snapshots": [
+      {
+        "run_id": "789e0b42-67b8-4f95-aa4c-8c7a83ded4fd-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "time",
+          "Ather Energy",
+          "stock price"
+        ],
+        "result_requirement": "Current time and latest stock price of Ather Energy",
+        "original_goal_achieved": true,
+        "reasoning": "The current time is provided in the raw input. The latest stock price of Ather Energy is available in memory.",
+        "local_goal_achieved": true,
+        "local_reasoning": "Memory contains the latest stock price and raw input contains the time. No need to use external tools.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Current time and Ather Energy stock price are available.",
+        "confidence": "0.95",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [],
+    "execution_snapshots": [],
+    "summarizer_snapshots": [
+      {
+        "run_id": "36e0f946-6618-470b-90a4-307995055bef",
+        "input": {
+          "original_query": "Query 1: What is the time today?\nResponse 1: The current date and time is **May 22, 2025, 12:58 PM**.\nQuery 2: What's the latest stock price of Ather Energy?",
+          "globals_schema": {
+            "memory": [
+              {
+                "score": 200.0,
+                "session_id": "4ee050de-7756-47b1-a2da-efeaa778fd2b",
+                "original_query": "Query 1: What is the latest stock of Ather Energy?",
+                "summary_output": "The latest stock price of **Ather Energy Ltd.** is **\u20b9319.00**, as of recent trading information available on the [Economic Times](https://economictimes.indiatimes.com/ather-energy-ltd/stocks/companyid-1965014.cms).",
+                "timestamp": "2025-05-22T12:51:49Z"
+              },
+              {
+                "score": 200.0,
+                "session_id": "f7d71707-0dd8-42d6-95a4-67d41949ccf3",
+                "original_query": "Query 1: What's the latest stock price of Ather Energy?",
+                "summary_output": "The latest stock price of **Ather Energy Ltd.** is **\u20b9319.00**, as of today's trading on the [Economic Times](https://economictimes.indiatimes.com/ather-energy-ltd/stocks/companyid-1965014.cms).",
+                "timestamp": "2025-05-19T06:06:01Z"
+              },
+              {
+                "score": 200.0,
+                "session_id": "312b9051-8602-4276-96f9-68f2052e6227",
+                "original_query": "Query 1: What's the latest stock price of Ather Energy?",
+                "summary_output": "As of August 2024, Ather Energy's valuation reached **$1.3 billion** following a funding round led by NIIF.",
+                "timestamp": "2025-05-19T05:47:42Z"
+              }
+            ]
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "time",
+                      "Ather Energy",
+                      "stock price"
+                    ],
+                    "result_requirement": "Current time and latest stock price of Ather Energy",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "0.95",
+                    "reasoning": "The current time is provided in the raw input. The latest stock price of Ather Energy is available in memory.",
+                    "local_reasoning": "Memory contains the latest stock price and raw input contains the time. No need to use external tools.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Current time and Ather Energy stock price are available.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Provide the current time as May 22, 2025, 12:58 PM. Also, provide the latest stock price of Ather Energy as \u20b9319.00, as of recent trading information available on the Economic Times. Use markdown formatting."
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              }
+            ],
+            "links": []
+          },
+          "perception": {
+            "entities": [
+              "time",
+              "Ather Energy",
+              "stock price"
+            ],
+            "result_requirement": "Current time and latest stock price of Ather Energy",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.95",
+            "reasoning": "The current time is provided in the raw input. The latest stock price of Ather Energy is available in memory.",
+            "local_reasoning": "Memory contains the latest stock price and raw input contains the time. No need to use external tools.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Current time and Ather Energy stock price are available.",
+            "route": "summarize",
+            "instruction_to_summarize": "Provide the current time as May 22, 2025, 12:58 PM. Also, provide the latest stock price of Ather Energy as \u20b9319.00, as of recent trading information available on the Economic Times. Use markdown formatting."
+          }
+        },
+        "summary_output": "The current date and time is **May 22, 2025, 12:58 PM**.\n\nThe latest stock price of **Ather Energy Ltd.** is **\u20b9319.00**, as of recent trading information available on the [Economic Times](https://economictimes.indiatimes.com/ather-energy-ltd/stocks/companyid-1965014.cms).",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-22T12:57:48Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "The current date and time is **May 22, 2025, 12:58 PM**.\n\nThe latest stock price of **Ather Energy Ltd.** is **\u20b9319.00**, as of recent trading information available on the [Economic Times](https://economictimes.indiatimes.com/ather-energy-ltd/stocks/companyid-1965014.cms).",
+    "status": "success",
+    "completed_at": "2025-05-22T12:58:50.006076"
+  },
+  "status": "success",
+  "final_step_id": "ROOT",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-22T12:58:50.008122",
+  "original_query": "Query 1: What is the time today?\nResponse 1: The current date and time is **May 22, 2025, 12:58 PM**.\nQuery 2: What's the latest stock price of Ather Energy?",
+  "final_summary": "The current date and time is **May 22, 2025, 12:58 PM**.\n\nThe latest stock price of **Ather Energy Ltd.** is **\u20b9319.00**, as of recent trading information available on the [Economic Times](https://economictimes.indiatimes.com/ather-energy-ltd/stocks/companyid-1965014.cms)."
+}

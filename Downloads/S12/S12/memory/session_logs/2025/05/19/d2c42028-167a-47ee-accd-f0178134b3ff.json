@@ -1,0 +1,978 @@
+{
+  "context": {
+    "session_id": "d2c42028-167a-47ee-accd-f0178134b3ff",
+    "original_query": "Query 1: Which are the top profitable startups in India?",
+    "globals": {
+      "memory": [
+        {
+          "score": 164.70588235294116,
+          "session_id": "c33dd381-fdd1-480f-b7ee-ef79b3d5ed9b",
+          "original_query": "Query 1: How are the military relations between India and Bhutan?\nResponse 1: I am unable to provide a summary of the military relations between India and Bhutan at this time. No tool has been used to extract and synthesize the text from the URLs provided.\nQuery 2: How are the military relations between India and Bhutan?\nResponse 2: Due to technical difficulties in extracting and synthesizing text from the provided URLs, a comprehensive summary of the military relations between India and Bhutan could not be generated. However, here are the search results that were found, which may contain relevant information:\n\n*   [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations)\n*   [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3)\n*   [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/)\n*   [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations)\nQuery 3: How are the military relations between India and Bhutan?\nResponse 3: I was unable to extract and summarize text from the provided URLs regarding the military relations between India and Bhutan. For your convenience, here are the URLs that were used in the search. You may find the information you need by reviewing them directly:\n\n*   [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations)\n*   [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3)\n*   [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/)\n*   [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations)\nQuery 4: How are the military relations between India and Bhutan? If a tool failes, ask decision to use some other tools to find this information",
+          "summary_output": "Due to technical difficulties in extracting and synthesizing text from the provided URLs, a comprehensive summary of the military relations between India and Bhutan could not be generated. The tools attempted to retrieve information from the following links, but were unsuccessful:\n\n*   [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations)\n*   [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3)\n*   [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/)\n*   [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations)",
+          "timestamp": "2025-05-18T04:36:36Z"
+        },
+        {
+          "score": 164.70588235294116,
+          "session_id": "09fde326-bc32-4394-99cd-d820b9b68e97",
+          "original_query": "Query 1: How are the military relations between India and Bhutan?\nResponse 1: I am unable to provide a summary of the military relations between India and Bhutan at this time. No tool has been used to extract and synthesize the text from the URLs provided.\nQuery 2: How are the military relations between India and Bhutan?\nResponse 2: Due to technical difficulties in extracting and synthesizing text from the provided URLs, a comprehensive summary of the military relations between India and Bhutan could not be generated. However, here are the search results that were found, which may contain relevant information:\n\n*   [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations)\n*   [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3)\n*   [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/)\n*   [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations)\nQuery 3: How are the military relations between India and Bhutan?",
+          "summary_output": "I was unable to extract and summarize text from the provided URLs regarding the military relations between India and Bhutan. For your convenience, here are the URLs that were used in the search. You may find the information you need by reviewing them directly:\n\n*   [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations)\n*   [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3)\n*   [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/)\n*   [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations)",
+          "timestamp": "2025-05-18T04:36:36Z"
+        },
+        {
+          "score": 157.77777777777777,
+          "session_id": "f35f73a8-6727-42dc-adb7-5d82d3c72ff6",
+          "original_query": "Query 1: What's the latest between India and Australia?",
+          "summary_output": "Here's a summary of the latest developments between India and Australia, focusing on trade, defense, and strategic partnerships, based on recent news articles. Note that the summarization tool experienced technical issues, so this summary is based on direct links to the articles.\n\n*   **Deepening Trade and Defence Relations:** India and Australia are actively working to deepen their trade and defense relations. This includes discussions on comprehensive strategic partnerships. [https://www.hindustantimes.com/india-news/india-australia-deepen-trade-defence-relations-101678472714264.html](https://www.hindustantimes.com/india-news/india-australia-deepen-trade-defence-relations-101678472714264.html)\n*   **Review of Strategic Partnership:** India and Australia have reviewed their comprehensive strategic partnership during foreign ministers' meetings. [https://www.hindustantimes.com/india-news/india-australia-review-comprehensive-strategic-parternship-at-foreign-ministers-meet-101730818495070.html](https://www.hindustantimes.com/india-news/india-australia-review-comprehensive-strategic-parternship-at-foreign-ministers-meet-101730818495070.html)\n*   **Clean Energy Tie-up:** India and Australia have agreed to collaborate in clean energy initiatives, pushing for trade pacts to support this collaboration. [https://indianexpress.com/article/india/india-australia-agree-on-tie-up-in-clean-energy-push-for-trade-pact-9680508/](https://indianexpress.com/article/india/india-australia-agree-on-tie-up-in-clean-energy-push-for-trade-pact-9680508/)\n*   **Strategic Ties:** Further information on the strategic ties between Australia and India can be found on NDTV. [https://www.ndtv.com/topic/australia-india-strategic-ties](https://www.ndtv.com/topic/australia-india-strategic-ties)\n*   **Discussions and Talks:** Recent talks between India and Australia cover various aspects of their relationship. [https://apnews.com/article/india-australia-talks-ccaecb76ae2d9e029aa80554b55f3e02](https://apnews.com/article/india-australia-talks-ccaecb76ae2d9e029aa80554b55f3e02)",
+          "timestamp": "2025-05-19T00:50:24Z"
+        }
+      ],
+      "search_results_0a": [
+        "https://thebusinessrule.com/top-10-profitable-indian-startups/",
+        "https://digibizworld.com/top-profitable-startups-in-india/",
+        "https://www.failory.com/startups/india",
+        "https://officechai.com/startups/these-are-indias-10-highest-profit-making-startup-unicorns/",
+        "https://www.upgrad.com/blog/top-15-startups-in-india-to-work-invest/"
+      ],
+      "text1_1A": [
+        {
+          "type": "text",
+          "text": "[trafilatura] Do you know India is the third largest startup ecosystem in the world? Yes, we are in the race along with China and the US. Although our startup ecosystem is still quite deep in water. But with novel technologies and unique business models, our startups have come a long way to get global recognition. In this article, you will get a thorough insight into the top 10 profitable Indian startups as of 2023.\nStay tuned!\nA Brief Overview\n| Name (Profitable Startups) | Year of Establishment | Founder(s) | Valuation |\n| Razorpay | 2014 | Harshil MathurShashank Kumar | $7.5 billion |\n| Info Edge | 1995 | Sanjeev Bikhchandani | $5.6 billion |\n| OfBusiness | 2005 | Asish MohapatraVasant SridharRuchi KalraBhuvan GuptaNitin Jain | $5 billion |\n| Nykaa | 2012 | Falguni Nayar | $4.9 billion |\n| Zerodha | 2010 | Nithin KamathNikhil Kamath | $2 billion |\n| Gupshup | 2004 | Beerud Sheth | $1.4 billion |\n| Amagi | 2008 | K.A. Srinivasan (Srini) | $1.4 billion |\n| EaseMyTrip | 2008 | Nishant PittiRikant Pitti | $1.03 billion |\n| Zoho | 1996 | Sridhar VembuSreenivas KamumuruTony G. Thomas | $1 billion |\n| Oxyzo | 2016 | Asish Mohapatra | $1 billion |\nDetails\n1. Razorpay\nRazorpay is an Indian financial technology company. It provides payment gateway solutions, payment processing, and payment settlement services for businesses of all sizes. Harshil Mathur and Shashank Kumar founded this company in 2013. Presently, it is headquartered in Bangalore, India.\nYou will get numerous payment options in Razorpay like-\n- Credit Cards\n- Debit Cards\n- Net Banking\n- UPI (Unified Payment Interface)\n- Mobile Wallets\nApart from this, you can also avail different payment-related features and services such as-\n- Automatic Payment Reconciliation\n- Automated Refunds\n- Subscription Billing\n- Invoice Management\nWe have covered detailed information about the Razorpay business model here. In that, we have described how it has processed over $50 billion in payment transactions for more than 5 million businesses in India. Prominent investors like Sequoia Capital, Ribbit Capital, and Market Partners back up Razorpay. Currently, its market valuation is $7.5 billion.\n2. Info Edge\nAn Indian tech company that stands out in the market of online recruitment, education, and real estate segment is Info Edge. Sanjeev Bikhchandani founded this company in 1995. Presently, the headquarters of Info Edge is present in Noida, Uttar Pradesh (India). It operates in several segments such as-\n- Online Recruitment Segment You must have heard about the flagship recruitment website Naukri.com. It belongs to Info Edge! Thats not the only one. Apart from that, it recruits several other recruitment portals namely- Naukrigulf.com and Firstnaukri.com.\n- Real Estate Segment Info Edge operates 99acres.com. This is a popular online platform where you can buy, sell, and rent various real estate properties in India.\n- Educational Segment It operates a famous education portal i.e., Shiksha.com. Here you get information regarding",
+          "annotations": null
+        }
+      ],
+      "text2_1A": [
+        {
+          "type": "text",
+          "text": "[trafilatura] Top 10 Profitable Startups in India 2024\nCurrently, India is the powerhouse of startups but does not know how many startups are making profits. Many startups appear in the corporate sector but only several great startup ideas have established themselves. Indias startup ecosystem has rapidly ascended to global prominence, boasting an array of innovative ventures that are reshaping various industries.\nIn 2024, the landscape is marked by several standout companies that have not only disrupted their respective industries but have also achieved impressive profitability. These most profitable startups in India span various sectors, from fintech and e-commerce to travel and infra, showcasing the diverse opportunities within the market. This article delves into the top 10 most profitable startups in India and highlights their financial successes.\nHere is the list of the Most Profitable Startups in India.\n1. Zerodha\nProfit  $347.35 million (INR 2,908 cr.)\nZerodha, an online discount brokerage firm founded in 2010, has revolutionized the trading landscape in India. With its user-friendly platform and cost-effective trading solutions, Zerodha has made investing accessible to millions. In 2024, Zerodha stands as the most profitable startup in India, boasting a profit of INR 2,908.9 crore. This success is attributed to its innovative business model, which includes zero brokerage fees for equity investments and a flat fee for intraday and F&O trades.\n2. Zoho Corporation\nProfit  $338.74 million (INR 2,836 cr.)\nZoho Corporation, established in 1996, offers a comprehensive suite of business software solutions, including CRM, invoicing, and office productivity tools. Known for its customer-centric innovation and organic growth, Zoho reported a profit of Rs 2,836 crore in 2024. Zoho has grown organically without external funding, reflecting its strong market presence and the continued demand for its versatile software products.\n3. OfBusiness\nProfit  $55.3 million (INR 463 cr.)\nOfBusiness, founded in 2015, is a fintech platform that provides SMEs with access to credit and raw materials. By leveraging technology, OfBusiness has streamlined the procurement process and offered financial support to small and medium enterprises. In 2024, it achieved a profit of Rs 463 crore, highlighting its critical role in empowering Indias SME sector with innovative financial products.\n4. Groww\nProfit  $53.5 million (INR 448 cr.)\nGroww, an investment platform launched in 2017, has simplified investing for individuals by offering a wide range of financial products, including mutual funds, stocks, and fixed deposits. In 2024, Groww reported a profit of Rs 448 crore, underscoring its success in democratizing investment opportunities in India. Its user-friendly interface and educational resources have attracted a large user base.\n5. Dream11\nProfit  $14 million (INR 188 cr.)\nDream11, the fantasy sports platform launched in 2008, allows users to create fantasy teams and compete in various s",
+          "annotations": null
+        }
+      ],
+      "text3_1A": [
+        {
+          "type": "text",
+          "text": "[trafilatura] 1) Urban Company Urban is a marketplace for independent contractors.\nDetails of the startup:\nState: Haryana City: Gurgaon Started in: 2014 Founders: Abhiraj Singh Bhal, Raghav Chandra, Varun Khaitan Industries: Apps, Home Services, Marketplace, Service Industry Number of employees: 1001-5000 Funding: $445,920,356 Funding rounds: 12 Number of investors: 16 (Bessemer Venture Partners, Tiger Global Management, Accel, Wellington Management, Dragoneer Investment Group) You can find their website here .\n2) Classplus Classplus is a mobile-first SaaS platform that allows 3000+ tutors to totally automate their curriculum and operations.\nDetails of the startup:\nState: Uttar Pradesh City: Noida Started in: 2018 Founders: Bhaswat Agarwal, Bikash Dash, Mukul Rustagi, Nikhil Goel, Vatsal Rustagi Industries: B2B, E-Learning, EdTech, Education, Mobile Apps, SaaS, Software Number of employees: 101-250 Funding: $89,506,451 Funding rounds: 10 Number of investors: 20 (Sequoia Capital India, Kunal Shah, Tiger Global Management, GSV Ventures, RTP Global) You can find their website here .\n3) Paytm Paytm is a payment gateway that allows users and businesses to make payments.\nDetails of the startup:\nState: Uttar Pradesh City: Noida Started in: 2010 Founders: Akshay Khanna, Vijay Shekhar Sharma Industries: E-Commerce, Finance, Financial Services, Internet, Mobile Apps, Mobile Payments Number of employees: 501-1000 Funding: $32,448,851 Funding rounds: 4 Number of investors: 4 (Vijay Shekhar Sharma, K2 Global, Investopad, One97 Mobility Fund) You can find their website here .\n4) Apna Apna is a professional networking and job-search platform that connects blue- and gray-collar professionals with like-minded people and places to work.\nDetails of the startup:\nState: Maharashtra City: Mumbai Started in: 2019 Founders: Nirmit Parikh Industries: Employment, Human Resources, Recruiting, Staffing Agency Number of employees: 101-250 Funding: $93,450,000 Funding rounds: 4 Number of investors: 6 (Sequoia Capital India, Greenoaks Capital, Tiger Global Management, Insight Partners, rocketship.vc) You can find their website here .\n5) Razorpay Razorpay is a payment acceptance, processing, and disbursement platform for businesses.\nDetails of the startup:\nState: Karnataka City: Bengaluru Started in: 2014 Founders: Harshil Mathur, Shashank Kumar Industries: Financial Services, FinTech, Payments, Software Number of employees: 1001-5000 Funding: $366,600,000 Funding rounds: 7 Number of investors: 29 (Sequoia Capital India, Ribbit Capital, Kunal Shah, GIC, Tiger Global Management) You can find their website here .\n6) UpGrad UpGrad is a higher education portal that offers courses in Data Science, Technology, Management, and Law online.\nDetails of the startup:\nState: Maharashtra City: Mumbai Started in: 2015 Founders: Mayank Kumar, Phalgun Kompalli, Ravijot Chugh, Ronnie Screwvala Industries: E-Learning, EdTech, Education Number of employees: 1001-5000 Funding: $176,283,446 Funding rounds: 4 Numb",
+          "annotations": null
+        }
+      ]
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: Which are the top profitable startups in India?",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "Here's a consolidated list of top profitable startups in India based on recent data:\n\n1.  **Zerodha:** An online discount brokerage firm.\n    *   Profit: $347.35 million (INR 2,908 cr.) (2024)\n    *   Source: [digibizworld.com](https://digibizworld.com/top-profitable-startups-in-india/)\n\n2.  **Zoho Corporation:** Offers a comprehensive suite of business software solutions.\n    *   Profit: $338.74 million (INR 2,836 cr.) (2024)\n    *   Source: [digibizworld.com](https://digibizworld.com/top-profitable-startups-in-india/)\n\n3.  **OfBusiness:** A fintech platform providing SMEs with access to credit and raw materials.\n    *   Profit: $55.3 million (INR 463 cr.) (2024)\n    *   Source: [digibizworld.com](https://digibizworld.com/top-profitable-startups-in-india/)\n\n4.  **Groww:** An investment platform offering various financial products.\n    *   Profit: $53.5 million (INR 448 cr.) (2024)\n    *   Source: [digibizworld.com](https://digibizworld.com/top-profitable-startups-in-india/)\n\n5.  **Dream11:** A fantasy sports platform.\n    *   Profit: $14 million (INR 188 cr.) (2024)\n    *   Source: [digibizworld.com](https://digibizworld.com/top-profitable-startups-in-india/)\n\n6.  **Razorpay:** Provides payment gateway solutions and payment processing services.\n    *   Valuation: $7.5 billion\n    *   Source: [thebusinessrule.com](https://thebusinessrule.com/top-10-profitable-indian-startups/)\n\n7.  **Info Edge:** Operates online recruitment, education, and real estate platforms.\n    *   Valuation: $5.6 billion\n    *   Source: [thebusinessrule.com](https://thebusinessrule.com/top-10-profitable-indian-startups/)\n\n8.  **Nykaa:** An e-commerce platform for beauty and lifestyle products.\n    *   Valuation: $4.9 billion\n    *   Source: [thebusinessrule.com](https://thebusinessrule.com/top-10-profitable-indian-startups/)\n\n9.  **Gupshup:** A conversational messaging platform.\n    *   Valuation: $1.4 billion\n    *   Source: [thebusinessrule.com](https://thebusinessrule.com/top-10-profitable-indian-startups/)\n\n10. **EaseMyTrip:** An online travel platform.\n    *   Valuation: $1.03 billion\n    *   Source: [thebusinessrule.com](https://thebusinessrule.com/top-10-profitable-indian-startups/)",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "top profitable startups",
+                "India"
+              ],
+              "result_requirement": "List of top profitable startups in India",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.8",
+              "reasoning": "The query requires finding the top profitable startups in India. This information is not readily available and needs to be searched and compiled. Memory does not contain the answer.",
+              "local_reasoning": "The query is new and needs external search.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Search the web for lists of top profitable startups in India.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "search_results_0a": [
+                "https://thebusinessrule.com/top-10-profitable-indian-startups/",
+                "https://digibizworld.com/top-profitable-startups-in-india/",
+                "https://www.failory.com/startups/india",
+                "https://officechai.com/startups/these-are-indias-10-highest-profit-making-startup-unicorns/",
+                "https://www.upgrad.com/blog/top-15-startups-in-india-to-work-invest/"
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "top profitable startups",
+                "India"
+              ],
+              "result_requirement": "List of top profitable startups in India",
+              "original_goal_achieved": false,
+              "local_goal_achieved": true,
+              "confidence": "0.7",
+              "reasoning": "Search results obtained. Need to extract the names of top profitable startups from the search results.",
+              "local_reasoning": "The tool provided search results. Now need to parse them.",
+              "last_tooluse_summary": "Web search returned URLs of potential lists of top profitable startups.",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        },
+        {
+          "data": {
+            "index": "1",
+            "description": "Extract the text from the first three search result URLs.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "text1_1A": [
+                {
+                  "type": "text",
+                  "text": "[trafilatura] Do you know India is the third largest startup ecosystem in the world? Yes, we are in the race along with China and the US. Although our startup ecosystem is still quite deep in water. But with novel technologies and unique business models, our startups have come a long way to get global recognition. In this article, you will get a thorough insight into the top 10 profitable Indian startups as of 2023.\nStay tuned!\nA Brief Overview\n| Name (Profitable Startups) | Year of Establishment | Founder(s) | Valuation |\n| Razorpay | 2014 | Harshil MathurShashank Kumar | $7.5 billion |\n| Info Edge | 1995 | Sanjeev Bikhchandani | $5.6 billion |\n| OfBusiness | 2005 | Asish MohapatraVasant SridharRuchi KalraBhuvan GuptaNitin Jain | $5 billion |\n| Nykaa | 2012 | Falguni Nayar | $4.9 billion |\n| Zerodha | 2010 | Nithin KamathNikhil Kamath | $2 billion |\n| Gupshup | 2004 | Beerud Sheth | $1.4 billion |\n| Amagi | 2008 | K.A. Srinivasan (Srini) | $1.4 billion |\n| EaseMyTrip | 2008 | Nishant PittiRikant Pitti | $1.03 billion |\n| Zoho | 1996 | Sridhar VembuSreenivas KamumuruTony G. Thomas | $1 billion |\n| Oxyzo | 2016 | Asish Mohapatra | $1 billion |\nDetails\n1. Razorpay\nRazorpay is an Indian financial technology company. It provides payment gateway solutions, payment processing, and payment settlement services for businesses of all sizes. Harshil Mathur and Shashank Kumar founded this company in 2013. Presently, it is headquartered in Bangalore, India.\nYou will get numerous payment options in Razorpay like-\n- Credit Cards\n- Debit Cards\n- Net Banking\n- UPI (Unified Payment Interface)\n- Mobile Wallets\nApart from this, you can also avail different payment-related features and services such as-\n- Automatic Payment Reconciliation\n- Automated Refunds\n- Subscription Billing\n- Invoice Management\nWe have covered detailed information about the Razorpay business model here. In that, we have described how it has processed over $50 billion in payment transactions for more than 5 million businesses in India. Prominent investors like Sequoia Capital, Ribbit Capital, and Market Partners back up Razorpay. Currently, its market valuation is $7.5 billion.\n2. Info Edge\nAn Indian tech company that stands out in the market of online recruitment, education, and real estate segment is Info Edge. Sanjeev Bikhchandani founded this company in 1995. Presently, the headquarters of Info Edge is present in Noida, Uttar Pradesh (India). It operates in several segments such as-\n- Online Recruitment Segment You must have heard about the flagship recruitment website Naukri.com. It belongs to Info Edge! Thats not the only one. Apart from that, it recruits several other recruitment portals namely- Naukrigulf.com and Firstnaukri.com.\n- Real Estate Segment Info Edge operates 99acres.com. This is a popular online platform where you can buy, sell, and rent various real estate properties in India.\n- Educational Segment It operates a famous education portal i.e., Shiksha.com. Here you get information regarding",
+                  "annotations": null
+                }
+              ],
+              "text2_1A": [
+                {
+                  "type": "text",
+                  "text": "[trafilatura] Top 10 Profitable Startups in India 2024\nCurrently, India is the powerhouse of startups but does not know how many startups are making profits. Many startups appear in the corporate sector but only several great startup ideas have established themselves. Indias startup ecosystem has rapidly ascended to global prominence, boasting an array of innovative ventures that are reshaping various industries.\nIn 2024, the landscape is marked by several standout companies that have not only disrupted their respective industries but have also achieved impressive profitability. These most profitable startups in India span various sectors, from fintech and e-commerce to travel and infra, showcasing the diverse opportunities within the market. This article delves into the top 10 most profitable startups in India and highlights their financial successes.\nHere is the list of the Most Profitable Startups in India.\n1. Zerodha\nProfit  $347.35 million (INR 2,908 cr.)\nZerodha, an online discount brokerage firm founded in 2010, has revolutionized the trading landscape in India. With its user-friendly platform and cost-effective trading solutions, Zerodha has made investing accessible to millions. In 2024, Zerodha stands as the most profitable startup in India, boasting a profit of INR 2,908.9 crore. This success is attributed to its innovative business model, which includes zero brokerage fees for equity investments and a flat fee for intraday and F&O trades.\n2. Zoho Corporation\nProfit  $338.74 million (INR 2,836 cr.)\nZoho Corporation, established in 1996, offers a comprehensive suite of business software solutions, including CRM, invoicing, and office productivity tools. Known for its customer-centric innovation and organic growth, Zoho reported a profit of Rs 2,836 crore in 2024. Zoho has grown organically without external funding, reflecting its strong market presence and the continued demand for its versatile software products.\n3. OfBusiness\nProfit  $55.3 million (INR 463 cr.)\nOfBusiness, founded in 2015, is a fintech platform that provides SMEs with access to credit and raw materials. By leveraging technology, OfBusiness has streamlined the procurement process and offered financial support to small and medium enterprises. In 2024, it achieved a profit of Rs 463 crore, highlighting its critical role in empowering Indias SME sector with innovative financial products.\n4. Groww\nProfit  $53.5 million (INR 448 cr.)\nGroww, an investment platform launched in 2017, has simplified investing for individuals by offering a wide range of financial products, including mutual funds, stocks, and fixed deposits. In 2024, Groww reported a profit of Rs 448 crore, underscoring its success in democratizing investment opportunities in India. Its user-friendly interface and educational resources have attracted a large user base.\n5. Dream11\nProfit  $14 million (INR 188 cr.)\nDream11, the fantasy sports platform launched in 2008, allows users to create fantasy teams and compete in various s",
+                  "annotations": null
+                }
+              ],
+              "text3_1A": [
+                {
+                  "type": "text",
+                  "text": "[trafilatura] 1) Urban Company Urban is a marketplace for independent contractors.\nDetails of the startup:\nState: Haryana City: Gurgaon Started in: 2014 Founders: Abhiraj Singh Bhal, Raghav Chandra, Varun Khaitan Industries: Apps, Home Services, Marketplace, Service Industry Number of employees: 1001-5000 Funding: $445,920,356 Funding rounds: 12 Number of investors: 16 (Bessemer Venture Partners, Tiger Global Management, Accel, Wellington Management, Dragoneer Investment Group) You can find their website here .\n2) Classplus Classplus is a mobile-first SaaS platform that allows 3000+ tutors to totally automate their curriculum and operations.\nDetails of the startup:\nState: Uttar Pradesh City: Noida Started in: 2018 Founders: Bhaswat Agarwal, Bikash Dash, Mukul Rustagi, Nikhil Goel, Vatsal Rustagi Industries: B2B, E-Learning, EdTech, Education, Mobile Apps, SaaS, Software Number of employees: 101-250 Funding: $89,506,451 Funding rounds: 10 Number of investors: 20 (Sequoia Capital India, Kunal Shah, Tiger Global Management, GSV Ventures, RTP Global) You can find their website here .\n3) Paytm Paytm is a payment gateway that allows users and businesses to make payments.\nDetails of the startup:\nState: Uttar Pradesh City: Noida Started in: 2010 Founders: Akshay Khanna, Vijay Shekhar Sharma Industries: E-Commerce, Finance, Financial Services, Internet, Mobile Apps, Mobile Payments Number of employees: 501-1000 Funding: $32,448,851 Funding rounds: 4 Number of investors: 4 (Vijay Shekhar Sharma, K2 Global, Investopad, One97 Mobility Fund) You can find their website here .\n4) Apna Apna is a professional networking and job-search platform that connects blue- and gray-collar professionals with like-minded people and places to work.\nDetails of the startup:\nState: Maharashtra City: Mumbai Started in: 2019 Founders: Nirmit Parikh Industries: Employment, Human Resources, Recruiting, Staffing Agency Number of employees: 101-250 Funding: $93,450,000 Funding rounds: 4 Number of investors: 6 (Sequoia Capital India, Greenoaks Capital, Tiger Global Management, Insight Partners, rocketship.vc) You can find their website here .\n5) Razorpay Razorpay is a payment acceptance, processing, and disbursement platform for businesses.\nDetails of the startup:\nState: Karnataka City: Bengaluru Started in: 2014 Founders: Harshil Mathur, Shashank Kumar Industries: Financial Services, FinTech, Payments, Software Number of employees: 1001-5000 Funding: $366,600,000 Funding rounds: 7 Number of investors: 29 (Sequoia Capital India, Ribbit Capital, Kunal Shah, GIC, Tiger Global Management) You can find their website here .\n6) UpGrad UpGrad is a higher education portal that offers courses in Data Science, Technology, Management, and Law online.\nDetails of the startup:\nState: Maharashtra City: Mumbai Started in: 2015 Founders: Mayank Kumar, Phalgun Kompalli, Ravijot Chugh, Ronnie Screwvala Industries: E-Learning, EdTech, Education Number of employees: 1001-5000 Funding: $176,283,446 Funding rounds: 4 Numb",
+                  "annotations": null
+                }
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "top profitable startups",
+                "India"
+              ],
+              "result_requirement": "List of top profitable startups in India",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "0.9",
+              "reasoning": "We have extracted text from three different sources, which contain the information needed to create a list of the top profitable startups in India. The extracted data includes company names, and in some cases, profit figures. Therefore, we can now summarize the results.",
+              "local_reasoning": "Tool returned useful data, we can summarize.",
+              "last_tooluse_summary": "Extracted text from three URLs: thebusinessrule.com, digibizworld.com, and failory.com",
+              "solution_summary": "Extracted names and profit data from websites.",
+              "route": "summarize",
+              "instruction_to_summarize": "Consolidate the lists of top profitable startups in India from the extracted text (text1_1A, text2_1A, and text3_1A). Present a list of the top 10 startups along with their reported profit (if available). Include the source URL for each startup's information. Use markdown format."
+            },
+            "from_step": "1"
+          },
+          "id": "1"
+        },
+        {
+          "data": {
+            "index": "2",
+            "description": "Identify and list the top profitable startups mentioned in the extracted texts.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "1"
+          },
+          "id": "2"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "2"
+        },
+        {
+          "type": "normal",
+          "source": "1",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "1",
+          "target": "2"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "d2c42028-167a-47ee-accd-f0178134b3ff",
+    "original_query": "Query 1: Which are the top profitable startups in India?",
+    "perception_snapshots": [
+      {
+        "run_id": "d2c42028-167a-47ee-accd-f0178134b3ff-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "top profitable startups",
+          "India"
+        ],
+        "result_requirement": "List of top profitable startups in India",
+        "original_goal_achieved": false,
+        "reasoning": "The query requires finding the top profitable startups in India. This information is not readily available and needs to be searched and compiled. Memory does not contain the answer.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The query is new and needs external search.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.8",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "d2c42028-167a-47ee-accd-f0178134b3ff-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "top profitable startups",
+          "India"
+        ],
+        "result_requirement": "List of top profitable startups in India",
+        "original_goal_achieved": false,
+        "reasoning": "Search results obtained. Need to extract the names of top profitable startups from the search results.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The tool provided search results. Now need to parse them.",
+        "last_tooluse_summary": "Web search returned URLs of potential lists of top profitable startups.",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.7",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "d2c42028-167a-47ee-accd-f0178134b3ff-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "top profitable startups",
+          "India"
+        ],
+        "result_requirement": "List of top profitable startups in India",
+        "original_goal_achieved": true,
+        "reasoning": "We have extracted text from three different sources, which contain the information needed to create a list of the top profitable startups in India. The extracted data includes company names, and in some cases, profit figures. Therefore, we can now summarize the results.",
+        "local_goal_achieved": true,
+        "local_reasoning": "Tool returned useful data, we can summarize.",
+        "last_tooluse_summary": "Extracted text from three URLs: thebusinessrule.com, digibizworld.com, and failory.com",
+        "solution_summary": "Extracted names and profit data from websites.",
+        "confidence": "0.9",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "a062f030-944e-4b46-bc20-3a83d232d21b",
+        "input": {
+          "current_time": "2025-05-19T10:32:06.097909",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: Which are the top profitable startups in India?",
+          "perception": {
+            "entities": [
+              "top profitable startups",
+              "India"
+            ],
+            "result_requirement": "List of top profitable startups in India",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.8",
+            "reasoning": "The query requires finding the top profitable startups in India. This information is not readily available and needs to be searched and compiled. Memory does not contain the answer.",
+            "local_reasoning": "The query is new and needs external search.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "top profitable startups",
+                  "India"
+                ],
+                "result_requirement": "List of top profitable startups in India",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.8",
+                "reasoning": "The query requires finding the top profitable startups in India. This information is not readily available and needs to be searched and compiled. Memory does not contain the answer.",
+                "local_reasoning": "The query is new and needs external search.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "top profitable startups",
+                  "India"
+                ],
+                "result_requirement": "List of top profitable startups in India",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.8",
+                "reasoning": "The query requires finding the top profitable startups in India. This information is not readily available and needs to be searched and compiled. Memory does not contain the answer.",
+                "local_reasoning": "The query is new and needs external search.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[{'score': 164.70588235294116, 'session_id': 'c33dd381-fdd1-480f-b7ee-ef79b3d5ed9b', 'original_query': 'Query 1: How are the military relations between India and Bhutan?\\nResponse 1: I am unable to provide a summary of the military relations between India and Bhutan at this time. No tool has been used to extract and synthesize the text from the URLs provided.\\nQuery 2: How are the military relations between India and Bhutan?\\nResponse 2: Due to technical difficulties in extracting and synthesizi\u2026"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search the web for lists of top profitable startups in India."
+              },
+              {
+                "id": "1",
+                "description": "Extract and summarize information about the startups from the search results."
+              },
+              {
+                "id": "2",
+                "description": "Consolidate the startup information and create a final list of top profitable startups in India."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              },
+              {
+                "from": "1",
+                "to": "2",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "search_results_0a = web_search_urls(\"top profitable startups India list\", 5)\nreturn {\"search_results_0a\": search_results_0a}",
+            "CODE_0B": "search_results_0b = web_search_urls(\"highest revenue startups India\", 5)\nreturn {\"search_results_0b\": search_results_0b}",
+            "CODE_0C": "search_results_0c = web_search_urls(\"best performing startups India\", 5)\nreturn {\"search_results_0c\": search_results_0c}"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search the web for lists of top profitable startups in India."
+            },
+            {
+              "id": "1",
+              "description": "Extract and summarize information about the startups from the search results."
+            },
+            {
+              "id": "2",
+              "description": "Consolidate the startup information and create a final list of top profitable startups in India."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            },
+            {
+              "from": "1",
+              "to": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "search_results_0a = web_search_urls(\"top profitable startups India list\", 5)\nreturn {\"search_results_0a\": search_results_0a}",
+          "CODE_0B": "search_results_0b = web_search_urls(\"highest revenue startups India\", 5)\nreturn {\"search_results_0b\": search_results_0b}",
+          "CODE_0C": "search_results_0c = web_search_urls(\"best performing startups India\", 5)\nreturn {\"search_results_0c\": search_results_0c}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      },
+      {
+        "run_id": "20d84622-3619-47ec-8ed7-fb3d7c56d48c",
+        "input": {
+          "current_time": "2025-05-19T10:32:33.456464",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: Which are the top profitable startups in India?",
+          "perception": {
+            "entities": [
+              "top profitable startups",
+              "India"
+            ],
+            "result_requirement": "List of top profitable startups in India",
+            "original_goal_achieved": false,
+            "local_goal_achieved": true,
+            "confidence": "0.7",
+            "reasoning": "Search results obtained. Need to extract the names of top profitable startups from the search results.",
+            "local_reasoning": "The tool provided search results. Now need to parse them.",
+            "last_tooluse_summary": "Web search returned URLs of potential lists of top profitable startups.",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "top profitable startups",
+                  "India"
+                ],
+                "result_requirement": "List of top profitable startups in India",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.8",
+                "reasoning": "The query requires finding the top profitable startups in India. This information is not readily available and needs to be searched and compiled. Memory does not contain the answer.",
+                "local_reasoning": "The query is new and needs external search.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            },
+            {
+              "index": "0",
+              "description": "Search the web for lists of top profitable startups in India.",
+              "type": "CODE",
+              "status": "completed",
+              "result": {
+                "search_results_0a": [
+                  "https://thebusinessrule.com/top-10-profitable-indian-startups/",
+                  "https://digibizworld.com/top-profitable-startups-in-india/",
+                  "https://www.failory.com/startups/india",
+                  "https://officechai.com/startups/these-are-indias-10-highest-profit-making-startup-unicorns/",
+                  "https://www.upgrad.com/blog/top-15-startups-in-india-to-work-invest/"
+                ]
+              },
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "top profitable startups",
+                  "India"
+                ],
+                "result_requirement": "List of top profitable startups in India",
+                "original_goal_achieved": false,
+                "local_goal_achieved": true,
+                "confidence": "0.7",
+                "reasoning": "Search results obtained. Need to extract the names of top profitable startups from the search results.",
+                "local_reasoning": "The tool provided search results. Now need to parse them.",
+                "last_tooluse_summary": "Web search returned URLs of potential lists of top profitable startups.",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": "ROOT"
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "top profitable startups",
+                  "India"
+                ],
+                "result_requirement": "List of top profitable startups in India",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.8",
+                "reasoning": "The query requires finding the top profitable startups in India. This information is not readily available and needs to be searched and compiled. Memory does not contain the answer.",
+                "local_reasoning": "The query is new and needs external search.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[{'score': 164.70588235294116, 'session_id': 'c33dd381-fdd1-480f-b7ee-ef79b3d5ed9b', 'original_query': 'Query 1: How are the military relations between India and Bhutan?\\nResponse 1: I am unable to provide a summary of the military relations between India and Bhutan at this time. No tool has been used to extract and synthesize the text from the URLs provided.\\nQuery 2: How are the military relations between India and Bhutan?\\nResponse 2: Due to technical difficulties in extracting and synthesizi\u2026"
+            },
+            "search_results_0a": {
+              "type": "list",
+              "preview": "['https://thebusinessrule.com/top-10-profitable-indian-startups/', 'https://digibizworld.com/top-profitable-startups-in-india/', 'https://www.failory.com/startups/india', 'https://officechai.com/startups/these-are-indias-10-highest-profit-making-startup-unicorns/', 'https://www.upgrad.com/blog/top-15-startups-in-india-to-work-invest/']"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search the web for lists of top profitable startups in India."
+              },
+              {
+                "id": "1",
+                "description": "Extract the text from the first three search result URLs."
+              },
+              {
+                "id": "2",
+                "description": "Identify and list the top profitable startups mentioned in the extracted texts."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              },
+              {
+                "from": "1",
+                "to": "2",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "1",
+          "code_variants": {
+            "CODE_1A": "urls = globals_schema.get(\"search_results_0a\", [])\nif urls:\n  url1 = urls[0] if len(urls) > 0 else None\n  url2 = urls[1] if len(urls) > 1 else None\n  url3 = urls[2] if len(urls) > 2 else None\n  text1 = webpage_url_to_raw_text(url1) if url1 else ''\n  text2 = webpage_url_to_raw_text(url2) if url2 else ''\n  text3 = webpage_url_to_raw_text(url3) if url3 else ''\n\n  return {\"text1_1A\": text1, \"text2_1A\": text2, \"text3_1A\": text3}\nelse:\n  return {\"text1_1A\": \"\", \"text2_1A\": \"\", \"text3_1A\": \"\"}",
+            "CODE_1B": "urls = globals_schema.get(\"search_results_0a\", [])\nif urls:\n  url1 = urls[0] if len(urls) > 0 else None\n  url2 = urls[1] if len(urls) > 1 else None\n  url3 = urls[2] if len(urls) > 2 else None\n  summary1 = webpage_url_to_summary(url1) if url1 else ''\n  summary2 = webpage_url_to_summary(url2) if url2 else ''\n  summary3 = webpage_url_to_summary(url3) if url3 else ''\n\n  return {\"summary1_1B\": summary1, \"summary2_1B\": summary2, \"summary3_1B\": summary3}\nelse:\n  return {\"summary1_1B\": \"\", \"summary2_1B\": \"\", \"summary3_1B\": \"\"}",
+            "CODE_1C": "urls = globals_schema.get(\"search_results_0a\", [])\nif urls:\n  extracted_texts = []\n  for url in urls[:3]:\n    if url:\n      text = webpage_url_to_raw_text(url)\n      extracted_texts.append(text)\n    else:\n      extracted_texts.append('')\n\n  return {\"extracted_texts_1C\": extracted_texts}\nelse:\n  return {\"extracted_texts_1C\": []}"
+          }
+        },
+        "next_step_id": "1",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search the web for lists of top profitable startups in India."
+            },
+            {
+              "id": "1",
+              "description": "Extract the text from the first three search result URLs."
+            },
+            {
+              "id": "2",
+              "description": "Identify and list the top profitable startups mentioned in the extracted texts."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            },
+            {
+              "from": "1",
+              "to": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_1A": "urls = globals_schema.get(\"search_results_0a\", [])\nif urls:\n  url1 = urls[0] if len(urls) > 0 else None\n  url2 = urls[1] if len(urls) > 1 else None\n  url3 = urls[2] if len(urls) > 2 else None\n  text1 = webpage_url_to_raw_text(url1) if url1 else ''\n  text2 = webpage_url_to_raw_text(url2) if url2 else ''\n  text3 = webpage_url_to_raw_text(url3) if url3 else ''\n\n  return {\"text1_1A\": text1, \"text2_1A\": text2, \"text3_1A\": text3}\nelse:\n  return {\"text1_1A\": \"\", \"text2_1A\": \"\", \"text3_1A\": \"\"}",
+          "CODE_1B": "urls = globals_schema.get(\"search_results_0a\", [])\nif urls:\n  url1 = urls[0] if len(urls) > 0 else None\n  url2 = urls[1] if len(urls) > 1 else None\n  url3 = urls[2] if len(urls) > 2 else None\n  summary1 = webpage_url_to_summary(url1) if url1 else ''\n  summary2 = webpage_url_to_summary(url2) if url2 else ''\n  summary3 = webpage_url_to_summary(url3) if url3 else ''\n\n  return {\"summary1_1B\": summary1, \"summary2_1B\": summary2, \"summary3_1B\": summary3}\nelse:\n  return {\"summary1_1B\": \"\", \"summary2_1B\": \"\", \"summary3_1B\": \"\"}",
+          "CODE_1C": "urls = globals_schema.get(\"search_results_0a\", [])\nif urls:\n  extracted_texts = []\n  for url in urls[:3]:\n    if url:\n      text = webpage_url_to_raw_text(url)\n      extracted_texts.append(text)\n    else:\n      extracted_texts.append('')\n\n  return {\"extracted_texts_1C\": extracted_texts}\nelse:\n  return {\"extracted_texts_1C\": []}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [
+      {
+        "run_id": "0fbff7ca-e94f-4f33-8b43-6229dc54c195",
+        "step_id": "0",
+        "variant_used": "CODE_0A",
+        "code": "search_results_0a = web_search_urls(\"top profitable startups India list\", 5)\nreturn {\"search_results_0a\": search_results_0a}",
+        "status": "success",
+        "result": {
+          "search_results_0a": [
+            "https://thebusinessrule.com/top-10-profitable-indian-startups/",
+            "https://digibizworld.com/top-profitable-startups-in-india/",
+            "https://www.failory.com/startups/india",
+            "https://officechai.com/startups/these-are-indias-10-highest-profit-making-startup-unicorns/",
+            "https://www.upgrad.com/blog/top-15-startups-in-india-to-work-invest/"
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 16:02:11",
+        "total_time": "16.835",
+        "return_to": ""
+      },
+      {
+        "run_id": "082b1952-6118-457e-97dd-33059a719e31",
+        "step_id": "1",
+        "variant_used": "CODE_1A",
+        "code": "urls = globals_schema.get(\"search_results_0a\", [])\nif urls:\n  url1 = urls[0] if len(urls) > 0 else None\n  url2 = urls[1] if len(urls) > 1 else None\n  url3 = urls[2] if len(urls) > 2 else None\n  text1 = webpage_url_to_raw_text(url1) if url1 else ''\n  text2 = webpage_url_to_raw_text(url2) if url2 else ''\n  text3 = webpage_url_to_raw_text(url3) if url3 else ''\n\n  return {\"text1_1A\": text1, \"text2_1A\": text2, \"text3_1A\": text3}\nelse:\n  return {\"text1_1A\": \"\", \"text2_1A\": \"\", \"text3_1A\": \"\"}",
+        "status": "success",
+        "result": {
+          "text1_1A": [
+            {
+              "type": "text",
+              "text": "[trafilatura] Do you know India is the third largest startup ecosystem in the world? Yes, we are in the race along with China and the US. Although our startup ecosystem is still quite deep in water. But with novel technologies and unique business models, our startups have come a long way to get global recognition. In this article, you will get a thorough insight into the top 10 profitable Indian startups as of 2023.\nStay tuned!\nA Brief Overview\n| Name (Profitable Startups) | Year of Establishment | Founder(s) | Valuation |\n| Razorpay | 2014 | Harshil MathurShashank Kumar | $7.5 billion |\n| Info Edge | 1995 | Sanjeev Bikhchandani | $5.6 billion |\n| OfBusiness | 2005 | Asish MohapatraVasant SridharRuchi KalraBhuvan GuptaNitin Jain | $5 billion |\n| Nykaa | 2012 | Falguni Nayar | $4.9 billion |\n| Zerodha | 2010 | Nithin KamathNikhil Kamath | $2 billion |\n| Gupshup | 2004 | Beerud Sheth | $1.4 billion |\n| Amagi | 2008 | K.A. Srinivasan (Srini) | $1.4 billion |\n| EaseMyTrip | 2008 | Nishant PittiRikant Pitti | $1.03 billion |\n| Zoho | 1996 | Sridhar VembuSreenivas KamumuruTony G. Thomas | $1 billion |\n| Oxyzo | 2016 | Asish Mohapatra | $1 billion |\nDetails\n1. Razorpay\nRazorpay is an Indian financial technology company. It provides payment gateway solutions, payment processing, and payment settlement services for businesses of all sizes. Harshil Mathur and Shashank Kumar founded this company in 2013. Presently, it is headquartered in Bangalore, India.\nYou will get numerous payment options in Razorpay like-\n- Credit Cards\n- Debit Cards\n- Net Banking\n- UPI (Unified Payment Interface)\n- Mobile Wallets\nApart from this, you can also avail different payment-related features and services such as-\n- Automatic Payment Reconciliation\n- Automated Refunds\n- Subscription Billing\n- Invoice Management\nWe have covered detailed information about the Razorpay business model here. In that, we have described how it has processed over $50 billion in payment transactions for more than 5 million businesses in India. Prominent investors like Sequoia Capital, Ribbit Capital, and Market Partners back up Razorpay. Currently, its market valuation is $7.5 billion.\n2. Info Edge\nAn Indian tech company that stands out in the market of online recruitment, education, and real estate segment is Info Edge. Sanjeev Bikhchandani founded this company in 1995. Presently, the headquarters of Info Edge is present in Noida, Uttar Pradesh (India). It operates in several segments such as-\n- Online Recruitment Segment You must have heard about the flagship recruitment website Naukri.com. It belongs to Info Edge! Thats not the only one. Apart from that, it recruits several other recruitment portals namely- Naukrigulf.com and Firstnaukri.com.\n- Real Estate Segment Info Edge operates 99acres.com. This is a popular online platform where you can buy, sell, and rent various real estate properties in India.\n- Educational Segment It operates a famous education portal i.e., Shiksha.com. Here you get information regarding",
+              "annotations": null
+            }
+          ],
+          "text2_1A": [
+            {
+              "type": "text",
+              "text": "[trafilatura] Top 10 Profitable Startups in India 2024\nCurrently, India is the powerhouse of startups but does not know how many startups are making profits. Many startups appear in the corporate sector but only several great startup ideas have established themselves. Indias startup ecosystem has rapidly ascended to global prominence, boasting an array of innovative ventures that are reshaping various industries.\nIn 2024, the landscape is marked by several standout companies that have not only disrupted their respective industries but have also achieved impressive profitability. These most profitable startups in India span various sectors, from fintech and e-commerce to travel and infra, showcasing the diverse opportunities within the market. This article delves into the top 10 most profitable startups in India and highlights their financial successes.\nHere is the list of the Most Profitable Startups in India.\n1. Zerodha\nProfit  $347.35 million (INR 2,908 cr.)\nZerodha, an online discount brokerage firm founded in 2010, has revolutionized the trading landscape in India. With its user-friendly platform and cost-effective trading solutions, Zerodha has made investing accessible to millions. In 2024, Zerodha stands as the most profitable startup in India, boasting a profit of INR 2,908.9 crore. This success is attributed to its innovative business model, which includes zero brokerage fees for equity investments and a flat fee for intraday and F&O trades.\n2. Zoho Corporation\nProfit  $338.74 million (INR 2,836 cr.)\nZoho Corporation, established in 1996, offers a comprehensive suite of business software solutions, including CRM, invoicing, and office productivity tools. Known for its customer-centric innovation and organic growth, Zoho reported a profit of Rs 2,836 crore in 2024. Zoho has grown organically without external funding, reflecting its strong market presence and the continued demand for its versatile software products.\n3. OfBusiness\nProfit  $55.3 million (INR 463 cr.)\nOfBusiness, founded in 2015, is a fintech platform that provides SMEs with access to credit and raw materials. By leveraging technology, OfBusiness has streamlined the procurement process and offered financial support to small and medium enterprises. In 2024, it achieved a profit of Rs 463 crore, highlighting its critical role in empowering Indias SME sector with innovative financial products.\n4. Groww\nProfit  $53.5 million (INR 448 cr.)\nGroww, an investment platform launched in 2017, has simplified investing for individuals by offering a wide range of financial products, including mutual funds, stocks, and fixed deposits. In 2024, Groww reported a profit of Rs 448 crore, underscoring its success in democratizing investment opportunities in India. Its user-friendly interface and educational resources have attracted a large user base.\n5. Dream11\nProfit  $14 million (INR 188 cr.)\nDream11, the fantasy sports platform launched in 2008, allows users to create fantasy teams and compete in various s",
+              "annotations": null
+            }
+          ],
+          "text3_1A": [
+            {
+              "type": "text",
+              "text": "[trafilatura] 1) Urban Company Urban is a marketplace for independent contractors.\nDetails of the startup:\nState: Haryana City: Gurgaon Started in: 2014 Founders: Abhiraj Singh Bhal, Raghav Chandra, Varun Khaitan Industries: Apps, Home Services, Marketplace, Service Industry Number of employees: 1001-5000 Funding: $445,920,356 Funding rounds: 12 Number of investors: 16 (Bessemer Venture Partners, Tiger Global Management, Accel, Wellington Management, Dragoneer Investment Group) You can find their website here .\n2) Classplus Classplus is a mobile-first SaaS platform that allows 3000+ tutors to totally automate their curriculum and operations.\nDetails of the startup:\nState: Uttar Pradesh City: Noida Started in: 2018 Founders: Bhaswat Agarwal, Bikash Dash, Mukul Rustagi, Nikhil Goel, Vatsal Rustagi Industries: B2B, E-Learning, EdTech, Education, Mobile Apps, SaaS, Software Number of employees: 101-250 Funding: $89,506,451 Funding rounds: 10 Number of investors: 20 (Sequoia Capital India, Kunal Shah, Tiger Global Management, GSV Ventures, RTP Global) You can find their website here .\n3) Paytm Paytm is a payment gateway that allows users and businesses to make payments.\nDetails of the startup:\nState: Uttar Pradesh City: Noida Started in: 2010 Founders: Akshay Khanna, Vijay Shekhar Sharma Industries: E-Commerce, Finance, Financial Services, Internet, Mobile Apps, Mobile Payments Number of employees: 501-1000 Funding: $32,448,851 Funding rounds: 4 Number of investors: 4 (Vijay Shekhar Sharma, K2 Global, Investopad, One97 Mobility Fund) You can find their website here .\n4) Apna Apna is a professional networking and job-search platform that connects blue- and gray-collar professionals with like-minded people and places to work.\nDetails of the startup:\nState: Maharashtra City: Mumbai Started in: 2019 Founders: Nirmit Parikh Industries: Employment, Human Resources, Recruiting, Staffing Agency Number of employees: 101-250 Funding: $93,450,000 Funding rounds: 4 Number of investors: 6 (Sequoia Capital India, Greenoaks Capital, Tiger Global Management, Insight Partners, rocketship.vc) You can find their website here .\n5) Razorpay Razorpay is a payment acceptance, processing, and disbursement platform for businesses.\nDetails of the startup:\nState: Karnataka City: Bengaluru Started in: 2014 Founders: Harshil Mathur, Shashank Kumar Industries: Financial Services, FinTech, Payments, Software Number of employees: 1001-5000 Funding: $366,600,000 Funding rounds: 7 Number of investors: 29 (Sequoia Capital India, Ribbit Capital, Kunal Shah, GIC, Tiger Global Management) You can find their website here .\n6) UpGrad UpGrad is a higher education portal that offers courses in Data Science, Technology, Management, and Law online.\nDetails of the startup:\nState: Maharashtra City: Mumbai Started in: 2015 Founders: Mayank Kumar, Phalgun Kompalli, Ravijot Chugh, Ronnie Screwvala Industries: E-Learning, EdTech, Education Number of employees: 1001-5000 Funding: $176,283,446 Funding rounds: 4 Numb",
+              "annotations": null
+            }
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 16:02:40",
+        "total_time": "20.095",
+        "return_to": ""
+      }
+    ],
+    "summarizer_snapshots": [
+      {
+        "run_id": "5b617e6f-e988-4b4c-a613-91c2da34210a",
+        "input": {
+          "original_query": "Query 1: Which are the top profitable startups in India?",
+          "globals_schema": {
+            "memory": [
+              {
+                "score": 164.70588235294116,
+                "session_id": "c33dd381-fdd1-480f-b7ee-ef79b3d5ed9b",
+                "original_query": "Query 1: How are the military relations between India and Bhutan?\nResponse 1: I am unable to provide a summary of the military relations between India and Bhutan at this time. No tool has been used to extract and synthesize the text from the URLs provided.\nQuery 2: How are the military relations between India and Bhutan?\nResponse 2: Due to technical difficulties in extracting and synthesizing text from the provided URLs, a comprehensive summary of the military relations between India and Bhutan could not be generated. However, here are the search results that were found, which may contain relevant information:\n\n*   [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations)\n*   [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3)\n*   [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/)\n*   [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations)\nQuery 3: How are the military relations between India and Bhutan?\nResponse 3: I was unable to extract and summarize text from the provided URLs regarding the military relations between India and Bhutan. For your convenience, here are the URLs that were used in the search. You may find the information you need by reviewing them directly:\n\n*   [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations)\n*   [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3)\n*   [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/)\n*   [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations)\nQuery 4: How are the military relations between India and Bhutan? If a tool failes, ask decision to use some other tools to find this information",
+                "summary_output": "Due to technical difficulties in extracting and synthesizing text from the provided URLs, a comprehensive summary of the military relations between India and Bhutan could not be generated. The tools attempted to retrieve information from the following links, but were unsuccessful:\n\n*   [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations)\n*   [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3)\n*   [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/)\n*   [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations)",
+                "timestamp": "2025-05-18T04:36:36Z"
+              },
+              {
+                "score": 164.70588235294116,
+                "session_id": "09fde326-bc32-4394-99cd-d820b9b68e97",
+                "original_query": "Query 1: How are the military relations between India and Bhutan?\nResponse 1: I am unable to provide a summary of the military relations between India and Bhutan at this time. No tool has been used to extract and synthesize the text from the URLs provided.\nQuery 2: How are the military relations between India and Bhutan?\nResponse 2: Due to technical difficulties in extracting and synthesizing text from the provided URLs, a comprehensive summary of the military relations between India and Bhutan could not be generated. However, here are the search results that were found, which may contain relevant information:\n\n*   [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations)\n*   [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3)\n*   [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/)\n*   [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations)\nQuery 3: How are the military relations between India and Bhutan?",
+                "summary_output": "I was unable to extract and summarize text from the provided URLs regarding the military relations between India and Bhutan. For your convenience, here are the URLs that were used in the search. You may find the information you need by reviewing them directly:\n\n*   [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations)\n*   [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3)\n*   [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/)\n*   [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations)",
+                "timestamp": "2025-05-18T04:36:36Z"
+              },
+              {
+                "score": 157.77777777777777,
+                "session_id": "f35f73a8-6727-42dc-adb7-5d82d3c72ff6",
+                "original_query": "Query 1: What's the latest between India and Australia?",
+                "summary_output": "Here's a summary of the latest developments between India and Australia, focusing on trade, defense, and strategic partnerships, based on recent news articles. Note that the summarization tool experienced technical issues, so this summary is based on direct links to the articles.\n\n*   **Deepening Trade and Defence Relations:** India and Australia are actively working to deepen their trade and defense relations. This includes discussions on comprehensive strategic partnerships. [https://www.hindustantimes.com/india-news/india-australia-deepen-trade-defence-relations-101678472714264.html](https://www.hindustantimes.com/india-news/india-australia-deepen-trade-defence-relations-101678472714264.html)\n*   **Review of Strategic Partnership:** India and Australia have reviewed their comprehensive strategic partnership during foreign ministers' meetings. [https://www.hindustantimes.com/india-news/india-australia-review-comprehensive-strategic-parternship-at-foreign-ministers-meet-101730818495070.html](https://www.hindustantimes.com/india-news/india-australia-review-comprehensive-strategic-parternship-at-foreign-ministers-meet-101730818495070.html)\n*   **Clean Energy Tie-up:** India and Australia have agreed to collaborate in clean energy initiatives, pushing for trade pacts to support this collaboration. [https://indianexpress.com/article/india/india-australia-agree-on-tie-up-in-clean-energy-push-for-trade-pact-9680508/](https://indianexpress.com/article/india/india-australia-agree-on-tie-up-in-clean-energy-push-for-trade-pact-9680508/)\n*   **Strategic Ties:** Further information on the strategic ties between Australia and India can be found on NDTV. [https://www.ndtv.com/topic/australia-india-strategic-ties](https://www.ndtv.com/topic/australia-india-strategic-ties)\n*   **Discussions and Talks:** Recent talks between India and Australia cover various aspects of their relationship. [https://apnews.com/article/india-australia-talks-ccaecb76ae2d9e029aa80554b55f3e02](https://apnews.com/article/india-australia-talks-ccaecb76ae2d9e029aa80554b55f3e02)",
+                "timestamp": "2025-05-19T00:50:24Z"
+              }
+            ],
+            "search_results_0a": [
+              "https://thebusinessrule.com/top-10-profitable-indian-startups/",
+              "https://digibizworld.com/top-profitable-startups-in-india/",
+              "https://www.failory.com/startups/india",
+              "https://officechai.com/startups/these-are-indias-10-highest-profit-making-startup-unicorns/",
+              "https://www.upgrad.com/blog/top-15-startups-in-india-to-work-invest/"
+            ],
+            "text1_1A": [
+              {
+                "type": "text",
+                "text": "[trafilatura] Do you know India is the third largest startup ecosystem in the world? Yes, we are in the race along with China and the US. Although our startup ecosystem is still quite deep in water. But with novel technologies and unique business models, our startups have come a long way to get global recognition. In this article, you will get a thorough insight into the top 10 profitable Indian startups as of 2023.\nStay tuned!\nA Brief Overview\n| Name (Profitable Startups) | Year of Establishment | Founder(s) | Valuation |\n| Razorpay | 2014 | Harshil MathurShashank Kumar | $7.5 billion |\n| Info Edge | 1995 | Sanjeev Bikhchandani | $5.6 billion |\n| OfBusiness | 2005 | Asish MohapatraVasant SridharRuchi KalraBhuvan GuptaNitin Jain | $5 billion |\n| Nykaa | 2012 | Falguni Nayar | $4.9 billion |\n| Zerodha | 2010 | Nithin KamathNikhil Kamath | $2 billion |\n| Gupshup | 2004 | Beerud Sheth | $1.4 billion |\n| Amagi | 2008 | K.A. Srinivasan (Srini) | $1.4 billion |\n| EaseMyTrip | 2008 | Nishant PittiRikant Pitti | $1.03 billion |\n| Zoho | 1996 | Sridhar VembuSreenivas KamumuruTony G. Thomas | $1 billion |\n| Oxyzo | 2016 | Asish Mohapatra | $1 billion |\nDetails\n1. Razorpay\nRazorpay is an Indian financial technology company. It provides payment gateway solutions, payment processing, and payment settlement services for businesses of all sizes. Harshil Mathur and Shashank Kumar founded this company in 2013. Presently, it is headquartered in Bangalore, India.\nYou will get numerous payment options in Razorpay like-\n- Credit Cards\n- Debit Cards\n- Net Banking\n- UPI (Unified Payment Interface)\n- Mobile Wallets\nApart from this, you can also avail different payment-related features and services such as-\n- Automatic Payment Reconciliation\n- Automated Refunds\n- Subscription Billing\n- Invoice Management\nWe have covered detailed information about the Razorpay business model here. In that, we have described how it has processed over $50 billion in payment transactions for more than 5 million businesses in India. Prominent investors like Sequoia Capital, Ribbit Capital, and Market Partners back up Razorpay. Currently, its market valuation is $7.5 billion.\n2. Info Edge\nAn Indian tech company that stands out in the market of online recruitment, education, and real estate segment is Info Edge. Sanjeev Bikhchandani founded this company in 1995. Presently, the headquarters of Info Edge is present in Noida, Uttar Pradesh (India). It operates in several segments such as-\n- Online Recruitment Segment You must have heard about the flagship recruitment website Naukri.com. It belongs to Info Edge! Thats not the only one. Apart from that, it recruits several other recruitment portals namely- Naukrigulf.com and Firstnaukri.com.\n- Real Estate Segment Info Edge operates 99acres.com. This is a popular online platform where you can buy, sell, and rent various real estate properties in India.\n- Educational Segment It operates a famous education portal i.e., Shiksha.com. Here you get information regarding",
+                "annotations": null
+              }
+            ],
+            "text2_1A": [
+              {
+                "type": "text",
+                "text": "[trafilatura] Top 10 Profitable Startups in India 2024\nCurrently, India is the powerhouse of startups but does not know how many startups are making profits. Many startups appear in the corporate sector but only several great startup ideas have established themselves. Indias startup ecosystem has rapidly ascended to global prominence, boasting an array of innovative ventures that are reshaping various industries.\nIn 2024, the landscape is marked by several standout companies that have not only disrupted their respective industries but have also achieved impressive profitability. These most profitable startups in India span various sectors, from fintech and e-commerce to travel and infra, showcasing the diverse opportunities within the market. This article delves into the top 10 most profitable startups in India and highlights their financial successes.\nHere is the list of the Most Profitable Startups in India.\n1. Zerodha\nProfit  $347.35 million (INR 2,908 cr.)\nZerodha, an online discount brokerage firm founded in 2010, has revolutionized the trading landscape in India. With its user-friendly platform and cost-effective trading solutions, Zerodha has made investing accessible to millions. In 2024, Zerodha stands as the most profitable startup in India, boasting a profit of INR 2,908.9 crore. This success is attributed to its innovative business model, which includes zero brokerage fees for equity investments and a flat fee for intraday and F&O trades.\n2. Zoho Corporation\nProfit  $338.74 million (INR 2,836 cr.)\nZoho Corporation, established in 1996, offers a comprehensive suite of business software solutions, including CRM, invoicing, and office productivity tools. Known for its customer-centric innovation and organic growth, Zoho reported a profit of Rs 2,836 crore in 2024. Zoho has grown organically without external funding, reflecting its strong market presence and the continued demand for its versatile software products.\n3. OfBusiness\nProfit  $55.3 million (INR 463 cr.)\nOfBusiness, founded in 2015, is a fintech platform that provides SMEs with access to credit and raw materials. By leveraging technology, OfBusiness has streamlined the procurement process and offered financial support to small and medium enterprises. In 2024, it achieved a profit of Rs 463 crore, highlighting its critical role in empowering Indias SME sector with innovative financial products.\n4. Groww\nProfit  $53.5 million (INR 448 cr.)\nGroww, an investment platform launched in 2017, has simplified investing for individuals by offering a wide range of financial products, including mutual funds, stocks, and fixed deposits. In 2024, Groww reported a profit of Rs 448 crore, underscoring its success in democratizing investment opportunities in India. Its user-friendly interface and educational resources have attracted a large user base.\n5. Dream11\nProfit  $14 million (INR 188 cr.)\nDream11, the fantasy sports platform launched in 2008, allows users to create fantasy teams and compete in various s",
+                "annotations": null
+              }
+            ],
+            "text3_1A": [
+              {
+                "type": "text",
+                "text": "[trafilatura] 1) Urban Company Urban is a marketplace for independent contractors.\nDetails of the startup:\nState: Haryana City: Gurgaon Started in: 2014 Founders: Abhiraj Singh Bhal, Raghav Chandra, Varun Khaitan Industries: Apps, Home Services, Marketplace, Service Industry Number of employees: 1001-5000 Funding: $445,920,356 Funding rounds: 12 Number of investors: 16 (Bessemer Venture Partners, Tiger Global Management, Accel, Wellington Management, Dragoneer Investment Group) You can find their website here .\n2) Classplus Classplus is a mobile-first SaaS platform that allows 3000+ tutors to totally automate their curriculum and operations.\nDetails of the startup:\nState: Uttar Pradesh City: Noida Started in: 2018 Founders: Bhaswat Agarwal, Bikash Dash, Mukul Rustagi, Nikhil Goel, Vatsal Rustagi Industries: B2B, E-Learning, EdTech, Education, Mobile Apps, SaaS, Software Number of employees: 101-250 Funding: $89,506,451 Funding rounds: 10 Number of investors: 20 (Sequoia Capital India, Kunal Shah, Tiger Global Management, GSV Ventures, RTP Global) You can find their website here .\n3) Paytm Paytm is a payment gateway that allows users and businesses to make payments.\nDetails of the startup:\nState: Uttar Pradesh City: Noida Started in: 2010 Founders: Akshay Khanna, Vijay Shekhar Sharma Industries: E-Commerce, Finance, Financial Services, Internet, Mobile Apps, Mobile Payments Number of employees: 501-1000 Funding: $32,448,851 Funding rounds: 4 Number of investors: 4 (Vijay Shekhar Sharma, K2 Global, Investopad, One97 Mobility Fund) You can find their website here .\n4) Apna Apna is a professional networking and job-search platform that connects blue- and gray-collar professionals with like-minded people and places to work.\nDetails of the startup:\nState: Maharashtra City: Mumbai Started in: 2019 Founders: Nirmit Parikh Industries: Employment, Human Resources, Recruiting, Staffing Agency Number of employees: 101-250 Funding: $93,450,000 Funding rounds: 4 Number of investors: 6 (Sequoia Capital India, Greenoaks Capital, Tiger Global Management, Insight Partners, rocketship.vc) You can find their website here .\n5) Razorpay Razorpay is a payment acceptance, processing, and disbursement platform for businesses.\nDetails of the startup:\nState: Karnataka City: Bengaluru Started in: 2014 Founders: Harshil Mathur, Shashank Kumar Industries: Financial Services, FinTech, Payments, Software Number of employees: 1001-5000 Funding: $366,600,000 Funding rounds: 7 Number of investors: 29 (Sequoia Capital India, Ribbit Capital, Kunal Shah, GIC, Tiger Global Management) You can find their website here .\n6) UpGrad UpGrad is a higher education portal that offers courses in Data Science, Technology, Management, and Law online.\nDetails of the startup:\nState: Maharashtra City: Mumbai Started in: 2015 Founders: Mayank Kumar, Phalgun Kompalli, Ravijot Chugh, Ronnie Screwvala Industries: E-Learning, EdTech, Education Number of employees: 1001-5000 Funding: $176,283,446 Funding rounds: 4 Numb",
+                "annotations": null
+              }
+            ]
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "top profitable startups",
+                      "India"
+                    ],
+                    "result_requirement": "List of top profitable startups in India",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.8",
+                    "reasoning": "The query requires finding the top profitable startups in India. This information is not readily available and needs to be searched and compiled. Memory does not contain the answer.",
+                    "local_reasoning": "The query is new and needs external search.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "0",
+                  "description": "Search the web for lists of top profitable startups in India.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "search_results_0a": [
+                      "https://thebusinessrule.com/top-10-profitable-indian-startups/",
+                      "https://digibizworld.com/top-profitable-startups-in-india/",
+                      "https://www.failory.com/startups/india",
+                      "https://officechai.com/startups/these-are-indias-10-highest-profit-making-startup-unicorns/",
+                      "https://www.upgrad.com/blog/top-15-startups-in-india-to-work-invest/"
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "top profitable startups",
+                      "India"
+                    ],
+                    "result_requirement": "List of top profitable startups in India",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": true,
+                    "confidence": "0.7",
+                    "reasoning": "Search results obtained. Need to extract the names of top profitable startups from the search results.",
+                    "local_reasoning": "The tool provided search results. Now need to parse them.",
+                    "last_tooluse_summary": "Web search returned URLs of potential lists of top profitable startups.",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "0"
+              },
+              {
+                "data": {
+                  "index": "1",
+                  "description": "Extract the text from the first three search result URLs.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "text1_1A": [
+                      {
+                        "type": "text",
+                        "text": "[trafilatura] Do you know India is the third largest startup ecosystem in the world? Yes, we are in the race along with China and the US. Although our startup ecosystem is still quite deep in water. But with novel technologies and unique business models, our startups have come a long way to get global recognition. In this article, you will get a thorough insight into the top 10 profitable Indian startups as of 2023.\nStay tuned!\nA Brief Overview\n| Name (Profitable Startups) | Year of Establishment | Founder(s) | Valuation |\n| Razorpay | 2014 | Harshil MathurShashank Kumar | $7.5 billion |\n| Info Edge | 1995 | Sanjeev Bikhchandani | $5.6 billion |\n| OfBusiness | 2005 | Asish MohapatraVasant SridharRuchi KalraBhuvan GuptaNitin Jain | $5 billion |\n| Nykaa | 2012 | Falguni Nayar | $4.9 billion |\n| Zerodha | 2010 | Nithin KamathNikhil Kamath | $2 billion |\n| Gupshup | 2004 | Beerud Sheth | $1.4 billion |\n| Amagi | 2008 | K.A. Srinivasan (Srini) | $1.4 billion |\n| EaseMyTrip | 2008 | Nishant PittiRikant Pitti | $1.03 billion |\n| Zoho | 1996 | Sridhar VembuSreenivas KamumuruTony G. Thomas | $1 billion |\n| Oxyzo | 2016 | Asish Mohapatra | $1 billion |\nDetails\n1. Razorpay\nRazorpay is an Indian financial technology company. It provides payment gateway solutions, payment processing, and payment settlement services for businesses of all sizes. Harshil Mathur and Shashank Kumar founded this company in 2013. Presently, it is headquartered in Bangalore, India.\nYou will get numerous payment options in Razorpay like-\n- Credit Cards\n- Debit Cards\n- Net Banking\n- UPI (Unified Payment Interface)\n- Mobile Wallets\nApart from this, you can also avail different payment-related features and services such as-\n- Automatic Payment Reconciliation\n- Automated Refunds\n- Subscription Billing\n- Invoice Management\nWe have covered detailed information about the Razorpay business model here. In that, we have described how it has processed over $50 billion in payment transactions for more than 5 million businesses in India. Prominent investors like Sequoia Capital, Ribbit Capital, and Market Partners back up Razorpay. Currently, its market valuation is $7.5 billion.\n2. Info Edge\nAn Indian tech company that stands out in the market of online recruitment, education, and real estate segment is Info Edge. Sanjeev Bikhchandani founded this company in 1995. Presently, the headquarters of Info Edge is present in Noida, Uttar Pradesh (India). It operates in several segments such as-\n- Online Recruitment Segment You must have heard about the flagship recruitment website Naukri.com. It belongs to Info Edge! Thats not the only one. Apart from that, it recruits several other recruitment portals namely- Naukrigulf.com and Firstnaukri.com.\n- Real Estate Segment Info Edge operates 99acres.com. This is a popular online platform where you can buy, sell, and rent various real estate properties in India.\n- Educational Segment It operates a famous education portal i.e., Shiksha.com. Here you get information regarding",
+                        "annotations": null
+                      }
+                    ],
+                    "text2_1A": [
+                      {
+                        "type": "text",
+                        "text": "[trafilatura] Top 10 Profitable Startups in India 2024\nCurrently, India is the powerhouse of startups but does not know how many startups are making profits. Many startups appear in the corporate sector but only several great startup ideas have established themselves. Indias startup ecosystem has rapidly ascended to global prominence, boasting an array of innovative ventures that are reshaping various industries.\nIn 2024, the landscape is marked by several standout companies that have not only disrupted their respective industries but have also achieved impressive profitability. These most profitable startups in India span various sectors, from fintech and e-commerce to travel and infra, showcasing the diverse opportunities within the market. This article delves into the top 10 most profitable startups in India and highlights their financial successes.\nHere is the list of the Most Profitable Startups in India.\n1. Zerodha\nProfit  $347.35 million (INR 2,908 cr.)\nZerodha, an online discount brokerage firm founded in 2010, has revolutionized the trading landscape in India. With its user-friendly platform and cost-effective trading solutions, Zerodha has made investing accessible to millions. In 2024, Zerodha stands as the most profitable startup in India, boasting a profit of INR 2,908.9 crore. This success is attributed to its innovative business model, which includes zero brokerage fees for equity investments and a flat fee for intraday and F&O trades.\n2. Zoho Corporation\nProfit  $338.74 million (INR 2,836 cr.)\nZoho Corporation, established in 1996, offers a comprehensive suite of business software solutions, including CRM, invoicing, and office productivity tools. Known for its customer-centric innovation and organic growth, Zoho reported a profit of Rs 2,836 crore in 2024. Zoho has grown organically without external funding, reflecting its strong market presence and the continued demand for its versatile software products.\n3. OfBusiness\nProfit  $55.3 million (INR 463 cr.)\nOfBusiness, founded in 2015, is a fintech platform that provides SMEs with access to credit and raw materials. By leveraging technology, OfBusiness has streamlined the procurement process and offered financial support to small and medium enterprises. In 2024, it achieved a profit of Rs 463 crore, highlighting its critical role in empowering Indias SME sector with innovative financial products.\n4. Groww\nProfit  $53.5 million (INR 448 cr.)\nGroww, an investment platform launched in 2017, has simplified investing for individuals by offering a wide range of financial products, including mutual funds, stocks, and fixed deposits. In 2024, Groww reported a profit of Rs 448 crore, underscoring its success in democratizing investment opportunities in India. Its user-friendly interface and educational resources have attracted a large user base.\n5. Dream11\nProfit  $14 million (INR 188 cr.)\nDream11, the fantasy sports platform launched in 2008, allows users to create fantasy teams and compete in various s",
+                        "annotations": null
+                      }
+                    ],
+                    "text3_1A": [
+                      {
+                        "type": "text",
+                        "text": "[trafilatura] 1) Urban Company Urban is a marketplace for independent contractors.\nDetails of the startup:\nState: Haryana City: Gurgaon Started in: 2014 Founders: Abhiraj Singh Bhal, Raghav Chandra, Varun Khaitan Industries: Apps, Home Services, Marketplace, Service Industry Number of employees: 1001-5000 Funding: $445,920,356 Funding rounds: 12 Number of investors: 16 (Bessemer Venture Partners, Tiger Global Management, Accel, Wellington Management, Dragoneer Investment Group) You can find their website here .\n2) Classplus Classplus is a mobile-first SaaS platform that allows 3000+ tutors to totally automate their curriculum and operations.\nDetails of the startup:\nState: Uttar Pradesh City: Noida Started in: 2018 Founders: Bhaswat Agarwal, Bikash Dash, Mukul Rustagi, Nikhil Goel, Vatsal Rustagi Industries: B2B, E-Learning, EdTech, Education, Mobile Apps, SaaS, Software Number of employees: 101-250 Funding: $89,506,451 Funding rounds: 10 Number of investors: 20 (Sequoia Capital India, Kunal Shah, Tiger Global Management, GSV Ventures, RTP Global) You can find their website here .\n3) Paytm Paytm is a payment gateway that allows users and businesses to make payments.\nDetails of the startup:\nState: Uttar Pradesh City: Noida Started in: 2010 Founders: Akshay Khanna, Vijay Shekhar Sharma Industries: E-Commerce, Finance, Financial Services, Internet, Mobile Apps, Mobile Payments Number of employees: 501-1000 Funding: $32,448,851 Funding rounds: 4 Number of investors: 4 (Vijay Shekhar Sharma, K2 Global, Investopad, One97 Mobility Fund) You can find their website here .\n4) Apna Apna is a professional networking and job-search platform that connects blue- and gray-collar professionals with like-minded people and places to work.\nDetails of the startup:\nState: Maharashtra City: Mumbai Started in: 2019 Founders: Nirmit Parikh Industries: Employment, Human Resources, Recruiting, Staffing Agency Number of employees: 101-250 Funding: $93,450,000 Funding rounds: 4 Number of investors: 6 (Sequoia Capital India, Greenoaks Capital, Tiger Global Management, Insight Partners, rocketship.vc) You can find their website here .\n5) Razorpay Razorpay is a payment acceptance, processing, and disbursement platform for businesses.\nDetails of the startup:\nState: Karnataka City: Bengaluru Started in: 2014 Founders: Harshil Mathur, Shashank Kumar Industries: Financial Services, FinTech, Payments, Software Number of employees: 1001-5000 Funding: $366,600,000 Funding rounds: 7 Number of investors: 29 (Sequoia Capital India, Ribbit Capital, Kunal Shah, GIC, Tiger Global Management) You can find their website here .\n6) UpGrad UpGrad is a higher education portal that offers courses in Data Science, Technology, Management, and Law online.\nDetails of the startup:\nState: Maharashtra City: Mumbai Started in: 2015 Founders: Mayank Kumar, Phalgun Kompalli, Ravijot Chugh, Ronnie Screwvala Industries: E-Learning, EdTech, Education Number of employees: 1001-5000 Funding: $176,283,446 Funding rounds: 4 Numb",
+                        "annotations": null
+                      }
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "top profitable startups",
+                      "India"
+                    ],
+                    "result_requirement": "List of top profitable startups in India",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "0.9",
+                    "reasoning": "We have extracted text from three different sources, which contain the information needed to create a list of the top profitable startups in India. The extracted data includes company names, and in some cases, profit figures. Therefore, we can now summarize the results.",
+                    "local_reasoning": "Tool returned useful data, we can summarize.",
+                    "last_tooluse_summary": "Extracted text from three URLs: thebusinessrule.com, digibizworld.com, and failory.com",
+                    "solution_summary": "Extracted names and profit data from websites.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Consolidate the lists of top profitable startups in India from the extracted text (text1_1A, text2_1A, and text3_1A). Present a list of the top 10 startups along with their reported profit (if available). Include the source URL for each startup's information. Use markdown format."
+                  },
+                  "from_step": "1"
+                },
+                "id": "1"
+              },
+              {
+                "data": {
+                  "index": "2",
+                  "description": "Identify and list the top profitable startups mentioned in the extracted texts.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "1"
+                },
+                "id": "2"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "0"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "2"
+              },
+              {
+                "type": "normal",
+                "source": "1",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "1",
+                "target": "2"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "top profitable startups",
+              "India"
+            ],
+            "result_requirement": "List of top profitable startups in India",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.9",
+            "reasoning": "We have extracted text from three different sources, which contain the information needed to create a list of the top profitable startups in India. The extracted data includes company names, and in some cases, profit figures. Therefore, we can now summarize the results.",
+            "local_reasoning": "Tool returned useful data, we can summarize.",
+            "last_tooluse_summary": "Extracted text from three URLs: thebusinessrule.com, digibizworld.com, and failory.com",
+            "solution_summary": "Extracted names and profit data from websites.",
+            "route": "summarize",
+            "instruction_to_summarize": "Consolidate the lists of top profitable startups in India from the extracted text (text1_1A, text2_1A, and text3_1A). Present a list of the top 10 startups along with their reported profit (if available). Include the source URL for each startup's information. Use markdown format."
+          }
+        },
+        "summary_output": "Here's a consolidated list of top profitable startups in India based on recent data:\n\n1.  **Zerodha:** An online discount brokerage firm.\n    *   Profit: $347.35 million (INR 2,908 cr.) (2024)\n    *   Source: [digibizworld.com](https://digibizworld.com/top-profitable-startups-in-india/)\n\n2.  **Zoho Corporation:** Offers a comprehensive suite of business software solutions.\n    *   Profit: $338.74 million (INR 2,836 cr.) (2024)\n    *   Source: [digibizworld.com](https://digibizworld.com/top-profitable-startups-in-india/)\n\n3.  **OfBusiness:** A fintech platform providing SMEs with access to credit and raw materials.\n    *   Profit: $55.3 million (INR 463 cr.) (2024)\n    *   Source: [digibizworld.com](https://digibizworld.com/top-profitable-startups-in-india/)\n\n4.  **Groww:** An investment platform offering various financial products.\n    *   Profit: $53.5 million (INR 448 cr.) (2024)\n    *   Source: [digibizworld.com](https://digibizworld.com/top-profitable-startups-in-india/)\n\n5.  **Dream11:** A fantasy sports platform.\n    *   Profit: $14 million (INR 188 cr.) (2024)\n    *   Source: [digibizworld.com](https://digibizworld.com/top-profitable-startups-in-india/)\n\n6.  **Razorpay:** Provides payment gateway solutions and payment processing services.\n    *   Valuation: $7.5 billion\n    *   Source: [thebusinessrule.com](https://thebusinessrule.com/top-10-profitable-indian-startups/)\n\n7.  **Info Edge:** Operates online recruitment, education, and real estate platforms.\n    *   Valuation: $5.6 billion\n    *   Source: [thebusinessrule.com](https://thebusinessrule.com/top-10-profitable-indian-startups/)\n\n8.  **Nykaa:** An e-commerce platform for beauty and lifestyle products.\n    *   Valuation: $4.9 billion\n    *   Source: [thebusinessrule.com](https://thebusinessrule.com/top-10-profitable-indian-startups/)\n\n9.  **Gupshup:** A conversational messaging platform.\n    *   Valuation: $1.4 billion\n    *   Source: [thebusinessrule.com](https://thebusinessrule.com/top-10-profitable-indian-startups/)\n\n10. **EaseMyTrip:** An online travel platform.\n    *   Valuation: $1.03 billion\n    *   Source: [thebusinessrule.com](https://thebusinessrule.com/top-10-profitable-indian-startups/)",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-19T10:31:32Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "Here's a consolidated list of top profitable startups in India based on recent data:\n\n1.  **Zerodha:** An online discount brokerage firm.\n    *   Profit: $347.35 million (INR 2,908 cr.) (2024)\n    *   Source: [digibizworld.com](https://digibizworld.com/top-profitable-startups-in-india/)\n\n2.  **Zoho Corporation:** Offers a comprehensive suite of business software solutions.\n    *   Profit: $338.74 million (INR 2,836 cr.) (2024)\n    *   Source: [digibizworld.com](https://digibizworld.com/top-profitable-startups-in-india/)\n\n3.  **OfBusiness:** A fintech platform providing SMEs with access to credit and raw materials.\n    *   Profit: $55.3 million (INR 463 cr.) (2024)\n    *   Source: [digibizworld.com](https://digibizworld.com/top-profitable-startups-in-india/)\n\n4.  **Groww:** An investment platform offering various financial products.\n    *   Profit: $53.5 million (INR 448 cr.) (2024)\n    *   Source: [digibizworld.com](https://digibizworld.com/top-profitable-startups-in-india/)\n\n5.  **Dream11:** A fantasy sports platform.\n    *   Profit: $14 million (INR 188 cr.) (2024)\n    *   Source: [digibizworld.com](https://digibizworld.com/top-profitable-startups-in-india/)\n\n6.  **Razorpay:** Provides payment gateway solutions and payment processing services.\n    *   Valuation: $7.5 billion\n    *   Source: [thebusinessrule.com](https://thebusinessrule.com/top-10-profitable-indian-startups/)\n\n7.  **Info Edge:** Operates online recruitment, education, and real estate platforms.\n    *   Valuation: $5.6 billion\n    *   Source: [thebusinessrule.com](https://thebusinessrule.com/top-10-profitable-indian-startups/)\n\n8.  **Nykaa:** An e-commerce platform for beauty and lifestyle products.\n    *   Valuation: $4.9 billion\n    *   Source: [thebusinessrule.com](https://thebusinessrule.com/top-10-profitable-indian-startups/)\n\n9.  **Gupshup:** A conversational messaging platform.\n    *   Valuation: $1.4 billion\n    *   Source: [thebusinessrule.com](https://thebusinessrule.com/top-10-profitable-indian-startups/)\n\n10. **EaseMyTrip:** An online travel platform.\n    *   Valuation: $1.03 billion\n    *   Source: [thebusinessrule.com](https://thebusinessrule.com/top-10-profitable-indian-startups/)",
+    "status": "success",
+    "completed_at": "2025-05-19T10:33:15.128617"
+  },
+  "status": "success",
+  "final_step_id": "2",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-19T10:33:15.133623",
+  "original_query": "Query 1: Which are the top profitable startups in India?",
+  "final_summary": "Here's a consolidated list of top profitable startups in India based on recent data:\n\n1.  **Zerodha:** An online discount brokerage firm.\n    *   Profit: $347.35 million (INR 2,908 cr.) (2024)\n    *   Source: [digibizworld.com](https://digibizworld.com/top-profitable-startups-in-india/)\n\n2.  **Zoho Corporation:** Offers a comprehensive suite of business software solutions.\n    *   Profit: $338.74 million (INR 2,836 cr.) (2024)\n    *   Source: [digibizworld.com](https://digibizworld.com/top-profitable-startups-in-india/)\n\n3.  **OfBusiness:** A fintech platform providing SMEs with access to credit and raw materials.\n    *   Profit: $55.3 million (INR 463 cr.) (2024)\n    *   Source: [digibizworld.com](https://digibizworld.com/top-profitable-startups-in-india/)\n\n4.  **Groww:** An investment platform offering various financial products.\n    *   Profit: $53.5 million (INR 448 cr.) (2024)\n    *   Source: [digibizworld.com](https://digibizworld.com/top-profitable-startups-in-india/)\n\n5.  **Dream11:** A fantasy sports platform.\n    *   Profit: $14 million (INR 188 cr.) (2024)\n    *   Source: [digibizworld.com](https://digibizworld.com/top-profitable-startups-in-india/)\n\n6.  **Razorpay:** Provides payment gateway solutions and payment processing services.\n    *   Valuation: $7.5 billion\n    *   Source: [thebusinessrule.com](https://thebusinessrule.com/top-10-profitable-indian-startups/)\n\n7.  **Info Edge:** Operates online recruitment, education, and real estate platforms.\n    *   Valuation: $5.6 billion\n    *   Source: [thebusinessrule.com](https://thebusinessrule.com/top-10-profitable-indian-startups/)\n\n8.  **Nykaa:** An e-commerce platform for beauty and lifestyle products.\n    *   Valuation: $4.9 billion\n    *   Source: [thebusinessrule.com](https://thebusinessrule.com/top-10-profitable-indian-startups/)\n\n9.  **Gupshup:** A conversational messaging platform.\n    *   Valuation: $1.4 billion\n    *   Source: [thebusinessrule.com](https://thebusinessrule.com/top-10-profitable-indian-startups/)\n\n10. **EaseMyTrip:** An online travel platform.\n    *   Valuation: $1.03 billion\n    *   Source: [thebusinessrule.com](https://thebusinessrule.com/top-10-profitable-indian-startups/)"
+}

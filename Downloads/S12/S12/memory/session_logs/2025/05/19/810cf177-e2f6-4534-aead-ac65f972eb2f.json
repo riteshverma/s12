@@ -1,0 +1,890 @@
+{
+  "context": {
+    "session_id": "810cf177-e2f6-4534-aead-ac65f972eb2f",
+    "original_query": "Query 1: What's the latest between India and France?",
+    "globals": {
+      "search_results_0A": [
+        "https://theasialive.com/indias-7-5-billion-rafale-m-deal-with-france-strategic-power-move-or-pricey-stopgap/2025/05/05/",
+        "https://www.france24.com/en/live-news/20250428-india-says-signs-deal-with-france-for-26-rafale-fighter-jets",
+        "https://www.insightsonindia.com/2025/02/13/india-france-relations/",
+        "https://www.indiatoday.in/india/story/india-france-strengthen-defence-ties-with-air-maritime-cooperation-2679292-2025-02-13",
+        "https://www.indiatoday.in/india/story/modi-in-france-ai-nuclear-deal-startups-emmanuel-macron-paris-agreement-2678865-2025-02-12"
+      ],
+      "summary1_1A": "[error] object GenerateContentResponse can't be used in 'await' expression",
+      "summary2_1A": "[error] object GenerateContentResponse can't be used in 'await' expression"
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: What's the latest between India and France?",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "Here's a summary of the latest developments between India and France, based on recent search results:\n\n*   **Defense Deals:** India has entered into a 7.5 billion Rafale-M deal with France ([theasialive.com](https://theasialive.com/indias-7-5-billion-rafale-m-deal-with-france-strategic-power-move-or-pricey-stopgap/2025/05/05/)) and signed a deal for 26 Rafale fighter jets ([france24.com](https://www.france24.com/en/live-news/20250428-india-says-signs-deal-with-france-for-26-rafale-fighter-jets)).\n*   **Strengthened Ties:** India and France are strengthening their defense ties with air and maritime cooperation ([indiatoday.in](https://www.indiatoday.in/india/story/india-france-strengthen-defence-ties-with-air-maritime-cooperation-2679292-2025-02-13)).\n*   **Broader Cooperation:** Discussions between India and France include AI, nuclear deals, and startups, following meetings between Modi and Macron ([indiatoday.in](https://www.indiatoday.in/india/story/modi-in-france-ai-nuclear-deal-startups-emmanuel-macron-paris-agreement-2678865-2025-02-12)).\n*   **Overall Relations:** Recent developments indicate continued focus on strengthening overall India-France relations ([insightsonindia.com](https://www.insightsonindia.com/2025/02/13/india-france-relations/)).",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "India",
+                "France",
+                "latest developments"
+              ],
+              "result_requirement": "Summary of the latest developments between India and France",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.8",
+              "reasoning": "The query asks for the latest developments between India and France. The memory excerpt contains similar queries about India and other countries, but not France. Therefore, the information is not readily available and requires external search.",
+              "local_reasoning": "No information available in memory or globals.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Search for the latest news and developments between India and France.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "search_results_0A": [
+                "https://theasialive.com/indias-7-5-billion-rafale-m-deal-with-france-strategic-power-move-or-pricey-stopgap/2025/05/05/",
+                "https://www.france24.com/en/live-news/20250428-india-says-signs-deal-with-france-for-26-rafale-fighter-jets",
+                "https://www.insightsonindia.com/2025/02/13/india-france-relations/",
+                "https://www.indiatoday.in/india/story/india-france-strengthen-defence-ties-with-air-maritime-cooperation-2679292-2025-02-13",
+                "https://www.indiatoday.in/india/story/modi-in-france-ai-nuclear-deal-startups-emmanuel-macron-paris-agreement-2678865-2025-02-12"
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "India",
+                "France",
+                "Rafale deal",
+                "Defense cooperation"
+              ],
+              "result_requirement": "Summary of the latest developments between India and France",
+              "original_goal_achieved": false,
+              "local_goal_achieved": true,
+              "confidence": "0.85",
+              "reasoning": "Search results provide URLs related to India-France relations, particularly focusing on defense deals and cooperation. Need to extract and summarize content from these links to fulfill the query.",
+              "local_reasoning": "The search provided relevant URLs, indicating progress towards answering the query.",
+              "last_tooluse_summary": "DuckDuckGo search for 'India France latest developments' succeeded.",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        },
+        {
+          "data": {
+            "index": "1",
+            "description": "Summarize the content of the first two URLs obtained from the search results to get a concise overview of the latest developments.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "summary1_1A": "[error] object GenerateContentResponse can't be used in 'await' expression",
+              "summary2_1A": "[error] object GenerateContentResponse can't be used in 'await' expression"
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "India",
+                "France",
+                "Rafale deal",
+                "Defense cooperation"
+              ],
+              "result_requirement": "Summary of the latest developments between India and France",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.6",
+              "reasoning": "The summarization attempts failed. Given the errors and the available search results in `globals_schema`, it's better to provide a summary based on the titles of the search results.",
+              "local_reasoning": "Summarization tools failed; falling back to search result analysis for a high-level summary.",
+              "last_tooluse_summary": "URL summarization failed for the first two URLs.",
+              "solution_summary": "Not ready yet.",
+              "route": "summarize",
+              "instruction_to_summarize": "Summarize the latest developments between India and France based on the following information found in `globals_schema` under `search_results_0A`: 'India's 7.5 billion Rafale-M deal with France', 'India signs deal with France for 26 Rafale fighter jets', 'India-France relations', 'India-France strengthen defence ties with air-maritime cooperation', 'Modi in France: AI nuclear deal startups, Emmanuel Macron Paris agreement'. Provide a brief overview of these points in markdown format."
+            },
+            "from_step": "1"
+          },
+          "id": "1"
+        },
+        {
+          "data": {
+            "index": "2",
+            "description": "Search stored documents for relevant information on India-France relations to complement the search results.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "1"
+          },
+          "id": "2"
+        },
+        {
+          "data": {
+            "index": "3",
+            "description": "Combine the summaries from the URLs and stored documents to provide a comprehensive answer to the query.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "1"
+          },
+          "id": "3"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "1",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "type": "normal",
+          "source": "1",
+          "target": "3"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "810cf177-e2f6-4534-aead-ac65f972eb2f",
+    "original_query": "Query 1: What's the latest between India and France?",
+    "perception_snapshots": [
+      {
+        "run_id": "810cf177-e2f6-4534-aead-ac65f972eb2f-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "India",
+          "France",
+          "latest developments"
+        ],
+        "result_requirement": "Summary of the latest developments between India and France",
+        "original_goal_achieved": false,
+        "reasoning": "The query asks for the latest developments between India and France. The memory excerpt contains similar queries about India and other countries, but not France. Therefore, the information is not readily available and requires external search.",
+        "local_goal_achieved": false,
+        "local_reasoning": "No information available in memory or globals.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.8",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "810cf177-e2f6-4534-aead-ac65f972eb2f-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "India",
+          "France",
+          "Rafale deal",
+          "Defense cooperation"
+        ],
+        "result_requirement": "Summary of the latest developments between India and France",
+        "original_goal_achieved": false,
+        "reasoning": "Search results provide URLs related to India-France relations, particularly focusing on defense deals and cooperation. Need to extract and summarize content from these links to fulfill the query.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The search provided relevant URLs, indicating progress towards answering the query.",
+        "last_tooluse_summary": "DuckDuckGo search for 'India France latest developments' succeeded.",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.85",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "810cf177-e2f6-4534-aead-ac65f972eb2f-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "India",
+          "France",
+          "Rafale deal",
+          "Defense cooperation"
+        ],
+        "result_requirement": "Summary of the latest developments between India and France",
+        "original_goal_achieved": false,
+        "reasoning": "The summarization attempts failed. Given the errors and the available search results in `globals_schema`, it's better to provide a summary based on the titles of the search results.",
+        "local_goal_achieved": false,
+        "local_reasoning": "Summarization tools failed; falling back to search result analysis for a high-level summary.",
+        "last_tooluse_summary": "URL summarization failed for the first two URLs.",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.6",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "5765276b-da58-4901-a2eb-cfacb4a1059b",
+        "input": {
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: What's the latest between India and France?",
+          "perception": {
+            "entities": [
+              "India",
+              "France",
+              "latest developments"
+            ],
+            "result_requirement": "Summary of the latest developments between India and France",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.8",
+            "reasoning": "The query asks for the latest developments between India and France. The memory excerpt contains similar queries about India and other countries, but not France. Therefore, the information is not readily available and requires external search.",
+            "local_reasoning": "No information available in memory or globals.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "France",
+                  "latest developments"
+                ],
+                "result_requirement": "Summary of the latest developments between India and France",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.8",
+                "reasoning": "The query asks for the latest developments between India and France. The memory excerpt contains similar queries about India and other countries, but not France. Therefore, the information is not readily available and requires external search.",
+                "local_reasoning": "No information available in memory or globals.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "France",
+                  "latest developments"
+                ],
+                "result_requirement": "Summary of the latest developments between India and France",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.8",
+                "reasoning": "The query asks for the latest developments between India and France. The memory excerpt contains similar queries about India and other countries, but not France. Therefore, the information is not readily available and requires external search.",
+                "local_reasoning": "No information available in memory or globals.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {}
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search for the latest news and developments between India and France."
+              },
+              {
+                "id": "1",
+                "description": "Summarize the search results to provide a concise overview."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "search_results_0A = duckduckgo_search(\"India France latest developments\", 5)\nreturn {\"search_results_0A\": search_results_0A}",
+            "CODE_0B": "search_results_0B = duckduckgo_search(\"India France relations news\", 5)\nreturn {\"search_results_0B\": search_results_0B}",
+            "CODE_0C": "search_results_0C = duckduckgo_search(\"India France agreements\", 5)\nreturn {\"search_results_0C\": search_results_0C}"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search for the latest news and developments between India and France."
+            },
+            {
+              "id": "1",
+              "description": "Summarize the search results to provide a concise overview."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "search_results_0A = duckduckgo_search(\"India France latest developments\", 5)\nreturn {\"search_results_0A\": search_results_0A}",
+          "CODE_0B": "search_results_0B = duckduckgo_search(\"India France relations news\", 5)\nreturn {\"search_results_0B\": search_results_0B}",
+          "CODE_0C": "search_results_0C = duckduckgo_search(\"India France agreements\", 5)\nreturn {\"search_results_0C\": search_results_0C}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      },
+      {
+        "run_id": "543e773f-36dd-47a2-b1ec-f8791da92c92",
+        "input": {
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: What's the latest between India and France?",
+          "perception": {
+            "entities": [
+              "India",
+              "France",
+              "Rafale deal",
+              "Defense cooperation"
+            ],
+            "result_requirement": "Summary of the latest developments between India and France",
+            "original_goal_achieved": false,
+            "local_goal_achieved": true,
+            "confidence": "0.85",
+            "reasoning": "Search results provide URLs related to India-France relations, particularly focusing on defense deals and cooperation. Need to extract and summarize content from these links to fulfill the query.",
+            "local_reasoning": "The search provided relevant URLs, indicating progress towards answering the query.",
+            "last_tooluse_summary": "DuckDuckGo search for 'India France latest developments' succeeded.",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "France",
+                  "latest developments"
+                ],
+                "result_requirement": "Summary of the latest developments between India and France",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.8",
+                "reasoning": "The query asks for the latest developments between India and France. The memory excerpt contains similar queries about India and other countries, but not France. Therefore, the information is not readily available and requires external search.",
+                "local_reasoning": "No information available in memory or globals.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            },
+            {
+              "index": "0",
+              "description": "Search for the latest news and developments between India and France.",
+              "type": "CODE",
+              "status": "completed",
+              "result": {
+                "search_results_0A": [
+                  "https://theasialive.com/indias-7-5-billion-rafale-m-deal-with-france-strategic-power-move-or-pricey-stopgap/2025/05/05/",
+                  "https://www.france24.com/en/live-news/20250428-india-says-signs-deal-with-france-for-26-rafale-fighter-jets",
+                  "https://www.insightsonindia.com/2025/02/13/india-france-relations/",
+                  "https://www.indiatoday.in/india/story/india-france-strengthen-defence-ties-with-air-maritime-cooperation-2679292-2025-02-13",
+                  "https://www.indiatoday.in/india/story/modi-in-france-ai-nuclear-deal-startups-emmanuel-macron-paris-agreement-2678865-2025-02-12"
+                ]
+              },
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "France",
+                  "Rafale deal",
+                  "Defense cooperation"
+                ],
+                "result_requirement": "Summary of the latest developments between India and France",
+                "original_goal_achieved": false,
+                "local_goal_achieved": true,
+                "confidence": "0.85",
+                "reasoning": "Search results provide URLs related to India-France relations, particularly focusing on defense deals and cooperation. Need to extract and summarize content from these links to fulfill the query.",
+                "local_reasoning": "The search provided relevant URLs, indicating progress towards answering the query.",
+                "last_tooluse_summary": "DuckDuckGo search for 'India France latest developments' succeeded.",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": "ROOT"
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "India",
+                  "France",
+                  "latest developments"
+                ],
+                "result_requirement": "Summary of the latest developments between India and France",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.8",
+                "reasoning": "The query asks for the latest developments between India and France. The memory excerpt contains similar queries about India and other countries, but not France. Therefore, the information is not readily available and requires external search.",
+                "local_reasoning": "No information available in memory or globals.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "search_results_0A": {
+              "type": "list",
+              "preview": "['https://theasialive.com/indias-7-5-billion-rafale-m-deal-with-france-strategic-power-move-or-pricey-stopgap/2025/05/05/', 'https://www.france24.com/en/live-news/20250428-india-says-signs-deal-with-france-for-26-rafale-fighter-jets', 'https://www.insightsonindia.com/2025/02/13/india-france-relations/', 'https://www.indiatoday.in/india/story/india-france-strengthen-defence-ties-with-air-maritime-cooperation-2679292-2025-02-13', 'https://www.indiatoday.in/india/story/modi-in-france-ai-nuclear-dea\u2026"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search for the latest news and developments between India and France."
+              },
+              {
+                "id": "1",
+                "description": "Summarize the content of the first two URLs obtained from the search results to get a concise overview of the latest developments."
+              },
+              {
+                "id": "2",
+                "description": "Search stored documents for relevant information on India-France relations to complement the search results."
+              },
+              {
+                "id": "3",
+                "description": "Combine the summaries from the URLs and stored documents to provide a comprehensive answer to the query."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "2",
+                "type": "normal"
+              },
+              {
+                "from": "1",
+                "to": "3",
+                "type": "normal"
+              },
+              {
+                "from": "2",
+                "to": "3",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "1",
+          "code_variants": {
+            "CODE_1A": "urls = globals_schema.get(\"search_results_0A\", [])\nif urls:\n    summary1 = webpage_url_to_summary(urls[0])\n    summary2 = webpage_url_to_summary(urls[1])\n    return {\"summary1_1A\": summary1, \"summary2_1A\": summary2}\nelse:\n    return {\"summary1_1A\": \"\", \"summary2_1A\": \"\"}",
+            "CODE_1B": "urls = globals_schema.get(\"search_results_0A\", [])\nif urls and len(urls) >= 2:\n    combined_summary = webpage_url_to_summary(urls[0]) + \"\\n\" + webpage_url_to_summary(urls[1])\n    return {\"combined_summary_1B\": combined_summary}\nelse:\n    return {\"combined_summary_1B\": \"No URLs found or not enough URLs to summarize.\"}",
+            "CODE_1C": "urls = globals_schema.get(\"search_results_0A\", [])\nsummaries = []\nif urls:\n    for url in urls[:2]:\n        summary = webpage_url_to_summary(url)\n        summaries.append(summary)\n    return {\"summaries_1C\": summaries}\nelse:\n    return {\"summaries_1C\": []}"
+          }
+        },
+        "next_step_id": "1",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search for the latest news and developments between India and France."
+            },
+            {
+              "id": "1",
+              "description": "Summarize the content of the first two URLs obtained from the search results to get a concise overview of the latest developments."
+            },
+            {
+              "id": "2",
+              "description": "Search stored documents for relevant information on India-France relations to complement the search results."
+            },
+            {
+              "id": "3",
+              "description": "Combine the summaries from the URLs and stored documents to provide a comprehensive answer to the query."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "2",
+              "type": "normal"
+            },
+            {
+              "from": "1",
+              "to": "3",
+              "type": "normal"
+            },
+            {
+              "from": "2",
+              "to": "3",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_1A": "urls = globals_schema.get(\"search_results_0A\", [])\nif urls:\n    summary1 = webpage_url_to_summary(urls[0])\n    summary2 = webpage_url_to_summary(urls[1])\n    return {\"summary1_1A\": summary1, \"summary2_1A\": summary2}\nelse:\n    return {\"summary1_1A\": \"\", \"summary2_1A\": \"\"}",
+          "CODE_1B": "urls = globals_schema.get(\"search_results_0A\", [])\nif urls and len(urls) >= 2:\n    combined_summary = webpage_url_to_summary(urls[0]) + \"\\n\" + webpage_url_to_summary(urls[1])\n    return {\"combined_summary_1B\": combined_summary}\nelse:\n    return {\"combined_summary_1B\": \"No URLs found or not enough URLs to summarize.\"}",
+          "CODE_1C": "urls = globals_schema.get(\"search_results_0A\", [])\nsummaries = []\nif urls:\n    for url in urls[:2]:\n        summary = webpage_url_to_summary(url)\n        summaries.append(summary)\n    return {\"summaries_1C\": summaries}\nelse:\n    return {\"summaries_1C\": []}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [
+      {
+        "run_id": "e18e3830-6e36-42c1-bfd3-89d4820927ce",
+        "step_id": "0",
+        "variant_used": "CODE_0A",
+        "code": "search_results_0A = duckduckgo_search(\"India France latest developments\", 5)\nreturn {\"search_results_0A\": search_results_0A}",
+        "status": "success",
+        "result": {
+          "search_results_0A": [
+            "https://theasialive.com/indias-7-5-billion-rafale-m-deal-with-france-strategic-power-move-or-pricey-stopgap/2025/05/05/",
+            "https://www.france24.com/en/live-news/20250428-india-says-signs-deal-with-france-for-26-rafale-fighter-jets",
+            "https://www.insightsonindia.com/2025/02/13/india-france-relations/",
+            "https://www.indiatoday.in/india/story/india-france-strengthen-defence-ties-with-air-maritime-cooperation-2679292-2025-02-13",
+            "https://www.indiatoday.in/india/story/modi-in-france-ai-nuclear-deal-startups-emmanuel-macron-paris-agreement-2678865-2025-02-12"
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 06:29:43",
+        "total_time": "6.324",
+        "return_to": ""
+      },
+      {
+        "run_id": "691d7d24-ca83-46c1-b93a-1ac4935b2975",
+        "step_id": "1",
+        "variant_used": "CODE_1A",
+        "code": "urls = globals_schema.get(\"search_results_0A\", [])\nif urls:\n    summary1 = webpage_url_to_summary(urls[0])\n    summary2 = webpage_url_to_summary(urls[1])\n    return {\"summary1_1A\": summary1, \"summary2_1A\": summary2}\nelse:\n    return {\"summary1_1A\": \"\", \"summary2_1A\": \"\"}",
+        "status": "success",
+        "result": {
+          "summary1_1A": "[error] object GenerateContentResponse can't be used in 'await' expression",
+          "summary2_1A": "[error] object GenerateContentResponse can't be used in 'await' expression"
+        },
+        "error": null,
+        "execution_time": "2025-05-19 06:30:01",
+        "total_time": "31.358",
+        "return_to": ""
+      }
+    ],
+    "summarizer_snapshots": [
+      {
+        "run_id": "248b7be1-273b-4a40-ac9e-d880c9eda61a",
+        "input": {
+          "original_query": "Query 1: What's the latest between India and France?",
+          "globals_schema": {
+            "search_results_0A": [
+              "https://theasialive.com/indias-7-5-billion-rafale-m-deal-with-france-strategic-power-move-or-pricey-stopgap/2025/05/05/",
+              "https://www.france24.com/en/live-news/20250428-india-says-signs-deal-with-france-for-26-rafale-fighter-jets",
+              "https://www.insightsonindia.com/2025/02/13/india-france-relations/",
+              "https://www.indiatoday.in/india/story/india-france-strengthen-defence-ties-with-air-maritime-cooperation-2679292-2025-02-13",
+              "https://www.indiatoday.in/india/story/modi-in-france-ai-nuclear-deal-startups-emmanuel-macron-paris-agreement-2678865-2025-02-12"
+            ],
+            "summary1_1A": "[error] object GenerateContentResponse can't be used in 'await' expression",
+            "summary2_1A": "[error] object GenerateContentResponse can't be used in 'await' expression"
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "India",
+                      "France",
+                      "latest developments"
+                    ],
+                    "result_requirement": "Summary of the latest developments between India and France",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.8",
+                    "reasoning": "The query asks for the latest developments between India and France. The memory excerpt contains similar queries about India and other countries, but not France. Therefore, the information is not readily available and requires external search.",
+                    "local_reasoning": "No information available in memory or globals.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "0",
+                  "description": "Search for the latest news and developments between India and France.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "search_results_0A": [
+                      "https://theasialive.com/indias-7-5-billion-rafale-m-deal-with-france-strategic-power-move-or-pricey-stopgap/2025/05/05/",
+                      "https://www.france24.com/en/live-news/20250428-india-says-signs-deal-with-france-for-26-rafale-fighter-jets",
+                      "https://www.insightsonindia.com/2025/02/13/india-france-relations/",
+                      "https://www.indiatoday.in/india/story/india-france-strengthen-defence-ties-with-air-maritime-cooperation-2679292-2025-02-13",
+                      "https://www.indiatoday.in/india/story/modi-in-france-ai-nuclear-deal-startups-emmanuel-macron-paris-agreement-2678865-2025-02-12"
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "India",
+                      "France",
+                      "Rafale deal",
+                      "Defense cooperation"
+                    ],
+                    "result_requirement": "Summary of the latest developments between India and France",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": true,
+                    "confidence": "0.85",
+                    "reasoning": "Search results provide URLs related to India-France relations, particularly focusing on defense deals and cooperation. Need to extract and summarize content from these links to fulfill the query.",
+                    "local_reasoning": "The search provided relevant URLs, indicating progress towards answering the query.",
+                    "last_tooluse_summary": "DuckDuckGo search for 'India France latest developments' succeeded.",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "0"
+              },
+              {
+                "data": {
+                  "index": "1",
+                  "description": "Summarize the content of the first two URLs obtained from the search results to get a concise overview of the latest developments.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "summary1_1A": "[error] object GenerateContentResponse can't be used in 'await' expression",
+                    "summary2_1A": "[error] object GenerateContentResponse can't be used in 'await' expression"
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "India",
+                      "France",
+                      "Rafale deal",
+                      "Defense cooperation"
+                    ],
+                    "result_requirement": "Summary of the latest developments between India and France",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.6",
+                    "reasoning": "The summarization attempts failed. Given the errors and the available search results in `globals_schema`, it's better to provide a summary based on the titles of the search results.",
+                    "local_reasoning": "Summarization tools failed; falling back to search result analysis for a high-level summary.",
+                    "last_tooluse_summary": "URL summarization failed for the first two URLs.",
+                    "solution_summary": "Not ready yet.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Summarize the latest developments between India and France based on the following information found in `globals_schema` under `search_results_0A`: 'India's 7.5 billion Rafale-M deal with France', 'India signs deal with France for 26 Rafale fighter jets', 'India-France relations', 'India-France strengthen defence ties with air-maritime cooperation', 'Modi in France: AI nuclear deal startups, Emmanuel Macron Paris agreement'. Provide a brief overview of these points in markdown format."
+                  },
+                  "from_step": "1"
+                },
+                "id": "1"
+              },
+              {
+                "data": {
+                  "index": "2",
+                  "description": "Search stored documents for relevant information on India-France relations to complement the search results.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "1"
+                },
+                "id": "2"
+              },
+              {
+                "data": {
+                  "index": "3",
+                  "description": "Combine the summaries from the URLs and stored documents to provide a comprehensive answer to the query.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "1"
+                },
+                "id": "3"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "0"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "1",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "1",
+                "target": "2"
+              },
+              {
+                "type": "normal",
+                "source": "1",
+                "target": "3"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "India",
+              "France",
+              "Rafale deal",
+              "Defense cooperation"
+            ],
+            "result_requirement": "Summary of the latest developments between India and France",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.6",
+            "reasoning": "The summarization attempts failed. Given the errors and the available search results in `globals_schema`, it's better to provide a summary based on the titles of the search results.",
+            "local_reasoning": "Summarization tools failed; falling back to search result analysis for a high-level summary.",
+            "last_tooluse_summary": "URL summarization failed for the first two URLs.",
+            "solution_summary": "Not ready yet.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize the latest developments between India and France based on the following information found in `globals_schema` under `search_results_0A`: 'India's 7.5 billion Rafale-M deal with France', 'India signs deal with France for 26 Rafale fighter jets', 'India-France relations', 'India-France strengthen defence ties with air-maritime cooperation', 'Modi in France: AI nuclear deal startups, Emmanuel Macron Paris agreement'. Provide a brief overview of these points in markdown format."
+          }
+        },
+        "summary_output": "Here's a summary of the latest developments between India and France, based on recent search results:\n\n*   **Defense Deals:** India has entered into a 7.5 billion Rafale-M deal with France ([theasialive.com](https://theasialive.com/indias-7-5-billion-rafale-m-deal-with-france-strategic-power-move-or-pricey-stopgap/2025/05/05/)) and signed a deal for 26 Rafale fighter jets ([france24.com](https://www.france24.com/en/live-news/20250428-india-says-signs-deal-with-france-for-26-rafale-fighter-jets)).\n*   **Strengthened Ties:** India and France are strengthening their defense ties with air and maritime cooperation ([indiatoday.in](https://www.indiatoday.in/india/story/india-france-strengthen-defence-ties-with-air-maritime-cooperation-2679292-2025-02-13)).\n*   **Broader Cooperation:** Discussions between India and France include AI, nuclear deals, and startups, following meetings between Modi and Macron ([indiatoday.in](https://www.indiatoday.in/india/story/modi-in-france-ai-nuclear-deal-startups-emmanuel-macron-paris-agreement-2678865-2025-02-12)).\n*   **Overall Relations:** Recent developments indicate continued focus on strengthening overall India-France relations ([insightsonindia.com](https://www.insightsonindia.com/2025/02/13/india-france-relations/)).",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-19T00:59:06Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "Not ready yet.",
+    "status": "success",
+    "completed_at": "2025-05-19T01:00:44.401234"
+  },
+  "status": "success",
+  "final_step_id": "3",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-19T01:00:44.406297",
+  "original_query": "Query 1: What's the latest between India and France?",
+  "final_summary": "Not ready yet."
+}

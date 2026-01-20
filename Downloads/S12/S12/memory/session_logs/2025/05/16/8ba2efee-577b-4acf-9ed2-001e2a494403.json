@@ -1,0 +1,43 @@
+{
+  "session_id": "8ba2efee-577b-4acf-9ed2-001e2a494403",
+  "original_query": "Who were Don Tapscott and Anthony Williams?",
+  "globals": {},
+  "memory": [],
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "data": {
+          "index": "ROOT",
+          "description": "initial query",
+          "type": "CODE",
+          "status": "pending",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "Don Tapscott",
+              "Anthony Williams"
+            ],
+            "result_requirement": "Biographical information about Don Tapscott and Anthony Williams",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.9",
+            "reasoning": "Memory excerpt contains information about Don Tapscott and Anthony Williams and their advocacy for open source strategies. This addresses the original query.",
+            "local_reasoning": "The memory excerpt directly answers the question of who Don Tapscott and Anthony Williams are and what they are known for.",
+            "last_tooluse_summary": "Not applicable",
+            "summarizer_summary": "Don Tapscott and Anthony Williams have advocated for open source strategies concerning clean technologies, specifically proposing a green technology commons in their 2010 book, MacroWikinomics. They emphasized the urgency of addressing climate change and promoted collaborative solutions.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize the information available in the memory excerpt regarding Don Tapscott and Anthony Williams, highlighting their work and advocacy. Return in plain language."
+          },
+          "from_step": null
+        },
+        "id": "ROOT"
+      }
+    ],
+    "links": []
+  }
+}

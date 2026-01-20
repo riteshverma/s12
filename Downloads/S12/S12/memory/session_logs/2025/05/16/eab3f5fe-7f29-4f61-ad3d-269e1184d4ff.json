@@ -1,0 +1,44 @@
+{
+  "session_id": "eab3f5fe-7f29-4f61-ad3d-269e1184d4ff",
+  "original_query": "Whats the latest new about India and Pakistan?",
+  "globals": {},
+  "memory": [],
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "data": {
+          "index": "ROOT",
+          "description": "initial query",
+          "type": "ROOT",
+          "status": "completed",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "India",
+              "Pakistan",
+              "latest news"
+            ],
+            "result_requirement": "Latest news and developments regarding India and Pakistan",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.9",
+            "reasoning": "Memory excerpt contains recent summaries of the India-Pakistan situation. The query is effectively a duplicate of a previous query.",
+            "local_reasoning": "The memory excerpt provides up-to-date information on the India-Pakistan situation, including ceasefire agreements and ongoing tensions. The similarity with existing queries allows for direct summarization.",
+            "last_tooluse_summary": "Not applicable",
+            "summarizer_summary": "Recent reports indicate a ceasefire between India and Pakistan, with accusations of violations from both sides. Tensions remain high, particularly concerning the Kashmir region.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize the existing memory excerpts regarding the latest news and developments between India and Pakistan in markdown format. Focus on recent events, ceasefire agreements, and ongoing tensions, especially related to the Kashmir region. Synthesize the information from the different excerpts to provide a comprehensive and up-to-date overview."
+          },
+          "from_step": null
+        },
+        "id": "ROOT"
+      }
+    ],
+    "links": []
+  }
+}

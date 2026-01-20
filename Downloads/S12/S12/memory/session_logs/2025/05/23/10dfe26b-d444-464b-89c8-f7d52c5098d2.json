@@ -1,0 +1,407 @@
+{
+  "context": {
+    "session_id": "10dfe26b-d444-464b-89c8-f7d52c5098d2",
+    "original_query": "Query 1: Call Decision to do this: Open a new tab in the browser using tools provided to Decision and navigate to https://www.inkers.ai/",
+    "globals": {
+      "memory": [],
+      "tab_created_0A": true
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: Call Decision to do this: Open a new tab in the browser using tools provided to Decision and navigate to https://www.inkers.ai/",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "A new tab has been opened in the browser and navigated to [https://www.inkers.ai/](https://www.inkers.ai/).",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Decision",
+                "browser",
+                "https://www.inkers.ai/"
+              ],
+              "result_requirement": "Open a new browser tab and navigate to https://www.inkers.ai/",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.9",
+              "reasoning": "The user is explicitly asking the agent to use the Decision module to open a URL in a browser. This requires tool use and thus planning.",
+              "local_reasoning": "The query is a direct instruction to use a tool, so it cannot be solved without routing to the Decision module.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Open a new tab in the browser and navigate to https://www.inkers.ai/",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "tab_created_0A": true
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "browser",
+                "https://www.inkers.ai/"
+              ],
+              "result_requirement": "Open a new tab in the browser and navigate to https://www.inkers.ai/",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "1.0",
+              "reasoning": "The tool successfully opened a new tab and navigated to the specified URL. The 'tab_created_0A' flag confirms this.",
+              "local_reasoning": "The tool output confirms success.",
+              "last_tooluse_summary": "Browser tool successfully opened a new tab and navigated to the specified URL.",
+              "solution_summary": "A new tab was opened in the browser and navigated to https://www.inkers.ai/.",
+              "route": "summarize",
+              "instruction_to_summarize": "Summarize the action taken: A new tab was opened and navigated to https://www.inkers.ai/. Report the success to the user."
+            },
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "10dfe26b-d444-464b-89c8-f7d52c5098d2",
+    "original_query": "Query 1: Call Decision to do this: Open a new tab in the browser using tools provided to Decision and navigate to https://www.inkers.ai/",
+    "perception_snapshots": [
+      {
+        "run_id": "10dfe26b-d444-464b-89c8-f7d52c5098d2-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "Decision",
+          "browser",
+          "https://www.inkers.ai/"
+        ],
+        "result_requirement": "Open a new browser tab and navigate to https://www.inkers.ai/",
+        "original_goal_achieved": false,
+        "reasoning": "The user is explicitly asking the agent to use the Decision module to open a URL in a browser. This requires tool use and thus planning.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The query is a direct instruction to use a tool, so it cannot be solved without routing to the Decision module.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.9",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "10dfe26b-d444-464b-89c8-f7d52c5098d2-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "browser",
+          "https://www.inkers.ai/"
+        ],
+        "result_requirement": "Open a new tab in the browser and navigate to https://www.inkers.ai/",
+        "original_goal_achieved": true,
+        "reasoning": "The tool successfully opened a new tab and navigated to the specified URL. The 'tab_created_0A' flag confirms this.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The tool output confirms success.",
+        "last_tooluse_summary": "Browser tool successfully opened a new tab and navigated to the specified URL.",
+        "solution_summary": "A new tab was opened in the browser and navigated to https://www.inkers.ai/.",
+        "confidence": "1.0",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "ad4f3eec-63ef-4d37-a408-493af78f3f7a",
+        "input": {
+          "current_time": "2025-05-22T23:19:41.658192",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: Call Decision to do this: Open a new tab in the browser using tools provided to Decision and navigate to https://www.inkers.ai/",
+          "perception": {
+            "entities": [
+              "Decision",
+              "browser",
+              "https://www.inkers.ai/"
+            ],
+            "result_requirement": "Open a new browser tab and navigate to https://www.inkers.ai/",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.9",
+            "reasoning": "The user is explicitly asking the agent to use the Decision module to open a URL in a browser. This requires tool use and thus planning.",
+            "local_reasoning": "The query is a direct instruction to use a tool, so it cannot be solved without routing to the Decision module.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Decision",
+                  "browser",
+                  "https://www.inkers.ai/"
+                ],
+                "result_requirement": "Open a new browser tab and navigate to https://www.inkers.ai/",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The user is explicitly asking the agent to use the Decision module to open a URL in a browser. This requires tool use and thus planning.",
+                "local_reasoning": "The query is a direct instruction to use a tool, so it cannot be solved without routing to the Decision module.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Decision",
+                  "browser",
+                  "https://www.inkers.ai/"
+                ],
+                "result_requirement": "Open a new browser tab and navigate to https://www.inkers.ai/",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The user is explicitly asking the agent to use the Decision module to open a URL in a browser. This requires tool use and thus planning.",
+                "local_reasoning": "The query is a direct instruction to use a tool, so it cannot be solved without routing to the Decision module.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[]"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Open a new tab in the browser and navigate to https://www.inkers.ai/"
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "url = 'https://www.inkers.ai/'\ncreate_new_tab(url)\nreturn {\"tab_created_0A\": True}",
+            "CODE_0B": "url = 'https://www.inkers.ai/'\ncreate_new_tab(url)\nreturn {\"tab_created_0B\": True}",
+            "CODE_0C": "url = 'https://www.inkers.ai/'\ncreate_new_tab(url)\nreturn {\"tab_created_0C\": True}"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Open a new tab in the browser and navigate to https://www.inkers.ai/"
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "url = 'https://www.inkers.ai/'\ncreate_new_tab(url)\nreturn {\"tab_created_0A\": True}",
+          "CODE_0B": "url = 'https://www.inkers.ai/'\ncreate_new_tab(url)\nreturn {\"tab_created_0B\": True}",
+          "CODE_0C": "url = 'https://www.inkers.ai/'\ncreate_new_tab(url)\nreturn {\"tab_created_0C\": True}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [
+      {
+        "run_id": "7d2bca27-eee7-4c20-8862-f59c0df15253",
+        "step_id": "0",
+        "variant_used": "CODE_0A",
+        "code": "url = 'https://www.inkers.ai/'\ncreate_new_tab(url)\nreturn {\"tab_created_0A\": True}",
+        "status": "success",
+        "result": {
+          "tab_created_0A": true
+        },
+        "error": null,
+        "execution_time": "2025-05-23 04:49:46",
+        "total_time": "16.361",
+        "return_to": ""
+      }
+    ],
+    "summarizer_snapshots": [
+      {
+        "run_id": "e1c3dca6-87f1-43bd-bc9e-8d8c37eef8aa",
+        "input": {
+          "original_query": "Query 1: Call Decision to do this: Open a new tab in the browser using tools provided to Decision and navigate to https://www.inkers.ai/",
+          "globals_schema": {
+            "memory": [],
+            "tab_created_0A": true
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Decision",
+                      "browser",
+                      "https://www.inkers.ai/"
+                    ],
+                    "result_requirement": "Open a new browser tab and navigate to https://www.inkers.ai/",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.9",
+                    "reasoning": "The user is explicitly asking the agent to use the Decision module to open a URL in a browser. This requires tool use and thus planning.",
+                    "local_reasoning": "The query is a direct instruction to use a tool, so it cannot be solved without routing to the Decision module.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "0",
+                  "description": "Open a new tab in the browser and navigate to https://www.inkers.ai/",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "tab_created_0A": true
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "browser",
+                      "https://www.inkers.ai/"
+                    ],
+                    "result_requirement": "Open a new tab in the browser and navigate to https://www.inkers.ai/",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "1.0",
+                    "reasoning": "The tool successfully opened a new tab and navigated to the specified URL. The 'tab_created_0A' flag confirms this.",
+                    "local_reasoning": "The tool output confirms success.",
+                    "last_tooluse_summary": "Browser tool successfully opened a new tab and navigated to the specified URL.",
+                    "solution_summary": "A new tab was opened in the browser and navigated to https://www.inkers.ai/.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Summarize the action taken: A new tab was opened and navigated to https://www.inkers.ai/. Report the success to the user."
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "0"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "0"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "browser",
+              "https://www.inkers.ai/"
+            ],
+            "result_requirement": "Open a new tab in the browser and navigate to https://www.inkers.ai/",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "1.0",
+            "reasoning": "The tool successfully opened a new tab and navigated to the specified URL. The 'tab_created_0A' flag confirms this.",
+            "local_reasoning": "The tool output confirms success.",
+            "last_tooluse_summary": "Browser tool successfully opened a new tab and navigated to the specified URL.",
+            "solution_summary": "A new tab was opened in the browser and navigated to https://www.inkers.ai/.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize the action taken: A new tab was opened and navigated to https://www.inkers.ai/. Report the success to the user."
+          }
+        },
+        "summary_output": "A new tab has been opened in the browser and navigated to [https://www.inkers.ai/](https://www.inkers.ai/).",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-22T23:18:36Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "A new tab has been opened in the browser and navigated to [https://www.inkers.ai/](https://www.inkers.ai/).",
+    "status": "success",
+    "completed_at": "2025-05-22T23:20:12.811476"
+  },
+  "status": "success",
+  "final_step_id": "0",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-22T23:20:12.813475",
+  "original_query": "Query 1: Call Decision to do this: Open a new tab in the browser using tools provided to Decision and navigate to https://www.inkers.ai/",
+  "final_summary": "A new tab has been opened in the browser and navigated to [https://www.inkers.ai/](https://www.inkers.ai/)."
+}

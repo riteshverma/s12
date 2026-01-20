@@ -1,0 +1,157 @@
+{
+  "context": {
+    "session_id": "be0e37b2-c3bb-4997-b149-3eb2f7f0cfaf",
+    "original_query": "Query 1: What is 4 * 4?",
+    "globals": {
+      "memory": []
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: What is 4 * 4?",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "4 * 4 = 16",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "4 * 4"
+              ],
+              "result_requirement": "The result of the multiplication 4 * 4",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "1.0",
+              "reasoning": "The query is a simple arithmetic calculation that can be directly answered.",
+              "local_reasoning": "The question is a straightforward calculation.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "The answer is 16.",
+              "route": "summarize",
+              "instruction_to_summarize": "Provide the answer to the question 'What is 4 * 4?' The answer is 16. Use markdown formatting."
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        }
+      ],
+      "links": []
+    }
+  },
+  "session": {
+    "session_id": "be0e37b2-c3bb-4997-b149-3eb2f7f0cfaf",
+    "original_query": "Query 1: What is 4 * 4?",
+    "perception_snapshots": [
+      {
+        "run_id": "be0e37b2-c3bb-4997-b149-3eb2f7f0cfaf-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "4 * 4"
+        ],
+        "result_requirement": "The result of the multiplication 4 * 4",
+        "original_goal_achieved": true,
+        "reasoning": "The query is a simple arithmetic calculation that can be directly answered.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The question is a straightforward calculation.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "The answer is 16.",
+        "confidence": "1.0",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [],
+    "execution_snapshots": [],
+    "summarizer_snapshots": [
+      {
+        "run_id": "85a15adb-a3ce-4b40-91a2-0f9ae40dc79c",
+        "input": {
+          "original_query": "Query 1: What is 4 * 4?",
+          "globals_schema": {
+            "memory": []
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "4 * 4"
+                    ],
+                    "result_requirement": "The result of the multiplication 4 * 4",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "1.0",
+                    "reasoning": "The query is a simple arithmetic calculation that can be directly answered.",
+                    "local_reasoning": "The question is a straightforward calculation.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "The answer is 16.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Provide the answer to the question 'What is 4 * 4?' The answer is 16. Use markdown formatting."
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              }
+            ],
+            "links": []
+          },
+          "perception": {
+            "entities": [
+              "4 * 4"
+            ],
+            "result_requirement": "The result of the multiplication 4 * 4",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "1.0",
+            "reasoning": "The query is a simple arithmetic calculation that can be directly answered.",
+            "local_reasoning": "The question is a straightforward calculation.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "The answer is 16.",
+            "route": "summarize",
+            "instruction_to_summarize": "Provide the answer to the question 'What is 4 * 4?' The answer is 16. Use markdown formatting."
+          }
+        },
+        "summary_output": "4 * 4 = 16",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-19T05:55:46Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "4 * 4 = 16",
+    "status": "success",
+    "completed_at": "2025-05-19T05:56:17.422130"
+  },
+  "status": "success",
+  "final_step_id": "ROOT",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-19T05:56:17.424130",
+  "original_query": "Query 1: What is 4 * 4?",
+  "final_summary": "4 * 4 = 16"
+}

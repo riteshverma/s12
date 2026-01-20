@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LLM Quote Tab – Options</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="header">
+        <h1>Personalize your quotes</h1>
+        <p>
+          Paste recent LLM chats here. Your text stays in local storage and is
+          only used to pick relevant quotes.
+        </p>
+      </header>
+
+      <section class="panel">
+        <label class="label" for="chatInput">Recent chats</label>
+        <textarea
+          id="chatInput"
+          rows="12"
+          placeholder="Paste a few recent chats or summaries here."
+        ></textarea>
+        <div class="button-row">
+          <button id="saveChats" type="button">Save chats</button>
+          <button id="clearChats" type="button" class="ghost">
+            Clear saved chats
+          </button>
+        </div>
+        <p class="status" id="statusMessage"></p>
+      </section>
+
+      <section class="tips">
+        <h2>Tips for better matches</h2>
+        <ul>
+          <li>Include the main themes or challenges from your recent chats.</li>
+          <li>Keep it short and focused for more accurate topic matches.</li>
+          <li>Update this whenever your focus changes.</li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="options.js"></script>
+  </body>
+</html>

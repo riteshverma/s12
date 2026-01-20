@@ -1,0 +1,502 @@
+{
+  "context": {
+    "session_id": "fa57098e-3a36-42a2-a94a-316ce51d3504",
+    "original_query": "Query 1: https://www.quora.com/unanswered/How-does-Anthropic-Model-Context-Protocol-compare-to-Facebooks-KILT summarize this link",
+    "globals": {
+      "memory": [],
+      "raw_text_0A": [
+        {
+          "type": "text",
+          "text": "[timeout] [no text]",
+          "annotations": null
+        }
+      ]
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: https://www.quora.com/unanswered/How-does-Anthropic-Model-Context-Protocol-compare-to-Facebooks-KILT summarize this link",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "The attempt to summarize the Quora page comparing Anthropic Model Context Protocol and Facebook's KILT failed because the `webpage_url_to_raw_text` tool timed out and was unable to extract any text from the provided URL. No summary is possible due to the failed extraction.",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Anthropic Model Context Protocol",
+                "Facebook KILT",
+                "Quora"
+              ],
+              "result_requirement": "Summary of the Quora page comparing Anthropic Model Context Protocol and Facebook's KILT.",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.9",
+              "reasoning": "The original query asks for a summary of a Quora page. The content of the Quora page is unknown and needs to be retrieved and analyzed before a summary can be generated. The query is not solvable with the information currently available.",
+              "local_reasoning": "No information from the memory or globals can solve the user's request. The content of the URL must be read using tools and analyzed.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision",
+              "instruction_to_summarize": "Not applicable"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Extract raw text from the Quora URL.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "raw_text_0A": [
+                {
+                  "type": "text",
+                  "text": "[timeout] [no text]",
+                  "annotations": null
+                }
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Anthropic Model Context Protocol",
+                "Facebook KILT",
+                "Quora"
+              ],
+              "result_requirement": "Summary of the Quora page comparing Anthropic Model Context Protocol and Facebook's KILT.",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.9",
+              "reasoning": "The tool timed out and failed to extract the text from the Quora page. Therefore, a summary cannot be generated. No further steps are likely to succeed given the timeout. ",
+              "local_reasoning": "The webpage_url_to_raw_text tool timed out, resulting in no text being extracted.  Since the content is unavailable, summarizing is impossible.",
+              "last_tooluse_summary": "webpage_url_to_raw_text timed out and returned no text.",
+              "solution_summary": "The attempt to summarize the Quora page failed due to a timeout error when extracting the text.",
+              "route": "summarize",
+              "instruction_to_summarize": "Summarize that the attempt to summarize the Quora page failed because the webpage_url_to_raw_text tool timed out and was unable to extract any text from the provided URL. State that no summary is possible due to the failed extraction."
+            },
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        },
+        {
+          "data": {
+            "index": "1",
+            "description": "Summarize the extracted text, focusing on the comparison between Anthropic Model Context Protocol and Facebook's KILT.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "ROOT"
+          },
+          "id": "1"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "1"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "fa57098e-3a36-42a2-a94a-316ce51d3504",
+    "original_query": "Query 1: https://www.quora.com/unanswered/How-does-Anthropic-Model-Context-Protocol-compare-to-Facebooks-KILT summarize this link",
+    "perception_snapshots": [
+      {
+        "run_id": "fa57098e-3a36-42a2-a94a-316ce51d3504-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "Anthropic Model Context Protocol",
+          "Facebook KILT",
+          "Quora"
+        ],
+        "result_requirement": "Summary of the Quora page comparing Anthropic Model Context Protocol and Facebook's KILT.",
+        "original_goal_achieved": false,
+        "reasoning": "The original query asks for a summary of a Quora page. The content of the Quora page is unknown and needs to be retrieved and analyzed before a summary can be generated. The query is not solvable with the information currently available.",
+        "local_goal_achieved": false,
+        "local_reasoning": "No information from the memory or globals can solve the user's request. The content of the URL must be read using tools and analyzed.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.9",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "fa57098e-3a36-42a2-a94a-316ce51d3504-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "Anthropic Model Context Protocol",
+          "Facebook KILT",
+          "Quora"
+        ],
+        "result_requirement": "Summary of the Quora page comparing Anthropic Model Context Protocol and Facebook's KILT.",
+        "original_goal_achieved": false,
+        "reasoning": "The tool timed out and failed to extract the text from the Quora page. Therefore, a summary cannot be generated. No further steps are likely to succeed given the timeout. ",
+        "local_goal_achieved": false,
+        "local_reasoning": "The webpage_url_to_raw_text tool timed out, resulting in no text being extracted.  Since the content is unavailable, summarizing is impossible.",
+        "last_tooluse_summary": "webpage_url_to_raw_text timed out and returned no text.",
+        "solution_summary": "The attempt to summarize the Quora page failed due to a timeout error when extracting the text.",
+        "confidence": "0.9",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "a5216327-77d6-4abf-b0de-cde1660d7099",
+        "input": {
+          "current_time": "2025-05-19T12:14:44.474738",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: https://www.quora.com/unanswered/How-does-Anthropic-Model-Context-Protocol-compare-to-Facebooks-KILT summarize this link",
+          "perception": {
+            "entities": [
+              "Anthropic Model Context Protocol",
+              "Facebook KILT",
+              "Quora"
+            ],
+            "result_requirement": "Summary of the Quora page comparing Anthropic Model Context Protocol and Facebook's KILT.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.9",
+            "reasoning": "The original query asks for a summary of a Quora page. The content of the Quora page is unknown and needs to be retrieved and analyzed before a summary can be generated. The query is not solvable with the information currently available.",
+            "local_reasoning": "No information from the memory or globals can solve the user's request. The content of the URL must be read using tools and analyzed.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision",
+            "instruction_to_summarize": "Not applicable"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Anthropic Model Context Protocol",
+                  "Facebook KILT",
+                  "Quora"
+                ],
+                "result_requirement": "Summary of the Quora page comparing Anthropic Model Context Protocol and Facebook's KILT.",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The original query asks for a summary of a Quora page. The content of the Quora page is unknown and needs to be retrieved and analyzed before a summary can be generated. The query is not solvable with the information currently available.",
+                "local_reasoning": "No information from the memory or globals can solve the user's request. The content of the URL must be read using tools and analyzed.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision",
+                "instruction_to_summarize": "Not applicable"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Anthropic Model Context Protocol",
+                  "Facebook KILT",
+                  "Quora"
+                ],
+                "result_requirement": "Summary of the Quora page comparing Anthropic Model Context Protocol and Facebook's KILT.",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The original query asks for a summary of a Quora page. The content of the Quora page is unknown and needs to be retrieved and analyzed before a summary can be generated. The query is not solvable with the information currently available.",
+                "local_reasoning": "No information from the memory or globals can solve the user's request. The content of the URL must be read using tools and analyzed.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision",
+                "instruction_to_summarize": "Not applicable"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[]"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Extract raw text from the Quora URL."
+              },
+              {
+                "id": "1",
+                "description": "Summarize the extracted text, focusing on the comparison between Anthropic Model Context Protocol and Facebook's KILT."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "url = 'https://www.quora.com/unanswered/How-does-Anthropic-Model-Context-Protocol-compare-to-Facebooks-KILT'\nraw_text = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0A\": raw_text}",
+            "CODE_0B": "url = 'https://www.quora.com/unanswered/How-does-Anthropic-Model-Context-Protocol-compare-to-Facebooks-KILT'\nraw_text = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0B\": raw_text}",
+            "CODE_0C": "url = 'https://www.quora.com/unanswered/How-does-Anthropic-Model-Context-Protocol-compare-to-Facebooks-KILT'\nraw_text = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0C\": raw_text}"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Extract raw text from the Quora URL."
+            },
+            {
+              "id": "1",
+              "description": "Summarize the extracted text, focusing on the comparison between Anthropic Model Context Protocol and Facebook's KILT."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "url = 'https://www.quora.com/unanswered/How-does-Anthropic-Model-Context-Protocol-compare-to-Facebooks-KILT'\nraw_text = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0A\": raw_text}",
+          "CODE_0B": "url = 'https://www.quora.com/unanswered/How-does-Anthropic-Model-Context-Protocol-compare-to-Facebooks-KILT'\nraw_text = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0B\": raw_text}",
+          "CODE_0C": "url = 'https://www.quora.com/unanswered/How-does-Anthropic-Model-Context-Protocol-compare-to-Facebooks-KILT'\nraw_text = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0C\": raw_text}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [
+      {
+        "run_id": "b523a8ee-08b1-46da-bcae-bbd71d9fb800",
+        "step_id": "0",
+        "variant_used": "CODE_0A",
+        "code": "url = 'https://www.quora.com/unanswered/How-does-Anthropic-Model-Context-Protocol-compare-to-Facebooks-KILT'\nraw_text = webpage_url_to_raw_text(url)\nreturn {\"raw_text_0A\": raw_text}",
+        "status": "success",
+        "result": {
+          "raw_text_0A": [
+            {
+              "type": "text",
+              "text": "[timeout] [no text]",
+              "annotations": null
+            }
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 17:44:49",
+        "total_time": "17.018",
+        "return_to": ""
+      }
+    ],
+    "summarizer_snapshots": [
+      {
+        "run_id": "b4167a72-d410-4fdf-89d1-dbe067ae7fbd",
+        "input": {
+          "original_query": "Query 1: https://www.quora.com/unanswered/How-does-Anthropic-Model-Context-Protocol-compare-to-Facebooks-KILT summarize this link",
+          "globals_schema": {
+            "memory": [],
+            "raw_text_0A": [
+              {
+                "type": "text",
+                "text": "[timeout] [no text]",
+                "annotations": null
+              }
+            ]
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Anthropic Model Context Protocol",
+                      "Facebook KILT",
+                      "Quora"
+                    ],
+                    "result_requirement": "Summary of the Quora page comparing Anthropic Model Context Protocol and Facebook's KILT.",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.9",
+                    "reasoning": "The original query asks for a summary of a Quora page. The content of the Quora page is unknown and needs to be retrieved and analyzed before a summary can be generated. The query is not solvable with the information currently available.",
+                    "local_reasoning": "No information from the memory or globals can solve the user's request. The content of the URL must be read using tools and analyzed.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision",
+                    "instruction_to_summarize": "Not applicable"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "0",
+                  "description": "Extract raw text from the Quora URL.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "raw_text_0A": [
+                      {
+                        "type": "text",
+                        "text": "[timeout] [no text]",
+                        "annotations": null
+                      }
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Anthropic Model Context Protocol",
+                      "Facebook KILT",
+                      "Quora"
+                    ],
+                    "result_requirement": "Summary of the Quora page comparing Anthropic Model Context Protocol and Facebook's KILT.",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.9",
+                    "reasoning": "The tool timed out and failed to extract the text from the Quora page. Therefore, a summary cannot be generated. No further steps are likely to succeed given the timeout. ",
+                    "local_reasoning": "The webpage_url_to_raw_text tool timed out, resulting in no text being extracted.  Since the content is unavailable, summarizing is impossible.",
+                    "last_tooluse_summary": "webpage_url_to_raw_text timed out and returned no text.",
+                    "solution_summary": "The attempt to summarize the Quora page failed due to a timeout error when extracting the text.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Summarize that the attempt to summarize the Quora page failed because the webpage_url_to_raw_text tool timed out and was unable to extract any text from the provided URL. State that no summary is possible due to the failed extraction."
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "0"
+              },
+              {
+                "data": {
+                  "index": "1",
+                  "description": "Summarize the extracted text, focusing on the comparison between Anthropic Model Context Protocol and Facebook's KILT.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "ROOT"
+                },
+                "id": "1"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "0"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "1"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "Anthropic Model Context Protocol",
+              "Facebook KILT",
+              "Quora"
+            ],
+            "result_requirement": "Summary of the Quora page comparing Anthropic Model Context Protocol and Facebook's KILT.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.9",
+            "reasoning": "The tool timed out and failed to extract the text from the Quora page. Therefore, a summary cannot be generated. No further steps are likely to succeed given the timeout. ",
+            "local_reasoning": "The webpage_url_to_raw_text tool timed out, resulting in no text being extracted.  Since the content is unavailable, summarizing is impossible.",
+            "last_tooluse_summary": "webpage_url_to_raw_text timed out and returned no text.",
+            "solution_summary": "The attempt to summarize the Quora page failed due to a timeout error when extracting the text.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize that the attempt to summarize the Quora page failed because the webpage_url_to_raw_text tool timed out and was unable to extract any text from the provided URL. State that no summary is possible due to the failed extraction."
+          }
+        },
+        "summary_output": "The attempt to summarize the Quora page comparing Anthropic Model Context Protocol and Facebook's KILT failed because the `webpage_url_to_raw_text` tool timed out and was unable to extract any text from the provided URL. No summary is possible due to the failed extraction.",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-19T12:14:11Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "The attempt to summarize the Quora page comparing Anthropic Model Context Protocol and Facebook's KILT failed because the `webpage_url_to_raw_text` tool timed out and was unable to extract any text from the provided URL. No summary is possible due to the failed extraction.",
+    "status": "success",
+    "completed_at": "2025-05-19T12:15:18.832848"
+  },
+  "status": "success",
+  "final_step_id": "1",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-19T12:15:18.835849",
+  "original_query": "Query 1: https://www.quora.com/unanswered/How-does-Anthropic-Model-Context-Protocol-compare-to-Facebooks-KILT summarize this link",
+  "final_summary": "The attempt to summarize the Quora page comparing Anthropic Model Context Protocol and Facebook's KILT failed because the `webpage_url_to_raw_text` tool timed out and was unable to extract any text from the provided URL. No summary is possible due to the failed extraction."
+}

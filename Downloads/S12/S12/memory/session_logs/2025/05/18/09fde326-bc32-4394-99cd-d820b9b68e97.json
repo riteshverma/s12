@@ -1,0 +1,161 @@
+{
+  "context": {
+    "session_id": "09fde326-bc32-4394-99cd-d820b9b68e97",
+    "original_query": "Query 1: How are the military relations between India and Bhutan?\nResponse 1: I am unable to provide a summary of the military relations between India and Bhutan at this time. No tool has been used to extract and synthesize the text from the URLs provided.\nQuery 2: How are the military relations between India and Bhutan?\nResponse 2: Due to technical difficulties in extracting and synthesizing text from the provided URLs, a comprehensive summary of the military relations between India and Bhutan could not be generated. However, here are the search results that were found, which may contain relevant information:\n\n*   [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations)\n*   [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3)\n*   [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/)\n*   [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations)\nQuery 3: How are the military relations between India and Bhutan?",
+    "globals": {},
+    "memory": [
+      {
+        "original_query": "Query 1: How are the military relations between India and Bhutan?\nResponse 1: I am unable to provide a summary of the military relations between India and Bhutan at this time. No tool has been used to extract and synthesize the text from the URLs provided.\nQuery 2: How are the military relations between India and Bhutan?\nResponse 2: Due to technical difficulties in extracting and synthesizing text from the provided URLs, a comprehensive summary of the military relations between India and Bhutan could not be generated. However, here are the search results that were found, which may contain relevant information:\n\n*   [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations)\n*   [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3)\n*   [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/)\n*   [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations)\nQuery 3: How are the military relations between India and Bhutan?",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "I was unable to extract and summarize text from the provided URLs regarding the military relations between India and Bhutan. For your convenience, here are the URLs that were used in the search. You may find the information you need by reviewing them directly:\n\n*   [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations)\n*   [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3)\n*   [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/)\n*   [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations)",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "India",
+                "Bhutan",
+                "military relations"
+              ],
+              "result_requirement": "Summary of military relations between India and Bhutan",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.3",
+              "reasoning": "The query has been repeated and the tool has failed to extract and synthesize information from URLs. Since no globals_schema are available that can directly satisfy the query, and tool use has repeatedly failed, summarizing the available information is the best course of action.",
+              "local_reasoning": "Previous attempts to extract information from URLs failed. Further attempts might lead to same failures. Need to summarize what is available",
+              "last_tooluse_summary": "Text extraction from the URLs failed.",
+              "solution_summary": "Previous attempt to extract information about India and Bhutan military relations from the web failed.",
+              "route": "summarize",
+              "instruction_to_summarize": "The tool failed to extract and summarize text from the provided URLs regarding the military relations between India and Bhutan. The URLs provided were: [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations), [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations), [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3), [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/), and [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations). Please inform the user about the failure to extract the text and provide the listed URLs for manual review."
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        }
+      ],
+      "links": []
+    }
+  },
+  "session": {
+    "session_id": "09fde326-bc32-4394-99cd-d820b9b68e97",
+    "original_query": "Query 1: How are the military relations between India and Bhutan?\nResponse 1: I am unable to provide a summary of the military relations between India and Bhutan at this time. No tool has been used to extract and synthesize the text from the URLs provided.\nQuery 2: How are the military relations between India and Bhutan?\nResponse 2: Due to technical difficulties in extracting and synthesizing text from the provided URLs, a comprehensive summary of the military relations between India and Bhutan could not be generated. However, here are the search results that were found, which may contain relevant information:\n\n*   [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations)\n*   [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3)\n*   [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/)\n*   [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations)\nQuery 3: How are the military relations between India and Bhutan?",
+    "perception_snapshots": [
+      {
+        "run_id": "09fde326-bc32-4394-99cd-d820b9b68e97-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "India",
+          "Bhutan",
+          "military relations"
+        ],
+        "result_requirement": "Summary of military relations between India and Bhutan",
+        "original_goal_achieved": false,
+        "reasoning": "The query has been repeated and the tool has failed to extract and synthesize information from URLs. Since no globals_schema are available that can directly satisfy the query, and tool use has repeatedly failed, summarizing the available information is the best course of action.",
+        "local_goal_achieved": false,
+        "local_reasoning": "Previous attempts to extract information from URLs failed. Further attempts might lead to same failures. Need to summarize what is available",
+        "last_tooluse_summary": "Text extraction from the URLs failed.",
+        "solution_summary": "Previous attempt to extract information about India and Bhutan military relations from the web failed.",
+        "confidence": "0.3",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [],
+    "execution_snapshots": [],
+    "summarizer_snapshots": [
+      {
+        "run_id": "1b12a881-a259-467d-ae7d-af6956d50b05",
+        "input": {
+          "original_query": "Query 1: How are the military relations between India and Bhutan?\nResponse 1: I am unable to provide a summary of the military relations between India and Bhutan at this time. No tool has been used to extract and synthesize the text from the URLs provided.\nQuery 2: How are the military relations between India and Bhutan?\nResponse 2: Due to technical difficulties in extracting and synthesizing text from the provided URLs, a comprehensive summary of the military relations between India and Bhutan could not be generated. However, here are the search results that were found, which may contain relevant information:\n\n*   [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations)\n*   [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3)\n*   [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/)\n*   [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations)\nQuery 3: How are the military relations between India and Bhutan?",
+          "globals_schema": {},
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "India",
+                      "Bhutan",
+                      "military relations"
+                    ],
+                    "result_requirement": "Summary of military relations between India and Bhutan",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.3",
+                    "reasoning": "The query has been repeated and the tool has failed to extract and synthesize information from URLs. Since no globals_schema are available that can directly satisfy the query, and tool use has repeatedly failed, summarizing the available information is the best course of action.",
+                    "local_reasoning": "Previous attempts to extract information from URLs failed. Further attempts might lead to same failures. Need to summarize what is available",
+                    "last_tooluse_summary": "Text extraction from the URLs failed.",
+                    "solution_summary": "Previous attempt to extract information about India and Bhutan military relations from the web failed.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "The tool failed to extract and summarize text from the provided URLs regarding the military relations between India and Bhutan. The URLs provided were: [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations), [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations), [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3), [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/), and [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations). Please inform the user about the failure to extract the text and provide the listed URLs for manual review."
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              }
+            ],
+            "links": []
+          },
+          "perception": {
+            "entities": [
+              "India",
+              "Bhutan",
+              "military relations"
+            ],
+            "result_requirement": "Summary of military relations between India and Bhutan",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.3",
+            "reasoning": "The query has been repeated and the tool has failed to extract and synthesize information from URLs. Since no globals_schema are available that can directly satisfy the query, and tool use has repeatedly failed, summarizing the available information is the best course of action.",
+            "local_reasoning": "Previous attempts to extract information from URLs failed. Further attempts might lead to same failures. Need to summarize what is available",
+            "last_tooluse_summary": "Text extraction from the URLs failed.",
+            "solution_summary": "Previous attempt to extract information about India and Bhutan military relations from the web failed.",
+            "route": "summarize",
+            "instruction_to_summarize": "The tool failed to extract and summarize text from the provided URLs regarding the military relations between India and Bhutan. The URLs provided were: [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations), [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations), [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3), [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/), and [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations). Please inform the user about the failure to extract the text and provide the listed URLs for manual review."
+          }
+        },
+        "summary_output": "I was unable to extract and summarize text from the provided URLs regarding the military relations between India and Bhutan. For your convenience, here are the URLs that were used in the search. You may find the information you need by reviewing them directly:\n\n*   [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations)\n*   [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3)\n*   [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/)\n*   [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations)",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-18T04:36:36Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "Previous attempt to extract information about India and Bhutan military relations from the web failed.",
+    "status": "success",
+    "completed_at": "2025-05-18T04:40:43.703787"
+  },
+  "status": "success",
+  "final_step_id": "ROOT",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-18T04:40:43.705396",
+  "original_query": "Query 1: How are the military relations between India and Bhutan?\nResponse 1: I am unable to provide a summary of the military relations between India and Bhutan at this time. No tool has been used to extract and synthesize the text from the URLs provided.\nQuery 2: How are the military relations between India and Bhutan?\nResponse 2: Due to technical difficulties in extracting and synthesizing text from the provided URLs, a comprehensive summary of the military relations between India and Bhutan could not be generated. However, here are the search results that were found, which may contain relevant information:\n\n*   [https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations](https://en.wikipedia.org/wiki/Bhutan%E2%80%93India_relations)\n*   [https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations](https://visionias.in/current-affairs/monthly-magazine/2024-04-15/international-relations/india-bhutan-relations)\n*   [https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-bhutan-relations-3)\n*   [https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/](https://www.ias4sure.com/wikiias/gs2/india-bhutan-defence-relations/)\n*   [https://testbook.com/ias-preparation/india-bhutan-relations](https://testbook.com/ias-preparation/india-bhutan-relations)\nQuery 3: How are the military relations between India and Bhutan?",
+  "final_summary": "Previous attempt to extract information about India and Bhutan military relations from the web failed."
+}

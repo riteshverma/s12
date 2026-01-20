@@ -1,0 +1,1048 @@
+{
+  "context": {
+    "session_id": "78d31486-cb5a-4a8f-a372-c54ed3a5f67d",
+    "original_query": "Query 1: What is the difference between Agentic AI and AI Agents? Give me a beautiful report.",
+    "globals": {
+      "memory": [],
+      "search_results_0A": [
+        "https://medium.com/@elisowski/ai-agents-vs-agentic-ai-whats-the-difference-and-why-does-it-matter-03159ee8c2b4",
+        "https://arxiv.org/abs/2505.10468",
+        "https://www.geeksforgeeks.org/agentic-ai-vs-ai-agents/",
+        "https://www.forbes.com/sites/bernardmarr/2025/02/25/the-important-difference-between-agentic-ai-and-ai-agents/",
+        "https://codewave.com/insights/agentic-ai-vs-ai-agents-key-differences/"
+      ],
+      "url_summaries_1A": [
+        [
+          {
+            "type": "text",
+            "text": "AI Agents and Agentic AI are distinct AI types. Agentic AI is autonomous, making decisions, taking actions, and learning to achieve goals through perception, reasoning, action, and learning stages. AI Agents handle specific tasks, automating repetitive processes, but lack autonomy. Agentic AI examples include self-driving cars (like Tesla's Full Self-Driving) and supply chain management, autonomously optimizing inventory and delivery.",
+            "annotations": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "AI Agents, driven by LLMs and LIMs, are modular systems for task-specific automation, enhanced by tool integration and prompt engineering. Agentic AI marks a shift to multi-agent collaboration, dynamic task decomposition, persistent memory, and orchestrated autonomy. The study taxonomizes, maps applications, and analyzes challenges (hallucination, brittleness, emergent behavior, coordination failure) proposing ReAct loops, RAG, orchestration layers, and causal modeling as solutions for robust, scalable, and explainable AI systems in areas like customer support, research automation, and medical decision support. Published by Konstantinos I. Roumeliotis on May 15, 2025.",
+            "annotations": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Agentic AI and AI Agents, while related, differ significantly. Agentic AI is advanced, independent, and adapts to changes, making decisions and improving workflows autonomously. AI Agents are task-specific, lack independent thought, and operate within strict guidelines. Agentic AI exhibits higher autonomy, advanced decision-making, continuous learning, goal-oriented behavior, and higher computational complexity compared to AI Agents, which are more limited, pre-programmed, and require less power.",
+            "annotations": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "AI agents are specific applications that work independently to solve multi-step problems, like those used in banking and e-commerce for identity verification and automation. Agentic AI is the field researching and developing AI models to enable this autonomous work. AI agents are like specific medicines, while agentic AI is pharmaceutical science. Agentic AI is considered a path towards AGI, while current AI agents are not. Understanding both is crucial for leveraging technology, as agentic AI advancements will lead to more sophisticated agents automating diverse tasks.",
+            "annotations": null
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "AI agents and agentic AI, while both autonomous systems, differ in scope and complexity. AI agents perform specific tasks with predefined rules and limited memory, suitable for structured environments like chatbots or RPA bots. Agentic AI, however, involves systems that reason, learn, and make contextual decisions over time, adjusting to changing priorities and operating independently. Understanding this distinction is crucial to avoid over or under-building AI solutions based on the problem. Many companies are exploring AI for more than task automation, but few have implemented agentic architectures.",
+            "annotations": null
+          }
+        ]
+      ]
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: What is the difference between Agentic AI and AI Agents? Give me a beautiful report.",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "## Agentic AI vs. AI Agents: Key Differences\n\n| Feature                  | AI Agents                                     | Agentic AI                                          |\n| ------------------------ | --------------------------------------------- | ---------------------------------------------------- |\n| **Autonomy**             | Limited; handles specific tasks               | High; makes decisions and adapts autonomously       |\n| **Decision-Making**      | Pre-programmed, operates within strict rules | Advanced; reasons and makes contextual decisions    |\n| **Learning**             | Lacks continuous learning                     | Continuous learning and improvement                  |\n| **Complexity**           | Lower computational complexity                | Higher computational complexity                      |\n| **Scope**                | Task-specific automation                        | Multi-agent collaboration and dynamic task decomposition |\n| **Goal Orientation**     | Specific problem solving                      | Optimizing inventory, autonomous driving            |\n| **Memory**               | Limited                                       | Persistent Memory                                  |\n\n**In essence:** AI Agents are tools for specific tasks, while Agentic AI represents a broader field focused on creating autonomous systems capable of independent reasoning and learning. Agentic AI advancements promise more sophisticated automation across diverse tasks.\n\n**Further Reading:**\n\n*   [Medium Article](https://medium.com/@elisowski/ai-agents-vs-agentic-ai-whats-the-difference-and-why-does-it-matter-03159ee8c2b4)\n*   [Forbes Article](https://www.forbes.com/sites/bernardmarr/2025/02/25/the-important-difference-between-agentic-ai-and-ai-agents/)\n*   [GeeksforGeeks Article](https://www.geeksforgeeks.org/agentic-ai-vs-ai-agents/)\n*   [Codewave Insights](https://codewave.com/insights/agentic-ai-vs-ai-agents-key-differences/)\n*   [Research Paper](https://arxiv.org/abs/2505.10468)",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Agentic AI",
+                "AI Agents",
+                "difference",
+                "report"
+              ],
+              "result_requirement": "A report detailing the differences between Agentic AI and AI Agents.",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.9",
+              "reasoning": "The user is asking for a comparison between two AI concepts. This requires research and information gathering which is beyond my capabilities and better suited to tool-based planning.",
+              "local_reasoning": "The query cannot be answered without external knowledge.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Search for information about Agentic AI and AI Agents using DuckDuckGo.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "search_results_0A": [
+                "https://medium.com/@elisowski/ai-agents-vs-agentic-ai-whats-the-difference-and-why-does-it-matter-03159ee8c2b4",
+                "https://arxiv.org/abs/2505.10468",
+                "https://www.geeksforgeeks.org/agentic-ai-vs-ai-agents/",
+                "https://www.forbes.com/sites/bernardmarr/2025/02/25/the-important-difference-between-agentic-ai-and-ai-agents/",
+                "https://codewave.com/insights/agentic-ai-vs-ai-agents-key-differences/"
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Agentic AI",
+                "AI Agents",
+                "difference",
+                "report"
+              ],
+              "result_requirement": "A report detailing the differences between Agentic AI and AI Agents.",
+              "original_goal_achieved": false,
+              "local_goal_achieved": true,
+              "confidence": "0.8",
+              "reasoning": "A list of URLs has been retrieved. The next step is to summarize each of these URLs and extract the differences between Agentic AI and AI Agents.",
+              "local_reasoning": "The search tool successfully retrieved relevant URLs.",
+              "last_tooluse_summary": "DuckDuckGo search for 'Agentic AI vs AI Agents' succeeded, returning 5 URLs.",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        },
+        {
+          "data": {
+            "index": "1",
+            "description": "Extract and summarize the content of the retrieved URLs.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "url_summaries_1A": [
+                [
+                  {
+                    "type": "text",
+                    "text": "AI Agents and Agentic AI are distinct AI types. Agentic AI is autonomous, making decisions, taking actions, and learning to achieve goals through perception, reasoning, action, and learning stages. AI Agents handle specific tasks, automating repetitive processes, but lack autonomy. Agentic AI examples include self-driving cars (like Tesla's Full Self-Driving) and supply chain management, autonomously optimizing inventory and delivery.",
+                    "annotations": null
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "AI Agents, driven by LLMs and LIMs, are modular systems for task-specific automation, enhanced by tool integration and prompt engineering. Agentic AI marks a shift to multi-agent collaboration, dynamic task decomposition, persistent memory, and orchestrated autonomy. The study taxonomizes, maps applications, and analyzes challenges (hallucination, brittleness, emergent behavior, coordination failure) proposing ReAct loops, RAG, orchestration layers, and causal modeling as solutions for robust, scalable, and explainable AI systems in areas like customer support, research automation, and medical decision support. Published by Konstantinos I. Roumeliotis on May 15, 2025.",
+                    "annotations": null
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "Agentic AI and AI Agents, while related, differ significantly. Agentic AI is advanced, independent, and adapts to changes, making decisions and improving workflows autonomously. AI Agents are task-specific, lack independent thought, and operate within strict guidelines. Agentic AI exhibits higher autonomy, advanced decision-making, continuous learning, goal-oriented behavior, and higher computational complexity compared to AI Agents, which are more limited, pre-programmed, and require less power.",
+                    "annotations": null
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "AI agents are specific applications that work independently to solve multi-step problems, like those used in banking and e-commerce for identity verification and automation. Agentic AI is the field researching and developing AI models to enable this autonomous work. AI agents are like specific medicines, while agentic AI is pharmaceutical science. Agentic AI is considered a path towards AGI, while current AI agents are not. Understanding both is crucial for leveraging technology, as agentic AI advancements will lead to more sophisticated agents automating diverse tasks.",
+                    "annotations": null
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "AI agents and agentic AI, while both autonomous systems, differ in scope and complexity. AI agents perform specific tasks with predefined rules and limited memory, suitable for structured environments like chatbots or RPA bots. Agentic AI, however, involves systems that reason, learn, and make contextual decisions over time, adjusting to changing priorities and operating independently. Understanding this distinction is crucial to avoid over or under-building AI solutions based on the problem. Many companies are exploring AI for more than task automation, but few have implemented agentic architectures.",
+                    "annotations": null
+                  }
+                ]
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Agentic AI",
+                "AI Agents",
+                "difference",
+                "report"
+              ],
+              "result_requirement": "A report detailing the differences between Agentic AI and AI Agents.",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "0.9",
+              "reasoning": "The summaries of the search results provide enough information to create a report detailing the differences between Agentic AI and AI Agents. The original goal is achieved, and a summary can be provided to the user.",
+              "local_reasoning": "The tool output provides enough information to fulfill the original query.",
+              "last_tooluse_summary": "URL Summarization of 5 URLs succeeded.",
+              "solution_summary": "The summaries detail the differences between Agentic AI and AI Agents.",
+              "route": "summarize",
+              "instruction_to_summarize": "Create a report detailing the differences between Agentic AI and AI Agents, based on the provided summaries. The report should include a comparison of their autonomy, decision-making capabilities, learning abilities, and complexity. Use markdown formatting, make it short, and beautiful."
+            },
+            "from_step": "1"
+          },
+          "id": "1"
+        },
+        {
+          "data": {
+            "index": "2",
+            "description": "Synthesize a report comparing Agentic AI and AI Agents based on the summaries.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "1"
+          },
+          "id": "2"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "2"
+        },
+        {
+          "type": "normal",
+          "source": "1",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "1",
+          "target": "2"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "78d31486-cb5a-4a8f-a372-c54ed3a5f67d",
+    "original_query": "Query 1: What is the difference between Agentic AI and AI Agents? Give me a beautiful report.",
+    "perception_snapshots": [
+      {
+        "run_id": "78d31486-cb5a-4a8f-a372-c54ed3a5f67d-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "Agentic AI",
+          "AI Agents",
+          "difference",
+          "report"
+        ],
+        "result_requirement": "A report detailing the differences between Agentic AI and AI Agents.",
+        "original_goal_achieved": false,
+        "reasoning": "The user is asking for a comparison between two AI concepts. This requires research and information gathering which is beyond my capabilities and better suited to tool-based planning.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The query cannot be answered without external knowledge.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.9",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "78d31486-cb5a-4a8f-a372-c54ed3a5f67d-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "Agentic AI",
+          "AI Agents",
+          "difference",
+          "report"
+        ],
+        "result_requirement": "A report detailing the differences between Agentic AI and AI Agents.",
+        "original_goal_achieved": false,
+        "reasoning": "A list of URLs has been retrieved. The next step is to summarize each of these URLs and extract the differences between Agentic AI and AI Agents.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The search tool successfully retrieved relevant URLs.",
+        "last_tooluse_summary": "DuckDuckGo search for 'Agentic AI vs AI Agents' succeeded, returning 5 URLs.",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.8",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "78d31486-cb5a-4a8f-a372-c54ed3a5f67d-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "Agentic AI",
+          "AI Agents",
+          "difference",
+          "report"
+        ],
+        "result_requirement": "A report detailing the differences between Agentic AI and AI Agents.",
+        "original_goal_achieved": true,
+        "reasoning": "The summaries of the search results provide enough information to create a report detailing the differences between Agentic AI and AI Agents. The original goal is achieved, and a summary can be provided to the user.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The tool output provides enough information to fulfill the original query.",
+        "last_tooluse_summary": "URL Summarization of 5 URLs succeeded.",
+        "solution_summary": "The summaries detail the differences between Agentic AI and AI Agents.",
+        "confidence": "0.9",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "c3c1e1e2-4133-4f12-8e6c-1eca4e7ea77c",
+        "input": {
+          "current_time": "2025-05-19T07:07:35.694865",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: What is the difference between Agentic AI and AI Agents? Give me a beautiful report.",
+          "perception": {
+            "entities": [
+              "Agentic AI",
+              "AI Agents",
+              "difference",
+              "report"
+            ],
+            "result_requirement": "A report detailing the differences between Agentic AI and AI Agents.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.9",
+            "reasoning": "The user is asking for a comparison between two AI concepts. This requires research and information gathering which is beyond my capabilities and better suited to tool-based planning.",
+            "local_reasoning": "The query cannot be answered without external knowledge.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Agentic AI",
+                  "AI Agents",
+                  "difference",
+                  "report"
+                ],
+                "result_requirement": "A report detailing the differences between Agentic AI and AI Agents.",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The user is asking for a comparison between two AI concepts. This requires research and information gathering which is beyond my capabilities and better suited to tool-based planning.",
+                "local_reasoning": "The query cannot be answered without external knowledge.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Agentic AI",
+                  "AI Agents",
+                  "difference",
+                  "report"
+                ],
+                "result_requirement": "A report detailing the differences between Agentic AI and AI Agents.",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The user is asking for a comparison between two AI concepts. This requires research and information gathering which is beyond my capabilities and better suited to tool-based planning.",
+                "local_reasoning": "The query cannot be answered without external knowledge.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[]"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search for information about Agentic AI and AI Agents using DuckDuckGo."
+              },
+              {
+                "id": "1",
+                "description": "Extract and summarize content from the most relevant URLs."
+              },
+              {
+                "id": "2",
+                "description": "Synthesize a report detailing the differences between Agentic AI and AI Agents."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              },
+              {
+                "from": "1",
+                "to": "2",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "query = 'Agentic AI vs AI Agents'\nurls_0A = duckduckgo_search(query, 5)\nreturn {\"search_results_0A\": urls_0A}",
+            "CODE_0B": "query1 = 'Agentic AI definition'\nquery2 = 'AI Agents definition'\nurls1 = duckduckgo_search(query1, 3)\nurls2 = duckduckgo_search(query2, 3)\nurls_0B = urls1 + urls2\nreturn {\"search_results_0B\": urls_0B}",
+            "CODE_0C": "query = 'Agentic AI and AI Agents differences'\nurls_0C = duckduckgo_search(query, 5)\nreturn {\"search_results_0C\": urls_0C}"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search for information about Agentic AI and AI Agents using DuckDuckGo."
+            },
+            {
+              "id": "1",
+              "description": "Extract and summarize content from the most relevant URLs."
+            },
+            {
+              "id": "2",
+              "description": "Synthesize a report detailing the differences between Agentic AI and AI Agents."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            },
+            {
+              "from": "1",
+              "to": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "query = 'Agentic AI vs AI Agents'\nurls_0A = duckduckgo_search(query, 5)\nreturn {\"search_results_0A\": urls_0A}",
+          "CODE_0B": "query1 = 'Agentic AI definition'\nquery2 = 'AI Agents definition'\nurls1 = duckduckgo_search(query1, 3)\nurls2 = duckduckgo_search(query2, 3)\nurls_0B = urls1 + urls2\nreturn {\"search_results_0B\": urls_0B}",
+          "CODE_0C": "query = 'Agentic AI and AI Agents differences'\nurls_0C = duckduckgo_search(query, 5)\nreturn {\"search_results_0C\": urls_0C}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      },
+      {
+        "run_id": "7e8002e3-68c8-411c-b4ef-83b7c0abbb92",
+        "input": {
+          "current_time": "2025-05-19T07:07:51.450224",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: What is the difference between Agentic AI and AI Agents? Give me a beautiful report.",
+          "perception": {
+            "entities": [
+              "Agentic AI",
+              "AI Agents",
+              "difference",
+              "report"
+            ],
+            "result_requirement": "A report detailing the differences between Agentic AI and AI Agents.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": true,
+            "confidence": "0.8",
+            "reasoning": "A list of URLs has been retrieved. The next step is to summarize each of these URLs and extract the differences between Agentic AI and AI Agents.",
+            "local_reasoning": "The search tool successfully retrieved relevant URLs.",
+            "last_tooluse_summary": "DuckDuckGo search for 'Agentic AI vs AI Agents' succeeded, returning 5 URLs.",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Agentic AI",
+                  "AI Agents",
+                  "difference",
+                  "report"
+                ],
+                "result_requirement": "A report detailing the differences between Agentic AI and AI Agents.",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The user is asking for a comparison between two AI concepts. This requires research and information gathering which is beyond my capabilities and better suited to tool-based planning.",
+                "local_reasoning": "The query cannot be answered without external knowledge.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            },
+            {
+              "index": "0",
+              "description": "Search for information about Agentic AI and AI Agents using DuckDuckGo.",
+              "type": "CODE",
+              "status": "completed",
+              "result": {
+                "search_results_0A": [
+                  "https://medium.com/@elisowski/ai-agents-vs-agentic-ai-whats-the-difference-and-why-does-it-matter-03159ee8c2b4",
+                  "https://arxiv.org/abs/2505.10468",
+                  "https://www.geeksforgeeks.org/agentic-ai-vs-ai-agents/",
+                  "https://www.forbes.com/sites/bernardmarr/2025/02/25/the-important-difference-between-agentic-ai-and-ai-agents/",
+                  "https://codewave.com/insights/agentic-ai-vs-ai-agents-key-differences/"
+                ]
+              },
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Agentic AI",
+                  "AI Agents",
+                  "difference",
+                  "report"
+                ],
+                "result_requirement": "A report detailing the differences between Agentic AI and AI Agents.",
+                "original_goal_achieved": false,
+                "local_goal_achieved": true,
+                "confidence": "0.8",
+                "reasoning": "A list of URLs has been retrieved. The next step is to summarize each of these URLs and extract the differences between Agentic AI and AI Agents.",
+                "local_reasoning": "The search tool successfully retrieved relevant URLs.",
+                "last_tooluse_summary": "DuckDuckGo search for 'Agentic AI vs AI Agents' succeeded, returning 5 URLs.",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": "ROOT"
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Agentic AI",
+                  "AI Agents",
+                  "difference",
+                  "report"
+                ],
+                "result_requirement": "A report detailing the differences between Agentic AI and AI Agents.",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The user is asking for a comparison between two AI concepts. This requires research and information gathering which is beyond my capabilities and better suited to tool-based planning.",
+                "local_reasoning": "The query cannot be answered without external knowledge.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[]"
+            },
+            "search_results_0A": {
+              "type": "list",
+              "preview": "['https://medium.com/@elisowski/ai-agents-vs-agentic-ai-whats-the-difference-and-why-does-it-matter-03159ee8c2b4', 'https://arxiv.org/abs/2505.10468', 'https://www.geeksforgeeks.org/agentic-ai-vs-ai-agents/', 'https://www.forbes.com/sites/bernardmarr/2025/02/25/the-important-difference-between-agentic-ai-and-ai-agents/', 'https://codewave.com/insights/agentic-ai-vs-ai-agents-key-differences/']"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search for information about Agentic AI and AI Agents using DuckDuckGo."
+              },
+              {
+                "id": "1",
+                "description": "Extract and summarize the content of the retrieved URLs."
+              },
+              {
+                "id": "2",
+                "description": "Synthesize a report comparing Agentic AI and AI Agents based on the summaries."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              },
+              {
+                "from": "1",
+                "to": "2",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "1",
+          "code_variants": {
+            "CODE_1A": "urls = globals_schema.get(\"search_results_0A\", [])\nsummaries = []\nfor url in urls:\n    try:\n        summary = webpage_url_to_summary(url)\n        summaries.append(summary)\n    except Exception as e:\n        summaries.append(f\"Error summarizing {url}: {e}\")\n\nreturn {\"url_summaries_1A\": summaries}",
+            "CODE_1B": "urls = globals_schema.get(\"search_results_0A\", [])\ntexts = []\nfor url in urls:\n    try:\n        text = webpage_url_to_raw_text(url)\n        texts.append(text)\n    except Exception as e:\n        texts.append(f\"Error extracting text from {url}: {e}\")\n\nreturn {\"url_texts_1B\": texts}",
+            "CODE_1C": "urls = globals_schema.get(\"search_results_0A\", [])\n\ncombined_results = []\nfor url in urls:\n    try:\n        summary = webpage_url_to_summary(url)\n        raw_text = webpage_url_to_raw_text(url)\n        combined_results.append({\"url\": url, \"summary\": summary, \"raw_text\": raw_text})\n    except Exception as e:\n        combined_results.append({\"url\": url, \"error\": str(e)})\n\nreturn {\"combined_url_data_1C\": combined_results}"
+          }
+        },
+        "next_step_id": "1",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search for information about Agentic AI and AI Agents using DuckDuckGo."
+            },
+            {
+              "id": "1",
+              "description": "Extract and summarize the content of the retrieved URLs."
+            },
+            {
+              "id": "2",
+              "description": "Synthesize a report comparing Agentic AI and AI Agents based on the summaries."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            },
+            {
+              "from": "1",
+              "to": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_1A": "urls = globals_schema.get(\"search_results_0A\", [])\nsummaries = []\nfor url in urls:\n    try:\n        summary = webpage_url_to_summary(url)\n        summaries.append(summary)\n    except Exception as e:\n        summaries.append(f\"Error summarizing {url}: {e}\")\n\nreturn {\"url_summaries_1A\": summaries}",
+          "CODE_1B": "urls = globals_schema.get(\"search_results_0A\", [])\ntexts = []\nfor url in urls:\n    try:\n        text = webpage_url_to_raw_text(url)\n        texts.append(text)\n    except Exception as e:\n        texts.append(f\"Error extracting text from {url}: {e}\")\n\nreturn {\"url_texts_1B\": texts}",
+          "CODE_1C": "urls = globals_schema.get(\"search_results_0A\", [])\n\ncombined_results = []\nfor url in urls:\n    try:\n        summary = webpage_url_to_summary(url)\n        raw_text = webpage_url_to_raw_text(url)\n        combined_results.append({\"url\": url, \"summary\": summary, \"raw_text\": raw_text})\n    except Exception as e:\n        combined_results.append({\"url\": url, \"error\": str(e)})\n\nreturn {\"combined_url_data_1C\": combined_results}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [
+      {
+        "run_id": "37a03a72-aeb1-4454-99c6-c1693e1dea9e",
+        "step_id": "0",
+        "variant_used": "CODE_0A",
+        "code": "query = 'Agentic AI vs AI Agents'\nurls_0A = duckduckgo_search(query, 5)\nreturn {\"search_results_0A\": urls_0A}",
+        "status": "success",
+        "result": {
+          "search_results_0A": [
+            "https://medium.com/@elisowski/ai-agents-vs-agentic-ai-whats-the-difference-and-why-does-it-matter-03159ee8c2b4",
+            "https://arxiv.org/abs/2505.10468",
+            "https://www.geeksforgeeks.org/agentic-ai-vs-ai-agents/",
+            "https://www.forbes.com/sites/bernardmarr/2025/02/25/the-important-difference-between-agentic-ai-and-ai-agents/",
+            "https://codewave.com/insights/agentic-ai-vs-ai-agents-key-differences/"
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 12:37:40",
+        "total_time": "6.799",
+        "return_to": ""
+      },
+      {
+        "run_id": "08245ccc-eb48-4e8c-aa2c-57899bd7cbdd",
+        "step_id": "1",
+        "variant_used": "CODE_1A",
+        "code": "urls = globals_schema.get(\"search_results_0A\", [])\nsummaries = []\nfor url in urls:\n    try:\n        summary = webpage_url_to_summary(url)\n        summaries.append(summary)\n    except Exception as e:\n        summaries.append(f\"Error summarizing {url}: {e}\")\n\nreturn {\"url_summaries_1A\": summaries}",
+        "status": "success",
+        "result": {
+          "url_summaries_1A": [
+            [
+              {
+                "type": "text",
+                "text": "AI Agents and Agentic AI are distinct AI types. Agentic AI is autonomous, making decisions, taking actions, and learning to achieve goals through perception, reasoning, action, and learning stages. AI Agents handle specific tasks, automating repetitive processes, but lack autonomy. Agentic AI examples include self-driving cars (like Tesla's Full Self-Driving) and supply chain management, autonomously optimizing inventory and delivery.",
+                "annotations": null
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "AI Agents, driven by LLMs and LIMs, are modular systems for task-specific automation, enhanced by tool integration and prompt engineering. Agentic AI marks a shift to multi-agent collaboration, dynamic task decomposition, persistent memory, and orchestrated autonomy. The study taxonomizes, maps applications, and analyzes challenges (hallucination, brittleness, emergent behavior, coordination failure) proposing ReAct loops, RAG, orchestration layers, and causal modeling as solutions for robust, scalable, and explainable AI systems in areas like customer support, research automation, and medical decision support. Published by Konstantinos I. Roumeliotis on May 15, 2025.",
+                "annotations": null
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Agentic AI and AI Agents, while related, differ significantly. Agentic AI is advanced, independent, and adapts to changes, making decisions and improving workflows autonomously. AI Agents are task-specific, lack independent thought, and operate within strict guidelines. Agentic AI exhibits higher autonomy, advanced decision-making, continuous learning, goal-oriented behavior, and higher computational complexity compared to AI Agents, which are more limited, pre-programmed, and require less power.",
+                "annotations": null
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "AI agents are specific applications that work independently to solve multi-step problems, like those used in banking and e-commerce for identity verification and automation. Agentic AI is the field researching and developing AI models to enable this autonomous work. AI agents are like specific medicines, while agentic AI is pharmaceutical science. Agentic AI is considered a path towards AGI, while current AI agents are not. Understanding both is crucial for leveraging technology, as agentic AI advancements will lead to more sophisticated agents automating diverse tasks.",
+                "annotations": null
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "AI agents and agentic AI, while both autonomous systems, differ in scope and complexity. AI agents perform specific tasks with predefined rules and limited memory, suitable for structured environments like chatbots or RPA bots. Agentic AI, however, involves systems that reason, learn, and make contextual decisions over time, adjusting to changing priorities and operating independently. Understanding this distinction is crucial to avoid over or under-building AI solutions based on the problem. Many companies are exploring AI for more than task automation, but few have implemented agentic architectures.",
+                "annotations": null
+              }
+            ]
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-19 12:37:58",
+        "total_time": "41.012",
+        "return_to": ""
+      }
+    ],
+    "summarizer_snapshots": [
+      {
+        "run_id": "4d14e214-5649-4292-9a5b-64274b8cc743",
+        "input": {
+          "original_query": "Query 1: What is the difference between Agentic AI and AI Agents? Give me a beautiful report.",
+          "globals_schema": {
+            "memory": [],
+            "search_results_0A": [
+              "https://medium.com/@elisowski/ai-agents-vs-agentic-ai-whats-the-difference-and-why-does-it-matter-03159ee8c2b4",
+              "https://arxiv.org/abs/2505.10468",
+              "https://www.geeksforgeeks.org/agentic-ai-vs-ai-agents/",
+              "https://www.forbes.com/sites/bernardmarr/2025/02/25/the-important-difference-between-agentic-ai-and-ai-agents/",
+              "https://codewave.com/insights/agentic-ai-vs-ai-agents-key-differences/"
+            ],
+            "url_summaries_1A": [
+              [
+                {
+                  "type": "text",
+                  "text": "AI Agents and Agentic AI are distinct AI types. Agentic AI is autonomous, making decisions, taking actions, and learning to achieve goals through perception, reasoning, action, and learning stages. AI Agents handle specific tasks, automating repetitive processes, but lack autonomy. Agentic AI examples include self-driving cars (like Tesla's Full Self-Driving) and supply chain management, autonomously optimizing inventory and delivery.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "AI Agents, driven by LLMs and LIMs, are modular systems for task-specific automation, enhanced by tool integration and prompt engineering. Agentic AI marks a shift to multi-agent collaboration, dynamic task decomposition, persistent memory, and orchestrated autonomy. The study taxonomizes, maps applications, and analyzes challenges (hallucination, brittleness, emergent behavior, coordination failure) proposing ReAct loops, RAG, orchestration layers, and causal modeling as solutions for robust, scalable, and explainable AI systems in areas like customer support, research automation, and medical decision support. Published by Konstantinos I. Roumeliotis on May 15, 2025.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Agentic AI and AI Agents, while related, differ significantly. Agentic AI is advanced, independent, and adapts to changes, making decisions and improving workflows autonomously. AI Agents are task-specific, lack independent thought, and operate within strict guidelines. Agentic AI exhibits higher autonomy, advanced decision-making, continuous learning, goal-oriented behavior, and higher computational complexity compared to AI Agents, which are more limited, pre-programmed, and require less power.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "AI agents are specific applications that work independently to solve multi-step problems, like those used in banking and e-commerce for identity verification and automation. Agentic AI is the field researching and developing AI models to enable this autonomous work. AI agents are like specific medicines, while agentic AI is pharmaceutical science. Agentic AI is considered a path towards AGI, while current AI agents are not. Understanding both is crucial for leveraging technology, as agentic AI advancements will lead to more sophisticated agents automating diverse tasks.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "AI agents and agentic AI, while both autonomous systems, differ in scope and complexity. AI agents perform specific tasks with predefined rules and limited memory, suitable for structured environments like chatbots or RPA bots. Agentic AI, however, involves systems that reason, learn, and make contextual decisions over time, adjusting to changing priorities and operating independently. Understanding this distinction is crucial to avoid over or under-building AI solutions based on the problem. Many companies are exploring AI for more than task automation, but few have implemented agentic architectures.",
+                  "annotations": null
+                }
+              ]
+            ]
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Agentic AI",
+                      "AI Agents",
+                      "difference",
+                      "report"
+                    ],
+                    "result_requirement": "A report detailing the differences between Agentic AI and AI Agents.",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.9",
+                    "reasoning": "The user is asking for a comparison between two AI concepts. This requires research and information gathering which is beyond my capabilities and better suited to tool-based planning.",
+                    "local_reasoning": "The query cannot be answered without external knowledge.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "0",
+                  "description": "Search for information about Agentic AI and AI Agents using DuckDuckGo.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "search_results_0A": [
+                      "https://medium.com/@elisowski/ai-agents-vs-agentic-ai-whats-the-difference-and-why-does-it-matter-03159ee8c2b4",
+                      "https://arxiv.org/abs/2505.10468",
+                      "https://www.geeksforgeeks.org/agentic-ai-vs-ai-agents/",
+                      "https://www.forbes.com/sites/bernardmarr/2025/02/25/the-important-difference-between-agentic-ai-and-ai-agents/",
+                      "https://codewave.com/insights/agentic-ai-vs-ai-agents-key-differences/"
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Agentic AI",
+                      "AI Agents",
+                      "difference",
+                      "report"
+                    ],
+                    "result_requirement": "A report detailing the differences between Agentic AI and AI Agents.",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": true,
+                    "confidence": "0.8",
+                    "reasoning": "A list of URLs has been retrieved. The next step is to summarize each of these URLs and extract the differences between Agentic AI and AI Agents.",
+                    "local_reasoning": "The search tool successfully retrieved relevant URLs.",
+                    "last_tooluse_summary": "DuckDuckGo search for 'Agentic AI vs AI Agents' succeeded, returning 5 URLs.",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "0"
+              },
+              {
+                "data": {
+                  "index": "1",
+                  "description": "Extract and summarize the content of the retrieved URLs.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "url_summaries_1A": [
+                      [
+                        {
+                          "type": "text",
+                          "text": "AI Agents and Agentic AI are distinct AI types. Agentic AI is autonomous, making decisions, taking actions, and learning to achieve goals through perception, reasoning, action, and learning stages. AI Agents handle specific tasks, automating repetitive processes, but lack autonomy. Agentic AI examples include self-driving cars (like Tesla's Full Self-Driving) and supply chain management, autonomously optimizing inventory and delivery.",
+                          "annotations": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "AI Agents, driven by LLMs and LIMs, are modular systems for task-specific automation, enhanced by tool integration and prompt engineering. Agentic AI marks a shift to multi-agent collaboration, dynamic task decomposition, persistent memory, and orchestrated autonomy. The study taxonomizes, maps applications, and analyzes challenges (hallucination, brittleness, emergent behavior, coordination failure) proposing ReAct loops, RAG, orchestration layers, and causal modeling as solutions for robust, scalable, and explainable AI systems in areas like customer support, research automation, and medical decision support. Published by Konstantinos I. Roumeliotis on May 15, 2025.",
+                          "annotations": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "Agentic AI and AI Agents, while related, differ significantly. Agentic AI is advanced, independent, and adapts to changes, making decisions and improving workflows autonomously. AI Agents are task-specific, lack independent thought, and operate within strict guidelines. Agentic AI exhibits higher autonomy, advanced decision-making, continuous learning, goal-oriented behavior, and higher computational complexity compared to AI Agents, which are more limited, pre-programmed, and require less power.",
+                          "annotations": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "AI agents are specific applications that work independently to solve multi-step problems, like those used in banking and e-commerce for identity verification and automation. Agentic AI is the field researching and developing AI models to enable this autonomous work. AI agents are like specific medicines, while agentic AI is pharmaceutical science. Agentic AI is considered a path towards AGI, while current AI agents are not. Understanding both is crucial for leveraging technology, as agentic AI advancements will lead to more sophisticated agents automating diverse tasks.",
+                          "annotations": null
+                        }
+                      ],
+                      [
+                        {
+                          "type": "text",
+                          "text": "AI agents and agentic AI, while both autonomous systems, differ in scope and complexity. AI agents perform specific tasks with predefined rules and limited memory, suitable for structured environments like chatbots or RPA bots. Agentic AI, however, involves systems that reason, learn, and make contextual decisions over time, adjusting to changing priorities and operating independently. Understanding this distinction is crucial to avoid over or under-building AI solutions based on the problem. Many companies are exploring AI for more than task automation, but few have implemented agentic architectures.",
+                          "annotations": null
+                        }
+                      ]
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Agentic AI",
+                      "AI Agents",
+                      "difference",
+                      "report"
+                    ],
+                    "result_requirement": "A report detailing the differences between Agentic AI and AI Agents.",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "0.9",
+                    "reasoning": "The summaries of the search results provide enough information to create a report detailing the differences between Agentic AI and AI Agents. The original goal is achieved, and a summary can be provided to the user.",
+                    "local_reasoning": "The tool output provides enough information to fulfill the original query.",
+                    "last_tooluse_summary": "URL Summarization of 5 URLs succeeded.",
+                    "solution_summary": "The summaries detail the differences between Agentic AI and AI Agents.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Create a report detailing the differences between Agentic AI and AI Agents, based on the provided summaries. The report should include a comparison of their autonomy, decision-making capabilities, learning abilities, and complexity. Use markdown formatting, make it short, and beautiful."
+                  },
+                  "from_step": "1"
+                },
+                "id": "1"
+              },
+              {
+                "data": {
+                  "index": "2",
+                  "description": "Synthesize a report comparing Agentic AI and AI Agents based on the summaries.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "1"
+                },
+                "id": "2"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "0"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "2"
+              },
+              {
+                "type": "normal",
+                "source": "1",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "1",
+                "target": "2"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "Agentic AI",
+              "AI Agents",
+              "difference",
+              "report"
+            ],
+            "result_requirement": "A report detailing the differences between Agentic AI and AI Agents.",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.9",
+            "reasoning": "The summaries of the search results provide enough information to create a report detailing the differences between Agentic AI and AI Agents. The original goal is achieved, and a summary can be provided to the user.",
+            "local_reasoning": "The tool output provides enough information to fulfill the original query.",
+            "last_tooluse_summary": "URL Summarization of 5 URLs succeeded.",
+            "solution_summary": "The summaries detail the differences between Agentic AI and AI Agents.",
+            "route": "summarize",
+            "instruction_to_summarize": "Create a report detailing the differences between Agentic AI and AI Agents, based on the provided summaries. The report should include a comparison of their autonomy, decision-making capabilities, learning abilities, and complexity. Use markdown formatting, make it short, and beautiful."
+          }
+        },
+        "summary_output": "## Agentic AI vs. AI Agents: Key Differences\n\n| Feature                  | AI Agents                                     | Agentic AI                                          |\n| ------------------------ | --------------------------------------------- | ---------------------------------------------------- |\n| **Autonomy**             | Limited; handles specific tasks               | High; makes decisions and adapts autonomously       |\n| **Decision-Making**      | Pre-programmed, operates within strict rules | Advanced; reasons and makes contextual decisions    |\n| **Learning**             | Lacks continuous learning                     | Continuous learning and improvement                  |\n| **Complexity**           | Lower computational complexity                | Higher computational complexity                      |\n| **Scope**                | Task-specific automation                        | Multi-agent collaboration and dynamic task decomposition |\n| **Goal Orientation**     | Specific problem solving                      | Optimizing inventory, autonomous driving            |\n| **Memory**               | Limited                                       | Persistent Memory                                  |\n\n**In essence:** AI Agents are tools for specific tasks, while Agentic AI represents a broader field focused on creating autonomous systems capable of independent reasoning and learning. Agentic AI advancements promise more sophisticated automation across diverse tasks.\n\n**Further Reading:**\n\n*   [Medium Article](https://medium.com/@elisowski/ai-agents-vs-agentic-ai-whats-the-difference-and-why-does-it-matter-03159ee8c2b4)\n*   [Forbes Article](https://www.forbes.com/sites/bernardmarr/2025/02/25/the-important-difference-between-agentic-ai-and-ai-agents/)\n*   [GeeksforGeeks Article](https://www.geeksforgeeks.org/agentic-ai-vs-ai-agents/)\n*   [Codewave Insights](https://codewave.com/insights/agentic-ai-vs-ai-agents-key-differences/)\n*   [Research Paper](https://arxiv.org/abs/2505.10468)",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-19T07:07:00Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "## Agentic AI vs. AI Agents: Key Differences\n\n| Feature                  | AI Agents                                     | Agentic AI                                          |\n| ------------------------ | --------------------------------------------- | ---------------------------------------------------- |\n| **Autonomy**             | Limited; handles specific tasks               | High; makes decisions and adapts autonomously       |\n| **Decision-Making**      | Pre-programmed, operates within strict rules | Advanced; reasons and makes contextual decisions    |\n| **Learning**             | Lacks continuous learning                     | Continuous learning and improvement                  |\n| **Complexity**           | Lower computational complexity                | Higher computational complexity                      |\n| **Scope**                | Task-specific automation                        | Multi-agent collaboration and dynamic task decomposition |\n| **Goal Orientation**     | Specific problem solving                      | Optimizing inventory, autonomous driving            |\n| **Memory**               | Limited                                       | Persistent Memory                                  |\n\n**In essence:** AI Agents are tools for specific tasks, while Agentic AI represents a broader field focused on creating autonomous systems capable of independent reasoning and learning. Agentic AI advancements promise more sophisticated automation across diverse tasks.\n\n**Further Reading:**\n\n*   [Medium Article](https://medium.com/@elisowski/ai-agents-vs-agentic-ai-whats-the-difference-and-why-does-it-matter-03159ee8c2b4)\n*   [Forbes Article](https://www.forbes.com/sites/bernardmarr/2025/02/25/the-important-difference-between-agentic-ai-and-ai-agents/)\n*   [GeeksforGeeks Article](https://www.geeksforgeeks.org/agentic-ai-vs-ai-agents/)\n*   [Codewave Insights](https://codewave.com/insights/agentic-ai-vs-ai-agents-key-differences/)\n*   [Research Paper](https://arxiv.org/abs/2505.10468)",
+    "status": "success",
+    "completed_at": "2025-05-19T07:08:51.615084"
+  },
+  "status": "success",
+  "final_step_id": "2",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-19T07:08:51.621085",
+  "original_query": "Query 1: What is the difference between Agentic AI and AI Agents? Give me a beautiful report.",
+  "final_summary": "## Agentic AI vs. AI Agents: Key Differences\n\n| Feature                  | AI Agents                                     | Agentic AI                                          |\n| ------------------------ | --------------------------------------------- | ---------------------------------------------------- |\n| **Autonomy**             | Limited; handles specific tasks               | High; makes decisions and adapts autonomously       |\n| **Decision-Making**      | Pre-programmed, operates within strict rules | Advanced; reasons and makes contextual decisions    |\n| **Learning**             | Lacks continuous learning                     | Continuous learning and improvement                  |\n| **Complexity**           | Lower computational complexity                | Higher computational complexity                      |\n| **Scope**                | Task-specific automation                        | Multi-agent collaboration and dynamic task decomposition |\n| **Goal Orientation**     | Specific problem solving                      | Optimizing inventory, autonomous driving            |\n| **Memory**               | Limited                                       | Persistent Memory                                  |\n\n**In essence:** AI Agents are tools for specific tasks, while Agentic AI represents a broader field focused on creating autonomous systems capable of independent reasoning and learning. Agentic AI advancements promise more sophisticated automation across diverse tasks.\n\n**Further Reading:**\n\n*   [Medium Article](https://medium.com/@elisowski/ai-agents-vs-agentic-ai-whats-the-difference-and-why-does-it-matter-03159ee8c2b4)\n*   [Forbes Article](https://www.forbes.com/sites/bernardmarr/2025/02/25/the-important-difference-between-agentic-ai-and-ai-agents/)\n*   [GeeksforGeeks Article](https://www.geeksforgeeks.org/agentic-ai-vs-ai-agents/)\n*   [Codewave Insights](https://codewave.com/insights/agentic-ai-vs-ai-agents-key-differences/)\n*   [Research Paper](https://arxiv.org/abs/2505.10468)"
+}

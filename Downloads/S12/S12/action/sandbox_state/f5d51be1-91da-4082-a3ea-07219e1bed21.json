@@ -1,0 +1,19 @@
+{
+  "urls_0A": [
+    "https://www.techtarget.com/iotagenda/definition/microcontroller",
+    "https://www.geeksforgeeks.org/microcontroller-and-its-types/",
+    "https://www.allaboutcircuits.com/technical-articles/what-is-a-microcontroller-introduction-component-characteristics-component/"
+  ],
+  "urls_1A": [
+    "https://www.geeksforgeeks.org/introduction-of-microprocessor/",
+    "https://en.wikipedia.org/wiki/Microprocessor",
+    "https://www.watelectronics.com/what-is-a-microprocessor-architecture-types-its-applications/"
+  ],
+  "raw_text_microcontroller_2B": [
+    {
+      "type": "text",
+      "text": "[trafilatura] What is a microcontroller (MCU)?\nA microcontroller is a compact integrated circuit designed to govern a specific operation in an embedded system. A typical microcontroller includes a processor, memory and input/output (I/O) peripherals on a single chip.\nSometimes referred to as an embedded controller or microcontroller unit (MCU), microcontrollers are found in automobile engine control systems, robots, office machines, medical devices, mobile radio transceivers, vending machines and home appliances, among other devices. They're simple miniature PCs designed to control small features of a larger component without a complex front-end operating system.\nHow do microcontrollers work?\nA microcontroller is embedded inside of a system to control a single function in a device. It uses its central processor to interpret data it receives from its I/O peripherals. The information that the microcontroller receives is temporarily stored in its data memory, where the processor accesses it and uses instructions stored in its program memory to decipher and apply the incoming data. It then uses its I/O peripherals to communicate and take the appropriate action.\nMicrocontrollers are used in an array of systems and devices. Devices often use multiple microcontrollers that work together in the device to handle their respective tasks.\nFor example, a car has many microcontrollers that control various individual systems, such as the antilock braking system, traction control, fuel injection and suspension control. Each microcontroller communicates with the others to inform them of the correct actions. Some might communicate with a more complex central computer within the car, and others might only communicate with other microcontrollers. They send and receive data using their I/O peripherals and process that data to perform their designated tasks.\nWhat are the elements of a microcontroller?\nThe core elements that make up a microcontroller are the central processing unit (CPU), memory and I/O peripherals.\nCPU\nAlso known as a processor, a CPU is the brain of the device. It processes and responds to various instructions that direct the microcontroller's function. This involves performing basic arithmetic, logic and I/O operations. It also performs data transfer operations, which communicate commands to other components in the larger embedded system.\nMemory\nA microcontroller's memory stores the data that the processor receives and uses to respond to instructions it's programmed to carry out. A microcontroller has two main memory types:\n- Program memory. This stores long-term information about the instructions that the CPU carries out. Program memory is non-volatile memory, meaning it stores information over time without needing a power supply.\n- Data memory. This temporary data storage is used while the instructions are being executed. Data memory is volatile, meaning the data it holds is temporary and is only maintained if the device is connected to a power source.\nI/O peri",
+      "annotations": null
+    }
+  ]
+}

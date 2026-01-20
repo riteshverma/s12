@@ -1,0 +1,233 @@
+{
+  "session_id": "e6a5669c-d57c-4c4d-b23f-995914f792d4",
+  "original_query": "Query 1: How are the relations between India and Turkey?",
+  "globals": {
+    "search_results": [
+      "https://www.financialexpress.com/policy/economy/boycott-turkey-hits-business-check-impact-on-india-turkey-trade-as-travel-slumps-60-apple-and-marble-imports-feel-the-heat/3847327/",
+      "https://economictimes.indiatimes.com/news/india/not-just-travel-india-pressing-turkeys-many-pain-points/articleshow/121166168.cms",
+      "https://www.indiatoday.in/india/video/anti-turkey-protests-erupt-in-delhi-as-calls-for-boycott-grow-ytvd-2725692-2025-05-16",
+      "https://www.hindustantimes.com/india-news/indians-sour-on-turkey-azerbaijan-after-conflict-101747250696478.html",
+      "https://www.firstpost.com/explainers/from-security-aviation-to-education-trade-how-india-is-cutting-ties-with-turkey-over-pakistan-13889032.html"
+    ],
+    "summaries": [
+      [
+        {
+          "type": "text",
+          "text": "The \"Boycott Turkey\" social media campaign, triggered by Turkey and Azerbaijan's support for Pakistan during Operation Sindoor and alleged military aid during the India-Pakistan conflict, is significantly impacting businesses. This includes travel cancellations and rejection of Turkish goods like apples and marbles. India has a trade surplus with Turkey, exporting $5.2 billion (mineral fuels, auto parts, pharmaceuticals, cotton) and importing $2.84 billion (mineral oil, gold, marble, apples) during April-February 2024-25. Pune traders are refusing Turkish apples ($92.8 million in 2023), opting for alternatives from Himachal, Uttarakhand, and Iran, supported by Maharashtra's Deputy Chief Minister. This boycott is expected to impact Pune's fruit market, which has a seasonal turnover from Turkish apples between 1,000 crores to 1,200 crores. Travel to Turkey has also declined.",
+          "annotations": null
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "text": "India blocked TRT World's X account for misinformation, a move preceded by strategic, diplomatic, and trade actions against Turkey due to its support for Pakistan on the Kashmir issue, repeatedly raised by Erdogan at international platforms. India has deepened ties with Turkey's rivals, including Greece, Armenia, and Cyprus, demonstrated through defense cooperation, weapon sales (like PINAKA to Armenia), and cancelled naval deals with Turkish firms due to national security concerns. India is also strengthening ties with Saudi Arabia and the UAE.",
+          "annotations": null
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "text": "Defence Minister Rajnath Singh, accompanied by Air Chief Marshal AP Singh, visits Bhuj airbase to interact with Air Warriors at the Air Force Station. Singh is expected to stay for two to three hours.",
+          "annotations": null
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "text": "India's relations with Turkey and Azerbaijan are strained due to their close ties with Pakistan, especially after India's military actions against Pakistan. Both countries expressed support for Pakistan, leading to boycott calls in India. JNU ended an agreement with Turkey's Inonu University. Turkish-made drones were reportedly used against India. Long-standing concerns include Turkey and Azerbaijan's support for Pakistan on the Kashmir issue, including Erdogan's remarks and their joint military exercises (Three Brothers) and the Baku Declaration, which outlines mutual diplomatic support in territorial disputes.",
+          "annotations": null
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "text": "India is cutting ties with Turkey across education, security, aviation, and trade sectors due to Turkey's support for Pakistan, including providing UAVs, during \"Operation Sindoor\". The Association of Indian Universities (AIU) urged suspension of academic ties with Turkey, Pakistan, and Bangladesh citing national security. JNU, Jamia Millia Islamia, CSJMU, MANUU, and LPU have already suspended or terminated agreements with Turkish institutions. LPU cited India's national interest and support for its armed forces as reasons for severing ties.",
+          "annotations": null
+        }
+      ]
+    ]
+  },
+  "memory": [],
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "data": {
+          "index": "ROOT",
+          "description": "initial query",
+          "type": "ROOT",
+          "status": "completed",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "India",
+              "Turkey",
+              "relations"
+            ],
+            "result_requirement": "Summary of the current relations between India and Turkey",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.8",
+            "reasoning": "The query asks for the current state of relations between India and Turkey.  I have not yet retrieved or summarized information about this topic.  The memory excerpt contains similar queries, but not about the specific India-Turkey relationship. The current plan is empty, completed steps only contain ROOT node, and failed steps is empty. Therefore, planning is required.",
+            "local_reasoning": "This is a new query that requires information retrieval and summarization.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "from_step": null
+        },
+        "id": "ROOT"
+      },
+      {
+        "data": {
+          "index": "0",
+          "description": "Search for recent news articles about India-Turkey relations.",
+          "type": "CODE",
+          "status": "completed",
+          "result": {
+            "search_results": [
+              "https://www.financialexpress.com/policy/economy/boycott-turkey-hits-business-check-impact-on-india-turkey-trade-as-travel-slumps-60-apple-and-marble-imports-feel-the-heat/3847327/",
+              "https://economictimes.indiatimes.com/news/india/not-just-travel-india-pressing-turkeys-many-pain-points/articleshow/121166168.cms",
+              "https://www.indiatoday.in/india/video/anti-turkey-protests-erupt-in-delhi-as-calls-for-boycott-grow-ytvd-2725692-2025-05-16",
+              "https://www.hindustantimes.com/india-news/indians-sour-on-turkey-azerbaijan-after-conflict-101747250696478.html",
+              "https://www.firstpost.com/explainers/from-security-aviation-to-education-trade-how-india-is-cutting-ties-with-turkey-over-pakistan-13889032.html"
+            ]
+          },
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "India",
+              "Turkey",
+              "relations"
+            ],
+            "result_requirement": "Summary of current relations between India and Turkey based on search results",
+            "original_goal_achieved": false,
+            "local_goal_achieved": true,
+            "confidence": "0.9",
+            "reasoning": "The search tool has successfully returned a list of URLs related to India-Turkey relations. The next step is to extract and summarize the information from these URLs to answer the original query. We can move to the next step.",
+            "local_reasoning": "Successfully retrieved URLs. Need to extract text from urls.",
+            "last_tooluse_summary": "Search tool successfully returned URLs related to India-Turkey relations.",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "from_step": "ROOT"
+        },
+        "id": "0"
+      },
+      {
+        "data": {
+          "index": "1",
+          "description": "Extract and summarize the content of the retrieved URLs.",
+          "type": "CODE",
+          "status": "completed",
+          "result": {
+            "summaries": [
+              [
+                {
+                  "type": "text",
+                  "text": "The \"Boycott Turkey\" social media campaign, triggered by Turkey and Azerbaijan's support for Pakistan during Operation Sindoor and alleged military aid during the India-Pakistan conflict, is significantly impacting businesses. This includes travel cancellations and rejection of Turkish goods like apples and marbles. India has a trade surplus with Turkey, exporting $5.2 billion (mineral fuels, auto parts, pharmaceuticals, cotton) and importing $2.84 billion (mineral oil, gold, marble, apples) during April-February 2024-25. Pune traders are refusing Turkish apples ($92.8 million in 2023), opting for alternatives from Himachal, Uttarakhand, and Iran, supported by Maharashtra's Deputy Chief Minister. This boycott is expected to impact Pune's fruit market, which has a seasonal turnover from Turkish apples between 1,000 crores to 1,200 crores. Travel to Turkey has also declined.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "India blocked TRT World's X account for misinformation, a move preceded by strategic, diplomatic, and trade actions against Turkey due to its support for Pakistan on the Kashmir issue, repeatedly raised by Erdogan at international platforms. India has deepened ties with Turkey's rivals, including Greece, Armenia, and Cyprus, demonstrated through defense cooperation, weapon sales (like PINAKA to Armenia), and cancelled naval deals with Turkish firms due to national security concerns. India is also strengthening ties with Saudi Arabia and the UAE.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Defence Minister Rajnath Singh, accompanied by Air Chief Marshal AP Singh, visits Bhuj airbase to interact with Air Warriors at the Air Force Station. Singh is expected to stay for two to three hours.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "India's relations with Turkey and Azerbaijan are strained due to their close ties with Pakistan, especially after India's military actions against Pakistan. Both countries expressed support for Pakistan, leading to boycott calls in India. JNU ended an agreement with Turkey's Inonu University. Turkish-made drones were reportedly used against India. Long-standing concerns include Turkey and Azerbaijan's support for Pakistan on the Kashmir issue, including Erdogan's remarks and their joint military exercises (Three Brothers) and the Baku Declaration, which outlines mutual diplomatic support in territorial disputes.",
+                  "annotations": null
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "India is cutting ties with Turkey across education, security, aviation, and trade sectors due to Turkey's support for Pakistan, including providing UAVs, during \"Operation Sindoor\". The Association of Indian Universities (AIU) urged suspension of academic ties with Turkey, Pakistan, and Bangladesh citing national security. JNU, Jamia Millia Islamia, CSJMU, MANUU, and LPU have already suspended or terminated agreements with Turkish institutions. LPU cited India's national interest and support for its armed forces as reasons for severing ties.",
+                  "annotations": null
+                }
+              ]
+            ]
+          },
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "India",
+              "Turkey",
+              "relations"
+            ],
+            "result_requirement": "Summary of the relations between India and Turkey",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.95",
+            "reasoning": "The search and summarization steps have provided sufficient information to create a summary of the relations between India and Turkey. The summaries indicate strained relations due to Turkey's support for Pakistan, leading to boycotts and diplomatic actions by India. Further steps are unlikely to provide significantly more information.",
+            "local_reasoning": "The summaries of the retrieved URLs provide sufficient context to summarize India-Turkey relations.",
+            "last_tooluse_summary": "Summarization tool successfully extracted relevant summaries from provided URLs.",
+            "solution_summary": "India-Turkey relations are strained due to Turkey's support for Pakistan. This has led to boycotts, trade impacts, and diplomatic actions by India.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize the current relations between India and Turkey, focusing on the reasons for the strained relationship, including Turkey's support for Pakistan, the resulting boycotts and trade impacts, and the diplomatic actions taken by India. Return the summary in markdown format."
+          },
+          "from_step": "1"
+        },
+        "id": "1"
+      },
+      {
+        "data": {
+          "index": "2",
+          "description": "Consolidate the summaries to provide a comprehensive overview of India-Turkey relations.",
+          "type": "CODE",
+          "status": "Skipped",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "1"
+        },
+        "id": "2"
+      }
+    ],
+    "links": [
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "0"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "1"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "2"
+      },
+      {
+        "type": "normal",
+        "source": "1",
+        "target": "1"
+      },
+      {
+        "type": "normal",
+        "source": "1",
+        "target": "2"
+      }
+    ]
+  }
+}

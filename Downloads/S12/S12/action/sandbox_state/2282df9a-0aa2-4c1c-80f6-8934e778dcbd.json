@@ -1,0 +1,1206 @@
+{
+  "page_structure_0A": {
+    "page_structure": {
+      "total_interactive_elements": 34,
+      "categories": {
+        "navigation": 9,
+        "forms": 21,
+        "buttons": 4
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "content": "Contact Us | AI Solutions for Your Construction Business"
+      },
+      {
+        "type": "text",
+        "content": "[logo]"
+      },
+      {
+        "type": "interactive",
+        "element_type": "nav_link",
+        "id": 1,
+        "text": "Home",
+        "action": "click_element_by_index",
+        "category": "navigation"
+      },
+      {
+        "type": "interactive",
+        "element_type": "nav_link",
+        "id": 2,
+        "text": "About",
+        "action": "click_element_by_index",
+        "category": "navigation"
+      },
+      {
+        "type": "interactive",
+        "element_type": "button",
+        "id": 3,
+        "text": "Product",
+        "action": "hover item, not implemented yet",
+        "category": "button"
+      },
+      {
+        "type": "interactive",
+        "element_type": "button",
+        "id": 4,
+        "text": "Services",
+        "action": "hover item, not implemented yet",
+        "category": "button"
+      },
+      {
+        "type": "interactive",
+        "element_type": "nav_link",
+        "id": 5,
+        "text": "Team",
+        "action": "click_element_by_index",
+        "category": "navigation"
+      },
+      {
+        "type": "interactive",
+        "element_type": "nav_link",
+        "id": 6,
+        "text": "Pricing",
+        "action": "click_element_by_index",
+        "category": "navigation"
+      },
+      {
+        "type": "interactive",
+        "element_type": "nav_link",
+        "id": 7,
+        "text": "Contact",
+        "action": "click_element_by_index",
+        "category": "navigation"
+      },
+      {
+        "type": "interactive",
+        "element_type": "nav_link",
+        "id": 8,
+        "text": "Demo",
+        "action": "click_element_by_index",
+        "category": "navigation"
+      },
+      {
+        "type": "interactive",
+        "element_type": "button",
+        "id": 9,
+        "text": "Toggle theme",
+        "action": "click_element_by_index",
+        "category": "button"
+      },
+      {
+        "type": "interactive",
+        "element_type": "nav_link",
+        "id": 52,
+        "text": "Contact",
+        "action": "click_element_by_index",
+        "category": "navigation"
+      },
+      {
+        "type": "paragraph",
+        "content": "Get in touch for advanced AI solutions for your construction project"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Interested in a Free Scan?"
+      },
+      {
+        "type": "text",
+        "content": "For sales inquiries, please contact:"
+      },
+      {
+        "type": "interactive",
+        "element_type": "button",
+        "id": 10,
+        "text": "sales@inkers.ai",
+        "action": "click_element_by_index",
+        "category": "button"
+      },
+      {
+        "type": "paragraph",
+        "content": "Fill out the form below, and we'll process your request to schedule your complimentary scan at a convenient time!"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Contact Information"
+      },
+      {
+        "type": "text",
+        "content": "Phone Number"
+      },
+      {
+        "type": "interactive",
+        "element_type": "text_input",
+        "id": 20,
+        "text": "Enter your organization name (SingleLine1)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "text",
+        "content": "Organization Name*"
+      },
+      {
+        "type": "text",
+        "content": "Area to Scan (sqft)"
+      },
+      {
+        "type": "text",
+        "content": "Area to Scan (sqft)*"
+      },
+      {
+        "type": "text",
+        "content": "Is BIM Available?"
+      },
+      {
+        "type": "text",
+        "content": "Is Project Schedule Available?"
+      },
+      {
+        "type": "text",
+        "content": "Preferred Demo Date"
+      },
+      {
+        "type": "text",
+        "content": "Show date picker"
+      },
+      {
+        "type": "text",
+        "content": "Will be formatted as dd-MMM-yyyy"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Project Details"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Additional Information"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Project Address"
+      },
+      {
+        "type": "text",
+        "content": "Project Address"
+      },
+      {
+        "type": "text",
+        "content": "Project Address *"
+      },
+      {
+        "type": "interactive",
+        "element_type": "text_input",
+        "id": 37,
+        "text": "Address Line 2 (Address_AddressLine2)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "text_input",
+        "id": 38,
+        "text": "City (Address_City)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "text_input",
+        "id": 39,
+        "text": "State/Region/Province (Address_Region)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "text_input",
+        "id": 40,
+        "text": "Postal / Zip Code (Address_ZipCode)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "text",
+        "content": "Antigua and Barbuda"
+      },
+      {
+        "type": "text",
+        "content": "Ashmore and Cartier Islands"
+      },
+      {
+        "type": "text",
+        "content": "Bosnia and Herzegovina"
+      },
+      {
+        "type": "text",
+        "content": "British Indian Ocean Territory"
+      },
+      {
+        "type": "text",
+        "content": "British Virgin Islands"
+      },
+      {
+        "type": "text",
+        "content": "Caribbean Netherlands"
+      },
+      {
+        "type": "text",
+        "content": "Central African Republic"
+      },
+      {
+        "type": "text",
+        "content": "Christmas Island"
+      },
+      {
+        "type": "text",
+        "content": "Clipperton Island"
+      },
+      {
+        "type": "text",
+        "content": "Cocos (Keeling) Islands"
+      },
+      {
+        "type": "text",
+        "content": "Coral Sea Islands"
+      },
+      {
+        "type": "text",
+        "content": "Democratic Republic of the Congo"
+      },
+      {
+        "type": "text",
+        "content": "Dominican Republic"
+      },
+      {
+        "type": "text",
+        "content": "Equatorial Guinea"
+      },
+      {
+        "type": "text",
+        "content": "Falkland Islands (Islas Malvinas)"
+      },
+      {
+        "type": "text",
+        "content": "Federated States of Micronesia"
+      },
+      {
+        "type": "text",
+        "content": "French Polynesia"
+      },
+      {
+        "type": "text",
+        "content": "French Southern and Antarctic Lands"
+      },
+      {
+        "type": "text",
+        "content": "Glorioso Islands"
+      },
+      {
+        "type": "text",
+        "content": "Heard Island and Mcdonald Islands"
+      },
+      {
+        "type": "text",
+        "content": "Holy See (Vatican City)"
+      },
+      {
+        "type": "text",
+        "content": "Juan De Nova Island"
+      },
+      {
+        "type": "text",
+        "content": "Marshall Islands"
+      },
+      {
+        "type": "text",
+        "content": "Netherlands Antilles"
+      },
+      {
+        "type": "text",
+        "content": "Northern Mariana Islands"
+      },
+      {
+        "type": "text",
+        "content": "Papua New Guinea"
+      },
+      {
+        "type": "text",
+        "content": "Pitcairn Islands"
+      },
+      {
+        "type": "text",
+        "content": "Republic of the Congo"
+      },
+      {
+        "type": "text",
+        "content": "Saint BarthÃ©lemy"
+      },
+      {
+        "type": "text",
+        "content": "Saint Kitts and Nevis"
+      },
+      {
+        "type": "text",
+        "content": "Saint Pierre and Miquelon"
+      },
+      {
+        "type": "text",
+        "content": "Saint Vincent and the Grenadines"
+      },
+      {
+        "type": "text",
+        "content": "Sao Tome and Principe"
+      },
+      {
+        "type": "text",
+        "content": "South Georgia and the South Sandwich Islands"
+      },
+      {
+        "type": "text",
+        "content": "Trinidad and Tobago"
+      },
+      {
+        "type": "text",
+        "content": "Turks and Caicos Islands"
+      },
+      {
+        "type": "text",
+        "content": "United Arab Emirates"
+      },
+      {
+        "type": "text",
+        "content": "Wallis and Futuna"
+      },
+      {
+        "type": "interactive",
+        "element_type": "text_input",
+        "id": 43,
+        "text": "Any questions or concerns (MultiLine1)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "text",
+        "content": "Any questions or concerns you have?"
+      },
+      {
+        "type": "interactive",
+        "element_type": "text_input",
+        "id": 44,
+        "text": "Submit",
+        "action": "click_element_by_index",
+        "category": "form"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Stay Updated with Monthly Insights"
+      },
+      {
+        "type": "paragraph",
+        "content": "Get exclusive monthly updates delivered straight to your inbox."
+      },
+      {
+        "type": "interactive",
+        "element_type": "text_input",
+        "id": 45,
+        "text": "Enter your name (name)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "email_input",
+        "id": 22,
+        "text": "Enter your email (Email)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "text_input",
+        "id": 47,
+        "text": "Subscribe",
+        "action": "click_element_by_index",
+        "category": "form"
+      },
+      {
+        "type": "text",
+        "content": "Unsubscribe anytime, no strings attached!"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Inkers Technology Pvt Ltd"
+      },
+      {
+        "type": "text",
+        "content": "India Office"
+      },
+      {
+        "type": "text",
+        "content": "The Work Address - Vaishnavi HSR"
+      },
+      {
+        "type": "text",
+        "content": "Layout, Bengaluru, Karnataka 560102"
+      },
+      {
+        "type": "text",
+        "content": "8 The Green, Ste A"
+      },
+      {
+        "type": "text",
+        "content": "Dover, Kent County"
+      },
+      {
+        "type": "text",
+        "content": "19901, Delaware"
+      },
+      {
+        "type": "text",
+        "content": "[social-link]"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Useful Links"
+      },
+      {
+        "type": "text",
+        "content": "[Contact]"
+      },
+      {
+        "type": "interactive",
+        "element_type": "nav_link",
+        "id": 53,
+        "text": "Terms of Use",
+        "action": "click_element_by_index",
+        "category": "navigation"
+      },
+      {
+        "type": "interactive",
+        "element_type": "nav_link",
+        "id": 54,
+        "text": "About",
+        "action": "click_element_by_index",
+        "category": "navigation"
+      },
+      {
+        "type": "paragraph",
+        "content": "© 2025 Inkers Technology Pvt Ltd. All rights reserved."
+      },
+      {
+        "type": "section",
+        "content": "Additional Interactive Elements",
+        "level": 2
+      },
+      {
+        "type": "interactive",
+        "element_type": "text_input",
+        "id": 12,
+        "text": "Enter your first name (Name_First)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "text_input",
+        "id": 14,
+        "text": "Enter your last name (Name_Last)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "phone_input",
+        "id": 16,
+        "text": "Enter country code (PhoneNumber_countrycodeval)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "phone_input",
+        "id": 18,
+        "text": "Enter your phone number (PhoneNumber_countrycode)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "number_input",
+        "id": 24,
+        "text": "Enter area to scan (sqft) (Number)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "checkbox",
+        "id": 27,
+        "text": "Toggle option",
+        "action": "click_element_by_index",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "checkbox",
+        "id": 31,
+        "text": "Toggle option",
+        "action": "click_element_by_index",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "date_input",
+        "id": 34,
+        "text": "Date Input",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "text_input",
+        "id": 36,
+        "text": "Address Line 1 (Address_AddressLine1)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "dropdown",
+        "id": 41,
+        "text": "Select Address Country (Address_Country)",
+        "action": "select_dropdown_option",
+        "category": "form",
+        "options_count": 268,
+        "has_options": true,
+        "sample_options": [
+          "Åland Islands",
+          "Afghanistan",
+          "Akrotiri",
+          "Albania",
+          "Algeria"
+        ]
+      },
+      {
+        "type": "interactive",
+        "element_type": "email_input",
+        "id": 46,
+        "text": "Enter your email (email)",
+        "action": "input_text",
+        "category": "form"
+      }
+    ]
+  },
+  "new_page_structure_1A": {
+    "page_structure": {
+      "total_interactive_elements": 34,
+      "categories": {
+        "navigation": 9,
+        "forms": 21,
+        "buttons": 4
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "content": "Contact Us | AI Solutions for Your Construction Business"
+      },
+      {
+        "type": "text",
+        "content": "[logo]"
+      },
+      {
+        "type": "interactive",
+        "element_type": "nav_link",
+        "id": 1,
+        "text": "Home",
+        "action": "click_element_by_index",
+        "category": "navigation"
+      },
+      {
+        "type": "interactive",
+        "element_type": "nav_link",
+        "id": 2,
+        "text": "About",
+        "action": "click_element_by_index",
+        "category": "navigation"
+      },
+      {
+        "type": "interactive",
+        "element_type": "button",
+        "id": 3,
+        "text": "Product",
+        "action": "hover item, not implemented yet",
+        "category": "button"
+      },
+      {
+        "type": "interactive",
+        "element_type": "button",
+        "id": 4,
+        "text": "Services",
+        "action": "hover item, not implemented yet",
+        "category": "button"
+      },
+      {
+        "type": "interactive",
+        "element_type": "nav_link",
+        "id": 5,
+        "text": "Team",
+        "action": "click_element_by_index",
+        "category": "navigation"
+      },
+      {
+        "type": "interactive",
+        "element_type": "nav_link",
+        "id": 6,
+        "text": "Pricing",
+        "action": "click_element_by_index",
+        "category": "navigation"
+      },
+      {
+        "type": "interactive",
+        "element_type": "nav_link",
+        "id": 7,
+        "text": "Contact",
+        "action": "click_element_by_index",
+        "category": "navigation"
+      },
+      {
+        "type": "interactive",
+        "element_type": "nav_link",
+        "id": 8,
+        "text": "Demo",
+        "action": "click_element_by_index",
+        "category": "navigation"
+      },
+      {
+        "type": "interactive",
+        "element_type": "button",
+        "id": 9,
+        "text": "Toggle theme",
+        "action": "click_element_by_index",
+        "category": "button"
+      },
+      {
+        "type": "interactive",
+        "element_type": "nav_link",
+        "id": 52,
+        "text": "Contact",
+        "action": "click_element_by_index",
+        "category": "navigation"
+      },
+      {
+        "type": "paragraph",
+        "content": "Get in touch for advanced AI solutions for your construction project"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Interested in a Free Scan?"
+      },
+      {
+        "type": "text",
+        "content": "For sales inquiries, please contact:"
+      },
+      {
+        "type": "interactive",
+        "element_type": "button",
+        "id": 10,
+        "text": "sales@inkers.ai",
+        "action": "click_element_by_index",
+        "category": "button"
+      },
+      {
+        "type": "paragraph",
+        "content": "Fill out the form below, and we'll process your request to schedule your complimentary scan at a convenient time!"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Contact Information"
+      },
+      {
+        "type": "text",
+        "content": "Phone Number"
+      },
+      {
+        "type": "interactive",
+        "element_type": "text_input",
+        "id": 20,
+        "text": "Enter your organization name (SingleLine1)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "text",
+        "content": "Organization Name*"
+      },
+      {
+        "type": "text",
+        "content": "Area to Scan (sqft)"
+      },
+      {
+        "type": "text",
+        "content": "Area to Scan (sqft)*"
+      },
+      {
+        "type": "text",
+        "content": "Is BIM Available?"
+      },
+      {
+        "type": "text",
+        "content": "Is Project Schedule Available?"
+      },
+      {
+        "type": "text",
+        "content": "Preferred Demo Date"
+      },
+      {
+        "type": "text",
+        "content": "Show date picker"
+      },
+      {
+        "type": "text",
+        "content": "Will be formatted as dd-MMM-yyyy"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Project Details"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Additional Information"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Project Address"
+      },
+      {
+        "type": "text",
+        "content": "Project Address"
+      },
+      {
+        "type": "text",
+        "content": "Project Address *"
+      },
+      {
+        "type": "interactive",
+        "element_type": "text_input",
+        "id": 37,
+        "text": "Address Line 2 (Address_AddressLine2)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "text_input",
+        "id": 38,
+        "text": "City (Address_City)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "text_input",
+        "id": 39,
+        "text": "State/Region/Province (Address_Region)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "text_input",
+        "id": 40,
+        "text": "Postal / Zip Code (Address_ZipCode)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "text",
+        "content": "Antigua and Barbuda"
+      },
+      {
+        "type": "text",
+        "content": "Ashmore and Cartier Islands"
+      },
+      {
+        "type": "text",
+        "content": "Bosnia and Herzegovina"
+      },
+      {
+        "type": "text",
+        "content": "British Indian Ocean Territory"
+      },
+      {
+        "type": "text",
+        "content": "British Virgin Islands"
+      },
+      {
+        "type": "text",
+        "content": "Caribbean Netherlands"
+      },
+      {
+        "type": "text",
+        "content": "Central African Republic"
+      },
+      {
+        "type": "text",
+        "content": "Christmas Island"
+      },
+      {
+        "type": "text",
+        "content": "Clipperton Island"
+      },
+      {
+        "type": "text",
+        "content": "Cocos (Keeling) Islands"
+      },
+      {
+        "type": "text",
+        "content": "Coral Sea Islands"
+      },
+      {
+        "type": "text",
+        "content": "Democratic Republic of the Congo"
+      },
+      {
+        "type": "text",
+        "content": "Dominican Republic"
+      },
+      {
+        "type": "text",
+        "content": "Equatorial Guinea"
+      },
+      {
+        "type": "text",
+        "content": "Falkland Islands (Islas Malvinas)"
+      },
+      {
+        "type": "text",
+        "content": "Federated States of Micronesia"
+      },
+      {
+        "type": "text",
+        "content": "French Polynesia"
+      },
+      {
+        "type": "text",
+        "content": "French Southern and Antarctic Lands"
+      },
+      {
+        "type": "text",
+        "content": "Glorioso Islands"
+      },
+      {
+        "type": "text",
+        "content": "Heard Island and Mcdonald Islands"
+      },
+      {
+        "type": "text",
+        "content": "Holy See (Vatican City)"
+      },
+      {
+        "type": "text",
+        "content": "Juan De Nova Island"
+      },
+      {
+        "type": "text",
+        "content": "Marshall Islands"
+      },
+      {
+        "type": "text",
+        "content": "Netherlands Antilles"
+      },
+      {
+        "type": "text",
+        "content": "Northern Mariana Islands"
+      },
+      {
+        "type": "text",
+        "content": "Papua New Guinea"
+      },
+      {
+        "type": "text",
+        "content": "Pitcairn Islands"
+      },
+      {
+        "type": "text",
+        "content": "Republic of the Congo"
+      },
+      {
+        "type": "text",
+        "content": "Saint BarthÃ©lemy"
+      },
+      {
+        "type": "text",
+        "content": "Saint Kitts and Nevis"
+      },
+      {
+        "type": "text",
+        "content": "Saint Pierre and Miquelon"
+      },
+      {
+        "type": "text",
+        "content": "Saint Vincent and the Grenadines"
+      },
+      {
+        "type": "text",
+        "content": "Sao Tome and Principe"
+      },
+      {
+        "type": "text",
+        "content": "South Georgia and the South Sandwich Islands"
+      },
+      {
+        "type": "text",
+        "content": "Trinidad and Tobago"
+      },
+      {
+        "type": "text",
+        "content": "Turks and Caicos Islands"
+      },
+      {
+        "type": "text",
+        "content": "United Arab Emirates"
+      },
+      {
+        "type": "text",
+        "content": "Wallis and Futuna"
+      },
+      {
+        "type": "interactive",
+        "element_type": "text_input",
+        "id": 43,
+        "text": "Any questions or concerns (MultiLine1)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "text",
+        "content": "Any questions or concerns you have?"
+      },
+      {
+        "type": "interactive",
+        "element_type": "text_input",
+        "id": 44,
+        "text": "Submit",
+        "action": "click_element_by_index",
+        "category": "form"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Stay Updated with Monthly Insights"
+      },
+      {
+        "type": "paragraph",
+        "content": "Get exclusive monthly updates delivered straight to your inbox."
+      },
+      {
+        "type": "interactive",
+        "element_type": "text_input",
+        "id": 45,
+        "text": "Enter your name (name)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "email_input",
+        "id": 22,
+        "text": "Enter your email (Email)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "text_input",
+        "id": 47,
+        "text": "Subscribe",
+        "action": "click_element_by_index",
+        "category": "form"
+      },
+      {
+        "type": "text",
+        "content": "Unsubscribe anytime, no strings attached!"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Inkers Technology Pvt Ltd"
+      },
+      {
+        "type": "text",
+        "content": "India Office"
+      },
+      {
+        "type": "text",
+        "content": "The Work Address - Vaishnavi HSR"
+      },
+      {
+        "type": "text",
+        "content": "Layout, Bengaluru, Karnataka 560102"
+      },
+      {
+        "type": "text",
+        "content": "8 The Green, Ste A"
+      },
+      {
+        "type": "text",
+        "content": "Dover, Kent County"
+      },
+      {
+        "type": "text",
+        "content": "19901, Delaware"
+      },
+      {
+        "type": "text",
+        "content": "[social-link]"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Useful Links"
+      },
+      {
+        "type": "text",
+        "content": "[Contact]"
+      },
+      {
+        "type": "interactive",
+        "element_type": "nav_link",
+        "id": 53,
+        "text": "Terms of Use",
+        "action": "click_element_by_index",
+        "category": "navigation"
+      },
+      {
+        "type": "interactive",
+        "element_type": "nav_link",
+        "id": 54,
+        "text": "About",
+        "action": "click_element_by_index",
+        "category": "navigation"
+      },
+      {
+        "type": "paragraph",
+        "content": "© 2025 Inkers Technology Pvt Ltd. All rights reserved."
+      },
+      {
+        "type": "section",
+        "content": "Additional Interactive Elements",
+        "level": 2
+      },
+      {
+        "type": "interactive",
+        "element_type": "text_input",
+        "id": 12,
+        "text": "Enter your first name (Name_First)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "text_input",
+        "id": 14,
+        "text": "Enter your last name (Name_Last)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "phone_input",
+        "id": 16,
+        "text": "Enter country code (PhoneNumber_countrycodeval)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "phone_input",
+        "id": 18,
+        "text": "Enter your phone number (PhoneNumber_countrycode)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "number_input",
+        "id": 24,
+        "text": "Enter area to scan (sqft) (Number)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "checkbox",
+        "id": 27,
+        "text": "Toggle option",
+        "action": "click_element_by_index",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "checkbox",
+        "id": 31,
+        "text": "Toggle option",
+        "action": "click_element_by_index",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "date_input",
+        "id": 34,
+        "text": "Date Input",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "text_input",
+        "id": 36,
+        "text": "Address Line 1 (Address_AddressLine1)",
+        "action": "input_text",
+        "category": "form"
+      },
+      {
+        "type": "interactive",
+        "element_type": "dropdown",
+        "id": 41,
+        "text": "Select Address Country (Address_Country)",
+        "action": "select_dropdown_option",
+        "category": "form",
+        "options_count": 268,
+        "has_options": true,
+        "sample_options": [
+          "Åland Islands",
+          "Afghanistan",
+          "Akrotiri",
+          "Albania",
+          "Algeria"
+        ]
+      },
+      {
+        "type": "interactive",
+        "element_type": "email_input",
+        "id": 46,
+        "text": "Enter your email (email)",
+        "action": "input_text",
+        "category": "form"
+      }
+    ]
+  }
+}

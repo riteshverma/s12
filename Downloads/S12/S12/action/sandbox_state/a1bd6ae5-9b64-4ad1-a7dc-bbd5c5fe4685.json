@@ -1,0 +1,22 @@
+{
+  "perception": {
+    "entities": [
+      "Google Forms",
+      "EAG - V2 (AI Agents)",
+      "riteshv2@gmail.com",
+      "Rohan Shravan",
+      "EAG",
+      "04/09/1987",
+      "Yes"
+    ],
+    "result_requirement": "Confirmation that the Google Form has been filled and submitted with the provided details.",
+    "original_goal_achieved": false,
+    "local_goal_achieved": false,
+    "confidence": "0.9",
+    "reasoning": "The user wants to fill out a Google Form. This requires interacting with a webpage and filling in specific fields. This task cannot be solved without using tools to interact with the webpage.",
+    "local_reasoning": "The original query requires tool use to open the form and fill it with the provided details.",
+    "last_tooluse_summary": "Not applicable",
+    "solution_summary": "Not ready yet.",
+    "route": "decision"
+  }
+}

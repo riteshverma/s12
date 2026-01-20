@@ -1,0 +1,121 @@
+{
+  "session_id": "154396dc-0feb-42e5-acdb-52a8a2195a7f",
+  "original_query": "Query 1: How are current relations between India and azerbaijan?",
+  "globals": {
+    "search_results": "Found 5 search results:\n\n1. Embassy of India, Baku, Azerbaijan : Bilateral Brief\n   URL: https://www.indianembassybaku.gov.in/page/bilateral-brief/\n   Summary: Economic and CommercialRelations. Over the years,India'sbilateral trade withAzerbaijanhas increased substantially from around US$ 50 million in 2005 to US$ 1.435 billion in 2023, withIndiabecomingAzerbaijan'sseventh largest trading partner after Italy, T\u00fcrkiye, Russia, China, Germany and Israel.\n\n2. PDFIndia-Azerbaijan Relations - Ministry of External Affairs\n   URL: https://www.mea.gov.in/Portal/ForeignRelation/AZERBAIJAN.pdf\n   Summary: IndiaandAzerbaijanhave warmrelations, based on civilisational linkages, cultural affinities and shared values of understanding and respect for other cultures. Highlights \u2022Indiais the seventh largest trading partner forAzerbaijan, with bilateral trade at US$ 1.435 billion, in 2023. \u2022 In 2023,Indiawas the third largest destination ...\n\n3. Azerbaijan wants Indian weapons, New Delhi ignores request ... - ThePrint\n   URL: https://theprint.in/diplomacy/azerbaijan-wants-indian-weapons-new-delhi-ignores-request-through-friendly-country/2403536/\n   Summary: Azerbaijanis the largest economy in the South Caucasus region, with a gross domestic product of $75.6 billion. In 2023, economic trade betweenAzerbaijanandIndiastood at $1.435 billion, which is the largest in the region for New Delhi.IndiaisAzerbaijan'sseventh largest trading partner and the third largest destination for Azeri crude oil.\n\n4. Azerbaijan-India relations - Wikipedia\n   URL: https://en.wikipedia.org/wiki/Azerbaijan%E2%80%93India_relations\n   Summary: IndiaandAzerbaijanhave age-old historicalrelationsand shared traditions. The Ateshgah fire temple in the vicinity of Baku is a fine example. This medieval monument with Devanagari and Gurmukhi wall inscriptions is a surviving proof of the age-old relationship between the two countries. The trade links withIndia, led to renewed contacts of the Indian merchants heading towards Europe ...\n\n5. Explainer: India's trade relations with Turkey, Azerbaijan and how it ...\n   URL: https://timesofindia.indiatimes.com/business/india-business/explainer-indias-trade-relations-with-turkey-azerbaijan-and-how-it-may-be-affected-after-pakistan-conflict/articleshow/121166804.cms\n   Summary: India-AzerbaijanTrade:Indiaimported goods worth $2.84 billion from Turkiye between April and February 2024-25, down from $3.78 billion in 2023-24. This makes up about 0.5% ofIndia'stotal ...\n"
+  },
+  "memory": [],
+  "graph": {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+      {
+        "data": {
+          "index": "ROOT",
+          "description": "initial query",
+          "type": "ROOT",
+          "status": "completed",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "India",
+              "Azerbaijan",
+              "current relations"
+            ],
+            "result_requirement": "Summary of current relations between India and Azerbaijan.",
+            "original_goal_achieved": false,
+            "local_goal_achieved": true,
+            "confidence": "0.8",
+            "reasoning": "The query requires information about the current relations between India and Azerbaijan.  This is a factual query that requires external information retrieval.",
+            "local_reasoning": "The initial query was successfully parsed.",
+            "last_tooluse_summary": "Not applicable",
+            "summarizer_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "from_step": null
+        },
+        "id": "ROOT"
+      },
+      {
+        "data": {
+          "index": "0",
+          "description": "Search for recent news articles and reports detailing current relations between India and Azerbaijan.",
+          "type": "CODE",
+          "status": "completed",
+          "result": {
+            "search_results": "Found 5 search results:\n\n1. Embassy of India, Baku, Azerbaijan : Bilateral Brief\n   URL: https://www.indianembassybaku.gov.in/page/bilateral-brief/\n   Summary: Economic and CommercialRelations. Over the years,India'sbilateral trade withAzerbaijanhas increased substantially from around US$ 50 million in 2005 to US$ 1.435 billion in 2023, withIndiabecomingAzerbaijan'sseventh largest trading partner after Italy, T\u00fcrkiye, Russia, China, Germany and Israel.\n\n2. PDFIndia-Azerbaijan Relations - Ministry of External Affairs\n   URL: https://www.mea.gov.in/Portal/ForeignRelation/AZERBAIJAN.pdf\n   Summary: IndiaandAzerbaijanhave warmrelations, based on civilisational linkages, cultural affinities and shared values of understanding and respect for other cultures. Highlights \u2022Indiais the seventh largest trading partner forAzerbaijan, with bilateral trade at US$ 1.435 billion, in 2023. \u2022 In 2023,Indiawas the third largest destination ...\n\n3. Azerbaijan wants Indian weapons, New Delhi ignores request ... - ThePrint\n   URL: https://theprint.in/diplomacy/azerbaijan-wants-indian-weapons-new-delhi-ignores-request-through-friendly-country/2403536/\n   Summary: Azerbaijanis the largest economy in the South Caucasus region, with a gross domestic product of $75.6 billion. In 2023, economic trade betweenAzerbaijanandIndiastood at $1.435 billion, which is the largest in the region for New Delhi.IndiaisAzerbaijan'sseventh largest trading partner and the third largest destination for Azeri crude oil.\n\n4. Azerbaijan-India relations - Wikipedia\n   URL: https://en.wikipedia.org/wiki/Azerbaijan%E2%80%93India_relations\n   Summary: IndiaandAzerbaijanhave age-old historicalrelationsand shared traditions. The Ateshgah fire temple in the vicinity of Baku is a fine example. This medieval monument with Devanagari and Gurmukhi wall inscriptions is a surviving proof of the age-old relationship between the two countries. The trade links withIndia, led to renewed contacts of the Indian merchants heading towards Europe ...\n\n5. Explainer: India's trade relations with Turkey, Azerbaijan and how it ...\n   URL: https://timesofindia.indiatimes.com/business/india-business/explainer-indias-trade-relations-with-turkey-azerbaijan-and-how-it-may-be-affected-after-pakistan-conflict/articleshow/121166804.cms\n   Summary: India-AzerbaijanTrade:Indiaimported goods worth $2.84 billion from Turkiye between April and February 2024-25, down from $3.78 billion in 2023-24. This makes up about 0.5% ofIndia'stotal ...\n"
+          },
+          "conclusion": null,
+          "error": null,
+          "perception": {
+            "entities": [
+              "India",
+              "Azerbaijan",
+              "relations"
+            ],
+            "result_requirement": "Summary of current relations between India and Azerbaijan",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.9",
+            "reasoning": "The search results provide sufficient information to summarize the current relations between India and Azerbaijan, focusing on economic and cultural ties.",
+            "local_reasoning": "The search tool successfully retrieved relevant information about India-Azerbaijan relations.",
+            "last_tooluse_summary": "Search tool returned 5 results about India-Azerbaijan relations.",
+            "summarizer_summary": "India and Azerbaijan have warm relations based on civilizational linkages, cultural affinities, and shared values. India is Azerbaijan's seventh-largest trading partner, with bilateral trade at US$ 1.435 billion in 2023.",
+            "route": "summarize",
+            "instruction_to_summarize": "Provide a concise summary of the current relations between India and Azerbaijan based on the provided search results. Focus on economic and cultural aspects, highlighting key statistics and shared history. Format the summary in markdown."
+          },
+          "from_step": "ROOT"
+        },
+        "id": "0"
+      },
+      {
+        "data": {
+          "index": "1",
+          "description": "Extract key information regarding diplomatic, economic, and cultural ties from the search results.",
+          "type": "CODE",
+          "status": "pending",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "ROOT"
+        },
+        "id": "1"
+      },
+      {
+        "data": {
+          "index": "2",
+          "description": "Summarize the extracted information to provide a concise overview of the current relations between India and Azerbaijan.",
+          "type": "CODE",
+          "status": "pending",
+          "result": null,
+          "conclusion": null,
+          "error": null,
+          "perception": null,
+          "from_step": "ROOT"
+        },
+        "id": "2"
+      }
+    ],
+    "links": [
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "0"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "1"
+      },
+      {
+        "type": "normal",
+        "source": "ROOT",
+        "target": "2"
+      }
+    ]
+  }
+}

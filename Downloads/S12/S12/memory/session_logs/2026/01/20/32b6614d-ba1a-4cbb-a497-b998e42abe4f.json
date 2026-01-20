@@ -1,0 +1,614 @@
+{
+  "context": {
+    "session_id": "32b6614d-ba1a-4cbb-a497-b998e42abe4f",
+    "original_query": "Query 1: Open Google Cloud Console for me.",
+    "globals": {
+      "memory": [
+        {
+          "score": 57.77777777777778,
+          "session_id": "27100044-4175-4482-9fd4-9598da73f529",
+          "original_query": "Query 1: What is the latest stock price of tata motors on nse?\nResponse 1: No meaningful information was found in the sources available. You may try rephrasing or expanding your query.\nQuery 2: I didn't get final stock price!\nResponse 2: I was unable to automatically extract the latest stock price of Tata Motors on NSE. Please review the following URLs for the information:\n\n*   [Google Finance](https://www.google.com/finance/quote/TATAMOTORS:NSE)\n*   [NSE India](https://www.nseindia.com/get-quotes/equity?symbol=TATAMOTORS)\n*   [Moneycontrol](https://www.moneycontrol.com/india/stockpricequote/auto-lcvshcvs/tatamotors/TM03)\nQuery 3: Can you do it for me again?\nResponse 3: Despite multiple attempts, I was unable to automatically extract the latest stock price of Tata Motors on the NSE. Please manually review the following URLs to find the information:\n\n*   [Google Finance](https://www.google.com/finance/quote/TATAMOTORS:NSE)\n*   [NSE India](https://www.nseindia.com/get-quotes/equity?symbol=TATAMOTORS)\n*   [Moneycontrol](https://www.moneycontrol.com/india/stockpricequote/auto-lcvshcvs/tatamotors/TM03)\nQuery 4: Can you tell me the URL failing information that you're seeing in your logs or memory?",
+          "summary_output": "I was unable to automatically extract the latest stock price of Tata Motors on the NSE after multiple attempts. For your convenience, please manually review the following URLs to find the information:\n\n*   [Google Finance](https://www.google.com/finance/quote/TATAMOTORS:NSE)\n*   [NSE India](https://www.nseindia.com/get-quotes/equity?symbol=TATAMOTORS)\n*   [Moneycontrol](https://www.moneycontrol.com/india/stockpricequote/auto-lcvshcvs/tatamotors/TM03)\n\nPlease note that I do not have access to logs for debugging the failure.",
+          "timestamp": "2025-05-19T06:08:44Z"
+        },
+        {
+          "score": 57.77777777777778,
+          "session_id": "ebc44a40-6356-43cf-9b9d-136860901979",
+          "original_query": "Query 1: What is the latest stock price of tata motors on nse?\nResponse 1: No meaningful information was found in the sources available. You may try rephrasing or expanding your query.\nQuery 2: I didn't get final stock price!\nResponse 2: I was unable to automatically extract the latest stock price of Tata Motors on NSE. Please review the following URLs for the information:\n\n*   [Google Finance](https://www.google.com/finance/quote/TATAMOTORS:NSE)\n*   [NSE India](https://www.nseindia.com/get-quotes/equity?symbol=TATAMOTORS)\n*   [Moneycontrol](https://www.moneycontrol.com/india/stockpricequote/auto-lcvshcvs/tatamotors/TM03)\nQuery 3: Can you do it for me again?",
+          "summary_output": "Despite multiple attempts, I was unable to automatically extract the latest stock price of Tata Motors on the NSE. Please manually review the following URLs to find the information:\n\n*   [Google Finance](https://www.google.com/finance/quote/TATAMOTORS:NSE)\n*   [NSE India](https://www.nseindia.com/get-quotes/equity?symbol=TATAMOTORS)\n*   [Moneycontrol](https://www.moneycontrol.com/india/stockpricequote/auto-lcvshcvs/tatamotors/TM03)",
+          "timestamp": "2025-05-19T06:08:44Z"
+        },
+        {
+          "score": 49.31506849315068,
+          "session_id": "0331e15d-d5bb-417e-987c-4b05ad334275",
+          "original_query": "Query 1: Open news.ycombinator in browser. Use tools",
+          "summary_output": "The news.ycombinator website has been successfully opened in the browser, satisfying your request.",
+          "timestamp": "2025-05-24T00:32:51Z"
+        }
+      ],
+      "browser_agent_result": {
+        "run_id": "ffe67c35-1226-4fe9-8188-29797acb352c",
+        "instruction": "Open Google Cloud Console (https://console.cloud.google.com/) in the browser. Confirm the page is loaded.",
+        "success": false,
+        "final_message": "The tools 'open_tab' and 'get_session_snapshot' are not available. Unable to proceed.",
+        "steps": [
+          {
+            "index": 1,
+            "action": {
+              "tool_name": "open_tab",
+              "arguments": {
+                "url": "https://console.cloud.google.com/"
+              }
+            },
+            "result": "Tool error: Tool 'open_tab' not found on any server.",
+            "error": "Tool 'open_tab' not found on any server."
+          },
+          {
+            "index": 2,
+            "action": {
+              "tool_name": "open_tab",
+              "arguments": {
+                "url": "https://console.cloud.google.com/"
+              }
+            },
+            "result": "Tool error: Tool 'open_tab' not found on any server.",
+            "error": "Tool 'open_tab' not found on any server."
+          },
+          {
+            "index": 3,
+            "action": {
+              "tool_name": "open_tab",
+              "arguments": {
+                "url": "https://console.cloud.google.com/"
+              }
+            },
+            "result": "Tool error: Tool 'open_tab' not found on any server.",
+            "error": "Tool 'open_tab' not found on any server."
+          },
+          {
+            "index": 4,
+            "action": {
+              "tool_name": "get_session_snapshot",
+              "arguments": {}
+            },
+            "result": "Tool error: Tool 'get_session_snapshot' not found on any server.",
+            "error": "Tool 'get_session_snapshot' not found on any server."
+          },
+          {
+            "index": 5,
+            "action": {
+              "tool_name": "open_tab",
+              "arguments": {
+                "url": "https://console.cloud.google.com/"
+              }
+            },
+            "result": "Tool error: Tool 'open_tab' not found on any server.",
+            "error": "Tool 'open_tab' not found on any server."
+          }
+        ],
+        "error": null,
+        "timestamp": "2026-01-20T10:58:01.175566"
+      }
+    },
+    "memory": [
+      {
+        "query": "browser agent execution",
+        "result_requirement": "Tool failed",
+        "solution_summary": "The tools 'open_tab' and 'get_session_snapshot' are not available. Unable to proceed."
+      },
+      {
+        "original_query": "Query 1: Open Google Cloud Console for me.",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "The attempt to open Google Cloud Console (https://console.cloud.google.com/) in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools.",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Google Cloud Console"
+              ],
+              "result_requirement": "Open Google Cloud Console in a browser",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.95",
+              "reasoning": "The user wants to open Google Cloud Console. This requires browser interaction.",
+              "local_reasoning": "The query is a direct instruction to open a specific website in the browser.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "browser",
+              "instruction_to_summarize": "Not applicable",
+              "instruction_to_browser": "Open Google Cloud Console (https://console.cloud.google.com/) in the browser. Confirm the page is loaded."
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "BROWSER",
+            "description": "browser agent execution",
+            "type": "BROWSER",
+            "status": "failed",
+            "result": {
+              "browser_agent_result": {
+                "run_id": "ffe67c35-1226-4fe9-8188-29797acb352c",
+                "instruction": "Open Google Cloud Console (https://console.cloud.google.com/) in the browser. Confirm the page is loaded.",
+                "success": false,
+                "final_message": "The tools 'open_tab' and 'get_session_snapshot' are not available. Unable to proceed.",
+                "steps": [
+                  {
+                    "index": 1,
+                    "action": {
+                      "tool_name": "open_tab",
+                      "arguments": {
+                        "url": "https://console.cloud.google.com/"
+                      }
+                    },
+                    "result": "Tool error: Tool 'open_tab' not found on any server.",
+                    "error": "Tool 'open_tab' not found on any server."
+                  },
+                  {
+                    "index": 2,
+                    "action": {
+                      "tool_name": "open_tab",
+                      "arguments": {
+                        "url": "https://console.cloud.google.com/"
+                      }
+                    },
+                    "result": "Tool error: Tool 'open_tab' not found on any server.",
+                    "error": "Tool 'open_tab' not found on any server."
+                  },
+                  {
+                    "index": 3,
+                    "action": {
+                      "tool_name": "open_tab",
+                      "arguments": {
+                        "url": "https://console.cloud.google.com/"
+                      }
+                    },
+                    "result": "Tool error: Tool 'open_tab' not found on any server.",
+                    "error": "Tool 'open_tab' not found on any server."
+                  },
+                  {
+                    "index": 4,
+                    "action": {
+                      "tool_name": "get_session_snapshot",
+                      "arguments": {}
+                    },
+                    "result": "Tool error: Tool 'get_session_snapshot' not found on any server.",
+                    "error": "Tool 'get_session_snapshot' not found on any server."
+                  },
+                  {
+                    "index": 5,
+                    "action": {
+                      "tool_name": "open_tab",
+                      "arguments": {
+                        "url": "https://console.cloud.google.com/"
+                      }
+                    },
+                    "result": "Tool error: Tool 'open_tab' not found on any server.",
+                    "error": "Tool 'open_tab' not found on any server."
+                  }
+                ],
+                "error": null,
+                "timestamp": "2026-01-20T10:58:01.175566"
+              }
+            },
+            "conclusion": null,
+            "error": "The tools 'open_tab' and 'get_session_snapshot' are not available. Unable to proceed.",
+            "perception": {
+              "entities": [
+                "Google Cloud Console"
+              ],
+              "result_requirement": "Open Google Cloud Console in a browser",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.95",
+              "reasoning": "The browser agent failed because the tools 'open_tab' and 'get_session_snapshot' are not available.  Since the browser agent is failing and no other tools are available to open the Google Cloud Console, the task cannot be completed.",
+              "local_reasoning": "The browser agent result indicates a failure due to missing tools.",
+              "last_tooluse_summary": "browser_agent_result failed because the tools 'open_tab' and 'get_session_snapshot' are not available.",
+              "solution_summary": "The attempt to open Google Cloud Console in the browser failed because the necessary tools are not available.",
+              "route": "summarize",
+              "instruction_to_summarize": "The attempt to open Google Cloud Console (https://console.cloud.google.com/) in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available.  Please inform the user that the requested action could not be completed due to missing tools."
+            },
+            "from_step": "ROOT"
+          },
+          "id": "BROWSER"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "BROWSER"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "32b6614d-ba1a-4cbb-a497-b998e42abe4f",
+    "original_query": "Query 1: Open Google Cloud Console for me.",
+    "perception_snapshots": [
+      {
+        "run_id": "32b6614d-ba1a-4cbb-a497-b998e42abe4f-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "Google Cloud Console"
+        ],
+        "result_requirement": "Open Google Cloud Console in a browser",
+        "original_goal_achieved": false,
+        "reasoning": "The user wants to open Google Cloud Console. This requires browser interaction.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The query is a direct instruction to open a specific website in the browser.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.95",
+        "route": "browser",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "32b6614d-ba1a-4cbb-a497-b998e42abe4f-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "Google Cloud Console"
+        ],
+        "result_requirement": "Open Google Cloud Console in a browser",
+        "original_goal_achieved": false,
+        "reasoning": "The browser agent failed because the tools 'open_tab' and 'get_session_snapshot' are not available.  Since the browser agent is failing and no other tools are available to open the Google Cloud Console, the task cannot be completed.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The browser agent result indicates a failure due to missing tools.",
+        "last_tooluse_summary": "browser_agent_result failed because the tools 'open_tab' and 'get_session_snapshot' are not available.",
+        "solution_summary": "The attempt to open Google Cloud Console in the browser failed because the necessary tools are not available.",
+        "confidence": "0.95",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [],
+    "execution_snapshots": [],
+    "summarizer_snapshots": [
+      {
+        "run_id": "3af44788-a2ed-43f4-8d7d-e150dab916bc",
+        "input": {
+          "original_query": "Query 1: Open Google Cloud Console for me.",
+          "globals_schema": {
+            "memory": [
+              {
+                "score": 57.77777777777778,
+                "session_id": "27100044-4175-4482-9fd4-9598da73f529",
+                "original_query": "Query 1: What is the latest stock price of tata motors on nse?\nResponse 1: No meaningful information was found in the sources available. You may try rephrasing or expanding your query.\nQuery 2: I didn't get final stock price!\nResponse 2: I was unable to automatically extract the latest stock price of Tata Motors on NSE. Please review the following URLs for the information:\n\n*   [Google Finance](https://www.google.com/finance/quote/TATAMOTORS:NSE)\n*   [NSE India](https://www.nseindia.com/get-quotes/equity?symbol=TATAMOTORS)\n*   [Moneycontrol](https://www.moneycontrol.com/india/stockpricequote/auto-lcvshcvs/tatamotors/TM03)\nQuery 3: Can you do it for me again?\nResponse 3: Despite multiple attempts, I was unable to automatically extract the latest stock price of Tata Motors on the NSE. Please manually review the following URLs to find the information:\n\n*   [Google Finance](https://www.google.com/finance/quote/TATAMOTORS:NSE)\n*   [NSE India](https://www.nseindia.com/get-quotes/equity?symbol=TATAMOTORS)\n*   [Moneycontrol](https://www.moneycontrol.com/india/stockpricequote/auto-lcvshcvs/tatamotors/TM03)\nQuery 4: Can you tell me the URL failing information that you're seeing in your logs or memory?",
+                "summary_output": "I was unable to automatically extract the latest stock price of Tata Motors on the NSE after multiple attempts. For your convenience, please manually review the following URLs to find the information:\n\n*   [Google Finance](https://www.google.com/finance/quote/TATAMOTORS:NSE)\n*   [NSE India](https://www.nseindia.com/get-quotes/equity?symbol=TATAMOTORS)\n*   [Moneycontrol](https://www.moneycontrol.com/india/stockpricequote/auto-lcvshcvs/tatamotors/TM03)\n\nPlease note that I do not have access to logs for debugging the failure.",
+                "timestamp": "2025-05-19T06:08:44Z"
+              },
+              {
+                "score": 57.77777777777778,
+                "session_id": "ebc44a40-6356-43cf-9b9d-136860901979",
+                "original_query": "Query 1: What is the latest stock price of tata motors on nse?\nResponse 1: No meaningful information was found in the sources available. You may try rephrasing or expanding your query.\nQuery 2: I didn't get final stock price!\nResponse 2: I was unable to automatically extract the latest stock price of Tata Motors on NSE. Please review the following URLs for the information:\n\n*   [Google Finance](https://www.google.com/finance/quote/TATAMOTORS:NSE)\n*   [NSE India](https://www.nseindia.com/get-quotes/equity?symbol=TATAMOTORS)\n*   [Moneycontrol](https://www.moneycontrol.com/india/stockpricequote/auto-lcvshcvs/tatamotors/TM03)\nQuery 3: Can you do it for me again?",
+                "summary_output": "Despite multiple attempts, I was unable to automatically extract the latest stock price of Tata Motors on the NSE. Please manually review the following URLs to find the information:\n\n*   [Google Finance](https://www.google.com/finance/quote/TATAMOTORS:NSE)\n*   [NSE India](https://www.nseindia.com/get-quotes/equity?symbol=TATAMOTORS)\n*   [Moneycontrol](https://www.moneycontrol.com/india/stockpricequote/auto-lcvshcvs/tatamotors/TM03)",
+                "timestamp": "2025-05-19T06:08:44Z"
+              },
+              {
+                "score": 49.31506849315068,
+                "session_id": "0331e15d-d5bb-417e-987c-4b05ad334275",
+                "original_query": "Query 1: Open news.ycombinator in browser. Use tools",
+                "summary_output": "The news.ycombinator website has been successfully opened in the browser, satisfying your request.",
+                "timestamp": "2025-05-24T00:32:51Z"
+              }
+            ],
+            "browser_agent_result": {
+              "run_id": "ffe67c35-1226-4fe9-8188-29797acb352c",
+              "instruction": "Open Google Cloud Console (https://console.cloud.google.com/) in the browser. Confirm the page is loaded.",
+              "success": false,
+              "final_message": "The tools 'open_tab' and 'get_session_snapshot' are not available. Unable to proceed.",
+              "steps": [
+                {
+                  "index": 1,
+                  "action": {
+                    "tool_name": "open_tab",
+                    "arguments": {
+                      "url": "https://console.cloud.google.com/"
+                    }
+                  },
+                  "result": "Tool error: Tool 'open_tab' not found on any server.",
+                  "error": "Tool 'open_tab' not found on any server."
+                },
+                {
+                  "index": 2,
+                  "action": {
+                    "tool_name": "open_tab",
+                    "arguments": {
+                      "url": "https://console.cloud.google.com/"
+                    }
+                  },
+                  "result": "Tool error: Tool 'open_tab' not found on any server.",
+                  "error": "Tool 'open_tab' not found on any server."
+                },
+                {
+                  "index": 3,
+                  "action": {
+                    "tool_name": "open_tab",
+                    "arguments": {
+                      "url": "https://console.cloud.google.com/"
+                    }
+                  },
+                  "result": "Tool error: Tool 'open_tab' not found on any server.",
+                  "error": "Tool 'open_tab' not found on any server."
+                },
+                {
+                  "index": 4,
+                  "action": {
+                    "tool_name": "get_session_snapshot",
+                    "arguments": {}
+                  },
+                  "result": "Tool error: Tool 'get_session_snapshot' not found on any server.",
+                  "error": "Tool 'get_session_snapshot' not found on any server."
+                },
+                {
+                  "index": 5,
+                  "action": {
+                    "tool_name": "open_tab",
+                    "arguments": {
+                      "url": "https://console.cloud.google.com/"
+                    }
+                  },
+                  "result": "Tool error: Tool 'open_tab' not found on any server.",
+                  "error": "Tool 'open_tab' not found on any server."
+                }
+              ],
+              "error": null,
+              "timestamp": "2026-01-20T10:58:01.175566"
+            }
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Google Cloud Console"
+                    ],
+                    "result_requirement": "Open Google Cloud Console in a browser",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.95",
+                    "reasoning": "The user wants to open Google Cloud Console. This requires browser interaction.",
+                    "local_reasoning": "The query is a direct instruction to open a specific website in the browser.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not ready yet.",
+                    "route": "browser",
+                    "instruction_to_summarize": "Not applicable",
+                    "instruction_to_browser": "Open Google Cloud Console (https://console.cloud.google.com/) in the browser. Confirm the page is loaded."
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "BROWSER",
+                  "description": "browser agent execution",
+                  "type": "BROWSER",
+                  "status": "failed",
+                  "result": {
+                    "browser_agent_result": {
+                      "run_id": "ffe67c35-1226-4fe9-8188-29797acb352c",
+                      "instruction": "Open Google Cloud Console (https://console.cloud.google.com/) in the browser. Confirm the page is loaded.",
+                      "success": false,
+                      "final_message": "The tools 'open_tab' and 'get_session_snapshot' are not available. Unable to proceed.",
+                      "steps": [
+                        {
+                          "index": 1,
+                          "action": {
+                            "tool_name": "open_tab",
+                            "arguments": {
+                              "url": "https://console.cloud.google.com/"
+                            }
+                          },
+                          "result": "Tool error: Tool 'open_tab' not found on any server.",
+                          "error": "Tool 'open_tab' not found on any server."
+                        },
+                        {
+                          "index": 2,
+                          "action": {
+                            "tool_name": "open_tab",
+                            "arguments": {
+                              "url": "https://console.cloud.google.com/"
+                            }
+                          },
+                          "result": "Tool error: Tool 'open_tab' not found on any server.",
+                          "error": "Tool 'open_tab' not found on any server."
+                        },
+                        {
+                          "index": 3,
+                          "action": {
+                            "tool_name": "open_tab",
+                            "arguments": {
+                              "url": "https://console.cloud.google.com/"
+                            }
+                          },
+                          "result": "Tool error: Tool 'open_tab' not found on any server.",
+                          "error": "Tool 'open_tab' not found on any server."
+                        },
+                        {
+                          "index": 4,
+                          "action": {
+                            "tool_name": "get_session_snapshot",
+                            "arguments": {}
+                          },
+                          "result": "Tool error: Tool 'get_session_snapshot' not found on any server.",
+                          "error": "Tool 'get_session_snapshot' not found on any server."
+                        },
+                        {
+                          "index": 5,
+                          "action": {
+                            "tool_name": "open_tab",
+                            "arguments": {
+                              "url": "https://console.cloud.google.com/"
+                            }
+                          },
+                          "result": "Tool error: Tool 'open_tab' not found on any server.",
+                          "error": "Tool 'open_tab' not found on any server."
+                        }
+                      ],
+                      "error": null,
+                      "timestamp": "2026-01-20T10:58:01.175566"
+                    }
+                  },
+                  "conclusion": null,
+                  "error": "The tools 'open_tab' and 'get_session_snapshot' are not available. Unable to proceed.",
+                  "perception": {
+                    "entities": [
+                      "Google Cloud Console"
+                    ],
+                    "result_requirement": "Open Google Cloud Console in a browser",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.95",
+                    "reasoning": "The browser agent failed because the tools 'open_tab' and 'get_session_snapshot' are not available.  Since the browser agent is failing and no other tools are available to open the Google Cloud Console, the task cannot be completed.",
+                    "local_reasoning": "The browser agent result indicates a failure due to missing tools.",
+                    "last_tooluse_summary": "browser_agent_result failed because the tools 'open_tab' and 'get_session_snapshot' are not available.",
+                    "solution_summary": "The attempt to open Google Cloud Console in the browser failed because the necessary tools are not available.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "The attempt to open Google Cloud Console (https://console.cloud.google.com/) in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available.  Please inform the user that the requested action could not be completed due to missing tools."
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "BROWSER"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "BROWSER"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "Google Cloud Console"
+            ],
+            "result_requirement": "Open Google Cloud Console in a browser",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.95",
+            "reasoning": "The browser agent failed because the tools 'open_tab' and 'get_session_snapshot' are not available.  Since the browser agent is failing and no other tools are available to open the Google Cloud Console, the task cannot be completed.",
+            "local_reasoning": "The browser agent result indicates a failure due to missing tools.",
+            "last_tooluse_summary": "browser_agent_result failed because the tools 'open_tab' and 'get_session_snapshot' are not available.",
+            "solution_summary": "The attempt to open Google Cloud Console in the browser failed because the necessary tools are not available.",
+            "route": "summarize",
+            "instruction_to_summarize": "The attempt to open Google Cloud Console (https://console.cloud.google.com/) in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available.  Please inform the user that the requested action could not be completed due to missing tools."
+          }
+        },
+        "summary_output": "The attempt to open Google Cloud Console (https://console.cloud.google.com/) in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools.",
+        "success": true,
+        "error": null,
+        "timestamp": "2026-01-20T10:57:24Z",
+        "return_to": ""
+      }
+    ],
+    "browser_snapshots": [
+      {
+        "run_id": "ffe67c35-1226-4fe9-8188-29797acb352c",
+        "instruction": "Open Google Cloud Console (https://console.cloud.google.com/) in the browser. Confirm the page is loaded.",
+        "steps": [
+          {
+            "index": 1,
+            "action": {
+              "tool_name": "open_tab",
+              "arguments": {
+                "url": "https://console.cloud.google.com/"
+              }
+            },
+            "result": "Tool error: Tool 'open_tab' not found on any server.",
+            "error": "Tool 'open_tab' not found on any server."
+          },
+          {
+            "index": 2,
+            "action": {
+              "tool_name": "open_tab",
+              "arguments": {
+                "url": "https://console.cloud.google.com/"
+              }
+            },
+            "result": "Tool error: Tool 'open_tab' not found on any server.",
+            "error": "Tool 'open_tab' not found on any server."
+          },
+          {
+            "index": 3,
+            "action": {
+              "tool_name": "open_tab",
+              "arguments": {
+                "url": "https://console.cloud.google.com/"
+              }
+            },
+            "result": "Tool error: Tool 'open_tab' not found on any server.",
+            "error": "Tool 'open_tab' not found on any server."
+          },
+          {
+            "index": 4,
+            "action": {
+              "tool_name": "get_session_snapshot",
+              "arguments": {}
+            },
+            "result": "Tool error: Tool 'get_session_snapshot' not found on any server.",
+            "error": "Tool 'get_session_snapshot' not found on any server."
+          },
+          {
+            "index": 5,
+            "action": {
+              "tool_name": "open_tab",
+              "arguments": {
+                "url": "https://console.cloud.google.com/"
+              }
+            },
+            "result": "Tool error: Tool 'open_tab' not found on any server.",
+            "error": "Tool 'open_tab' not found on any server."
+          }
+        ],
+        "success": false,
+        "final_message": "The tools 'open_tab' and 'get_session_snapshot' are not available. Unable to proceed.",
+        "error": null,
+        "timestamp": "2026-01-20T10:57:24Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "The attempt to open Google Cloud Console (https://console.cloud.google.com/) in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools.",
+    "status": "success",
+    "completed_at": "2026-01-20T10:58:09.433446"
+  },
+  "status": "success",
+  "final_step_id": "BROWSER",
+  "reason": "Summarized successfully",
+  "timestamp": "2026-01-20T10:58:09.435188",
+  "original_query": "Query 1: Open Google Cloud Console for me.",
+  "final_summary": "The attempt to open Google Cloud Console (https://console.cloud.google.com/) in the browser failed because the tools 'open_tab' and 'get_session_snapshot' are not available. The requested action could not be completed due to missing tools."
+}

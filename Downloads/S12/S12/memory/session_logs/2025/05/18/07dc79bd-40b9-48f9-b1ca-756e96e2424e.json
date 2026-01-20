@@ -1,0 +1,547 @@
+{
+  "context": {
+    "session_id": "07dc79bd-40b9-48f9-b1ca-756e96e2424e",
+    "original_query": "Query 1: What's the latest news about F22?",
+    "globals": {
+      "search_results_0A": [
+        "https://www.19fortyfive.com/2025/01/the-air-force-could-soon-have-a-super-f-22-raptor-fighter/",
+        "https://www.forbes.com/sites/erictegler/2024/03/08/the-f-22-has-gone-from-rolling-retirement-to-the-usafs-top-priority/",
+        "https://www.cnn.com/2025/05/15/world/trump-f55-fighter-jet-intl-hnk-ml",
+        "https://breakingdefense.com/2025/03/the-f-22-is-having-a-modernization-moment/",
+        "https://aviationweek.com/defense/aircraft-propulsion/trump-floats-major-new-upgrades-f-35-f-22"
+      ],
+      "search_results_0B": [
+        "https://www.19fortyfive.com/2025/01/the-air-force-could-soon-have-a-super-f-22-raptor-fighter/",
+        "https://www.cnn.com/2025/05/15/world/trump-f55-fighter-jet-intl-hnk-ml",
+        "https://www.twz.com/air/f-22-raptors-completed-six-test-flights-for-new-sensor-upgrades",
+        "https://www.armyrecognition.com/news/aerospace-news/2025/breaking-news-u-s-president-trump-unveils-development-of-revolutionary-f-55-and-upgraded-f-22-super-stealth-fighter-jets",
+        "https://www.forbes.com/sites/erictegler/2024/03/08/the-f-22-has-gone-from-rolling-retirement-to-the-usafs-top-priority/"
+      ],
+      "search_results_0C": [
+        "https://news.lockheedmartin.com/2025-01-22-Lockheed-Martin-to-Modernize-Air-Force-F-22-Raptor-with-Advanced-Infrared-Threat-Detection-Sensors",
+        "https://www.lockheedmartin.com/en-us/news/features/2024/F22500KFlightHours.html",
+        "https://www.prnewswire.com/news-releases/lockheed-martin-to-modernize-air-force-f-22-raptor-with-advanced-infrared-threat-detection-sensors-302357444.html",
+        "https://theaviationist.com/2025/01/22/f-22-raptor-infrared-defensive-system/",
+        "https://militaryembedded.com/avionics/computers/the-lockheed-martin-f-22-raptor-mosa-in-flight"
+      ]
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: What's the latest news about F22?",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "Here's the latest news regarding the F-22 Raptor:\n\n*   **Modernization Efforts:** Lockheed Martin is set to modernize the Air Force's F-22 Raptor fleet with advanced infrared threat detection sensors.\n*   **Sensor Upgrades:** The F-22 Raptors have completed six test flights for new sensor upgrades.\n*   **Potential \"Super F-22\":** There's discussion about the Air Force potentially developing a \"super F-22\" Raptor fighter.\n*   **USAF's Top Priority:** The F-22 has shifted from potential retirement to the USAF's top priority.\n*   **F-55 Development:** President Trump has unveiled the development of a revolutionary F-55 and upgraded F-22 super stealth fighter jets.",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "F22",
+                "news"
+              ],
+              "result_requirement": "Latest news about F22",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.9",
+              "reasoning": "The query asks for the latest news about F22.  This information is not currently available in memory or globals.  A tool needs to be called to fetch the latest news.",
+              "local_reasoning": "The original query is new and no steps have tried to solve for it so far.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Search for recent news articles about the F22.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "search_results_0C": [
+                "https://news.lockheedmartin.com/2025-01-22-Lockheed-Martin-to-Modernize-Air-Force-F-22-Raptor-with-Advanced-Infrared-Threat-Detection-Sensors",
+                "https://www.lockheedmartin.com/en-us/news/features/2024/F22500KFlightHours.html",
+                "https://www.prnewswire.com/news-releases/lockheed-martin-to-modernize-air-force-f-22-raptor-with-advanced-infrared-threat-detection-sensors-302357444.html",
+                "https://theaviationist.com/2025/01/22/f-22-raptor-infrared-defensive-system/",
+                "https://militaryembedded.com/avionics/computers/the-lockheed-martin-f-22-raptor-mosa-in-flight"
+              ]
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "F22",
+                "news"
+              ],
+              "result_requirement": "Latest news about F22",
+              "original_goal_achieved": true,
+              "local_goal_achieved": true,
+              "confidence": "0.9",
+              "reasoning": "The search results contain multiple URLs related to F22 news. The globals schema contains all search result for A, B and C. Therefore, we can summarize directly. This also helps avoid keyword based search which is suboptimal.",
+              "local_reasoning": "Search results are available, now extracting and summarizing the top links will address the user query.",
+              "last_tooluse_summary": "DuckDuckGo search succeeded.",
+              "solution_summary": "Search results are available in globals.",
+              "route": "summarize",
+              "instruction_to_summarize": "Summarize the news articles about F22 from the URLs available in `globals_schema` under `search_results_0A`, `search_results_0B`, and `search_results_0C`. Focus on extracting key information about upgrades, modernization, and any recent developments related to the aircraft. Present the information in a concise, user-friendly markdown format."
+            },
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        },
+        {
+          "data": {
+            "index": "1",
+            "description": "Summarize the top 3 news articles about the F22.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "ROOT"
+          },
+          "id": "1"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "1"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "07dc79bd-40b9-48f9-b1ca-756e96e2424e",
+    "original_query": "Query 1: What's the latest news about F22?",
+    "perception_snapshots": [
+      {
+        "run_id": "07dc79bd-40b9-48f9-b1ca-756e96e2424e-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "F22",
+          "news"
+        ],
+        "result_requirement": "Latest news about F22",
+        "original_goal_achieved": false,
+        "reasoning": "The query asks for the latest news about F22.  This information is not currently available in memory or globals.  A tool needs to be called to fetch the latest news.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The original query is new and no steps have tried to solve for it so far.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.9",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "07dc79bd-40b9-48f9-b1ca-756e96e2424e-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "F22",
+          "news"
+        ],
+        "result_requirement": "Latest news about F22",
+        "original_goal_achieved": true,
+        "reasoning": "The search results contain multiple URLs related to F22 news. The globals schema contains all search result for A, B and C. Therefore, we can summarize directly. This also helps avoid keyword based search which is suboptimal.",
+        "local_goal_achieved": true,
+        "local_reasoning": "Search results are available, now extracting and summarizing the top links will address the user query.",
+        "last_tooluse_summary": "DuckDuckGo search succeeded.",
+        "solution_summary": "Search results are available in globals.",
+        "confidence": "0.9",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "06932fad-a684-496a-80d0-20b6b39a77b0",
+        "input": {
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: What's the latest news about F22?",
+          "perception": {
+            "entities": [
+              "F22",
+              "news"
+            ],
+            "result_requirement": "Latest news about F22",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.9",
+            "reasoning": "The query asks for the latest news about F22.  This information is not currently available in memory or globals.  A tool needs to be called to fetch the latest news.",
+            "local_reasoning": "The original query is new and no steps have tried to solve for it so far.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "F22",
+                  "news"
+                ],
+                "result_requirement": "Latest news about F22",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The query asks for the latest news about F22.  This information is not currently available in memory or globals.  A tool needs to be called to fetch the latest news.",
+                "local_reasoning": "The original query is new and no steps have tried to solve for it so far.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "F22",
+                  "news"
+                ],
+                "result_requirement": "Latest news about F22",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.9",
+                "reasoning": "The query asks for the latest news about F22.  This information is not currently available in memory or globals.  A tool needs to be called to fetch the latest news.",
+                "local_reasoning": "The original query is new and no steps have tried to solve for it so far.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {}
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search for recent news articles about the F22."
+              },
+              {
+                "id": "1",
+                "description": "Summarize the top 3 news articles about the F22."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "urls = duckduckgo_search(\"F22 news\", 5)\nreturn {\"search_results_0A\": urls}",
+            "CODE_0B": "urls = duckduckgo_search(\"F22 fighter jet news\", 5)\nreturn {\"search_results_0B\": urls}",
+            "CODE_0C": "urls = duckduckgo_search(\"Lockheed Martin F22 Raptor news\", 5)\nreturn {\"search_results_0C\": urls}"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search for recent news articles about the F22."
+            },
+            {
+              "id": "1",
+              "description": "Summarize the top 3 news articles about the F22."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "urls = duckduckgo_search(\"F22 news\", 5)\nreturn {\"search_results_0A\": urls}",
+          "CODE_0B": "urls = duckduckgo_search(\"F22 fighter jet news\", 5)\nreturn {\"search_results_0B\": urls}",
+          "CODE_0C": "urls = duckduckgo_search(\"Lockheed Martin F22 Raptor news\", 5)\nreturn {\"search_results_0C\": urls}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [
+      {
+        "run_id": "4be4982f-21a3-4172-8050-6e565d34259a",
+        "step_id": "0",
+        "variant_used": "CODE_0A",
+        "code": "urls = duckduckgo_search(\"F22 news\", 5)\nreturn {\"search_results_0A\": urls}",
+        "status": "success",
+        "result": {
+          "search_results_0A": [
+            "https://www.19fortyfive.com/2025/01/the-air-force-could-soon-have-a-super-f-22-raptor-fighter/",
+            "https://www.forbes.com/sites/erictegler/2024/03/08/the-f-22-has-gone-from-rolling-retirement-to-the-usafs-top-priority/",
+            "https://www.cnn.com/2025/05/15/world/trump-f55-fighter-jet-intl-hnk-ml",
+            "https://breakingdefense.com/2025/03/the-f-22-is-having-a-modernization-moment/",
+            "https://aviationweek.com/defense/aircraft-propulsion/trump-floats-major-new-upgrades-f-35-f-22"
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-18 14:18:08",
+        "total_time": "6.58",
+        "return_to": ""
+      },
+      {
+        "run_id": "c3105c90-dcb4-462e-ac3e-b4d07540acd6",
+        "step_id": "0",
+        "variant_used": "CODE_0B",
+        "code": "urls = duckduckgo_search(\"F22 fighter jet news\", 5)\nreturn {\"search_results_0B\": urls}",
+        "status": "success",
+        "result": {
+          "search_results_0B": [
+            "https://www.19fortyfive.com/2025/01/the-air-force-could-soon-have-a-super-f-22-raptor-fighter/",
+            "https://www.cnn.com/2025/05/15/world/trump-f55-fighter-jet-intl-hnk-ml",
+            "https://www.twz.com/air/f-22-raptors-completed-six-test-flights-for-new-sensor-upgrades",
+            "https://www.armyrecognition.com/news/aerospace-news/2025/breaking-news-u-s-president-trump-unveils-development-of-revolutionary-f-55-and-upgraded-f-22-super-stealth-fighter-jets",
+            "https://www.forbes.com/sites/erictegler/2024/03/08/the-f-22-has-gone-from-rolling-retirement-to-the-usafs-top-priority/"
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-18 14:18:15",
+        "total_time": "6.76",
+        "return_to": ""
+      },
+      {
+        "run_id": "593a0d32-591e-4c2b-9160-df332d856211",
+        "step_id": "0",
+        "variant_used": "CODE_0C",
+        "code": "urls = duckduckgo_search(\"Lockheed Martin F22 Raptor news\", 5)\nreturn {\"search_results_0C\": urls}",
+        "status": "success",
+        "result": {
+          "search_results_0C": [
+            "https://news.lockheedmartin.com/2025-01-22-Lockheed-Martin-to-Modernize-Air-Force-F-22-Raptor-with-Advanced-Infrared-Threat-Detection-Sensors",
+            "https://www.lockheedmartin.com/en-us/news/features/2024/F22500KFlightHours.html",
+            "https://www.prnewswire.com/news-releases/lockheed-martin-to-modernize-air-force-f-22-raptor-with-advanced-infrared-threat-detection-sensors-302357444.html",
+            "https://theaviationist.com/2025/01/22/f-22-raptor-infrared-defensive-system/",
+            "https://militaryembedded.com/avionics/computers/the-lockheed-martin-f-22-raptor-mosa-in-flight"
+          ]
+        },
+        "error": null,
+        "execution_time": "2025-05-18 14:18:21",
+        "total_time": "7.015",
+        "return_to": ""
+      }
+    ],
+    "summarizer_snapshots": [
+      {
+        "run_id": "df16fb34-83c8-479b-8b54-737279ab6a16",
+        "input": {
+          "original_query": "Query 1: What's the latest news about F22?",
+          "globals_schema": {
+            "search_results_0A": [
+              "https://www.19fortyfive.com/2025/01/the-air-force-could-soon-have-a-super-f-22-raptor-fighter/",
+              "https://www.forbes.com/sites/erictegler/2024/03/08/the-f-22-has-gone-from-rolling-retirement-to-the-usafs-top-priority/",
+              "https://www.cnn.com/2025/05/15/world/trump-f55-fighter-jet-intl-hnk-ml",
+              "https://breakingdefense.com/2025/03/the-f-22-is-having-a-modernization-moment/",
+              "https://aviationweek.com/defense/aircraft-propulsion/trump-floats-major-new-upgrades-f-35-f-22"
+            ],
+            "search_results_0B": [
+              "https://www.19fortyfive.com/2025/01/the-air-force-could-soon-have-a-super-f-22-raptor-fighter/",
+              "https://www.cnn.com/2025/05/15/world/trump-f55-fighter-jet-intl-hnk-ml",
+              "https://www.twz.com/air/f-22-raptors-completed-six-test-flights-for-new-sensor-upgrades",
+              "https://www.armyrecognition.com/news/aerospace-news/2025/breaking-news-u-s-president-trump-unveils-development-of-revolutionary-f-55-and-upgraded-f-22-super-stealth-fighter-jets",
+              "https://www.forbes.com/sites/erictegler/2024/03/08/the-f-22-has-gone-from-rolling-retirement-to-the-usafs-top-priority/"
+            ],
+            "search_results_0C": [
+              "https://news.lockheedmartin.com/2025-01-22-Lockheed-Martin-to-Modernize-Air-Force-F-22-Raptor-with-Advanced-Infrared-Threat-Detection-Sensors",
+              "https://www.lockheedmartin.com/en-us/news/features/2024/F22500KFlightHours.html",
+              "https://www.prnewswire.com/news-releases/lockheed-martin-to-modernize-air-force-f-22-raptor-with-advanced-infrared-threat-detection-sensors-302357444.html",
+              "https://theaviationist.com/2025/01/22/f-22-raptor-infrared-defensive-system/",
+              "https://militaryembedded.com/avionics/computers/the-lockheed-martin-f-22-raptor-mosa-in-flight"
+            ]
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "F22",
+                      "news"
+                    ],
+                    "result_requirement": "Latest news about F22",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.9",
+                    "reasoning": "The query asks for the latest news about F22.  This information is not currently available in memory or globals.  A tool needs to be called to fetch the latest news.",
+                    "local_reasoning": "The original query is new and no steps have tried to solve for it so far.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "0",
+                  "description": "Search for recent news articles about the F22.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "search_results_0C": [
+                      "https://news.lockheedmartin.com/2025-01-22-Lockheed-Martin-to-Modernize-Air-Force-F-22-Raptor-with-Advanced-Infrared-Threat-Detection-Sensors",
+                      "https://www.lockheedmartin.com/en-us/news/features/2024/F22500KFlightHours.html",
+                      "https://www.prnewswire.com/news-releases/lockheed-martin-to-modernize-air-force-f-22-raptor-with-advanced-infrared-threat-detection-sensors-302357444.html",
+                      "https://theaviationist.com/2025/01/22/f-22-raptor-infrared-defensive-system/",
+                      "https://militaryembedded.com/avionics/computers/the-lockheed-martin-f-22-raptor-mosa-in-flight"
+                    ]
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "F22",
+                      "news"
+                    ],
+                    "result_requirement": "Latest news about F22",
+                    "original_goal_achieved": true,
+                    "local_goal_achieved": true,
+                    "confidence": "0.9",
+                    "reasoning": "The search results contain multiple URLs related to F22 news. The globals schema contains all search result for A, B and C. Therefore, we can summarize directly. This also helps avoid keyword based search which is suboptimal.",
+                    "local_reasoning": "Search results are available, now extracting and summarizing the top links will address the user query.",
+                    "last_tooluse_summary": "DuckDuckGo search succeeded.",
+                    "solution_summary": "Search results are available in globals.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Summarize the news articles about F22 from the URLs available in `globals_schema` under `search_results_0A`, `search_results_0B`, and `search_results_0C`. Focus on extracting key information about upgrades, modernization, and any recent developments related to the aircraft. Present the information in a concise, user-friendly markdown format."
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "0"
+              },
+              {
+                "data": {
+                  "index": "1",
+                  "description": "Summarize the top 3 news articles about the F22.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "ROOT"
+                },
+                "id": "1"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "0"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "1"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "F22",
+              "news"
+            ],
+            "result_requirement": "Latest news about F22",
+            "original_goal_achieved": true,
+            "local_goal_achieved": true,
+            "confidence": "0.9",
+            "reasoning": "The search results contain multiple URLs related to F22 news. The globals schema contains all search result for A, B and C. Therefore, we can summarize directly. This also helps avoid keyword based search which is suboptimal.",
+            "local_reasoning": "Search results are available, now extracting and summarizing the top links will address the user query.",
+            "last_tooluse_summary": "DuckDuckGo search succeeded.",
+            "solution_summary": "Search results are available in globals.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize the news articles about F22 from the URLs available in `globals_schema` under `search_results_0A`, `search_results_0B`, and `search_results_0C`. Focus on extracting key information about upgrades, modernization, and any recent developments related to the aircraft. Present the information in a concise, user-friendly markdown format."
+          }
+        },
+        "summary_output": "Here's the latest news regarding the F-22 Raptor:\n\n*   **Modernization Efforts:** Lockheed Martin is set to modernize the Air Force's F-22 Raptor fleet with advanced infrared threat detection sensors.\n*   **Sensor Upgrades:** The F-22 Raptors have completed six test flights for new sensor upgrades.\n*   **Potential \"Super F-22\":** There's discussion about the Air Force potentially developing a \"super F-22\" Raptor fighter.\n*   **USAF's Top Priority:** The F-22 has shifted from potential retirement to the USAF's top priority.\n*   **F-55 Development:** President Trump has unveiled the development of a revolutionary F-55 and upgraded F-22 super stealth fighter jets.",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-18T08:47:30Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "Search results are available in globals.",
+    "status": "success",
+    "completed_at": "2025-05-18T08:48:39.293722"
+  },
+  "status": "success",
+  "final_step_id": "1",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-18T08:48:39.296723",
+  "original_query": "Query 1: What's the latest news about F22?",
+  "final_summary": "Search results are available in globals."
+}

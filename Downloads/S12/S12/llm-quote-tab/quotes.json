@@ -1,0 +1,116 @@
+[
+  {
+    "id": "marcus-01",
+    "text": "You have power over your mind, not outside events. Realize this, and you will find strength.",
+    "author": "Marcus Aurelius",
+    "tags": ["resilience", "mindset", "control"]
+  },
+  {
+    "id": "seneca-01",
+    "text": "We suffer more often in imagination than in reality.",
+    "author": "Seneca",
+    "tags": ["anxiety", "stress", "mindset"]
+  },
+  {
+    "id": "epictetus-01",
+    "text": "It is not what happens to you, but how you react to it that matters.",
+    "author": "Epictetus",
+    "tags": ["reaction", "resilience", "mindset"]
+  },
+  {
+    "id": "aristotle-01",
+    "text": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+    "author": "Aristotle",
+    "tags": ["habits", "discipline", "growth"]
+  },
+  {
+    "id": "confucius-01",
+    "text": "The man who moves a mountain begins by carrying away small stones.",
+    "author": "Confucius",
+    "tags": ["progress", "discipline", "patience"]
+  },
+  {
+    "id": "laozi-01",
+    "text": "A journey of a thousand miles begins with a single step.",
+    "author": "Laozi",
+    "tags": ["progress", "starting", "momentum"]
+  },
+  {
+    "id": "plato-01",
+    "text": "Good people do not need laws to tell them to act responsibly, while bad people will find a way around the laws.",
+    "author": "Plato",
+    "tags": ["ethics", "responsibility", "governance"]
+  },
+  {
+    "id": "hume-01",
+    "text": "Beauty in things exists in the mind which contemplates them.",
+    "author": "David Hume",
+    "tags": ["perception", "mindset", "creativity"]
+  },
+  {
+    "id": "turing-01",
+    "text": "We can only see a short distance ahead, but we can see plenty there that needs to be done.",
+    "author": "Alan Turing",
+    "tags": ["planning", "focus", "work"]
+  },
+  {
+    "id": "ada-01",
+    "text": "That brain of mine is something more than merely mortal; as time will show.",
+    "author": "Ada Lovelace",
+    "tags": ["confidence", "ambition", "technology"]
+  },
+  {
+    "id": "douglass-01",
+    "text": "If there is no struggle, there is no progress.",
+    "author": "Frederick Douglass",
+    "tags": ["progress", "resilience", "growth"]
+  },
+  {
+    "id": "curie-01",
+    "text": "Nothing in life is to be feared; it is only to be understood.",
+    "author": "Marie Curie",
+    "tags": ["learning", "curiosity", "courage"]
+  },
+  {
+    "id": "nightingale-01",
+    "text": "I attribute my success to this: I never gave or took any excuse.",
+    "author": "Florence Nightingale",
+    "tags": ["discipline", "accountability", "work"]
+  },
+  {
+    "id": "darwin-01",
+    "text": "It is not the strongest of the species that survive, nor the most intelligent, but the one most responsive to change.",
+    "author": "Charles Darwin",
+    "tags": ["change", "adaptability", "learning"]
+  },
+  {
+    "id": "bohr-01",
+    "text": "An expert is a person who has made all the mistakes that can be made in a very narrow field.",
+    "author": "Niels Bohr",
+    "tags": ["learning", "expertise", "mistakes"]
+  },
+  {
+    "id": "lincoln-01",
+    "text": "I am a slow walker, but I never walk back.",
+    "author": "Abraham Lincoln",
+    "tags": ["progress", "resilience", "persistence"]
+  },
+  {
+    "id": "wollstonecraft-01",
+    "text": "Strengthen the female mind by enlarging it, and there will be an end to blind obedience.",
+    "author": "Mary Wollstonecraft",
+    "tags": ["learning", "independence", "education"]
+  },
+  {
+    "id": "gandhi-01",
+    "text": "The future depends on what you do today.",
+    "author": "Mahatma Gandhi",
+    "tags": ["focus", "action", "planning"]
+  },
+  {
+    "id": "rbg-01",
+    "text": "Real change, enduring change, happens one step at a time.",
+    "author": "Ruth Bader Ginsburg",
+    "tags": ["progress", "patience", "change"]
+  }
+]

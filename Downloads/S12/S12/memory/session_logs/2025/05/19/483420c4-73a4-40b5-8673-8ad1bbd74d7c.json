@@ -1,0 +1,540 @@
+{
+  "context": {
+    "session_id": "483420c4-73a4-40b5-8673-8ad1bbd74d7c",
+    "original_query": "Query 1: What is Model Context Protocol? Give me a detailed report.",
+    "globals": {
+      "memory": [],
+      "search_results_0A": [],
+      "search_results_0B": [],
+      "search_results_0C": []
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: What is Model Context Protocol? Give me a detailed report.",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "No information could be found regarding 'Model Context Protocol' using the available search tools. A DuckDuckGo search yielded no relevant results. You may try rephrasing or expanding your query.",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Model Context Protocol"
+              ],
+              "result_requirement": "Detailed report on Model Context Protocol",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.8",
+              "reasoning": "The query requires gathering information and compiling a detailed report on 'Model Context Protocol'. This cannot be immediately solved from memory or globals. Requires a plan to find information.",
+              "local_reasoning": "No information about 'Model Context Protocol' is available in memory or globals. Requires external research.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision",
+              "instruction_to_summarize": "Not applicable"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Search for 'Model Context Protocol' using DuckDuckGo to find relevant URLs.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "search_results_0C": []
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Model Context Protocol"
+              ],
+              "result_requirement": "Detailed report on Model Context Protocol",
+              "original_goal_achieved": false,
+              "local_goal_achieved": true,
+              "confidence": "0.9",
+              "reasoning": "The initial search for 'Model Context Protocol' returned no results. Given the lack of information and previous failure, further automated steps are unlikely to yield a detailed report. The search tool failed.",
+              "local_reasoning": "The search for Model Context Protocol returned no relevant links. Empty search result.",
+              "last_tooluse_summary": "DuckDuckGo search for 'Model Context Protocol' returned empty list.",
+              "solution_summary": "No information was found on Model Context Protocol.",
+              "route": "summarize",
+              "instruction_to_summarize": "Report that no information could be found regarding 'Model Context Protocol' using the available search tools. Explain that the search yielded no relevant results. Indicate the tool used was DuckDuckGo."
+            },
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        },
+        {
+          "data": {
+            "index": "1",
+            "description": "Extract and summarize content from the most relevant URLs obtained in the previous step.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "ROOT"
+          },
+          "id": "1"
+        },
+        {
+          "data": {
+            "index": "2",
+            "description": "Compile a detailed report based on the summarized information.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "ROOT"
+          },
+          "id": "2"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "2"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "483420c4-73a4-40b5-8673-8ad1bbd74d7c",
+    "original_query": "Query 1: What is Model Context Protocol? Give me a detailed report.",
+    "perception_snapshots": [
+      {
+        "run_id": "483420c4-73a4-40b5-8673-8ad1bbd74d7c-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "Model Context Protocol"
+        ],
+        "result_requirement": "Detailed report on Model Context Protocol",
+        "original_goal_achieved": false,
+        "reasoning": "The query requires gathering information and compiling a detailed report on 'Model Context Protocol'. This cannot be immediately solved from memory or globals. Requires a plan to find information.",
+        "local_goal_achieved": false,
+        "local_reasoning": "No information about 'Model Context Protocol' is available in memory or globals. Requires external research.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.8",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "483420c4-73a4-40b5-8673-8ad1bbd74d7c-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "Model Context Protocol"
+        ],
+        "result_requirement": "Detailed report on Model Context Protocol",
+        "original_goal_achieved": false,
+        "reasoning": "The initial search for 'Model Context Protocol' returned no results. Given the lack of information and previous failure, further automated steps are unlikely to yield a detailed report. The search tool failed.",
+        "local_goal_achieved": true,
+        "local_reasoning": "The search for Model Context Protocol returned no relevant links. Empty search result.",
+        "last_tooluse_summary": "DuckDuckGo search for 'Model Context Protocol' returned empty list.",
+        "solution_summary": "No information was found on Model Context Protocol.",
+        "confidence": "0.9",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "12a1db0b-c5c6-4429-ae29-aa15c2270314",
+        "input": {
+          "current_time": "2025-05-19T08:23:11.681409",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: What is Model Context Protocol? Give me a detailed report.",
+          "perception": {
+            "entities": [
+              "Model Context Protocol"
+            ],
+            "result_requirement": "Detailed report on Model Context Protocol",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.8",
+            "reasoning": "The query requires gathering information and compiling a detailed report on 'Model Context Protocol'. This cannot be immediately solved from memory or globals. Requires a plan to find information.",
+            "local_reasoning": "No information about 'Model Context Protocol' is available in memory or globals. Requires external research.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision",
+            "instruction_to_summarize": "Not applicable"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Model Context Protocol"
+                ],
+                "result_requirement": "Detailed report on Model Context Protocol",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.8",
+                "reasoning": "The query requires gathering information and compiling a detailed report on 'Model Context Protocol'. This cannot be immediately solved from memory or globals. Requires a plan to find information.",
+                "local_reasoning": "No information about 'Model Context Protocol' is available in memory or globals. Requires external research.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision",
+                "instruction_to_summarize": "Not applicable"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Model Context Protocol"
+                ],
+                "result_requirement": "Detailed report on Model Context Protocol",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.8",
+                "reasoning": "The query requires gathering information and compiling a detailed report on 'Model Context Protocol'. This cannot be immediately solved from memory or globals. Requires a plan to find information.",
+                "local_reasoning": "No information about 'Model Context Protocol' is available in memory or globals. Requires external research.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision",
+                "instruction_to_summarize": "Not applicable"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[]"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search for 'Model Context Protocol' using DuckDuckGo to find relevant URLs."
+              },
+              {
+                "id": "1",
+                "description": "Extract and summarize content from the most relevant URLs obtained in the previous step."
+              },
+              {
+                "id": "2",
+                "description": "Compile a detailed report based on the summarized information."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              },
+              {
+                "from": "1",
+                "to": "2",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "urls = duckduckgo_search('Model Context Protocol', 5)\nreturn { \"search_results_0A\": urls }",
+            "CODE_0B": "urls = duckduckgo_search('Model Context Protocol definition', 5)\nreturn { \"search_results_0B\": urls }",
+            "CODE_0C": "urls = duckduckgo_search('Model Context Protocol explained', 5)\nreturn { \"search_results_0C\": urls }"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search for 'Model Context Protocol' using DuckDuckGo to find relevant URLs."
+            },
+            {
+              "id": "1",
+              "description": "Extract and summarize content from the most relevant URLs obtained in the previous step."
+            },
+            {
+              "id": "2",
+              "description": "Compile a detailed report based on the summarized information."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            },
+            {
+              "from": "1",
+              "to": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "urls = duckduckgo_search('Model Context Protocol', 5)\nreturn { \"search_results_0A\": urls }",
+          "CODE_0B": "urls = duckduckgo_search('Model Context Protocol definition', 5)\nreturn { \"search_results_0B\": urls }",
+          "CODE_0C": "urls = duckduckgo_search('Model Context Protocol explained', 5)\nreturn { \"search_results_0C\": urls }"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [
+      {
+        "run_id": "68f1964e-767d-4c1f-b636-07e04916957a",
+        "step_id": "0",
+        "variant_used": "CODE_0A",
+        "code": "urls = duckduckgo_search('Model Context Protocol', 5)\nreturn { \"search_results_0A\": urls }",
+        "status": "success",
+        "result": {
+          "search_results_0A": []
+        },
+        "error": null,
+        "execution_time": "2025-05-19 13:53:17",
+        "total_time": "5.87",
+        "return_to": ""
+      },
+      {
+        "run_id": "9eac1266-9eeb-4350-9b3e-66c920cbb85b",
+        "step_id": "0",
+        "variant_used": "CODE_0B",
+        "code": "urls = duckduckgo_search('Model Context Protocol definition', 5)\nreturn { \"search_results_0B\": urls }",
+        "status": "success",
+        "result": {
+          "search_results_0B": []
+        },
+        "error": null,
+        "execution_time": "2025-05-19 13:53:23",
+        "total_time": "5.593",
+        "return_to": ""
+      },
+      {
+        "run_id": "4bef69ea-b983-4609-a127-c03f7884c9ed",
+        "step_id": "0",
+        "variant_used": "CODE_0C",
+        "code": "urls = duckduckgo_search('Model Context Protocol explained', 5)\nreturn { \"search_results_0C\": urls }",
+        "status": "success",
+        "result": {
+          "search_results_0C": []
+        },
+        "error": null,
+        "execution_time": "2025-05-19 13:53:28",
+        "total_time": "5.498",
+        "return_to": ""
+      }
+    ],
+    "summarizer_snapshots": [
+      {
+        "run_id": "efa22505-3c31-4a44-83f4-7e556fbd441f",
+        "input": {
+          "original_query": "Query 1: What is Model Context Protocol? Give me a detailed report.",
+          "globals_schema": {
+            "memory": [],
+            "search_results_0A": [],
+            "search_results_0B": [],
+            "search_results_0C": []
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Model Context Protocol"
+                    ],
+                    "result_requirement": "Detailed report on Model Context Protocol",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.8",
+                    "reasoning": "The query requires gathering information and compiling a detailed report on 'Model Context Protocol'. This cannot be immediately solved from memory or globals. Requires a plan to find information.",
+                    "local_reasoning": "No information about 'Model Context Protocol' is available in memory or globals. Requires external research.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision",
+                    "instruction_to_summarize": "Not applicable"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "0",
+                  "description": "Search for 'Model Context Protocol' using DuckDuckGo to find relevant URLs.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "search_results_0C": []
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Model Context Protocol"
+                    ],
+                    "result_requirement": "Detailed report on Model Context Protocol",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": true,
+                    "confidence": "0.9",
+                    "reasoning": "The initial search for 'Model Context Protocol' returned no results. Given the lack of information and previous failure, further automated steps are unlikely to yield a detailed report. The search tool failed.",
+                    "local_reasoning": "The search for Model Context Protocol returned no relevant links. Empty search result.",
+                    "last_tooluse_summary": "DuckDuckGo search for 'Model Context Protocol' returned empty list.",
+                    "solution_summary": "No information was found on Model Context Protocol.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Report that no information could be found regarding 'Model Context Protocol' using the available search tools. Explain that the search yielded no relevant results. Indicate the tool used was DuckDuckGo."
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "0"
+              },
+              {
+                "data": {
+                  "index": "1",
+                  "description": "Extract and summarize content from the most relevant URLs obtained in the previous step.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "ROOT"
+                },
+                "id": "1"
+              },
+              {
+                "data": {
+                  "index": "2",
+                  "description": "Compile a detailed report based on the summarized information.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "ROOT"
+                },
+                "id": "2"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "0"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "2"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "Model Context Protocol"
+            ],
+            "result_requirement": "Detailed report on Model Context Protocol",
+            "original_goal_achieved": false,
+            "local_goal_achieved": true,
+            "confidence": "0.9",
+            "reasoning": "The initial search for 'Model Context Protocol' returned no results. Given the lack of information and previous failure, further automated steps are unlikely to yield a detailed report. The search tool failed.",
+            "local_reasoning": "The search for Model Context Protocol returned no relevant links. Empty search result.",
+            "last_tooluse_summary": "DuckDuckGo search for 'Model Context Protocol' returned empty list.",
+            "solution_summary": "No information was found on Model Context Protocol.",
+            "route": "summarize",
+            "instruction_to_summarize": "Report that no information could be found regarding 'Model Context Protocol' using the available search tools. Explain that the search yielded no relevant results. Indicate the tool used was DuckDuckGo."
+          }
+        },
+        "summary_output": "No information could be found regarding 'Model Context Protocol' using the available search tools. A DuckDuckGo search yielded no relevant results. You may try rephrasing or expanding your query.",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-19T08:22:37Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "No information could be found regarding 'Model Context Protocol' using the available search tools. A DuckDuckGo search yielded no relevant results. You may try rephrasing or expanding your query.",
+    "status": "success",
+    "completed_at": "2025-05-19T08:23:42.192113"
+  },
+  "status": "success",
+  "final_step_id": "2",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-19T08:23:42.195114",
+  "original_query": "Query 1: What is Model Context Protocol? Give me a detailed report.",
+  "final_summary": "No information could be found regarding 'Model Context Protocol' using the available search tools. A DuckDuckGo search yielded no relevant results. You may try rephrasing or expanding your query."
+}

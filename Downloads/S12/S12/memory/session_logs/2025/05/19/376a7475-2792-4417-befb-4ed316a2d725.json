@@ -1,0 +1,550 @@
+{
+  "context": {
+    "session_id": "376a7475-2792-4417-befb-4ed316a2d725",
+    "original_query": "Query 1: What is Model Context Protocol? Give me a detailed report.",
+    "globals": {
+      "memory": [],
+      "search_results_0C": [],
+      "search_results_0A": [],
+      "search_results_0B": []
+    },
+    "memory": [
+      {
+        "original_query": "Query 1: What is Model Context Protocol? Give me a detailed report.",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "No information was found in the sources available regarding 'Model Context Protocol'. Therefore, a detailed report cannot be provided at this time. You may try rephrasing or expanding your query.",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "initial query",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Model Context Protocol",
+                "detailed report"
+              ],
+              "result_requirement": "A detailed report explaining Model Context Protocol",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.8",
+              "reasoning": "The user is asking for a detailed report about Model Context Protocol. This requires research and explanation, which is beyond the current capabilities.  Planning is needed to determine how to gather information and construct the report.",
+              "local_reasoning": "The query requires information retrieval and synthesis, which cannot be done directly.",
+              "last_tooluse_summary": "Not applicable",
+              "solution_summary": "Not ready yet.",
+              "route": "decision",
+              "instruction_to_summarize": "Not applicable"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        },
+        {
+          "data": {
+            "index": "0",
+            "description": "Search for 'Model Context Protocol' to gather information and define the protocol.",
+            "type": "CODE",
+            "status": "completed",
+            "result": {
+              "search_results_0B": []
+            },
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Model Context Protocol",
+                "detailed report"
+              ],
+              "result_requirement": "A detailed report explaining Model Context Protocol",
+              "original_goal_achieved": false,
+              "local_goal_achieved": false,
+              "confidence": "0.7",
+              "reasoning": "The search for 'Model Context Protocol' returned no results.  We cannot proceed to create a detailed report without information. Since the initial search failed and no relevant data was found, further steps are unlikely to yield results. It is best to summarize the negative search outcome.",
+              "local_reasoning": "The tool returned empty lists. Therefore, further planning will lead to nowhere.",
+              "last_tooluse_summary": "Search tool returned no results for 'Model Context Protocol'.",
+              "solution_summary": "No information found for Model Context Protocol.",
+              "route": "summarize",
+              "instruction_to_summarize": "Summarize that no information was found regarding 'Model Context Protocol' using the search tool, and therefore a detailed report cannot be provided."
+            },
+            "from_step": "ROOT"
+          },
+          "id": "0"
+        },
+        {
+          "data": {
+            "index": "1",
+            "description": "Extract and summarize the content from URLs obtained in step 0.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "ROOT"
+          },
+          "id": "1"
+        },
+        {
+          "data": {
+            "index": "2",
+            "description": "Synthesize a detailed report about Model Context Protocol using the summaries from step 1.",
+            "type": "CODE",
+            "status": "Skipped",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": null,
+            "from_step": "ROOT"
+          },
+          "id": "2"
+        }
+      ],
+      "links": [
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "0"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "1"
+        },
+        {
+          "type": "normal",
+          "source": "ROOT",
+          "target": "2"
+        }
+      ]
+    }
+  },
+  "session": {
+    "session_id": "376a7475-2792-4417-befb-4ed316a2d725",
+    "original_query": "Query 1: What is Model Context Protocol? Give me a detailed report.",
+    "perception_snapshots": [
+      {
+        "run_id": "376a7475-2792-4417-befb-4ed316a2d725-P",
+        "snapshot_type": "user_query",
+        "entities": [
+          "Model Context Protocol",
+          "detailed report"
+        ],
+        "result_requirement": "A detailed report explaining Model Context Protocol",
+        "original_goal_achieved": false,
+        "reasoning": "The user is asking for a detailed report about Model Context Protocol. This requires research and explanation, which is beyond the current capabilities.  Planning is needed to determine how to gather information and construct the report.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The query requires information retrieval and synthesis, which cannot be done directly.",
+        "last_tooluse_summary": "Not applicable",
+        "solution_summary": "Not ready yet.",
+        "confidence": "0.8",
+        "route": "decision",
+        "timestamp": "...",
+        "return_to": ""
+      },
+      {
+        "run_id": "376a7475-2792-4417-befb-4ed316a2d725-P",
+        "snapshot_type": "step_result",
+        "entities": [
+          "Model Context Protocol",
+          "detailed report"
+        ],
+        "result_requirement": "A detailed report explaining Model Context Protocol",
+        "original_goal_achieved": false,
+        "reasoning": "The search for 'Model Context Protocol' returned no results.  We cannot proceed to create a detailed report without information. Since the initial search failed and no relevant data was found, further steps are unlikely to yield results. It is best to summarize the negative search outcome.",
+        "local_goal_achieved": false,
+        "local_reasoning": "The tool returned empty lists. Therefore, further planning will lead to nowhere.",
+        "last_tooluse_summary": "Search tool returned no results for 'Model Context Protocol'.",
+        "solution_summary": "No information found for Model Context Protocol.",
+        "confidence": "0.7",
+        "route": "summarize",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [
+      {
+        "run_id": "affd45e1-4a41-479c-baab-0f2690c80e62",
+        "input": {
+          "current_time": "2025-05-19T08:20:36.530412",
+          "plan_mode": "initial",
+          "planning_strategy": "exploratory",
+          "original_query": "Query 1: What is Model Context Protocol? Give me a detailed report.",
+          "perception": {
+            "entities": [
+              "Model Context Protocol",
+              "detailed report"
+            ],
+            "result_requirement": "A detailed report explaining Model Context Protocol",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.8",
+            "reasoning": "The user is asking for a detailed report about Model Context Protocol. This requires research and explanation, which is beyond the current capabilities.  Planning is needed to determine how to gather information and construct the report.",
+            "local_reasoning": "The query requires information retrieval and synthesis, which cannot be done directly.",
+            "last_tooluse_summary": "Not applicable",
+            "solution_summary": "Not ready yet.",
+            "route": "decision",
+            "instruction_to_summarize": "Not applicable"
+          },
+          "plan_graph": {},
+          "completed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Model Context Protocol",
+                  "detailed report"
+                ],
+                "result_requirement": "A detailed report explaining Model Context Protocol",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.8",
+                "reasoning": "The user is asking for a detailed report about Model Context Protocol. This requires research and explanation, which is beyond the current capabilities.  Planning is needed to determine how to gather information and construct the report.",
+                "local_reasoning": "The query requires information retrieval and synthesis, which cannot be done directly.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision",
+                "instruction_to_summarize": "Not applicable"
+              },
+              "from_step": null
+            }
+          ],
+          "failed_steps": [
+            {
+              "index": "ROOT",
+              "description": "initial query",
+              "type": "ROOT",
+              "status": "completed",
+              "result": null,
+              "conclusion": null,
+              "error": null,
+              "perception": {
+                "entities": [
+                  "Model Context Protocol",
+                  "detailed report"
+                ],
+                "result_requirement": "A detailed report explaining Model Context Protocol",
+                "original_goal_achieved": false,
+                "local_goal_achieved": false,
+                "confidence": "0.8",
+                "reasoning": "The user is asking for a detailed report about Model Context Protocol. This requires research and explanation, which is beyond the current capabilities.  Planning is needed to determine how to gather information and construct the report.",
+                "local_reasoning": "The query requires information retrieval and synthesis, which cannot be done directly.",
+                "last_tooluse_summary": "Not applicable",
+                "solution_summary": "Not ready yet.",
+                "route": "decision",
+                "instruction_to_summarize": "Not applicable"
+              },
+              "from_step": null
+            }
+          ],
+          "globals_schema": {
+            "memory": {
+              "type": "list",
+              "preview": "[]"
+            }
+          }
+        },
+        "output": {
+          "plan_graph": {
+            "nodes": [
+              {
+                "id": "0",
+                "description": "Search for 'Model Context Protocol' to gather information and define the protocol."
+              },
+              {
+                "id": "1",
+                "description": "Extract and summarize the content from URLs obtained in step 0."
+              },
+              {
+                "id": "2",
+                "description": "Synthesize a detailed report about Model Context Protocol using the summaries from step 1."
+              }
+            ],
+            "edges": [
+              {
+                "from": "ROOT",
+                "to": "0",
+                "type": "normal"
+              },
+              {
+                "from": "0",
+                "to": "1",
+                "type": "normal"
+              },
+              {
+                "from": "1",
+                "to": "2",
+                "type": "normal"
+              }
+            ]
+          },
+          "next_step_id": "0",
+          "code_variants": {
+            "CODE_0A": "search_results_0A = duckduckgo_search('Model Context Protocol', 5)\nreturn {\"search_results_0A\": search_results_0A}",
+            "CODE_0B": "search_results_0B = duckduckgo_search('define Model Context Protocol', 5)\nreturn {\"search_results_0B\": search_results_0B}",
+            "CODE_0C": "search_results_0C = duckduckgo_search('Model Context Protocol explanation', 5)\nreturn {\"search_results_0C\": search_results_0C}"
+          }
+        },
+        "next_step_id": "0",
+        "plan_graph": {
+          "nodes": [
+            {
+              "id": "0",
+              "description": "Search for 'Model Context Protocol' to gather information and define the protocol."
+            },
+            {
+              "id": "1",
+              "description": "Extract and summarize the content from URLs obtained in step 0."
+            },
+            {
+              "id": "2",
+              "description": "Synthesize a detailed report about Model Context Protocol using the summaries from step 1."
+            }
+          ],
+          "edges": [
+            {
+              "from": "ROOT",
+              "to": "0",
+              "type": "normal"
+            },
+            {
+              "from": "0",
+              "to": "1",
+              "type": "normal"
+            },
+            {
+              "from": "1",
+              "to": "2",
+              "type": "normal"
+            }
+          ]
+        },
+        "code_variants": {
+          "CODE_0A": "search_results_0A = duckduckgo_search('Model Context Protocol', 5)\nreturn {\"search_results_0A\": search_results_0A}",
+          "CODE_0B": "search_results_0B = duckduckgo_search('define Model Context Protocol', 5)\nreturn {\"search_results_0B\": search_results_0B}",
+          "CODE_0C": "search_results_0C = duckduckgo_search('Model Context Protocol explanation', 5)\nreturn {\"search_results_0C\": search_results_0C}"
+        },
+        "timestamp": null,
+        "return_to": ""
+      }
+    ],
+    "execution_snapshots": [
+      {
+        "run_id": "cb90d494-57aa-4e9f-9159-7f9e00442865",
+        "step_id": "0",
+        "variant_used": "CODE_0C",
+        "code": "search_results_0C = duckduckgo_search('Model Context Protocol explanation', 5)\nreturn {\"search_results_0C\": search_results_0C}",
+        "status": "success",
+        "result": {
+          "search_results_0C": []
+        },
+        "error": null,
+        "execution_time": "2025-05-19 13:50:42",
+        "total_time": "6.076",
+        "return_to": ""
+      },
+      {
+        "run_id": "5f2443e2-bf25-4033-9f74-01eda4a4244e",
+        "step_id": "0",
+        "variant_used": "CODE_0A",
+        "code": "search_results_0A = duckduckgo_search('Model Context Protocol', 5)\nreturn {\"search_results_0A\": search_results_0A}",
+        "status": "success",
+        "result": {
+          "search_results_0A": []
+        },
+        "error": null,
+        "execution_time": "2025-05-19 13:50:42",
+        "total_time": "6.114",
+        "return_to": ""
+      },
+      {
+        "run_id": "b9f1f9f6-9345-4ea2-a133-b82bd5d8e254",
+        "step_id": "0",
+        "variant_used": "CODE_0B",
+        "code": "search_results_0B = duckduckgo_search('define Model Context Protocol', 5)\nreturn {\"search_results_0B\": search_results_0B}",
+        "status": "success",
+        "result": {
+          "search_results_0B": []
+        },
+        "error": null,
+        "execution_time": "2025-05-19 13:50:42",
+        "total_time": "6.142",
+        "return_to": ""
+      }
+    ],
+    "summarizer_snapshots": [
+      {
+        "run_id": "76e45528-bbc3-4d66-af09-b3d6f0db2777",
+        "input": {
+          "original_query": "Query 1: What is Model Context Protocol? Give me a detailed report.",
+          "globals_schema": {
+            "memory": [],
+            "search_results_0C": [],
+            "search_results_0A": [],
+            "search_results_0B": []
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "initial query",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Model Context Protocol",
+                      "detailed report"
+                    ],
+                    "result_requirement": "A detailed report explaining Model Context Protocol",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.8",
+                    "reasoning": "The user is asking for a detailed report about Model Context Protocol. This requires research and explanation, which is beyond the current capabilities.  Planning is needed to determine how to gather information and construct the report.",
+                    "local_reasoning": "The query requires information retrieval and synthesis, which cannot be done directly.",
+                    "last_tooluse_summary": "Not applicable",
+                    "solution_summary": "Not ready yet.",
+                    "route": "decision",
+                    "instruction_to_summarize": "Not applicable"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              },
+              {
+                "data": {
+                  "index": "0",
+                  "description": "Search for 'Model Context Protocol' to gather information and define the protocol.",
+                  "type": "CODE",
+                  "status": "completed",
+                  "result": {
+                    "search_results_0B": []
+                  },
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Model Context Protocol",
+                      "detailed report"
+                    ],
+                    "result_requirement": "A detailed report explaining Model Context Protocol",
+                    "original_goal_achieved": false,
+                    "local_goal_achieved": false,
+                    "confidence": "0.7",
+                    "reasoning": "The search for 'Model Context Protocol' returned no results.  We cannot proceed to create a detailed report without information. Since the initial search failed and no relevant data was found, further steps are unlikely to yield results. It is best to summarize the negative search outcome.",
+                    "local_reasoning": "The tool returned empty lists. Therefore, further planning will lead to nowhere.",
+                    "last_tooluse_summary": "Search tool returned no results for 'Model Context Protocol'.",
+                    "solution_summary": "No information found for Model Context Protocol.",
+                    "route": "summarize",
+                    "instruction_to_summarize": "Summarize that no information was found regarding 'Model Context Protocol' using the search tool, and therefore a detailed report cannot be provided."
+                  },
+                  "from_step": "ROOT"
+                },
+                "id": "0"
+              },
+              {
+                "data": {
+                  "index": "1",
+                  "description": "Extract and summarize the content from URLs obtained in step 0.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "ROOT"
+                },
+                "id": "1"
+              },
+              {
+                "data": {
+                  "index": "2",
+                  "description": "Synthesize a detailed report about Model Context Protocol using the summaries from step 1.",
+                  "type": "CODE",
+                  "status": "Skipped",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": null,
+                  "from_step": "ROOT"
+                },
+                "id": "2"
+              }
+            ],
+            "links": [
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "0"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "1"
+              },
+              {
+                "type": "normal",
+                "source": "ROOT",
+                "target": "2"
+              }
+            ]
+          },
+          "perception": {
+            "entities": [
+              "Model Context Protocol",
+              "detailed report"
+            ],
+            "result_requirement": "A detailed report explaining Model Context Protocol",
+            "original_goal_achieved": false,
+            "local_goal_achieved": false,
+            "confidence": "0.7",
+            "reasoning": "The search for 'Model Context Protocol' returned no results.  We cannot proceed to create a detailed report without information. Since the initial search failed and no relevant data was found, further steps are unlikely to yield results. It is best to summarize the negative search outcome.",
+            "local_reasoning": "The tool returned empty lists. Therefore, further planning will lead to nowhere.",
+            "last_tooluse_summary": "Search tool returned no results for 'Model Context Protocol'.",
+            "solution_summary": "No information found for Model Context Protocol.",
+            "route": "summarize",
+            "instruction_to_summarize": "Summarize that no information was found regarding 'Model Context Protocol' using the search tool, and therefore a detailed report cannot be provided."
+          }
+        },
+        "summary_output": "No information was found in the sources available regarding 'Model Context Protocol'. Therefore, a detailed report cannot be provided at this time. You may try rephrasing or expanding your query.",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-05-19T08:19:34Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "No information was found in the sources available regarding 'Model Context Protocol'. Therefore, a detailed report cannot be provided at this time. You may try rephrasing or expanding your query.",
+    "status": "success",
+    "completed_at": "2025-05-19T08:20:57.652902"
+  },
+  "status": "success",
+  "final_step_id": "2",
+  "reason": "Summarized successfully",
+  "timestamp": "2025-05-19T08:20:57.655900",
+  "original_query": "Query 1: What is Model Context Protocol? Give me a detailed report.",
+  "final_summary": "No information was found in the sources available regarding 'Model Context Protocol'. Therefore, a detailed report cannot be provided at this time. You may try rephrasing or expanding your query."
+}
