@@ -15,6 +15,7 @@ from google.genai.errors import ServerError
 
 from agent.agentSession import AgentSession, BrowserSnapshot
 from agent.model_manager import ModelManager
+from memory.browser_agent_memory import BrowserAgentMemoryStore, BrowserAgentMemoryState
 from utils.json_parser import parse_llm_json
 from utils.utils import log_error, log_step
 
@@ -25,13 +26,15 @@ class BrowserActionStep:
     action: dict
     result: str
     error: Optional[str] = None
+    ranking: Optional[dict] = None
 
     def to_dict(self) -> dict:
         return {
             "index": self.index,
             "action": self.action,
             "result": self.result,
-            "error": self.error
+            "error": self.error,
+            "ranking": self.ranking
         }
 
 
@@ -42,18 +45,21 @@ class BrowserAgent:
         multi_mcp,
         api_key: str | None = None,
         model: str = "gemini-2.0-flash",
-        max_steps: int = 12
+        max_steps: int = 25
     ):
         self.browser_prompt_path = browser_prompt_path
         self.multi_mcp = multi_mcp
         self.model = ModelManager()
         self.max_steps = max_steps
+        self.memory_store = BrowserAgentMemoryStore()
 
     async def run(self, instruction: str, session: Optional[AgentSession] = None) -> dict:
         steps: list[BrowserActionStep] = []
         last_action = None
         last_result = ""
         run_id = str(uuid.uuid4())
+        memory_key = session.session_id if session else run_id
+        memory_state = self.memory_store.load_state(memory_key)
 
         try:
             ready, ready_msg = await self._ensure_browser_ready()
@@ -69,13 +75,17 @@ class BrowserAgent:
 
             for step_idx in range(1, self.max_steps + 1):
                 browser_state = await self._get_browser_state()
+                page_hash = memory_state.record_page(browser_state)
+                memory_state.record_redirect_if_needed(page_hash)
+
                 prompt = self._build_prompt(
                     instruction=instruction,
                     step_idx=step_idx,
                     last_action=last_action,
                     last_result=last_result,
                     browser_state=browser_state,
-                    history=steps
+                    history=steps,
+                    memory_state=memory_state
                 )
 
                 log_step(f"[BROWSER AGENT] Step {step_idx}", symbol="🌐")
@@ -98,7 +108,9 @@ class BrowserAgent:
 
                 action = decision.get("action") or {}
                 tool_name = action.get("tool_name")
-                arguments = action.get("arguments", {})
+                arguments = dict(action.get("arguments", {}) or {})
+                ranking_info = None
+                rank_request = decision.get("rank_candidates")
                 if not tool_name:
                     return self._finalize(
                         run_id,
@@ -106,16 +118,52 @@ class BrowserAgent:
                         steps,
                         success=False,
                         final_message="BrowserAgent failed: missing tool_name in action.",
-                        session=session
+                        session=session,
+                        memory_state=memory_state
                     )
 
+                if rank_request and tool_name in {
+                    "click_element_by_index",
+                    "input_text",
+                    "select_dropdown_option"
+                }:
+                    ranked_index, ranking_info = await self._rank_interactive_elements(
+                        rank_request=rank_request,
+                        instruction=instruction,
+                        browser_state=browser_state
+                    )
+                    if ranked_index is not None:
+                        arguments["index"] = ranked_index
+
                 result_text, error = await self._call_tool(tool_name, arguments)
+                memory_state.record_action(
+                    {"tool_name": tool_name, "arguments": arguments},
+                    result_text,
+                    error,
+                    step_idx
+                )
+                memory_state.record_form_interaction(
+                    {"tool_name": tool_name, "arguments": arguments},
+                    result_text,
+                    step_idx
+                )
+                if tool_name in {"open_tab", "go_to_url"}:
+                    memory_state.record_page(browser_state, url=arguments.get("url"))
+                    memory_state.record_tab_event(
+                        {"tool_name": tool_name, "url": arguments.get("url"), "step_index": step_idx}
+                    )
+                if tool_name in {"switch_tab", "close_tab"}:
+                    memory_state.record_tab_event(
+                        {"tool_name": tool_name, "tab_id": arguments.get("tab_id"), "step_index": step_idx}
+                    )
+                self.memory_store.save_state(memory_key, memory_state)
                 steps.append(
                     BrowserActionStep(
                         index=step_idx,
                         action={"tool_name": tool_name, "arguments": arguments},
                         result=result_text,
-                        error=error
+                        error=error,
+                        ranking=ranking_info
                     )
                 )
                 last_action = {"tool_name": tool_name, "arguments": arguments}
@@ -127,7 +175,8 @@ class BrowserAgent:
                 steps,
                 success=False,
                 final_message="BrowserAgent stopped after max steps without completing the task.",
-                session=session
+                session=session,
+                memory_state=memory_state
             )
 
         except ServerError as e:
@@ -139,7 +188,8 @@ class BrowserAgent:
                 success=False,
                 final_message="BrowserAgent failed due to model error (503).",
                 session=session,
-                error=str(e)
+                error=str(e),
+                memory_state=memory_state
             )
         except Exception as e:
             log_error(f"🛑 BrowserAgent Error: {e}")
@@ -150,7 +200,8 @@ class BrowserAgent:
                 success=False,
                 final_message="BrowserAgent failed due to an internal error.",
                 session=session,
-                error=str(e)
+                error=str(e),
+                memory_state=memory_state
             )
 
     async def run_form_submission(self, form_data: dict[str, str], session: Optional[AgentSession] = None) -> dict:
@@ -238,7 +289,8 @@ class BrowserAgent:
         last_action: Optional[dict],
         last_result: str,
         browser_state: str,
-        history: list[BrowserActionStep]
+        history: list[BrowserActionStep],
+        memory_state: BrowserAgentMemoryState
     ) -> str:
         prompt_template = Path(self.browser_prompt_path).read_text(encoding="utf-8")
         tool_descriptions = self._build_tool_descriptions()
@@ -251,7 +303,8 @@ class BrowserAgent:
             "last_action": last_action,
             "last_result": last_result,
             "browser_state": browser_state,
-            "recent_steps": history_payload
+            "recent_steps": history_payload,
+            "browser_memory": memory_state.to_dict()
         }
 
         return (
@@ -277,6 +330,82 @@ class BrowserAgent:
             descriptions.append(f"- `{tool.name}({signature_str})`  # {tool.description}")
         return "\n\n### The ONLY Available Tools\n\n---\n\n" + "\n".join(descriptions)
 
+    async def _rank_interactive_elements(
+        self,
+        rank_request: dict,
+        instruction: str,
+        browser_state: str
+    ) -> tuple[Optional[int], Optional[dict]]:
+        query = (rank_request or {}).get("query") or instruction
+        categories = (rank_request or {}).get("categories")
+        candidate_ids = set((rank_request or {}).get("candidate_ids", []))
+        strict_mode = (rank_request or {}).get("strict_mode", True)
+
+        elements_text, error = await self._call_tool(
+            "get_interactive_elements",
+            {"structured_output": True, "strict_mode": strict_mode}
+        )
+        if error:
+            return None, None
+
+        try:
+            elements_payload = json.loads(elements_text)
+        except Exception:
+            return None, None
+
+        candidates = []
+        for group_name in ("nav", "forms", "buttons"):
+            if categories and group_name not in categories:
+                continue
+            for item in elements_payload.get(group_name, []):
+                element_id = item.get("id")
+                if candidate_ids and element_id not in candidate_ids:
+                    continue
+                candidates.append(
+                    {
+                        "id": element_id,
+                        "desc": item.get("desc", ""),
+                        "action": item.get("action", ""),
+                        "category": group_name
+                    }
+                )
+
+        if not candidates:
+            return None, None
+
+        ranking_prompt = (
+            "Select the best element ID for the user intent.\n"
+            f"Instruction: {instruction}\n"
+            f"Query: {query}\n"
+            f"Browser state excerpt: {browser_state[:500]}\n"
+            "Candidates:\n"
+            + "\n".join(
+                f"- id: {c['id']}, category: {c['category']}, desc: {c['desc']}, action: {c['action']}"
+                for c in candidates[:40]
+            )
+            + "\nReturn STRICT JSON: {\"index\": <id>, \"reason\": \"...\", \"alternates\": [..]}"
+        )
+
+        response = await self.model.generate_text(prompt=ranking_prompt)
+        try:
+            ranking = parse_llm_json(response, required_keys=["index"])
+        except Exception:
+            return None, None
+
+        selected = ranking.get("index")
+        candidate_ids_set = {c["id"] for c in candidates}
+        if selected not in candidate_ids_set:
+            selected = candidates[0]["id"]
+
+        ranking_info = {
+            "query": query,
+            "selected_index": selected,
+            "reason": ranking.get("reason", ""),
+            "alternates": ranking.get("alternates", []),
+            "candidate_count": len(candidates)
+        }
+        return selected, ranking_info
+
     def _finalize(
         self,
         run_id: str,
@@ -285,7 +414,8 @@ class BrowserAgent:
         success: bool,
         final_message: str,
         session: Optional[AgentSession],
-        error: Optional[str] = None
+        error: Optional[str] = None,
+        memory_state: Optional[BrowserAgentMemoryState] = None
     ) -> dict:
         output = {
             "run_id": run_id,
@@ -294,6 +424,7 @@ class BrowserAgent:
             "final_message": final_message,
             "steps": [step.to_dict() for step in steps],
             "error": error,
+            "memory_state": memory_state.to_dict() if memory_state else None,
             "timestamp": datetime.utcnow().isoformat()
         }
 
@@ -305,7 +436,8 @@ class BrowserAgent:
                     steps=output["steps"],
                     success=success,
                     final_message=final_message,
-                    error=error
+                    error=error,
+                    memory_state=output["memory_state"]
                 )
             )
 

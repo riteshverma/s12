@@ -46,6 +46,11 @@ graph LR
     Sandbox[action/executor.py]
   end
 
+  subgraph BrowserAutomation
+    BrowserAgent[browser_agent/browser_agent.py]
+    BrowserMemory[memory/browser_agent_memory.py]
+  end
+
   subgraph Tooling
     Multi[MultiMCP]
     MCPServer[mcp_server_2.py]
@@ -69,6 +74,9 @@ graph LR
   Sandbox --> Multi
   Multi --> MCPServer
 
+  Loop --> BrowserAgent
+  BrowserAgent --> BrowserMemory
+
   Loop --> MemorySearch
   Perception --> Prompts
   Decision --> Prompts
@@ -77,12 +85,20 @@ graph LR
   Sandbox --> SandboxState
 ```
 
+## BrowserAgent Upgrades
+- **LLM-guided element ranking:** ranks similar interactive elements before click/input.
+- **Visited page memory:** tracks visited page hashes and failed actions to avoid loops.
+- **Form flow chaining:** follows multi-stage forms across redirects and submit steps.
+- **Persistent state:** saved under `memory/browser_agent_state/` per run/session.
+
 ## Core Runtime Flow
 ```mermaid
 sequenceDiagram
   participant User
   participant Main
   participant Loop as AgentLoop
+  participant BA as BrowserAgent
+  participant BM as BrowserMemory
   participant Perc as Perception
   participant Dec as Decision
   participant Exec as Executor
@@ -97,6 +113,11 @@ sequenceDiagram
   Loop->>Dec: build_decision_input + run()
   Dec-->>Loop: plan_graph + code_variants
   Loop->>Exec: execute_step_with_mode
+  Exec->>BA: run(instruction)
+  BA->>BM: load_state(session_id or run_id)
+  BA->>MCP: get_interactive_elements / call tool
+  MCP-->>BA: result
+  BA->>BM: save_state(updated_memory)
   Exec->>MCP: function_wrapper(tool)
   MCP->>Tool: call tool
   Tool-->>MCP: result
@@ -122,6 +143,9 @@ flowchart TD
   DInput --> Decision
   Decision --> Plan[plan_graph + code_variants]
   Plan --> Execute[execute_step_with_mode]
+  Execute --> BA[BrowserAgent]
+  BA --> BM[BrowserMemoryStore]
+  BM --> BA
   Execute --> Results[step result + globals update]
   Results --> PInput2[build_perception_input(step_result)]
   PInput2 --> Perception

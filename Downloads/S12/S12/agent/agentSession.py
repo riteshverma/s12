@@ -85,6 +85,7 @@ class BrowserSnapshot:
     success: bool
     final_message: str
     error: Optional[str]
+    memory_state: Optional[dict] = None
     timestamp: str = current_utc_ts()
     return_to: str = ""
 

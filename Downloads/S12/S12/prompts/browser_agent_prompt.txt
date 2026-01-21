@@ -18,11 +18,12 @@ If the task is finished, set "done": true and provide a short final_message.
 {
   "instruction": "...",
   "step_index": 1,
-  "max_steps": 12,
+  "max_steps": 25,
   "last_action": { "tool_name": "...", "arguments": { ... } } | null,
   "last_result": "...",
   "browser_state": "...",
-  "recent_steps": [ ... ]
+  "recent_steps": [ ... ],
+  "browser_memory": { ... }
 }
 ```
 
@@ -37,6 +38,10 @@ If the task is finished, set "done": true and provide a short final_message.
   "action": {
     "tool_name": "open_tab",
     "arguments": { "url": "https://example.com" }
+  },
+  "rank_candidates": {
+    "query": "best match for pricing button",
+    "categories": ["buttons", "nav", "forms"]
   },
   "final_message": ""
 }
@@ -55,5 +60,8 @@ If the task is finished, set "done": true and provide a short final_message.
 * If needed, call `get_interactive_elements` or `get_session_snapshot` to refresh IDs.
 * Prefer `open_tab` for a new site, `go_to_url` for same tab.
 * Use `wait` after navigation or form submissions.
+* If multiple similar elements exist, set `rank_candidates` with a short natural query.
+* Use `browser_memory` to avoid repeating failed steps or cycling pages.
+* Continue multi-stage forms using `browser_memory.form_flow` across redirects.
 
 ---

@@ -27,7 +27,11 @@ class AgentLoop:
         self.perception = Perception(perception_prompt)
         self.decision = Decision(decision_prompt, multi_mcp)
         self.summarizer = Summarizer(summarizer_prompt)
-        self.browser_agent = BrowserAgent("prompts/browser_agent_prompt.txt", multi_mcp)
+        self.browser_agent = BrowserAgent(
+            "prompts/browser_agent_prompt.txt",
+            multi_mcp,
+            max_steps=25
+        )
         self.multi_mcp = multi_mcp
         self.strategy = strategy
         self.status: str = "in_progress"
