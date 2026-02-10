@@ -28,10 +28,7 @@ async def get_comprehensive_page_markdown(browser_session) -> str:
         # Restore original viewport
         browser_session.browser_profile.viewport_expansion = original_viewport
     
-    # Get accessibility tree for content structure
-    ax_tree = await page.accessibility.snapshot(interesting_only=True)
-    
-    # Get enhanced DOM data for better matching
+    # Get enhanced DOM data first (used for fallback if accessibility is missing)
     dom_data = await page.evaluate("""
         () => {
             const result = {
@@ -84,9 +81,35 @@ async def get_comprehensive_page_markdown(browser_session) -> str:
         }
     """)
     
+    # Get accessibility tree for content structure (fallback if Page has no .accessibility e.g. Patchright)
+    try:
+        ax_tree = await page.accessibility.snapshot(interesting_only=True)
+    except (AttributeError, TypeError, Exception):
+        ax_tree = None
+    if not ax_tree:
+        ax_tree = _build_ax_tree_from_dom(dom_data)
+    
     # Convert to comprehensive markdown
     markdown = create_comprehensive_markdown(ax_tree, interactive_elements, dom_data)
     return markdown
+
+def _build_ax_tree_from_dom(dom_data: Dict) -> Dict[str, Any]:
+    """Build a minimal accessibility-like tree from DOM data when page.accessibility is unavailable (e.g. Patchright)."""
+    children = []
+    for h in dom_data.get("headings", []):
+        text = (h.get("text") or "").strip()
+        if text:
+            children.append({"role": "heading", "name": text, "value": "", "children": []})
+    for link in dom_data.get("links", []):
+        text = (link.get("text") or "").strip()
+        if text:
+            children.append({"role": "link", "name": text, "value": "", "children": []})
+    for elem in dom_data.get("text_elements", []):
+        text = (elem.get("text") or "").strip()
+        if text:
+            children.append({"role": "text", "name": text, "value": "", "children": []})
+    return {"role": "RootWebArea", "name": "", "value": "", "children": children}
+
 
 def extract_interactive_elements_with_ids(structured_result) -> Dict[str, List]:
     """Extract interactive elements with IDs from structured output"""

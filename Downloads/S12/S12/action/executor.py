@@ -106,6 +106,27 @@ def fix_unbalanced_single_quotes(code: str) -> str:
     return "\n".join(fixed_lines)
 
 
+def _normalize_globals_value(value):
+    """Ensure values in globals_schema are safe for .get('nav', []) and iteration.
+    Planner code often expects step results to be dicts with 'nav'/'forms'/'buttons' lists;
+    when a step stored a string (e.g. search summary), normalize to a dict so no AttributeError."""
+    if value is None:
+        return value
+    if isinstance(value, dict):
+        return value
+    if isinstance(value, str):
+        try:
+            parsed = json.loads(value)
+            if isinstance(parsed, dict):
+                return parsed
+        except (json.JSONDecodeError, TypeError):
+            pass
+        return {"nav": [], "forms": [], "buttons": [], "raw": value}
+    if isinstance(value, list):
+        return value
+    return value
+
+
 def build_safe_globals(mcp_funcs: dict, multi_mcp=None, session_id: str = None) -> dict:
     safe_globals = {
         "__builtins__": {
@@ -128,9 +149,12 @@ def build_safe_globals(mcp_funcs: dict, multi_mcp=None, session_id: str = None) 
             return await asyncio.gather(*coros)
         safe_globals["parallel"] = parallel
 
-    # Allow both direct access (`urls`) and schema-style (`globals_schema.get("urls", "")`)
+    skip = {"__builtins__", "final_answer", "parallel"}
+    # Normalize so string step results don't break code that does .get("nav", []) and iterates
     safe_globals["globals_schema"] = {
-        k: v for k, v in safe_globals.items() if k not in {"__builtins__", "final_answer", "parallel"}
+        k: _normalize_globals_value(v)
+        for k, v in safe_globals.items()
+        if k not in skip
     }
 
     return safe_globals

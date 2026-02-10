@@ -27,10 +27,7 @@ async def get_enhanced_page_json(browser_session) -> Dict[str, Any]:
         # Restore original viewport
         browser_session.browser_profile.viewport_expansion = original_viewport
     
-    # Get accessibility tree for content structure
-    ax_tree = await page.accessibility.snapshot(interesting_only=True)
-    
-    # Get DOM positioning data for accurate merging
+    # Get DOM positioning data first (used for fallback if accessibility is missing)
     dom_data = await page.evaluate("""
         () => {
             const result = {
@@ -77,9 +74,35 @@ async def get_enhanced_page_json(browser_session) -> Dict[str, Any]:
         }
     """)
     
+    # Get accessibility tree for content structure (fallback if Page has no .accessibility e.g. Patchright)
+    try:
+        ax_tree = await page.accessibility.snapshot(interesting_only=True)
+    except (AttributeError, TypeError, Exception):
+        ax_tree = None
+    if not ax_tree:
+        ax_tree = _build_ax_tree_from_dom_elements(dom_data)
+    
     # Create comprehensive JSON in reading order
     enhanced_json = create_enhanced_json_structure(ax_tree, interactive_elements, dom_data)
     return enhanced_json
+
+def _build_ax_tree_from_dom_elements(dom_data: Dict) -> Dict[str, Any]:
+    """Build a minimal accessibility-like tree from DOM elements when page.accessibility is unavailable (e.g. Patchright)."""
+    tag_to_role = {
+        "h1": "heading", "h2": "heading", "h3": "heading", "h4": "heading", "h5": "heading", "h6": "heading",
+        "a": "link", "button": "button", "input": "textbox", "select": "combobox", "textarea": "textbox",
+        "label": "text", "p": "paragraph", "div": "text", "span": "text",
+    }
+    children = []
+    for elem in dom_data.get("elements", []):
+        tag = (elem.get("tag") or "div").lower()
+        text = (elem.get("text") or "").strip()
+        if not text and tag not in ("input", "button"):
+            continue
+        role = tag_to_role.get(tag, "text")
+        children.append({"role": role, "name": text, "value": elem.get("placeholder", ""), "children": []})
+    return {"role": "RootWebArea", "name": "", "value": "", "children": children}
+
 
 def extract_all_interactive_elements(structured_result, state) -> Dict[int, Dict]:
     """Extract ALL interactive elements with IDs, positions, and metadata"""

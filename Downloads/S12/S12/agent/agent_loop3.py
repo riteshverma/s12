@@ -47,6 +47,26 @@ class AgentLoop:
             return True
         return "form" in q and ("submit" in q or "fill" in q)
 
+    def _is_live_data_query(self, query: str) -> bool:
+        """Queries that ask for current/live data and should be retried even if memory says a past attempt failed."""
+        if not query:
+            return False
+        q = query.lower()
+        live_markers = ("stock price", "share price", "latest", "current price", "live ", "today's", "current ")
+        return any(m in q for m in live_markers)
+
+    def _memory_suggests_only_failure(self, memory: list) -> bool:
+        """True if memory excerpts look like past failures only (no successful result)."""
+        if not memory:
+            return False
+        failure_words = ("unable", "failed", "error", "could not", "did not retrieve", "encountered an error")
+        for entry in memory:
+            summary = (entry.get("summary_output") or entry.get("summary") or "").lower()
+            if summary and any(w in summary for w in failure_words):
+                continue
+            return False
+        return True
+
     async def run(self, query: str):
         self._initialize_session(query)
         await self._run_initial_perception()
@@ -95,6 +115,22 @@ class AgentLoop:
                     "Open the form URL and submit it with the provided details. "
                     "Confirm submission by finding the success message or resulting URL."
                 ),
+            }
+        # Retry live-data queries (e.g. stock price) instead of summarizing when memory only shows past failures
+        if (
+            self.p_out.get("route") == Route.SUMMARIZE
+            and self._is_live_data_query(self.query)
+            and self._memory_suggests_only_failure(self.memory)
+        ):
+            self.p_out = {
+                **self.p_out,
+                "route": Route.DECISION,
+                "original_goal_achieved": False,
+                "local_goal_achieved": False,
+                "reasoning": "User is asking for current/live data; retry in this session despite past failure in memory.",
+                "solution_summary": "Not ready yet; will attempt to fetch in this session.",
+                "instruction_to_summarize": "Not applicable",
+                "instruction_to_browser": "Not applicable",
             }
 
         self.ctx.add_step(step_id=StepType.ROOT, description="initial query", step_type=StepType.ROOT)
