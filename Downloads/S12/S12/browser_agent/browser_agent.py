@@ -1,6 +1,6 @@
+import asyncio
 import json
 import sys
-import time
 import uuid
 from dataclasses import dataclass
 from datetime import datetime
@@ -16,7 +16,7 @@ from google.genai.errors import ServerError
 from agent.agentSession import AgentSession, BrowserSnapshot
 from agent.model_manager import ModelManager
 from memory.browser_agent_memory import BrowserAgentMemoryStore, BrowserAgentMemoryState
-from utils.json_parser import parse_llm_json
+from utils.json_parser import JsonParsingError, parse_llm_json
 from utils.utils import log_error, log_step
 
 
@@ -39,6 +39,8 @@ class BrowserActionStep:
 
 
 class BrowserAgent:
+    NAVIGATION_TOOLS = {"open_tab", "go_to_url", "switch_tab", "close_tab", "go_back"}
+
     def __init__(
         self,
         browser_prompt_path: str,
@@ -89,12 +91,28 @@ class BrowserAgent:
                 )
 
                 log_step(f"[BROWSER AGENT] Step {step_idx}", symbol="🌐")
-                time.sleep(1)
+                await asyncio.sleep(1)
                 response = await self.model.generate_text(prompt=prompt)
-                decision = parse_llm_json(
-                    response,
-                    required_keys=["done", "success", "action", "final_message"]
-                )
+                required_keys = ["done", "success", "action", "final_message"]
+                try:
+                    decision = parse_llm_json(
+                        response,
+                        required_keys=required_keys
+                    )
+                except JsonParsingError as exc:
+                    log_error("⚠️ BrowserAgent received invalid JSON. Attempting repair.")
+                    decision = await self._repair_llm_json(response, required_keys=required_keys)
+                    if not decision:
+                        return self._finalize(
+                            run_id,
+                            instruction,
+                            steps,
+                            success=False,
+                            final_message="BrowserAgent failed: model output was invalid JSON.",
+                            session=session,
+                            error=str(exc),
+                            memory_state=memory_state
+                        )
 
                 if decision.get("done"):
                     return self._finalize(
@@ -147,15 +165,12 @@ class BrowserAgent:
                     result_text,
                     step_idx
                 )
-                if tool_name in {"open_tab", "go_to_url"}:
-                    memory_state.record_page(browser_state, url=arguments.get("url"))
-                    memory_state.record_tab_event(
-                        {"tool_name": tool_name, "url": arguments.get("url"), "step_index": step_idx}
-                    )
-                if tool_name in {"switch_tab", "close_tab"}:
-                    memory_state.record_tab_event(
-                        {"tool_name": tool_name, "tab_id": arguments.get("tab_id"), "step_index": step_idx}
-                    )
+                await self._refresh_navigation_state(
+                    tool_name=tool_name,
+                    arguments=arguments,
+                    step_idx=step_idx,
+                    memory_state=memory_state
+                )
                 self.memory_store.save_state(memory_key, memory_state)
                 steps.append(
                     BrowserActionStep(
@@ -281,6 +296,45 @@ class BrowserAgent:
             return "\n".join(texts)
 
         return str(result)
+
+    async def _repair_llm_json(self, response: str, required_keys: list[str]) -> Optional[dict]:
+        repair_prompt = (
+            "Your previous response was invalid JSON. Return ONLY valid JSON with keys: "
+            f"{', '.join(required_keys)}.\n"
+            "Do not include markdown or extra text.\n\n"
+            f"Invalid response:\n{response}"
+        )
+        try:
+            repaired = await self.model.generate_text(prompt=repair_prompt)
+            return parse_llm_json(repaired, required_keys=required_keys)
+        except Exception as exc:
+            log_error("🛑 Failed to repair invalid JSON response.", exc)
+            return None
+
+    async def _refresh_navigation_state(
+        self,
+        tool_name: str,
+        arguments: dict,
+        step_idx: int,
+        memory_state: BrowserAgentMemoryState
+    ) -> None:
+        if tool_name not in self.NAVIGATION_TOOLS:
+            return
+
+        browser_state = await self._get_browser_state()
+        if not self._looks_like_tool_error(browser_state):
+            page_hash = memory_state.record_page(browser_state, url=arguments.get("url"))
+            memory_state.record_redirect_if_needed(page_hash)
+
+        tab_id = arguments.get("tab_id") or arguments.get("page_id")
+        if tool_name in {"open_tab", "go_to_url"}:
+            memory_state.record_tab_event(
+                {"tool_name": tool_name, "url": arguments.get("url"), "step_index": step_idx}
+            )
+        elif tool_name in {"switch_tab", "close_tab"}:
+            memory_state.record_tab_event(
+                {"tool_name": tool_name, "tab_id": tab_id, "step_index": step_idx}
+            )
 
     def _build_prompt(
         self,
